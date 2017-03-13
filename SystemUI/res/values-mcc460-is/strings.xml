@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_security_wapi_psk">WLAN PSK</string>
+    <string name="wifi_disabled_wifi_failure">WLAN-tengingarvilla</string>
+    <string name="connected_via_wfa">Tengt í gegnum WLAN aðstoð</string>
+    <string name="accessibility_wifi_off">Slökkt á WLAN.</string>
+    <string name="accessibility_no_wifi">WLAN aftengt.</string>
+    <string name="accessibility_wifi_one_bar">WLAN eitt strik.</string>
+    <string name="accessibility_wifi_two_bars">WLAN tvö strik.</string>
+    <string name="accessibility_wifi_three_bars">WLAN þrjú strik.</string>
+    <string name="accessibility_wifi_signal_full">WLAN-merki fullt.</string>
+    <string name="quick_settings_wifi_scanning_label">WLAN: Skannar</string>
+    <string name="quick_settings_wifi_connecting_label">WLAN: Tengist</string>
+    <string name="toast_message_not_allow_turn_on_hotspot">"Heitur reitur WLAN nets er ekki tiltækur í flugstillingu "</string>
+    <string name="status_bar_settings_wifi_button">WLAN</string>
+    <string name="accessibility_data_connection_wifi">WLAN</string>
+    <string name="accessibility_quick_settings_wifi_changed_off">Slökkt á WLAN</string>
+    <string name="accessibility_quick_settings_wifi_changed_on">Kveikt á WLAN</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">WLAN er tengt</string>
+    <string name="quick_settings_wifi_label">WLAN</string>
+    <string name="quick_settings_wifi_off_label">Slökkt á WLAN</string>
+    <string name="quick_settings_wifi_detail_empty_text">Engin WLAN net í boði</string>
+    <string name="accessibility_quick_settings_detail">Flýtistillingar, %s.</string>
+    <string name="wifi_security_short_wapi_cert">WLAN-vottorð</string>
+    <string name="wifi_security_short_wapi_psk">WLAN PSK</string>
+    <string name="wifi_security_wapi_cert">WLAN-vottorð</string>
+</resources>

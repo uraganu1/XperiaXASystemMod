@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">オーバービューに%d画面</item>
+        <item quantity="one">オーバービューに1画面</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">SIM PINコードが無効です。入力できるのはあと%d回です。この回数を超えると、お使いのSIMのロックを解除するのに、PUKコード(PINロック解除コード)を入力するか、通信事業者にお問い合わせいただく必要があります。</item>
+        <item quantity="one">SIM PINコードが無効です。入力できるのはあと%d回です。この回数を超えると、お使いのSIMのロックを解除するのに、PUKコード(PINロック解除コード)を入力するか、通信事業者にお問い合わせいただく必要があります。</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">SIMが無効になりました。続行するにはPUKコードを入力してください。入力できるのはあと%d回です。この回数を超えると、SIMは完全に使用できなくなります。詳細情報は通信事業者にお問い合わせください。</item>
+        <item quantity="one">SIMが無効になりました。続行するにはPUKコードを入力してください。入力できるのはあと%d回です。この回数を超えると、SIMは完全に使用できなくなります。詳細情報は通信事業者にお問い合わせください。</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">機器は%d時間ロック解除されていません。パターンを確認してください。</item>
+        <item quantity="one">機器は%d時間ロック解除されていません。パターンを確認してください。</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">機器は%d時間ロック解除されていません。PINを確認してください。</item>
+        <item quantity="one">機器は%d時間ロック解除されていません。PINを確認してください。</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">機器は%d時間ロック解除されていません。パスワードを確認してください。</item>
+        <item quantity="one">機器は%d時間ロック解除されていません。パスワードを確認してください。</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">SIM PINを入力してください。入力できるのはあと%d回です。</item>
+        <item quantity="one">SIM PINを入力してください。入力できるのはあと%d回です。この回数を超えると、お使いの機器をロック解除するのに通信事業者にお問い合わせいただく必要があります。</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">SIMが無効になりました。続行するにはPUKコードを入力してください。入力できるのはあと%d回です。この回数を超えると、SIMは完全に使用できなくなります。詳細情報は通信事業者にお問い合わせください。</item>
+        <item quantity="one">SIMが無効になりました。続行するにはPUKコードを入力してください。入力できるのはあと%d回です。この回数を超えると、SIMは完全に使用できなくなります。詳細情報は通信事業者にお問い合わせください。</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_puk_enter_puk_hint_last_attempt_failed">
+        <item quantity="other">入力したPUKコードは一致しません。8桁のPUKコードを再入力してください。入力できるのはあと%d回です。</item>
+        <item quantity="one">入力したPUKコードは一致しません。8桁のPUKコードを再入力してください。入力できるのはあと%d回です。</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_sim_pin_instructions_last_attempt_failed">
+        <item quantity="other">入力したSIM PINは一致しません。4～8桁のPINを再入力してください。入力できるのはあと%d回です。</item>
+        <item quantity="one">入力したSIM PINは一致しません。4～8桁のPINを再入力してください。入力できるのはあと%d回です。</item>
+    </plurals>
+</resources>

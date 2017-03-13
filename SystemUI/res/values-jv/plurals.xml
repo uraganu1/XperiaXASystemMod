@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">%d layar ing Ikhtisar</item>
+        <item quantity="one">1 layar ing Ikhtisar</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">Kode PIN SIM salah, kari %d upaya sadurunge sampeyan kudu nglebokake kode PUK (kode pambukak kunci PIN) utawa ngubungi operator layanan kanggo mbukak piranti.</item>
+        <item quantity="one">Kode PIN SIM salah, kari %d upaya sadurunge sampeyan kudu nglebokake kode PUK (kode pambukak kunci PIN) utawa ngubungi operator layanan kanggo mbukak piranti.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Kode PUK SIM salah, kari %d upaya sadurunge SIM dadi ora bisa dianggo salawase.</item>
+        <item quantity="one">Kode PUK SIM salah, kari %d upaya sadurunge SIM dadi ora bisa dianggo salawase.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">Piranti durung dibukak kuncine sasuwene %d jam. Konfirmasi polane.</item>
+        <item quantity="one">Piranti durung dibukak kuncine sasuwene %d jam. Konfirmasi polane.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">Piranti durung dibukak kuncine sasuwene %d jam. Konfirmasi PIN.</item>
+        <item quantity="one">Piranti durung dibukak kuncine sasuwene %d jam. Konfirmasi PIN.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">Piranti durung dibukak kuncine sasuwene %d jam. Konfirmasi sandhine.</item>
+        <item quantity="one">Piranti durung dibukak kuncine sasuwene %d jam. Konfirmasi sandhine.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">Ketik PIN SIM. sampeyan nduweni sisa %d upaya.</item>
+        <item quantity="one">Ketik PIN SIM, sampeyan nduweni sisa %d upaya sadurunge kudu ngubungi operator kanggo mbukak kunci piranti.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">SIM saiki dipateni. Ketik kode PUK kanggo nerusake. Sampeyan nduweni sisa %d upaya sadurunge SIM dadi ora bisa dienggo kanthi permanen. Hubungi operator kanggo rinciane.</item>
+        <item quantity="one">SIM saiki dipateni. Ketik kode PUK kanggo nerusake. Sampeyan nduweni sisa %d upaya sadurunge SIM dadi ora bisa dienggo kanthi permanen. Hubungi operator kanggo rinciane.</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_puk_enter_puk_hint_last_attempt_failed">
+        <item quantity="other">Ngapunten, kode PUK sing dilebokake ora cocok. Mangga lebokake maneh kode PUK sing cacahe 8 digit. Sampeyan isih isa nyoba %d upaya.</item>
+        <item quantity="one">Ngapunten, kode PUK sing dilebokake ora cocok. Mangga lebokake maneh kode PUK sing cacahe 8 digit. Sampeyan isih isa nyoba %d upaya.</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_sim_pin_instructions_last_attempt_failed">
+        <item quantity="other">Ngapunten, PIN SIM sing dilebokake ora cocok. Mangga lebokake maneh PIN sing cacahe 4-8 digit. Sampeyan isih isa nyoba %d upaya.</item>
+        <item quantity="one">Ngapunten, PIN SIM sing dilebokake ora cocok. Mangga lebokake maneh PIN sing cacahe 4-8 digit. Sampeyan isih isa nyoba %d upaya.</item>
+    </plurals>
+</resources>

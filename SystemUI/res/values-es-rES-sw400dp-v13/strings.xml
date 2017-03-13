@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_settings_mobile_data">Tráfico de datos móviles</string>
+    <string name="status_bar_settings_settings">Acceso directo a Ajustes</string>
+    <string name="status_bar_settings_mirroring">Duplicación de pantalla</string>
+    <string name="status_bar_settings_wifi_hotspot">Área de conexión Wi-Fi</string>
+</resources>

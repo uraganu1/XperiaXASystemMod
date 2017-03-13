@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_disabled_wifi_failure">WLAN कनेक्शन अयशस्वी</string>
+    <string name="connected_via_wfa">WLAN सहाय्यक द्वारे कनेक्ट केले</string>
+    <string name="status_bar_settings_wifi_button">वाय-फाय</string>
+    <string name="accessibility_data_connection_wifi">वाय-फाय</string>
+    <string name="accessibility_quick_settings_wifi_changed_off">WLAN बंद झाले.</string>
+    <string name="accessibility_quick_settings_wifi_changed_on">WLAN चालू झाले.</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">वाय-फाय कनेक्ट केले</string>
+    <string name="quick_settings_wifi_label">वाय-फाय</string>
+    <string name="quick_settings_wifi_off_label">वाय-फाय बंद</string>
+    <string name="quick_settings_wifi_detail_empty_text">WLAN नेटवर्क उपलब्‍ध नाहीत</string>
+    <string name="accessibility_quick_settings_detail">द्रुत सेटिंग्ज, %s.</string>
+</resources>

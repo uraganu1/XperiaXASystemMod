@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">"%d écrans dans la vue d'ensemble"</item>
+        <item quantity="one">"1 écran dans la vue d'ensemble"</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">Code PIN de la carte SIM incorrect. Il vous reste %d tentatives. Après cela, vous devrez saisir votre clé PUK (code de déverrouillage du code PIN) ou contacter votre opérateur pour déverrouiller votre appareil.</item>
+        <item quantity="one">Code PIN de la carte SIM incorrect. Il vous reste %d tentative. Après cela, vous devrez saisir votre clé PUK (code de déverrouillage du code PIN) ou contacter votre opérateur pour déverrouiller votre appareil.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Clé PUK de la carte SIM incorrecte. Il vous reste %d tentatives avant que votre carte SIM ne devienne définitivement inutilisable.</item>
+        <item quantity="one">Clé PUK de la carte SIM incorrecte. Il vous reste %d tentative avant que votre carte SIM ne devienne définitivement inutilisable.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">"L'appareil n'a pas été déverrouillé depuis %d heures. Confirmez le motif."</item>
+        <item quantity="one">"L'appareil n'a pas été déverrouillé depuis %d heure. Confirmez le motif."</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">"L'appareil n'a pas été déverrouillé depuis %d heures. Confirmez le code d'accès."</item>
+        <item quantity="one">"L'appareil n'a pas été déverrouillé depuis %d heure. Confirmez le code d'accès."</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">"L'appareil n'a pas été déverrouillé depuis %d heures. Confirmez le mot de passe."</item>
+        <item quantity="one">"L'appareil n'a pas été déverrouillé depuis %d heure. Confirmez le mot de passe."</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">Saisissez le code PIN de la carte SIM ; il vous reste %d tentatives.</item>
+        <item quantity="one">Saisissez le code PIN de la carte SIM ; il vous reste %d tentative. Vous devrez ensuite contacter votre opérateur pour déverrouiller votre appareil.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">La carte SIM est à présent désactivée. Entrez le code PUK pour pouvoir continuer. Il vous reste %d tentatives avant que la carte SIM ne devienne totalement inutilisable. Contactez votre opérateur pour en savoir plus.</item>
+        <item quantity="one">La carte SIM est à présent désactivée. Entrez le code PUK pour pouvoir continuer. Il vous reste %d tentative avant que la carte SIM ne devienne totalement inutilisable. Contactez votre opérateur pour en savoir plus.</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_puk_enter_puk_hint_last_attempt_failed">
+        <item quantity="other">Désolé, le code saisi ne correspond pas au code PUK. Saisissez à nouveau les 8 chiffres du code PUK. Il vous reste %d tentatives.</item>
+        <item quantity="one">Désolé, le code saisi ne correspond pas au code PUK. Saisissez à nouveau les 8 chiffres du code PUK. Il vous reste %d tentative.</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_sim_pin_instructions_last_attempt_failed">
+        <item quantity="other">Désolé, le code saisi ne correspond pas au code PIN de la carte SIM. Saisissez à nouveau les 4 à 8 chiffres du code PIN. Il vous reste %d tentatives.</item>
+        <item quantity="one">Désolé, le code saisi ne correspond pas au code PIN de la carte SIM. Saisissez à nouveau les 4 à 8 chiffres du code PIN. Il vous reste %d tentative.</item>
+    </plurals>
+</resources>

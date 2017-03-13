@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_disabled_wifi_failure">WLAN ಸಂಪರ್ಕ ವಿಫಲತೆ</string>
+    <string name="connected_via_wfa">WLAN ಸಹಾಯಕದ ಮೂಲಕ ಸಂಪರ್ಕಿತಗೊಳಿಸಲಾಗಿದೆ</string>
+    <string name="status_bar_settings_wifi_button">WLAN</string>
+    <string name="accessibility_data_connection_wifi">WLAN</string>
+    <string name="accessibility_quick_settings_wifi_changed_off">ವೈಫೈ ಆಫ್ ಮಾಡಲಾಗಿದೆ.</string>
+    <string name="accessibility_quick_settings_wifi_changed_on">ವೈಫೈ ಆನ್ ಮಾಡಲಾಗಿದೆ.</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">WLAN ಸಂಪರ್ಕಗೊಂಡಿದೆ</string>
+    <string name="quick_settings_wifi_label">WLAN</string>
+    <string name="quick_settings_wifi_off_label">WLAN ಆಫ್</string>
+    <string name="quick_settings_wifi_detail_empty_text">ಯಾವುದೇ ವೈ-ಫೈ ನೆಟ್‌ವರ್ಕ್‌ಗಳು ಲಭ್ಯವಿಲ್ಲ</string>
+    <string name="accessibility_quick_settings_detail">ತ್ವರಿತ ಸೆಟ್ಟಿಂಗ್‍ಗಳು, %s.</string>
+</resources>

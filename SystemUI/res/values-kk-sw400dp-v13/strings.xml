@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_settings_autorotate">Автоматты айналдыру экраны</string>
+    <string name="status_bar_settings_autosync">Деректерді автосинхрондау</string>
+    <string name="status_bar_settings_mobile_data">Мобильді деректер трафигі</string>
+    <string name="status_bar_settings_settings">Параметрлерге төте жол</string>
+    <string name="status_bar_settings_mirroring">Экран көшірмесін көрсету</string>
+</resources>

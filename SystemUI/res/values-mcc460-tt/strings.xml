@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_security_wapi_psk">WLAN PSK</string>
+    <string name="wifi_disabled_wifi_failure">WLAN челтәренә тоташу хатасы</string>
+    <string name="connected_via_wfa">WLAN ярдәмчесе аша тоташкан</string>
+    <string name="accessibility_wifi_off">WLAN сүндерелгән.</string>
+    <string name="accessibility_no_wifi">WLAN тоташуы өзелгән.</string>
+    <string name="accessibility_wifi_one_bar">WLAN антеннасында бер сызык.</string>
+    <string name="accessibility_wifi_two_bars">WLAN антеннасында ике сызык.</string>
+    <string name="accessibility_wifi_three_bars">WLAN антеннасында өч сызык.</string>
+    <string name="accessibility_wifi_signal_full">WLAN сигналы тулы.</string>
+    <string name="quick_settings_wifi_scanning_label">WLAN: Эзләү</string>
+    <string name="quick_settings_wifi_connecting_label">WLAN: Тоташу</string>
+    <string name="toast_message_not_allow_turn_on_hotspot">WLAN hotspot самолет режимында мөмкин түгел</string>
+    <string name="status_bar_settings_wifi_button">WLAN</string>
+    <string name="accessibility_data_connection_wifi">WLAN</string>
+    <string name="accessibility_quick_settings_wifi_changed_off">WLAN сүнгән</string>
+    <string name="accessibility_quick_settings_wifi_changed_on">WLAN кабызылган</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">WLAN тоташылган</string>
+    <string name="quick_settings_wifi_label">WLAN</string>
+    <string name="quick_settings_wifi_off_label">WLAN сүндерелгән</string>
+    <string name="quick_settings_wifi_detail_empty_text">WLAN челтәрләре юк</string>
+    <string name="accessibility_quick_settings_detail">Тиз көйләүләр, %s.</string>
+    <string name="wifi_security_short_wapi_cert">WLAN СЕРТИФИКАТЫ</string>
+    <string name="wifi_security_short_wapi_psk">WLAN PSK</string>
+    <string name="wifi_security_wapi_cert">WLAN СЕРТИФИКАТЫ</string>
+</resources>

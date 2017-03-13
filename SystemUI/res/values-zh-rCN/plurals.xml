@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">%d个概述中的屏幕</item>
+        <item quantity="one">1个概述中的屏幕</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">SIM卡PIN码不正确，您还有%d次尝试机会。如果仍然失败，则必须输入PUK（PIN解锁码)或与您的服务提供商联系以解锁您的设备。</item>
+        <item quantity="one">SIM卡PIN码不正确，您还有%d次尝试机会。如果仍然失败，则必须输入PUK（PIN解锁码)或与您的服务提供商联系以解锁您的设备。</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">SIM卡PUK码不正确，您还有%d次尝试机会。如果仍然失败，SIM卡将永远无法使用。</item>
+        <item quantity="one">SIM卡PUK 码不正确，您还有%d次尝试机会。如果仍然失败，SIM卡将永远无法使用。</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">设备已%d小时未解锁。请确认解锁图案。</item>
+        <item quantity="one">设备已%d小时未解锁。请确认解锁图案。</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">设备已%d小时未解锁。请确认PIN。</item>
+        <item quantity="one">设备已%d小时未解锁。请确认PIN。</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">设备已%d小时未解锁。请确认密码。</item>
+        <item quantity="one">设备已%d小时未解锁。请确认密码。</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">请输入SIM卡PIN码，您还有%d次尝试机会。</item>
+        <item quantity="one">请输入SIM卡PIN码，您还有%d次尝试机会。如果仍然失败，则必须与您的运营商联系以解锁您的设备。</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">SIM卡现已禁用。请输入PUK码继续。您还有%d次尝试机会。如果仍然失败，SIM将永久无法使用。请联系运营商了解详细信息。</item>
+        <item quantity="one">SIM卡现已禁用。请输入PUK码继续。您还有%d次尝试机会。如果仍然失败，SIM将永久无法使用。请联系运营商了解详细信息。</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_puk_enter_puk_hint_last_attempt_failed">
+        <item quantity="other">抱歉，您的输入与PUK码不匹配。请重新输入您的8位PUK码。您还有%d次输入机会。</item>
+        <item quantity="one">抱歉，您的输入与PUK码不匹配。请重新输入您的8位PUK码。您还有%d次输入机会。</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_sim_pin_instructions_last_attempt_failed">
+        <item quantity="other">抱歉，您的输入与SIM卡PIN码不匹配。请重新输入您的4至8位PIN码。您还有%d次输入机会。</item>
+        <item quantity="one">抱歉，您的输入与SIM卡PIN码不匹配。请重新输入您的4至8位PIN码。您还有%d次输入机会。</item>
+    </plurals>
+</resources>

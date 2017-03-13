@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">%d skærmbilleder i Oversigt</item>
+        <item quantity="one">Ét skærmbillede i Oversigt</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">Forkert PIN-kode til SIM-kort. Du har %d forsøg tilbage, før du skal angive din PUK-kode (kode til oplåsning af PIN-kode) eller kontakte din tjenesteudbyder for at få enheden låst op.</item>
+        <item quantity="one">Forkert PIN-kode til SIM-kort. Du har %d forsøg tilbage, før du skal angive din PUK-kode (kode til oplåsning af PIN-kode) eller kontakte din tjenesteudbyder for at få enheden låst op.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Forkert PUK-kode til SIM-kort. Du har %d forsøg tilbage, før dit SIM-kort bliver permanent ubrugeligt.</item>
+        <item quantity="one">Forkert PUK-kode til SIM-kort. Du har %d forsøg tilbage, før SIM-kortet bliver permanent ubrugeligt.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">Enheden blev sidst låst op for %d timer siden. Bekræft mønsteret.</item>
+        <item quantity="one">Enheden blev sidst låst op for %d timer siden. Bekræft mønsteret.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">Enheden blev sidst låst op for %d timer siden. Bekræft pinkoden.</item>
+        <item quantity="one">Enheden blev sidst låst op for %d timer siden. Bekræft pinkoden.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">Enheden blev sidst låst op for %d timer siden. Bekræft adgangskoden.</item>
+        <item quantity="one">Enheden blev sidst låst op for %d timer siden. Bekræft adgangskoden.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">Angiv pinkoden til dit SIM-kort. Du har %d forsøg tilbage.</item>
+        <item quantity="one">Angiv pinkoden til dit SIM-kort. Du har %d forsøg tilbage, før du skal kontakte din udbyder for at få din enhed låst op.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">SIM-kortet er nu deaktiveret. Angiv PUK-koden for at fortsætte. Du har %d forsøg tilbage, før SIM-kortet bliver permanent ubrugeligt. Kontakt din udbyder for at få oplysninger.</item>
+        <item quantity="one">SIM-kortet er nu deaktiveret. Angiv PUK-koden for at fortsætte. Du har %d forsøg tilbage, før SIM-kortet bliver permanent ubrugeligt. Kontakt din udbyder for at få oplysninger.</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_puk_enter_puk_hint_last_attempt_failed">
+        <item quantity="other">Beklager, men din indtastning stemmer ikke overens med PUK-koden. Angiv din 8-cifrede PUK-kode igen. Du har %d forsøg tilbage.</item>
+        <item quantity="one">Beklager, men din indtastning stemmer ikke overens med PUK-koden. Angiv din 8-cifrede PUK-kode igen. Du har %d forsøg tilbage.</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_sim_pin_instructions_last_attempt_failed">
+        <item quantity="other">Beklager, men din indtastning stemmer ikke overens med pinkoden til SIM-kortet. Angiv din pinkode på 4-8 cifre igen. Du har %d forsøg tilbage.</item>
+        <item quantity="one">Beklager, men din indtastning stemmer ikke overens med pinkoden til SIM-kortet. Angiv din pinkode på 4-8 cifre igen. Du har %d forsøg tilbage.</item>
+    </plurals>
+</resources>

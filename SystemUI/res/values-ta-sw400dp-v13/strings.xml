@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_settings_autorotate">திரையை தானாக சுழற்று</string>
+    <string name="status_bar_settings_autosync">தானியங்கு ஒத்திசைவு தரவு</string>
+    <string name="status_bar_settings_mobile_data">மொபைல் தரவு ட்ராஃபிக்</string>
+    <string name="status_bar_settings_settings">அமைப்புகளுக்கு சுருக்குவழி</string>
+    <string name="status_bar_settings_airplanemode">விமானப் பயன்முறை</string>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_security_wapi_psk">WLAN PSK</string>
+    <string name="wifi_disabled_wifi_failure">WLAN 连接失败</string>
+    <string name="connected_via_wfa">已连接（通过 WLAN 助手）</string>
+    <string name="accessibility_wifi_off">WLAN关闭。</string>
+    <string name="accessibility_no_wifi">WLAN断开连接。</string>
+    <string name="accessibility_wifi_one_bar">WLAN信号一格。</string>
+    <string name="accessibility_wifi_two_bars">WLAN信号两格。</string>
+    <string name="accessibility_wifi_three_bars">WLAN信号三格。</string>
+    <string name="accessibility_wifi_signal_full">WLAN信号满格。</string>
+    <string name="quick_settings_wifi_scanning_label">WLAN：正在扫描</string>
+    <string name="quick_settings_wifi_connecting_label">WLAN：正在连接</string>
+    <string name="toast_message_not_allow_turn_on_hotspot">移动热点在飞行模式下不可用</string>
+    <string name="status_bar_settings_wifi_button">WLAN</string>
+    <string name="accessibility_data_connection_wifi">WLAN</string>
+    <string name="accessibility_quick_settings_wifi_changed_off">WLAN网络关闭</string>
+    <string name="accessibility_quick_settings_wifi_changed_on">WLAN网络开启</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">WLAN已连接</string>
+    <string name="quick_settings_wifi_label">WLAN</string>
+    <string name="quick_settings_wifi_off_label">WLAN已关闭</string>
+    <string name="quick_settings_wifi_detail_empty_text">没有可用的WLAN网络</string>
+    <string name="accessibility_quick_settings_detail">快速设置，%s。</string>
+    <string name="wifi_security_short_wapi_cert">WLAN CERT</string>
+    <string name="wifi_security_short_wapi_psk">WLAN PSK</string>
+    <string name="wifi_security_wapi_cert">WLAN CERT</string>
+</resources>

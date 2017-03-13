@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">%d (na) screen sa Pangkalahatang-ideya</item>
+        <item quantity="one">1 screen sa Pangkalahatang-ideya</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">Maling PIN code ng SIM, mayroon kang %d (na) natitirang pagsubok bago mo kailanganing ipasok ang iyong PUK code (code ng pag-unlock sa PIN) o makipag-ugnayan sa iyong service provider upang i-unlock ang iyong device.</item>
+        <item quantity="one">Maling PIN code ng SIM, mayroon kang %d natitirang pagsubok bago mo kailanganing ipasok ang iyong PUK code (code ng pag-unlock sa PIN) o makipag-ugnayan sa iyong service provider upang i-unlock ang iyong device.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Maling PUK code ng SIM, mayroon kang %d (na) natitirang pagsubok bago maging permanenteng hindi magagamit ang SIM.</item>
+        <item quantity="one">Maling PUK code ng SIM, mayroon kang %d (na) natitirang pagsubok bago maging permanenteng hindi magagamit ang SIM.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">Hindi na-unlock ang device sa loob ng %d na oras. Kumpirmahin ang pattern.</item>
+        <item quantity="one">Hindi na-unlock ang device sa loob ng %d oras.. Kumpirmahin ang pattern.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">Hindi na-unlock ang device sa loob ng %d na oras. Kumpirmahin ang PIN.</item>
+        <item quantity="one">Hindi na-unlock ang device sa loob ng %d oras. Kumpirmahin ang PIN.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">Hindi na-unlock ang device sa loob ng %d na oras. Kumpirmahin ang password.</item>
+        <item quantity="one">Hindi na-unlock ang device sa loob ng %d oras. Kumpirmahin ang password.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">Ipasok ang PIN ng SIM, mayroon kang %d (na) natitirang pagsubok.</item>
+        <item quantity="one">Ipasok ang PIN ng SIM, mayroon kang %d (na) natitirang pagsubok bago mo kailanganing makipag-ugnayan sa iyong carrier upang i-unlock ang iyong device.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">Naka-disable na ngayon ang SIM. Ipasok ang PUK code upang magpatuloy. Mayroon kang %d (na) natitirang bagsubok bago maging permanenteng hindi na nagagamit ang SIM. Makipag-ugnayan sa carrier para sa mga detalye.</item>
+        <item quantity="one">Naka-disable na ngayon ang SIM. Ipasok ang PUK code upang magpatuloy. Mayroon kang %d natitirang bagsubok bago maging permanenteng hindi na nagagamit ang SIM. Makipag-ugnayan sa carrier para sa mga detalye.</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_puk_enter_puk_hint_last_attempt_failed">
+        <item quantity="other">Paumanhin, ang iyong entry ay hindi tumutugma sa PUK code. Pakipasok ulit ang iyong 8 digit na PUK code. May %d isa ka pang pagkakataon.</item>
+        <item quantity="one">Paumanhin, ang iyong entry ay hindi tumutugma sa PUK code. Pakipasok ulit ang iyong 8 digit na PUK code. May %d isa ka pang pagkakataon.</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_sim_pin_instructions_last_attempt_failed">
+        <item quantity="other">Paumanhin, ang iyong entry ay hindi tumutugma sa PIN ng SIM. Pakipasok ulit ang iyong 4-8 digit na PIN. May %d isa ka pang pagkakataon.</item>
+        <item quantity="one">Paumanhin, ang iyong entry ay hindi tumutugma sa PIN ng SIM. Pakipasok ulit ang iyong 4-8 digit na PIN. May %d isa ka pang pagkakataon.</item>
+    </plurals>
+</resources>

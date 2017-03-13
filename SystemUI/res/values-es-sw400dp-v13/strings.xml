@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_settings_autorotate">Pantalla de giro automático</string>
+    <string name="status_bar_settings_autosync">Sincronización automática</string>
+    <string name="status_bar_settings_mobile_data">Tráfico de datos celulares</string>
+    <string name="status_bar_settings_mirroring">Duplicación de pantalla</string>
+</resources>

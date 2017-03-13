@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_security_wapi_psk">‏WLAN PSK</string>
+    <string name="wifi_disabled_wifi_failure">‏أخفق اتصال WLAN</string>
+    <string name="connected_via_wfa">‏تم التوصيل عبر مساعد WLAN</string>
+    <string name="accessibility_wifi_off">بطاقة WLAN لا تعمل.</string>
+    <string name="accessibility_no_wifi">تم فصل WLAN.</string>
+    <string name="accessibility_wifi_one_bar">إشارة WLAN بقوة شرطة واحدة.</string>
+    <string name="accessibility_wifi_two_bars">إشارة WLAN بقوة شرطتين.</string>
+    <string name="accessibility_wifi_three_bars">إشارة WLAN بقوة ثلاث شرطات.</string>
+    <string name="accessibility_wifi_signal_full">إشارة WLAN مكتملة.</string>
+    <string name="quick_settings_wifi_scanning_label">‏WLAN: المسح</string>
+    <string name="quick_settings_wifi_connecting_label">‏WLAN: الاتصال</string>
+    <string name="toast_message_not_allow_turn_on_hotspot">نقطة اتصال بشبكة WLAN غير متوفرة في وضع الطائرة</string>
+    <string name="status_bar_settings_wifi_button">‏WLAN</string>
+    <string name="accessibility_data_connection_wifi">‏WLAN</string>
+    <string name="accessibility_quick_settings_wifi_changed_off">تم إيقاف محول WLAN</string>
+    <string name="accessibility_quick_settings_wifi_changed_on">تم تشغيل محول WLAN</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">‏WLAN متصلة</string>
+    <string name="quick_settings_wifi_label">‏WLAN</string>
+    <string name="quick_settings_wifi_off_label">إيقاف WLAN</string>
+    <string name="quick_settings_wifi_detail_empty_text">‏لا تتوفر أية شبكة WLAN</string>
+    <string name="accessibility_quick_settings_detail">الإعدادات السريعة، %s.</string>
+    <string name="wifi_security_short_wapi_cert">‏WLAN CERT</string>
+    <string name="wifi_security_short_wapi_psk">‏WLAN PSK</string>
+    <string name="wifi_security_wapi_cert">‏WLAN CERT</string>
+</resources>

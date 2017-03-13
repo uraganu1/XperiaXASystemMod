@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_settings_autorotate">Automatska rotacija ekrana</string>
+    <string name="status_bar_settings_autosync">Automatski sinhroniziranje podataka</string>
+    <string name="status_bar_settings_mobile_data">Promet mobilnih podataka</string>
+    <string name="status_bar_settings_mirroring">Prikaz ekrana na drugom uređaju</string>
+</resources>

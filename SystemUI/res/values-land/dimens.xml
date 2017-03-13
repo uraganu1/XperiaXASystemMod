@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="status_bar_recents_right_glow_margin">0.0dip</dimen>
+    <dimen name="status_bar_recents_thumbnail_left_margin">0.0dip</dimen>
+    <dimen name="status_bar_recents_text_description_padding">8.0dip</dimen>
+    <dimen name="status_bar_recents_app_label_width">156.0dip</dimen>
+    <dimen name="status_bar_recents_app_label_left_margin">12.0dip</dimen>
+    <dimen name="status_bar_recents_item_padding">2.0dip</dimen>
+    <dimen name="status_bar_recents_app_icon_left_margin">8.0dip</dimen>
+    <dimen name="status_bar_recents_app_icon_top_margin">8.0dip</dimen>
+    <item type="dimen" name="navigation_bar_size">@android:dimen/navigation_bar_width</item>
+    <item type="dimen" name="notification_panel_width">@dimen/standard_notification_panel_width</item>
+    <item type="dimen" name="recents_stack_width_padding_percentage">0.26</item>
+    <dimen name="keyguard_clock_notifications_margin_min">18.0dip</dimen>
+    <dimen name="keyguard_indication_margin_bottom">40.0dip</dimen>
+    <dimen name="close_all_button_layout_margin_end">56.0dip</dimen>
+    <dimen name="close_all_button_layout_margin_bottom">85.0dip</dimen>
+    <dimen name="somc_qs_guide_bottom_margin">64.0dip</dimen>
+    <dimen name="somc_keyguard_emergency_carrier_area_layout_bottom_margin">0.0dip</dimen>
+    <dimen name="somc_keyguard_bouncer_security_bottom_margin">4.0dip</dimen>
+    <dimen name="somc_keyguard_message_area_padding_top">0.0dip</dimen>
+    <dimen name="status_bar_recents_thumbnail_top_margin">28.0dip</dimen>
+</resources>

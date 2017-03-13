@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_settings_autorotate">Automatska rotacija zaslona</string>
+    <string name="status_bar_settings_autosync">Automatsko sinkronizirati podataka</string>
+    <string name="status_bar_settings_mobile_data">Promet mobilnih podataka</string>
+    <string name="status_bar_settings_wifi_hotspot">Pristupna točka za Wi-Fi</string>
+</resources>

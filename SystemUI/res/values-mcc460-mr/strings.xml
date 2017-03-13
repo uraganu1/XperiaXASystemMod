@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_security_wapi_psk">WLAN PSK</string>
+    <string name="wifi_disabled_wifi_failure">WLAN कनेक्शन अयशस्वी</string>
+    <string name="connected_via_wfa">WLAN सहाय्यक द्वारे कनेक्ट केले</string>
+    <string name="accessibility_wifi_off">WLAN बंद.</string>
+    <string name="accessibility_no_wifi">WLAN जोडणी रद्द केली.</string>
+    <string name="accessibility_wifi_one_bar">WLAN एक दर्शक पट्टी.</string>
+    <string name="accessibility_wifi_two_bars">WLAN दोन दर्शक पट्ट्या.</string>
+    <string name="accessibility_wifi_three_bars">WLAN तीन दर्शक पट्ट्या.</string>
+    <string name="accessibility_wifi_signal_full">WLAN संकेत पूर्णपणे मिळतो आहे.</string>
+    <string name="quick_settings_wifi_scanning_label">WLAN: स्कॅनिंग</string>
+    <string name="quick_settings_wifi_connecting_label">WLAN: जोडणी करत आहे</string>
+    <string name="toast_message_not_allow_turn_on_hotspot">WLAN hotspot एअरप्लेन मोडमध्ये उपलब्ध नाही</string>
+    <string name="status_bar_settings_wifi_button">WLAN</string>
+    <string name="accessibility_data_connection_wifi">WLAN</string>
+    <string name="accessibility_quick_settings_wifi_changed_off">WLAN बंद आहे</string>
+    <string name="accessibility_quick_settings_wifi_changed_on">WLAN चालू आहे</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">WLAN जोडले</string>
+    <string name="quick_settings_wifi_label">WLAN</string>
+    <string name="quick_settings_wifi_off_label">WLAN बंद</string>
+    <string name="quick_settings_wifi_detail_empty_text">WLAN नेटवर्क्स उपलब्ध नाहीत</string>
+    <string name="accessibility_quick_settings_detail">द्रुत सेटिंग्ज, %s.</string>
+    <string name="wifi_security_short_wapi_cert">WLAN CERT</string>
+    <string name="wifi_security_short_wapi_psk">WLAN PSK</string>
+    <string name="wifi_security_wapi_cert">WLAN CERT</string>
+</resources>

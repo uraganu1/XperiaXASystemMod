@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">%d pantallas en Descripción general</item>
+        <item quantity="one">1 pantalla en Descripción general</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">Código PIN del SIM incorrecto, tiene %d intentos restantes antes de tener que ingresar su código PUK (código de desbloqueo PIN) o tener que comunicarse con su proveedor de servicio para desbloquear el dispositivo.</item>
+        <item quantity="one">Código PIN del SIM incorrecto, tiene %d intento restante antes de tener que ingresar su código PUK (código de desbloqueo PIN) o tener que comunicarse con su proveedor de servicio para desbloquear el dispositivo.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Código PUK de la tarjeta SIM incorrecto. Quedan %d intentos para que la tarjeta SIM no se pueda utilizar de forma permanente.</item>
+        <item quantity="one">Código PUK de la tarjeta SIM incorrecto. Quedan %d intentos para que la tarjeta SIM no se pueda utilizar de forma permanente.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">Hace %d horas que no se desbloquea el dispositivo. Confirma el patrón.</item>
+        <item quantity="one">Hace %d hora que no se desbloquea el dispositivo. Confirma el patrón.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">Hace %d horas que no se desbloquea el dispositivo. Confirma el PIN.</item>
+        <item quantity="one">Hace %d hora que no se desbloquea el dispositivo. Confirma el PIN.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">Hace %d horas que no se desbloquea el dispositivo. Confirma la contraseña.</item>
+        <item quantity="one">Hace %d hora que no se desbloquea el dispositivo. Confirma la contraseña.</item>
+    </plurals>
+</resources>

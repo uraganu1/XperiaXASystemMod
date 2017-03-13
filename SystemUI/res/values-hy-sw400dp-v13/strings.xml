@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_settings_autorotate">Էկրանի ինքնապտտում</string>
+    <string name="status_bar_settings_autosync">Ինքնահամաժամացնել տվյալները</string>
+    <string name="status_bar_settings_mobile_data">Բջջային տվյալների տրաֆիկ</string>
+    <string name="status_bar_settings_settings">Կարգավորումների դյուրանցում</string>
+    <string name="status_bar_settings_mirroring">Էկրանի հայելապատճենում</string>
+    <string name="status_bar_settings_wifi_hotspot">Wi-Fi մատչելիության տարածք</string>
+</resources>

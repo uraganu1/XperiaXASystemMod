@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="kg_puk_enter_puk_hint">SIM is now disabled. Enter PUK code(PIN unlock code) code or contact your service provider for more information.</string>
+    <string name="kg_password_wrong_pin_code_pukked">Incorrect SIM PIN code. Enter PUK code(PIN unlock code) code or contact your service provider for more information.</string>
+</resources>

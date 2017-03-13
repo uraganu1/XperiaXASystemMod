@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">%d näyttöä yleiskatsauksessa</item>
+        <item quantity="one">1 näyttö yleiskatsauksessa</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">Virheellinen SIM-kortin PIN-koodi. Sinulla on %d yritystä jäljellä, ennen kuin sinun on annettava PUK-koodi (PIN-lukituksen purkukoodi) tai pyydettävä palveluntarjoajaa avaamaan laitteen lukitus.</item>
+        <item quantity="one">Virheellinen SIM-kortin PIN-koodi. Sinulla on %d yritys jäljellä, ennen kuin sinun on annettava PUK-koodi (PIN-lukituksen purkukoodi) tai pyydettävä palveluntarjoajaa avaamaan laitteen lukitus.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Virheellinen SIM-kortin PUK-koodi. Sinulla on %d yritystä jäljellä, ennen kuin SIM-kortista tulee pysyvästi käyttökelvoton.</item>
+        <item quantity="one">Virheellinen SIM-kortin PUK-koodi. Sinulla on %d yritys jäljellä, ennen kuin SIM-kortista tulee pysyvästi käyttökelvoton.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">Laitteen lukitusta ei ole avattu %d tuntiin. Vahvista kuvio.</item>
+        <item quantity="one">Laitteen lukitusta ei ole avattu %d tuntiin. Vahvista kuvio.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">Laitteen lukitusta ei ole avattu %d tuntiin. Vahvista PIN-koodi.</item>
+        <item quantity="one">Laitteen lukitusta ei ole avattu %d tuntiin. Vahvista PIN-koodi.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">Laitteen lukitusta ei ole avattu %d tuntiin. Vahvista salasana.</item>
+        <item quantity="one">Laitteen lukitusta ei ole avattu %d tuntiin. Vahvista salasana.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">Anna SIM-kortin PIN-koodi. Sinulla on %d yritystä jäljellä.</item>
+        <item quantity="one">Anna SIM-kortin PIN-koodi. Sinulla on %d yritys jäljellä, ennen kuin sinun on pyydettävä palveluntarjoajaa avaamaan laitteen lukitus.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">SIM-kortti on nyt poistettu käytöstä. Jatka antamalla PUK-koodi. Sinulla on %d yritystä jäljellä, minkä jälkeen SIM-korttia ei voi käyttää enää. Saat lisätietoja palveluntarjoajalta.</item>
+        <item quantity="one">SIM-kortti on nyt poistettu käytöstä. Jatka antamalla PUK-koodi. Sinulla on %d yritys jäljellä, minkä jälkeen SIM-korttia ei voi käyttää enää. Saat lisätietoja palveluntarjoajalta.</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_puk_enter_puk_hint_last_attempt_failed">
+        <item quantity="other">Antamasi koodi ei valitettavasti vastaa PUK-koodia. Anna 8-numeroinen PUK-koodi uudelleen. Yrityskertoja on jäljellä %d.</item>
+        <item quantity="one">Antamasi koodi ei valitettavasti vastaa PUK-koodia. Anna 8-numeroinen PUK-koodi uudelleen. Yrityskertoja on jäljellä %d.</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_sim_pin_instructions_last_attempt_failed">
+        <item quantity="other">Antamasi koodi ei valitettavasti vastaa SIM-kortin PIN-koodia. Anna 4-8-numeroinen PIN-koodi uudelleen. Yrityskertoja on jäljellä %d.</item>
+        <item quantity="one">Antamasi koodi ei valitettavasti vastaa SIM-kortin PIN-koodia. Anna 4-8-numeroinen PIN-koodi uudelleen. Yrityskertoja on jäljellä %d.</item>
+    </plurals>
+</resources>

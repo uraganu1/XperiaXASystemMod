@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">%d Bildschirme in der Übersicht</item>
+        <item quantity="one">1 Bildschirm in der Übersicht</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">Falscher PIN-Code der SIM-Karte. Sie haben noch %d Versuche, bevor Sie den PUK (Code zum Entsperren der PIN) eingeben oder sich zum Entsperren des Geräts an Ihren Dienstanbieter wenden müssen.</item>
+        <item quantity="one">Falscher PIN-Code der SIM-Karte. Sie haben noch %d Versuch, bevor Sie den PUK (Code zum Entsperren der PIN) eingeben oder sich zum Entsperren des Geräts an Ihren Dienstanbieter wenden müssen.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Falscher PUK-Code der SIM-Karte. Sie haben noch %d Versuche, bevor Ihre SIM-Karte endgültig gesperrt wird.</item>
+        <item quantity="one">Falscher PUK-Code der SIM-Karte. Sie haben noch %d Versuch, bevor Ihre SIM-Karte endgültig gesperrt wird.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">Das Gerät wurde seit %d Stunden nicht entsperrt. Bitte Muster bestätigen.</item>
+        <item quantity="one">Das Gerät wurde seit %d Stunde nicht entsperrt. Bitte Muster bestätigen.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">Das Gerät wurde seit %d Stunden nicht entsperrt. Bitte PIN bestätigen.</item>
+        <item quantity="one">Das Gerät wurde seit %d Stunde nicht entsperrt. Bitte PIN bestätigen.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">Das Gerät wurde seit %d Stunden nicht entsperrt. Bitte Passwort bestätigen.</item>
+        <item quantity="one">Das Gerät wurde seit %d Stunde nicht entsperrt. Bitte Passwort bestätigen.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">Geben Sie die PIN der SIM-Karte ein. Sie haben noch %d Versuche.</item>
+        <item quantity="one">Geben Sie die PIN der SIM-Karte ein. Sie haben noch %d Versuche, bevor Sie Ihren Netzbetreiber kontaktieren müssen, um das Gerät zu entsperren.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">Die SIM-Karte ist jetzt deaktiviert. Geben Sie den PUK-Code ein, um fortzufahren. Sie haben noch %d Versuche, bevor die SIM-Karte dauerhaft unbenutzbar wird. Kontaktieren Sie Ihren Netzbetreiber, um Einzelheiten zu erfahren.</item>
+        <item quantity="one">Die SIM-Karte ist jetzt deaktiviert. Geben Sie den PUK-Code ein, um fortzufahren. Sie haben noch %d Versuche, bevor die SIM-Karte dauerhaft unbenutzbar wird. Kontaktieren Sie Ihren Netzbetreiber, um Einzelheiten zu erfahren.</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_puk_enter_puk_hint_last_attempt_failed">
+        <item quantity="other">Ihre Eingabe stimmt leider nicht mit dem PUK-Code überein. Geben Sie Ihren 8-stelligen PUK-Code ein. Sie haben noch %d weitere Versuche.</item>
+        <item quantity="one">Ihre Eingabe stimmt leider nicht mit dem PUK-Code überein. Geben Sie Ihren 8-stelligen PUK-Code ein. Sie haben noch %d weiteren Versuch.</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_sim_pin_instructions_last_attempt_failed">
+        <item quantity="other">Ihre Eingabe stimmt leider nicht mit der PIN der SIM-Karte überein. Bitte geben Sie erneut Ihre 4- bis 8-stellige PIN ein. Sie haben noch %d weitere Versuche.</item>
+        <item quantity="one">Ihre Eingabe stimmt leider nicht mit der PIN der SIM-Karte überein. Bitte geben Sie erneut Ihre 4- bis 8-stellige PIN ein. Sie haben noch %d weiteren Versuche.</item>
+    </plurals>
+</resources>

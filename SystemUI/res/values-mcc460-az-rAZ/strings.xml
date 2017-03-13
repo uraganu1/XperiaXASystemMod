@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_disabled_wifi_failure">WLAN Bağlantı Uğursuzluğu</string>
+    <string name="connected_via_wfa">WLAN köməkçisi vasitəsilə qoşulub</string>
+    <string name="status_bar_settings_wifi_button">WLAN</string>
+    <string name="accessibility_data_connection_wifi">WLAN</string>
+    <string name="accessibility_quick_settings_wifi_changed_off">WLAN deaktivdir.</string>
+    <string name="accessibility_quick_settings_wifi_changed_on">WLAN aktivdir.</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">WLAN qoşulub</string>
+    <string name="quick_settings_wifi_label">WLAN</string>
+    <string name="quick_settings_wifi_off_label">WLAN sönülüdür</string>
+    <string name="quick_settings_wifi_detail_empty_text">Heç bir WLAN şəbəkəsi əlçatan deyil</string>
+    <string name="accessibility_quick_settings_detail">Sürətli Ayarlar, %s.</string>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">ചുരുക്കവിവരണത്തിൽ %d സ്‌ക്രീൻ</item>
+        <item quantity="one">ചുരുക്കവിവരണത്തിലെ 1 സ്‌ക്രീൻ</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">തെറ്റായ SIM PIN കോഡ്, PUK കോഡ് (PIN അൺലോക്ക് കോഡ്) നൽകുന്നതിന് നിങ്ങൾക്ക് %d ശ്രമങ്ങൾ കൂടി ബാക്കിയുണ്ട് അല്ലെങ്കിൽ ഉപകരണത്തിന്റെ ലോക്ക് നീക്കാൻ സേവന ദാതാവുമായി ബന്ധപ്പെടുക.</item>
+        <item quantity="one">തെറ്റായ SIM PIN കോഡ്, PUK കോഡ് (PIN അൺലോക്ക് കോഡ്) നൽകുന്നതിന് നിങ്ങൾക്ക് %d തവണ കൂടി ശ്രമിക്കാം അല്ലെങ്കിൽ ഉപകരണത്തിന്റെ ലോക്ക് നീക്കാൻ സേവന ദാതാവുമായി ബന്ധപ്പെടുക.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">തെറ്റായ SIM PUK കോഡ്, SIM ശാശ്വതമായി ഉപയോഗശൂന്യമാകുന്നതിന് മുമ്പ് നിങ്ങൾക്ക് അവശേഷിക്കുന്ന %d ശ്രമങ്ങളുണ്ട്.</item>
+        <item quantity="one">തെറ്റായ SIM PUK കോഡ്, SIM ശാശ്വതമായി ഉപയോഗശൂന്യമാകുന്നതിന് മുമ്പ് നിങ്ങൾക്ക് അവശേഷിക്കുന്ന %d ശ്രമമുണ്ട്.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">%d മണിക്കൂർ നേരത്തേയ്ക്ക് ഉപകരണം അൺലോക്ക് ചെയ്യില്ല. പാറ്റേൺ സ്ഥിരീകരിക്കുക.</item>
+        <item quantity="one">%d മണിക്കൂർ നേരത്തേയ്ക്ക് ഉപകരണം അൺലോക്ക് ചെയ്യില്ല. പാറ്റേൺ സ്ഥിരീകരിക്കുക.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">%d മണിക്കൂർ നേരത്തേയ്ക്ക് ഉപകരണം അൺലോക്ക് ചെയ്യില്ല. PIN സ്ഥിരീകരിക്കുക.</item>
+        <item quantity="one">%d മണിക്കൂർ നേരത്തേയ്ക്ക് ഉപകരണം അൺലോക്ക് ചെയ്യില്ല. PIN സ്ഥിരീകരിക്കുക.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">%d മണിക്കൂർ നേരത്തേയ്ക്ക് ഉപകരണം അൺലോക്ക് ചെയ്യില്ല. പാസ്‌വേഡ് സ്ഥിരീകരിക്കുക.</item>
+        <item quantity="one">%d മണിക്കൂർ നേരത്തേയ്ക്ക് ഉപകരണം അൺലോക്ക് ചെയ്യില്ല. പാസ്‌വേഡ് സ്ഥിരീകരിക്കുക.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">SIM PIN നൽകുക, നിങ്ങൾക്ക് %d ശ്രമങ്ങൾ ബാക്കിയുണ്ട്.</item>
+        <item quantity="one">SIM PIN നൽകുക, ഉപകരണത്തിന്റെ ലോക്ക് നീക്കുന്നതിന് നിങ്ങളുടെ കാരിയറുമായി ബന്ധപ്പെടുന്നതിന് മുമ്പ് നിങ്ങൾക്ക് %d ശ്രമങ്ങൾ ബാക്കിയുണ്ട്.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">ഇപ്പോൾ SIM അപ്രാപ്തമാക്കി. തുടരാൻ PUK കോഡ് നൽകുക. SIM ശാശ്വതമായി ഉപയോഗരഹിതമാകുന്നതിന് മുമ്പ് നിങ്ങൾക്ക് %d ശ്രമങ്ങൾ ബാക്കിയുണ്ട്. വിശദാംശങ്ങൾക്കായി കാരിയറുമായി ബന്ധപ്പെടുക.</item>
+        <item quantity="one">ഇപ്പോൾ SIM അപ്രാപ്തമാക്കി. തുടരാൻ PUK കോഡ് നൽകുക. SIM ശാശ്വതമായി ഉപയോഗരഹിതമാകുന്നതിന് മുമ്പ് നിങ്ങൾക്ക് %d ശ്രമം ബാക്കിയുണ്ട്. വിശദാംശങ്ങൾക്കായി കാരിയറുമായി ബന്ധപ്പെടുക.</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_puk_enter_puk_hint_last_attempt_failed">
+        <item quantity="other">ക്ഷമിക്കണം, PUK കോഡുമായി നിങ്ങളുടെ എൻട്രി പൊരുത്തപ്പെടുന്നില്ല. നിങ്ങളുടെ 8 അക്ക SIM PUK കോഡ് വീണ്ടും നൽകുക. നിങ്ങൾക്ക് %d ശ്രമങ്ങൾ കൂടിയുണ്ട്.</item>
+        <item quantity="one">ക്ഷമിക്കണം, PUK കോഡുമായി നിങ്ങളുടെ എൻട്രി പൊരുത്തപ്പെടുന്നില്ല. നിങ്ങളുടെ 8 അക്ക SIM PUK കോഡ് വീണ്ടും നൽകുക. നിങ്ങൾക്ക് %d ശ്രമം കൂടിയുണ്ട്.</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_sim_pin_instructions_last_attempt_failed">
+        <item quantity="other">ക്ഷമിക്കണം, SIM PIN-മായി നിങ്ങളുടെ എൻട്രി പൊരുത്തപ്പെടുന്നില്ല. നിങ്ങളുടെ 4-8 അക്ക PIN വീണ്ടും നൽകുക. നിങ്ങൾക്ക് %d ശ്രമങ്ങൾ കൂടിയുണ്ട്.</item>
+        <item quantity="one">ക്ഷമിക്കണം, SIM PIN-മായി നിങ്ങളുടെ എൻട്രി പൊരുത്തപ്പെടുന്നില്ല. നിങ്ങളുടെ 4-8 അക്ക PIN വീണ്ടും നൽകുക. നിങ്ങൾക്ക് %d ശ്രമം കൂടിയുണ്ട്.</item>
+    </plurals>
+</resources>

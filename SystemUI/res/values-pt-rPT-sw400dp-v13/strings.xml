@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_settings_autorotate">Rodar ecrã automaticamente</string>
+    <string name="status_bar_settings_autosync">Sincronizar dados automaticamente</string>
+    <string name="status_bar_settings_mobile_data">Tráfego de dados móveis</string>
+</resources>

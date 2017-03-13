@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sonymobile.systemui.qs.DragDropLayout android:layout_gravity="center_horizontal" android:id="@id/drag_drop_layout" android:background="@drawable/qs_background_primary" android:layout_width="@dimen/notification_panel_width" android:layout_height="wrap_content" android:layout_marginBottom="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0sp" android:textColor="@android:color/white" android:gravity="center_vertical" android:id="@id/somc_qs_hint" android:background="@drawable/qs_background_secondary" android:layout_width="fill_parent" android:layout_height="@dimen/somc_qs_close_button_height" android:text="@string/somc_qs_hint" android:paddingStart="16.0dip" android:elevation="20.0dip" />
+    <HorizontalScrollView android:id="@id/somc_qs_h_scroll" android:background="@drawable/qs_background_secondary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/qs_tile_height" android:elevation="20.0dip">
+        <LinearLayout android:orientation="horizontal" android:id="@id/unused_qs_tiles" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </HorizontalScrollView>
+    <TextView android:textColor="@android:color/white" android:gravity="center_vertical" android:id="@id/somc_qs_title" android:background="@drawable/qs_background_primary" android:layout_width="fill_parent" android:layout_height="@dimen/somc_qs_close_button_height" android:text="@string/somc_qs_title" android:paddingStart="16.0dip" />
+    <com.sonymobile.systemui.qs.QSEditPanel android:layout_gravity="center_horizontal" android:id="@id/used_qs_tiles" android:background="@drawable/qs_background_primary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/qs_tile_height" />
+    <Button android:layout_gravity="end" android:id="@id/somc_qs_close_button" android:background="?android:selectableItemBackground" android:layout_width="wrap_content" android:layout_height="@dimen/somc_qs_close_button_height" android:layout_marginBottom="0.0dip" android:text="@string/somc_qs_close" />
+</com.sonymobile.systemui.qs.DragDropLayout>

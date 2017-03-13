@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_fail_to_scan">ನೆಟ್‌ವರ್ಕ್‌ಗಳಿಗಾಗಿ ಸ್ಕ್ಯಾನ್‌ ಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ</string>
+    <string name="wifi_security_none">ಯಾವುದೂ ಇಲ್ಲ</string>
+    <string name="wifi_remembered">ಉಳಿಸಲಾಗಿದೆ</string>
+    <string name="wifi_disabled_generic">ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ</string>
+    <string name="wifi_disabled_network_failure">IP ಕಾನ್ಫಿಗರೇಶನ್ ವಿಫಲತೆ</string>
+    <string name="wifi_disabled_wifi_failure">WiFi ಸಂಪರ್ಕ ವಿಫಲತೆ</string>
+    <string name="wifi_disabled_password_failure">ಪ್ರಮಾಣೀಕರಣ ಸಮಸ್ಯೆ</string>
+    <string name="wifi_not_in_range">ವ್ಯಾಪ್ತಿಯಲ್ಲಿಲ್ಲ</string>
+    <string name="wifi_no_internet">ಯಾವುದೇ ಇಂಟರ್ನೆಟ್‌ ಪ್ರವೇಶ ಪತ್ತೆಯಾಗಿಲ್ಲ, ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಮರುಸಂಪರ್ಕಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ.</string>
+    <string name="saved_network">%1$s ರಿಂದ ಉಳಿಸಲಾಗಿದೆ</string>
+    <string name="connected_via_wfa">Wi‑Fi ಸಹಾಯಕದ ಮೂಲಕ ಸಂಪರ್ಕಿತಗೊಳಿಸಲಾಗಿದೆ</string>
+    <string name="connected_via_passpoint">%1$s ಮೂಲಕ ಸಂಪರ್ಕಗೊಂಡಿದೆ</string>
+    <string name="available_via_passpoint">%1$s ಮೂಲಕ ಲಭ್ಯವಿದೆ</string>
+    <string name="wifi_connected_no_internet">ಸಂಪರ್ಕಪಡಿಸಲಾಗಿದೆ, ಇಂಟರ್ನೆಟ್ ಇಲ್ಲ</string>
+    <string name="bluetooth_disconnected">ಸಂಪರ್ಕ ಕಡಿತಗೊಳಿಸಲಾಗಿದೆ</string>
+    <string name="bluetooth_disconnecting">ಸಂಪರ್ಕ ಕಡಿತಗೊಳಿಸಲಾಗುತ್ತಿದೆ...</string>
+    <string name="bluetooth_connecting">ಸಂಪರ್ಕಗೊಳಿಸಲಾಗುತ್ತಿದೆ...</string>
+    <string name="bluetooth_connected">ಸಂಪರ್ಕಗೊಂಡಿದೆ</string>
+    <string name="bluetooth_pairing">ಜೋಡಿಸಲಾಗುತ್ತಿದೆ...</string>
+    <string name="bluetooth_connected_no_headset">ಸಂಪರ್ಕಗೊಂಡಿದೆ (ಫೋನ್ ಇಲ್ಲ)</string>
+    <string name="bluetooth_connected_no_a2dp">ಸಂಪರ್ಕಗೊಂಡಿದೆ (ಮಾಧ್ಯಮವಿಲ್ಲ)</string>
+    <string name="bluetooth_connected_no_map">ಸಂಪರ್ಕಪಡಿಸಲಾಗಿದೆ (ಯಾವುದೇ ಸಂದೇಶ ಪ್ರವೇಶವಿಲ್ಲ)</string>
+    <string name="bluetooth_connected_no_headset_no_a2dp">ಸಂಪರ್ಕಗೊಂಡಿದೆ (ಫೋನ್ ಅಥವಾ ಮಾಧ್ಯಮವಿಲ್ಲ)</string>
+    <string name="bluetooth_profile_a2dp">ಮಾಧ್ಯಮ ಆಡಿಯೋ</string>
+    <string name="bluetooth_profile_headset">ಕರೆ ಆಡಿಯೋ</string>
+    <string name="bluetooth_profile_opp">ಫೈಲ್ ವರ್ಗಾವಣೆ</string>
+    <string name="bluetooth_profile_hid">ಇನ್‌ಪುಟ್‌ ಸಾಧನ</string>
+    <string name="bluetooth_profile_pan">ಇಂಟರ್ನೆಟ್ ಪ್ರವೇಶ</string>
+    <string name="bluetooth_profile_pbap">ಸಂಪರ್ಕ ಹಂಚಿಕೆ</string>
+    <string name="bluetooth_profile_pbap_summary">ಸಂಪರ್ಕ ಹಂಚಿಕೆಗಾಗಿ ಬಳಸಿ</string>
+    <string name="bluetooth_profile_pan_nap">ಇಂಟರ್ನೆಟ್ ಸಂಪರ್ಕ ಹಂಚಿಕೊಳ್ಳುವಿಕೆ</string>
+    <string name="bluetooth_profile_map">ಸಂದೇಶ ಪ್ರವೇಶಿಸುವಿಕೆ</string>
+    <string name="bluetooth_profile_sap">ಸಿಮ್ ಪ್ರವೇಶ</string>
+    <string name="bluetooth_a2dp_profile_summary_connected">ಮಾಧ್ಯಮ ಆಡಿಯೋಗೆ ಸಂಪರ್ಕಗೊಂಡಿದೆ</string>
+    <string name="bluetooth_headset_profile_summary_connected">ಫೋನ್ ಆಡಿಯೋಗೆ ಸಂಪರ್ಕಗೊಂಡಿದೆ</string>
+    <string name="bluetooth_opp_profile_summary_connected">ಫೈಲ್ ವರ್ಗಾವಣೆ ಸರ್ವರ್‌ಗೆ ಸಂಪರ್ಕಗೊಂಡಿದೆ</string>
+    <string name="bluetooth_map_profile_summary_connected">ನಕ್ಷೆಗೆ ಸಂಪರ್ಕಗೊಂಡಿದೆ</string>
+    <string name="bluetooth_sap_profile_summary_connected">SAP ಗೆ ಸಂಪರ್ಕಗೊಂಡಿದೆ</string>
+    <string name="bluetooth_opp_profile_summary_not_connected">ಫೈಲ್ ವರ್ಗಾವಣೆ ಸರ್ವರ್‌ಗೆ ಸಂಪರ್ಕಗೊಳ್ಳಲಿಲ್ಲ</string>
+    <string name="bluetooth_hid_profile_summary_connected">ಇನ್‌ಪುಟ್‌ ಸಾಧನಕ್ಕೆ ಸಂಪರ್ಕಗೊಂಡಿದೆ</string>
+    <string name="bluetooth_pan_user_profile_summary_connected">ಇಂಟರ್ನೆಟ್ ಪ್ರವೇಶಕ್ಕಾಗಿ ಸಾಧನಕ್ಕೆ ಸಂಪರ್ಕಗೊಂಡಿದೆ</string>
+    <string name="bluetooth_pan_nap_profile_summary_connected">ಸಾಧನದ ಜೊತೆಗೆ ಸ್ಥಳೀಯ ಇಂಟರ್ನೆಟ್ ಸಂಪರ್ಕವನ್ನು ಹಂಚಿಕೊಳ್ಳಲಾಗುತ್ತಿದೆ</string>
+    <string name="bluetooth_pan_profile_summary_use_for">ಇಂಟರ್ನೆಟ್ ಪ್ರವೇಶಕ್ಕಾಗಿ ಬಳಸಿ</string>
+    <string name="bluetooth_map_profile_summary_use_for">ನಕ್ಷೆಗಾಗಿ ಬಳಸಿ</string>
+    <string name="bluetooth_sap_profile_summary_use_for">ಸಿಮ್ ಪ್ರವೇಶಕ್ಕೆ ಬಳಸಿ</string>
+    <string name="bluetooth_a2dp_profile_summary_use_for">ಮಾಧ್ಯಮ ಆಡಿಯೋ ಬಳಸು</string>
+    <string name="bluetooth_headset_profile_summary_use_for">ಫೋನ್‌ ಆಡಿಯೋಗಾಗಿ ಬಳಕೆ</string>
+    <string name="bluetooth_opp_profile_summary_use_for">ಫೈಲ್‌ ವರ್ಗಾವಣೆಗಾಗಿ ಬಳಸು</string>
+    <string name="bluetooth_hid_profile_summary_use_for">ಇನ್‌ಪುಟ್‌ಗಾಗಿ ಬಳಸು</string>
+    <string name="bluetooth_pairing_accept">ಜೋಡಿ</string>
+    <string name="bluetooth_pairing_accept_all_caps">ಜೋಡಿ ಮಾಡು</string>
+    <string name="bluetooth_pairing_decline">ರದ್ದುಮಾಡು</string>
+    <string name="bluetooth_pairing_will_share_phonebook">ಸಂಪರ್ಕಪಡಿಸಿದಾಗ, ಜೋಡಿಸುವಿಕೆಯು ನಿಮ್ಮ ಸಂಪರ್ಕಗಳು ಮತ್ತು ಕರೆ ಇತಿಹಾಸಕ್ಕೆ ಪ್ರವೇಶವನ್ನು ಅನುಮತಿಸುತ್ತದೆ.</string>
+    <string name="bluetooth_pairing_error_message">%1$s ಜೊತೆಗೆ ಜೋಡಣೆ ಮಾಡಲಾಗಲಿಲ್ಲ.</string>
+    <string name="bluetooth_pairing_pin_error_message">ತಪ್ಪಾಗಿರುವ ಪಿನ್‌ ಅಥವಾ ಪಾಸ್‌ಕೀ ಕಾರಣದಿಂದಾಗಿ %1$s ಜೊತೆಗೆ ಜೋಡಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ.</string>
+    <string name="bluetooth_pairing_device_down_error_message">%1$s ಜೊತೆಗೆ ಸಂವಹನ ನಡೆಸಲು ಸಾಧ್ಯವಿಲ್ಲ</string>
+    <string name="bluetooth_pairing_rejected_error_message">ಜೋಡಿಸುವಿಕೆಯನ್ನು %1$s ತಿರಸ್ಕರಿಸಿದೆ</string>
+    <string name="accessibility_wifi_off">Wifi ಆಫ್..</string>
+    <string name="accessibility_no_wifi">Wifi ಸಂಪರ್ಕ ತೆಗೆಯಲಾಗಿದೆ.</string>
+    <string name="accessibility_wifi_one_bar">Wifi ಒಂದು ಬಾರ್.</string>
+    <string name="accessibility_wifi_two_bars">Wifi ಎರಡು ಬಾರ್‌ಗಳು.</string>
+    <string name="accessibility_wifi_three_bars">Wifi ಮೂರು ಬಾರ್‌ಗಳು.</string>
+    <string name="accessibility_wifi_signal_full">Wifi ಸಿಗ್ನಲ್ ಪೂರ್ಣವಾಗಿದೆ.</string>
+    <string name="somc_wifi_password_failure">ದೃಢೀಕರಣ ಸಮಸ್ಯೆ. ಪುನಃ ಪ್ರಯತ್ನಿಸಲು ಮತ್ತೆ ತಟ್ಟಿ.</string>
+    <string name="wifi_auto_connect_off">ಸ್ವಯ-ಸಂಪರ್ಕ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ, ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಸಂಪರ್ಕಗೊಳ್ಳುವುದಿಲ್ಲ.</string>
+    <string name="somc_qs_close">ಮುಚ್ಚು</string>
+    <string name="somc_qs_hint">ಶೀಘ್ರ ಸಂಯೋ. ಮರು. ಐಕಾನ್‍ಗಳ. ಸ್ಪರ್ಶಿಸಿ ಮತ್ತು ಹಿಡಿಯಿರಿ</string>
+    <string name="somc_qs_title">ಸಕ್ರಿಯ ತ್ವರಿತ ಸಂಯೋಜನೆಗಳು</string>
+    <string name="somc_qs_max_exceeds">ಗರಿಷ್ಠ ಸಂಖ್ಯೆಯ ತ್ವರಿತ ಸಂಯೋಜನೆಗಳನ್ನು ಆಯ್ಕೆಮಾಡಿದೆ</string>
+    <string name="quick_settings_autosync_label">ಡೇಟಾ ಸ್ವಯಂ-ಸಿಂಕ್ ಮಾಡಿ</string>
+    <string name="quick_settings_data_traffic_label">ಮೊಬೈಲ್ ಡೇಟಾ</string>
+    <string name="quick_settings_screen_mirroring_label">ಪರದೆ ಮಿರರಿಂಗ್</string>
+    <string name="quick_settings_throw_label">Throw</string>
+    <string name="quick_settings_roaming_label">ಡೇಟಾ ರೋಮಿಂಗ್</string>
+    <string name="quick_settings_wifi_scanning_label">Wi-Fi: ಸ್ಕ್ಯಾನ್ ಮಾಡಲಾಗುತ್ತಿದೆ</string>
+    <string name="quick_settings_wifi_connecting_label">Wi-Fi: ಸಂಪರ್ಕಗೊಳ್ಳು.</string>
+    <string name="status_bar_autosync_dialog_enable_title">ಡೇಟಾ ಸ್ವಯಂ-ಹೊಂದಾಣಿಕೆಯನ್ನು ಆನ್ ಮಾಡುವುದೆ?</string>
+    <string name="status_bar_autosync_dialog_enable_warning">"ವೆಬ್‌ನಲ್ಲಿ ನಿಮ್ಮ ಖಾತೆಗಳಿಗೆ ನೀವು ಮಾಡುವ ಯಾವುದೇ ಬದಲಾವಣೆಗಳನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ನಿಮ್ಮ ಫೋನ್‌ಗೆ ನಕಲಿಸಲಾಗುತ್ತದೆ.
+
+ಕೆಲವು ಖಾತೆಗಳು ಸಹ ಫೋನ್‌ನಲ್ಲಿ ನೀವು ಮಾಡುವ ಬದಲಾವಣೆಗಳನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ವೆಬ್‌ಗೆ ನಕಲಿಸಬಹುದು. ನಿಮ್ಮ Google™ ಖಾತೆ ಈ ರೀತಿ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ.
+
+ಪ್ರತಿ ಖಾತೆಗೆ ಯಾವ ಪ್ರಕಾರಗಳ ಡೇಟಾವನ್ನು ನೀವು ಸಿಂಕ್ ಮಾಡುತ್ತೀರೆಂದು ಆರಿಸಲು, ಸಂಯೋಜನೆಗಳು > ಖಾತೆಗಳು ಮತ್ತು ಸಿಂಕ್‌ಗೆ ಹೋಗಿ"</string>
+    <string name="status_bar_autosync_dialog_extended_enable_warning">"ವೆಬ್‌ನಲ್ಲಿ ನೀವು ನಿಮ್ಮ ಖಾತೆಗಳಿಗೆ ಮಾಡುವ ಯಾವುದೇ ಬದಲಾವಣೆಗಳು ನಿಮ್ಮ ಸಾಧನಕ್ಕೆ ಸ್ವಯಂಚಾಲಿತವಾಗಿ ನಕಲಿಸಲ್ಪಡುತ್ತವೆ.
+
+ಕೆಲವು ಖಾತೆಗಳು ನೀವು ಸಾಧನದಲ್ಲಿ ಮಾಡುವ ಯಾವುದೇ ಬದಲಾವಣೆಗಳನ್ನು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ವೆಬ್‌ಗೆ ನಕಲಿಸಬಹುದು.
+
+ಪ್ರತಿಯೊಂದು ಖಾತೆಯೊಳಗೆ ಯಾವ ಮಾಹಿತಿ ಹೊಂದಿಸಬೇಕೆಂಬುದನ್ನು ಆರಿಸಲು, ಸಂಯೋಜನೆಗಳು > ಖಾತೆಗಳು ಮತ್ತು ಸಿಂಕ್‌ಗೆ ಹೋಗಿ.
+
+ನಿಮ್ಮ ಸಾಧನಕ್ಕೆ ನವೀಕರಣಗಳನ್ನು ಮಾಡುವಾಗ ಡೇಟಾ ವರ್ಗಾವಣೆ ಶುಲ್ಕಗಳು ಅನ್ವಯವಾಗಬಹುದು. ಅಪರಿಮಿತ ಡೇಟಾ ಯೋಜನೆ ಹೊಂದಿರುವುದನ್ನು ಶಿಫಾರಸು ಮಾಡಲಾಗುತ್ತದೆ."</string>
+    <string name="status_bar_autosync_dialog_disable_title">ಡೇಟಾ ಸ್ವಯಂ-ಹೊಂದಾಣಿಕೆಯನ್ನು ಆಫ್ ಮಾಡುವುದೆ?</string>
+    <string name="status_bar_autosync_dialog_disable_warning">ಸ್ವಯಂ-ಸಿಂಕ್ ಆಫ್ ಮಾಡುವುದು ಮೊಬೈಲ್ ಡೇಟಾ ಮತ್ತು ಬ್ಯಾಟರಿ ಬಳಕೆ ಕಡಿಮೆ ಮಾಡುತ್ತದೆ, ಆದರೆ ನೀವು ಪ್ರತಿ ಖಾತೆಯನ್ನು ಹಸ್ತಚಾಲಿತವಾಗಿ ಸಿಂಕ್ ಮಾಡಬೇಕಾಗುತ್ತದೆ.</string>
+    <string name="toast_message_not_allow_turn_on_hotspot">ವಿಮಾನ ಮೋಡ್‌ನಲ್ಲಿ Wi-Fi hotspot ಲಭ್ಯವಿಲ್ಲ</string>
+    <string name="accessibility_desc_edit_quick_settings">ತ್ವರಿತ ಸಂಯೋಜನೆಗಳನ್ನು ಸಂಪಾದಿಸಿ</string>
+    <string name="quick_settings_edit_button">ಸಂಪಾದಿಸು</string>
+    <string name="quick_settings_show_guide">ಪರದೆಯ ಮೇಲಿನಿಂದ ಮಧ್ಯ ಭಾಗಕ್ಕೆ ಕೆಳಕ್ಕೆ ಉಜ್ಜುವ ಮೂಲಕ ನೀವು ಶೀಘ್ರ ಸಂಯೋಜನೆಗಳನ್ನು ಸಹ ತೆರೆಯಬಹುದು</string>
+    <string name="somc_keyguard_unlock_guide">ಅನ್‌ಲಾಕ್. ಎಡಕ್ಕೆ. ಮೇಲಕ್ಕೆ ಸ್ವೈಪ್ ಮಾಡಿ</string>
+    <string name="battery_stamina_mode_notification_title">ಬ್ಯಾ. ಮಟ್ಟ %d%% /ಕಡಿಮೆ</string>
+    <string name="battery_stamina_mode_notification_upper_desc">ಅಂದಾಜು ಬ್ಯಾಟರಿ ಸಮಯ ನೋ. ತಟ್ಟಿ</string>
+    <string name="battery_stamina_mode_notification_lower_desc">STAMINA ಸ್ವಯಂ ಆರಂಭ. ಸಕ್ರಿಯ.</string>
+    <string name="battery_stamina_mode_quick_settings_auto_title">STAMINA ಸ್ವಯಂ ಆರಂಭಿಸು</string>
+    <string name="app_label">ಸಿಸ್ಟಂ UI</string>
+    <string name="status_bar_clear_all_button">ಖಾಲಿ.</string>
+    <string name="status_bar_recent_remove_item_title">ಪಟ್ಟಿಯಿಂದ ತೆಗೆಯಿರಿ</string>
+    <string name="status_bar_recent_inspect_item_title">ಅಪ್ಲಿಕೇಶನ್ ಮಾಹಿತಿ</string>
+    <string name="status_bar_no_recent_apps">ಯಾವುದೇ ಇತ್ತೀಚಿನ ಆಪ್‌ಗಳಿಲ್ಲ</string>
+    <string name="status_bar_accessibility_dismiss_recents">ಇತ್ತೀಚಿನ ಅಪ್ಲಿಕೇಶನ್‌ಗಳನ್ನು ರದ್ದು ಮಾಡಿ</string>
+    <string name="status_bar_no_notifications_title">ಸೂಚನೆಗಳಿಲ್ಲ</string>
+    <string name="status_bar_ongoing_events_title">ಹೊರಹೋಗುವ</string>
+    <string name="status_bar_latest_events_title">ಸೂಚನೆಗಳು</string>
+    <string name="battery_low_title">ಬ್ಯಾಟರಿ ಕಡಿಮೆ ಇದೆ</string>
+    <string name="battery_low_percent_format">%s ಅಥವಾ ಕಡಿಮೆ ಉಳಿದಿದೆ</string>
+    <string name="battery_low_percent_format_saver_started">%s ಗಿಂತ ಕಡಿಮೆ ಉಳಿದಿದೆ. ಬ್ಯಾಟರಿ ಸೇವರ್ ಆನ್ ಆಗಿದೆ.</string>
+    <string name="invalid_charger">"USB ಚಾರ್ಜಿಂಗ್ ಬೆಂಬಲಿತವಲ್ಲ.
+ಪೂರೈಸಿದ ಚಾರ್ಜರನ್ನು ಮಾತ್ರ ಬಳಸಿ."</string>
+    <string name="invalid_charger_title">USB ಚಾರ್ಜಿಂಗ್ ಬೆಂಬಲಿತವಾಗಿಲ್ಲ.</string>
+    <string name="invalid_charger_text">ಒದಗಿಸಿರುವ ಚಾರ್ಜರ್ ಮಾತ್ರ ಬಳಸಿ.</string>
+    <string name="battery_low_why">ಸಂಯೋಜನೆಗಳು</string>
+    <string name="battery_saver_confirmation_title">ಬ್ಯಾಟರಿ ಉಳಿತಾಯವನ್ನು ಆನ್ ಮಾಡುವುದೇ?</string>
+    <string name="battery_saver_confirmation_ok">ಆನ್ ಮಾಡಿ</string>
+    <string name="battery_saver_start_action">ಬ್ಯಾಟರಿ ಉಳಿತಾಯವನ್ನು ಆನ್ ಮಾಡಿ</string>
+    <string name="status_bar_settings_settings_button">ಸಂಯೋಜನೆಗಳು</string>
+    <string name="status_bar_settings_wifi_button">Wi-Fi</string>
+    <string name="status_bar_settings_auto_rotation">ಪರದೆ ಸ್ವಯಂ-ತಿರುಗಿಸಿ</string>
+    <string name="status_bar_settings_mute_label">ನಿಶ್ಯಬ್ದ</string>
+    <string name="status_bar_settings_auto_brightness_label">ಸ್ವಯಂ</string>
+    <string name="status_bar_settings_notifications">ಸೂಚನೆಗಳು</string>
+    <string name="bluetooth_tethered">Bluetooth ಟೆದರ್ ಆಗಿದೆ</string>
+    <string name="status_bar_input_method_settings_configure_input_methods">ನಮೂದನೆ ವಿಧಾನಗಳನ್ನು ಹೊಂದಿಸಿ</string>
+    <string name="status_bar_use_physical_keyboard">ಭೌತಿಕ ಕೀಲಿಮಣೆ</string>
+    <string name="usb_device_permission_prompt">USB ಸಾಧನದ ಪ್ರವೇಶಕ್ಕೆ %1$s ಅಪ್ಲಿಕೇಶನ್‌ಗೆ ಅನುಮತಿಸುವುದೆ?</string>
+    <string name="usb_accessory_permission_prompt">USB ಉಪಕರಣದ ಪ್ರವೇಶಕ್ಕೆ %1$s ಅಪ್ಲಿಕೇಶನ್‌ಗೆ ಅನುಮತಿಸುವುದೆ?</string>
+    <string name="usb_device_confirm_prompt">ಈ USB ಸಾಧನವನ್ನು ಸಂಪರ್ಕಿಸಿದಾಗ %1$s ತೆರೆಯುವುದೆ?</string>
+    <string name="usb_accessory_confirm_prompt">ಈ USB ಉಪಕರಣವನ್ನು ಸಂಪರ್ಕಿಸಿರುವಾಗ %1$s ತೆರೆಯುವುದೆ?</string>
+    <string name="usb_accessory_uri_prompt">ಈ USB ಉಪಕರಣದೊಂದಿಗೆ ಸ್ಥಾಪಿಸಲಾಗಿರುವ ಯಾವುದೇ ಅಪ್ಲಿಕೇಶನ್ ಕೆಲಸ ಮಾಡುವುದಿಲ್ಲ. ಈ ಉಪಕರಣ ಕುರಿತು %1$s ಎಂಬಲ್ಲಿ ಮತ್ತಷ್ಟು ತಿಳಿಯಿರಿ</string>
+    <string name="title_usb_accessory">USB ಉಪಕರಣ</string>
+    <string name="label_view">ವೀಕ್ಷಿಸಿ</string>
+    <string name="always_use_device">ಈ USB ಸಾಧನಕ್ಕೆ ಪೂರ್ವನಿಯೋಜಿತವಾಗಿ ಬಳಸಿ</string>
+    <string name="always_use_accessory">ಈ USB ಉಪಕರಣಕ್ಕೆ ಪೂರ್ವನಿಯೋಜಿತವಾಗಿ ಬಳಸಿ</string>
+    <string name="usb_debugging_title">USB ಡೀಬಗ್ಗಿಂಗ್ ಅನುಮತಿಸುವುದೇ?</string>
+    <string name="usb_debugging_message">"ಕಂಪ್ಯೂಟರ್‌ನ RSA ಕೀ ಬೆರಳಮುದ್ರೆಯು:
+
+%1$s"</string>
+    <string name="usb_debugging_always">ಈ ಕಂಪ್ಯೂಟರ್‌ನಿಂದ ಯಾವಾಗಲೂ ಅನುಮತಿಸಿ</string>
+    <string name="usb_debugging_secondary_user_title">USB ಡೀಬಗ್ ಮಾಡುವಿಕೆಯನ್ನು ಅನುಮತಿಸಲಾಗಿಲ್ಲ</string>
+    <string name="usb_debugging_secondary_user_message">ಬಳಕೆದಾರರು ಪ್ರಸ್ತುತ ಈ ಸಾಧನಕ್ಕೆ ಸೈನ್ ಇನ್ ಮಾಡಿದ್ದಾರೆ USB ಡೀಬಗ್ ಮಾಡುವುದನ್ನು ಆನ್ ಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ. ಈ ವೈಶಿಷ್ಟ್ಯವನ್ನು ಬಳಸಲು, “%s” ಅವರನ್ನು ಪ್ರಾಥಮಿಕ ಬಳಕೆದಾರರಿಗೆ ಬದಲಾಯಿಸಿ.</string>
+    <string name="compat_mode_on">ಪರದೆ ತುಂಬುವಂತೆ ಝೂಮ್ ಮಾಡಿ</string>
+    <string name="compat_mode_off">ಪೂರ್ಣ ಪರದೆಗೆ ವಿಸ್ತರಿಸಿ</string>
+    <string name="screenshot_saving_ticker">ಸ್ಕ್ರೀನ್‌ಶಾಟ್ ಉಳಿಸಲಾಗುತ್ತಿದೆ…</string>
+    <string name="screenshot_saving_title">ಸ್ಕ್ರೀನ್‌ಶಾಟ್ ಉಳಿಸಲಾಗುತ್ತಿದೆ…</string>
+    <string name="screenshot_saving_text">ಸ್ಕ್ರೀನ್‌ಶಾಟ್ ಉಳಿಸಲಾಗುತ್ತಿದೆ.</string>
+    <string name="screenshot_saved_title">ಸ್ಕ್ರೀನ್‌ಶಾಟ್ ಸೆರೆಹಿಡಿಯಲಾಗಿದೆ.</string>
+    <string name="screenshot_saved_text">ನಿಮ್ಮ ಸ್ಕ್ರೀನ್‌ಶಾಟ್ ವೀಕ್ಷಿಸಲು ಮುಟ್ಟಿರಿ.</string>
+    <string name="screenshot_failed_title">ಸ್ಕ್ರೀನ್‌ಶಾಟ್ ಸೆರೆ.</string>
+    <string name="screenshot_failed_text">ಸ್ಕ್ರೀನ್‌ಶಾಟ್ ಉಳಿಸಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ. ಬಹುಶಃ ಸಂಗ್ರಹಣೆಯು ಬಳಕೆಯಲ್ಲಿರಬಹುದು.</string>
+    <string name="usb_preference_title">USB ಫೈಲ್ ವರ್ಗಾವಣೆ ಆಯ್ಕೆಗಳು</string>
+    <string name="use_mtp_button_title">ಮಾಧ್ಯಮ ಪ್ಲೇಯರ್ ಆಗಿ ಮೌಂಟ್ ಮಾಡಿ (MTP)</string>
+    <string name="use_ptp_button_title">ಕ್ಯಾಮೆರಾ ಆಗಿ ಮೌಂಟ್ ಮಾಡಿ (PTP)</string>
+    <string name="installer_cd_button_title">Mac ಗಾಗಿ Android ಫೈಲ್ ವರ್ಗಾವಣೆ ಅಪ್ಲಿಕೇಶನ್ ಅನ್ನು ಸ್ಥಾಪಿಸಿ</string>
+    <string name="accessibility_back">ಹಿಂದೆ</string>
+    <string name="accessibility_home">ಹೋಮ್</string>
+    <string name="accessibility_menu">ಮೆನು</string>
+    <string name="accessibility_recent">ಇತ್ತೀಚಿನ ಆಪ್‍ಗಳ ಕೀ</string>
+    <string name="accessibility_search_light">ಹುಡುಕಿ</string>
+    <string name="accessibility_camera_button">ಕ್ಯಾಮೆರಾ</string>
+    <string name="accessibility_phone_button">ಫೋನ್</string>
+    <string name="accessibility_voice_assist_button">ಧ್ವನಿ ಸಹಾಯಕ</string>
+    <string name="accessibility_unlock_button">ಅನ್‌ಲಾಕ್</string>
+    <string name="accessibility_unlock_button_fingerprint">ಅನ್‌ಲಾಕ್ ಬಟನ್, ಫಿಂಗರ್‌ಪ್ರಿಂಟ್‌ಗೆ ಕಾಯಲಾಗುತ್ತಿದೆ</string>
+    <string name="accessibility_unlock_without_fingerprint">ನಿಮ್ಮ ಫಿಂಗರ್‌ಪ್ರಿಂಟ್ ಬಳಸದೆಯೇ ಅನ್‌ಲಾಕ್ ಮಾಡಿ</string>
+    <string name="unlock_label">ಅನ್‌ಲಾಕ್</string>
+    <string name="phone_label">ಫೋನ್ ತೆರೆಯಿರಿ</string>
+    <string name="voice_assist_label">ಧ್ವನಿ ಸಹಾಯಕವನ್ನು ತೆರೆ</string>
+    <string name="camera_label">ಕ್ಯಾಮೆರಾ ತೆರೆಯಿರಿ</string>
+    <string name="recents_caption_resize">ಹೊಸ ಕಾರ್ಯ ವಿನ್ಯಾಸವನ್ನು ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="cancel">ರದ್ದುಮಾಡು</string>
+    <string name="accessibility_compatibility_zoom_button">ಹೊಂದಾಣಿಕೆಯ ಝೂಮ್ ಬಟನ್.</string>
+    <string name="accessibility_compatibility_zoom_example">ಸಣ್ಣದರಿಂದ ದೊಡ್ಡ ಪರದೆಗೆ ಝೂಮ್ ಮಾಡಿ.</string>
+    <string name="accessibility_bluetooth_connected">Bluetooth ಸಂಪರ್ಕಿಸಿದೆ.</string>
+    <string name="accessibility_bluetooth_disconnected">Bluetooth ಸಂಪರ್ಕ ತೆಗೆದಿದೆ.</string>
+    <string name="accessibility_no_battery">ಬ್ಯಾಟರಿ ಇಲ್ಲ.</string>
+    <string name="accessibility_battery_one_bar">ಬ್ಯಾಟರಿ ಒಂದು ಪಟ್ಟಿ.</string>
+    <string name="accessibility_battery_two_bars">ಬ್ಯಾಟರಿ ಎರಡು ಪಟ್ಟಿಗಳು.</string>
+    <string name="accessibility_battery_three_bars">ಬ್ಯಾಟರಿ ಮೂರು ಪಟ್ಟಿಗಳು.</string>
+    <string name="accessibility_battery_full">ಬ್ಯಾಟರಿ ಭರ್ತಿಯಾಗಿದೆ.</string>
+    <string name="accessibility_no_phone">ಫೋನ್ ಇಲ್ಲ.</string>
+    <string name="accessibility_phone_one_bar">ಫೋನ್ ಒಂದು ಪಟ್ಟಿ.</string>
+    <string name="accessibility_phone_two_bars">ಫೋನ್ ಎರಡು ಪಟ್ಟಿಗಳು.</string>
+    <string name="accessibility_phone_three_bars">ಫೋನ್ ಮೂರು ಪಟ್ಟಿಗಳು.</string>
+    <string name="accessibility_phone_signal_full">ಫೋನ್ ಸಂಕೇತ ಪೂರ್ಣ.</string>
+    <string name="accessibility_no_data">ಡೇಟಾ ಇಲ್ಲ.</string>
+    <string name="accessibility_data_one_bar">ಡೇಟಾ ಒಂದು ಪಟ್ಟಿ.</string>
+    <string name="accessibility_data_two_bars">ಡೇಟಾ ಎರಡು ಪಟ್ಟಿಗಳು.</string>
+    <string name="accessibility_data_three_bars">ಡೇಟಾ ಮೂರು ಪಟ್ಟಿಗಳು.</string>
+    <string name="accessibility_data_signal_full">ಡೇಟಾ ಸಂಕೇತ ಪೂರ್ಣ.</string>
+    <string name="accessibility_wifi_name">%s ಗೆ ಸಂಪರ್ಕಿತವಾಗಿದೆ</string>
+    <string name="accessibility_bluetooth_name">%sಗೆ ಸಂಪರ್ಕಿತವಾಗಿದೆ</string>
+    <string name="accessibility_no_wimax">ವೈಮ್ಯಾಕ್ಸ್ ಇಲ್ಲ.</string>
+    <string name="accessibility_wimax_one_bar">ವೈಮ್ಯಾಕ್ಸ್ ಒಂದು ಪಟ್ಟಿ.</string>
+    <string name="accessibility_wimax_two_bars">ವೈಮ್ಯಾಕ್ಸ್ ಎರಡು ಪಟ್ಟಿಗಳು.</string>
+    <string name="accessibility_wimax_three_bars">ವೈಮ್ಯಾಕ್ಸ್ ಮೂರು ಪಟ್ಟಿಗಳು.</string>
+    <string name="accessibility_wimax_signal_full">ವೈಮ್ಯಾಕ್ಸ್ ಸಂಕೇತ ಪೂರ್ಣ.</string>
+    <string name="accessibility_ethernet_disconnected">ಇಥರ್ನೆಟ್ ಸಂಪರ್ಕ ಕಡಿತಗೊಳಿಸಲಾಗಿದೆ.</string>
+    <string name="accessibility_ethernet_connected">ಇಥರ್ನೆಟ್ ಸಂಪರ್ಕಗೊಳಿಸಲಾಗಿದೆ.</string>
+    <string name="accessibility_no_signal">ಸಂಕೇತವಿಲ್ಲ.</string>
+    <string name="accessibility_not_connected">ಸಂಪರ್ಕಿತವಾಗಿಲ್ಲ.</string>
+    <string name="accessibility_zero_bars">ಸೊನ್ನೆ ಪಟ್ಟಿಗಳು.</string>
+    <string name="accessibility_one_bar">ಒಂದು ಪಟ್ಟಿ.</string>
+    <string name="accessibility_two_bars">ಎರಡು ಪಟ್ಟಿಗಳು.</string>
+    <string name="accessibility_three_bars">ಮೂರು ಪಟ್ಟಿಗಳು.</string>
+    <string name="accessibility_signal_full">ಸಂಕೇತ ತುಂಬಿದೆ.</string>
+    <string name="accessibility_desc_on">ಆನ್.</string>
+    <string name="accessibility_desc_off">ಆಫ್.</string>
+    <string name="accessibility_desc_connected">ಸಂಪರ್ಕಗೊಂಡಿದೆ.</string>
+    <string name="accessibility_desc_connecting">ಸಂಪರ್ಕಗೊಳ್ಳುತ್ತಿದೆ.</string>
+    <string name="accessibility_data_connection_gprs">ಜಿಪಿಆರ್‌ಎಸ್</string>
+    <string name="accessibility_data_connection_1x">1 X</string>
+    <string name="accessibility_data_connection_hspa">HSPA</string>
+    <string name="accessibility_data_connection_3g">3ಜಿ</string>
+    <string name="accessibility_data_connection_3.5g">3.5ಜಿ</string>
+    <string name="accessibility_data_connection_h_plus">HSPAP</string>
+    <string name="accessibility_data_connection_4g">4ಜಿ</string>
+    <string name="accessibility_data_connection_4g_plus">4G+</string>
+    <string name="accessibility_data_connection_lte">LTE</string>
+    <string name="accessibility_data_connection_cdma">CDMA</string>
+    <string name="accessibility_data_connection_roaming">ರೋಮಿಂಗ್</string>
+    <string name="accessibility_data_connection_edge">ಎಡ್ಜ್</string>
+    <string name="accessibility_data_connection_wifi">Wi-Fi</string>
+    <string name="accessibility_no_sim">SIM ಇಲ್ಲ.</string>
+    <string name="accessibility_bluetooth_tether">Bluetooth ಟೆದರ್ ಆಗುತ್ತಿದೆ.</string>
+    <string name="accessibility_airplane_mode">ವಿಮಾನ ಮೋಡ್.</string>
+    <string name="accessibility_no_sims">ಯಾವುದೇ ಸಿಮ್‌ ಇಲ್ಲ.</string>
+    <string name="accessibility_carrier_network_change_mode">ವಾಹಕ ನೆಟ್‌ವರ್ಕ್ ಬದಲಾಯಿಸುವಿಕೆ.</string>
+    <string name="accessibility_battery_level">ಬ್ಯಾಟರಿ %d ಶೇಕಡಾ.</string>
+    <string name="accessibility_settings_button">ಸಿಸ್ಟಂ ಸಂಯೋಜನೆಗಳು.</string>
+    <string name="accessibility_notifications_button">ಸೂಚನೆಗಳು.</string>
+    <string name="accessibility_remove_notification">ಸೂಚನೆ ಖಾಲಿ ಮಾಡಿ.</string>
+    <string name="accessibility_gps_enabled">GPS ಸಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ.</string>
+    <string name="accessibility_gps_acquiring">GPS ಪಡೆಯುತ್ತಿದೆ.</string>
+    <string name="accessibility_tty_enabled">ಟೆಲಿಟೈಪ್‌ರೈಟರ್ ಸಕ್ರಿಯಗೊಳಿಸಿದೆ.</string>
+    <string name="accessibility_ringer_vibrate">ರಿಂಗರ್ ಕಂಪನ.</string>
+    <string name="accessibility_ringer_silent">ರಿಂಗರ್ ನಿಶ್ಯಬ್ದ.</string>
+    <string name="accessibility_recents_item_will_be_dismissed">%s ವಜಾಗೊಳಿಸು.</string>
+    <string name="accessibility_recents_item_dismissed">%s ತೆಗೆದುಹಾಕಲಾಗಿದೆ.</string>
+    <string name="accessibility_recents_all_items_dismissed">ಇತ್ತೀಚಿನ ಎಲ್ಲಾ ಅಪ್ಲಿಕೇಶನ್‌ಗಳನ್ನು ವಜಾಗೊಳಿಸಲಾಗಿದೆ.</string>
+    <string name="accessibility_recents_item_launched">%s ಪ್ರಾರಂಭಿಸಲಾಗುತ್ತಿದೆ.</string>
+    <string name="accessibility_recents_task_header">%1$s %2$s</string>
+    <string name="accessibility_notification_dismissed">ಸೂಚನೆ ವಜಾಗೊಳಿಸಿದೆ.</string>
+    <string name="accessibility_desc_notification_shade">ಸೂಚನೆ ಶೇಡ್.</string>
+    <string name="accessibility_desc_quick_settings">ತ್ವರಿತ ಸಂಯೋಜನೆಗಳು.</string>
+    <string name="accessibility_desc_lock_screen">ಲಾಕ್ ಸ್ಕ್ರೀನ್</string>
+    <string name="accessibility_desc_settings">ಸೆಟ್ಟಿಂಗ್‌ಗಳು</string>
+    <string name="accessibility_desc_recent_apps">ಇತ್ತೀಚಿನ ಆಪ್‍ಗಳ ಕೀ</string>
+    <string name="accessibility_desc_close">ಮುಚ್ಚು</string>
+    <string name="accessibility_quick_settings_user">ಬಳಕೆದಾರ %s.</string>
+    <string name="accessibility_quick_settings_wifi">%1$s</string>
+    <string name="accessibility_quick_settings_wifi_changed_off">Wi-Fi ಆಫ್ ಮಾಡಲಾಗಿದೆ</string>
+    <string name="accessibility_quick_settings_wifi_changed_on">Wi-Fi ಆನ್ ಮಾಡಲಾಗಿದೆ</string>
+    <string name="accessibility_quick_settings_mobile">ಮೊಬೈಲ್ %1$s. %2$s. %3$s.</string>
+    <string name="accessibility_quick_settings_battery">ಬ್ಯಾಟರಿ %s.</string>
+    <string name="accessibility_quick_settings_airplane_off">ಏರ್‌ಪ್ಲೇನ್ ಮೋಡ್ ಆಫ್ ಆಗಿದೆ</string>
+    <string name="accessibility_quick_settings_airplane_on">ಏರ್‌ಪ್ಲೇನ್ ಮೋಡ್ ಆನ್ ಆಗಿದೆ</string>
+    <string name="accessibility_quick_settings_airplane_changed_off">ಏರ್‌ಪ್ಲೇನ್ ಮೋಡ್ ಆಫ್ ಮಾಡಲಾಗಿದೆ</string>
+    <string name="accessibility_quick_settings_airplane_changed_on">ಏರ್‌ಪ್ಲೇನ್ ಮೋಡ್ ಆನ್ ಮಾಡಲಾಗಿದೆ</string>
+    <string name="accessibility_quick_settings_dnd_priority_on">ಅಡಚಣೆ ಮಾಡಬೇಡಿ ಆನ್, ಆದ್ಯತೆ ಮಾತ್ರ.</string>
+    <string name="accessibility_quick_settings_dnd_none_on">ಅಡಚಣೆ ಮಾಡಬೇಡಿ ಆನ್ ಆಗಿದೆ, ಒಟ್ಟು ನಿಶ್ಯಬ್ಧ.</string>
+    <string name="accessibility_quick_settings_dnd_alarms_on">ಅಲಾರಮ್‌‌ಗಳಿಗೆ ಮಾತ್ರ ಅಡಚಣೆ ಮಾಡಬೇಡಿ.</string>
+    <string name="accessibility_quick_settings_dnd_off">ಅಡಚಣೆ ಮಾಡಬೇಡಿ ಆಫ್ ಆಗಿದೆ.</string>
+    <string name="accessibility_quick_settings_dnd_changed_off">ತೊಂದರೆ ಮಾಡಬೇಡಿ ಆಫ್ ಮಾಡಲಾಗಿದೆ.</string>
+    <string name="accessibility_quick_settings_dnd_changed_on">ಅಡಚಣೆ ಮಾಡಬೇಡಿ ಆನ್ ಮಾಡಲಾಗಿದೆ.</string>
+    <string name="accessibility_quick_settings_bluetooth_off">Bluetooth ಆಫ್ ಆಗಿದೆ</string>
+    <string name="accessibility_quick_settings_bluetooth_on">Bluetooth ಆನ್ ಆಗಿದೆ</string>
+    <string name="accessibility_quick_settings_bluetooth_connecting">Bluetooth ಸಂಪರ್ಕಗೊಳ್ಳುತ್ತಿದೆ</string>
+    <string name="accessibility_quick_settings_bluetooth_connected">Bluetooth ಸಂಪರ್ಕಿತವಾಗಿದೆ</string>
+    <string name="accessibility_quick_settings_bluetooth_changed_off">Bluetooth ಆಫ್ ಮಾಡಲಾಗಿದೆ</string>
+    <string name="accessibility_quick_settings_bluetooth_changed_on">Bluetooth ಆನ್ ಮಾಡಲಾಗಿದೆ</string>
+    <string name="accessibility_quick_settings_location_off">ಸ್ಥಳ ವರದಿ ಮಾಡುವಿಕೆ ಆಫ್ ಆಗಿದೆ</string>
+    <string name="accessibility_quick_settings_location_on">ಸ್ಥಳ ವರದಿ ಮಾಡುವಿಕೆ ಆನ್ ಆಗಿದೆ</string>
+    <string name="accessibility_quick_settings_location_changed_off">ಸ್ಥಳ ವರದಿ ಮಾಡುವಿಕೆ ಆಫ್ ಮಾಡಲಾಗಿದೆ</string>
+    <string name="accessibility_quick_settings_location_changed_on">ಸ್ಥಳ ವರದಿ ಮಾಡುವಿಕೆ ಆನ್ ಮಾಡಲಾಗಿದೆ</string>
+    <string name="accessibility_quick_settings_alarm">%s ಗಾಗಿ ಅಲಾರಂ ಹೊಂದಿಸಿದೆ.</string>
+    <string name="accessibility_quick_settings_close">ಪ್ಯಾನೆಲ್ ಮುಚ್ಚು.</string>
+    <string name="accessibility_quick_settings_more_time">ಹೆಚ್ಚು ಸಮಯ.</string>
+    <string name="accessibility_quick_settings_less_time">ಕಡಿಮೆ ಸಮಯ.</string>
+    <string name="accessibility_quick_settings_flashlight_off">ಫ್ಲ್ಯಾಶ್‌ಲೈಟ್ ಆಫ್ ಆಗಿದೆ</string>
+    <string name="accessibility_quick_settings_flashlight_on">ಫ್ಲ್ಯಾಶ್‌ಲೈಟ್ ಆನ್ ಆಗಿದೆ</string>
+    <string name="accessibility_quick_settings_flashlight_changed_off">ಫ್ಲ್ಯಾಶ್‌ಲೈಟ್ ಆಫ್ ಮಾಡಿದೆ</string>
+    <string name="accessibility_quick_settings_flashlight_changed_on">ಫ್ಲ್ಯಾಶ್‌ಲೈಟ್ ಆನ್ ಮಾಡಿದೆ</string>
+    <string name="accessibility_quick_settings_color_inversion_changed_off">ಬಣ್ಣದ ವ್ಯತ್ಯಯ ಆಫ್ ಮಾಡಿದೆ</string>
+    <string name="accessibility_quick_settings_color_inversion_changed_on">ಬಣ್ಣದ ವ್ಯತ್ಯಯ ಆನ್ ಮಾಡಿದೆ</string>
+    <string name="accessibility_quick_settings_hotspot_changed_off">ಮೊಬೈಲ್ ಹಾಟ್‌ಸ್ಪಾಟ್ ಆಫ್ ಮಾಡಲಾಗಿದೆ</string>
+    <string name="accessibility_quick_settings_hotspot_changed_on">ಮೊಬೈಲ್ ಹಾಟ್‌ಸ್ಪಾಟ್ ಆನ್ ಮಾಡಲಾಗಿದೆ</string>
+    <string name="accessibility_casting_turned_off">ಪರದೆ ಕಾಸ್ಟಿಂಗ್ ನಿಂತಿದೆ</string>
+    <string name="accessibility_brightness">ಪ್ರದರ್ಶನ ಪ್ರಕಾಶಮಾನತೆ</string>
+    <string name="data_usage_disabled_dialog_3g_title">2G-3G ಡೇಟಾವನ್ನು ತಡೆಯಲಾಗಿದೆ</string>
+    <string name="data_usage_disabled_dialog_4g_title">4G ಡೇಟಾ ತಡೆಯಲಾಗಿದೆ</string>
+    <string name="data_usage_disabled_dialog_mobile_title">ಸೆಲ್ಯುಲಾರ್ ಡೇಟಾ ತಡೆಯಲಾಗಿದೆ</string>
+    <string name="data_usage_disabled_dialog_title">ಮೊಬೈಲ್ ಡೇಟಾ ಆಫ್ ಆಗಿದೆ</string>
+    <string name="data_usage_disabled_dialog">"ಏಕೆಂದರೆ ನಿಮ್ಮ ಹೊಂದಾಣಿಕೆ ಡೇಟಾ ಮಿತಿಯನ್ನು ತಲುಪಲಾಗಿದೆ, ಈ ಆವರ್ತನೆಯ ಉಳಿದ ಭಾಗಕ್ಕೆ ಸಾಧನವು ಡೇಟಾ ಬಳಕೆಯನ್ನು ತಡೆಯಲಾಗಿದೆ.
+
+ಮುಂದುವರೆಯುವಿಕೆಯು ನಿಮ್ಮ ವಾಹಕದ ಶುಲ್ಕಗಳಿಗೆ ಕಾರಣವಾಗಬಹುದು."</string>
+    <string name="data_usage_disabled_dialog_enable">ಪುನರಾರಂಭಿಸಿ</string>
+    <string name="status_bar_settings_signal_meter_disconnected">ಇಂಟರ್ನೆಟ್ ಸಂಪರ್ಕ ಇಲ್ಲ</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">Wi-Fi ಸಂಪರ್ಕಿಸಿದೆ</string>
+    <string name="gps_notification_searching_text">GPS ಗೆ ಹುಡುಕುತ್ತಿದೆ</string>
+    <string name="gps_notification_found_text">ಸ್ಥಳವನ್ನು GPS ನಿಗದಿಪಡಿಸಿ</string>
+    <string name="accessibility_location_active">ಸ್ಥಳ ವಿನಂತಿಗಳು ಸಕ್ರಿಯವಾಗಿದೆ</string>
+    <string name="accessibility_clear_all">ಎಲ್ಲ ಸೂಚನೆಗಳನ್ನು ಖಾಲಿ ಮಾಡಿ.</string>
+    <string name="status_bar_notification_inspect_item_title">ಅಧಿಸೂಚನೆ ಸಂಯೋಜನೆಗಳು</string>
+    <string name="status_bar_notification_app_settings_title">%s ಸೆಟ್ಟಿಂಗ್‌ಗಳು</string>
+    <string name="accessibility_rotation_lock_off">ಪರದೆಯು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ತಿರುಗುತ್ತದೆ.</string>
+    <string name="accessibility_rotation_lock_on_landscape">ಲ್ಯಾಂಡ್‌ಸ್ಕೇಪ್ ಅಭಿಮುಖದಲ್ಲಿ ಪರದೆ ಲಾಕ್ ಆಗಿದೆ.</string>
+    <string name="accessibility_rotation_lock_on_portrait">ಪೋರ್ಟ್ರೇಟ್ ಅಭಿಮುಖದಲ್ಲಿ ಪರದೆ ಲಾಕ್ ಆಗಿದೆ.</string>
+    <string name="accessibility_rotation_lock_off_changed">ಪರದೆ ಇದೀಗ ಸ್ವಯಂಚಾಲಿತವಾಗಿ ತಿರುಗುತ್ತದೆ</string>
+    <string name="accessibility_rotation_lock_on_landscape_changed">ಲ್ಯಾಂಡ್‌ಸ್ಕೇಪ್ ಓರಿಯಂಟೇಶನ್‌ನಲ್ಲಿ ಪರದೆ ಇದೀಗ ಲಾಕ್ ಆಗಿದೆ</string>
+    <string name="accessibility_rotation_lock_on_portrait_changed">ಪೋರ್ಟ್ರೈಟ್ ಓರಿಯಂಟೇಶನ್‌ನಲ್ಲಿ ಪರದೆ ಇದೀಗ ಲಾಕ್ ಆಗಿದೆ</string>
+    <string name="dessert_case">ಸಿಹಿ ಪೆಟ್ಟಿಗೆ</string>
+    <string name="start_dreams">ಡೇಡ್ರೀಮ್</string>
+    <string name="ethernet_label">ಈಥರ್ನೇಟ್</string>
+    <string name="quick_settings_dnd_label">ಅಡಚಣೆ ಮಾಡಬೇಡಿ</string>
+    <string name="quick_settings_dnd_priority_label">ಆದ್ಯತೆ ಮಾತ್ರ</string>
+    <string name="quick_settings_dnd_alarms_label">ಅಲಾರಮ್‌ಗಳು ಮಾತ್ರ</string>
+    <string name="quick_settings_dnd_none_label">ಸಂಪೂರ್ಣ ನಿಶ್ಯಬ್ಧ</string>
+    <string name="quick_settings_bluetooth_label">Bluetooth</string>
+    <string name="quick_settings_bluetooth_multiple_devices_label">Bluetooth (%d ಸಾಧನಗಳು)</string>
+    <string name="quick_settings_bluetooth_off_label">Bluetooth ಆಫ್</string>
+    <string name="quick_settings_bluetooth_detail_empty_text">ಯಾವುದೇ ಜೋಡಿಸಲಾದ ಸಾಧನಗಳು ಲಭ್ಯವಿಲ್ಲ</string>
+    <string name="quick_settings_brightness_label">ಪ್ರಖರತೆ</string>
+    <string name="quick_settings_rotation_unlocked_label">ಸ್ವಯಂ-ತಿರುಗುವಿಕೆ</string>
+    <string name="quick_settings_rotation_locked_label">ತಿರುಗುವಿಕೆ ಲಾಕ್ ಆಗಿದೆ</string>
+    <string name="quick_settings_rotation_locked_portrait_label">ಪೋಟ್ರೇಟ್</string>
+    <string name="quick_settings_rotation_locked_landscape_label">ಲ್ಯಾಂಡ್‌ಸ್ಕೇಪ್</string>
+    <string name="quick_settings_ime_label">ಇನ್‌ಪುಟ್ ವಿಧಾನ</string>
+    <string name="quick_settings_location_label">ಸ್ಥಳ</string>
+    <string name="quick_settings_location_off_label">ಸ್ಥಳ ಆಫ್</string>
+    <string name="quick_settings_media_device_label">ಮಾಧ್ಯಮ ಸಾಧನ</string>
+    <string name="quick_settings_rssi_label">RSSI</string>
+    <string name="quick_settings_rssi_emergency_only">ತುರ್ತು ಕರೆಗಳು ಮಾತ್ರ</string>
+    <string name="quick_settings_settings_label">ಸಂಯೋಜನೆಗಳು</string>
+    <string name="quick_settings_time_label">ಸಮಯ</string>
+    <string name="quick_settings_user_label">ನಾನು</string>
+    <string name="quick_settings_user_title">ಬಳಕೆದಾರ</string>
+    <string name="quick_settings_user_new_user">ಹೊಸ ಬಳಕೆದಾರರು</string>
+    <string name="quick_settings_wifi_label">Wi-Fi</string>
+    <string name="quick_settings_wifi_not_connected">ಸಂಪರ್ಕಿತವಾಗಿಲ್ಲ</string>
+    <string name="quick_settings_wifi_no_network">ನೆಟ್‌ವರ್ಕ್ ಇಲ್ಲ</string>
+    <string name="quick_settings_wifi_off_label">Wi-Fi ಆಫ್</string>
+    <string name="quick_settings_wifi_detail_empty_text">ಯಾವುದೇ Wi-Fi ನೆಟ್‌ವರ್ಕ್‌ಗಳು ಲಭ್ಯವಿಲ್ಲ</string>
+    <string name="quick_settings_cast_title">ಬಿತ್ತರಿಸು</string>
+    <string name="quick_settings_casting">ಬಿತ್ತರಿಸಲಾಗುತ್ತಿದೆ</string>
+    <string name="quick_settings_cast_device_default_name">ಹೆಸರಿಸದಿರುವ ಸಾಧನ</string>
+    <string name="quick_settings_cast_device_default_description">ಬಿತ್ತರಿಸಲು ಸಿದ್ದವಾಗಿದೆ</string>
+    <string name="quick_settings_cast_detail_empty_text">ಯಾವುದೇ ಸಾಧನಗಳು ಲಭ್ಯವಿಲ್ಲ</string>
+    <string name="quick_settings_brightness_dialog_title">ಪ್ರಖರತೆ</string>
+    <string name="quick_settings_brightness_dialog_auto_brightness_label">ಆಟೋ</string>
+    <string name="quick_settings_inversion_label">ಬಣ್ಣಗಳನ್ನು ಬದಲಾಯಿಸಿ</string>
+    <string name="quick_settings_color_space_label">ಬಣ್ಣ ತಿದ್ದುಪಡಿ ಮೋಡ್</string>
+    <string name="quick_settings_more_settings">ಹೆಚ್ಚಿನ ಸೆಟ್ಟಿಂಗ್‌ಗಳು</string>
+    <string name="quick_settings_done">ಮುಗಿದಿದೆ</string>
+    <string name="quick_settings_connected">ಸಂಪರ್ಕಗೊಂಡಿದೆ</string>
+    <string name="quick_settings_connecting">ಸಂಪರ್ಕಿಸಲಾಗುತ್ತಿದೆ...</string>
+    <string name="quick_settings_tethering_label">ಟೆಥರಿಂಗ್‌</string>
+    <string name="quick_settings_hotspot_label">ಹಾಟ್‌ಸ್ಪಾಟ್</string>
+    <string name="quick_settings_notifications_label">ಅಧಿಸೂಚನೆಗಳು</string>
+    <string name="quick_settings_flashlight_label">ಫ್ಲಾಶ್‌ಲೈಟ್‌</string>
+    <string name="quick_settings_cellular_detail_title">ಮೊಬೈಲ್ ಡೇಟಾ</string>
+    <string name="quick_settings_cellular_detail_data_usage">ಡೇಟಾ ಬಳಕೆ</string>
+    <string name="quick_settings_cellular_detail_remaining_data">ಉಳಿದಿರುವ ಡೇಟಾ</string>
+    <string name="quick_settings_cellular_detail_over_limit">ಮಿತಿ ತಲುಪಿದೆ – ಡೇಟಾ ಬಳಕೆ ವಿರಾಮಗೊಳಿಸಿದೆ</string>
+    <string name="quick_settings_cellular_detail_data_used">%s ಬಳಸಲಾಗಿದೆ</string>
+    <string name="quick_settings_cellular_detail_data_limit">%s ಮಿತಿ</string>
+    <string name="quick_settings_cellular_detail_data_warning">%s ಎಚ್ಚರಿಕೆ</string>
+    <string name="recents_empty_message">ಯಾವುದೇ ಇತ್ತೀಚಿನ ಆಪ್‌ಗಳಿಲ್ಲ</string>
+    <string name="recents_app_info_button_label">ಅಪ್ಲಿಕೇಶನ್ ಮಾಹಿತಿ</string>
+    <string name="recents_lock_to_app_button_label">ಅಪ್ಲಿಕೇಶನ್‌‌ಗೆ ಲಾಕ್‌</string>
+    <string name="recents_search_bar_label">ಹುಡುಕಾಟ</string>
+    <string name="recents_launch_error_message">%s ಪ್ರಾರಂಭಿಸಲು ಸಾದ್ಯವಿಲ್ಲ.</string>
+    <string name="recents_dismiss_all_message">ಎಲ್ಲಾ ಅಪ್ಲಿಕೇಶನ್‌ಗಳನ್ನು ವಜಾಗೊಳಿಸಿ</string>
+    <string name="recents_multistack_add_stack_dialog_split_horizontal">ಅಡ್ಡಲಾಗಿ ವಿಭಜಿಸಿದ</string>
+    <string name="recents_multistack_add_stack_dialog_split_vertical">ಲಂಬವಾಗಿ ವಿಭಜಿಸಿದ</string>
+    <string name="recents_multistack_add_stack_dialog_split_custom">ಕಸ್ಟಮ್ ವಿಭಜಿಸಿದ</string>
+    <string name="expanded_header_battery_charged">ಚಾರ್ಜ್ ಆಗಿದೆ</string>
+    <string name="expanded_header_battery_charging">ಚಾರ್ಜ್ ಆಗುತ್ತಿದೆ</string>
+    <string name="expanded_header_battery_charging_with_time">%s ಪೂರ್ಣಗೊಳ್ಳುವವರೆಗೆ</string>
+    <string name="expanded_header_battery_not_charging">ಚಾರ್ಜ್‌ ಆಗುತ್ತಿಲ್ಲ</string>
+    <string name="ssl_ca_cert_warning">"ನೆಟ್‌ವರ್ಕ್‌ ಅನ್ನು
+ವೀಕ್ಷಿಸಬಹುದು"</string>
+    <string name="description_target_search">ಹುಡುಕಿ</string>
+    <string name="description_direction_up">%s ಗಾಗಿ ಮೇಲಕ್ಕೆ ಸ್ಲೈಡ್ ಮಾಡಿ.</string>
+    <string name="description_direction_left">%s ಗಾಗಿ ಎಡಕ್ಕೆ ಸ್ಲೈಡ್ ಮಾಡಿ.</string>
+    <string name="zen_priority_introduction">ಅಲಾರಮ್‌ಗಳು, ಜ್ಞಾಪನೆಗಳು, ಈವೆಂಟ್‌ಗಳು ಮತ್ತು ನೀವು ಸೂಚಿಸುವ ಕರೆದಾರರನ್ನು ಹೊರತುಪಡಿಸಿ, ಧ್ವನಿಗಳು ಮತ್ತು ವೈಬ್ರೇಶನ್‌ಗಳಿಂದ ನಿಮಗೆ ತೊಂದರೆ ಆಗುವುದಿಲ್ಲ.</string>
+    <string name="zen_priority_customize_button">ಕಸ್ಟಮೈಸ್ ಮಾಡು</string>
+    <string name="zen_silence_introduction_voice">ಇದು ಅಲಾರಮ್‌ಗಳು, ಸಂಗೀತ, ವೀಡಿಯೊಗಳು, ಮತ್ತು ಆಟಗಳು ಸೇರಿದಂತೆ ಎಲ್ಲಾ ಧ್ವನಿಗಳು ಮತ್ತು ವೈಬ್ರೇಶನ್‌ಗಳನ್ನು ನಿರ್ಬಂಧಿಸುತ್ತದೆ. ನಿಮಗೆ ಈಗಲೂ ಫೋನ್ ಕರೆಗಳನ್ನು ಮಾಡಲು ಸಾಧ್ಯವಾಗುವುದಿಲ್ಲ.</string>
+    <string name="zen_silence_introduction">ಇದು ಅಲಾರಮ್‌ಗಳು, ಸಂಗೀತ, ವೀಡಿಯೊಗಳು, ಮತ್ತು ಆಟಗಳು ಸೇರಿದಂತೆ ಎಲ್ಲಾ ಧ್ವನಿಗಳು ಮತ್ತು ವೈಬ್ರೇಶನ್‌ಗಳನ್ನು ನಿರ್ಬಂಧಿಸುತ್ತದೆ.</string>
+    <string name="keyguard_more_overflow_text">+%d</string>
+    <string name="speed_bump_explanation">ಕೆಳಗೆ ಕಡಿಮೆ ಅವಸರದ ಅಧಿಸೂಚನೆಗಳು</string>
+    <string name="notification_tap_again">ತೆರೆಯಲು ಮತ್ತೆ ಸ್ಪರ್ಶಿಸಿ</string>
+    <string name="keyguard_unlock">ಅನ್‌ಲಾಕ್‌ ಮಾಡಲು ಮೇಲೆ ಸ್ವೈಪ್‌ ಮಾಡಿ</string>
+    <string name="phone_hint">ಫೋನ್‌ಗಾಗಿ ಐಕಾನ್‌ನಿಂದ ಉಜ್ಜಿ</string>
+    <string name="voice_hint">ಧ್ವನಿ ಸಹಾಯಕ್ಕಾಗಿ ಐಕಾನ್‌ನಿಂದ ಸ್ವೈಪ್ ಮಾಡಿ</string>
+    <string name="camera_hint">ಕ್ಯಾಮೆರಾಗಾಗಿ ಐಕಾನ್‌ನಿಂದ ಉಜ್ಜಿ</string>
+    <string name="interruption_level_none_with_warning">ಒಟ್ಟು ಮೌನ. ಇದು ಪರದೆ ರೀಡರ್ ಅನ್ನು ಮೌನವಾಗಿರಿಸುತ್ತದೆ.</string>
+    <string name="interruption_level_none">ಸಂ.ನಿಶ್ಯ.</string>
+    <string name="interruption_level_priority">ಆದ್ಯತೆ.ಮಾ.</string>
+    <string name="interruption_level_alarms">ಅಲಾರಮ್‌ಗಳು ಮಾತ್ರ</string>
+    <string name="interruption_level_none_twoline">"ಸಂಪೂರ್ಣ
+ನಿಶ್ಯಬ್ಧ"</string>
+    <string name="interruption_level_priority_twoline">"ಆದ್ಯತೆ
+ಮಾತ್ರ"</string>
+    <string name="interruption_level_alarms_twoline">"ಅಲಾರಮ್‌ಗಳು
+ಮಾತ್ರ"</string>
+    <string name="keyguard_indication_charging_time">ಚಾರ್ಜ್ ಆಗುತ್ತಿದೆ ( ಪೂರ್ತಿ ಆಗುವವರೆಗೆ %s)</string>
+    <string name="accessibility_multi_user_switch_switcher">ಬಳಕೆದಾರರನ್ನು ಬದಲಾಯಿಸು</string>
+    <string name="accessibility_multi_user_switch_switcher_with_current">ಬಳಕೆದಾರರನ್ನು ಬದಲಿಸಿ, ಪ್ರಸ್ತುತ ಬಳಕೆದಾರ %s</string>
+    <string name="accessibility_multi_user_switch_inactive">%s ಪ್ರಸ್ತುತ ಬಳಕೆದಾರ</string>
+    <string name="accessibility_multi_user_switch_quick_contact">ಪ್ರೊಫೈಲ್ ತೋರಿಸು</string>
+    <string name="user_add_user">ಬಳಕೆದಾರರನ್ನು ಸೇರಿಸಿ</string>
+    <string name="user_new_user_name">ಹೊಸ ಬಳಕೆದಾರರು</string>
+    <string name="guest_nickname">ಅತಿಥಿ</string>
+    <string name="guest_new_guest">ಅತಿಥಿ ಸೇರಿಸಿ</string>
+    <string name="guest_exit_guest">ಅತಿಥಿ ತೆಗೆದುಹಾಕಿ</string>
+    <string name="guest_exit_guest_dialog_title">ಅತಿಥಿಯನ್ನು ತೆಗೆದುಹಾಕುವುದೇ?</string>
+    <string name="guest_exit_guest_dialog_message">ಈ ಸೆಷನ್‌ನಲ್ಲಿರುವ ಎಲ್ಲಾ ಆಪ್‌ಗಳು ಮತ್ತು ಡೇಟಾವನ್ನು ಅಳಿಸಲಾಗುತ್ತದೆ</string>
+    <string name="guest_exit_guest_dialog_remove">ತೆಗೆದುಹಾಕು</string>
+    <string name="guest_wipe_session_title">ಅತಿಥಿಯಾಗಿ ಮರಳಿ ಸ್ವಾಗತ!</string>
+    <string name="guest_wipe_session_message">ಹೊಸ ಸೆಷನ್ ಮುಂದುವರಿಸಲು ನೀವು ಬಯಸುವಿರಾ?</string>
+    <string name="guest_wipe_session_wipe">ಪ್ರಾರಂಭಿಸಿ</string>
+    <string name="guest_wipe_session_dontwipe">ಹೌದು, ಮುಂದುವರಿಸಿ</string>
+    <string name="guest_notification_title">ಅತಿಥಿ ಬಳಕೆದಾರ</string>
+    <string name="guest_notification_text">ಆಪ್‌. ಡೇಟಾ ಅಳಿಸಲು, ಅತಿಥಿ. ತೆಗೆದುಹಾಕಿ</string>
+    <string name="guest_notification_remove_action">ಅತಿಥಿಯನ್ನು ತೆಗೆದುಹಾಕಿ</string>
+    <string name="user_add_user_title">ಹೊಸ ಬಳಕೆದಾರರನ್ನು ಸೇರಿಸುವುದೇ?</string>
+    <string name="user_add_user_message_short">"ನೀವು ಒಬ್ಬ ಹೊಸ ಬಳಕೆದಾರರನ್ನು ಸೇರಿಸಿದಾಗ, ಆ ವ್ಯಕ್ತಿಯು ಅವರ ಸ್ಥಳವನ್ನು ಸ್ಥಾಪಿಸಬೇಕಾಗುತ್ತದೆ.
+
+ಯಾವುದೇ ಬಳಕೆದಾರರು ಎಲ್ಲಾ ಇತರೆ ಬಳಕೆದಾರರಿಗಾಗಿ ಅಪ್ಲಿಕೇಶನ್‌ಗಳನ್ನು ನವೀಕರಿಸಬಹುದು."</string>
+    <string name="battery_saver_notification_title">ಬ್ಯಾಟರಿ ರಕ್ಷಕ ಆನ್ ಆಗಿದೆ</string>
+    <string name="battery_saver_notification_text">ಕಾರ್ಯನಿರ್ವಹಣೆ ಮತ್ತು ಹಿನ್ನೆಲೆ ಡೇಟಾ ಕಡಿಮೆ ಮಾಡುತ್ತದೆ</string>
+    <string name="battery_saver_notification_action_text">ಬ್ಯಾಟರಿ ಉಳಿತಾಯವನ್ನು ಆಫ್ ಮಾಡಿ</string>
+    <string name="notification_hidden_text">ವಿಷಯಗಳನ್ನು ಮರೆಮಾಡಲಾಗಿದೆ</string>
+    <string name="media_projection_dialog_text">ನಿಮ್ಮ ಪರದೆಯ ಮೇಲೆ ಪ್ರದರ್ಶಿಸಲಾಗುವ ಎಲ್ಲವನ್ನೂ %s ಯು ಸೆರೆಹಿಡಿಯಲು ಪ್ರಾರಂಭಿಸುತ್ತದೆ.</string>
+    <string name="media_projection_remember_text">ಮತ್ತೊಮ್ಮೆ ತೋರಿಸದಿರಿ</string>
+    <string name="clear_all_notifications_text">ಎಲ್ಲವನ್ನೂ ತೆರವುಗೊಳಿಸು</string>
+    <string name="media_projection_action_text">ಈಗ ಪ್ರಾರಂಭಿಸಿ</string>
+    <string name="empty_shade_text">ಯಾವುದೇ ಅಧಿಸೂಚನೆಗಳಿಲ್ಲ</string>
+    <string name="device_owned_footer">ಸಾಧನವನ್ನು ಪರಿವೀಕ್ಷಿಸಬಹುದಾಗಿದೆ</string>
+    <string name="profile_owned_footer">ಪ್ರೊಫೈಲ್ ಅನ್ನು ಪರಿವೀಕ್ಷಿಸಬಹುದಾಗಿದೆ</string>
+    <string name="vpn_footer">ನೆಟ್‌ವರ್ಕ್ ಅನ್ನು ವೀಕ್ಷಿಸಬಹುದಾಗಿ</string>
+    <string name="monitoring_title_device_owned">ಸಾಧನ ಪರಿವೀಕ್ಷಣೆ</string>
+    <string name="monitoring_title_profile_owned">ಪ್ರೊಫೈಲ್ ಮೇಲ್ವಿಚಾರಣೆ</string>
+    <string name="monitoring_title">ನೆಟ್‌ವರ್ಕ್‌ ಪರಿವೀಕ್ಷಣೆ</string>
+    <string name="disable_vpn">VPN ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ</string>
+    <string name="disconnect_vpn">VPN ಸಂಪರ್ಕಕಡಿತಗೊಳಿಸಿ</string>
+    <string name="monitoring_description_device_owned">"ನಿಮ್ಮ ಸಾಧನವನ್ನು %1$s ಅವರು ನಿರ್ವಹಿಸುತ್ತಿದ್ದಾರೆ.
+
+ನಿಮ್ಮ ನಿರ್ವಾಹಕರು ಸಂಯೋಜನೆಗಳು, ಕಾರ್ಪೊರೇಟ್ ಪ್ರವೇಶ, ಅಪ್ಲಿಕೇಶನ್‌ಗಳು ಹಾಗೂ ನಿಮ್ಮ ಸಾಧನದೊಂದಿಗೆ ಸಂಬಂಧಿಸಿದ ಡೇಟಾ ಮತ್ತು ನಿಮ್ಮ ಸಾಧನದ ಸ್ಥಳ ಮಾಹಿತಿಯನ್ನು ಮೇಲ್ವಿಚಾರಣೆ ಮಾಡುವ ಮತ್ತು ನಿರ್ವಹಿಸುವ ಸಾಮರ್ಥ್ಯವನ್ನು ಹೊಂದಿದ್ದಾರೆ."</string>
+    <string name="monitoring_description_vpn">"ನೀವು VPN ಸಂಪರ್ಕ ಹೊಂದಿಸಲು ಅಪ್ಲಿಕೇಶನ್‌ಗೆ ಅನುಮತಿ ನೀಡಿರುವಿರಿ.
+
+ಈ ಆಪ್ ಇಮೇಲ್‌ಗಳು, ಆಪ್‌ಗಳು ಮತ್ತು ವೆಬ್‌ಸೈಟ್‌ಗಳನ್ನು ಒಳಗೊಂಡಂತೆ ನಿಮ್ಮ ನೆಟ್‌ವರ್ಕ್ ಚಟುವಟಿಕೆಯ ಮೇಲ್ವಿಚಾರಣೆ ಮಾಡಬಹುದು."</string>
+    <string name="monitoring_description_vpn_device_owned">"ನಿಮ್ಮ ಸಾಧನವನ್ನು %1$s ರವರು ನಿರ್ವಹಿಸುತ್ತಿದ್ದಾರೆ.
+
+ನಿಮ್ಮ ನಿರ್ವಾಹಕರು ಸಂಯೋಜನೆಗಳು, ಕಾರ್ಪೊರೇಟ್ ಪ್ರವೇಶ, ಅಪ್ಲಿಕೇಶನ್‌ಗಳು ಹಾಗೂ ನಿಮ್ಮ ಸಾಧನದೊಂದಿಗೆ ಸಂಬಂಧಿಸಿದ ಡೇಟಾ ಮತ್ತು ನಿಮ್ಮ ಸಾಧನದ ಸ್ಥಳ ಮಾಹಿತಿಯನ್ನು ಮೇಲ್ವಿಚಾರಣೆ ಮಾಡಬಹುದು ಮತ್ತು ನಿರ್ವಹಿಸಬಹುದು.
+
+ನೀವು VPN ಗೆ ಸಂಪರ್ಕವನ್ನು ಹೊಂದಿರುವಿರಿ, ಅದು ಇಮೇಲ್‌ಗಳು, ಅಪ್ಲಿಕೇಶನ್‌ಗಳು, ಮತ್ತು ವೆಬ್‌ಸೈಟ್‌ಗಳನ್ನು ಒಳಗೊಂಡಂತೆ ನಿಮ್ಮ ನೆಟ್‌ವರ್ಕ್ ಚಟುವಟಿಕೆಯನ್ನು ನಿರ್ವಹಿಸಬಹುದು.
+
+ಹೆಚ್ಚಿನ ಮಾಹಿತಿಗಾಗಿ, ನಿಮ್ಮ ನಿರ್ವಾಹಕರನ್ನು ಸಂಪರ್ಕಿಸಿ."</string>
+    <string name="monitoring_description_vpn_profile_owned">"ನಿಮ್ಮ ಕೆಲಸದ ಪ್ರೊಫೈಲ್‌ ಅನ್ನು%1$s ಮೂಲಕ ನಿರ್ವಹಿಸಲಾಗುತ್ತಿದೆ.
+
+ನಿಮ್ಮ ನಿರ್ವಾಹಕರು ಇಮೇಲ್‌ಗಳು, ಅಪ್ಲಿಕೇಶನ್‌ಗಳು ಮತ್ತು ವೆಬ್‌ಸೈಟ್‌ಗಳನ್ನು ಒಳಗೊಂಡಂತೆ ನಿಮ್ಮ ನೆಟ್‌ವರ್ಕ್ ಚಟುವಟಿಕೆಯ ಮೇಲ್ವಿಚಾರಣೆ ಮಾಡುವ ಸಾಮರ್ಥ್ಯವನ್ನು ಹೊಂದಿದ್ದಾರೆ.
+
+ಹೆಚ್ಚಿನ ಮಾಹಿತಿಗಾಗಿ, ನಿಮ್ಮ ನಿರ್ವಾಹಕರನ್ನು ಸಂಪರ್ಕಿಸಿ.
+
+ನಿಮ್ಮ ವೈಯಕ್ತಿಕ ನೆಟ್‌ವರ್ಕ್ ಚಟುವಟಿಕೆಯನ್ನು ಮೇಲ್ವಿಚಾರಣೆ ಮಾಡಬಹುದಾದ VPN ಗೆ ಕೂಡಾ ನೀವು ಸಂಪರ್ಕಗೊಂಡಿರುವಿರಿ."</string>
+    <string name="legacy_vpn_name">VPN</string>
+    <string name="monitoring_description_app">ನೀವು ಇಮೇಲ್‌ಗಳು, ಅಪ್ಲಿಕೇಶನ್‌ಗಳು ಮತ್ತು ವೆಬ್‌ಸೈಟ್‌ಗಳನ್ನು ಒಳಗೊಂಡಂತೆ ನಿಮ್ಮ ನೆಟ್‌ವರ್ಕ್ ಚಟುವಟಿಕೆಯ ಮೇಲ್ವಿಚಾರಣೆ ಮಾಡಬಹುದಾದ %1$s ಗೆ ಸಂಪರ್ಕಗೊಂಡಿರುವಿರಿ.</string>
+    <string name="monitoring_description_app_personal">ನೀವು ಇಮೇಲ್‌ಗಳು, ಅಪ್ಲಿಕೇಶನ್‌ಗಳು ಮತ್ತು ವೆಬ್‌ಸೈಟ್‌ಗಳು ಸೇರಿದಂತೆ ನಿಮ್ಮ ವೈಯಕ್ತಿಕ ನೆಟ್‌ವರ್ಕ್ ಚಟುವಟಿಕೆಯ ಮೇಲ್ವಿಚಾರಣೆ ಮಾಡಬಹುದಾದ %1$s ಗೆ ಸಂಪರ್ಕಗೊಂಡಿರುವಿರಿ.</string>
+    <string name="monitoring_description_app_work">"ನಿಮ್ಮ ಕೆಲಸದ ಪ್ರೊಫೈಲ್‌ ಅನ್ನು %1$s ಮೂಲಕ ನಿರ್ವಹಿಸಲಾಗುತ್ತಿದೆ. ಇದು ಇಮೇಲ್‌ಗಳು, ಅಪ್ಲಿಕೇಶನ್‌ಗಳು, ಮತ್ತು ವೆಬ್‌ಸೈಟ್‌ಗಳನ್ನು ಒಳಗೊಂಡಂತೆ ನಿಮ್ಮ ಕೆಲಸದ ನೆಟ್‌ವರ್ಕ್ ಚಟುವಟಿಕೆಯ ಮೇಲ್ವಿಚಾರಣೆ ಮಾಡಬಹುದಾದ %2$s ಗೆ ಸಂಪರ್ಕಗೊಂಡಿದೆ.
+
+ಹೆಚ್ಚಿನ ಮಾಹಿತಿಗಾಗಿ, ನಿಮ್ಮ ನಿರ್ವಾಹಕರನ್ನು ಸಂಪರ್ಕಿಸಿ."</string>
+    <string name="monitoring_description_app_personal_work">"ನಿಮ್ಮ ಕೆಲಸದ ಪ್ರೊಫೈಲ್‌ ಅನ್ನು %1$s ಮೂಲಕ ನಿರ್ವಹಿಸಲಾಗುತ್ತಿದೆ. ಇದು ಇಮೇಲ್‌ಗಳು, ಅಪ್ಲಿಕೇಶನ್‌ಗಳು, ಮತ್ತು ವೆಬ್‌ಸೈಟ್‌ಗಳನ್ನು ಒಳಗೊಂಡಂತೆ ನಿಮ್ಮ ಕೆಲಸದ ನೆಟ್‌ವರ್ಕ್ ಚಟುವಟಿಕೆಯ ಮೇಲ್ವಿಚಾರಣೆ ಮಾಡಬಹುದಾದ %2$s ಗೆ ಸಂಪರ್ಕಿತಗೊಂಡಿದೆ.
+
+ನೀವು ಕೂಡಾ ವೈಯಕ್ತಿಕ ನೆಟ್‌ವರ್ಕ್ ಚಟುವಟಿಕೆಯ ಮೇಲ್ವಿಚಾರಣೆ ಮಾಡಬಹುದಾದ %3$s ಗೆ ಸಂಪರ್ಕಿತಗೊಂಡಿರುವಿರಿ."</string>
+    <string name="monitoring_description_vpn_app_device_owned">"ನಿಮ್ಮ ಸಾಧನವನ್ನು %1$s ಮೂಲಕ ನಿರ್ವಹಿಸಲಾಗುತ್ತಿದೆ.
+
+ನಿಮ್ಮ ನಿರ್ವಾಹಕರು ಸೆಟ್ಟಿಂಗ್‌ಗಳು, ಕಾರ್ಪೊರೇಟ್ ಪ್ರವೇಶ, ಅಪ್ಲಿಕೇಶನ್‌ಗಳು ಹಾಗೂ ನಿಮ್ಮ ಸಾಧನದೊಂದಿಗೆ ಸಂಬಂಧಿಸಿದ ಡೇಟಾ ಮತ್ತು ನಿಮ್ಮ ಸಾಧನದ ಸ್ಥಳ ಮಾಹಿತಿಯನ್ನು ಮೇಲ್ವಿಚಾರಣೆ ಮಾಡಬಹುದು ಮತ್ತು ನಿರ್ವಹಿಸಬಹುದು.
+
+ಇಮೇಲ್‌ಗಳು, ಅಪ್ಲಿಕೇಶನ್‌ಗಳು ಮತ್ತು ವೆಬ್‌ಸೈಟ್‌ಗಳನ್ನು ಒಳಗೊಂಡಂತೆ ನಿಮ್ಮ ನೆಟ್‌ವರ್ಕ್ ಚಟುವಟಿಕೆಯನ್ನು ಮೇಲ್ವಿಚಾರಣೆ ಮಾಡಬಹುದಾದ %2$s ಗೆ ಸಂಪರ್ಕಿತಗೊಂಡಿರುವಿರಿ.
+
+ಹೆಚ್ಚಿನ ಮಾಹಿತಿಗಾಗಿ, ನಿಮ್ಮ ನಿರ್ವಾಹಕರನ್ನು ಸಂಪರ್ಕಿಸಿ."</string>
+    <string name="keyguard_indication_trust_disabled">ನೀವು ಹಸ್ತಚಾಲಿತವಾಗಿ ಅನ್‌ಲಾಕ್ ಮಾಡುವ ಮೂಲಕ ಸಾಧನವು ಲಾಕ್ ಆಗಿಯೇ ಇರುತ್ತದೆ</string>
+    <string name="hidden_notifications_title">ವೇಗವಾಗಿ ಅಧಿಸೂಚನೆಗಳನ್ನು ಪಡೆದುಕೊಳ್ಳಿ</string>
+    <string name="hidden_notifications_text">ನೀವು ಅನ್‌ಲಾಕ್‌ ಮಾಡುವ ಮೊದಲೇ ಅವುಗಳನ್ನು ನೋಡಿ</string>
+    <string name="hidden_notifications_cancel">ಬೇಡ ಧನ್ಯವಾದಗಳು</string>
+    <string name="hidden_notifications_setup">ಹೊಂದಿಸು</string>
+    <string name="notification_expand_button_text">ಎಲ್ಲವನ್ನೂ ನೋಡಿ</string>
+    <string name="notification_collapse_button_text">ಎಲ್ಲ ಮರೆಮಾಡಿ</string>
+    <string name="zen_mode_and_condition">%1$s. %2$s</string>
+    <string name="volume_zen_end_now">ಈಗಲೇ ಅಂತ್ಯಗೊಳಿಸು</string>
+    <string name="accessibility_volume_expand">ವಿಸ್ತರಿಸು</string>
+    <string name="accessibility_volume_collapse">ಸಂಕುಚಿಸು</string>
+    <string name="screen_pinning_title">ಪರದೆಯನ್ನು ಪಿನ್ ಮಾಡಲಾಗಿದೆ</string>
+    <string name="screen_pinning_description">"ಪರದೆ ಪಿನ್ನಿಂಗ್ ಒಂದೇ ನೋಟದಲ್ಲಿ ಪ್ರದರ್ಶನವನ್ನು ಲಾಕ್ ಮಾಡುತ್ತದೆ.
+ನೀವು ಅನ್‍ಪಿನ್ ಮಾಡುವವರೆಗೂ ನಿಮಗೆ ಒಳಬರುವ ಕರೆಗಳನ್ನು ಸ್ವೀಕರಿಸಲಾಗುವುದಿಲ್ಲ ಮತ್ತು ಮೂರನೆ ಪಕ್ಷದವರಿಗೆ ನಿಮ್ಮ ಸ್ಥಳವನ್ನು ಹುಡುಕಲು ಆಗುವುದಿಲ್ಲ. ಜೊತೆಗೆ, ಕೆಲವೊಂದು ಆಪ್‌ಗಳು ಕಾರ್ಯನಿರ್ವಹಿಸದೇ ಇರಬಹುದು ಅಥವಾ ಸೂಚನೆಗಳು ಸರಿಯಾಗಿ ಕಾಣಿಸದೇ ಇರಬಹುದು.
+ಅನ್‍ಪಿನ್ ಮಾಡಲು, ◁ (ಹಿಂದಿನ ಕೀ) ಯನ್ನು ಹಾಗೂ □ (ಇತ್ತೀಚಿನ ಆಪ್‌ಗಳ ಕೀ) ಯನ್ನು ಏಕಕಾಲದಲ್ಲಿ ತಟ್ಟಿ ಮತ್ತು ಹಿಡಿಯಿರಿ."</string>
+    <string name="screen_pinning_description_accessible">"ಪರದೆ ಪಿನ್ನಿಂಗ್ ಒಂದೇ ನೋಟದಲ್ಲಿ ಪ್ರದರ್ಶನವನ್ನು ಲಾಕ್ ಮಾಡುತ್ತದೆ.
+ನೀವು ಅನ್‍ಪಿನ್ ಮಾಡುವವರೆಗೂ ನಿಮಗೆ ಯಾವುದೇ ಒಳಬರುವ ಕರೆಗಳನ್ನು ಸ್ವೀಕರಿಸಲಾಗುವುದಿಲ್ಲ ಮತ್ತು ಮೂರನೆ ಪಕ್ಷದವರಿಗೆ ನಿಮ್ಮ ಸ್ಥಳವನ್ನು ಹುಡುಕಲು ಆಗುವುದಿಲ್ಲ. ಜೊತೆಗೆ, ಕೆಲವೊಂದು ಆಪ್‌ಗಳು ಕಾರ್ಯನಿರ್ವಹಿಸದೇ ಇರಬಹುದು ಅಥವಾ ಸೂಚನೆಗಳು ಸರಿಯಾಗಿ ಕಾಣಿಸದೇ ಇರಬಹುದು.
+ಅನ್‍ಪಿನ್ ಮಾಡಲು, ಹಿಂದಿನ ಕೀಯನ್ನು ಹಾಗು ಇತ್ತೀಚಿನ ಆಪ್‌ಗಳ ಕೀಯನ್ನು ಏಕಕಾಲದಲ್ಲಿ ತಟ್ಟಿ ಮತ್ತು ಹಿಡಿಯಿರಿ."</string>
+    <string name="screen_pinning_positive">ಅರ್ಥವಾಯಿತು</string>
+    <string name="screen_pinning_negative">ಬೇಡ ಧನ್ಯವಾದಗಳು</string>
+    <string name="quick_settings_reset_confirmation_title">%1$s ಮರೆಮಾಡುವುದೇ?</string>
+    <string name="quick_settings_reset_confirmation_message">ನೀವು ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ ಅದನ್ನು ಆನ್ ಮಾಡಿದಾಗ ಅದು ಮರುಕಾಣಿಸಿಕೊಳ್ಳುತ್ತದೆ.</string>
+    <string name="quick_settings_reset_confirmation_button">ಅಡಗಿಸಿ</string>
+    <string name="volumeui_prompt_message">%1$s ವಾಲ್ಯೂಮ್ ಸಂವಾದವಾಗಲು ಬಯಸುತ್ತದೆ.</string>
+    <string name="volumeui_prompt_allow">ಅನುಮತಿಸು</string>
+    <string name="volumeui_prompt_deny">ನಿರಾಕರಿಸು</string>
+    <string name="volumeui_notification_title">%1$s ವಾಲ್ಯೂಮ್ ಸಂವಾದವಾಗಿದೆ</string>
+    <string name="volumeui_notification_text">ಮೂಲ ಮರುಸ್ಥಾಪಿಸಲು ಸ್ಪರ್ಶಿಸಿ.</string>
+    <string name="managed_profile_foreground_toast">ನಿಮ್ಮ ಕೆಲಸದ ಪ್ರೊಫೈಲ್‌ ಅನ್ನು ನೀವು ಬಳಸುತ್ತಿರುವಿರಿ</string>
+    <string name="system_ui_tuner">ಸಿಸ್ಟಮ್ UI ಟ್ಯೂನರ್</string>
+    <string name="show_battery_percentage">ಎಂಬೆಡ್ ಮಾಡಲಾದ ಬ್ಯಾಟರಿ ಶೇಕಡಾ ತೋರಿಸಿ</string>
+    <string name="show_battery_percentage_summary">ಚಾರ್ಜ್ ಮಾಡದಿರುವಾಗ ಸ್ಥಿತಿ ಪಟ್ಟಿ ಐಕಾನ್ ಒಳಗೆ ಬ್ಯಾಟರಿ ಮಟ್ಟದ ಶೇಕಡಾವನ್ನು ತೋರಿಸಿ</string>
+    <string name="quick_settings">ತ್ವರಿತ ಸೆಟ್ಟಿಂಗ್‍ಗಳು</string>
+    <string name="status_bar">ಸ್ಥಿತಿ ಪಟ್ಟಿ</string>
+    <string name="demo_mode">ಡೆಮೊ ಮೋಡ್</string>
+    <string name="enable_demo_mode">ಡೆಮೊ ಮೋಡ್ ಸಕ್ರಿಯಗೊಳಿಸಿ</string>
+    <string name="show_demo_mode">ಡೆಮೊ ಮೋಡ್ ತೋರಿಸು</string>
+    <string name="status_bar_ethernet">ಇಥರ್ನೆಟ್</string>
+    <string name="status_bar_alarm">ಅಲಾರಮ್</string>
+    <string name="status_bar_work">ಕೆಲಸದ ಪ್ರೊಫೈಲ್</string>
+    <string name="status_bar_airplane">ಏರ್‌ಪ್ಲೇನ್ ಮೋಡ್</string>
+    <string name="add_tile">ಟೈಲ್ ಸೇರಿಸಿ</string>
+    <string name="broadcast_tile">ಟೈಲ್ ಅನ್ನು ಪ್ರಸಾರ ಮಾಡಿ</string>
+    <string name="zen_alarm_warning_indef">ನೀವು ಈ ಅಲಾರಮ್ ಆಫ್ ಮಾಡುವವರೆಗೆ ನಿಮ್ಮ ಮುಂದಿನ %1$s ಅಲಾರಮ್ ಅನ್ನು ನೀವು ಆಲಿಸುವುದಿಲ್ಲ</string>
+    <string name="zen_alarm_warning">ನಿಮ್ಮ ಮುಂದಿನ %1$s ಅಲಾರಂ ಅನ್ನು ನೀವು ಕೇಳುವುದಿಲ್ಲ</string>
+    <string name="alarm_template">%1$s ರಲ್ಲಿ</string>
+    <string name="alarm_template_far">%1$s ರಂದು</string>
+    <string name="accessibility_quick_settings_detail">ತ್ವರಿತ ಸೆಟ್ಟಿಂಗ್‍ಗಳು, %s.</string>
+    <string name="accessibility_status_bar_hotspot">ಹಾಟ್‌ಸ್ಪಾಟ್</string>
+    <string name="accessibility_managed_profile">ಕೆಲಸದ ಪ್ರೊಫೈಲ್</string>
+    <string name="tuner_warning_title">ಕೆಲವರಿಗೆ ಮೋಜು ಆಗಿದೆ ಎಲ್ಲರಿಗೆ ಇಲ್ಲ</string>
+    <string name="tuner_warning">ಸಿಸ್ಟಮ್ UI ಟ್ಯೂನರ್ ನಿಮಗೆ Android ಬಳಕೆದಾರ ಅಂತರಸಂಪರ್ಕವನ್ನು ಸರಿಪಡಿಸಲು ಮತ್ತು ಕಸ್ಟಮೈಸ್ ಮಾಡಲು ಹೆಚ್ಚುವರಿ ಮಾರ್ಗಗಳನ್ನು ನೀಡುತ್ತದೆ. ಈ ಪ್ರಾಯೋಗಿಕ ವೈಶಿಷ್ಟ್ಯಗಳು ಭವಿಷ್ಯದ ಬಿಡುಗಡೆಗಳಲ್ಲಿ ಬದಲಾಗಬಹುದು, ವಿರಾಮವಾಗಬಹುದು ಅಥವಾ ಕಾಣಿಸಿಕೊಳ್ಳದಿರಬಹುದು. ಎಚ್ಚರಿಕೆಯಿಂದ ಮುಂದುವರಿಯಿರಿ.</string>
+    <string name="tuner_persistent_warning">ಈ ಪ್ರಾಯೋಗಿಕ ವೈಶಿಷ್ಟ್ಯಗಳು ಭವಿಷ್ಯದ ಬಿಡುಗಡೆಗಳಲ್ಲಿ ಬದಲಾಗಬಹುದು, ವಿರಾಮವಾಗಬಹುದು ಅಥವಾ ಕಾಣಿಸಿಕೊಳ್ಳದಿರಬಹುದು. ಎಚ್ಚರಿಕೆಯಿಂದ ಮುಂದುವರಿಯಿರಿ.</string>
+    <string name="got_it">ಅರ್ಥವಾಯಿತು</string>
+    <string name="tuner_toast">ಅಭಿನಂದನೆಗಳು! ಸಿಸ್ಟಮ್ UI ಟ್ಯೂನರ್ ಅನ್ನು ಸೆಟ್ಟಿಂಗ್‌ಗಳಿಗೆ ಸೇರಿಸಲಾಗಿದೆ</string>
+    <string name="remove_from_settings">ಸೆಟ್ಟಿಂಗ್‌ಗಳಿಂದ ತೆಗೆದುಹಾಕಿ</string>
+    <string name="remove_from_settings_prompt">ಸೆಟ್ಟಿಂಗ್‌ಗಳಿಂದ ಸಿಸ್ಟಮ್ UI ಟ್ಯೂನರ್ ತೆಗೆದುಹಾಕುವುದೇ ಮತ್ತು ಅದರ ಎಲ್ಲಾ ವೈಶಿಷ್ಟ್ಯಗಳನ್ನು ಬಳಸುವುದನ್ನು ನಿಲ್ಲಿಸುವುದೇ?</string>
+    <string name="somc_kg_ice_button_label_0">ICE ಮಾಹಿತಿ</string>
+    <string name="somc_kg_ice_button_label_1">ICE</string>
+    <string name="somc_keyguard_analog_clock_name">ಅನಾಲಾಗ್ ಗಡಿಯಾರ</string>
+    <string name="digital_clock_name">ಡಿಜಿಟಲ್ ಗಡಿಯಾರ</string>
+    <string name="kg_panicbutton_toast_massage_txt">ತುರ್ತು ಸಂಖ್ಯೆ ಡಯಲ್ ಮಾಡಿ</string>
+    <string name="kg_somc_note">ಗಮನಿಸಿ</string>
+    <string name="kg_somc_continue">ಮುಂದುವರಿಸಿ</string>
+    <string name="sony_clock_name">Sony ಗಡಿಯಾರ</string>
+    <string name="app_name">ಕೀಗಾರ್ಡ್</string>
+    <string name="keyguard_password_enter_pin_code">PIN ಕೋಡ್ ನಮೂದಿಸಿ</string>
+    <string name="keyguard_password_enter_puk_code">SIM PUK ಮತ್ತು ಹೊಸ PIN ಕೋಡ್ ಟೈಪ್ ಮಾಡಿ</string>
+    <string name="keyguard_password_enter_puk_prompt">SIM PUK ಕೋಡ್</string>
+    <string name="keyguard_password_enter_pin_prompt">ಹೊಸ SIM PIN ಕೋಡ್</string>
+    <string name="keyguard_password_entry_touch_hint"><font size="17">ಪಾಸ್‌ವರ್ಡ್ ಟೈಪ್ ಮಾಡಲು ಸ್ಪರ್ಶಿಸಿ </font></string>
+    <string name="keyguard_password_enter_password_code">ಅನ್ ಲಾಕ್ ಮಾಡಲು ಪಾಸ್‌ವರ್ಡ್ ಟೈಪ್ ಮಾಡಿ</string>
+    <string name="keyguard_password_enter_pin_password_code">ಅನ್ ಲಾಕ್ ಮಾಡಲು PIN ನಮೂದಿಸಿ</string>
+    <string name="keyguard_password_wrong_pin_code">ತಪ್ಪಾದ PIN ಕೋಡ್.</string>
+    <string name="keyguard_charged">ಚಾರ್ಜ್ ಆಗಿದೆ</string>
+    <string name="keyguard_plugged_in">ಚಾರ್ಜ್ ಆಗುತ್ತಿದೆ</string>
+    <string name="keyguard_low_battery">ನಿಮ್ಮ ಚಾರ್ಜರ್ ಸಂಪರ್ಕಿಸಿ.</string>
+    <string name="keyguard_instructions_when_pattern_disabled">ಅನ್ ಲಾಕ್ ಮಾಡಲು ಮೆನು ಒತ್ತಿರಿ.</string>
+    <string name="keyguard_network_locked_message">ನೆಟ್‌ವರ್ಕ್‌ ಲಾಕ್ ಆಗಿದೆ</string>
+    <string name="keyguard_perso_locked_message">ಆಪರೇಟರ್ SIM ಲಾಕ್ ಮಾಡಿದ್ದಾರೆ</string>
+    <string name="keyguard_missing_sim_message_short">ಯಾವುದೇ SIM ಕಾರ್ಡ್ ಇಲ್ಲ</string>
+    <string name="keyguard_missing_sim_message">ಫೋನ್ ನಲ್ಲಿ ಯಾವುದೇ SIM ಕಾರ್ಡ್ ಇಲ್ಲ</string>
+    <string name="keyguard_missing_sim_instructions">ಒಂದು SIM ಕಾರ್ಡ್ ಸೇರಿಸಿ.</string>
+    <string name="keyguard_missing_sim_instructions_long">SIM ಕಾರ್ಡ್ ಕಾಣೆಯಾಗಿದೆ ಅಥವಾ ಓದಲಾಗುತ್ತಿಲ್ಲ. ಒಂದು SIM ಕಾರ್ಡ್ ಸೇರಿಸಿ.</string>
+    <string name="keyguard_permanent_disabled_sim_message_short">SIM ಕಾರ್ಡ್ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ</string>
+    <string name="keyguard_permanent_disabled_sim_instructions">"ನಿಮ್ಮ SIM ಕಾರ್ಡ್ ಅನ್ನು ಶಾಶ್ವತವಾಗಿ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ.
+ ಇನ್ನೊಂದು SIM ಕಾರ್ಡ್ ಗಾಗಿ ನಿಮ್ಮ ವೈರ್ ಲೆಸ್ ಸೇವಾ ಪೂರೈಕೆದಾರರನ್ನು ಸಂಪರ್ಕಿಸಿ."</string>
+    <string name="keyguard_sim_locked_message">SIM ಕಾರ್ಡ್ ಲಾಕ್ ಆಗಿದೆ.</string>
+    <string name="keyguard_sim_puk_locked_message">SIM ಕಾರ್ಡ್ PUK-ಲಾಕ್ ಆಗಿದೆ.</string>
+    <string name="keyguard_sim_unlock_progress_dialog_message">SIM ಕಾರ್ಡ್ ಅನ್ ಲಾಕ್ ಆಗುತ್ತಿದೆ ...</string>
+    <string name="keyguard_accessibility_pattern_unlock">ಶೈಲಿ ಅನ್ ಲಾಕ್ .</string>
+    <string name="keyguard_accessibility_pin_unlock">PIN ಅನ್ ಲಾಕ್ .</string>
+    <string name="keyguard_accessibility_password_unlock">ಪಾಸ್‌ವರ್ಡ್ ಅನ್ ಲಾಕ್ .</string>
+    <string name="keyguard_accessibility_pattern_area">ಮಾದರಿ ಪ್ರದೇಶ.</string>
+    <string name="keyguard_accessibility_slide_area">ಜಾರಿಸುವ ಪ್ರದೇಶ.</string>
+    <string name="keyguard_accessibility_pin_area">ಪಿನ್ ಪ್ರದೇಶ</string>
+    <string name="keyguard_accessibility_sim_pin_area">ಸಿಮ್ ಪಿನ್ ಪ್ರದೇಶ</string>
+    <string name="keyguard_accessibility_sim_puk_area">ಸಿಮ್ PUK ಪ್ರದೇಶ</string>
+    <string name="keyguard_accessibility_next_alarm">%1$s ಗೆ ಮುಂದಿನ ಅಲಾರಾಂ ಹೊಂದಿಸಲಾಗಿದೆ</string>
+    <string name="keyboardview_keycode_delete">ಅಳಿಸಿ</string>
+    <string name="keyboardview_keycode_enter">Enter</string>
+    <string name="kg_forgot_pattern_button_text">ಮಾದರಿ ಮರೆತಿದೆ</string>
+    <string name="kg_wrong_pattern">ತಪ್ಪಾದ ಮಾದರಿ</string>
+    <string name="kg_wrong_password">ತಪ್ಪಾದ ಪಾಸ್‌ವರ್ಡ್</string>
+    <string name="kg_wrong_pin">ತಪ್ಪಾದ PIN</string>
+    <string name="kg_too_many_failed_attempts_countdown">%d ಸೆಕೆಂಡುಗಳಲ್ಲಿಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.</string>
+    <string name="kg_pattern_instructions">ನಿಮ್ಮ ಅನ್ ಲಾಕ್ ಮಾದರಿಯನ್ನು ಬಿಡಿಸಿ</string>
+    <string name="kg_sim_pin_instructions">SIM PIN ನಮೂದಿಸಿ</string>
+    <string name="kg_sim_pin_instructions_multi">\"%1$s\" ಗೆ ಸಿಮ್ ಪಿನ್ ನಮೂದಿಸಿ</string>
+    <string name="kg_pin_instructions">PIN ನಮೂದಿಸಿ</string>
+    <string name="kg_password_instructions">ಪಾಸ್‌ವರ್ಡ್ ನಮೂದಿಸಿ</string>
+    <string name="kg_puk_enter_puk_hint">SIM ಅನ್ನು ಈಗ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ. PUK ಕೋಡ್ ನಮೂದಿಸಿ ಅಥವಾ ಹೆಚ್ಚಿನ ಮಾಹಿತಿಗೆ ನಿಮ್ಮ ಸೇವೆ ನೀಡುಗರನ್ನು ಸಂಪರ್ಕಿಸಿ.</string>
+    <string name="kg_puk_enter_puk_hint_multi">ಸಿಮ್ \"%1$s\" ಇದೀಗ ನಿಷ್ಕ್ರಿಯಗೊಂಡಿದೆ. ಮುಂದುವರೆಯಲು PUK ಕೋಡ್ ಅನ್ನು ನಮೂದಿಸಿ. ಮಾಹಿತಿಗಾಗಿ ವಾಹಕವನ್ನು ಸಂಪರ್ಕಿಸಿ.</string>
+    <string name="kg_puk_enter_pin_hint">ಹೊಸ PIN ಕೋಡ್ ನಮೂದಿಸಿ</string>
+    <string name="kg_enter_confirm_pin_hint">ಹೊಸ PIN ಕೋಡ್ ದೃಢೀಕರಿಸಿ</string>
+    <string name="kg_sim_unlock_progress_dialog_message">SIM ಕಾರ್ಡ್ ಅನ್ ಲಾಕ್ ಆಗುತ್ತಿದೆ</string>
+    <string name="kg_invalid_sim_pin_hint">4ರಿಂದ 8 ಸಂಖ್ಯೆಗಳ ಒಂದು PIN ನಮೂದಿಸಿ.</string>
+    <string name="kg_invalid_sim_puk_hint">PUK ಕೋಡ್ 8 ಸಂಖ್ಯೆಗಳಷ್ಟು ಉದ್ದವಿರಬೇಕು.</string>
+    <string name="kg_invalid_puk">ಸರಿಯಾದ PUK ಕೋಡ್ ಮರುನಮೂದಿಸಿ. ಪುನರಾವರ್ತಿತ ಪ್ರಯತ್ನಗಳು SIM ಅನ್ನು ಶಾಶ್ವತವಾಗಿ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸುತ್ತವೆ.</string>
+    <string name="kg_invalid_confirm_pin_hint">PIN ಕೋಡ್ ಗಳು ಹೊಂದುತ್ತಿಲ್ಲ</string>
+    <string name="kg_login_too_many_attempts">ತುಂಬ ಮಾದರಿಯ ಪ್ರಯತ್ನಗಳು</string>
+    <string name="kg_too_many_failed_pin_attempts_dialog_message" formatted="false">"ನೀವು %d ಬಾರಿ ತಪ್ಪಾದ PIN ಅನ್ನು ಟೈಪ್ ಮಾಡಿದ್ದೀರಿ.
+
+%d ಸೆಕೆಂಡುಗಳಲ್ಲಿ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ."</string>
+    <string name="kg_too_many_failed_password_attempts_dialog_message" formatted="false">"ನೀವು %d ಬಾರಿ ತಪ್ಪಾದ ಪಾಸ್‌ವರ್ಡ್ ಟೈಪ್ ಮಾಡಿದ್ದೀರಿ.
+
+%d ಸೆಕೆಂಡುಗಳಲ್ಲಿ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ."</string>
+    <string name="kg_too_many_failed_pattern_attempts_dialog_message" formatted="false">"ನೀವು %d ಬಾರಿ ತಪ್ಪಾದ ಅನ್ ಲಾಕ್ ರಚನೆಯನ್ನು ಟೈಪ್ ಮಾಡಿದ್ದೀರಿ.
+
+%d ಸೆಕೆಂಡುಗಳಲ್ಲಿ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ."</string>
+    <string name="kg_failed_attempts_almost_at_wipe" formatted="false">ನೀವು %d ಬಾರಿ ಫೋನ್ ಅನ್ ಲಾಕ್ ಮಾಡಲು ಪ್ರಯತ್ನಿಸಿದ್ದೀರಿ. %d ಅಯಶಸ್ವೀ ಪ್ರಯತ್ನಗಳ ನಂತರ, ಫೋನ್ ಕಾರ್ಖಾನೆ ಪೂರ್ವನಿಯೋಜಿತಗಳಿಗೆ ಮರುಹೊಂದಿಸಲ್ಪಡುತ್ತದೆ ಮತ್ತು ಎಲ್ಲಾ ಬಳಕೆದಾರ ಡೇಟಾ ಕಳೆದು ಹೋಗುತ್ತದೆ.</string>
+    <string name="kg_failed_attempts_now_wiping">ನೀವು %d ಬಾರಿ ತಪ್ಪಾದ ಕೋಡ್ ನಮೂದಿಸಿದ್ದೀರಿ. ಫೋನ್ ಈಗ ಕಾರ್ಖಾನೆ ಪೂರ್ವನಿಯೋಜಿತಗಳಿಗೆ ಮರುಹೊಂದಿಸಲ್ಪಡುತ್ತದೆ.</string>
+    <string name="kg_failed_attempts_almost_at_erase_user" formatted="false">ಫೋನ್ ಅನ್ನು ಅನ್‌ಲಾಕ್ ಮಾಡಲು ನೀವು %d ಬಾರಿ ತಪ್ಪಾಗಿ ಪ್ರಯತ್ನಿಸಿರುವಿರಿ. %d ಕ್ಕೂ ಹೆಚ್ಚಿನ ವಿಫಲ ಪ್ರಯತ್ನಗಳ ನಂತರ, ಈ ಬಳಕೆದಾರರನ್ನು ತೆಗೆದುಹಾಕಲಾಗುತ್ತದೆ, ಈ ಮೂಲಕ ಬಳಕೆದಾರರ ಎಲ್ಲ ಡೇಟಾವನ್ನು ಅಳಿಸಲಾಗುತ್ತದೆ.</string>
+    <string name="kg_failed_attempts_now_erasing_user">ಫೋನ್ ಅನ್ನು ಅನ್‌ಲಾಕ್ ಮಾಡಲು ನೀವು %d ಬಾರಿ ತಪ್ಪಾಗಿ ಪ್ರಯತ್ನಿಸಿರುವಿರಿ. ಈ ಬಳಕೆದಾರರನ್ನು ತೆಗೆದುಹಾಕಲಾಗುತ್ತದೆ, ಇದು ಬಳಕೆದಾರರ ಎಲ್ಲ ಡೇಟಾವನ್ನು ಅಳಿಸುತ್ತದೆ.</string>
+    <string name="kg_failed_attempts_almost_at_erase_profile" formatted="false">ಫೋನ್ ಅನ್ನು ಅನ್‌ಲಾಕ್ ಮಾಡಲು ನೀವು %d ಬಾರಿ ತಪ್ಪಾಗಿ ಪ್ರಯತ್ನಿಸಿರುವಿರಿ. %d ಕ್ಕೂ ಹೆಚ್ಚಿನ ವಿಫಲ ಪ್ರಯತ್ನಗಳ ನಂತರ, ಕೆಲಸದ ಪ್ರೊಫೈಲ್ ಅನ್ನು ತೆಗೆದುಹಾಕಲಾಗುತ್ತದೆ, ಇದು ಎಲ್ಲ ಪ್ರೊಫೈಲ್ ಡೇಟಾವನ್ನು ಅಳಿಸುತ್ತದೆ.</string>
+    <string name="kg_failed_attempts_now_erasing_profile">ಫೋನ್ ಅನ್ನು ಅನ್‌ಲಾಕ್ ಮಾಡಲು ನೀವು %d ಬಾರಿ ತಪ್ಪಾಗಿ ಪ್ರಯತ್ನಿಸಿರುವಿರಿ. ಕೆಲಸದ ಪ್ರೊಫೈಲ್ ಅನ್ನು ತೆಗೆದುಹಾಕಲಾಗುತ್ತದೆ, ಇದು ಎಲ್ಲ ಪ್ರೊಫೈಲ್ ಡೇಟಾವನ್ನು ಅಳಿಸುತ್ತದೆ.</string>
+    <string name="kg_failed_attempts_almost_at_login" formatted="false">"ನೀವು %d ಬಾರಿ ತಪ್ಪಾದ ಅನ್ ಲಾಕ್ ಮಾದರಿಯನ್ನು ಬಿಡಿಸಿದ್ದೀರಿ. %d ಅಯಶಸ್ವೀ ಪ್ರಯತ್ನಗಳ ನಂತರ, ನಿಮಗೆ ನಿಮ್ಮ ಇಮೇಲ್ ಖಾತೆಯನ್ನು ಬಳಸಿಕೊಂಡು ಫೋನ್ ಅನ್ ಲಾಕ್ ಮಾಡುವಂತೆ ಹೇಳಲಾಗುತ್ತದೆ.
+
+%d ಸೆಕೆಂಡುಗಳಲ್ಲಿ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ."</string>
+    <string name="kg_password_wrong_pin_code_pukked">ತಪ್ಪಾದ SIM PIN ಕೋಡ್. PUK ಕೋಡ್ ನಮೂದಿಸಿ ಅಥವಾ ಹೆಚ್ಚಿನ ಮಾಹಿತಿಗೆ ನಿಮ್ಮ ಸೇವೆ ನೀಡುಗರನ್ನು ಸಂಪರ್ಕಿಸಿ.</string>
+    <string name="kg_password_wrong_puk_code_dead">SIM ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ. ದಯವಿಟ್ಟು ನಿಮ್ಮ ಸೇವೆ ನೀಡುಗರನ್ನು ಸಂಪರ್ಕಿಸಿ.</string>
+    <string name="kg_password_pin_failed">SIM PIN ಕಾರ್ಯಾಚರಣೆ ವಿಫಲವಾಗಿದೆ!</string>
+    <string name="kg_password_puk_failed">SIM PUK ಕಾರ್ಯಾಚರಣೆ ವಿಫಲವಾಗಿದೆ!</string>
+    <string name="kg_pin_accepted">ಕೋಡ್ ಸ್ವೀಕೃತವಾಗಿದೆ!</string>
+    <string name="keyguard_carrier_default">ಸೇವೆ ಇಲ್ಲ</string>
+    <string name="accessibility_ime_switch_button">ನಮೂದನೆ ವಿಧಾನ ಬದಲಿಸುವ ಬಟನ್.</string>
+    <string name="airplane_mode">ಏರ್‌ಪ್ಲೇನ್ ಮೋಡ್</string>
+    <string name="kg_prompt_reason_restart_pattern">ಪುನಃ ಆರಂಭಿಸಿದ ನಂತರ ಸ್ವರೂಪ ಅಗತ್ಯವಿದೆ.</string>
+    <string name="kg_prompt_reason_restart_pin">ಪುನಃ ಆರಂಭಿಸಿದ ನಂತರ PIN ಅಗತ್ಯವಿರುತ್ತದೆ.</string>
+    <string name="kg_prompt_reason_restart_password">ಪುನಃ ಆರಂಭಿಸಿದ ನಂತರ ಪಾಸ್‌ವರ್ಡ್ ಅಗತ್ಯವಿರುತ್ತದೆ.</string>
+    <string name="kg_prompt_reason_timeout_pattern">ಹೆಚ್ಚಿನ ಭದ್ರತೆಗಾಗಿ ನಮೂನೆ ಅಗತ್ಯವಿದೆ</string>
+    <string name="kg_prompt_reason_timeout_pin">ಹೆಚ್ಚಿನ ಭದ್ರತೆಗಾಗಿ PIN ಅಗತ್ಯವಿದೆ</string>
+    <string name="kg_prompt_reason_timeout_password">ಹೆಚ್ಚಿನ ಭದ್ರತೆಗಾಗಿ ಪಾಸ್‌ವರ್ಡ್ ಅಗತ್ಯವಿದೆ</string>
+    <string name="kg_prompt_reason_switch_profiles_pattern">ನೀವು ಪ್ರೊಫೈಲ್ ಬದಲಾಯಿಸಿದಾಗ ಪ್ಯಾಟರ್ನ್ ಅಗತ್ಯವಿರುತ್ತದೆ.</string>
+    <string name="kg_prompt_reason_switch_profiles_pin">ನೀವು ಪ್ರೊಫೈಲ್ ಬದಲಾಯಿಸಿದಾಗ ಪಿನ್ ಅಗತ್ಯವಿರುತ್ತದೆ.</string>
+    <string name="kg_prompt_reason_switch_profiles_password">ನೀವು ಪ್ರೊಫೈಲ್ ಬದಲಾಯಿಸಿದಾಗ ಪಾಸ್‌ವರ್ಡ್‌ ಅಗತ್ಯವಿರುತ್ತದೆ.</string>
+    <string name="fingerprint_not_recognized">ಗುರುತಿಸಲಾಗಿಲ್ಲ</string>
+    <string name="somc_challenge_dialog_message">"ನೀವು ಒಂದು ತಪ್ಪಾದ ಪಾಸ್‌ವರ್ಡ್, PIN ಅಥವಾ ನಮೂನೆಯನ್ನು %1$d ಬಾರಿ ನಮೂದಿಸಿದ್ದೀರಿ.
+ಸಾಧನವು ಫ್ಯಾಕ್ಟರಿ ರೀಸೆಟ್ ಆಗುವ ಮುನ್ನ ನೀವು ಇನ್ನೂ %2$d ಪ್ರಯತ್ನಗಳನ್ನು ಹೊಂದಿದ್ದೀರಿ.
+
+ಸುರಕ್ಷಿತವಾಗಿ ಮುಂದುವರಿಯಲು, ದಯವಿಟ್ಟು ಈ ಕೆಳಕಂಡ ಅಂಶಗಳನ್ನು ನಮೂದಿಸಿ:"</string>
+    <string name="somc_challenge_dialog_title">ಅನ್‍ಲಾಕ್ ವಿಫಲಗೊಂಡಿದೆ</string>
+    <string name="somc_keyguard_fingerprint_max_attempts_reached">ಬೆರಳಚ್ಚು ಕಾರ್ಯ ಲಾಕ್ ಆಗಿದೆ</string>
+    <string name="somc_keyguard_fingerprint_nomatch">ಮತ್ತೊಮ್ಮೆ ಪ್ರಯತ್ನಿಸಿ</string>
+    <string name="somc_keyguard_forgot_password_button">ಪಾಸ್‌ವರ್ಡ್ ಮರೆತಿದ್ದೇನೆ</string>
+    <string name="somc_keyguard_forgot_pattern_button">ಮಾದರಿ ಮರೆತಿದೆ</string>
+    <string name="somc_keyguard_forgot_pin_button">PIN ಮರೆತಿರಾ</string>
+    <string name="somc_keyguard_invalid_input">ಅಮಾನ್ಯ ಬಳಕೆದಾರ ಹೆಸರು ಅಥವಾ ಪಾಸ್‌ವರ್ಡ್</string>
+    <string name="somc_keyguard_login_instructions">ಪರದೆಯನ್ನು ಅನ್‍‌ಲಾಕ್ ಮಾಡಲು ಮತ್ತು ಪರದೆ ಲಾಕ್ ಅನ್ನು ಬದಲಿಸಲು, ನಿಮ್ಮ Google™ ಖಾತೆಯೊಂದಿಗೆ ಸೈನ್ ಇನ್ ಮಾಡಿ</string>
+    <string name="somc_keyguard_password_hint">ಪಾಸ್‌ವರ್ಡ್</string>
+    <string name="somc_keyguard_submit_button">ಸೈನ್ ಇನ್</string>
+    <string name="somc_keyguard_username_hint">ಬಳಕೆದಾರಹೆಸರು (ಇಮೇಲ್)</string>
+    <string name="dsds_keyguard_enter_sim_pin_txt">%s PIN ನಮೂದಿಸಿ</string>
+    <string name="dsds_keyguard_enter_sim_puk_txt">%s PUK ನಮೂದಿಸಿ</string>
+    <string name="dsds_sim_disable_notification_tray_first_line_txt">%1$s ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿದೆ</string>
+    <string name="dsds_sim_disable_notification_tray_second_line_txt">%1$s ಸಕ್ರಿಯಗೊಳಿಸಲು ತಟ್ಟಿ</string>
+    <string name="keyguard_carrier_default_when_not_softbank_sim">ಸೇರಿಸಲಾದ SIM ಕಾರ್ಡ್ ಈ ಫೋನ್‌ನಲ್ಲಿ ಲಭ್ಯವಿಲ್ಲ. ದಯವಿಟ್ಟು ಮಾನ್ಯ SIM ಕಾರ್ಡ್ ಸೇರಿಸಿ.</string>
+    <string name="kg_somc_verizon_enter_confirm_pin_hint">ನಿಮ್ಮ PIN ಮರುನಮೂದಿಸುವ ಮೂಲಕ ನಿಮ್ಮ PIN ಅನ್ನು ದಯವಿಟ್ಟು ಪರಿಶೀಲಿಸಿ.</string>
+    <string name="kg_somc_verizon_invalid_confirm_pin_hint">ಕ್ಷಮಿಸಿ, ನಿಮ್ಮ ಹೊಸ SIM PIN ನಮೂದುಗಳು ಹೊಂದಾಣಿಕೆಯಾಗಲಿಲ್ಲ. ದಯವಿಟ್ಟು ಹೊಸ 4-8 ಅಂಕಿಯ SIM PIN ನಮೂದಿಸಿ.</string>
+    <string name="kg_somc_verizon_password_wrong_pin_code_pukked">PIN ನಮೂದಿಸುವ ನಿಮ್ಮ ಕಳೆದ ಪ್ರಯತ್ನವು ಈ SIM ಕಾರ್ಡ್ ಲಾಕ್ ಮಾಡಿದೆ. ನಿಮ್ಮ SIM ಕಾರ್ಡ್ ಅನ್‌ಲಾಕ್ ಮಾಡುವುದಕ್ಕಾಗಿ PUK ಕೋಡ್ ಪಡೆಯಲು ದಯವಿಟ್ಟು ನಿಮ್ಮ ವೈರ್‌ಲೆಸ್ ಸೇವೆ ನೀಡುಗರನ್ನು ಸಂಪರ್ಕಿಸಿ.</string>
+    <string name="kg_somc_verizon_password_wrong_puk_code_dead">PUK ನಮೂದಿಸುವ ನಿಮ್ಮ 10 ನೇ ಪ್ರಯತ್ನವು ನಿಮ್ಮ SIM ಕಾರ್ಡ್ ಅನ್ನು ಖಾಯಂ ಆಗಿ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿದೆ. ಮತ್ತೊಂದು SIM ಕಾರ್ಡ್ ಪಡೆಯಲು ದಯವಿಟ್ಟು ನಿಮ್ಮ ವೈರ್‌ಲೆಸ್ ಸೇವೆ ನೀಡುಗರನ್ನು ಸಂಪರ್ಕಿಸಿ.</string>
+    <string name="kg_somc_verizon_puk_enter_pin_hint">ದಯವಿಟ್ಟು ಹೊಸ 4-8 ಅಂಕಿಯ SIM PIN ನಮೂದಿಸಿ.</string>
+    <string name="kg_somc_verizon_puk_enter_puk_hint">ದಯವಿಟ್ಟು ನಿಮ್ಮ 8-ಅಂಕಿಯ SIM PUK ಕೋಡ್ ನಮೂದಿಸಿ</string>
+    <string name="kg_somc_verizon_sim_pin_instructions">ದಯವಿಟ್ಟು ನಿಮ್ಮ 4-8 ಅಂಕಿಯ SIM PIN ನಮೂದಿಸಿ</string>
+    <string name="lockscreen_microphone_image_hint">ಮೈಕ್ರೋಫೋನ್ ಚಿತ್ರ</string>
+    <string name="lockscreen_voice_unlock_error_hint">ಪಾಸ್‌ಫ್ರೇಮ್ ಗುರುತಿಸಲಿಲ್ಲ</string>
+    <string name="lockscreen_voice_unlock_or_short_unlock_hint">ನಿಮ್ಮ ಪಾಸ್‌ಫ್ರೇಸ್ ಹೇಳಿ ಅಥವಾ ಅನ್‌ಲಾಕ್ ಮಾಡಲು ಉಜ್ಜಿ</string>
+    <string name="lockscreen_accessibility_unlock_hint">ಅನ್‌ಲಾಕ್ ಮಾಡಲು ಮೇಲೆ ಮತ್ತು ಕೆಳಗೆ ಸ್ವೈಪ್ ಮಾಡಿ</string>
+    <string name="lockscreen_app_name">ಲಾಕ್ ಪರದೆ</string>
+    <string name="lockscreen_short_unlock_hint">ಅನ್‌ಲಾಕ್ ಮಾಡಲು ಉಜ್ಜಿ</string>
+    <string name="lockscreen_unlock_hint">ಅನ್‌ಲಾಕ್ ಮಾಡಲು ಮೇಲೆ ಮತ್ತು ಕೆಳಗೆ ಸ್ವೈಪ್ ಮಾಡಿ</string>
+</resources>

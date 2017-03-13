@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sonymobile.keyguard.clock.picker.ClockPickerViewContent android:id="@id/somc_keyguard_clock_picker_content" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.sonymobile.keyguard.SomcKeyguardClockScaleContainer android:id="@id/somc_keyguard_clockplugin_picker_scale_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@id/somc_keyguard_clock_picker_scaled_clocks" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </com.sonymobile.keyguard.SomcKeyguardClockScaleContainer>
+</com.sonymobile.keyguard.clock.picker.ClockPickerViewContent>

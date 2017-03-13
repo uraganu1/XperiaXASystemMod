@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_settings_autorotate">"Rotation automatique de l'écran"</string>
+    <string name="status_bar_settings_autosync">Synchronisation auto des données</string>
+    <string name="status_bar_settings_mobile_data">Trafic de données mobiles</string>
+    <string name="status_bar_settings_settings">Raccourci vers Paramètres</string>
+    <string name="status_bar_settings_mirroring">"Mise en miroir de l'écran"</string>
+</resources>

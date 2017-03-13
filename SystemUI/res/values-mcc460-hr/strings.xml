@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_security_wapi_psk">WLAN PSK</string>
+    <string name="wifi_disabled_wifi_failure">Povezivanje s WLAN-jem nije uspjelo</string>
+    <string name="connected_via_wfa">Povezani putem pomoćnika za WLAN</string>
+    <string name="accessibility_wifi_off">WLAN isključen.</string>
+    <string name="accessibility_no_wifi">Prekinuta veza s WLANjem.</string>
+    <string name="accessibility_wifi_one_bar">Jedna crtica signala WLANja.</string>
+    <string name="accessibility_wifi_two_bars">Dvije crtice signala WLANja.</string>
+    <string name="accessibility_wifi_three_bars">Tri crtice signala WLANja.</string>
+    <string name="accessibility_wifi_signal_full">Najjači signal WLANja.</string>
+    <string name="quick_settings_wifi_scanning_label">WLAN: traženje</string>
+    <string name="quick_settings_wifi_connecting_label">WLAN: povezivanje</string>
+    <string name="toast_message_not_allow_turn_on_hotspot">Pristupna točka za WLAN nije dostupna u zrakoplovnom načinu rada</string>
+    <string name="status_bar_settings_wifi_button">WLAN</string>
+    <string name="accessibility_data_connection_wifi">WLAN</string>
+    <string name="accessibility_quick_settings_wifi_changed_off">WLAN je isključen</string>
+    <string name="accessibility_quick_settings_wifi_changed_on">WLAN je uključen</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">WLAN povezan</string>
+    <string name="quick_settings_wifi_label">WLAN</string>
+    <string name="quick_settings_wifi_off_label">WLAN je isključen</string>
+    <string name="quick_settings_wifi_detail_empty_text">Nije dostupna nijedna WLAN mreža</string>
+    <string name="accessibility_quick_settings_detail">Brze postavke, %s.</string>
+    <string name="wifi_security_short_wapi_cert">WLAN CERT</string>
+    <string name="wifi_security_short_wapi_psk">WLAN PSK</string>
+    <string name="wifi_security_wapi_cert">WLAN CERT</string>
+</resources>

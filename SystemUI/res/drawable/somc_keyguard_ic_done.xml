@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="36.0dip" android:width="36.0dip" android:autoMirrored="true" android:viewportWidth="36.0" android:viewportHeight="36.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:name="Check mark" android:fillColor="@color/somc_keyguard_theme_color_solid_foreground" android:pathData="M13.2,23.351l-6.3-6.3L4.8,19.149l8.399,8.401l18-18L29.1,7.45L13.2,23.351z" />
+</vector>

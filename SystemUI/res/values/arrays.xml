@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Scanning…</item>
+        <item>Connecting…</item>
+        <item>Authenticating…</item>
+        <item>Obtaining IP address…</item>
+        <item>Connected</item>
+        <item>Suspended</item>
+        <item>Disconnecting…</item>
+        <item>Disconnected</item>
+        <item>Unsuccessful</item>
+        <item>Blocked</item>
+        <item>Temporarily avoiding poor connection</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Scanning…</item>
+        <item>Connecting to %1$s…</item>
+        <item>Authenticating with %1$s…</item>
+        <item>Obtaining IP address from %1$s…</item>
+        <item>Connected to %1$s</item>
+        <item>Suspended</item>
+        <item>Disconnecting from %1$s…</item>
+        <item>Disconnected</item>
+        <item>Unsuccessful</item>
+        <item>Blocked</item>
+        <item>Temporarily avoiding poor connection</item>
+    </string-array>
+    <integer-array name="batterymeter_color_levels">
+        <item>15</item>
+        <item>100</item>
+    </integer-array>
+    <array name="batterymeter_color_values">
+        <item>@android:color/battery_saver_mode_color</item>
+        <item>#ffffffff</item>
+    </array>
+    <integer-array name="batterymeter_bolt_points">
+        <item>73</item>
+        <item>0</item>
+        <item>392</item>
+        <item>0</item>
+        <item>201</item>
+        <item>259</item>
+        <item>442</item>
+        <item>259</item>
+        <item>4</item>
+        <item>703</item>
+        <item>157</item>
+        <item>334</item>
+        <item>0</item>
+        <item>334</item>
+    </integer-array>
+    <string-array name="volume_stream_titles">
+        <item>Voice calls</item>
+        <item>System</item>
+        <item>Notifications</item>
+        <item>Media</item>
+        <item>Alarms</item>
+        <item></item>
+        <item>Bluetooth calls</item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+    <array name="snooze_dismiss_drawables">
+        <item>@drawable/mtk_ic_alarm_alert_dismiss_pwron</item>
+        <item>@drawable/mtk_ic_alarm_alert_snooze</item>
+        <item>@drawable/mtk_ic_alarm_alert_dismiss_pwroff</item>
+        <item>@null</item>
+    </array>
+    <string-array name="snooze_dismiss_descriptions">
+        <item>@string/alarm_alert_dismiss_text</item>
+        <item>@null</item>
+        <item>@string/alarm_alert_snooze_text</item>
+        <item>@null</item>
+    </string-array>
+    <string-array name="snooze_dismiss_direction_descriptions">
+        <item>@string/description_direction_right</item>
+        <item>@null</item>
+        <item>@string/description_direction_left</item>
+        <item>@null</item>
+    </string-array>
+    <array name="dismiss_drawables">
+        <item>@drawable/mtk_ic_alarm_alert_dismiss_pwron</item>
+        <item>@null</item>
+        <item>@null</item>
+        <item>@null</item>
+    </array>
+    <string-array name="dismiss_descriptions">
+        <item>@string/alarm_alert_dismiss_text</item>
+        <item>@null</item>
+        <item>@null</item>
+        <item>@null</item>
+    </string-array>
+    <string-array name="dismiss_direction_descriptions">
+        <item>@string/description_direction_right</item>
+        <item>@null</item>
+        <item>@null</item>
+        <item>@null</item>
+    </string-array>
+    <string-array name="lockscreen_num_pad_klondike">
+        <item>+</item>
+        <item></item>
+        <item>ABC</item>
+        <item>DEF</item>
+        <item>GHI</item>
+        <item>JKL</item>
+        <item>MNO</item>
+        <item>PQRS</item>
+        <item>TUV</item>
+        <item>WXYZ</item>
+    </string-array>
+    <string-array name="somc_keyguard_analog_clock_plugin_factory">
+        <item>@string/somc_keyguard_analog_clock_name</item>
+        <item>com.sonymobile.keyguard.plugin.analogclock.AnalogClockPluginFactory</item>
+        <item>600</item>
+        <item>somc_keyguard_analog_clock_images</item>
+        <item></item>
+    </string-array>
+    <array name="somc_keyguard_analog_clock_images">
+        <item>@drawable/somc_analog_clock_icon</item>
+    </array>
+    <string-array name="digital_clock_plugin_factory">
+        <item>@string/digital_clock_name</item>
+        <item>com.sonymobile.keyguard.plugin.digitalclock.DigitalClockKeyguardComponentFactory</item>
+        <item>800</item>
+        <item>digital_clock_images</item>
+        <item></item>
+    </string-array>
+    <array name="digital_clock_images">
+        <item>@drawable/somc_digital_clock_icon</item>
+    </array>
+    <string-array name="keyguard_punic_button_enabled_mcc">
+        <item>404</item>
+        <item>405</item>
+        <item>406</item>
+    </string-array>
+    <array name="somc_keyguard_plugins">
+        <item>@array/digital_clock_plugin_factory</item>
+        <item>@array/sony_clock_plugin_factory</item>
+        <item>@array/somc_keyguard_analog_clock_plugin_factory</item>
+        <item>@array/themeable_analog_clock_plugin_factory</item>
+    </array>
+    <string-array name="sony_clock_plugin_factory">
+        <item>@string/sony_clock_name</item>
+        <item>com.sonymobile.keyguard.plugin.sonyclock.SonyClockKeyguardComponentFactory</item>
+        <item>1000</item>
+        <item>sony_clock_images</item>
+        <item></item>
+    </string-array>
+    <array name="sony_clock_images">
+        <item>@drawable/ic_sony_clock</item>
+    </array>
+    <string-array name="themeable_analog_clock_plugin_factory">
+        <item>@string/somc_keyguard_themeable_analog_clock_name</item>
+        <item>com.sonymobile.keyguard.plugin.themeableanalogclock.ThemeableAnalogClockPluginFactory</item>
+        <item>400</item>
+        <item>somc_themeable_analog_clock_images</item>
+        <item></item>
+        <item>@string/somc_themeable_analog_clock_plugin_enabled</item>
+        <item>true</item>
+    </string-array>
+    <array name="somc_themeable_analog_clock_images">
+        <item>@drawable/somc_themeable_analog_clock_icon</item>
+    </array>
+</resources>

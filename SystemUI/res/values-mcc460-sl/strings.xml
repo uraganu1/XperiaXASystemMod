@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_security_wapi_psk">WLAN PSK</string>
+    <string name="wifi_disabled_wifi_failure">Povezava prek WLAN-ja ni uspela</string>
+    <string name="connected_via_wfa">Povezava vzpostavljena prek pomočnika za WLAN</string>
+    <string name="accessibility_wifi_off">WLAN je izklopljen.</string>
+    <string name="accessibility_no_wifi">Povezava z omrežjem WLAN je prekinjena.</string>
+    <string name="accessibility_wifi_one_bar">Signal WLAN – ena črtica.</string>
+    <string name="accessibility_wifi_two_bars">Signal WLAN – dve črtici.</string>
+    <string name="accessibility_wifi_three_bars">Signal WLAN – tri črtice.</string>
+    <string name="accessibility_wifi_signal_full">WLAN – poln signal.</string>
+    <string name="quick_settings_wifi_scanning_label">WLAN: iskanje</string>
+    <string name="quick_settings_wifi_connecting_label">WLAN: povezovanje</string>
+    <string name="toast_message_not_allow_turn_on_hotspot">Vroča točka za WLAN ni na voljo v načinu za letenje</string>
+    <string name="status_bar_settings_wifi_button">WLAN</string>
+    <string name="accessibility_data_connection_wifi">WLAN</string>
+    <string name="accessibility_quick_settings_wifi_changed_off">Povezava z omrežjem WLAN je izklopljena</string>
+    <string name="accessibility_quick_settings_wifi_changed_on">Povezava z omrežjem WLAN je vklopljena</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">Vzpostavljena povezava z omrežjem WLAN</string>
+    <string name="quick_settings_wifi_label">WLAN</string>
+    <string name="quick_settings_wifi_off_label">WLAN je izklopljen</string>
+    <string name="quick_settings_wifi_detail_empty_text">Na voljo ni nobeno omrežje WLAN</string>
+    <string name="accessibility_quick_settings_detail">Hitre nastavitve, %s.</string>
+    <string name="wifi_security_short_wapi_cert">WLAN CERT</string>
+    <string name="wifi_security_short_wapi_psk">WLAN PSK</string>
+    <string name="wifi_security_wapi_cert">WLAN CERT</string>
+</resources>

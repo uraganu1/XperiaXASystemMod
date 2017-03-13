@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="keyCode" format="integer" />
+    <attr name="keyRepeat" format="boolean" />
+    <attr name="text" format="string" />
+    <attr name="insetLeft" format="dimension" />
+    <attr name="rowHeight" format="dimension" />
+    <attr name="recentItemLayout" format="reference" />
+    <attr name="minSize" format="dimension" />
+    <attr name="maxSize" format="dimension" />
+    <attr name="holdTime" format="integer" />
+    <attr name="decayTime" format="integer" />
+    <attr name="frameColor" format="color" />
+    <attr name="amPmStyle">
+        <enum name="gone" value="2" />
+        <enum name="normal" value="0" />
+        <enum name="small" value="1" />
+    </attr>
+    <attr name="orientation">
+        <enum name="horizontal" value="0" />
+        <enum name="vertical" value="1" />
+    </attr>
+    <attr name="frameWidth" format="dimension" />
+    <attr name="framePadding" format="dimension" />
+    <attr name="activeFrameColor" format="color" />
+    <attr name="regularFontFamily" format="string" />
+    <attr name="activatedFontFamily" format="string" />
+    <attr name="datePattern" format="string" />
+    <attr name="numColumns" format="integer" />
+    <attr name="verticalSpacing" format="dimension" />
+    <attr name="horizontalSpacing" format="dimension" />
+    <attr name="backgroundColor" format="integer" />
+    <attr name="fillColor" format="integer" />
+    <attr name="singleToneColor" format="integer" />
+    <attr name="ignoreRightInset" format="boolean" />
+    <attr name="hasOverlappingRendering" format="boolean" />
+    <attr name="locateAtNonSecureView" format="boolean" />
+    <attr name="targetDrawables" format="reference" />
+    <attr name="targetDescriptions" format="reference" />
+    <attr name="directionDescriptions" format="reference" />
+    <attr name="handleDrawable" format="reference" />
+    <attr name="outerRingDrawable" format="reference" />
+    <attr name="pointDrawable" format="reference" />
+    <attr name="innerRadius" format="dimension" />
+    <attr name="outerRadius" format="dimension" />
+    <attr name="glowRadius" format="dimension" />
+    <attr name="vibrationDuration" format="integer" />
+    <attr name="snapMargin" format="dimension" />
+    <attr name="feedbackCount" format="integer" />
+    <attr name="alwaysTrackFinger" format="boolean" />
+    <attr name="allowScaling" format="boolean" />
+    <attr name="layout_maxWidth" format="dimension" />
+    <attr name="layout_maxHeight" format="dimension" />
+    <attr name="digit" format="integer" />
+    <attr name="textView" format="reference" />
+    <attr name="scaledTextSize" format="integer" />
+    <attr name="allCaps" format="boolean" />
+    <attr name="hourHandLength" format="dimension" />
+    <attr name="hourHandThickness" format="dimension" />
+    <attr name="minuteHandLength" format="dimension" />
+    <attr name="minuteHandThickness" format="dimension" />
+    <attr name="clockColor" format="color" />
+    <attr name="secondDotColor" format="color" />
+    <attr name="secondDotDiameter" format="dimension" />
+    <attr name="ellipseDepth" format="float" />
+    <attr name="ellipsePower" format="float" />
+    <attr name="tickWidth" format="dimension" />
+    <attr name="tickRadius" format="dimension" />
+    <attr name="minuteTickLength" format="dimension" />
+    <attr name="hourTickLength" format="dimension" />
+    <attr name="dateTextSize" format="dimension" />
+    <attr name="dateTextSpace" format="dimension" />
+    <attr name="alarmDrawable" format="reference" />
+    <attr name="alarmDrawableMargin" format="dimension" />
+    <attr name="alarmDrawableVerticalOffset" format="dimension" />
+    <attr name="centerSize" format="dimension" />
+    <attr name="centerStrokeWidth" format="dimension" />
+    <attr name="alternativeBitmapDrawableStart" format="reference" />
+    <attr name="dimmerColor" format="color" />
+    <attr name="handType">
+        <enum name="hours" value="2" />
+        <enum name="minutes" value="1" />
+        <enum name="seconds" value="0" />
+    </attr>
+</resources>

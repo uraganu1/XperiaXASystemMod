@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_settings_autorotate">Automatyczne obracanie ekranu</string>
+    <string name="status_bar_settings_autosync">Automatyczna synchronizacja danych</string>
+    <string name="status_bar_settings_mobile_data">Transmisja danych w sieci komórkowej</string>
+</resources>

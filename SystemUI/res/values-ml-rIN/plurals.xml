@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">ചുരുക്കവിവരണത്തിൽ %d സ്‌ക്രീൻ</item>
+        <item quantity="one">ചുരുക്കവിവരണത്തിലെ 1 സ്‌ക്രീൻ</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">തെറ്റായ SIM PIN കോഡ്, PUK കോഡ് (PIN അൺലോക്ക് കോഡ്) നൽകുന്നതിന് നിങ്ങൾക്ക് %d ശ്രമങ്ങൾ കൂടി ബാക്കിയുണ്ട് അല്ലെങ്കിൽ ഉപകരണത്തിന്റെ ലോക്ക് നീക്കാൻ സേവന ദാതാവുമായി ബന്ധപ്പെടുക.</item>
+        <item quantity="one">തെറ്റായ SIM PIN കോഡ്, PUK കോഡ് (PIN അൺലോക്ക് കോഡ്) നൽകുന്നതിന് നിങ്ങൾക്ക് %d തവണ കൂടി ശ്രമിക്കാം അല്ലെങ്കിൽ ഉപകരണത്തിന്റെ ലോക്ക് നീക്കാൻ സേവന ദാതാവുമായി ബന്ധപ്പെടുക.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">തെറ്റായ SIM PUK കോഡ്, SIM ശാശ്വതമായി ഉപയോഗശൂന്യമാകുന്നതിന് മുമ്പ് നിങ്ങൾക്ക് അവശേഷിക്കുന്ന %d ശ്രമങ്ങളുണ്ട്.</item>
+        <item quantity="one">തെറ്റായ SIM PUK കോഡ്, SIM ശാശ്വതമായി ഉപയോഗശൂന്യമാകുന്നതിന് മുമ്പ് നിങ്ങൾക്ക് അവശേഷിക്കുന്ന %d ശ്രമമുണ്ട്.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">%d മണിക്കൂർ നേരത്തേയ്ക്ക് ഉപകരണം അൺലോക്ക് ചെയ്യില്ല. പാറ്റേൺ സ്ഥിരീകരിക്കുക.</item>
+        <item quantity="one">%d മണിക്കൂർ നേരത്തേയ്ക്ക് ഉപകരണം അൺലോക്ക് ചെയ്യില്ല. പാറ്റേൺ സ്ഥിരീകരിക്കുക.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">%d മണിക്കൂർ നേരത്തേയ്ക്ക് ഉപകരണം അൺലോക്ക് ചെയ്യില്ല. PIN സ്ഥിരീകരിക്കുക.</item>
+        <item quantity="one">%d മണിക്കൂർ നേരത്തേയ്ക്ക് ഉപകരണം അൺലോക്ക് ചെയ്യില്ല. PIN സ്ഥിരീകരിക്കുക.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">%d മണിക്കൂർ നേരത്തേയ്ക്ക് ഉപകരണം അൺലോക്ക് ചെയ്യില്ല. പാസ്‌വേഡ് സ്ഥിരീകരിക്കുക.</item>
+        <item quantity="one">%d മണിക്കൂർ നേരത്തേയ്ക്ക് ഉപകരണം അൺലോക്ക് ചെയ്യില്ല. പാസ്‌വേഡ് സ്ഥിരീകരിക്കുക.</item>
+    </plurals>
+</resources>

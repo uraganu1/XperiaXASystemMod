@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_settings_mobile_data">Trafik data mudah alih</string>
+    <string name="status_bar_settings_settings">Jalan pintas ke Tetapan</string>
+</resources>

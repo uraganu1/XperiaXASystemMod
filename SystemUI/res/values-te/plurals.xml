@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">స్థూలదృష్టిలో %d స్క్రీన్‌లు ఉన్నాయి</item>
+        <item quantity="one">స్థూలదృష్టిలో 1 స్క్రీన్ ఉంది</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">తప్పు SIM PIN కోడ్, మీ పరికరాన్ని అన్‌లాక్ చేయడానికి మీరు మీ PUK కోడ్ (PIN అన్‌లాక్ కోడ్) ఎంటర్ చేయడానికి ముందు మీకు %d ప్రయత్నాలు మిగిలి ఉన్నాయి లేదా మీ సర్వీసు ప్రొవైడర్‌ను సంప్రదించండి.</item>
+        <item quantity="one">తప్పు SIM PIN కోడ్, మీ పరికరాన్ని అన్‌లాక్ చేయడానికి మీరు మీ PUK కోడ్ (PIN అన్‌లాక్ కోడ్) ఎంటర్ చేయడానికి ముందు మీకు %d ప్రయత్నం మిగిలి ఉంది లేదా మీ సర్వీసు ప్రొవైడర్‌ను సంప్రదించండి.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">తప్పు SIM PUK కోడ్, SIM శాశ్వతంగా ఉపయోగించకుండా అయ్యే ముందు మీకు %d ప్రయత్నాలు మిగిలి ఉన్నాయి.</item>
+        <item quantity="one">తప్పు SIM PUK కోడ్, SIM శాశ్వతంగా ఉపయోగించకుండా అయ్యే ముందు మీకు %d ప్రయత్నం మిగిలి ఉంది.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">పరికరం %d గంటలుగా అన్‌లాక్ చేయలేదు. నమూనా నిర్ధారించండి.</item>
+        <item quantity="one">పరికరం %d గంట సేపటిగా అన్‌లాక్ చేయలేదు. నమూనా నిర్ధారించండి.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">పరికరం %d గంటలుగా అన్‌లాక్ చేయలేదు. PIN నిర్ధారించండి.</item>
+        <item quantity="one">%d గంట సేపటిగా అన్‌లాక్ చేయలేదు. PIN నిర్ధారించండి.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">పరికరం %d గంటలుగా అన్‌లాక్ చేయలేదు. పాస్‌వర్డ్ నిర్ధారించండి.</item>
+        <item quantity="one">పరికరం %d గంట సేపటిగా అన్‌లాక్ చేయలేదు. పాస్‌వర్డ్ నిర్ధారించండి.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">SIM PIN ఎంటర్ చేయండి, మీకు %d ప్రయత్నాలు మిగిలి ఉన్నాయి.</item>
+        <item quantity="one">SIM PIN ఎంటర్ చేయండి, మీరు మీ పరికరాన్ని అన్‌లాక్ చేయడానికి మీ క్యారియర్‌ను సంప్రదించడానికి ముందు మీకు %d ప్రయత్నం మిగిలి ఉంది.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">SIM ఇప్పుడు డిసేబుల్ చేయబడింది. కొనసాగడానికి PUK కోడ్ ఎంటర్ చేయండి. SIM శాశ్వతంగా పని చేయకుండా పోవడానికి ముందు మీకు %d ప్రయత్నాలు మిగిలి ఉన్నాయి. వివరాలు కోసం క్యారియర్‌ను సంప్రదించండి.</item>
+        <item quantity="one">SIM ఇప్పుడు డిసేబుల్ చేయబడింది. కొనసాగడానికి PUK కోడ్ ఎంటర్ చేయండి. SIM శాశ్వతంగా పనిచేయకుండా పోవడానికి ముందు %d ప్రయత్నం మిగిలి ఉంది. వివరాలు కోసం క్యారియర్‌ను సంప్రదించండి.</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_puk_enter_puk_hint_last_attempt_failed">
+        <item quantity="other">క్షమించండి, మీ ఎంట్రీ PUK కోడ్‌తో మ్యాచ్ కాలేదు. దయచేసి మీ 8 అంకెల PUK కోడ్ మళ్లీ ఎంటర్ చేయండి. మీకు మరో %d అవకాశాలు ఉన్నాయి.</item>
+        <item quantity="one">క్షమించండి, మీ ఎంట్రీ PUK కోడ్‌తో సరిపోలలేదు. దయచేసి మీ 8 అంకెల PUK కోడ్ మళ్లీ ఎంటర్ చేయండి. మీకు మరో %d అవకాశం ఉంది.</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_sim_pin_instructions_last_attempt_failed">
+        <item quantity="other">క్షమించండి, మీ ఎంట్రీ SIM PINతో మ్యాచ్ కాలేదు. దయచేసి మీ 4-8 అంకెల PINను ఎంటర్ చేయండి. మీకు మరో %d అవకాశాలు ఉన్నాయి.</item>
+        <item quantity="one">క్షమించండి, మీ ఎంట్రీ SIM PINతో మ్యాచ్ కాలేదు. దయచేసి మీ 4-8 అంకెల PINను మళ్లీ ఎంటర్ చేయండి. మీకు మరో %d అవకాశం ఉంది.</item>
+    </plurals>
+</resources>

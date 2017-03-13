@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_settings_autorotate">Automatski rotiraj ekran</string>
+    <string name="status_bar_settings_autosync">Automatsku sinhronizacija podataka</string>
+    <string name="status_bar_settings_mobile_data">Saobraćaj mobilnih podataka</string>
+    <string name="status_bar_settings_settings">Prečica do podešavanja</string>
+</resources>

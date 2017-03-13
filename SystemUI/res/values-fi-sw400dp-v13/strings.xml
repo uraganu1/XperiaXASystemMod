@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_settings_autorotate">Näytön automaattinen kierto</string>
+    <string name="status_bar_settings_autosync">Tietojen automaattinen synkronointi</string>
+    <string name="status_bar_settings_settings">Pikakomento asetuksiin</string>
+</resources>

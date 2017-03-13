@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">%d skrin dalam Gambaran Keseluruhan</item>
+        <item quantity="one">1 skrin dalam Gambaran Keseluruhan</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">Kod PIN SIM salah, anda mempunyai %d baki cubaan sebelum anda perlu memasukkan kod PUK anda (kod buka kunci PIN) atau hubungi pembekal perkhidmatan anda untuk membuka kunci peranti anda.</item>
+        <item quantity="one">Kod PIN SIM salah, anda mempunyai %d baki cubaan sebelum anda perlu memasukkan kod PUK anda (kod buka kunci PIN) atau hubungi pembekal perkhidmatan anda untuk membuka kunci peranti anda.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Kod PUK SIM salah, anda mempunyai %d baki percubaan sebelum SIM tidak boleh digunakan secara kekal.</item>
+        <item quantity="one">Kod PUK SIM salah, anda mempunyai %d baki percubaan sebelum SIM tidak boleh digunakan secara kekal.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">Peranti tidak dibuka kunci selama %d jam. Sahkan corak.</item>
+        <item quantity="one">Peranti tidak dibuka kunci selama %d jam. Sahkan corak.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">Peranti tidak dibuka kunci selama %d jam. Sahkan PIN.</item>
+        <item quantity="one">Peranti tidak dibuka kunci selama %d jam. Sahkan PIN.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">Peranti tidak dibuka kunci selama %d jam. Sahkan kata laluan.</item>
+        <item quantity="one">Peranti tidak dibuka kunci selama %d jam. Sahkan kata laluan.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">Masukkan PIN SIM, anda mempunyai %d baki cubaan.</item>
+        <item quantity="one">Masukkan PIN SIM, anda mempunyai %d baki cubaan sebelum anda mesti menghubungi pembawa anda untuk membuka kunci peranti anda.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">SIM kini dinyahdayakan. Masukkan kod PUK untuk teruskan. Anda mempunyai %d baki cubaan sebelum SIM menjadi tidak boleh digunakan secara kekal. Hubungi pembawa untuk butiran.</item>
+        <item quantity="one">SIM kini dinyahdayakan. Masukkan kod PUK untuk teruskan. Anda mempunyai %d baki cubaan sebelum SIM menjadi tidak boleh digunakan secara kekal. Hubungi pembawa untuk butiran.</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_puk_enter_puk_hint_last_attempt_failed">
+        <item quantity="other">Maaf, entri anda tidak sepadan dengan kod PUK. Sila masukkan semula 8 digit kod PUK anda. Anda mempunyai %d peluang lagi.</item>
+        <item quantity="one">Maaf, entri anda tidak sepadan dengan kod PUK. Sila masukkan semula 8 digit kod PUK anda. Anda mempunyai %d peluang lagi.</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_sim_pin_instructions_last_attempt_failed">
+        <item quantity="other">Maaf, entri anda tidak sepadan dengan PIN SIM. Sila masukkan semula 4-8 digit PIN anda. Anda mempunyai %d peluang lagi.</item>
+        <item quantity="one">Maaf, entri anda tidak sepadan dengan PIN SIM. Sila masukkan semula 4-8 digit PIN anda. Anda mempunyai %d peluang lagi.</item>
+    </plurals>
+</resources>

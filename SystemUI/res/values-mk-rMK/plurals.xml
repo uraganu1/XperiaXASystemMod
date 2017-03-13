@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">%d екрани во Преглед</item>
+        <item quantity="one">1 екран во Преглед</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">Неточен PIN-код на SIM-картичката, имате уште %d обиди, а потоа мора да го внесете PUK-кодот (код за отклучување PIN) или да контактирате со мрежниот оператор за отклучување на уредот.</item>
+        <item quantity="one">Неточен PIN-код на SIM-картичката, имате уште %d обид, а потоа мора да го внесете PUK-кодот (код за отклучување PIN) или да контактирате со мрежниот оператор за отклучување на уредот.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Неточен PUK-код на SIM-картичката, имате уште %d обиди пред трајно да се блокира SIM-картичката.</item>
+        <item quantity="one">Неточен PUK-код на SIM-картичката, имате уште %d обид пред трајно да се блокира SIM-картичката.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">Уредот не е отклучен за %d часа. Потврдете ја шемата.</item>
+        <item quantity="one">Уредот не е отклучен за %d час. Потврдете ја шемата.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">Уредот не е отклучен за %d часа. Потврдете го ПИН-кодот.</item>
+        <item quantity="one">Уредот не е отклучен за %d час. Потврдете го ПИН-кодот.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">Уредот не е отклучен за %d часа. Потврдете ја лозинката.</item>
+        <item quantity="one">Уредот не е отклучен за %d час. Потврдете ја лозинката.</item>
+    </plurals>
+</resources>

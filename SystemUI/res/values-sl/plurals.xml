@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">Št. zaslonov v pregledu: %d</item>
+        <item quantity="one">1 zaslon v pregledu</item>
+        <item quantity="two">%d zaslona v pregledu</item>
+        <item quantity="few">%d zasloni v pregledu</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">Napačna koda PIN kartice SIM. Na voljo imate še toliko poskusov: %d. Nato boste morali za odklep naprave vnesti kodo PUK (kodo za odklepanje kode PIN) ali se obrniti na ponudnika storitev.</item>
+        <item quantity="one">Napačna koda PIN kartice SIM. Na voljo imate še %d poskus. Nato boste morali za odklep naprave vnesti kodo PUK (kodo za odklepanje kode PIN) ali se obrniti na ponudnika storitev.</item>
+        <item quantity="two">Napačna koda PIN kartice SIM. Na voljo imate še %d poskusa.</item>
+        <item quantity="few">Napačna koda PIN kartice SIM. Na voljo imate še %d poskuse.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Napačna koda PUK kartice SIM. Poskusite lahko še %d-krat. Potem bo kartica SIM postala trajno neuporabna.</item>
+        <item quantity="one">Napačna koda PUK kartice SIM. Na voljo imate še %d poskus. Potem bo kartica SIM postala trajno neuporabna.</item>
+        <item quantity="two">Napačna koda PUK kartice SIM. Na voljo imate še %d poskusa. Potem bo kartica SIM postala trajno neuporabna.</item>
+        <item quantity="few">Napačna koda PUK kartice SIM. Na voljo imate še %d poskuse. Potem bo kartica SIM postala trajno neuporabna.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">Naprava ni bila odklenjena %d h. Potrdite vzorec.</item>
+        <item quantity="one">Naprava ni bila odklenjena %d uro. Potrdite vzorec.</item>
+        <item quantity="two">Naprava ni bila odklenjena %d uri. Potrdite vzorec.</item>
+        <item quantity="few">Naprava ni bila odklenjena %d ure. Potrdite vzorec.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">Naprava ni bila odklenjena %d h. Potrdite PIN.</item>
+        <item quantity="one">Naprava ni bila odklenjena %d uro. Potrdite kodo PIN.</item>
+        <item quantity="two">Naprava ni bila odklenjena %d uri. Potrdite kodo PIN.</item>
+        <item quantity="few">Naprava ni bila odklenjena %d ure. Potrdite kodo PIN.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">Naprava ni bila odklenjena %d h. Potrdite geslo.</item>
+        <item quantity="one">Naprava ni bila odklenjena %d uro. Potrdite geslo.</item>
+        <item quantity="two">Naprava ni bila odklenjena %d uri. Potrdite geslo.</item>
+        <item quantity="few">Naprava ni bila odklenjena %d ure. Potrdite geslo.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">Vnesite kodo PIN kartice SIM. Na voljo imate še toliko poskusov: %d.</item>
+        <item quantity="one">Vnesite kodo PIN kartice SIM. Imate še %d preostali poskus, preden se boste za odklepanje svoje naprave morali obrniti na ponudnika storitev.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">Kartica SIM je onemogočena. Za nadaljevanje morate vnesti kodo PUK. Na voljo imate še toliko poskusov, nato kartice SIM ne bo mogoče več uporabljati: %d. Podrobnosti izveste pri ponudniku storitev.</item>
+        <item quantity="one">Kartica SIM je onemogočena. Za nadaljevanje morate vnesti kodo PUK. Na voljo imate še %d preostali preskus, nato kartice SIM ne bo mogoče več uporabljati. Podrobnosti izveste pri ponudniku storitev.</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_puk_enter_puk_hint_last_attempt_failed">
+        <item quantity="other">Vaš vnos se žal ne ujema s kodo PUK. Znova vnesite 8-mestno kodo PUK. Na voljo imate še toliko poskusov: %d.</item>
+        <item quantity="one">Vaš vnos se žal ne ujema s kodo PUK. Znova vnesite 8-mestno kodo PUK. Na voljo imate še toliko poskusov: %d.</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_sim_pin_instructions_last_attempt_failed">
+        <item quantity="other">Vaš vnos se žal ne ujema s kodo PIN kartice SIM. Znova vnesite kodo PIN, dolgo od 4 do 8 znakov. Na voljo imate še toliko poskusov: %d.</item>
+        <item quantity="one">Vaš vnos se žal ne ujema s kodo PIN kartice SIM. Znova vnesite kodo PIN, dolgo od 4 do 8 znakov. Na voljo imate še toliko poskusov: %d.</item>
+    </plurals>
+</resources>

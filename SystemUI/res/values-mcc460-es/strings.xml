@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_security_wapi_psk">WLAN PSK</string>
+    <string name="wifi_disabled_wifi_failure">Error de conexión WLAN</string>
+    <string name="connected_via_wfa">Conexión por asistente de WLAN</string>
+    <string name="wifi_connected_no_internet">Conectado a WLAN, sin conexión a Internet</string>
+    <string name="accessibility_wifi_off">WLAN apagado.</string>
+    <string name="accessibility_no_wifi">WLAN desconectado.</string>
+    <string name="accessibility_wifi_one_bar">Una barra de WLAN.</string>
+    <string name="accessibility_wifi_two_bars">Dos barras de WLAN.</string>
+    <string name="accessibility_wifi_three_bars">Tres barras de WLAN.</string>
+    <string name="accessibility_wifi_signal_full">Señal completa de WLAN.</string>
+    <string name="quick_settings_wifi_scanning_label">WLAN: explorando</string>
+    <string name="quick_settings_wifi_connecting_label">WLAN: conectando</string>
+    <string name="toast_message_not_allow_turn_on_hotspot">La zona activa de WLAN no está disponible en el modo de avión</string>
+    <string name="status_bar_settings_wifi_button">WLAN</string>
+    <string name="accessibility_data_connection_wifi">WLAN</string>
+    <string name="accessibility_quick_settings_wifi_changed_off">WLAN apagado</string>
+    <string name="accessibility_quick_settings_wifi_changed_on">WLAN encendido</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">Con conexión WLAN</string>
+    <string name="quick_settings_wifi_label">WLAN</string>
+    <string name="quick_settings_wifi_off_label">WLAN desactivado</string>
+    <string name="quick_settings_wifi_detail_empty_text">No hay redes WLAN disponibles</string>
+    <string name="accessibility_quick_settings_detail">Configuración rápida: %s</string>
+    <string name="wifi_security_short_wapi_cert">WLAN CERT</string>
+    <string name="wifi_security_short_wapi_psk">WLAN PSK</string>
+    <string name="wifi_security_wapi_cert">WLAN CERT</string>
+</resources>

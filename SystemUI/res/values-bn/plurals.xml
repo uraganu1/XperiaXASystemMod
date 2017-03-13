@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">ওভারভিউ-এ %dটি পর্দা</item>
+        <item quantity="one">ওভারভিউ-এ 1টি পর্দা</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">SIM PIN কোডটি ভুল, আপনি অবশ্যই PUK কোডটি (PIN আনলক করার কোড) প্রবিষ্ট করার আগে %d বার চেষ্টা করতে পারবেন বা আপনার যন্ত্রটিকে আনলক করতে আপনার পরিষেবা প্রদানকারীর সঙ্গে সম্পর্ক করুন।</item>
+        <item quantity="one">SIM PIN কোডটি ভুল, আপনি অবশ্যই PUK কোডটি (PIN আনলক করার কোড) প্রবিষ্ট করার আগে %d বার প্রচেষ্টা চালান বা আপনার যন্ত্রটিকে আনলক করতে আপনার পরিষেবা প্রদানকারীর সঙ্গে সম্পর্ক করুন।</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">SIM PUK কোডটি ভুল, আপনি আর %d বার চেষ্টা করতে পারবেন, যার পরে SIM স্থায়ী ভাবে অব্যবহারযোগ্য হয়ে যাবে।</item>
+        <item quantity="one">SIM PUK কোডটি ভুল, আপনি আর %d বার চেষ্টা করতে পারবেন যার পরে SIM স্থায়ীভাবে অব্যবহারযোগ্য হয়ে যাবে।</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">ডিভাইস %d ঘন্টার জন্য আনলক করা হয়নি। প্যাটার্ন নিশ্চিত করুন।</item>
+        <item quantity="one">ডিভাইস %d ঘন্টার জন্য আনলক করা হয়নি। প্যাটার্ন নিশ্চিত করুন।</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">ডিভাইস %d ঘন্টার জন্য আনলক করা হয়নি। পিন নিশ্চিত করুন৷</item>
+        <item quantity="one">ডিভাইস %d ঘন্টার জন্য আনলক করা হয়নি। পিন নিশ্চিত করুন৷</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">ডিভাইস %d ঘন্টার জন্য আনলক করা হয়নি। পাসওয়ার্ড নিশ্চিত করুন৷</item>
+        <item quantity="one">ডিভাইস %d ঘন্টার জন্য আনলক করা হয়নি। পাসওয়ার্ড নিশ্চিত করুন৷</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">SIM PIN প্রবিষ্ট করুন, আপনার %d প্রচেষ্টা অবশিষ্ট আছে।</item>
+        <item quantity="one">SIM PIN প্রবিষ্ট করুন, আপনার %d প্রচেষ্টা অবশিষ্ট আছে যার পরে যন্ত্রটিকে আনলক করতে আপনাকে আপনার বাহকের সঙ্গে যোগাযোগ করতে হবে।</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">SIM এখন অক্ষম হয়েছে। অব্যাহত রাখতে PUK কোড প্রবিষ্ট করুন। অপনার %dপ্রচেষ্টা অবশিষ্ট আছে যার পরে SIM চিরস্থায়ীভাবে ব্যবহারের অযোগ্য হবে। বিশদ বিবরণের জন্য বাহকের সঙ্গে যোগাযোগ করুন।</item>
+        <item quantity="one">SIM এখন অক্ষম হয়েছে। অব্যাহত রাখতে PUK কোড প্রবিষ্ট করুন। অপনার %d প্রচেষ্টা অবশিষ্ট আছে যার পরে SIM চিরস্থায়ীভাবে ব্যবহারের অযোগ্য হবে। বিশদ বিবরণের জন্য বাহকের সঙ্গে যোগাযোগ করুন।</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_puk_enter_puk_hint_last_attempt_failed">
+        <item quantity="other">দুঃখিত, আপনার এন্ট্রি PUK কোডের সঙ্গে মেলেনি। দয়া করে আপনার 8 ডিজিটের PUK কোড পুনরায়-প্রবিষ্ট করুন। আপনি আরও %d বার সুযোগ পাবেন।</item>
+        <item quantity="one">দুঃখিত, আপনার এন্ট্রি PUK কোডের সঙ্গে মেলেনি। দয়া করে আপনার 8 ডিজিটের PUK কোড পুনরায়-প্রবিষ্ট করুন। আপনি আরও %d বার সুযোগ পাবেন।</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_sim_pin_instructions_last_attempt_failed">
+        <item quantity="other">দুঃখিত, আপনার এন্ট্রি SIM PIN এর সঙ্গে মেলেনি। দয়া করে আপনার 4-8 ডিজিটের PIN পুনরায়-প্রবিষ্ট করুন। আপনি আরও %d বার সুযোগ পাবেন।</item>
+        <item quantity="one">দুঃখিত, আপনার এন্ট্রি SIM PIN এর সঙ্গে মেলেনি। দয়া করে আপনার 4-8 ডিজিটের PIN পুনরায়-প্রবিষ্ট করুন। আপনি আরও %d বার সুযোগ পাবেন।</item>
+    </plurals>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_settings_autorotate">Automatiškai pasukti ekraną</string>
+    <string name="status_bar_settings_autosync">Automatiškai sinchronizuoti duomenis</string>
+    <string name="status_bar_settings_mobile_data">Mobiliųjų duomenų srautas</string>
+</resources>

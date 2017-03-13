@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_security_wapi_psk">WLAN PSK</string>
+    <string name="wifi_disabled_wifi_failure">WLAN Bağlantı Uğursuzluğu</string>
+    <string name="connected_via_wfa">WLAN köməkçisi vasitəsilə qoşulub</string>
+    <string name="accessibility_wifi_off">WLAN sönüb.</string>
+    <string name="accessibility_no_wifi">WLAN bağlantısı kəsilib.</string>
+    <string name="accessibility_wifi_one_bar">WLAN siqnalı bir zolaqdır.</string>
+    <string name="accessibility_wifi_two_bars">WLAN siqnalı iki zolaqdır.</string>
+    <string name="accessibility_wifi_three_bars">WLAN siqnalı üç zolaqdır.</string>
+    <string name="accessibility_wifi_signal_full">WLAN siqnalı tamdır.</string>
+    <string name="quick_settings_wifi_scanning_label">WLAN: Skanlanır</string>
+    <string name="quick_settings_wifi_connecting_label">WLAN: Qoşulur</string>
+    <string name="toast_message_not_allow_turn_on_hotspot">WLAN qaynar nöqtəsi uçuş rejimində mövcud olmur</string>
+    <string name="status_bar_settings_wifi_button">WLAN</string>
+    <string name="accessibility_data_connection_wifi">WLAN</string>
+    <string name="accessibility_quick_settings_wifi_changed_off">WLAN söndürüldü</string>
+    <string name="accessibility_quick_settings_wifi_changed_on">WLAN yandırıldı</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">WLAN qoşulub</string>
+    <string name="quick_settings_wifi_label">WLAN</string>
+    <string name="quick_settings_wifi_off_label">WLAN sönülüdür</string>
+    <string name="quick_settings_wifi_detail_empty_text">Heç bir WLAN şəbəkəsi əlçatan deyil</string>
+    <string name="accessibility_quick_settings_detail">Sürətli Ayarlar, %s.</string>
+    <string name="wifi_security_short_wapi_cert">WLAN CERT</string>
+    <string name="wifi_security_short_wapi_psk">WLAN PSK</string>
+    <string name="wifi_security_wapi_cert">WLAN CERT</string>
+</resources>

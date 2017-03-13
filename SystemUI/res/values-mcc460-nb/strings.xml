@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_security_wapi_psk">WLAN-PSK</string>
+    <string name="wifi_disabled_wifi_failure">WLAN-tilkoblingsfeil</string>
+    <string name="connected_via_wfa">Koblet til via en WLAN-assistent</string>
+    <string name="accessibility_wifi_off">WLAN av.</string>
+    <string name="accessibility_no_wifi">WLAN er frakoblet.</string>
+    <string name="accessibility_wifi_one_bar">WLAN én strek.</string>
+    <string name="accessibility_wifi_two_bars">WLAN to streker.</string>
+    <string name="accessibility_wifi_three_bars">WLAN tre streker.</string>
+    <string name="accessibility_wifi_signal_full">WLAN full signalstyrke.</string>
+    <string name="quick_settings_wifi_scanning_label">WLAN: Skanner</string>
+    <string name="quick_settings_wifi_connecting_label">WLAN: Kobler til</string>
+    <string name="toast_message_not_allow_turn_on_hotspot">WLAN-tilkoblingspunkt er ikke tilgjengelig i flymodus</string>
+    <string name="status_bar_settings_wifi_button">WLAN</string>
+    <string name="accessibility_data_connection_wifi">WLAN</string>
+    <string name="accessibility_quick_settings_wifi_changed_off">WLAN slått av</string>
+    <string name="accessibility_quick_settings_wifi_changed_on">WLAN slått på</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">WLAN tilkoblet</string>
+    <string name="quick_settings_wifi_label">WLAN</string>
+    <string name="quick_settings_wifi_off_label">WLAN er av</string>
+    <string name="quick_settings_wifi_detail_empty_text">Ingen WLAN-nettverk er tilgjengelige</string>
+    <string name="quick_settings_hotspot_label">WLAN-sone</string>
+    <string name="accessibility_quick_settings_detail">Hurtiginnstillinger, %s.</string>
+    <string name="accessibility_status_bar_hotspot">WLAN-sone</string>
+    <string name="wifi_security_short_wapi_cert">WLAN-sertifikat</string>
+    <string name="wifi_security_short_wapi_psk">WLAN-PSK</string>
+    <string name="wifi_security_wapi_cert">WLAN-sertifikat</string>
+</resources>

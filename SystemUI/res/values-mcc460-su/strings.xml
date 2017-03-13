@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_security_wapi_psk">WLAN PSK</string>
+    <string name="wifi_disabled_wifi_failure">Sambungan WLAN Gagal</string>
+    <string name="connected_via_wfa">Nyambung liwat asistén WLAN</string>
+    <string name="accessibility_wifi_off">WLAN pareum.</string>
+    <string name="accessibility_no_wifi">WLAN dipegatkeun.</string>
+    <string name="accessibility_wifi_one_bar">WLAN sabatang.</string>
+    <string name="accessibility_wifi_two_bars">WLAN dua batang.</string>
+    <string name="accessibility_wifi_three_bars">WLAN tilu batang.</string>
+    <string name="accessibility_wifi_signal_full">Sinyal WLAN pinuh.</string>
+    <string name="quick_settings_wifi_scanning_label">WLAN: Nyeken</string>
+    <string name="quick_settings_wifi_connecting_label">WLAN: Nyambungkeun</string>
+    <string name="toast_message_not_allow_turn_on_hotspot">Hotspot WLAN teu sadia di modeu pesawt terbang</string>
+    <string name="status_bar_settings_wifi_button">WLAN</string>
+    <string name="accessibility_data_connection_wifi">WLAN</string>
+    <string name="accessibility_quick_settings_wifi_changed_off">WLAN dinonaktipkeun</string>
+    <string name="accessibility_quick_settings_wifi_changed_on">WLAN diaktipkeun</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">WLAN nyambung</string>
+    <string name="quick_settings_wifi_label">WLAN</string>
+    <string name="quick_settings_wifi_off_label">WLAN pareum</string>
+    <string name="quick_settings_wifi_detail_empty_text">Jaringan WLAN teu sadia</string>
+    <string name="accessibility_quick_settings_detail">Setélan Rusuh, %s.</string>
+    <string name="wifi_security_short_wapi_cert">WLAN SERT</string>
+    <string name="wifi_security_short_wapi_psk">WLAN PSK</string>
+    <string name="wifi_security_wapi_cert">WLAN SERT</string>
+</resources>

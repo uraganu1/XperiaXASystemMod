@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">கண்ணோட்டத்தில் %d திரைகள்</item>
+        <item quantity="one">கண்ணோட்டத்தில் 1 திரை</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">தவறான சிம் PIN குறியீடு, உங்கள் PUK குறியீடை (PIN பூட்டுநீக்கக் குறியீடு) உள்ளிடுவதற்கு முன்பு உங்களிடம் %d முயற்சிகள் மீதமுள்ளன அல்லது உங்கள் சாதனத்தை பூட்டுநீக்க உங்கள் சேவை வழங்குநரைத் தொடர்புகொள்ளவும்.</item>
+        <item quantity="one">தவறான சிம் PIN குறியீடு, உங்கள் PUK குறியீடை (PIN பூட்டுநீக்கக் குறியீடு) உள்ளிடுவதற்கு முன்பு உங்களிடம் %d முயற்சி மீதமுள்ளது அல்லது உங்கள் சாதனத்தை பூட்டுநீக்க உங்கள் சேவை வழங்குநரைத் தொடர்புகொள்ளவும்.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">தவறான சிம் PUK குறியீடு, உங்கள் சிம்மை நிரந்தரமாக பயன்படுத்த முடியாத நிலைக்கு முன்பு உங்களிடம் %d முயற்சிகள் மீதமுள்ளன.</item>
+        <item quantity="one">தவறான சிம் PUK குறியீடு, உங்கள் சிம்மை நிரந்தரமாக பயன்படுத்த முடியாத நிலைக்கு முன்பு உங்களிடம் %d முயற்சி மீதமுள்ளன.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">%d மணிநேரத்திற்கு சாதனம் பூட்டுநீக்கப்படவில்லை. வடிவத்தை உறுதிப்படுத்தவும்.</item>
+        <item quantity="one">%d மணிநேரத்திற்கு சாதனம் பூட்டுநீக்கப்படவில்லை. கடவுச்சொல்லை உறுதிப்படுத்தவும்.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">%d மணிநேரத்திற்கு சாதனம் பூட்டுநீக்கப்படவில்லை. PIN -ஐ உறுதிப்படுத்தவும்.</item>
+        <item quantity="one">%d மணிநேரத்திற்கு சாதனம் பூட்டுநீக்கப்படவில்லை. PIN -ஐ உறுதிப்படுத்தவும்.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">%d மணிநேரத்திற்கு சாதனம் பூட்டுநீக்கப்படவில்லை. கடவுச்சொல்லை உறுதிப்படுத்தவும்.</item>
+        <item quantity="one">%d மணிநேரத்திற்கு சாதனம் பூட்டுநீக்கப்படவில்லை. கடவுச்சொல்லை உறுதிப்படுத்தவும்.</item>
+    </plurals>
+</resources>

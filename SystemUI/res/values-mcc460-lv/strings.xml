@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_security_wapi_psk">WLAN PSK</string>
+    <string name="wifi_disabled_wifi_failure">WLAN savienojuma kļūme</string>
+    <string name="connected_via_wfa">Izveidots savienojums ar WLAN palīgu</string>
+    <string name="accessibility_wifi_off">WLAN izslēgts.</string>
+    <string name="accessibility_no_wifi">WLAN atvienots.</string>
+    <string name="accessibility_wifi_one_bar">Viena WLAN savienojuma josla.</string>
+    <string name="accessibility_wifi_two_bars">Divas WLAN savienojuma joslas.</string>
+    <string name="accessibility_wifi_three_bars">Trīs WLAN savienojuma joslas.</string>
+    <string name="accessibility_wifi_signal_full">Pilns WLAN signāls.</string>
+    <string name="quick_settings_wifi_scanning_label">WLAN: skenēšana</string>
+    <string name="quick_settings_wifi_connecting_label">WLAN: savien. izveide</string>
+    <string name="toast_message_not_allow_turn_on_hotspot">WLAN tīklājs lidmašīnas režīmā nav pieejams</string>
+    <string name="status_bar_settings_wifi_button">WLAN</string>
+    <string name="accessibility_data_connection_wifi">WLAN</string>
+    <string name="accessibility_quick_settings_wifi_changed_off">Ir izslēgts WLAN savienojums</string>
+    <string name="accessibility_quick_settings_wifi_changed_on">Ir ieslēgts WLAN savienojums</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">Izv. sav. ar WLAN</string>
+    <string name="quick_settings_wifi_label">WLAN</string>
+    <string name="quick_settings_wifi_off_label">WLAN izslēgts</string>
+    <string name="quick_settings_wifi_detail_empty_text">Nav pieejams neviens WLAN tīkls.</string>
+    <string name="accessibility_quick_settings_detail">Ātrie iestatījumi: %s.</string>
+    <string name="wifi_security_short_wapi_cert">WLAN CERT</string>
+    <string name="wifi_security_short_wapi_psk">WLAN PSK</string>
+    <string name="wifi_security_wapi_cert">WLAN CERT</string>
+</resources>

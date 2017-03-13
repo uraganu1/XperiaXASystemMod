@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_security_wapi_psk">WLAN PSK</string>
+    <string name="connected_via_wfa">Connected via WLAN assistant</string>
+    <string name="quick_settings_wifi_scanning_label">WLAN: Scanning</string>
+    <string name="quick_settings_wifi_connecting_label">WLAN: Connecting</string>
+    <string name="toast_message_not_allow_turn_on_hotspot">WLAN hotspot not available in airplane mode</string>
+    <string name="accessibility_quick_settings_detail">Quick Settings, %s.</string>
+    <string name="status_bar_wifi">WLAN</string>
+    <string name="status_bar_wifi_hotspot">WLAN hotspot</string>
+    <string name="vzw_airplane_mode_is_on">"Airplane mode is turned on. You won't be able to use the Internet, email or other apps that need a data connection unless you use WLAN."</string>
+    <string name="vzw_airplane_mode_is_on_volte">"Airplane mode is turned on. You won't be able to use the Internet, email or other apps that need a data connection unless you use WLAN. Your phone's video-calling function won't work in Airplane mode."</string>
+    <string name="vzw_airplane_mode_turn_on">"When Airplane mode is on, you won't be able to use the Internet, email or other apps that require a data connection unless you use WLAN. 
+"</string>
+    <string name="vzw_airplane_mode_turn_on_volte">"When Airplane mode is on, you won't be able to use the Internet, email or other apps that require a data connection unless you use WLAN. Your phone's video-calling function won't work in Airplane mode."</string>
+    <string name="wifi_security_short_wapi_cert">WLAN CERT</string>
+    <string name="wifi_security_short_wapi_psk">WLAN PSK</string>
+    <string name="wifi_security_wapi_cert">WLAN CERT</string>
+</resources>

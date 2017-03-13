@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_security_wapi_psk">WLAN PSK</string>
+    <string name="wifi_disabled_wifi_failure">Kablosuz Bağlantı Hatası</string>
+    <string name="accessibility_wifi_off">WLAN kapalı.</string>
+    <string name="accessibility_no_wifi">WLAN bağlantısı kesildi.</string>
+    <string name="accessibility_wifi_one_bar">WLAN bir çubuk.</string>
+    <string name="accessibility_wifi_two_bars">WLAN iki çubuk.</string>
+    <string name="accessibility_wifi_three_bars">WLAN üç çubuk.</string>
+    <string name="accessibility_wifi_signal_full">WLAN sinyali tam.</string>
+    <string name="quick_settings_wifi_scanning_label">WLAN: Taranıyor</string>
+    <string name="quick_settings_wifi_connecting_label">WLAN: Bağlanıyor</string>
+    <string name="toast_message_not_allow_turn_on_hotspot">WLAN genel alanı uçak modunda kullanılamaz</string>
+    <string name="status_bar_settings_wifi_button">WLAN</string>
+    <string name="accessibility_data_connection_wifi">WLAN</string>
+    <string name="accessibility_quick_settings_wifi_changed_off">WLAN kapalı</string>
+    <string name="accessibility_quick_settings_wifi_changed_on">WLAN açık</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">WLAN bağlandı</string>
+    <string name="quick_settings_wifi_label">WLAN</string>
+    <string name="quick_settings_wifi_off_label">WLAN Kapalı</string>
+    <string name="quick_settings_wifi_detail_empty_text">Kullanılabilir WLAN ağlar yok</string>
+    <string name="accessibility_quick_settings_detail">Hızlı Ayarlar, %s.</string>
+    <string name="wifi_security_short_wapi_cert">WLAN CERT</string>
+    <string name="wifi_security_short_wapi_psk">WLAN PSK</string>
+    <string name="wifi_security_wapi_cert">WLAN CERT</string>
+</resources>

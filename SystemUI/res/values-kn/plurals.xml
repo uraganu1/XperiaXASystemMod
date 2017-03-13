@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">ಅವಲೋಕನದಲ್ಲಿರುವ %d ಪರದೆಗಳು</item>
+        <item quantity="one">ಅವಲೋಕನದಲ್ಲಿನ 1 ಪರದೆ</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">ತಪ್ಪಾದ SIM PIN ಕೋಡ್, ನಿಮ್ಮ PUK ಕೋಡ್ (PIN ಅನ್‌ಲಾಕ್ ಕೋಡ್) ನಮೂದಿಸುವ ಮುನ್ನ ನಿಮ್ಮ ಬಳಿ %d ಪ್ರಯತ್ನಗಳು ಬಾಕಿ ಉಳಿದಿದೆ ಅಥವಾ ನಿಮ್ಮ ಸಾಧನ ಅನ್‌ಲಾಕ್ ಮಾಡಲು ನಿಮ್ಮ ಸೇವೆ ನೀಡುಗರನ್ನು ಸಂಪರ್ಕಿಸಿ.</item>
+        <item quantity="one">ತಪ್ಪಾದ SIM PIN ಕೋಡ್, ನಿಮ್ಮ PUK ಕೋಡ್ (PIN ಅನ್‌ಲಾಕ್ ಕೋಡ್) ನಮೂದಿಸುವ ಮುನ್ನ ನಿಮ್ಮ ಬಳಿ %d ಪ್ರಯತ್ನಗಳು ಬಾಕಿ ಉಳಿದಿದೆ ಅಥವಾ ನಿಮ್ಮ ಸಾಧನ ಅನ್‌ಲಾಕ್ ಮಾಡಲು ನಿಮ್ಮ ಸೇವೆ ನೀಡುಗರನ್ನು ಸಂಪರ್ಕಿಸಿ.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">ತಪ್ಪಾದ SIM PUK ಕೋಡ್, SIM ಖಾಯಂ ಆಗಿ ಬಳಸಲಾಗದಂತೆ ಆಗುವ ಮೊದಲು ನಿಮ್ಮಲ್ಲಿ %d ಬಾಕಿ ಉಳಿದಿರುವ ಪ್ರಯತ್ನಗಳಿವೆ.</item>
+        <item quantity="one">ತಪ್ಪಾದ SIM PUK ಕೋಡ್, SIM ಖಾಯಂ ಆಗಿ ಬಳಸಲಾಗದಂತೆ ಆಗುವ ಮೊದಲು ನಿಮ್ಮಲ್ಲಿ %d ಬಾಕಿ ಉಳಿದಿರುವ ಪ್ರಯತ್ನವಿದೆ.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">ಸಾಧನವನ್ನು %d ಗಂಟೆಗಳ ಕಾಲ ಅನ್‌ಲಾಕ್‌ ಮಾಡಲಾಗಿಲ್ಲ. ನಮೂನೆಯನ್ನು ಖಚಿತಪಡಿಸಿ.</item>
+        <item quantity="one">ಸಾಧನವನ್ನು %d ಗಂಟೆಗಳ ಕಾಲ ಅನ್‌ಲಾಕ್‌ ಮಾಡಲಾಗಿಲ್ಲ. ನಮೂನೆಯನ್ನು ಖಚಿತಪಡಿಸಿ.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">ಸಾಧನವನ್ನು %d ಗಂಟೆಗಳ ಕಾಲ ಅನ್‌ಲಾಕ್‌ ಮಾಡಲಾಗಿಲ್ಲ. ಪಿನ್ ದೃಢೀಕರಿಸಿ.</item>
+        <item quantity="one">ಸಾಧನವನ್ನು %d ಗಂಟೆಗಳ ಕಾಲ ಅನ್‌ಲಾಕ್‌ ಮಾಡಲಾಗಿಲ್ಲ. ಪಿನ್ ದೃಢೀಕರಿಸಿ.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">ಸಾಧನವನ್ನು %d ಗಂಟೆಗಳ ಕಾಲ ಅನ್‌ಲಾಕ್‌ ಮಾಡಲಾಗಿಲ್ಲ. ಪಾಸ್‌ವರ್ಡ್‌ ಖಚಿತಪಡಿಸಿ.</item>
+        <item quantity="one">ಸಾಧನವನ್ನು %d ಗಂಟೆಗಳ ಕಾಲ ಅನ್‌ಲಾಕ್‌ ಮಾಡಲಾಗಿಲ್ಲ. ಪಾಸ್‌ವರ್ಡ್‌ ಖಚಿತಪಡಿಸಿ.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">SIM PIN ನಮೂದಿಸಿ, ನಿಮ್ಮ ಬಳಿ %d ಪ್ರಯತ್ನಗಳು ಬಾಕಿ ಉಳಿದಿದೆ.</item>
+        <item quantity="one">SIM PIN ನಮೂದಿಸಿ, ನಿಮ್ಮ ಸಾಧನ ಅನ್‌ಲಾಕ್ ಮಾಡುವುದಕ್ಕಾಗಿ ನಿಮ್ಮ ಕ್ಯಾರಿಯರ್ ಅನ್ನು ನೀವು ಸಂಪರ್ಕಿಸುವ ಮೊದಲು ನಿಮ್ಮ ಬಳಿ %d ಬಾಕಿ ಉಳಿದಿರುವ ಪ್ರಯತ್ನವಿದೆ.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">SIM ಇದೀಗ ನಿಶಕ್ತಗೊಳಿಸಲಾಗಿದೆ. ಮುಂದುವರಿಯಲು PUK ಕೋಡ್ ನಮೂದಿಸಿ. SIM ಖಾಯಂ ಆಗಿ ಬಳಸಲಾಗದೇ ಇರುವ ಮೊದಲು ನಿಮ್ಮ ಬಳಿ %d ಪ್ರಯತ್ನಗಳು ಬಾಕಿ ಉಳಿದಿವೆ.</item>
+        <item quantity="one">SIM ಇದೀಗ ಶಕ್ತಗೊಳಿಸಲಾಗಿದೆ. ಮುಂದುವರಿಯಲು PUK ಕೋಡ್ ನಮೂದಿಸಿ. SIM ಖಾಯಂ ಆಗಿ ಬಳಸಲಾಗದೇ ಇರುವ ಮೊದಲು ನಿಮ್ಮ ಬಳಿ %d ಬಾಕಿ ಉಳಿದಿರುವ ಪ್ರಯತ್ನವಿದೆ.</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_puk_enter_puk_hint_last_attempt_failed">
+        <item quantity="other">ಕ್ಷಮಿಸಿ, ನಿಮ್ಮ ನಮೂದು PUK ಕೋಡ್‌ಗೆ ಹೊಂದಿಕೆಯಾಗಲಿಲ್ಲ. ದಯವಿಟ್ಟು ನಿಮ್ಮ 8 ಅಂಕಿಯ PUK ಕೋಡ್ ಮರು-ನಮೂದಿಸಿ. ನೀವು %d ಹೆಚ್ಚು ಅವಕಾಶಗಳನ್ನು ಹೊಂದಿದ್ದೀರಿ.</item>
+        <item quantity="one">ಕ್ಷಮಿಸಿ, ನಿಮ್ಮ ನಮೂದು PUK ಕೋಡ್‌ಗೆ ಹೊಂದಿಕೆಯಾಗಲಿಲ್ಲ. ದಯವಿಟ್ಟು ನಿಮ್ಮ 8 ಅಂಕಿಯ PUK ಕೋಡ್ ನಮೂದಿಸಿ. ನೀವು %d ಹೆಚ್ಚು ಅವಕಾಶ ಹೊಂದಿದ್ದೀರಿ.</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_sim_pin_instructions_last_attempt_failed">
+        <item quantity="other">ಕ್ಷಮಿಸಿ, ನಿಮ್ಮ ನಮೂದು SIM PIN ಗೆ ಹೊಂದಿಕೆಯಾಗಲಿಲ್ಲ. ದಯವಿಟ್ಟು ನಿಮ್ಮ 4-8 ಅಂಕಿಯ PIN ಮರುನಮೂದಿಸಿ. ನೀವು %d ಹೆಚ್ಚು ಅವಕಾಶಗಳನ್ನು ಹೊಂದಿದ್ದೀರಿ.</item>
+        <item quantity="one">ಕ್ಷಮಿಸಿ, ನಿಮ್ಮ ನಮೂದು SIM PIN ಗೆ ಹೊಂದಿಕೆಯಾಗಲಿಲ್ಲ. ದಯವಿಟ್ಟು ನಿಮ್ಮ 4-8 ಅಂಕಿಯ PIN ನಮೂದಿಸಿ. ನೀವು %d ಹೆಚ್ಚು ಅವಕಾಶ ಹೊಂದಿದ್ದೀರಿ.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">%d ეკრანი მიმოხილვაში</item>
+        <item quantity="one">1 ეკრანი მიმოხილვაში</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">SIM-ის PIN კოდი არასწორია, თქვენ დაგრჩათ %d მცდელობა, რომლის ამოწურვის შემდეგ მოგიწევთ PUK კოდის (PIN-ის განბლოკვის კოდის) შეყვანა ან სერვისის პროვაიდერთან დაკავშირება მოწყობილობის განბლოკვის თხოვნით.</item>
+        <item quantity="one">SIM-ის PIN კოდი არასწორია, თქვენ დაგრჩათ %d მცდელობა, რომლის ამოწურვის შემდეგ მოგიწევთ PUK კოდის (PIN-ის განბლოკვის კოდის) შეყვანა ან სერვისის პროვაიდერთან დაკავშირება მოწყობილობის განბლოკვის თხოვნით.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">არასწორი SIM PIN კოდი, დაგრჩათ %d მცდელობა იქამდე სანამ SIM გახდება მუდმივად გამოუსადეგარი.</item>
+        <item quantity="one">არასწორი SIM PIN კოდი, დაგრჩათ %d მცდელობა იქამდე სანამ SIM გახდება მუდმივად გამოუსადეგარი.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">მოწყობილობა არ განბლოკილა %d სთ. დაადასტურეთ შაბლონი.</item>
+        <item quantity="one">მოწყობილობა არ განბლოკილა %d სთ. დაადასტურეთ შაბლონი.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">მოწყობილობა არ განბლოკილა %d სთ. დაადასტურეთ PIN.</item>
+        <item quantity="one">მოწყობილობა რა განბლოკილა %d სთ. დაადასტურეთ PIN.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">მოწყობილობა არ განბლოკილა %d სთ. დაადასტურეთ პაროლი.</item>
+        <item quantity="one">მოწყობილობა არ განბლოკილა %d სთ. დაადასტურეთ პაროლი.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">%d ecrane în Prezentare generală</item>
+        <item quantity="one">1 ecran în Prezentare generală</item>
+        <item quantity="few">%d ecrane în Recente</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">Codul PIN pentru cartela SIM este incorect. Mai aveţi %d încercări, după care va trebui să introduceţi codul PUK (codul de deblocare a codului PIN) sau să contactaţi furnizorul de servicii pentru a vă debloca dispozitivul.</item>
+        <item quantity="one">Codul PIN pentru cartela SIM este incorect. Mai aveţi %d încercare, după care va trebui să introduceţi codul PUK (codul de deblocare a codului PIN) sau să contactaţi furnizorul de servicii pentru a vă debloca dispozitivul.</item>
+        <item quantity="few">Codul PIN pentru cardul SIM este incorect. V-au mai rămas %d încercări.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Codul PUK pentru cartela SIM este incorect. Mai aveţi %d încercări, după care cartela SIM va deveni inutilizabilă.</item>
+        <item quantity="one">Codul PUK pentru cartela SIM este incorect. Mai aveţi %d încercare, după care cartela SIM va deveni inutilizabilă.</item>
+        <item quantity="few">Codul PUK pentru cardul SIM este incorect. V-au mai rămas %d încercări până când cardul SIM va deveni inutilizabil definitiv.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">Dispozitivul nu a fost deblocat de %d de ore. Confirmați modelul.</item>
+        <item quantity="one">Dispozitivul nu a fost deblocat de %d oră. Confirmaţi modelul.</item>
+        <item quantity="few">Dispozitivul nu a fost deblocat de %d ore. Confirmați modelul.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">Dispozitivul nu a fost deblocat de %d de ore. Confirmați codul PIN.</item>
+        <item quantity="one">Dispozitivul nu a fost deblocat de %d oră. Confirmaţi codul PIN.</item>
+        <item quantity="few">Dispozitivul nu a fost deblocat de %d ore. Confirmați codul PIN.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">Dispozitivul nu a fost deblocat de %d de ore. Confirmați parola.</item>
+        <item quantity="one">Dispozitivul nu a fost deblocat de %d oră. Confirmaţi parola.</item>
+        <item quantity="few">Dispozitivul nu a fost deblocat de %d ore. Confirmați parola.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">Introduceţi codul PIN al cartelei SIM, au mai rămas %d încercări.</item>
+        <item quantity="one">Introduceţi codul PIN al cartelei SIM; a mai rămas %d încercare înainte de a trebui să contactaţi operatorul de reţea pentru a debloca dispozitivul.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">Cartela SIM este dezactivată acum. Introduceţi codul PUK pentru a continua. Au mai rămas %d încercări înainte să devină cartela SIM definitiv inutilizabilă. Contactaţi operatorul de reţea pentru detalii.</item>
+        <item quantity="one">Cartela SIM este dezactivată acum. Introduceţi codul PUK pentru a continua. A mai rămas %d încercare înainte să devină cartela SIM definitiv inutilizabilă. Contactaţi operatorul de reţea pentru detalii.</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_puk_enter_puk_hint_last_attempt_failed">
+        <item quantity="other">Codul introdus nu corespunde cu codul PUK. Reintroduceţi codul PUK format din 8 cifre. Mai aveţi %d şanse.</item>
+        <item quantity="one">Codul introdus nu corespunde cu codul PUK. Reintroduceţi codul PUK format din 8 cifre. Mai aveţi %d şansă.</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_sim_pin_instructions_last_attempt_failed">
+        <item quantity="other">Codul introdus nu corespunde cu codul PIN pentru SIM. Reintroduceţi codul PIN format din 4-8 cifre. Mai aveţi %d şanse.</item>
+        <item quantity="one">Codul introdus nu corespunde cu codul PIN pentru SIM. Reintroduceţi codul PIN format din 4-8 cifre. Mai aveţi %d şansă.</item>
+    </plurals>
+</resources>

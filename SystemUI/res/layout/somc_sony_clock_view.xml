@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sonymobile.keyguard.plugin.sonyclock.SonyClock android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/sony_clock_root" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:sonymobile="http://schemas.android.com/apk/res-auto">
+    <com.sonymobile.keyguard.SomcKeyguardClockScaleContainer android:layout_gravity="center_horizontal" android:id="@id/somc_keyguard_clockplugin_scale_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <include layout="@layout/somc_sony_clock_hour_area" />
+            <include layout="@layout/somc_sony_clock_minute_area" />
+        </LinearLayout>
+    </com.sonymobile.keyguard.SomcKeyguardClockScaleContainer>
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/ampm_date_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sony_clock_date_digit_top_margin">
+        <com.sonymobile.keyguard.themedanimation.ClippingSourceTextView android:textColor="@color/somc_keyguard_theme_color_sony_clock" android:id="@id/somc_sony_clock_ampm" android:layout_width="wrap_content" android:layout_height="wrap_content" sonymobile:dimmerColor="@color/somc_keyguard_theme_color_clock_dim" style="@style/somc_sony_clock_date_style" />
+        <com.sonymobile.keyguard.themedanimation.ClippingSourceTextView android:textColor="@color/somc_keyguard_theme_color_sony_clock" android:id="@id/somc_sony_clock_dash" android:paddingLeft="6.0dip" android:paddingRight="6.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/somc_sony_clock_ampm_date_hyphen" sonymobile:dimmerColor="@color/somc_keyguard_theme_color_clock_dim" style="@style/somc_sony_clock_date_style" />
+        <com.sonymobile.keyguard.themedanimation.ClippingSourceTextView android:textColor="@color/somc_keyguard_theme_color_sony_clock" android:id="@id/somc_sony_clock_date" android:layout_width="wrap_content" android:layout_height="wrap_content" sonymobile:dimmerColor="@color/somc_keyguard_theme_color_clock_dim" style="@style/somc_sony_clock_date_style" />
+    </LinearLayout>
+    <com.sonymobile.keyguard.themedanimation.ClippingSourceTextView android:textColor="@color/somc_keyguard_theme_color_sony_clock" android:layout_gravity="center_horizontal" android:id="@id/somc_sony_clock_alarm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="2.0dip" android:drawableStart="@drawable/somc_sony_clock_alarm_icon" sonymobile:alternativeBitmapDrawableStart="@drawable/somc_lockscreen_alarm_icon" sonymobile:dimmerColor="@color/somc_keyguard_theme_color_clock_dim" style="@style/somc_sony_clock_alarm_style" />
+</com.sonymobile.keyguard.plugin.sonyclock.SonyClock>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">Broj zaslona u Pregledu: %d</item>
+        <item quantity="one">1 zaslon u Pregledu</item>
+        <item quantity="few">%d zaslona u Pregledu</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">Netočan PIN kod SIM kartice. Preostao je još sljedeći broj pokušaja: %d, a nakon toga morat ćete unijeti PUK kod (kod za otključavanje PIN-a) ili od davatelja usluge zatražiti da vam otključa uređaj.</item>
+        <item quantity="one">Netočan PIN kod SIM kartice. Preostao je još %d pokušaj, a nakon toga morat ćete unijeti PUK kod (kod za otključavanje PIN-a) ili od davatelja usluge zatražiti da vam otključa uređaj.</item>
+        <item quantity="few">Netočan PIN kôd SIM kartice; imate još %d pokušaja.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Netočan PUK kod SIM kartice; imate još preostalih%d pokušaja prije nego SIM kartica postane trajno neupotrebljiva.</item>
+        <item quantity="one">Netočan PUK kod SIM kartice. Preostao je još sljedeći broj pokušaja: %d. Nakon toga SIM kartica postat će neupotrebljiva.</item>
+        <item quantity="few">Netočan PUK kôd SIM kartice; imate još %d pokušaja prije nego što SIM kartica postane trajno neupotrebljiva.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">Uređaj nije otključavan %d h. Potvrdite uzorak.</item>
+        <item quantity="one">Uređaj nije bio otključan %d sat. Potvrdite uzorak.</item>
+        <item quantity="few">Uređaj nije bio otključan %d sata. Potvrdite uzorak.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">Uređaj nije otključavan %d h. Potvrdite PIN.</item>
+        <item quantity="one">Uređaj nije bio otključan %d sat. Potvrdite PIN.</item>
+        <item quantity="few">Uređaj nije bio otključan %d sata. Potvrdite PIN.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">Uređaj nije otključavan %d h. Potvrdite zaporku.</item>
+        <item quantity="one">Uređaj nije bio otključan %d sat. Potvrdite zaporku.</item>
+        <item quantity="few">Uređaj nije bio otključan %d sata. Potvrdite zaporku.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">Unesite PIN za SIM. Preostali broj pokušaja: %d.</item>
+        <item quantity="one">Unesite PIN za SIM. Preostao vam je još %d pokušaj, a onda ćete se morati obratiti operateru da vam otključa uređaj.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">SIM je onemogućen. Da biste nastavili, unesite PUK. Broj preostalih pokušaja prije no što SIM postane trajno neupotrebljiv: %d. Za detalje se obratite operateru.</item>
+        <item quantity="one">SIM je onemogućen. Da biste nastavili, unesite PUK. Ostao vam je još %d pokušaj prije no što SIM postane trajno neupotrebljiv. Za detalje se obratite operateru.</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_puk_enter_puk_hint_last_attempt_failed">
+        <item quantity="other">Vaš se unos, nažalost, ne podudara s PUK kodom. Ponovno unesite osmeroznamenkasti PUK kod. Preostalo vam je ovoliko pokušaja: %d.</item>
+        <item quantity="one">Vaš se unos, nažalost, ne podudara s PUK kodom. Ponovno unesite osmeroznamenkasti PUK kod. Preostalo vam je ovoliko pokušaja: %d.</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_sim_pin_instructions_last_attempt_failed">
+        <item quantity="other">Vaš se unos, nažalost, ne podudara s PIN-om za SIM. Ponovno unesite PIN dug 4 do 8 brojki. Preostalo vam je ovoliko pokušaja: %d.</item>
+        <item quantity="one">Vaš se unos, nažalost, ne podudara sa PIN-om za SIM. Ponovno unesite PIN dug 4 do 8 brojki. Preostalo vam je ovoliko pokušaja: %d.</item>
+    </plurals>
+</resources>

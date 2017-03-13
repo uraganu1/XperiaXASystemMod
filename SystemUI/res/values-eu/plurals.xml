@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">%d pantaila daude ikuspegi orokorrean</item>
+        <item quantity="one">Pantaila 1 dago ikuspegi orokorrean</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">SIMaren PIN kodea okerra da. Gailua desblokeatzeko, %d saiakera gelditzen zaizu PUK kodea (PINa desblokeatzeko kodea) sartu edo zerbitzu hornitzailearekin harremanetan jarri baino lehen.</item>
+        <item quantity="one">SIM txartelaren PIN kodea okerra da. Gailua desblokeatzeko, %d saiakera geratzen zaizkizu PUK kodea (PINa desblokeatzeko kodea) sartu edo zerbitzu hornitzailearekin harremanetan jarri baino lehen.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">SIMaren PUK kodea okerra da. %d saiakera geratzen zaizkizu SIMa betirako erabilezin bihurtu arte.</item>
+        <item quantity="one">SIMaren PUK kodea okerra da. %d saiakera geratzen zaizkizu SIMa betirako erabilezin bihurtu arte.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">Gailua ez da %d orduz desblokeatu. Egiaztatu eredua.</item>
+        <item quantity="one">Gailua ez da %d orduz desblokeatu. Egiaztatu eredua.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">Gailua ez da %d orduz desblokeatu. Egiaztatu PINa.</item>
+        <item quantity="one">Gailua ez da %d orduz desblokeatu. Egiaztatu PINa.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">Gailua ez da %d orduz desblokeatu. Egiaztatu pasahitza.</item>
+        <item quantity="one">Gailua ez da %d orduz desblokeatu. Egiaztatu pasahitza.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">Sartu SIMaren PINa. %d saiakera geratzen zaizkizu.</item>
+        <item quantity="one">Sartu SIMaren PINa. %d saiakera geratzen zaizu gailua desblokeatzeko operadorearekin harremanetan jarri baino lehen.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">SIMa desgaitu egin da. Jarraitzeko, sartu PUK kodea. %d saiakera dituzu SIMa betirako erabili ezinda geratzeko. Xehetasun gehiagorako, jarri harremanetan operadorearekin.</item>
+        <item quantity="one">SIMa desgaitu egin da. Jarraitzeko, sartu PUK kodea. %d saiakera duzu SIMa betirako erabili ezinda geratzeko. Xehetasun gehiagorako, jarri harremanetan operadorearekin.</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_puk_enter_puk_hint_last_attempt_failed">
+        <item quantity="other">Sartu duzuna ez dator PUK kodearekin bat. Sartu berriro 8 digituko PUK kodea. %d saiakera gehiago dituzu.</item>
+        <item quantity="one">Sartu duzuna ez dator PUK kodearekin bat. Sartu berriro 8 digituko PUK kodea. %d saiakera gehiago duzu.</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_sim_pin_instructions_last_attempt_failed">
+        <item quantity="other">Sartu duzuna ez dator SIMaren PIN kodearekin bat. Sartu berriro 4 eta 8 digitu bitarteko PIN kodea. %d saiakera gehiago dituzu.</item>
+        <item quantity="one">Sartu duzuna ez dator SIMaren PIN kodearekin bat. Sartu berriro 4 eta 8 digitu bitarteko PIN kodea. Saiakera %d gehiago duzu.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_settings_autosync">Të dhënat e sinkronizimit automatik</string>
+    <string name="status_bar_settings_mobile_data">Trafiku i të dhënave celulare</string>
+    <string name="status_bar_settings_wifi_hotspot">Zona e internetit me valë Wi-Fi</string>
+</resources>

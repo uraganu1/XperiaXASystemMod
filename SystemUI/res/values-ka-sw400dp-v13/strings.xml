@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_settings_autorotate">ეკრანის ავტომატური შეტრიალება</string>
+    <string name="status_bar_settings_autosync">ავტომატური სინქრონიზაციის მონაცემები</string>
+    <string name="status_bar_settings_mobile_data">მობილური მონაცემები ტრაფიკი</string>
+    <string name="status_bar_settings_airplanemode">თვითმფრინავის რეჟიმი</string>
+</resources>

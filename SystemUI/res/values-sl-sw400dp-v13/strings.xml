@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_settings_autorotate">Samodejno zavrti zaslon</string>
+    <string name="status_bar_settings_autosync">Samodejno sinhroniziraj podatke</string>
+    <string name="status_bar_settings_mobile_data">Prenos podatkov prek mobilnih omrežij</string>
+</resources>

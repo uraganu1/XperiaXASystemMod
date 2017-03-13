@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_settings_autorotate">Xirar automaticamente a pantalla</string>
+    <string name="status_bar_settings_autosync">Sincronización automática de datos</string>
+    <string name="status_bar_settings_mobile_data">Tráfico de datos móbiles</string>
+    <string name="status_bar_settings_mirroring">Duplicación de pantalla</string>
+    <string name="status_bar_settings_wifi_hotspot">Punto de conexión Wi-Fi</string>
+</resources>

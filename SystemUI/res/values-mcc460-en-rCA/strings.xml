@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_disabled_wifi_failure">WLAN Connection Failure</string>
+    <string name="accessibility_wifi_off">WLAN off.</string>
+    <string name="accessibility_no_wifi">WLAN disconnected.</string>
+    <string name="accessibility_wifi_one_bar">WLAN one bar.</string>
+    <string name="accessibility_wifi_two_bars">WLAN two bars.</string>
+    <string name="accessibility_wifi_three_bars">WLAN three bars.</string>
+    <string name="accessibility_wifi_signal_full">WLAN signal full.</string>
+    <string name="accessibility_quick_settings_detail">Quick Settings, %s.</string>
+</resources>

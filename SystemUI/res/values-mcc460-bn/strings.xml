@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_security_wapi_psk">WLAN PSK</string>
+    <string name="wifi_disabled_wifi_failure">WLAN সংযোগের ব্যর্থতা</string>
+    <string name="connected_via_wfa">WLAN সহায়ক-এর মাধ্যমে সংযুক্ত হয়েছে</string>
+    <string name="accessibility_wifi_off">WLAN বন্ধ।</string>
+    <string name="accessibility_no_wifi">WLAN এর সংযোগ বিচ্ছিন্ন হয়েছে।</string>
+    <string name="accessibility_wifi_one_bar">WLAN একটি বার।</string>
+    <string name="accessibility_wifi_two_bars">WLAN দুটি বার।</string>
+    <string name="accessibility_wifi_three_bars">WLAN তিনটি বার।</string>
+    <string name="accessibility_wifi_signal_full">WLAN এর সিগন্যাল পূর্ণ।</string>
+    <string name="quick_settings_wifi_scanning_label">WLAN: স্ক্যান চলছে</string>
+    <string name="quick_settings_wifi_connecting_label">WLAN: সংযোগ হচ্ছে</string>
+    <string name="toast_message_not_allow_turn_on_hotspot">"বিমান মোডে WLAN হটস্পট  উপলভ্য নয়"</string>
+    <string name="status_bar_settings_wifi_button">WLAN</string>
+    <string name="accessibility_data_connection_wifi">WLAN</string>
+    <string name="accessibility_quick_settings_wifi_changed_off">WLAN বন্ধ আছে</string>
+    <string name="accessibility_quick_settings_wifi_changed_on">WLAN চালু আছে</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">WLAN সংযুক্ত</string>
+    <string name="quick_settings_wifi_label">WLAN</string>
+    <string name="quick_settings_wifi_off_label">WLAN বন্ধ</string>
+    <string name="quick_settings_wifi_detail_empty_text">কোনো WLAN নেটওয়ার্ক উপলভ্য নেই</string>
+    <string name="accessibility_quick_settings_detail">দ্রুত সেটিংস, %s৷</string>
+    <string name="wifi_security_short_wapi_cert">WLAN CERT</string>
+    <string name="wifi_security_short_wapi_psk">WLAN PSK</string>
+    <string name="wifi_security_wapi_cert">WLAN CERT</string>
+</resources>

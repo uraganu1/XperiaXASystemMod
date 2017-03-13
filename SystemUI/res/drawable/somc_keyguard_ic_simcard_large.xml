@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="45.0dip" android:width="74.0dip" android:viewportWidth="74.0" android:viewportHeight="45.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/somc_keyguard_theme_color_solid_foreground" android:pathData="M70,1h-2H14h0L2,13v27v2c0,1.104,0.896,2,2,2h2h62h2c1.104,0,2-0.896,2-2v-2V5V3C72,1.896,71.104,1,70,1z         M66,32c0,3.313-2.687,6-6,6H41c-3.313,0-6-2.687-6-6V13c0-3.313,2.687-6,6-6h19c3.313,0,6,2.687,6,6V32z" />
+    <path android:fillColor="@color/somc_keyguard_theme_color_solid_foreground" android:pathData="M37,15h8V9h-2C39.687,9,37,11.687,37,15z" />
+    <path android:fillColor="@color/somc_keyguard_theme_color_solid_foreground" android:pathData="M37,28h8v-5c0,0-3,0-4,0s-4,0-4,0V28z" />
+    <path android:fillColor="@color/somc_keyguard_theme_color_solid_foreground" android:pathData="M37,30c0,3.313,2.687,6,6,6h2v-7h-8V30z" />
+    <path android:fillColor="@color/somc_keyguard_theme_color_solid_foreground" android:pathData="M37,22h8v-6c0,0-3,0-4,0s-4,0-4,0V22z" />
+    <path android:fillColor="@color/somc_keyguard_theme_color_solid_foreground" android:pathData="M56,28h8v-6c0,0-3,0-4,0s-4,0-4,0V28z" />
+    <path android:fillColor="@color/somc_keyguard_theme_color_solid_foreground" android:pathData="M58,9h-2v6h8C64,11.687,61.313,9,58,9z" />
+    <path android:fillColor="@color/somc_keyguard_theme_color_solid_foreground" android:pathData="M56,36h2c3.313,0,6-2.687,6-6v-1h-8V36z" />
+    <path android:fillColor="@color/somc_keyguard_theme_color_solid_foreground" android:pathData="M46,36h9V9c0,0-3,0-4,0c-1.25,0-5,0-5,0V36z" />
+    <path android:fillColor="@color/somc_keyguard_theme_color_solid_foreground" android:pathData="M56,21h8v-5c0,0-3,0-4,0s-4,0-4,0V21z" />
+</vector>

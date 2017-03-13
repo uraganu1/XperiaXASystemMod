@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="somc_keyguard_visible_phone_landscape">1</string>
+    <string name="somc_keyguard_visible_tablet_or_portrait">0</string>
+</resources>

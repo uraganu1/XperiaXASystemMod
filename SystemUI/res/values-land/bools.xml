@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="somc_keyguard_use_default_clock">true</bool>
+    <bool name="kg_sim_puk_account_full_screen">false</bool>
+    <bool name="kg_enable_camera_default_widget">false</bool>
+</resources>

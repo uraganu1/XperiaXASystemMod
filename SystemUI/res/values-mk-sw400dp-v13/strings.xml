@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_settings_autorotate">Автоматско ротирање на екранот</string>
+    <string name="status_bar_settings_autosync">Автоматска синхронизација на податоци</string>
+    <string name="status_bar_settings_mobile_data">Мобилен сообраќај на податоци</string>
+    <string name="status_bar_settings_settings">Кратенка до поставките</string>
+    <string name="status_bar_settings_mirroring">Прикажување на екранот</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_settings_autorotate">Képernyő automatikus forgatása</string>
+    <string name="status_bar_settings_autosync">Automatikus adatszinkronizálás</string>
+    <string name="status_bar_settings_mobile_data">Mobilhálózati adatforgalom</string>
+    <string name="status_bar_settings_settings">Beállítások parancsikonja</string>
+    <string name="status_bar_settings_wifi_hotspot">Wi-Fi csatlakozási pont</string>
+</resources>

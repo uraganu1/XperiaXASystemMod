@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_settings_autorotate">Автоматично завъртане на екрана</string>
+    <string name="status_bar_settings_autosync">Автоматично синхронизиране на данни</string>
+    <string name="status_bar_settings_mobile_data">Трафик на мобилни данни</string>
+    <string name="status_bar_settings_settings">Бърз клавиш до \"Настройки\"</string>
+</resources>

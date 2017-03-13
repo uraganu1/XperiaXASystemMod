@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="battery_margin_bottom">0.0dip</dimen>
+    <item type="dimen" name="somc_analog_clock_size">@dimen/somc_analog_clock_size_full_size</item>
+    <item type="dimen" name="somc_analog_clock_date_text_size">@dimen/somc_analog_clock_date_text_size_full_size</item>
+    <item type="dimen" name="somc_analog_clock_date_text_space">@dimen/somc_analog_clock_date_text_space_full_size</item>
+    <item type="dimen" name="somc_analog_clock_ellipse_depth">@dimen/somc_analog_clock_ellipse_depth_full_size</item>
+    <item type="dimen" name="somc_analog_clock_hour_hand_length">@dimen/somc_analog_clock_hour_hand_length_full_size</item>
+    <item type="dimen" name="somc_analog_clock_hour_hand_thickness">@dimen/somc_analog_clock_hour_hand_thickness_full_size</item>
+    <item type="dimen" name="somc_analog_clock_minute_hand_length">@dimen/somc_analog_clock_minute_hand_length_full_size</item>
+    <item type="dimen" name="somc_analog_clock_minute_hand_thickness">@dimen/somc_analog_clock_minute_hand_thickness_full_size</item>
+    <item type="dimen" name="somc_analog_clock_second_dot_diameter">@dimen/somc_analog_clock_second_dot_diameter_full_size</item>
+    <item type="dimen" name="somc_analog_clock_minute_tick_length">@dimen/somc_analog_clock_minute_tick_length_full_size</item>
+    <item type="dimen" name="somc_analog_clock_hour_tick_length">@dimen/somc_analog_clock_hour_tick_length_full_size</item>
+    <item type="dimen" name="somc_analog_clock_tick_radius">@dimen/somc_analog_clock_tick_radius_full_size</item>
+    <item type="dimen" name="somc_analog_clock_tick_width">@dimen/somc_analog_clock_tick_width_full_size</item>
+    <item type="dimen" name="somc_analog_clock_center_size">@dimen/somc_analog_clock_center_size_full_size</item>
+    <item type="dimen" name="somc_analog_clock_center_stroke_width">@dimen/somc_analog_clock_center_stroke_width_full_size</item>
+    <dimen name="keyguard_widget_frame_overscroll_gradient_margin">3.0px</dimen>
+</resources>
