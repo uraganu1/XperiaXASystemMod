@@ -920,6 +920,8 @@
 
     iget v0, v0, Lcom/sonymobile/systemui/qs/DragDropLayout;->mTileHeight:I
 
+    add-int/lit16 v0,v0, 0x8
+
     move/from16 v17, v0
 
     mul-int/lit8 v18, v12, 0x2
@@ -936,6 +938,8 @@
     move-object/from16 v0, p0
 
     iget v0, v0, Lcom/sonymobile/systemui/qs/DragDropLayout;->mTileHeight:I
+
+    add-int/lit16 v0,v0, 0x8
 
     move/from16 v17, v0
 
