@@ -352,7 +352,7 @@
     iput v0, p0, Lcom/sonymobile/systemui/qs/DragDropLayout;->mTileWidth:I
 
     .line 91
-    const/4 v0, 0x3
+    const/4 v0, 0x5
 
     iput v0, p0, Lcom/sonymobile/systemui/qs/DragDropLayout;->mColumnCount:I
 
@@ -614,15 +614,17 @@
 
     .prologue
     .line 197
-    move-object/from16 v0, p0
-
-    iget v0, v0, Lcom/sonymobile/systemui/qs/DragDropLayout;->mColumnCount:I
+    const v0, 0x3
 
     move/from16 v17, v0
 
     move-object/from16 v0, p0
 
     iget v0, v0, Lcom/sonymobile/systemui/qs/DragDropLayout;->mTileHeight:I
+
+    const v18, 0x10
+
+    sub-int v0,v0,v18
 
     move/from16 v18, v0
 

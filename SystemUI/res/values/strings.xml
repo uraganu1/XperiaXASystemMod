@@ -104,7 +104,7 @@
     <string name="mland">Marshmallow Land</string>
     <string name="quick_settings_tiles_all">wifi,bt,inversion,dnd,cell,airplane,rotation,flashlight,location,cast,sync,roaming,nfc,lte,datatraffic,stamina,screenmirroring,tethering,throw,volte</string>
     <string name="quick_settings_tiles_default_prefix">wifi,bt,</string>
-    <string name="somc_qs_close">Close</string>
+    <string name="somc_qs_close">&#62;--&#60;</string>
     <string name="somc_qs_hint">Touch and hold icons to rearrange Quick settings</string>
     <string name="somc_qs_title">Active quick settings</string>
     <string name="somc_qs_max_exceeds">Maximum number of quick settings has been selected</string>
@@ -136,7 +136,7 @@ Data charges may apply when updating your device. An unlimited data plan is reco
     <string name="status_bar_autosync_dialog_disable_warning">Turning off auto-sync will lower mobile data and battery usage, but you will need to sync each account manually.</string>
     <string name="toast_message_not_allow_turn_on_hotspot">Wi-Fi hotspot not available in airplane mode</string>
     <string name="accessibility_desc_edit_quick_settings">Edit quick settings</string>
-    <string name="quick_settings_edit_button">EDIT</string>
+    <string name="quick_settings_edit_button">&#60;--&#62;</string>
     <string name="quick_settings_show_guide">You can also open Quick settings by swiping down from the top to center of the screen</string>
     <string name="somc_keyguard_unlock_guide">Swipe left or up to unlock</string>
     <string name="battery_stamina_mode_notification_title">Battery level is %d%% or less</string>
