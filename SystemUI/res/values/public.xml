@@ -720,6 +720,8 @@
     <public type="drawable" name="ic_dnd_qs" id="0x7f020286" />
     <public type="drawable" name="ic_rotation" id="0x7f020287" />
     <public type="drawable" name="ic_cast" id="0x7f020288" />
+    <public type="drawable" name="ic_wifi" id="0x7f020289" />
+    <public type="drawable" name="ic_bluetooth" id="0x7f02028a" />
     <public type="mipmap" name="ic_daydreams" id="0x7f030000" />
     <public type="mipmap" name="ic_launcher_dreams" id="0x7f030001" />
     <public type="layout" name="assist_orb" id="0x7f040000" />
@@ -2584,6 +2586,8 @@
     <public type="bool" name="config_qsEnableThrow" id="0x7f0c002b" />
     <public type="bool" name="config_qsEnableVolte" id="0x7f0c002c" />
     <public type="bool" name="config_qsEnableLTE" id="0x7f0c002d" />
+    <public type="bool" name="config_qsEnableWifi" id="0x7f0c0051" />
+    <public type="bool" name="config_qsEnableBlueTooth" id="0x7f0c0052" />
     <public type="bool" name="config_enableMobileComboIcon" id="0x7f0c002e" />
     <public type="bool" name="config_showRATIconAlways" id="0x7f0c002f" />
     <public type="bool" name="config_showCallBusyingIconForDsds" id="0x7f0c0030" />

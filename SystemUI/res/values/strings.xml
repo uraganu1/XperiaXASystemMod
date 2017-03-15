@@ -103,7 +103,7 @@
     <string name="system_ui_date_pattern">@android:string/system_ui_date_pattern</string>
     <string name="mland">Marshmallow Land</string>
     <string name="quick_settings_tiles_all">wifi,bt,inversion,dnd,cell,airplane,rotation,flashlight,location,cast,sync,roaming,nfc,lte,datatraffic,stamina,screenmirroring,tethering,throw,volte</string>
-    <string name="quick_settings_tiles_default_prefix">wifi,bt,</string>
+    <string name="quick_settings_tiles_default_prefix">,</string>
     <string name="somc_qs_close">&#62;--&#60;</string>
     <string name="somc_qs_hint">Touch and hold icons to rearrange Quick settings</string>
     <string name="somc_qs_title">Active quick settings</string>
@@ -387,7 +387,7 @@ Resuming may lead to charges from your carrier."</string>
     <string name="quick_settings_user_label">Me</string>
     <string name="quick_settings_user_title">User</string>
     <string name="quick_settings_user_new_user">New user</string>
-    <string name="quick_settings_wifi_label">Wi-Fi</string>
+    <string name="quick_settings_wifi_label">WiFi</string>
     <string name="quick_settings_wifi_not_connected">Not Connected</string>
     <string name="quick_settings_wifi_no_network">No Network</string>
     <string name="quick_settings_wifi_off_label">Wi-Fi Off</string>
