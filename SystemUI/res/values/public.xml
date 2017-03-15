@@ -714,6 +714,8 @@
     <public type="drawable" name="stat_sys_volte2" id="0x7f0201e8" />
     <public type="drawable" name="status_background" id="0x7f020206" />
     <public type="drawable" name="recents_task_shadow" id="0x7f020164" />
+    <public type="drawable" name="ic_location" id="0x7f020283" />
+    <public type="drawable" name="ic_flashlight" id="0x7f020284" />
     <public type="mipmap" name="ic_daydreams" id="0x7f030000" />
     <public type="mipmap" name="ic_launcher_dreams" id="0x7f030001" />
     <public type="layout" name="assist_orb" id="0x7f040000" />

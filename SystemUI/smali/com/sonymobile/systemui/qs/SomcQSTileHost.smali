@@ -97,7 +97,7 @@
     const v2, 0x7f0c0021
 
     .line 312
-    const v3, 0x7f0200d5
+    const v3, 0x7f020284
 
     .line 313
     const v4, 0x7f09018b
@@ -117,7 +117,7 @@
     const v2, 0x7f0c0022
 
     .line 315
-    const v3, 0x7f0200dd
+    const v3, 0x7f020283
 
     .line 316
     const v4, 0x7f09016c
