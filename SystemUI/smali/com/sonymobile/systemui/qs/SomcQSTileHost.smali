@@ -42,7 +42,7 @@
     const v2, 0x7f0c001e
 
     .line 304
-    const v3, 0x7f0200d1
+    const v3, 0x7f020285
 
     .line 305
     const v4, 0x7f0902d7
@@ -59,7 +59,7 @@
 
     const v2, 0x7f0c001f
 
-    const v3, 0x7f020078
+    const v3, 0x7f020286
 
     .line 307
     const v4, 0x7f09015e
@@ -77,7 +77,7 @@
     const v2, 0x7f0c0020
 
     .line 309
-    const v3, 0x7f02005c
+    const v3, 0x7f020287
 
     .line 310
     const v4, 0x7f090167
@@ -136,7 +136,7 @@
 
     const v2, 0x7f0c0023
 
-    const v3, 0x7f020071
+    const v3, 0x7f020288
 
     .line 318
     const v4, 0x7f09017b

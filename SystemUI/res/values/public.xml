@@ -716,6 +716,10 @@
     <public type="drawable" name="recents_task_shadow" id="0x7f020164" />
     <public type="drawable" name="ic_location" id="0x7f020283" />
     <public type="drawable" name="ic_flashlight" id="0x7f020284" />
+    <public type="drawable" name="ic_airplane" id="0x7f020285" />
+    <public type="drawable" name="ic_dnd_qs" id="0x7f020286" />
+    <public type="drawable" name="ic_rotation" id="0x7f020287" />
+    <public type="drawable" name="ic_cast" id="0x7f020288" />
     <public type="mipmap" name="ic_daydreams" id="0x7f030000" />
     <public type="mipmap" name="ic_launcher_dreams" id="0x7f030001" />
     <public type="layout" name="assist_orb" id="0x7f040000" />
