@@ -920,8 +920,6 @@
 
     iget v0, v0, Lcom/sonymobile/systemui/qs/DragDropLayout;->mTileHeight:I
 
-    add-int/lit16 v0,v0, 0x8
-
     move/from16 v17, v0
 
     mul-int/lit8 v18, v12, 0x2
@@ -938,8 +936,6 @@
     move-object/from16 v0, p0
 
     iget v0, v0, Lcom/sonymobile/systemui/qs/DragDropLayout;->mTileHeight:I
-
-    add-int/lit16 v0,v0, 0x8
 
     move/from16 v17, v0
 
@@ -1781,6 +1777,8 @@
     iget v1, p0, Lcom/sonymobile/systemui/qs/DragDropLayout;->mTileWidth:I
 
     iget v2, p0, Lcom/sonymobile/systemui/qs/DragDropLayout;->mTileHeight:I
+
+    add-int/lit16 v2, v2, 0x10
 
     invoke-direct {v0, v1, v2}, Landroid/widget/LinearLayout$LayoutParams;-><init>(II)V
 
