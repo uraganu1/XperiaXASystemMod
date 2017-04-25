@@ -722,6 +722,9 @@
     <public type="drawable" name="ic_cast" id="0x7f020288" />
     <public type="drawable" name="ic_wifi" id="0x7f020289" />
     <public type="drawable" name="ic_bluetooth" id="0x7f02028a" />
+    <public type="drawable" name="ic_qs_sync" id="0x7f02028b" />
+    <public type="drawable" name="ic_qs_sync_on_animation" id="0x7f02028c" />
+    <public type="drawable" name="ic_qs_sync_off_animation" id="0x7f02028d" />
     <public type="mipmap" name="ic_daydreams" id="0x7f030000" />
     <public type="mipmap" name="ic_launcher_dreams" id="0x7f030001" />
     <public type="layout" name="assist_orb" id="0x7f040000" />
@@ -1014,6 +1017,15 @@
     <public type="anim" name="wallpaper_recents_launch_from_launcher_exit" id="0x7f0500bb" />
     <public type="anim" name="zoom_in" id="0x7f0500bc" />
     <public type="anim" name="zoom_out" id="0x7f0500bd" />
+    <public type="anim" name="ic_qs_animation_rotate_right" id="0x7f0500be" />
+    <public type="anim" name="ic_qs_animation_rotate_left" id="0x7f0500bf" />
+    <public type="anim" name="ic_qs_animation_enlarge" id="0x7f0500c0" />
+    <public type="anim" name="ic_qs_animation_enlarge_x" id="0x7f0500c1" />
+    <public type="anim" name="ic_qs_animation_enlarge_y" id="0x7f0500c2" />
+    <public type="anim" name="ic_qs_animation_shrink" id="0x7f0500c3" />
+    <public type="anim" name="ic_qs_animation_shrink_x" id="0x7f0500c4" />
+    <public type="anim" name="ic_qs_animation_shrink_y" id="0x7f0500c5" />
+    <public type="anim" name="ic_qs_animation_root" id="0x7f0500c6" />
     <public type="interpolator" name="assist_disclosure_trace" id="0x7f060000" />
     <public type="interpolator" name="error_to_trustedstate_animation_interpolator_0" id="0x7f060001" />
     <public type="interpolator" name="error_to_trustedstate_animation_interpolator_1" id="0x7f060002" />

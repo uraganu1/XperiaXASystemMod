@@ -13,15 +13,55 @@
     }
 .end annotation
 
+# instance fields
+.field private final mClickEnable:Lcom/android/systemui/qs/QSTile$AnimationIcon;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lcom/android/systemui/qs/QSTile",
+            "<",
+            "Lcom/android/systemui/qs/QSTile$BooleanState;",
+            ">.AnimationIcon;"
+        }
+    .end annotation
+.end field
+
+# instance fields
+.field private final mClickDisable:Lcom/android/systemui/qs/QSTile$AnimationIcon;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lcom/android/systemui/qs/QSTile",
+            "<",
+            "Lcom/android/systemui/qs/QSTile$BooleanState;",
+            ">.AnimationIcon;"
+        }
+    .end annotation
+.end field
+
 
 # direct methods
 .method public constructor <init>(Lcom/android/systemui/qs/QSTile$Host;)V
-    .locals 0
+    .locals 2
     .param p1, "host"    # Lcom/android/systemui/qs/QSTile$Host;
 
     .prologue
     .line 23
     invoke-direct {p0, p1}, Lcom/android/systemui/qs/QSTile;-><init>(Lcom/android/systemui/qs/QSTile$Host;)V
+
+    new-instance v0, Lcom/android/systemui/qs/QSTile$AnimationIcon;
+
+    const v1, 0x7f02028c
+
+    invoke-direct {v0, p0, v1}, Lcom/android/systemui/qs/QSTile$AnimationIcon;-><init>(Lcom/android/systemui/qs/QSTile;I)V
+
+    iput-object v0, p0, Lcom/sonymobile/systemui/qs/tiles/AutoSyncTile;->mClickEnable:Lcom/android/systemui/qs/QSTile$AnimationIcon;
+
+    new-instance v0, Lcom/android/systemui/qs/QSTile$AnimationIcon;
+
+    const v1, 0x7f02028d
+
+    invoke-direct {v0, p0, v1}, Lcom/android/systemui/qs/QSTile$AnimationIcon;-><init>(Lcom/android/systemui/qs/QSTile;I)V
+
+    iput-object v0, p0, Lcom/sonymobile/systemui/qs/tiles/AutoSyncTile;->mClickDisable:Lcom/android/systemui/qs/QSTile$AnimationIcon;
 
     .line 22
     return-void
@@ -74,7 +114,7 @@
 .end method
 
 .method public handleClick()V
-    .locals 1
+    .locals 2
 
     .prologue
     .line 33
@@ -90,6 +130,18 @@
 
     :goto_0
     invoke-direct {p0, v0}, Lcom/sonymobile/systemui/qs/tiles/AutoSyncTile;->setEnabled(Z)V
+
+    const/4 v1, 0x1
+
+    iget-object v0, p0, Lcom/sonymobile/systemui/qs/tiles/AutoSyncTile;->mClickEnable:Lcom/android/systemui/qs/QSTile$AnimationIcon;
+
+    invoke-virtual {v0, v1}, Lcom/android/systemui/qs/QSTile$AnimationIcon;->setAllowAnimation(Z)V
+
+    const/4 v1, 0x1
+
+    iget-object v0, p0, Lcom/sonymobile/systemui/qs/tiles/AutoSyncTile;->mClickDisable:Lcom/android/systemui/qs/QSTile$AnimationIcon;
+
+    invoke-virtual {v0, v1}, Lcom/android/systemui/qs/QSTile$AnimationIcon;->setAllowAnimation(Z)V
 
     .line 32
     return-void
@@ -143,24 +195,19 @@
     .line 51
     if-eqz v0, :cond_0
 
-    const v1, 0x7f020063
+    iget-object v1, p0, Lcom/sonymobile/systemui/qs/tiles/AutoSyncTile;->mClickEnable:Lcom/android/systemui/qs/QSTile$AnimationIcon;
 
     .line 52
-    .local v1, "iconId":I
     :goto_0
-    invoke-static {v1}, Lcom/android/systemui/qs/QSTile$ResourceIcon;->get(I)Lcom/android/systemui/qs/QSTile$Icon;
 
-    move-result-object v3
-
-    iput-object v3, p1, Lcom/android/systemui/qs/QSTile$BooleanState;->icon:Lcom/android/systemui/qs/QSTile$Icon;
+    iput-object v1, p1, Lcom/android/systemui/qs/QSTile$BooleanState;->icon:Lcom/android/systemui/qs/QSTile$Icon;
 
     .line 44
     return-void
 
     .line 51
-    .end local v1    # "iconId":I
     :cond_0
-    const v1, 0x7f020062
+    iget-object v1, p0, Lcom/sonymobile/systemui/qs/tiles/AutoSyncTile;->mClickDisable:Lcom/android/systemui/qs/QSTile$AnimationIcon;
 
     .restart local v1    # "iconId":I
     goto :goto_0
