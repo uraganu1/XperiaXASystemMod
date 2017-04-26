@@ -727,6 +727,9 @@
     <public type="drawable" name="ic_qs_sync_off_animation" id="0x7f02028d" />
     <public type="drawable" name="ic_qs_bluetooth_on_animation" id="0x7f02028e" />
     <public type="drawable" name="ic_qs_bluetooth_off_animation" id="0x7f02028f" />
+    <public type="drawable" name="ic_qs_lte" id="0x7f020290" />
+    <public type="drawable" name="ic_qs_lte_on_animation" id="0x7f020291" />
+    <public type="drawable" name="ic_qs_lte_off_animation" id="0x7f020292" />
     <public type="mipmap" name="ic_daydreams" id="0x7f030000" />
     <public type="mipmap" name="ic_launcher_dreams" id="0x7f030001" />
     <public type="layout" name="assist_orb" id="0x7f040000" />
