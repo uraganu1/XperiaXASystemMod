@@ -20,6 +20,29 @@
     }
 .end annotation
 
+# instance fields
+.field private final mClickEnable:Lcom/android/systemui/qs/QSTile$AnimationIcon;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lcom/android/systemui/qs/QSTile",
+            "<",
+            "Lcom/android/systemui/qs/QSTile$BooleanState;",
+            ">.AnimationIcon;"
+        }
+    .end annotation
+.end field
+
+# instance fields
+.field private final mClickDisable:Lcom/android/systemui/qs/QSTile$AnimationIcon;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lcom/android/systemui/qs/QSTile",
+            "<",
+            "Lcom/android/systemui/qs/QSTile$BooleanState;",
+            ">.AnimationIcon;"
+        }
+    .end annotation
+.end field
 
 # static fields
 .field private static final BLUETOOTH_SETTINGS:Landroid/content/Intent;
@@ -114,6 +137,22 @@
     .prologue
     .line 47
     invoke-direct {p0, p1}, Lcom/android/systemui/qs/QSTile;-><init>(Lcom/android/systemui/qs/QSTile$Host;)V
+
+    new-instance v0, Lcom/android/systemui/qs/QSTile$AnimationIcon;
+
+    const v1, 0x7f02028e
+
+    invoke-direct {v0, p0, v1}, Lcom/android/systemui/qs/QSTile$AnimationIcon;-><init>(Lcom/android/systemui/qs/QSTile;I)V
+
+    iput-object v0, p0, Lcom/android/systemui/qs/tiles/BluetoothTile;->mClickEnable:Lcom/android/systemui/qs/QSTile$AnimationIcon;
+
+    new-instance v0, Lcom/android/systemui/qs/QSTile$AnimationIcon;
+
+    const v1, 0x7f02028f
+
+    invoke-direct {v0, p0, v1}, Lcom/android/systemui/qs/QSTile$AnimationIcon;-><init>(Lcom/android/systemui/qs/QSTile;I)V
+
+    iput-object v0, p0, Lcom/android/systemui/qs/tiles/BluetoothTile;->mClickDisable:Lcom/android/systemui/qs/QSTile$AnimationIcon;
 
     .line 150
     new-instance v0, Lcom/android/systemui/qs/tiles/BluetoothTile$1;
@@ -248,6 +287,18 @@
     invoke-interface {v1, v2}, Lcom/android/systemui/statusbar/policy/BluetoothController;->setBluetoothEnabled(Z)V
 
     .line 77
+    const/4 v1, 0x1
+
+    iget-object v0, p0, Lcom/android/systemui/qs/tiles/BluetoothTile;->mClickEnable:Lcom/android/systemui/qs/QSTile$AnimationIcon;
+
+    invoke-virtual {v0, v1}, Lcom/android/systemui/qs/QSTile$AnimationIcon;->setAllowAnimation(Z)V
+
+    const/4 v1, 0x1
+
+    iget-object v0, p0, Lcom/android/systemui/qs/tiles/BluetoothTile;->mClickDisable:Lcom/android/systemui/qs/QSTile$AnimationIcon;
+
+    invoke-virtual {v0, v1}, Lcom/android/systemui/qs/QSTile$AnimationIcon;->setAllowAnimation(Z)V
+
     return-void
 
     :cond_0
@@ -489,11 +540,7 @@
 
     .line 114
     :cond_3
-    const v5, 0x7f020069
-
-    invoke-static {v5}, Lcom/android/systemui/qs/QSTile$ResourceIcon;->get(I)Lcom/android/systemui/qs/QSTile$Icon;
-
-    move-result-object v5
+    iget-object v5, p0, Lcom/android/systemui/qs/tiles/BluetoothTile;->mClickEnable:Lcom/android/systemui/qs/QSTile$AnimationIcon;
 
     iput-object v5, p1, Lcom/android/systemui/qs/QSTile$BooleanState;->icon:Lcom/android/systemui/qs/QSTile$Icon;
 
@@ -514,11 +561,7 @@
 
     .line 122
     :cond_4
-    const v5, 0x7f020068
-
-    invoke-static {v5}, Lcom/android/systemui/qs/QSTile$ResourceIcon;->get(I)Lcom/android/systemui/qs/QSTile$Icon;
-
-    move-result-object v5
+    iget-object v5, p0, Lcom/android/systemui/qs/tiles/BluetoothTile;->mClickDisable:Lcom/android/systemui/qs/QSTile$AnimationIcon;
 
     iput-object v5, p1, Lcom/android/systemui/qs/QSTile$BooleanState;->icon:Lcom/android/systemui/qs/QSTile$Icon;
 
