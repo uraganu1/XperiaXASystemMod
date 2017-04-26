@@ -730,6 +730,9 @@
     <public type="drawable" name="ic_qs_lte" id="0x7f020290" />
     <public type="drawable" name="ic_qs_lte_on_animation" id="0x7f020291" />
     <public type="drawable" name="ic_qs_lte_off_animation" id="0x7f020292" />
+    <public type="drawable" name="ic_qs_nfc" id="0x7f020293" />
+    <public type="drawable" name="ic_qs_nfc_on_animation" id="0x7f020294" />
+    <public type="drawable" name="ic_qs_nfc_off_animation" id="0x7f020295" />
     <public type="mipmap" name="ic_daydreams" id="0x7f030000" />
     <public type="mipmap" name="ic_launcher_dreams" id="0x7f030001" />
     <public type="layout" name="assist_orb" id="0x7f040000" />
