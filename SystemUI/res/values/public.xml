@@ -733,6 +733,10 @@
     <public type="drawable" name="ic_qs_nfc" id="0x7f020293" />
     <public type="drawable" name="ic_qs_nfc_on_animation" id="0x7f020294" />
     <public type="drawable" name="ic_qs_nfc_off_animation" id="0x7f020295" />
+    <public type="drawable" name="ic_qs_stamina" id="0x7f020296" />
+    <public type="drawable" name="ic_qs_stamina_on_animation" id="0x7f020297" />
+    <public type="drawable" name="ic_qs_stamina_off_animation" id="0x7f020298" />
+    <public type="drawable" name="ic_qs_stamina_auto_animation" id="0x7f020299" />
     <public type="mipmap" name="ic_daydreams" id="0x7f030000" />
     <public type="mipmap" name="ic_launcher_dreams" id="0x7f030001" />
     <public type="layout" name="assist_orb" id="0x7f040000" />
@@ -1034,6 +1038,7 @@
     <public type="anim" name="ic_qs_animation_shrink_x" id="0x7f0500c4" />
     <public type="anim" name="ic_qs_animation_shrink_y" id="0x7f0500c5" />
     <public type="anim" name="ic_qs_animation_root" id="0x7f0500c6" />
+    <public type="anim" name="ic_qs_animation_fade" id="0x7f0500c7" />
     <public type="interpolator" name="assist_disclosure_trace" id="0x7f060000" />
     <public type="interpolator" name="error_to_trustedstate_animation_interpolator_0" id="0x7f060001" />
     <public type="interpolator" name="error_to_trustedstate_animation_interpolator_1" id="0x7f060002" />

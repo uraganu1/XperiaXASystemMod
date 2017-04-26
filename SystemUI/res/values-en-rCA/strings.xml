@@ -29,7 +29,7 @@ Data charges may apply when updating your device. An unlimited data plan is reco
     <string name="status_bar_autosync_dialog_disable_title">Turn off Auto-sync?</string>
     <string name="quick_settings_show_guide">You can also open Quick settings by swiping down from the top to center of the screen</string>
     <string name="battery_stamina_mode_notification_lower_desc">ENABLE AUTO START OF STAMINA</string>
-    <string name="battery_stamina_mode_quick_settings_auto_title">Auto start of STAMINA</string>
+    <string name="battery_stamina_mode_quick_settings_auto_title">Auto Stamina</string>
     <string name="usb_device_permission_prompt">Allow the app %1$s to access the USB device?</string>
     <string name="usb_accessory_permission_prompt">Allow the app %1$s to access the USB accessory?</string>
     <string name="usb_accessory_uri_prompt">No installed apps work with this USB accessory. Learn more about this accessory at %1$s</string>
