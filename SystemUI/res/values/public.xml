@@ -737,6 +737,9 @@
     <public type="drawable" name="ic_qs_stamina_on_animation" id="0x7f020297" />
     <public type="drawable" name="ic_qs_stamina_off_animation" id="0x7f020298" />
     <public type="drawable" name="ic_qs_stamina_auto_animation" id="0x7f020299" />
+    <public type="drawable" name="ic_qs_data_traffic" id="0x7f02029a" />
+    <public type="drawable" name="ic_qs_data_traffic_on_animation" id="0x7f02029b" />
+    <public type="drawable" name="ic_qs_data_traffic_off_animation" id="0x7f02029c" />
     <public type="mipmap" name="ic_daydreams" id="0x7f030000" />
     <public type="mipmap" name="ic_launcher_dreams" id="0x7f030001" />
     <public type="layout" name="assist_orb" id="0x7f040000" />
