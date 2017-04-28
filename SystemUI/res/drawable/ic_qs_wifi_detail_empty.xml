@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vector android:height="56.0dip" android:width="56.0dip" android:viewportWidth="48.0" android:viewportHeight="48.0"
+<vector android:name="root" android:height="48.0dip" android:width="48.0dip" android:alpha="1.0" android:viewportWidth="48.0" android:viewportHeight="48.0"
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <path android:fillColor="@color/qs_detail_empty" android:pathData="M24.0,4.0C15.0,4.0 6.7,7.0 0.0,12.0l24.0,32.0l24.0,-32.0C41.3,7.0 33.0,4.0 24.0,4.0z" />
+    <group android:name="ic_wifi_antenna" android:translateX="24" android:translateY="24">
+	<path android:name="path_1" android:fillColor="#ffffffff" android:pathData="M-13.759039 18.05184c0 0 0 -8.3991119 0 -8.3991119 0 0 6.5830645 0 6.5830645 0 0 0 -6.5830645 8.3991119 -6.5830645 8.3991119zm0 -10.3753709c0 0 0 -7.41098201 0 -7.41098201 0 0 13.63634045 0 13.63634045 0 0 0 -5.64262195 7.41098201 -5.64262195 7.41098201 0 0 -7.9937185 0 -7.9937185 0zm0 -9.387243c0 0 0 -7.410979 0 -7.410979 0 0 20.6896215 0 20.6896215 0 0 0 -5.642624 7.410979 -5.642624 7.410979 0 0 -15.0469975 0 -15.0469975 0zm0 -9.3872411c0 0 0 -7.410979 0 -7.410979 0 0 27.272681 0 27.272681 0 0 0 -5.6426245 7.410979 -5.6426245 7.410979 0 0 -21.6300565 0 -21.6300565 0z" />
+    </group>
 </vector>

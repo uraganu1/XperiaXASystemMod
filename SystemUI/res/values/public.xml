@@ -743,6 +743,8 @@
     <public type="drawable" name="ic_qs_roaming" id="0x7f02029d" />
     <public type="drawable" name="ic_qs_roaming_on_animation" id="0x7f02029e" />
     <public type="drawable" name="ic_qs_roaming_off_animation" id="0x7f02029f" />
+    <public type="drawable" name="ic_qs_wifi_no_network_animation" id="0x7f0202a0" />
+    <public type="drawable" name="ic_qs_wifi_disabled_animation" id="0x7f0202a1" />
     <public type="mipmap" name="ic_daydreams" id="0x7f030000" />
     <public type="mipmap" name="ic_launcher_dreams" id="0x7f030001" />
     <public type="layout" name="assist_orb" id="0x7f040000" />
