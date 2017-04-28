@@ -117,8 +117,8 @@
     <string name="quick_settings_throw_label">Throw</string>
     <string name="quick_settings_volte_label">VoLTE</string>
     <string name="quick_settings_roaming_label">Data roaming</string>
-    <string name="quick_settings_wifi_scanning_label">Wi-Fi: Scanning</string>
-    <string name="quick_settings_wifi_connecting_label">Wi-Fi: Connecting</string>
+    <string name="quick_settings_wifi_scanning_label">WiFi:Scanning</string>
+    <string name="quick_settings_wifi_connecting_label">WiFi:Connecting</string>
     <string name="status_bar_autosync_dialog_enable_title">Turn on Auto-sync?</string>
     <string name="status_bar_autosync_dialog_enable_warning">"Any changes you make to your accounts on the web will be automatically copied to your phone.
 
