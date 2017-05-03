@@ -770,6 +770,8 @@
     <public type="drawable" name="ic_qs_screen_timeout_medium_animation_2" id="0x7f0202b8" />
     <public type="drawable" name="ic_qs_screen_timeout_long_animation_1" id="0x7f0202b9" />
     <public type="drawable" name="ic_qs_screen_timeout_long_animation_2" id="0x7f0202ba" />
+    <public type="drawable" name="cobalt_header" id="0x7f0202bb" />
+    <public type="drawable" name="status_bar_toggle_brightness" id="0x7f0202bd" />
     <public type="mipmap" name="ic_daydreams" id="0x7f030000" />
     <public type="mipmap" name="ic_launcher_dreams" id="0x7f030001" />
     <public type="layout" name="assist_orb" id="0x7f040000" />
