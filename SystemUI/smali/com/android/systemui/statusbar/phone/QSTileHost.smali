@@ -540,11 +540,26 @@
 
     move-result v1
 
-    if-eqz v1, :cond_a
+    if-eqz v1, :cond_18
 
     new-instance v1, Lcom/android/systemui/qs/tiles/AudiofxTile;
 
     invoke-direct {v1, p0}, Lcom/android/systemui/qs/tiles/AudiofxTile;-><init>(Lcom/android/systemui/qs/QSTile$Host;)V
+
+    return-object v1
+
+    :cond_18
+    const-string/jumbo v1, "sound"
+
+    invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v1
+
+    if-eqz v1, :cond_a
+
+    new-instance v1, Lcom/android/systemui/qs/tiles/SoundTile;
+
+    invoke-direct {v1, p0}, Lcom/android/systemui/qs/tiles/SoundTile;-><init>(Lcom/android/systemui/qs/QSTile$Host;)V
 
     return-object v1
 
