@@ -760,6 +760,16 @@
     <public type="drawable" name="ic_qs_sound_to_ring_animation" id="0x7f0202ae" />
     <public type="drawable" name="ic_qs_sound_to_vibrate_animation" id="0x7f0202af" />
     <public type="drawable" name="ic_qs_sound_to_silent_animation" id="0x7f0202b0" />
+    <public type="drawable" name="ic_screen_timeout" id="0x7f0202b1" />
+    <public type="drawable" name="ic_qs_screen_timeout_short" id="0x7f0202b2" />
+    <public type="drawable" name="ic_qs_screen_timeout_long" id="0x7f0202b3" />
+    <public type="drawable" name="ic_qs_screen_timeout_medium" id="0x7f0202b4" />
+    <public type="drawable" name="ic_qs_screen_timeout_short_animation_1" id="0x7f0202b5" />
+    <public type="drawable" name="ic_qs_screen_timeout_short_animation_2" id="0x7f0202b6" />
+    <public type="drawable" name="ic_qs_screen_timeout_medium_animation_1" id="0x7f0202b7" />
+    <public type="drawable" name="ic_qs_screen_timeout_medium_animation_2" id="0x7f0202b8" />
+    <public type="drawable" name="ic_qs_screen_timeout_long_animation_1" id="0x7f0202b9" />
+    <public type="drawable" name="ic_qs_screen_timeout_long_animation_2" id="0x7f0202ba" />
     <public type="mipmap" name="ic_daydreams" id="0x7f030000" />
     <public type="mipmap" name="ic_launcher_dreams" id="0x7f030001" />
     <public type="layout" name="assist_orb" id="0x7f040000" />
@@ -2040,6 +2050,7 @@
     <public type="string" name="quick_settings_sound_ring" id="0x7f090380" />
     <public type="string" name="quick_settings_sound_vibrate" id="0x7f090381" />
     <public type="string" name="quick_settings_sound_silent" id="0x7f090382" />
+    <public type="string" name="quick_settings_screen_timeout_label" id="0x7f090383" />
     <public type="dimen" name="appear_y_translation_start" id="0x7f0a0000" />
     <public type="dimen" name="disappear_y_translation" id="0x7f0a0001" />
     <public type="dimen" name="status_bar_recents_app_icon_max_width" id="0x7f0a0002" />
@@ -2645,6 +2656,7 @@
     <public type="bool" name="config_qsEnableVolumePanel" id="0x7f0c0053" />
     <public type="bool" name="config_qsEnableVisualizerPanel" id="0x7f0c0054" />
     <public type="bool" name="config_qsEnableSoundPanel" id="0x7f0c0055" />
+    <public type="bool" name="config_qsEnableScreenTimeout" id="0x7f0c0056" />
     <public type="bool" name="config_enableMobileComboIcon" id="0x7f0c002e" />
     <public type="bool" name="config_showRATIconAlways" id="0x7f0c002f" />
     <public type="bool" name="config_showCallBusyingIconForDsds" id="0x7f0c0030" />

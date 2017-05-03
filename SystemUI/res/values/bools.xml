@@ -50,6 +50,7 @@
     <bool name="config_qsEnableVolumePanel">true</bool>
     <bool name="config_qsEnableVisualizerPanel">true</bool>
     <bool name="config_qsEnableSoundPanel">true</bool>
+    <bool name="config_qsEnableScreenTimeout">true</bool>
     <bool name="config_enableMobileComboIcon">true</bool>
     <bool name="config_showRATIconAlways">false</bool>
     <bool name="config_showCallBusyingIconForDsds">true</bool>

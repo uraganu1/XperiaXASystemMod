@@ -555,11 +555,26 @@
 
     move-result v1
 
-    if-eqz v1, :cond_a
+    if-eqz v1, :cond_19
 
     new-instance v1, Lcom/android/systemui/qs/tiles/SoundTile;
 
     invoke-direct {v1, p0}, Lcom/android/systemui/qs/tiles/SoundTile;-><init>(Lcom/android/systemui/qs/QSTile$Host;)V
+
+    return-object v1
+
+    :cond_19
+    const-string/jumbo v1, "screen_timeout"
+
+    invoke-virtual {p1, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v1
+
+    if-eqz v1, :cond_a
+
+    new-instance v1, Lcom/android/systemui/qs/tiles/ScreenTimeoutTile;
+
+    invoke-direct {v1, p0}, Lcom/android/systemui/qs/tiles/ScreenTimeoutTile;-><init>(Lcom/android/systemui/qs/QSTile$Host;)V
 
     return-object v1
 

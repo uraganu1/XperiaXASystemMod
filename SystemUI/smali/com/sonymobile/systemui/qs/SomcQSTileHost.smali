@@ -30,7 +30,7 @@
     const/4 v5, 0x1
 
     .line 301
-    const/16 v0, 0x15
+    const/16 v0, 0x16
 
     new-array v14, v0, [Lcom/sonymobile/systemui/qs/SomcQSTileHost$Qs;
 
@@ -434,6 +434,22 @@
     invoke-direct/range {v0 .. v6}, Lcom/sonymobile/systemui/qs/SomcQSTileHost$Qs;-><init>(Ljava/lang/String;IIIZZ)V
 
     const/16 v1, 0x14
+
+    aput-object v0, v14, v1
+
+    new-instance v0, Lcom/sonymobile/systemui/qs/SomcQSTileHost$Qs;
+
+    const-string/jumbo v1, "screen_timeout"
+
+    const v2, 0x7f0c0056
+
+    const v3, 0x7f0202b1
+
+    const v4, 0x7f090383
+
+    invoke-direct/range {v0 .. v6}, Lcom/sonymobile/systemui/qs/SomcQSTileHost$Qs;-><init>(Ljava/lang/String;IIIZZ)V
+
+    const/16 v1, 0x15
 
     aput-object v0, v14, v1
 

@@ -836,6 +836,7 @@ To safely continue, please enter the following:"</string>
     <string name="quick_settings_sound_ring">Ring</string>
     <string name="quick_settings_sound_vibrate">Vibrate</string>
     <string name="quick_settings_sound_silent">Silent</string>
+    <string name="quick_settings_screen_timeout_label">Screen timeout</string>
     <item type="string" name="APKTOOL_DUMMY_225">false</item>
     <item type="string" name="APKTOOL_DUMMY_226">false</item>
     <item type="string" name="APKTOOL_DUMMY_359">false</item>

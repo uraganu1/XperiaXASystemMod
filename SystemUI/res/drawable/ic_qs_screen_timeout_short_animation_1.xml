@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector android:drawable="@drawable/ic_qs_screen_timeout_short"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <target android:name="mform_1" android:animation="@anim/ic_qs_animation_shrink" />
+    <target android:name="timeout_short_1" android:animation="@anim/ic_qs_animation_shrink_x" />
+    <target android:name="mform_2" android:animation="@anim/ic_qs_animation_enlarge" />
+    <target android:name="timeout_short_2" android:animation="@anim/ic_qs_animation_enlarge_y" />
+    <target android:name="root" android:animation="@anim/ic_qs_animation_root" />
+</animated-vector>
