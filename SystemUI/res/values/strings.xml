@@ -830,6 +830,7 @@ To safely continue, please enter the following:"</string>
     <string name="lockscreen_short_unlock_hint">Swipe to unlock</string>
     <string name="lockscreen_unlock_hint">Swipe up or down to unlock</string>
     <string name="xperia_lockscreen_name">Xperia™</string>
+    <string name="quick_settings_volume_panel_label">Volume panel</string>
     <item type="string" name="APKTOOL_DUMMY_225">false</item>
     <item type="string" name="APKTOOL_DUMMY_226">false</item>
     <item type="string" name="APKTOOL_DUMMY_359">false</item>

@@ -30,7 +30,7 @@
     const/4 v5, 0x1
 
     .line 301
-    const/16 v0, 0x12
+    const/16 v0, 0x13
 
     new-array v14, v0, [Lcom/sonymobile/systemui/qs/SomcQSTileHost$Qs;
 
@@ -386,6 +386,22 @@
     invoke-direct/range {v0 .. v6}, Lcom/sonymobile/systemui/qs/SomcQSTileHost$Qs;-><init>(Ljava/lang/String;IIIZZ)V
 
     const/16 v1, 0x11
+
+    aput-object v0, v14, v1
+
+    new-instance v0, Lcom/sonymobile/systemui/qs/SomcQSTileHost$Qs;
+
+    const-string/jumbo v1, "volume_panel"
+
+    const v2, 0x7f0c0053
+
+    const v3, 0x7f0202a2
+
+    const v4, 0x7f09037d
+
+    invoke-direct/range {v0 .. v6}, Lcom/sonymobile/systemui/qs/SomcQSTileHost$Qs;-><init>(Ljava/lang/String;IIIZZ)V
+
+    const/16 v1, 0x12
 
     aput-object v0, v14, v1
 
