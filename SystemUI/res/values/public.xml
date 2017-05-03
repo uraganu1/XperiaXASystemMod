@@ -749,7 +749,10 @@
     <public type="drawable" name="ic_qs_volume_panel" id="0x7f0202a3" />
     <public type="drawable" name="ic_qs_volume_panel_animation_1" id="0x7f0202a4" />
     <public type="drawable" name="ic_qs_volume_panel_animation_2" id="0x7f0202a5" />
-
+    <public type="drawable" name="ic_visualizer" id="0x7f0202a6" />
+    <public type="drawable" name="ic_qs_visualizer" id="0x7f0202a7" />
+    <public type="drawable" name="ic_qs_visualizer_animation_1" id="0x7f0202a8" />
+    <public type="drawable" name="ic_qs_visualizer_animation_2" id="0x7f0202a9" />
     <public type="mipmap" name="ic_daydreams" id="0x7f030000" />
     <public type="mipmap" name="ic_launcher_dreams" id="0x7f030001" />
     <public type="layout" name="assist_orb" id="0x7f040000" />
@@ -2025,6 +2028,7 @@
     <public type="string" name="wifi_security_short_wapi_psk" id="0x7f0902e7" />
     <public type="string" name="wifi_security_wapi_cert" id="0x7f0902e8" />
     <public type="string" name="quick_settings_volume_panel_label" id="0x7f09037d" />
+    <public type="string" name="quick_settings_visualizer_label" id="0x7f09037e" />
     <public type="dimen" name="appear_y_translation_start" id="0x7f0a0000" />
     <public type="dimen" name="disappear_y_translation" id="0x7f0a0001" />
     <public type="dimen" name="status_bar_recents_app_icon_max_width" id="0x7f0a0002" />
@@ -2628,6 +2632,7 @@
     <public type="bool" name="config_qsEnableWifi" id="0x7f0c0051" />
     <public type="bool" name="config_qsEnableBlueTooth" id="0x7f0c0052" />
     <public type="bool" name="config_qsEnableVolumePanel" id="0x7f0c0053" />
+    <public type="bool" name="config_qsEnableVisualizerPanel" id="0x7f0c0054" />
     <public type="bool" name="config_enableMobileComboIcon" id="0x7f0c002e" />
     <public type="bool" name="config_showRATIconAlways" id="0x7f0c002f" />
     <public type="bool" name="config_showCallBusyingIconForDsds" id="0x7f0c0030" />

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:name="root" android:height="48.0dip" android:width="48.0dip" android:alpha="1" android:viewportWidth="48.0" android:viewportHeight="48.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:name="volume_panel_1" android:translateX="24" android:translateY="24">
+        <path android:name="path_1" android:fillColor="#ffffffff" android:pathData="M-15.753815 14.753815c0 0 0 -5.5014231 0 -5.5014231 0 0 14.0572507 0 14.0572507 0 0 0 0 5.5014231 0 5.5014231 0 0 -14.0572507 0 -14.0572507 0zm0 -8.0020691c0 0 0 -5.501423 0 -5.501423 0 0 19.8740437 0 19.8740437 0 0 0 0 5.501423 0 5.501423 0 0 -19.8740437 0 -19.8740437 0zm0 -8.002068c0 0 0 -5.501424 0 -5.501424 0 0 25.6908358 0 25.6908358 0 0 0 0 5.501424 0 5.501424 0 0 -25.6908358 0 -25.6908358 0zm0 -8.00207c0 0 0 -5.5014229 0 -5.5014229 0 0 31.50763 0 31.50763 0 0 0 0 5.5014229 0 5.5014229 0 0 -31.50763 0 -31.50763 0z" />
+    </group>
+    <group android:name="volume_panel_2" android:translateX="24" android:translateY="24">
+        <path android:name="path_2" android:fillColor="#ffffffff" android:pathData="M-15.753815 14.753815c0 0 0 -5.5014231 0 -5.5014231 0 0 14.0572507 0 14.0572507 0 0 0 0 5.5014231 0 5.5014231 0 0 -14.0572507 0 -14.0572507 0zm0 -8.0020691c0 0 0 -5.501423 0 -5.501423 0 0 19.8740437 0 19.8740437 0 0 0 0 5.501423 0 5.501423 0 0 -19.8740437 0 -19.8740437 0zm0 -8.002068c0 0 0 -5.501424 0 -5.501424 0 0 25.6908358 0 25.6908358 0 0 0 0 5.501424 0 5.501424 0 0 -25.6908358 0 -25.6908358 0zm0 -8.00207c0 0 0 -5.5014229 0 -5.5014229 0 0 31.50763 0 31.50763 0 0 0 0 5.5014229 0 5.5014229 0 0 -31.50763 0 -31.50763 0z" />
+    </group>
+</vector>
