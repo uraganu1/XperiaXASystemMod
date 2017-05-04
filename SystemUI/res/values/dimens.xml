@@ -246,9 +246,9 @@
     <dimen name="close_all_button_layout_margin_end">16.0dip</dimen>
     <dimen name="close_all_button_layout_margin_bottom">134.0dip</dimen>
     <dimen name="close_all_button_size">56.0dip</dimen>
-    <dimen name="somc_notification_clear_all_text_size">14.0sp</dimen>
-    <dimen name="somc_notification_clear_all_text_h_margin">8.0dip</dimen>
-    <dimen name="somc_notification_clear_all_text_h_margin_from_edge">16.0dip</dimen>
+    <dimen name="somc_notification_clear_all_text_size">24.0sp</dimen>
+    <dimen name="somc_notification_clear_all_text_h_margin">4.0dip</dimen>
+    <dimen name="somc_notification_clear_all_text_h_margin_from_edge">8.0dip</dimen>
     <dimen name="somc_qs_button_height">52.0dip</dimen>
     <dimen name="somc_qs_edit_text_size">14.0sp</dimen>
     <dimen name="somc_qs_edit_text_h_margin">8.0dip</dimen>

@@ -144,7 +144,7 @@ Data charges may apply when updating your device. An unlimited data plan is reco
     <string name="battery_stamina_mode_notification_lower_desc">ENABLE AUTO START OF STAMINA</string>
     <string name="battery_stamina_mode_quick_settings_auto_title">Auto Stamina</string>
     <string name="app_label">System UI</string>
-    <string name="status_bar_clear_all_button">Clear</string>
+    <string name="status_bar_clear_all_button">&#62;</string>
     <string name="status_bar_recent_remove_item_title">Remove from list</string>
     <string name="status_bar_recent_inspect_item_title">App info</string>
     <string name="status_bar_no_recent_apps">No recent apps</string>
