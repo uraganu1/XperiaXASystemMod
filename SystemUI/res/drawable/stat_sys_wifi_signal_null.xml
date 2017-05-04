@@ -1,5 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vector android:height="24.0dip" android:width="24.0dip" android:viewportWidth="24.0" android:viewportHeight="24.0"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <path android:name="bar4" android:fillColor="?backgroundColor" android:pathData="M12,6c2.991,0,5.85,0.875,8.324,2.538L12,19.36L3.675,8.538C6.151,6.875,9.009,6,12,6 M12,5         C8.328,5,4.955,6.25,2.254,8.33L12,21l9.746-12.67C19.045,6.25,15.672,5,12,5L12,5z" />
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="16dp"
+    android:height="24dp"
+    android:viewportWidth="28"
+    android:viewportHeight="48">
+
+    <path android:fillColor="#4dffffff" android:pathData="M5.05 38L9.863 31 5.05 31Z" />
+    <!--1/4-->
+    <path android:fillColor="#4dffffff" android:pathData="M5.05 30l5.5 0 4.125 -6 -9.625 0z" />
+    <!--2/4-->
+    <path android:fillColor="#4dffffff" android:pathData="M5.05 17l0 6 10.313 0 4.125 -6z" />
+    <!--3/4-->
+    <path android:fillColor="#4dffffff" android:pathData="M24.3 10l-19.25 0 0 6 15.125 0z" />
+    <!--4/4-->
+    <path android:fillColor="#ffffffff" android:pathData="M18.699605 38l2.83 0 0.484 -2 -2.828 0z" />
+    <!--Error-->
+    <path android:fillColor="#ffffffff" android:pathData="M21.163005 26l-1.602 8 2.864 0 1.601 -8z" />
+    <!--Error-->
 </vector>
