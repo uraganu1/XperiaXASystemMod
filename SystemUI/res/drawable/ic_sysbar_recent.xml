@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:name="root" android:height="24.0dip" android:width="24.0dip" android:alpha="1" android:viewportWidth="48.0" android:viewportHeight="48.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:name="sysbar_recent" android:fillColor="#ffffffff" android:pathData="M30.711649 35.757688c0 0 -18.217334 -23.515376 -18.217334 -23.515376 0 0 4.794035 0 4.794035 0 0 0 18.217334 23.515376 18.217334 23.515376 0 0 -4.794035 0 -4.794035 0zm4.794035 -13.2274c0 0 -7.191053 0 -7.191053 0 0 0 -2.876421 -3.919229 -2.876421 -3.919229 0 0 10.067474 0 10.067474 0 0 0 0 3.919229 0 3.919229zm0 2.449519c0 0 0 3.91923 0 3.91923 0 0 -2.397018 0 -2.397018 0 0 0 -2.876421 -3.91923 -2.876421 -3.91923 0 0 5.273439 0 5.273439 0z" />
+</vector>
