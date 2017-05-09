@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sonyericsson.uxp.drawable.ColorizableDrawable somc:drawable="@drawable/global_actions_sound_indicator_colored" somc:color="@com.sonyericsson.uxp:color/somc_theme_accent_color_dark"
+  xmlns:somc="http://schemas.android.com/apk/res/com.sonyericsson.uxp" />

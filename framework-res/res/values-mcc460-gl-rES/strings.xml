@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wfcRegErrorTitle">Chamadas por wifi</string>
+    <string name="wfcSpnFormat">%s</string>
+    <string name="wfcDataSpnFormat">%s</string>
+    <string name="wfc_mode_wifi_preferred_summary">WLAN preferida</string>
+    <string name="wfc_mode_wifi_only_summary">Só wifi</string>
+    <string name="permdesc_accessFineLocation">Permite á aplicación obter a túa localización precisa co sistema de posicionamento global (GPS ou Global Positioning System) ou con fontes da localización de rede como as torres de telecomunicacións e a wifi. Estes servizos de localización deben estar activados e dispoñibles para o teu dispositivo para que a aplicación poida utilizalos. As aplicacións poden usar esta opción para determinar aproximadamente o lugar en que te atopas e é posible que consuman batería adicional.</string>
+    <string name="permdesc_accessCoarseLocation">Permite á aplicación obter a túa localización aproximada. Esta localización provén dos servizos de localización que utilizan fontes da localización de rede como as torres de telecomunicacións e a wifi. Estes servizos de localización deben estar activados e dispoñibles para o teu dispositivo para que a aplicación poida utilizalos. As aplicacións poden esta opción para determinar aproximadamente o lugar en que te atopas.</string>
+    <string name="permlab_accessWifiState">ver conexións wifi</string>
+    <string name="permdesc_accessWifiState">Permite á aplicación ver información acerca das redes wifi, como se a wifi está activada e o nome dos dispositivos wifi conectados.</string>
+    <string name="permlab_changeWifiState">conectar e desconectar da wifi</string>
+    <string name="permdesc_changeWifiState">Permite á aplicación conectarse e desconectarse de puntos de acceso á wifi e realizar cambios na configuración do dispositivo das redes wifi.</string>
+    <string name="permlab_changeWifiMulticastState">permitir a recepción multidifusión WLAN</string>
+    <string name="permdesc_changeWifiMulticastState">Permite á aplicación recibir paquetes enviados a todos os dispositivos a través dunha rede wifi utilizando enderezos de multidifusión, non só o teu teléfono. Utiliza máis enerxía que o modo que non inclúe a multidifusión.</string>
+    <string name="wifi_available_sign_in">Inicia sesión na rede wifi</string>
+    <string name="wifi_no_internet">A wifi non ten acceso a Internet</string>
+    <string name="wifi_watchdog_network_disabled">Non se puido conectar coa rede WLAN</string>
+    <string name="wifi_connect_alert_message">A aplicación %1$s quere conectarse á rede wifi %2$s</string>
+    <string name="wifi_p2p_dialog_title">WLAN Direct</string>
+    <string name="wifi_p2p_turnon_message">Inicia WLAN Direct. Esta acción desactivará o cliente e a zona interactiva da wifi.</string>
+    <string name="wifi_p2p_failed_message">Non se puido iniciar WLAN Direct.</string>
+    <string name="wifi_p2p_enabled_notification_title">WLAN Direct está activado</string>
+    <string name="wifi_p2p_frequency_conflict_message">O teléfono desconectarase temporalmente da wifi mentres está conectado con %1$s</string>
+    <string name="tethered_notification_title">Ancoraxe á rede ou zona WLAN activada</string>
+    <string name="data_usage_wifi_limit_title">Límite de datos da wifi acadado</string>
+    <string name="data_usage_wifi_limit_snoozed_title">Límite de datos WLAN superado</string>
+</resources>

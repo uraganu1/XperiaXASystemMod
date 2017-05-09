@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pinpuk_attempts">
+        <item quantity="other">ਸਿਮ ਕਾਰਡ ਦੇ ਲੌਕ ਹੋਣ ਤੋਂ ਪਹਿਲਾਂ ਤੁਹਾਡੇ ਕੋਲ %d ਕੋਸ਼ਸ਼ਾਂ ਬਾਕੀ ਹਨ</item>
+        <item quantity="one">ਸਿਮ ਕਾਰਡ ਦੇ ਲੌਕ ਹੋਣ ਤੋਂ ਪਹਿਲਾਂ ਤੁਹਾਡੇ ਕੋਲ %d ਕੋਸ਼ਸ਼ਾਂ ਬਾਕੀ ਹਨ</item>
+    </plurals>
+    <plurals name="last_num_days">
+        <item quantity="other">ਪਿਛਲੇ %d ਦਿਨ</item>
+        <item quantity="one">ਪਿਛਲੇ %d ਦਿਨ</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d ਸਕਿੰਟ</item>
+        <item quantity="one">1 ਸਕਿੰਟ</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d ਮਿੰਟ</item>
+        <item quantity="one">1 ਮਿੰਟ</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="other">%d ਘੰਟੇ</item>
+        <item quantity="one">1 ਘੰਟਾ</item>
+    </plurals>
+    <plurals name="wifi_available">
+        <item quantity="other">Wi-Fi ਨੈਟਵਰਕ ਉਪਲਬਧ ਹਨ</item>
+        <item quantity="one">Wi-Fi ਨੈਟਵਰਕ ਉਪਲਬਧ ਹੈ</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">ਖੁੱਲ੍ਹੇ Wi-Fi ਨੈਟਵਰਕ ਉਪਲਬਧ ਹਨ</item>
+        <item quantity="one">ਖੁੱਲ੍ਹਾ Wi-Fi ਨੈਟਵਰਕ ਉਪਲਬਧ ਹੈ</item>
+    </plurals>
+    <plurals name="matches_found">
+        <item quantity="other">%1$d ਵਿੱਚੋਂ %2$d</item>
+        <item quantity="one">1 ਮੇਲ ਖਾਂਦਾ ਹੈ</item>
+    </plurals>
+    <plurals name="restr_pin_countdown">
+        <item quantity="other">%d ਸਕਿੰਟਾਂ ਵਿੱਚ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ</item>
+        <item quantity="one">1 ਸਕਿੰਟ ਵਿੱਚ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ</item>
+    </plurals>
+    <plurals name="zen_mode_duration_minutes_summary">
+        <item quantity="other">%1$d ਮਿੰਟਾਂ ਲਈ (%2$s ਤੱਕ)</item>
+        <item quantity="one">ਇੱਕ ਮਿੰਟ ਲਈ (%2$s ਤੱਕ)</item>
+    </plurals>
+    <plurals name="zen_mode_duration_minutes_summary_short">
+        <item quantity="other">%1$d ਮਿੰਟ ਲਈ (%2$s ਤੱਕ)</item>
+        <item quantity="one">1 ਮਿੰਟ ਲਈ (%2$s ਤੱਕ)</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours_summary">
+        <item quantity="other">%1$d ਘੰਟਿਆਂ ਲਈ (%2$s ਤੱਕ)</item>
+        <item quantity="one">ਇੱਕ ਘੰਟੇ ਲਈ (%2$s ਤੱਕ)</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours_summary_short">
+        <item quantity="other">%1$d ਘੰਟੇ ਲਈ (%2$s ਤੱਕ)</item>
+        <item quantity="one">1 ਘੰਟੇ ਲਈ (%2$s ਤੱਕ)</item>
+    </plurals>
+    <plurals name="zen_mode_duration_minutes">
+        <item quantity="other">%d ਮਿੰਟਾਂ ਲਈ</item>
+        <item quantity="one">ਇੱਕ ਮਿੰਟ ਲਈ</item>
+    </plurals>
+    <plurals name="zen_mode_duration_minutes_short">
+        <item quantity="other">%d ਮਿੰਟ ਲਈ</item>
+        <item quantity="one">1 ਮਿੰਟ ਲਈ</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours">
+        <item quantity="other">%d ਘੰਟਿਆਂ ਲਈ</item>
+        <item quantity="one">ਇੱਕ ਘੰਟੇ ਲਈ</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours_short">
+        <item quantity="other">%d ਘੰਟੇ ਲਈ</item>
+        <item quantity="one">1 ਘੰਟੇ ਲਈ</item>
+    </plurals>
+    <plurals name="selected_count">
+        <item quantity="other">%1$d ਚੁਣੇ ਗਏ</item>
+        <item quantity="one">%1$d ਚੁਣਿਆ ਗਿਆ</item>
+    </plurals>
+</resources>

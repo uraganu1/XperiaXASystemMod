@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wfcRegErrorTitle">WLAN ਕਾਲਿੰਗ</string>
+    <string name="wfcSpnFormat">%s WLAN ਕਾਲਿੰਗ</string>
+    <string name="wfcDataSpnFormat">%s WLAN ਕਾਲਿੰਗ</string>
+    <string name="wfc_mode_wifi_preferred_summary">WLAN ਨੂੰ ਤਰਜੀਹ</string>
+    <string name="wfc_mode_wifi_only_summary">ਸਿਰਫ WLAN</string>
+    <string name="permdesc_accessFineLocation">ਐਪ ਨੂੰ ਗਲੋਬਲ ਪੋਜ਼ੀਸ਼ਨਿੰਗ ਸਿਸਟਮ (GPS) ਜਾਂ ਨੈਟਵਰਕ ਸਥਾਨ ਸਰੋਤਾਂ ਜਿਵੇਂ ਕਿ ਸੈੱਲ ਟਾਵਰ ਅਤੇ WLAN ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਤੁਹਾਡੇ ਅਸਲ ਸਥਾਨ ਨੂੰ ਪ੍ਰਾਪਤ ਕਰਨ ਦੀ ਇਜਾਜ਼ਤ ਦਿੰਦਾ ਹੈ। ਐਪਸ ਇਸ ਨੂੰ ਇਹ ਪਤਾ ਲਗਾਉਣ ਲਈ ਵਰਤ ਸਕਦੇ ਹਨ ਕਿ ਤੁਸੀਂ ਕਿੱਥੇ ਹੋ ਅਤੇ ਵਾਧੂ ਬੈਟਰੀ ਪਾਵਰ ਵੀ ਵਰਤ ਸਕਦੇ ਹਨ।</string>
+    <string name="permdesc_accessCoarseLocation">ਐਪ ਨੂੰ ਤੁਹਾਡਾ ਅਨੁਮਾਨਿਤ ਸਥਾਨ ਪ੍ਰਾਪਤ ਕਰਨ ਦੀ ਇਜਾਜ਼ਤ ਦਿੰਦਾ ਹੈ। ਇਸ ਸਥਾਨ ਨੂੰ ਸਥਾਨ ਸੇਵਾਵਾਂ ਵੱਲੋਂ ਨੈਟਵਰਕ ਸਥਾਨ ਸਰੋਤ ਜਿਵੇਂ ਕਿ ਸੈਲ ਟਾਵਰ ਅਤੇ WLAN ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਪ੍ਰਾਪਤ ਕੀਤਾ ਜਾਂਦਾ ਹੈ। ਇਹ ਸਥਾਨ ਸੇਵਾਵਾਂ ਚਾਲੂ ਹੋਣੀਆਂ ਚਾਹੀਦੀਆਂ ਹਨ ਅਤੇ ਤੁਹਾਡੇ ਉਪਕਰਣ ਦੁਆਰਾ ਐਪ ਦੀ ਵਰਤੋਂ ਕਰਨ ਵਾਸਤੇ ਉਪਲਬਧ ਹੋਣੀਆਂ ਚਾਹੀਦੀਆਂ ਹਨ। ਐਪਸ ਤੁਹਾਡੀ ਅਨੁਮਾਨਿਤ ਸਥਿਤੀ ਦਾ ਪਤਾ ਲਗਾਉਣ ਲਈ ਇਸਦੀ ਵਰਤੋਂ ਕਰ ਸਕਦੇ ਹਨ।</string>
+    <string name="permlab_accessWifiState">WLAN ਕਨੈਕਸ਼ਨ ਵੇਖਣਾ</string>
+    <string name="permdesc_accessWifiState">ਐਪ ਨੂੰ WLAN ਨੈਟਵਰਕਿੰਗ ਬਾਰੇ ਜਾਣਕਾਰੀ ਵੇਖਣ ਦੀ ਇਜਾਜ਼ਤ ਦਿੰਦਾ ਹੈ, ਜਿਵੇਂ ਕਿ WLAN ਸਮਰੱਥ ਬਣਾਇਆ ਹੈ ਜਾਂ ਨਹੀਂ ਅਤੇ ਕਨੈਕਟ ਕੀਤੇ WLAN ਉਪਕਰਣਾਂ ਦੇ ਨਾਂ।</string>
+    <string name="permlab_changeWifiState">WLAN ਨਾਲ ਕਨੈਕਟ ਅਤੇ ਡਿਸਕਨੈਕਟ ਕਰਨਾ</string>
+    <string name="permdesc_changeWifiState">ਐਪ ਨੂੰ WLAN ਐਕਸੈਸ ਪੁਆਇੰਟਾਂ ਨਾਲ ਕਨੈਕਟ ਕਰਨ ਅਤੇ ਉਹਨਾਂ ਤੋਂ ਡਿਸਕਨੈਕਟ ਕਰਨ ਅਤੇ WLAN ਨੈਟਵਰਕਾਂ ਲਈ ਉਪਕਰਣ ਕੌਨਫਿਗਰੇਸ਼ਨ ਬਦਲਣ ਦੀ ਇਜਾਜ਼ਤ ਦਿੰਦਾ ਹੈ।</string>
+    <string name="permlab_changeWifiMulticastState">WLAN ਮਲਟੀਕਾਸਟ ਪ੍ਰਾਪਤੀ ਦੀ ਇਜਾਜ਼ਤ ਦੇਣਾ</string>
+    <string name="permdesc_changeWifiMulticastState">ਐਪ ਨੂੰ WLAN ਨੈਟਵਰਕ ਤੇ ਮਲਟੀਕਾਸਟ ਐਡਰੈੱਸ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਨਾ ਸਿਰਫ਼ ਤੁਹਾਡੇ ਫ਼ੋਨ ਬਲਕਿ ਸਭ ਉਪਕਰਣਾਂ ਨੂੰ ਭੇਜੇ ਪੈਕੇਜ ਪ੍ਰਾਪਤ ਕਰਨ ਦੀ ਇਜਾਜ਼ਤ ਦਿੰਦਾ ਹੈ। ਇਹ ਗੈਰ-ਮਲਟੀਕਾਸਟ ਮੋਡ ਤੋਂ ਵੱਧ ਪਾਵਰ ਵਰਤਦਾ ਹੈ।</string>
+    <string name="wifi_available_sign_in">WLAN ਨੈਟਵਰਕ ਵਿੱਚ ਸਾਈਨ-ਇਨ ਕਰੋ</string>
+    <string name="wifi_no_internet">"WLAN 'ਚ ਇੰਟਰਨੈਟ ਐਕਸੈਸ ਨਹੀਂ ਹੈ"</string>
+    <string name="wifi_watchdog_network_disabled">WLAN ਨਾਲ ਕਨੈਕਟ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ</string>
+    <string name="wifi_connect_alert_message">ਅਨੁਪ੍ਰਯੋਗ %1$s WLAN ਨੈਟਵਰਕ %2$s ਨਾਲ ਕਨੈਕਟ ਕਰਨਾ ਚਾਹੁੰਦਾ ਹੈ</string>
+    <string name="wifi_p2p_dialog_title">WLAN Direct</string>
+    <string name="wifi_p2p_turnon_message">WLAN Direct ਸ਼ੁਰੂ ਕਰੋ। ਇਹ WLAN ਕਲਾਇੰਟ/ਹੌਟਸਪੌਟ ਬੰਦ ਕਰੇਗਾ।</string>
+    <string name="wifi_p2p_failed_message">WLAN Direct ਸ਼ੁਰੂ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ।</string>
+    <string name="wifi_p2p_enabled_notification_title">WLAN Direct ਚਾਲੂ ਹੈ</string>
+    <string name="wifi_p2p_frequency_conflict_message">ਜਦੋਂ ਫ਼ੋਨ ਨੂੰ %1$s ਨਾਲ ਕਨੈਕਟ ਕੀਤਾ ਜਾਂਦਾ ਹੈ, ਤਾਂ ਇਹ WLAN ਤੋਂ ਆਰਜ਼ੀ ਰੂਪ ਵਿੱਚ ਡਿਸਕਨੈਕਟ ਹੋ ਜਾਵੇਗਾ।</string>
+    <string name="data_usage_wifi_limit_title">WLAN ਡੇਟਾ ਸੀਮਾ ਪੂਰੀ ਹੋਈ</string>
+    <string name="data_usage_wifi_limit_snoozed_title">WLAN ਡੇਟਾ ਸੀਮਾ ਵਧ ਗਈ</string>
+    <string name="policylab_disableWifi">WLAN ਪਹੁੰਚ ਅਯੋਗ ਬਣਾਉ</string>
+    <string name="policydesc_disableWifi">ਉਪਕਰਣ ਉੱਤੇ WLAN ਕਨੈਕਸ਼ਨ ਨੂੰ ਰੋਕੋ</string>
+    <string name="wifi_disabled_notification_title">WLAN ਕਨੈਕਸ਼ਨ ਸੀਮਿਤ ਕੀਤਾ ਹੈ</string>
+    <string name="wifi_disabled_notification_message">"ਸੁਰੱਖਿਆ ਨੀਤੀ WLAN ਦੀ ਵਰਤੋਂ ਨੂੰ ਸੀਮਿਤ ਕਰਦੀ ਹੈ। "</string>
+    <string name="ct_cplusw_notification_text">"ਤੁਸੀਂ CT WLAN ਨੈਟਵਰਕ ਤੇ ਪਹੁੰਚ ਬਣਾਈ ਹੈ। ਬਿਲਿੰਗ ਦੀ ਜਾਣਕਾਰੀ ਲਈ ਕਿਰਪਾ ਕਰਕੇ 10000 ਨਾਲ ਜਾਂ ਸਥਾਨਕ CT ਸਟੋਰ ਨਾਲ ਸੰਪਰਕ ਕਰੋ। ਕਿਰਪਾ ਕਰਕੇ ਵਰਤੋਂ ਵਿੱਚ ਨਾ ਹੋਣ 'ਤੇ ਡਿਸਕਨੈਕਟ ਕਰ ਦਿਓ।"</string>
+    <string name="ct_cplusw_notification_title">ਚੀਨੀ ਟੈਲੀਕੌਮ WLAN ਕਨੈਕਟ ਕੀਤਾ</string>
+    <string name="ct_cplusw_pppoe_connection_dialog_content">ਤੁਸੀਂ ਚੀਨੀ ਦੂਰਸੰਚਾਰ ਕੰਪਨੀ ਦੇ WLAN ਨੈਟਵਰਕ ਨਾਲ ਕਨੈਕਟ ਹੋਵੋਗੇ। ਖਰਚਿਆਂ ਦੇ ਹੋਰ ਵੇਰਵਿਆਂ ਲਈ, ਕਿਰਪਾ ਕਰਕੇ ਚੀਨੀ ਦੂਰਸੰਚਾਰ ਗਾਹਕ ਸੇਵਾ ਨਾਲ ਸੰਪਰਕ ਕਰੋ। ਕੀ ਅੱਗੇ ਵਧਣਾ ਹੈ?</string>
+    <string name="wifi_nonconcurrency_message">WLAN client ਸ਼ੁਰੂ ਕਰੋ। ਇਹ WLAN Direct ਨੂੰ ਡਿਸਕਨੈਕਟ ਕਰ ਦੇਵੇਗਾ।</string>
+    <string name="wifi_noncuncurrency_message">WLAN client ਸ਼ੁਰੂ ਕਰੋ। ਇਹ WLAN Direct ਨੂੰ ਡਿਸਕਨੈਕਟ ਕਰ ਦੇਵੇਗਾ।</string>
+    <string name="wifi_p2p_nonconcurrency_invite_message">ਕੋਈ ਵੀ ਮੌਜੂਦਾ WLAN ਕਨੈਕਸ਼ਨ ਡਿਸਕਨੈਕਟ ਹੋ ਜਾਵੇਗਾ</string>
+    <string name="wifi_p2p_nonconcurrency_message">WLAN Direct ਸ਼ੁਰੂ ਕਰੋ। ਇਹ WLAN ਕਨੈਕਸ਼ਨ ਨੂੰ ਡਿਸਕਨੈਕਟ ਕਰ ਦੇਵੇਗਾ।</string>
+    <string name="wifi_p2p_noncuncurrency_invite_message">ਇਹ ਕਿਸੇ ਵੀ ਮੌਜੂਦਾ WLAN ਕਨੈਕਸ਼ਨ ਨੂੰ ਡਿਸਕਨੈਕਟ ਕਰ ਦੇਵੇਗਾ</string>
+    <string name="wifi_p2p_noncuncurrency_message">WLAN Direct ਸ਼ੁਰੂ ਕਰੋ। ਇਹ WLAN ਕਨੈਕਸ਼ਨ ਨੂੰ ਡਿਸਕਨੈਕਟ ਕਰ ਦੇਵੇਗਾ।</string>
+    <string name="tethered_notification_title_wifi">WLAN ਬੰਦ ਹੋ ਗਿਆ</string>
+</resources>

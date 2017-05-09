@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wfcRegErrorTitle">Повикување преку WLAN</string>
+    <string name="wfcSpnFormat">%s</string>
+    <string name="wfcDataSpnFormat">%s</string>
+    <string name="wfc_mode_wifi_preferred_summary">Се претпочита WLAN</string>
+    <string name="wfc_mode_wifi_only_summary">Само WLAN</string>
+    <string name="permdesc_accessFineLocation">Овозможува апликацијата да ја добие вашата точна локација со користење „Глобален систем за позиционирање (ГПС)“ или извори на локација, како што се мобилни кули и WLAN. Овие услуги за локација мора да се вклучени и достапни за вашиот уред за апликацијата да ги користи. Апликациите може да го користат ова за да утврдат приближно каде се наоѓате и може дополнително да потрошат батерија.</string>
+    <string name="permdesc_accessCoarseLocation">Овозможува апликацијата да ја добие вашата приближна локација. Оваа локација е изведена од услугите за локација со користење мрежа на извори на локација, како што се мобилни кули и WLAN. Овие услуги за локација мора да се вклучени и достапни за вашиот уред за апликацијата да ги користи. Апликациите може да го користат ова за да утврдат приближно каде се наоѓате.</string>
+    <string name="permlab_accessWifiState">прикажи WLAN конекции</string>
+    <string name="permdesc_accessWifiState">Овозможува апликацијата да ги види информациите за вмрежување на WLAN, како на пр., дали WLAN е овозможено и име на поврзани уреди со WLAN.</string>
+    <string name="permlab_changeWifiState">поврзи се и исклучи се од WLAN</string>
+    <string name="permdesc_changeWifiState">Овозможува апликацијата да се вклучи на и да се исклучи од WLAN точки за пристап и да направи промени на конфигурацијата на уредот за WLAN мрежи.</string>
+    <string name="permlab_changeWifiMulticastState">овозможи прием на WLAN Multicast</string>
+    <string name="permdesc_changeWifiMulticastState">Овозможува апликацијата да добива пакети испратени до сите уреди на WLAN мрежа со користење повеќекратни адреси, а не само вашиот телефон. Користи повеќе батерија отколку кога е во режим на еднократност.</string>
+    <string name="wifi_available_sign_in">Најавете се на мрежа на WLAN</string>
+    <string name="wifi_no_internet">WLAN нема пристап на интернет</string>
+    <string name="wifi_watchdog_network_disabled">Не можеше да се поврзе со WLAN</string>
+    <string name="wifi_connect_alert_message">Апликацијата %1$s сака да се поврзе со WLAN-мрежата %2$s</string>
+    <string name="wifi_p2p_dialog_title">WLAN Direct</string>
+    <string name="wifi_p2p_turnon_message">Започни WLAN Direct. Ова ќе го исклучи WLAN клиентот/хточката на пристап.</string>
+    <string name="wifi_p2p_failed_message">Не можеше да се стартува WLAN Direct.</string>
+    <string name="wifi_p2p_enabled_notification_title">WLAN Direct е вклучена</string>
+    <string name="wifi_p2p_frequency_conflict_message">Телефонот привремено ќе се исклучи од WLAN додека е приклучен на %1$s</string>
+    <string name="data_usage_wifi_limit_title">Постигна лимит за WLAN податоци</string>
+    <string name="data_usage_wifi_limit_snoozed_title">Надминат лимит на WLAN податоци</string>
+</resources>

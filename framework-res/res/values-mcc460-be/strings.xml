@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wfcRegErrorTitle">Выклік праз WLAN</string>
+    <string name="wfcSpnFormat">%s: выклік праз WLAN</string>
+    <string name="wfcDataSpnFormat">%s: выклік праз WLAN</string>
+    <string name="wfc_mode_wifi_preferred_summary">Пераважна WLAN</string>
+    <string name="wfc_mode_wifi_only_summary">Толькі WLAN</string>
+    <string name="permdesc_accessFineLocation">Дазваляе дадатку вызначаць дакладнае месцазнаходжанне з дапамогай Глабальная сістэма вызначэння месцазнаходжання (GPS) або сеткавых крынiц месцазнаходжання, напрыклад, веж сотавай сувязi i WLAN. Гэтыя паслугі вызначэння месцазнаходжання павiнны быць уключаны i даступныя для Вашай прылады i дадатка. Дадаткi могуць выкарыстоўваць гэта, каб вызначаць Ваша прыблiзнае месцазнаходжанне, а таксама спажываць дадатковае сiлкаванне.</string>
+    <string name="permdesc_accessCoarseLocation">Дазваляе дадатку вызначаць прыблiзнае месцазнаходжанне. Гэта месцазнаходжанне вызначаецца спецыяльнымi паслугамі з выкарыстаннем сеткавых крынiц месцазнаходжання, напрыклад, веж сотавай сувязi i WLAN. паслугі вызначэння месцазнаходжання павiнны быць уключаны i даступныя для Вашай прылады i дадатка. Дадаткi могуць выкарыстоўваць гэта, каб вызначаць Ваша прыблiзнае месцазнаходжанне.</string>
+    <string name="permlab_accessWifiState">прагляд далучэнняў WLAN</string>
+    <string name="permdesc_accessWifiState">Дазваляе дадатку праглядаць звесткi пра сеткi WLAN, напрыклад, пра тое, ці ёсць сеткi WLAN i якiя прылады WLAN да iх далучаны.</string>
+    <string name="permlab_changeWifiState">далучэнне да сеткі WLAN і адключэнне ад яе</string>
+    <string name="permdesc_changeWifiState">Дазваляе дадатку далучацца да кропак доступу WLAN і адключацца ад iх, а таксама ўносіць змяненні ў канфiгурацыю прылад сеткі WLAN.</string>
+    <string name="permlab_changeWifiMulticastState">дазваляе прыём WLAN Multicast</string>
+    <string name="permdesc_changeWifiMulticastState">Дазваляе дадатку атрымліваць пакеты, адпраўленыя на ўсе прылады з сеткi WLAN з дапамогай групавых адрасоў, а не толькі на Ваш тэлефон. Будзе выкарыстоўвацца больш энергіі, чым у рэжыме нешматадраснай перадачы.</string>
+    <string name="wifi_available_sign_in">Увайсці ў сетку WLAN</string>
+    <string name="wifi_no_internet">WLAN не мае доступу да Інтэрнэту</string>
+    <string name="wifi_watchdog_network_disabled">Немагчыма далучыцца да WLAN</string>
+    <string name="wifi_connect_alert_message">Дадатак %1$s жадае падлучыцца да WLAN-сеткі %2$s</string>
+    <string name="wifi_p2p_dialog_title">WLAN Direct</string>
+    <string name="wifi_p2p_turnon_message">Пачаць работу WLAN Direct. Гэта адключыць кліента або кропку доступу WLAN.</string>
+    <string name="wifi_p2p_failed_message">Немагчыма запусціць WLAN Direct.</string>
+    <string name="wifi_p2p_enabled_notification_title">WLAN Direct уключаны</string>
+    <string name="wifi_p2p_frequency_conflict_message">Тэлефон часова адключыцца ад WLAN, пакуль будзе падключаны да %1$s</string>
+    <string name="data_usage_wifi_limit_title">Дасягнуты ліміт перадачы дадзеных праз WLAN</string>
+    <string name="data_usage_wifi_limit_snoozed_title">Перавыш. ліміт па даных WLAN</string>
+    <string name="policylab_disableWifi">Выключыць доступ да WLAN</string>
+    <string name="policydesc_disableWifi">Прадухіліць далучэнне WLAN на прыладзе</string>
+    <string name="wifi_disabled_notification_title">Далучэнне WLAN забаронена</string>
+    <string name="wifi_disabled_notification_message">Палітыка бяспекі забараняе выкарыстанне WLAN.</string>
+    <string name="ct_cplusw_notification_text">Вы атрымалі доступ да WLAN-сеткі CT. Пазваніце на нумар 10000 ці звярніцеся ў мясцовую краму CT за інфармацыяй па выдатках. Адключыцеся, калі сетка не выкарыстоўваецца.</string>
+    <string name="ct_cplusw_notification_title">Падлуч да WLAN China Telecom</string>
+    <string name="ct_cplusw_pppoe_connection_dialog_content">Вы будзеце падлучаны да WLAN-сеткі China Telecom. За больш падрабязнай інфармацыяй аб выдатках звярніцеся ў службу абслугоўвання China Telecom. Працягнуць?</string>
+    <string name="wifi_nonconcurrency_message">Запусціць кліент WLAN. Гэта адключыць WLAN Direct™.</string>
+    <string name="wifi_noncuncurrency_message">Запусціць кліент WLAN. Гэта адключыць WLAN Direct™.</string>
+    <string name="wifi_p2p_nonconcurrency_invite_message">Любое існуючае падлучэнне WLAN будзе перарвана</string>
+    <string name="wifi_p2p_nonconcurrency_message">"Запусціць WLAN Direct™. Гэта раз'яднае падлучэнне WLAN."</string>
+    <string name="wifi_p2p_noncuncurrency_invite_message">Гэта адключыць любое існуючае падлучэнне WLAN</string>
+    <string name="wifi_p2p_noncuncurrency_message">Запусціць WLAN Direct™. Гэта адключыць падлучэнне WLAN.</string>
+    <string name="tethered_notification_title_wifi">WLAN выключаны</string>
+</resources>

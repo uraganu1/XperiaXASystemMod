@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="wifi_available">
+        <item quantity="other">Əlçatan WLAN şəbəkələri</item>
+        <item quantity="one">Əlçatan WLAN şəbəkəsi</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">Əlçatan açıq WLAN şəbəkələri</item>
+        <item quantity="one">Əlçatan açıq WLAN şəbəkəsi</item>
+    </plurals>
+</resources>

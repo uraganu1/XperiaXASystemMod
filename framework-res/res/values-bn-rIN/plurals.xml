@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pinpuk_attempts">
+        <item quantity="other">আপনি সিম আগে %d অবশিষ্ট প্রয়াস লক করা আছে.</item>
+        <item quantity="one">আপনি সিম আগে %d অবশিষ্ট প্রয়াস লক করা আছে.</item>
+    </plurals>
+    <plurals name="last_num_days">
+        <item quantity="other">গত %d দিন</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d সেকেন্ড</item>
+        <item quantity="one">১ সেকেন্ড</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d মিনিট</item>
+        <item quantity="one">১ মিনিট</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="other">%d ঘণ্টা</item>
+        <item quantity="one">১ ঘণ্টা</item>
+    </plurals>
+    <plurals name="wifi_available">
+        <item quantity="other">ওয়াই-ফাই নেটওয়ার্ক পাওয়া যাচ্ছে</item>
+        <item quantity="one">ওয়াই-ফাই নেটওয়ার্ক পাওয়া যাচ্ছে</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">প্রাপ্ত ওয়াই-ফাই নেটওয়ার্ক খুলুন</item>
+        <item quantity="one">প্রাপ্ত ওয়াই-ফাই নেটওয়ার্ক খুলুন</item>
+    </plurals>
+    <plurals name="matches_found">
+        <item quantity="other">%1$dএর %2$d</item>
+        <item quantity="one">১টি মিল</item>
+    </plurals>
+    <plurals name="restr_pin_countdown">
+        <item quantity="other">%d সেকেন্ডর মধ্যে আবার চেষ্টা করুন।</item>
+        <item quantity="one">১ সেকেন্ডের মধ্যে আবার চেষ্টা করুন</item>
+    </plurals>
+    <plurals name="zen_mode_duration_minutes_summary">
+        <item quantity="other">%1$d মিনিটের জন্য (%2$s পর্যন্ত)</item>
+        <item quantity="one">এক মিনিটের জন্য (পর্যন্ত %2$s)</item>
+    </plurals>
+    <plurals name="zen_mode_duration_minutes_summary_short">
+        <item quantity="other">%1$dমিনিটেরজন্য(যতক্ষণনা%2$s)</item>
+        <item quantity="one">১মিনিটেরজন্য(যতক্ষণনা%2$s)</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours_summary">
+        <item quantity="other">%1$d ঘণ্টার জন্য ( %2$s পর্যন্ত)</item>
+        <item quantity="one">এক ঘণ্টার জন্য(%2$s পর্যন্ত)</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours_summary_short">
+        <item quantity="other">%1$dঘণ্টারজন্য(যতক্ষণনা%2$s)</item>
+        <item quantity="one">১ঘণ্টারজন্য(যতক্ষণনা%2$s)</item>
+    </plurals>
+    <plurals name="zen_mode_duration_minutes">
+        <item quantity="other">%d মিনিট ধরে</item>
+        <item quantity="one">এক মিনিট ধরে</item>
+    </plurals>
+    <plurals name="zen_mode_duration_minutes_short">
+        <item quantity="other">%dমিনিটেরজন্য</item>
+        <item quantity="one">১মিনিটেরজন্য</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours">
+        <item quantity="other">%d ঘণ্টা ধরে</item>
+        <item quantity="one">এক ঘণ্টা ধরে</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours_short">
+        <item quantity="other">%dঘণ্টারজন্য</item>
+        <item quantity="one">১ঘণ্টারজন্য</item>
+    </plurals>
+    <plurals name="selected_count">
+        <item quantity="other">%1$d নির্বাচিত</item>
+        <item quantity="one">%1$dনির্বাচিত</item>
+    </plurals>
+</resources>

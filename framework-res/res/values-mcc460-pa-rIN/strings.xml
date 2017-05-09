@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wfcRegErrorTitle">WLAN ਕਾਲਿੰਗ</string>
+    <string name="wfcSpnFormat">%s</string>
+    <string name="wfcDataSpnFormat">%s</string>
+    <string name="wfc_mode_wifi_preferred_summary">ਤਰਜੀਹੀ WLAN</string>
+    <string name="wfc_mode_wifi_only_summary">ਕੇਵਲ WLAN</string>
+    <string name="permdesc_accessFineLocation">ਐਪ ਨੂੰ ਗਲੋਬਲ ਪੋਜੀਸ਼ਨਿੰਗ ਸਿਸਟਮ (GPS) ਜਾਂ ਨੈਟਵਰਕ ਨਿਰਧਾਰਿਤ ਸਥਾਨ ਸ੍ਰੋਤ ਜਿਵੇਂ ਸੈਲ ਟਾਵਰ ਅਤੇ WLAN, ਵਰਤਦੇ ਹੋਏ ਤੁਹਾਡਾ ਨਿਯਤ ਨਿਰਧਾਰਿਤ ਸਥਾਨ ਪ੍ਰਾਪਤ ਕਰਨ ਦੀ ਆਗਿਆ ਦਿੰਦਾ ਹੈ। ਇਹ ਨਿਰਧਾਰਿਤ ਸਥਾਨ ਸੇਵਾਵਾਂ ਚਾਲੂ ਅਤੇ ਐਪ ਨੂੰ ਉਹਨਾਂ ਨੂੰ ਵਰਤਣ ਲਈ ਤੁਹਾਡੀ ਡਿਵਾਈਸ ਤੇ ਉਪਲਬਧ ਹੋਣੀਆਂ ਚਾਹੀਦੀਆਂ ਹਨ। ਐਪਸ ਇਸਦੀ ਵਰਤੋਂ ਇਹ ਨਿਰਧਾਰਿਤ ਕਰਨ ਲਈ ਕਰ ਸਕਦੇ ਹਨ ਕਿ ਤੁਸੀਂ ਕਿੱਥੇ ਹੋ ਅਤੇ ਵਾਧੂ ਬੈਟਰੀ ਪਾਵਰ ਖ਼ਰਚ ਸਕਦੇ ਹਨ।</string>
+    <string name="permdesc_accessCoarseLocation">ਐਪ ਨੂੰ ਤੁਹਾਡਾ ਅਨੁਮਾਨਿਤ ਨਿਰਧਾਰਿਤ ਸਥਾਨ ਪ੍ਰਾਪਤ ਕਰਨ ਦੀ ਆਗਿਆ ਦਿੰਦਾ ਹੈ। ਇਹ ਨਿਰਧਾਰਿਤ ਸਥਾਨ ਨੈਟਵਰਕ ਨਿਰਧਾਰਿਤ ਸਥਾਨ ਸ੍ਰੋਤ ਵਰਤਦੇ ਹੋਏ ਨਿਰਧਾਰਿਤ ਸਥਾਨ ਸੇਵਾਵਾਂ ਰਾਹੀਂ ਪ੍ਰਾਪਤ ਕੀਤਾ ਜਾਂਦਾ ਹੈ ਜਿਵੇਂ ਸੈਲ ਟਾਵਰ ਅਤੇ WLAN. ਇਹ ਨਿਰਧਾਰਿਤ ਸਥਾਨ ਸੇਵਾਵਾਂ ਚਾਲੂ ਅਤੇ ਐਪ ਨੂੰ ਉਹਨਾਂ ਨੂੰ ਵਰਤਣ ਲਈ ਤੁਹਾਡੀ ਡਿਵਾਈਸ ਤੇ ਹੋਣੀਆਂ ਚਾਹੀਦੀਆਂ ਹਨ। ਐਪਸ ਇਸਦੀ ਵਰਤੋਂ ਇਹ ਅਨੁਮਾਨ ਲਗਾਉਣ ਲਈ ਕਰ ਸਕਦੇ ਹਨ ਕਿ ਤੁਸੀਂ ਕਿੱਥੇ ਹੋ।</string>
+    <string name="permlab_accessWifiState">WLAN ਕਨੈਕਸ਼ਨ ਦੇਖੋ</string>
+    <string name="permdesc_accessWifiState">ਐਪ ਨੂੰ WLAN ਨੈਟਵਰਕਿੰਗ ਬਾਰੇ ਜਾਣਕਾਰੀ ਦੇਖਣ ਦੀ ਆਗਿਆ ਦਿੰਦਾ ਹੈ, ਜਿਵੇਂ WLAN ਸਮਰਥਿਤ ਹੈ ਜਾਂ ਨਹੀਂ ਅਤੇ ਕਨੈਕਟ ਕੀਤੀਆਂ WLAN ਡਿਵਾਈਸਾਂ ਦਾ ਨਾਮ।</string>
+    <string name="permlab_changeWifiState">WLAN ਤੋਂ ਕਨੈਕਟ ਅਤੇ ਡਿਸਕਨੈਕਟ ਕਰੋ</string>
+    <string name="permdesc_changeWifiState">ਐਪ ਨੂੰ WLAN ਪਹੁੰਚ ਬਿੰਦੂਆਂ ਤੇ ਕਨੈਕਟ ਅਤੇ ਇਹਨਾਂ ਤੋਂ ਡਿਸਕਨੈਕਟ ਕਰਨ ਅਤੇ WLAN ਨੈਟਵਰਕਾਂ ਲਈ ਡਿਵਾਈਸ ਕੌਂਫਿਗਰੇਸ਼ਨ ਵਿੱਚ ਬਦਲਾਵ ਕਰਨ ਦੀ ਆਗਿਆ ਦਿੰਦਾ ਹੈ।</string>
+    <string name="permlab_changeWifiMulticastState">WLAN ਮਲਟੀਕਾਸਟ ਰਿਸੈਪਸ਼ਨ ਦੀ ਆਗਿਆ ਦਿਓ</string>
+    <string name="permdesc_changeWifiMulticastState">ਐਪ ਨੂੰ ਮਲਟੀਕਾਸਟ ਪਤੇ, ਵਰਤਦੇ ਹੋਏ ਇੱਕ WLAN ਨੈਟਵਰਕ ਤੇ ਸਾਰੀਆਂ ਡਿਵਾਈਸਾਂ ਤੇ ਭੇਜੇ ਗਏ ਪੈਕੇਟ ਪ੍ਰਾਪਤ ਕਰਨ ਦੀ ਆਗਿਆ ਦਿੰਦਾ ਹੈ, ਕੇਵਲ ਤੁਹਾਡਾ ਫੋਨ ਨਹੀਂ। ਇਹ ਗ਼ੈਰ-ਮਲਟੀਕਾਸਟ ਮੋਡ ਦੇ ਮੁਕਾਬਲੇ ਵੱਧ ਪਾਵਰ ਵਰਤਦਾ ਹੈ।</string>
+    <string name="wifi_available_sign_in">WLAN ਨੈੱਟਵਰਕ ਵਿੱਚ ਸਾਈਨ ਇਨ ਕਰੋ</string>
+    <string name="wifi_no_internet">WLAN ਦੀ ਕੋਈ ਇੰਟਰਨੈਟ ਪਹੁੰਚ ਨਹੀਂ ਹੈ</string>
+    <string name="wifi_watchdog_network_disabled">WLAN ਨਾਲ ਕਨੈਕਟ ਨਹੀਂ ਕਰ ਸਕਿਆ</string>
+    <string name="wifi_connect_alert_message">ਐਪਲੀਕੇਸ਼ਨ %1$s WLAN ਨੈਟਵਰਕ %2$s ਨਾਲ ਕਨੈਕਟ ਕਰਨਾ ਚਾਹੁੰਦਾ ਹੈ</string>
+    <string name="wifi_p2p_dialog_title">WLAN ਡਾਇਰੈਕਟ</string>
+    <string name="wifi_p2p_turnon_message">WLAN ਡਾਇਰੈਕਟ ਚਾਲੂ ਕਰੋ। ਇਹ WLAN ਕਲਾਈਂਟ/ਹੌਟਸਪੌਟ ਨੂੰ ਬੰਦ ਕਰ ਦੇਵੇਗਾ।</string>
+    <string name="wifi_p2p_failed_message">WLAN ਡਾਇਰੈਕਟ ਚਾਲੂ ਨਹੀਂ ਕਰ ਸਕਿਆ।</string>
+    <string name="wifi_p2p_enabled_notification_title">WLAN ਡਾਇਰੈਕਟ ਚਾਲੂ ਹੈ।</string>
+    <string name="wifi_p2p_frequency_conflict_message">ਫੋਨ %1$s ਨਾਲ ਕਨੈਕਟ ਕੀਤੇ ਜਾਣ ਤੇ WLAN ਤੋਂ ਅਸਥਾਈ ਤੌਰ ਤੇ ਡਿਸਕਨੈਕਟ ਹੋ ਜਾਏਗਾ</string>
+    <string name="data_usage_wifi_limit_title">WLAN ਡਾਟਾ ਸੀਮਾ ਪੂਰੀ ਹੋ ਗਈ</string>
+    <string name="data_usage_wifi_limit_snoozed_title">WLAN ਡਾਟਾ ਸੀਮਾ ਵਧ ਗਈ</string>
+</resources>

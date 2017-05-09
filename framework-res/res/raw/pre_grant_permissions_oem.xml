@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2016 Sony Mobile Communications Inc.
+    All rights, including trade secret rights, reserved.
+ -->
+<!--
+    This is the parser for xml file which defines permissions to be pre-granted for apps.
+
+
+    An example of pre-grant list is following:
+
+      <items>
+         <item>
+            <pkgname>com.example.a</pkgname>
+            <permissions>
+               <permission>android.permission.BODY_SENSORS</permission>
+            </permissions>
+         </item>
+         <item>
+            <pkgname>com.example.b</pkgname>
+            <permissions>
+               <permission systemfixed="true">android.permission.BODY_SENSORS</permission>
+               <permission systemfixed="false">android.permission.READ_CALENDAR</permission>
+               <permission>android.permission.WRITE_CALENDAR</permission>
+            </permissions>
+         </item>
+      </items>
+
+
+    The xml format of pre-grant list is following:
+
+     - <items>
+        - It represents list of <item>
+        - It contains some <item>
+
+     - <item>
+        - It represents a setting about one package that wanted to apply pre-grant processing
+        - It contains <pkgname> and <permissions>
+
+     - <pkgname>
+        - It represents a package name that wanted to apply pre-grant processing
+        - Values : [string]
+
+     - <permissions>
+        - It represents permission settings that is pre-granted for the <pkgname> package
+        - It contains some <permission>
+
+     - <permission>
+        - It represents a permission name that is pre-granted for the <pkgname> package
+        - Values : [string]
+
+     - systemfixed (attribute of <permission>)
+        - It represents a flag for setting of the <permission> to either systemFixed or not.
+        - Values : [true, false]
+          (true set permission systemFixed, false does not set permission systemFixed.
+           In case of systemfixed is not defined does not set permission systemFixed.)
+
+
+    The pre-grant processing behavior in the above example is described following:
+
+     - Package com.example.a
+        - The following permission is pre-granted
+           - android.permission.BODY_SENSORS   (Not set as systemFixed)
+
+          User can change the granting state of com.example.a's BODY_SENSORS permission in UI.
+          In this case, The following permission group can be changed in UI:
+           - Body Sensors
+
+     - Package com.example.b
+        - The following permission is pre-granted:
+           - android.permission.BODY_SENSORS   (Set as systemFixed)
+           - android.permission.READ_CALENDAR  (Not set as systemFixed)
+           - android.permission.WRITE_CALENDAR (Not set as systemFixed)
+
+          User can not change the granting state of com.example.b's BODY_SENSORS permission in UI.
+          And, User can change the granting state of com.example.b's READ_CALENDAR permission and
+          WRITE_CALENDAR permission in UI.
+          In this case, the following permission group can be changed in UI:
+          - Calendar
+ -->
+
+<items>
+   <item>
+      <pkgname>com.telcel.contenedor</pkgname>
+      <permissions>
+         <permission systemfixed="true">android.permission.READ_PHONE_STATE</permission>
+      </permissions>
+   </item>
+</items>

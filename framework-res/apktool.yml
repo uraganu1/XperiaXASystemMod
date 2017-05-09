@@ -1,0 +1,22 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: framework-res.apk
+compressionType: false
+doNotCompress:
+- arsc
+isFrameworkApk: true
+packageInfo:
+  forcedPackageId: '1'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '23'
+  targetSdkVersion: '23'
+sharedLibrary: false
+unknownFiles: {}
+usesFramework:
+  ids:
+  - 2
+  tag: null
+version: 2.2.1
+versionInfo:
+  versionCode: '23'
+  versionName: 6.0-1474463437

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="timepicker_text_inset_inner">46.0dip</dimen>
+    <dimen name="timepicker_radial_picker_dimen">178.0dip</dimen>
+    <dimen name="timepicker_selector_radius">14.0dip</dimen>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wfcRegErrorTitle">வைஃபை அழைப்பு</string>
+    <string name="wfcSpnFormat">%s</string>
+    <string name="wfcDataSpnFormat">%s</string>
+    <string name="wfc_mode_wifi_preferred_summary">வைஃபைக்கு முன்னுரிமை</string>
+    <string name="wfc_mode_wifi_only_summary">வைஃபை மட்டும்</string>
+    <string name="permdesc_accessFineLocation">க்ளோபல் பொசிஷனிங் சிஸ்டம் (GPS) அல்லது செல் கோபுரங்கள் மற்றும் வைஃபை போன்ற நெட்வொர்க் இருப்பிடச் சேவைகளைப் பயன்படுத்தி உங்கள் துல்லியமான இருப்பிடத்தைப் பெறப் பயன்பாட்டை அனுமதிக்கிறது. இந்த இருப்பிடச் சேவைகள் கண்டிப்பாக இயக்கப்பட்டு, பயன்பாடு பயன்படுத்துவதற்கு அவை உங்கள் சாதனத்தில் கிடைக்க வேண்டும். நீங்கள் எங்கிருக்கிறீர்கள் என்பதைத் தீர்மானிக்கப் பயன்பாடுகள் இதைப் பயன்படுத்தலாம், மேலும் இது கூடுதல் பேட்டரி சக்தியை உபயோகிக்கலாம்.</string>
+    <string name="permdesc_accessCoarseLocation">உங்கள் தோராயமான இருப்பிடத்தைப் பெற பயன்பாட்டை அனுமதிக்கிறது. செல் கோபுரங்கள் மற்றும் வைஃபை போன்ற நெட்வொர்க் இருப்பிடச் சேவைகளைப் பயன்படுத்தி இருப்பிடச் சேவைகள் மூலம் இந்த இருப்பிடம் பெறப்படுகிறது. இந்த இருப்பிடச் சேவைகள் கண்டிப்பாக இயக்கப்பட்டு, பயன்பாடு பயன்படுத்துவதற்கு அவை உங்கள் சாதனத்தில் கிடைக்க வேண்டும். நீங்கள் எங்கிருக்கிறீர்கள் என்பதைத் தோராயமாகத் தீர்மானிக்கப் பயன்பாடுகள் இதைப் பயன்படுத்தலாம்.</string>
+    <string name="permlab_accessWifiState">வைஃபை இணைப்புகளைக் காட்டு</string>
+    <string name="permdesc_accessWifiState">வைஃபை இயக்கப்பட்டுள்ளதா என்பதையும், இணைக்கப்பட்ட வைஃபை சாதனங்களின் பெயர் போன்ற வைஃபை நெட்வொர்க் குறித்த தகவலைப் பார்க்கவும் பயன்பாட்டை அனுமதிக்கிறது.</string>
+    <string name="permlab_changeWifiState">வைஃபை உடன் இணைக்கவும் மற்றும் அதனுடனான தொடர்பைத் துண்டித்தல்</string>
+    <string name="permdesc_changeWifiState">வைஃபை ஆக்சஸ் பாயிண்ட்களில் இணைக்கவும், அவற்றிலிருந்து துண்டிக்கவும் மற்றும் வைஃபை நெட்வொர்க்குகளுக்கான சாதன உள்ளமைவில் மாற்றங்களைச் செய்யவும் பயன்பாட்டை அனுமதிக்கிறது.</string>
+    <string name="permlab_changeWifiMulticastState">வைஃபை பலமுகவரி பெறுதலை இயக்குதல்</string>
+    <string name="permdesc_changeWifiMulticastState">உங்கள் மொபைல் மட்டுமல்லாமல், பலமுகவரி பயன்முறையின் முகவரிகளைப் பயன்படுத்தி வைஃபை நெட்வொர்க்கில் எல்லா சாதனங்களுக்கும் அனுப்பிய தொகுப்பைப் பெற பயன்பாட்டை அனுமதிக்கிறது. பலமுகவரியற்ற பயன்முறையை விட இது அதிகமான சக்தியைப் பயன்படுத்துகிறது.</string>
+    <string name="wifi_available_sign_in">வைஃபை நெட்வொர்க்கில் உள்நுழையவும்</string>
+    <string name="wifi_no_internet">வைஃபை இணைய அணுகல் கொண்டிருக்கவில்லை</string>
+    <string name="wifi_watchdog_network_disabled">வைஃபை உடன் இணைக்க முடியவில்லை</string>
+    <string name="wifi_connect_alert_message">%2$s வைஃபை நெட்வொர்க்குடன், %1$s பயன்பாடு இணைக்க விரும்புகிறது</string>
+    <string name="wifi_p2p_dialog_title">வைஃபை Direct</string>
+    <string name="wifi_p2p_turnon_message">வைஃபை Direct ஐத் தொடங்குக. இது வைஃபை க்ளையண்ட்/ஹாட்ஸ்பாட்டை முடக்கும்.</string>
+    <string name="wifi_p2p_failed_message">வைஃபை Direct ஐத் தொடங்க முடியவில்லை.</string>
+    <string name="wifi_p2p_enabled_notification_title">வைஃபை Direct இயக்கத்தில் உள்ளது</string>
+    <string name="wifi_p2p_frequency_conflict_message">%1$s உடன் மொபைல் இணைக்கப்படும்போது, வைஃபையிலிருந்து தற்காலிகமாகத் துண்டிக்கப்படும்.</string>
+    <string name="data_usage_wifi_limit_title">வைஃபை தரவு வரம்பைக் கடந்தது</string>
+    <string name="data_usage_wifi_limit_snoozed_title">வைஃபை தரவு வரம்பு கடந்தது</string>
+</resources>

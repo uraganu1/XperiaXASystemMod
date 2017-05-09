@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pinpuk_attempts">
+        <item quantity="other">Anjeun boga %d sesa tarekah sateuacan SIM dikonci</item>
+        <item quantity="one">Anjeun boga %d sesa tarekah sateuacan SIM dikonci</item>
+    </plurals>
+    <plurals name="last_num_days">
+        <item quantity="other">Poé %d terakhir</item>
+        <item quantity="one">Poé %d terakhir</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d detik</item>
+        <item quantity="one">1 detik</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d menit</item>
+        <item quantity="one">1 menit</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="other">%d jam</item>
+        <item quantity="one">1 jam</item>
+    </plurals>
+    <plurals name="wifi_available">
+        <item quantity="other">Jaringan Wi-Fi sayagi</item>
+        <item quantity="one">Jaringan Wi-Fi sayagi</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">Jaringan Wi-Fi kabuka nu sayagi</item>
+        <item quantity="one">Jaringan Wi-Fi kabuka nu sayagi</item>
+    </plurals>
+    <plurals name="matches_found">
+        <item quantity="other">%1$d ti %2$d</item>
+        <item quantity="one">1 cocog</item>
+    </plurals>
+    <plurals name="restr_pin_countdown">
+        <item quantity="other">Coba deui dina %d detik</item>
+        <item quantity="one">Coba deui dina 1 detik</item>
+    </plurals>
+    <plurals name="zen_mode_duration_minutes_summary">
+        <item quantity="other">Pikeun %1$d menit (dugi %2$s)</item>
+        <item quantity="one">Pikeun sa menit (dugi %2$s)</item>
+    </plurals>
+    <plurals name="zen_mode_duration_minutes_summary_short">
+        <item quantity="other">Keur %1$d mnt (dugi %2$s)</item>
+        <item quantity="one">Keur 1 mnt (dugi %2$s)</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours_summary">
+        <item quantity="other">Pikeun %1$d jam (dugi %2$s)</item>
+        <item quantity="one">Pikeun sa jam (dugil %2$s)</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours_summary_short">
+        <item quantity="other">Keur %1$d jam (dugi %2$s)</item>
+        <item quantity="one">Keur 1 jam (dugi %2$s)</item>
+    </plurals>
+    <plurals name="zen_mode_duration_minutes">
+        <item quantity="other">Pikeun %d menit</item>
+        <item quantity="one">Pikeun samenit</item>
+    </plurals>
+    <plurals name="zen_mode_duration_minutes_short">
+        <item quantity="other">Keur %d mnt</item>
+        <item quantity="one">Keur 1 mnt</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours">
+        <item quantity="other">Pikeun %d jam</item>
+        <item quantity="one">Pikeun sajam</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours_short">
+        <item quantity="other">Keur %d jam</item>
+        <item quantity="one">Keur 1 jam</item>
+    </plurals>
+    <plurals name="selected_count">
+        <item quantity="other">%1$d dipilih</item>
+        <item quantity="one">%1$d dipilih</item>
+    </plurals>
+</resources>

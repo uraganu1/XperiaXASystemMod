@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="fill_horizontal|center" android:id="@id/background" android:drawable="@drawable/somc_seekbar_bg_selector_light" />
+    <item android:gravity="fill_horizontal|center" android:id="@id/secondaryProgress">
+        <scale android:drawable="@drawable/somc_seekbar_progress_secondary_selector_light" android:scaleWidth="100%" />
+    </item>
+    <item android:gravity="fill_horizontal|center" android:id="@id/progress">
+        <scale android:drawable="@drawable/somc_seekbar_progress_primary_selector_light" android:scaleWidth="100%" />
+    </item>
+</layer-list>

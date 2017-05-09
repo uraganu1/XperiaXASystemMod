@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wfcRegErrorTitle">WLAN аша шалтырату</string>
+    <string name="wfcSpnFormat">%s WLAN аша шалтырату</string>
+    <string name="wfcDataSpnFormat">%s WLAN аша шалтырату</string>
+    <string name="wfc_mode_wifi_preferred_summary">WLAN челтәренә өстенлек бирелә</string>
+    <string name="wfc_mode_wifi_only_summary">WLAN гына</string>
+    <string name="permdesc_accessFineLocation">Кушымтага Global Positioning System (GPS) яки, WLAN кебек, челтәрнең урнашу чыганакларын кулланып сезнең төгәл урыныгызны табарга рөхсәт бирелә. Бу урнашу хезмәтләре кабызылган һәм кушымталар өчен мөмкин булырга тиеш. Кушымталар аны сезнең урнашуыгызны билгеләү өчен кулланалар.</string>
+    <string name="permdesc_accessCoarseLocation">Кушымтага якынча урнашуыгызны табарга рөхсәт бирелә. Кушымтага WLAN кебек, челтәрнең урнашу чыганакларын кулланып сезнең якынча урыныгызны табарга рөхсәт бирелә. Бу урнашу хезмәтләре кабызылган һәм кушымталар өчен мөмкин булырга тиеш. Кушымталар аны сезнең якынча урнашуыгызны билгеләү өчен кулланалар.</string>
+    <string name="permlab_accessWifiState">WLAN тоташмаларны карау</string>
+    <string name="permdesc_accessWifiState">Кушымтага, WLAN халәте, җайланма тоташкан WLAN исеме кебек, WLAN челтәре турындагы мәгълүматны карарга рөхсәт бирелә.</string>
+    <string name="permlab_changeWifiState">WLAN челтәренә тоташу һәм тоташманы өзү</string>
+    <string name="permdesc_changeWifiState">Кушымтага WLAN челтәренә тоташу һәм тоташманы өзү, WLAN челтәренең конфигурациясен үзгәртү рөхсәте бирелә.</string>
+    <string name="permlab_changeWifiMulticastState">WLAN Multicast алуны рөхсәт итү</string>
+    <string name="permdesc_changeWifiMulticastState">Кушымтага, телефонныкын гына түгел, әмма мультикаст адресларын кулланып WLAN челтәренә җибәрелгән пакетларны алырга рөхсәт бирелә. Мультикаст-булмаган режимга караганда ул күбрәк куәтлелек ала.</string>
+    <string name="wifi_available_sign_in">WLAN челтәргә керү</string>
+    <string name="wifi_no_internet">WLAN Интернетка кермәгән</string>
+    <string name="wifi_watchdog_network_disabled">"WLAN 'га тоташып булмады"</string>
+    <string name="wifi_connect_alert_message">%1$s кушымтасы %2$s WLAN челтәренә тоташырга тели</string>
+    <string name="wifi_p2p_dialog_title">WLAN Direct</string>
+    <string name="wifi_p2p_turnon_message">WLAN Direct кабызу. Бу параметр WLAN тәэмин иткән урынны/клиенты сүндерәчәк.</string>
+    <string name="wifi_p2p_failed_message">WLAN Direct кабызылмады.</string>
+    <string name="wifi_p2p_enabled_notification_title">WLAN Direct кабызылган</string>
+    <string name="wifi_p2p_frequency_conflict_message">Телефон %1$s челтәренә тоташкан, шунлыктан WLAN вакытлыча өзеләчәк</string>
+    <string name="data_usage_wifi_limit_title">WLAN мәгълүмат чиге җитте</string>
+    <string name="data_usage_wifi_limit_snoozed_title">WLAN мәгълүмат лимиты чыкты</string>
+    <string name="policylab_disableWifi">WLAN челтәреннән өзү</string>
+    <string name="policydesc_disableWifi">Җайланмада WLAN тоташуларны комачаулау</string>
+    <string name="wifi_disabled_notification_title">WLAN тоташу тыела</string>
+    <string name="wifi_disabled_notification_message">"Иминлек сәясәте WLAN куллануны тыя. "</string>
+    <string name="ct_cplusw_notification_text">Сез CT WLAN челтәргә кердегез. Зинhәр, түләү информация өчен,10000 белән яки урындагы CT кибете белән бейленегез. Кулланмасагыз, тоташтыруны өзәп алыгыз зинһар</string>
+    <string name="ct_cplusw_notification_title">Кытай Telecom WLAN тоташ.</string>
+    <string name="ct_cplusw_pppoe_connection_dialog_content">Сез Кытай Telecom WLAN челтәр га тоташтырган буласыз. Түләү информация өчен, Зинһар Кытай Telecom клиентлар хезмәт белән бейленегез. дәвам итәргә?</string>
+    <string name="wifi_nonconcurrency_message">WLAN клиентны башлап җибәрү. Бу WLAN Direct™ -ның тоташтыруны өзә</string>
+    <string name="wifi_noncuncurrency_message">WLAN клиентны башлап җибәру. Бу WLAN Direct™ -ның тоташтыруны өзә</string>
+    <string name="wifi_p2p_nonconcurrency_invite_message">WLAN -ның бөтен булган тоташтыруны өзә.</string>
+    <string name="wifi_p2p_nonconcurrency_message">WLAN Direct™-ны башлап җибәру. Бу WLAN -ның тоташтыруны өзә.</string>
+    <string name="wifi_p2p_noncuncurrency_invite_message">Бу WLAN -ның бөтен булган тоташтыруны өзә.</string>
+    <string name="wifi_p2p_noncuncurrency_message">WLAN Direct™-ны башлап җибәрү. Бу WLAN -ның тоташтыруны өзә.</string>
+    <string name="tethered_notification_title_wifi">WLAN өзелгән</string>
+</resources>

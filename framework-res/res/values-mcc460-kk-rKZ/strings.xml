@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wfcRegErrorTitle">WLAN қоңыраулары</string>
+    <string name="wfcSpnFormat">%s</string>
+    <string name="wfcDataSpnFormat">%s</string>
+    <string name="wfc_mode_wifi_preferred_summary">Қалаулы WLAN</string>
+    <string name="wfc_mode_wifi_only_summary">Тек WLAN</string>
+    <string name="permdesc_accessFineLocation">Қолданбаға Жаһандық Аймақ Анықтау Жүйесін (GPS) немесе ұялы мұнара және WLAN сияқты желі арқылы аймақ анықтау қызметтерін қолданып, тұрған жеріңізді нақты анықтау мүмкіндігін береді. Бұл аймақ қызметтері қолданбаларға қол жетімді болу үшін қосылып тұруы қажет. Қолданбалар оны сіздің тұрған жеріңізді шамалап анықтау үшін қолдануы мүмкін және батарея тұтынуы мүмкін.</string>
+    <string name="permdesc_accessCoarseLocation">Қолданбаға сіздің тұрған жеріңізді шамалап анықтау мүмкіндігін береді. Бұл аймақ ұялы мұнара және WLAN сияқты желі арқылы аймақ анықтау қызметтерін қолданатын аймақ анықтау функциясы арқылы анықталған. Бұл аймақ қызметтері қолданбаларға қол жетімді болу үшін қосылып тұруы қажет. Қолданбалар оны сіздің тұрған жеріңізді шамалап анықтау үшін қолдануы мүмкін.</string>
+    <string name="permlab_accessWifiState">WLAN байланыстарын көру</string>
+    <string name="permdesc_accessWifiState">Қолданбаға WLAN желісі туралы, мысалы, WLAN байланысының қосылғаны немесе қосылған WLAN құрылғыларының атаулары сияқты, ақпаратты көру мүмкіндігін береді.</string>
+    <string name="permlab_changeWifiState">WLAN желісіне қосылу/ажырау</string>
+    <string name="permdesc_changeWifiState">Қолданбаларға WLAN нүктелеріне қосылу және ажырау және WLAN желілеріне арналған құрылғы конфигурацияларына өзгерістер енгізу мүмкіндігін береді.</string>
+    <string name="permlab_changeWifiMulticastState">WLAN бірнеше мекенжайға ақпарат тарату мүмкіндігі</string>
+    <string name="permdesc_changeWifiMulticastState">Қолданбаға WLAN желісіндегі барлық құрылғыларға мекенжайлар тобы арқылы, сіздің телефоныңыз арқылы ғана емес, жіберілген жинақтарды алу мүмкіндігін береді. Бұл мекенжайлар тобы емес режимге қарағанда қуатты көбірек тұтынуы мүмкін.</string>
+    <string name="wifi_available_sign_in">WLAN желісіне кіру</string>
+    <string name="wifi_no_internet">WLAN желісінде интернет байланысы жоқ</string>
+    <string name="wifi_watchdog_network_disabled">WLAN желісіне қосыла алмады</string>
+    <string name="wifi_connect_alert_message">%1$s қолданбасы %2$s WLAN желісіне қосылғысы келеді</string>
+    <string name="wifi_p2p_dialog_title">WLAN тікелей</string>
+    <string name="wifi_p2p_turnon_message">WLAN Тікелей байланысын бастау. Бұл WLAN клиент/хот-спотты өшіреді.</string>
+    <string name="wifi_p2p_failed_message">WLAN Тікелей байланысын қоса алмады.</string>
+    <string name="wifi_p2p_enabled_notification_title">Тікелей WLAN қосулы</string>
+    <string name="wifi_p2p_frequency_conflict_message">%1$s құрылғысына жалғанып тұрғанда телефон уақытша WLAN байланысынан ажыратылады</string>
+    <string name="data_usage_wifi_limit_title">WLAN деректер шегіне жеттіңіз</string>
+    <string name="data_usage_wifi_limit_snoozed_title">WLAN дерекқор шектеуінен асып кетті</string>
+</resources>

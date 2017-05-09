@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wfcRegErrorTitle">WLAN zəngi</string>
+    <string name="wfcSpnFormat">%s</string>
+    <string name="wfcDataSpnFormat">%s</string>
+    <string name="wfc_mode_wifi_preferred_summary">WLAN tərcih edilir</string>
+    <string name="wfc_mode_wifi_only_summary">Yalnız WLAN</string>
+    <string name="permdesc_accessFineLocation">Qlobal Pozisiya Sistemini və ya şəbəkə qüllələri və WLAN kimi şəbəkə məkanını istifadə edərək tətbiqə Sizin dəqiq yerinizi təyin etməyə imkan verir. Bu məkan xidmətləri aktivləşdirilməlidirlər ki, Siz tətbiqi istifadə edən zaman tətbiq onları istifadə edə bilsin. Tətbiqlər Sizin harada olmağınızı bunun vasitəsilə təyin edəcək, eyni zamanda, bu xidmət əlavə batareya enerjisi apara bilər.</string>
+    <string name="permdesc_accessCoarseLocation">Tətbiqə təxmini yerinizi almaq üçün imkan verir. Bu yer, yerləşmə xidmətləri tərəfindən mobil qüllələr və WLAN kimi şəbəkə yerləşmə mənbələrdən istifadə etməklə əldə edilir. Bu yerləşmə xidmətləri tətbiqin onlardan istifadəsi üçün açıq və cihazınızın onları istifadəsi üçün mövcud olmalıdır. Tətbiqlər bundan sizin təxminən harada olduğunuzu müəyyənləşdirmək üçün istifadə edə bilər.</string>
+    <string name="permlab_accessWifiState">WLAN bağlantılarına baxmaq</string>
+    <string name="permdesc_accessWifiState">Tətbiqə WLAN şəbəkələri haqqında məlumatı görməyə icazə verir, məsələn, WLAN mövcudluğu və qoşulmuş WLAN cihazlarının adları.</string>
+    <string name="permlab_changeWifiState">WLAN şəbəkəsinə qoşulmaq və ya ayrılmaq</string>
+    <string name="permdesc_changeWifiState">Tətbiqə WLAN çıxış nöqtəsinə qoşulmaq və ondan ayrılmaq və cihazın WLAN şəbəkə nizamlarını dəyişməyə icazə verir.</string>
+    <string name="permlab_changeWifiMulticastState">WLAN Multicast qəbuluna icazə ver</string>
+    <string name="permdesc_changeWifiMulticastState">Tətbiqə qrup ünvanlar istifadə etməklə, WLAN şəbəkəsində olan bütün cihazlara göndərilmiş paketləri qəbul etməyə imkan verir. Buna daha çox enerji sərf olunur.</string>
+    <string name="wifi_available_sign_in">WLAN şəbəkəsinə daxil ol</string>
+    <string name="wifi_no_internet">WLAN-ın İnternetə girişi yoxdur</string>
+    <string name="wifi_watchdog_network_disabled">"WLAN'a qoşulmaq alınmadı"</string>
+    <string name="wifi_connect_alert_message">Proqram %1$s WLAN Şəbəkəsinə qoşulmaq istəyir %2$s</string>
+    <string name="wifi_p2p_dialog_title">WLAN Direct</string>
+    <string name="wifi_p2p_turnon_message">WLAN Direct əməliyyatını başlat. Bu WLAN müştəri/hotspotu bağlayacaq.</string>
+    <string name="wifi_p2p_failed_message">WLAN Direct başladıla bilmədi.</string>
+    <string name="wifi_p2p_enabled_notification_title">WLAN Direct aktivdir</string>
+    <string name="wifi_p2p_frequency_conflict_message">Bu telefon %1$s cihazına qoşulan zaman WLAN şəbəkəsindən müvəqqəti ayrılmış olacaq</string>
+    <string name="data_usage_wifi_limit_title">WLAN data limitinə çatdı</string>
+    <string name="data_usage_wifi_limit_snoozed_title">WLAN data limiti keçildi</string>
+</resources>
