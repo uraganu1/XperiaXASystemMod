@@ -187,7 +187,7 @@
     </style>
     <style name="TextAppearance.Material.Notification.Parenthetical" parent="@android:style/TextAppearance.Material.Notification">
         <item name="android:textStyle">italic</item>
-        <item name="android:textColor">#60000000</item>
+        <item name="android:textColor">#609f9f9f</item>
     </style>
     <style name="SearchPanelCircle">
         <item name="android:layout_width">fill_parent</item>
