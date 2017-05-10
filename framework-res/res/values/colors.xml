@@ -189,8 +189,8 @@
     <color name="switch_thumb_disabled_material_light">#ffbdbdbd</color>
     <color name="primary_text_default_material_light">#de000000</color>
     <color name="secondary_text_default_material_light">#8a000000</color>
-    <color name="primary_text_default_material_gray">#ff9f9f9f</color>
-    <color name="secondary_text_default_material_gray">#aa9f9f9f</color>
+    <color name="primary_text_default_material_gray">#ff7f7f7f</color>
+    <color name="secondary_text_default_material_gray">#aa7f7f7f</color>
     <color name="primary_text_default_material_dark">#ffffffff</color>
     <color name="secondary_text_default_material_dark">#b3ffffff</color>
     <color name="material_grey_900">#ff212121</color>
