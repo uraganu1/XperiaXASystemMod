@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_security_wapi_psk">WLAN PSK</string>
+    <string name="wifi_disabled_wifi_failure">Помилка з’єднання WLAN</string>
+    <string name="connected_via_wfa">Під’єднано через Диспетчер WLAN-з’єднання</string>
+    <string name="accessibility_wifi_off">WLAN вимкнено.</string>
+    <string name="accessibility_no_wifi">WLAN відключено.</string>
+    <string name="accessibility_wifi_one_bar">Одна поділка WLAN.</string>
+    <string name="accessibility_wifi_two_bars">Дві поділки WLAN.</string>
+    <string name="accessibility_wifi_three_bars">Три поділки WLAN.</string>
+    <string name="accessibility_wifi_signal_full">Потужний сигнал WLAN.</string>
+    <string name="radio_controls_summary">Керування WLAN, Bluetooth, режимом польоту, мобільними мережами та VPN</string>
+    <string name="wifi_assistant_title">WLAN Assistant</string>
+    <string name="wifi_alert_lockdown_by_device_owner">Додаток %1$s, який керує вашим пристроєм, блокує змінення або видалення цієї мережі WLAN. Щоб дізнатися більше, зв’яжіться з адміністратором.</string>
+    <string name="wifi_quick_toggle_title">WLAN</string>
+    <string name="wifi_quick_toggle_summary">Увімкнути WLAN</string>
+    <string name="wifi_settings">WLAN</string>
+    <string name="wifi_settings_category">Установки WLAN</string>
+    <string name="wifi_settings_title">WLAN</string>
+    <string name="wifi_setup_wizard_title">Вибрати WLAN</string>
+    <string name="wifi_select_network">Вибрати WLAN</string>
+    <string name="wifi_poor_network_detection_summary">Не використовувати мережу WLAN, якщо немає стійкого з’єднання з Інтернетом</string>
+    <string name="wifi_automatically_connect_title">Під’єднуватися до відкритих мереж WLAN</string>
+    <string name="wifi_automatically_connect_summary">Дозволити WLAN Assistant автоматично під’єднуватися до відкритих мереж із потужним сигналом</string>
+    <string name="wifi_scan_notify_text">Щоб точніше визначати місцеположення, додатки та сервіси системи все одно шукатимуть мережі WLAN. Це можна змінити в LINK_BEGINналаштуваннях скануванняLINK_END.</string>
+    <string name="wifi_setting_sleep_policy_title">Не вимикати WLAN у режимі сну</string>
+    <string name="wifi_setting_on_during_sleep_title">Не вимикати WLAN у режимі сну</string>
+    <string name="wifi_suspend_optimizations">Оптимізація WLAN</string>
+    <string name="wifi_suspend_optimizations_summary">Мінімізувати використання заряду акумулятора, коли ввімкнено WLAN</string>
+    <string name="wifi_limit_optimizations_summary">Обмежити викорис. заряду WLAN</string>
+    <string name="wifi_switch_away_when_unvalidated">Переходити на мобільний Інтернет, якщо мережа WLAN утрачає доступ до Інтернету.</string>
+    <string name="wifi_access_points">Мережі WLAN</string>
+    <string name="wifi_menu_p2p">WLAN Direct</string>
+    <string name="wifi_empty_list_wifi_off">Щоб переглянути доступні мережі, увімкніть WLAN.</string>
+    <string name="wifi_empty_list_wifi_on">Пошук мереж WLAN…</string>
+    <string name="wifi_empty_list_user_restricted">У вас немає права доступу на змінення мережі WLAN</string>
+    <string name="wifi_wps_setup_title">Захищене налаштування WLAN (WPS)</string>
+    <string name="wifi_wps_onstart_pbc">Натисніть на маршрутизаторі кнопку налаштування захищеної мережі WLAN. Вона може називатися WPS або позначатися цим символом:</string>
+    <string name="wifi_wps_onstart_pin">Введіть PIN-код %1$s на маршрутизаторі WLAN. Налаштування може тривати до двох хвилин.</string>
+    <string name="wifi_wps_connected">Підключено до мережі WLAN %s</string>
+    <string name="wifi_scan_always_turnon_message">"Щоб покращити точність визначення розташування тощо, програма %1$s хоче вмикати пошук мереж, навіть коли WLAN вимкнено.
+
+Дозволити це всім програмам, що намагаються виконувати пошук?"</string>
+    <string name="wifi_skipped_message">"ЗАСТЕРЕЖЕННЯ. Постачальник послуг може стягувати з вас додаткову плату.
+
+Для налаштування телефону може знадобитися тривале користування мережею."</string>
+    <string name="wifi_and_mobile_skipped_message">"Якщо не налаштувати WLAN:
+
+"<li>ваш телефон не зможе підключитися до Інтернету;</li>"
+
+"<li>ви не отримуватимете оновлення програмного забезпечення, доки телефон не підключиться до Інтернету;</li>"
+
+"<li>ви не зможете активувати функції захисту пристрою.</li></string>
+    <string name="wifi_connect_failed_message">Не вдалося підключити телефон до цієї мережі WLAN.</string>
+    <string name="wifi_advanced_titlebar">Установки WLAN</string>
+    <string name="wifi_setting_frequency_band_title">Діапазон частот WLAN</string>
+    <string name="wifi_advanced_settings_label">Установки WLAN</string>
+    <string name="wifi_p2p_settings_title">WLAN Direct</string>
+    <string name="wifi_tether_checkbox_text">Портативна точка дост. WLAN</string>
+    <string name="wifi_hotspot_checkbox_text">Точка доступу WLAN</string>
+    <string name="wifi_hotspot_checkbox_text_summary">Використ. мобільне з‘єднання для WLAN</string>
+    <string name="wifi_tether_failed_subtext">Помилка портативної точки доступу WLAN</string>
+    <string name="wifi_tether_configure_ap_text">Налаштувати точку доступу WLAN</string>
+    <string name="wifi_hotspot_configure_ap_text">Налаштув. точки доступу WLAN</string>
+    <string name="wifi_hotspot_configure_ap_text_summary">Точка доступу WLAN AndroidAP WPA2 PSK</string>
+    <string name="wifi_tether_configure_subtext">"Портативна точка доступу WLAN %1$s.
+Безпека: %2$s"</string>
+    <string name="wifi_calling_settings_title">Дзвінки через WLAN</string>
+    <string name="wifi_calling_mode_dialog_title">Режим дзвінків через WLAN</string>
+    <string name="wifi_calling_off_explanation">"Дзвоніть через WLAN у місцях із недостатнім покриттям мобільної мережі.
+ 
+Вартість
+За інформацією про вартість дзвінків через WLAN звертайтеся до постачальника послуг.
+ 
+Примітки щодо дзвінків через WLAN
+Щоб здійснювати дзвінки через WLAN, потрібно перебувати в діапазоні дії відповідної мережі WLAN."</string>
+    <string name="status_wifi_mac_address">MAC-адреса для WLAN</string>
+    <string name="reset_network_desc">"Буде скинуто всі налаштування мереж, зокрема: 
+
+"<li>WLAN</li>"
+"<li>мобільні дані</li>"
+"<li>Bluetooth</li></string>
+    <string name="network_scorer_change_active_dialog_title">Змінити WLAN Assistant?</string>
+    <string name="location_mode_high_accuracy_description">Використовувати GPS, WLAN, Bluetooth і стільникові мережі, щоб визначати розташування</string>
+    <string name="location_mode_battery_saving_description">Використовувати WLAN, Bluetooth і стільникові мережі, щоб визначати розташування</string>
+    <string name="location_scanning_wifi_always_scanning_title">Шукати мережі WLAN</string>
+    <string name="location_scanning_wifi_always_scanning_description">Щоб покращити точність визначення місцеположення, дозвольте додаткам і сервісам системи будь-коли шукати мережі WLAN.</string>
+    <string name="location_neighborhood_level_wifi">Місцезнаходження, визначене мережею WLAN</string>
+    <string name="wifi_verbose_logging">Докладний запис у журнал WLAN</string>
+    <string name="wifi_aggressive_handover">Перемикатись із WLAN на передавання мобільних даних</string>
+    <string name="wifi_allow_scan_with_traffic">Завжди дозволяти WLAN шукати роумінг</string>
+    <string name="wifi_verbose_logging_summary">Показувати в журналі RSSI для кожного SSID під час вибору WLAN</string>
+    <string name="wifi_aggressive_handover_summary">Примусово перемикатися на мобільну мережу, коли сигнал WLAN слабкий</string>
+    <string name="wifi_allow_scan_with_traffic_summary">Дозволити чи заборонити WLAN шукати роумінг на основі обсягу трафіку даних в інтерфейсі</string>
+    <string name="mobile_data_always_on_summary">Не вимикати мобільний Інтернет, навіть якщо ввімкнено WLAN (щоб швидше переходити між мережами).</string>
+    <string name="battery_stats_wifi_running_label">WLAN</string>
+    <string name="wifi_on_time">Час роботи WLAN</string>
+    <string name="bluetooth_on_time">Час роботи WLAN</string>
+    <string name="power_wifi">WLAN</string>
+    <string name="usage_type_wifi_running">WLAN працює</string>
+    <string name="usage_type_data_wifi_send">Пакети WLAN надіслано</string>
+    <string name="usage_type_data_wifi_recv">Пакети WLAN отримано</string>
+    <string name="battery_action_wifi">Установки WLAN</string>
+    <string name="battery_desc_wifi">Як WLAN використовує акумулятор</string>
+    <string name="battery_sugg_wifi">Вимкніть WLAN, якщо він не використовується чи недоступний</string>
+    <string name="gadget_toggle_wifi">Оновлення установок WLAN</string>
+    <string name="gadget_wifi">WLAN</string>
+    <string name="backup_data_summary">Створити резервну копію даних програм, паролів WLAN та інших установок на серверах Google™</string>
+    <string name="backup_erase_dialog_message">Припинити створення резервних копій паролів WLAN, закладок, інших установок і даних програм і стерти всі копії на серверах Google™?</string>
+    <string name="fullbackup_erase_dialog_message">Припинити автозавантаження даних пристроїв (як-от паролів WLAN та історії дзвінків) і додатків (як-от налаштувань і збережених файлів) та стерти всі копії на Google Диску?</string>
+    <string name="fullbackup_data_summary">"Автоматично завантажуйте дані з пристроїв (як-от паролі WLAN та історію дзвінків) і додатків (як-от налаштування та збережені файли). Це можна робити віддалено.
+
+Коли ви вмикаєте автозавантаження, дані з пристроїв і додатків віддалено зберігаються через певні проміжки часу. Дані додатків – це будь-яка інформація, яку вони зберігають (залежно від налаштувань розробника), зокрема такі конфіденційні дані, як контакти, повідомлення та фотографії."</string>
+    <string name="wifi_setup_title">Налаштування WLAN</string>
+    <string name="wifi_setup_title_editing_network">Підключитися до мережі WLAN %s</string>
+    <string name="wifi_setup_title_connecting_network">Підключення до мережі WLAN %s...</string>
+    <string name="wifi_setup_title_connected_network">Підключено до мережі WLAN %s</string>
+    <string name="wifi_setup_eap_not_supported">Під час налаштування неможливо встановити параметри з’єднання WLAN через протокол EAP. Це можна зробити після налаштування в меню «Установки» > «Бездротове підключення та мережі».</string>
+    <string name="wifi_setup_description_connected">Торкніться опції <b>Далі</b>", щоб продовжити налаштування.
+
+Торкніться опції "<b>Назад</b>, щоб підключитися до іншої мережі WLAN.</string>
+    <string name="data_usage_menu_show_wifi">Показувати дані WLAN</string>
+    <string name="data_usage_menu_hide_wifi">Приховати дані WLAN</string>
+    <string name="data_usage_disable_wifi_limit">Установити ліміт даних WLAN</string>
+    <string name="data_usage_tab_wifi">WLAN</string>
+    <string name="data_usage_restrict_background">Якщо заборонити мобільне передавання даних у фоновому режимі, деякі програми та служби не працюватимуть, коли пристрій не підключено до мережі WLAN.</string>
+    <string name="data_usage_restrict_background_multiuser">"Якщо обмежити передавання пакетних даних у фоновому режимі, деякі програми та служби працюватимуть лише під час підключення до WLAN.
+
+Ця установка впливає на всіх користувачів цього телефону."</string>
+    <string name="data_usage_metered_body">Виберіть мережі WLAN, які є мобільними точками доступу. Програмам можна заборонити користуватися цими мережами у фоновому режимі. Також можна відображати попередження, якщо такі мережі потрібні програмам для великих завантажень.</string>
+    <string name="data_usage_metered_wifi">Мережі WLAN із тарифікацією</string>
+    <string name="data_usage_metered_wifi_disabled">Щоб вибрати мережу з тарифікацією, увімкніть функцію WLAN.</string>
+    <string name="user_add_user_message_long">"Цим пристроєм можуть користуватися кілька користувачів. Для цього потрібно створити додаткові профілі. Власник профілю може налаштувати його на свій смак: вибирати шпалери, установити потрібні програми тощо. Користувачі також можуть налаштовувати певні установки пристрою, які застосовуватимуться до решти профілів, як-от установки WLAN.
+
+Коли ви створите новий профіль, користувач має його налаштувати.
+
+Будь-який користувач пристрою може оновлювати програми для решти користувачів."</string>
+    <string name="restriction_wifi_config_title">WLAN і мобільні мережі</string>
+    <string name="restriction_wifi_config_summary">Дозволити зміни установок WLAN і мобільних мереж</string>
+    <string name="setup_wifi_nfc_tag">Налаштувати NFC-тег для WLAN</string>
+    <string name="l_dialog_message_hint">"Режим STAMINA включає:
+
+• Розширений режим очікування
+Заощаджує заряд акумулятора, коли вимкнено екран, тимчасово вимикаючи WLAN. Більшість програм буде вимкнено.
+Коли екран увімкнено, пристрій функціонуватиме звичайним чином.
+Якщо не потрібно вимикати певні програми під час розширеного режиму очікування, додайте їх до списку «Програми, активні в режимі очікування».
+
+• Розширене використання
+Заощаджує заряд акумулятора під час використання пристрою, обмежуючи продуктивність апаратного забезпечення."</string>
+    <string name="powersaver_feature_wifi">Вимикати WLAN</string>
+    <string name="stamina_xssm_summary">Вимикає передавання мобільних даних і WLAN, коли екран вимкнуто</string>
+    <string name="usm_descr">"Режим Ultra STAMINA значно збільшить тривалість роботи від акумулятора. Його можна використовувати, коли ви не можете зарядити пристрій протягом тривалого часу .
+
+При цьому будуть доступні лише основні функції, такі як телефон і обмін повідомленнями. Щоб дізнатися більше, торкніться «Докладніше».
+
+Візьміть до уваги, що з’єднання з Інтернетом через WLAN і передавання мобільних даних буде вимкнено."</string>
+    <string name="battery_usm_desc">"Режим Ultra STAMINA значно збільшить тривалість роботи від акумулятора. Зверніть увагу: з’єднання з Інтернетом за допомогою WLAN і пакетних даних буде вимкнено. Головний екран буде змінено на головний екран режиму Ultra STAMINA.
+
+Програми, доступні в режимі Ultra STAMINA"</string>
+    <string name="somc_wifi_turned_on_info">WLAN увімкнено. Виберіть свою мережу зі списку.</string>
+    <string name="wifi_tethering_warning_txt">Усі поточні операції через WLAN, як-от передавання мультимедійних файлів, оновлення ПЗ телефону, створення резервних копій і відновлення, буде перервано.</string>
+    <string name="somc_backup_failed_no_wifi_summary">Очікування з’єднання WLAN</string>
+    <string name="wifi_hs2_strings_hotspot2_summary_txt">Автоматично підключатися до доступної мережі Passpoint, коли WLAN увімкнено</string>
+    <string name="wifi_tether_settings_subtext">Налаштування й керування для портативної точки доступу WLAN</string>
+    <string name="wifi_tether_settings_text">Уст-ки портат. точ. доступу WLAN</string>
+    <string name="wifi_security_wapi_cert">WLAN CERT</string>
+    <string name="ct_wifi_connected_text">Підключен. WLAN China Telecom</string>
+    <string name="cw_network_priority">Пріоритет WLAN China Telecom</string>
+    <string name="cw_network_priority_summary">З’єднанню з мережами WLAN China Telecom буде надано пріоритет порівняно з іншими мережами WLAN</string>
+    <string name="data_traffic_disabled_text">Не вдалося підключитися до мереж WLAN China Telecom, оскільки вимкнуто передавання даних. Увімкнути передавання даних зараз?</string>
+    <string name="install_wapi_certs">Установ. сертифік. WLAN</string>
+    <string name="location_based_wifi">WLAN за розташуванням</string>
+    <string name="operator_auto_connect_hotspot_description_txt">Автоматичне з’єднання з точкою доступу WLAN AT&amp;T</string>
+    <string name="operator_auto_connect_hotspot_txt">Автоз’єдн. з WLAN AT&amp;T</string>
+    <string name="wifi_context_menu_change_wapi_certificate">Змінити сертифікат WLAN</string>
+    <string name="wifi_p2p_settings">Установки WLAN Direct™</string>
+    <string name="wifi_security_verbose_wapi_cert">Захищено за допомогою WLAN CERT</string>
+    <string name="wifi_security_verbose_wapi_psk">Захищено за допомогою WLAN PSK</string>
+    <string name="wifi_tether_explanation_dialog_text">"Ви можете використовувати свій планшет як мобільну точку доступу. Це дає змогу іншим пристроям (максимум 10) підключатися до планшета через мережу WLAN і отримувати доступ до Інтернету через його з’єднання з мобільною мережею. Мобільна точка доступу використовує передавання мобільних даних, що може призвести до стягнення додаткової плати.
+
+Використання мобільної точки доступу підвищує споживання заряду акумулятора. Підключіть планшет до джерела живлення, щоб збільшити тривалість роботи від акумулятора."</string>
+    <string name="wifi_wps_category_title">Налаштувати мережу WLAN</string>
+    <string name="xssm_guidecontent_what_stamina40jp_txt">"Режим STAMINA зберігає заряд акумулятора, налаштовуючи установки пристрою. Ви можете вибрати програми, які запускатимуться з обмеженою функціональністю в режимі сну. (Це допомагає зберегти заряд акумулятора, оскільки більшість програм виснажує його навіть у режимі сну.)
+
+Для вибраних програм вимикаються:
+- WLAN;
+- мобільне передавання даних;
+- таймер.
+
+Колір і частота сигналу сповіщень у режимі сну однакові для всіх програм.
+
+Режим STAMINA вимикається, коли ви керуєте пристроєм."</string>
+    <string name="wifi_security_short_wapi_cert">WLAN CERT</string>
+    <string name="wifi_security_short_wapi_psk">WLAN PSK</string>
+    <string name="vzw_avoid_bad_connections_text">"Мережу WLAN, до якої ви зараз підключені, не підключено до Інтернету.
+
+Щоб автоматично переключатися на мобільну мережу в таких випадках, увімкніть параметр «Уникати поганих з’єднань WLAN» у розширених установках WLAN."</string>
+    <string name="vzw_avoid_bad_connections_title">Немає з’єднання з Інтернетом через WLAN</string>
+    <string name="vzw_wifi_avoid_bad_connections">Уникати поганих з’єднань WLAN</string>
+    <string name="vzw_wifi_avoid_bad_connections_summary">Використовувати мобільну мережу, коли підключена мережа WLAN не має з’єднання з Інтернетом. (Може стягуватися плата за використання пакетних даних.)</string>
+    <string name="vzw_wifi_password_error_dialog_txt">Пароль WLAN не прийнято. Перевірте пароль і спробуйте знову.</string>
+    <string name="vzw_wifi_setup_wizard_desc">Щоб підключитися до мережі WLAN зараз, виберіть мережу.</string>
+    <string name="vzw_wifi_setup_wizard_title">Налаштування WLAN</string>
+</resources>

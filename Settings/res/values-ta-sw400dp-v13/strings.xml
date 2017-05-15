@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="powersaver_feature_haptic">தொடுதலில் அதிர்வு அணைக்கப்பட்டுள்ளது</string>
+    <string name="powersaver_feature_sync">தானியங்கு ஒத்திசைவு அணைக்கப்பட்டுள்ளது</string>
+    <string name="powersaver_feature_data">மொபைல் தரவு அணைக்கப்பட்டுள்ளது</string>
+    <string name="powersaver_feature_gamma">இரவு பயன்முறை இயக்கப்பட்டுள்ளது</string>
+    <string name="powersaver_feature_bravia">Mobile BRAVIA Engine அணை</string>
+    <string name="stamina_queue_background_data_title">பின்புலத் தரவை வரிசைப்படுத்து</string>
+    <string name="stamina_xssm_add_applications_title">காத்திருநிலையில் இயக்கத்தில் இருக்கும் பயன்பாடுகள்</string>
+    <string name="wifi_tether_settings_text">கையடக்க Wi-Fi ஹாட்ஸ்பாட் அமைப்புகள்</string>
+    <string name="usb_direct_settings_hi_res_audio_title_txt">USB வழியாக Hi-Res ஆடியோ</string>
+    <string name="auto_sync_text">தானியங்கு-ஒத்திசைவு</string>
+</resources>

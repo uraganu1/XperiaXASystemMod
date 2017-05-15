@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="powersaver_feature_sync">Segerak auto mati</string>
+    <string name="powersaver_feature_data">Data mudah alih mati</string>
+    <string name="powersaver_feature_gamma">Mod malam hidup</string>
+    <string name="powersaver_feature_bravia">Mobile BRAVIA Engine mati</string>
+    <string name="stamina_xssm_add_applications_title">Aplikasi aktif dalam tunggu sedia</string>
+    <string name="usb_direct_settings_hi_res_audio_title_txt">Audio Resolusi Tinggi melalui USB</string>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="app_ops_summaries">
+        <item>yaklaşık konum</item>
+        <item>hassas konum</item>
+        <item>GPS</item>
+        <item>titreşim</item>
+        <item>kişileri oku</item>
+        <item>kişileri değiştir</item>
+        <item>çağrı günlüğünü oku</item>
+        <item>çağrı günlüğünü değiştir</item>
+        <item>takvimi oku</item>
+        <item>takvimi değiştir</item>
+        <item>WLAN tarama</item>
+        <item>bildirim</item>
+        <item>hücre tarama</item>
+        <item>telefon et</item>
+        <item>SMS oku</item>
+        <item>SMS yaz</item>
+        <item>SMS al</item>
+        <item>acil SMS al</item>
+        <item>MMS al</item>
+        <item>WAP push al</item>
+        <item>SMS gönder</item>
+        <item>ICC SMS oku</item>
+        <item>ICC SMS yaz</item>
+        <item>ayarları değiştir</item>
+        <item>üste çiz</item>
+        <item>bildirimlere eriş</item>
+        <item>kamera</item>
+        <item>ses kaydet</item>
+        <item>sesi çal</item>
+        <item>panoyu oku</item>
+        <item>panoyu değiştir</item>
+        <item>medya düğmeleri</item>
+        <item>ses odağı</item>
+        <item>ana ses düzeyi</item>
+        <item>konuşma sesi düzeyi</item>
+        <item>çalma sesi düzeyi</item>
+        <item>medya sesi düzeyi</item>
+        <item>alarm sesi düzeyi</item>
+        <item>bildirim sesi düzeyi</item>
+        <item>Bluetooth sesi düzeyi</item>
+        <item>uyanık tut</item>
+        <item>konumu izle</item>
+        <item>yüksek güç tüketen konum hizmetlerini izle</item>
+        <item>kullanım istatistiklerini al</item>
+        <item>mikrofonu kapat/aç</item>
+        <item>medyayı yansıt</item>
+        <item>"VPN'yi etkinleştir"</item>
+        <item>duvar kağıdına yaz</item>
+        <item>yardım yapısı</item>
+        <item>yardım ekran görüntüsü</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices">
+        <item>Kablosuz bağlantı tercih edildi</item>
+        <item>Hücresel ağ tercih edildi</item>
+    </string-array>
+    <string-array name="wapi_psk_type">
+        <item>WLAN ASCII</item>
+        <item>WLAN hexadecimal</item>
+    </string-array>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="settings_label_launcher">Configurações</string>
+    <string name="keep_lockscreen_notifications_title">Manter notificações na tela de bloqueio</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="powersaver_feature_sync">Sincronização automática desligada</string>
+    <string name="powersaver_feature_bravia">Mobile BRAVIA Engine desligado</string>
+    <string name="stamina_queue_background_data_title">Colocar em fila dados em segundo plano</string>
+    <string name="application_usage_title">Consumo de energia da aplicação</string>
+    <string name="usb_direct_settings_hi_res_audio_title_txt">Áudio de alta resolução via USB</string>
+    <string name="auto_sync_text">Sincronização automática</string>
+</resources>

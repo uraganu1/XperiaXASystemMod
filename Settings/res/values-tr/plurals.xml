@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">Geliştirici olmanıza %1$d adım kaldı.</item>
+        <item quantity="one">Geliştirici olmanıza %1$d adım kaldı.</item>
+    </plurals>
+    <plurals name="security_settings_fingerprint_preference_summary">
+        <item quantity="other">Parmak iziyle kilit açma etkinleştirildi</item>
+        <item quantity="one">Parmak iziyle kilit açma etkinleştirildi</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">Şifre en az %d harf içermelidir.</item>
+        <item quantity="one">Şifre en az 1 harf içermelidir.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">Şifre en az %d küçük harf içermelidir.</item>
+        <item quantity="one">Şifre en az 1 küçük harf içermelidir.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">Şifre en az %d büyük harf içermelidir.</item>
+        <item quantity="one">Şifre en az 1 büyük harf içermelidir.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">Şifre en az %d rakam içermelidir.</item>
+        <item quantity="one">Şifre en az 1 rakam içermelidir.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">Şifre en az %d özel sembol içermelidir.</item>
+        <item quantity="one">Şifre en az 1 özel sembol içermelidir.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">Şifre, harf olmayan en az %d karakter içermelidir.</item>
+        <item quantity="one">Şifre, harf olmayan en az 1 karakter içermelidir.</item>
+    </plurals>
+    <plurals name="wrong_pin_code">
+        <item quantity="other">Yanlış SIM PIN kodu, %d deneme hakkınız kaldı.</item>
+        <item quantity="one">Yanlış SIM PIN kodu. Cihazınızın kilidini açmak için servis sağlayıcınızla bağlantı kurmak durumunda kalmadan önce %d deneme hakkınız kaldı.</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">%d uygulama, bildirimleri okuyabilir</item>
+        <item quantity="one">%d uygulama, bildirimleri okuyabilir</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_minute">
+        <item quantity="other">Sadece %1$d dakika boyunca (%2$s sınırına kadar) alarmlara geçiş yap</item>
+        <item quantity="one">%2$s sınırına kadar sadece bir dakika boyunca alarmlara geçiş yap</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_hour">
+        <item quantity="other">%2$s sınırına kadar sadece %1$d saat boyunca alarmlara geçiş yap</item>
+        <item quantity="one">%2$s sınırına kadar sadece bir saat boyunca alarmlara geçiş yap</item>
+    </plurals>
+    <plurals name="permissions_summary">
+        <item quantity="other">%d izin verildi</item>
+        <item quantity="one">%d izin verildi</item>
+    </plurals>
+    <plurals name="runtime_permissions_summary">
+        <item quantity="other">%1$d / %2$d izin verildi</item>
+        <item quantity="one">%1$d / %2$d izin verildi</item>
+    </plurals>
+    <plurals name="runtime_permissions_additional_count">
+        <item quantity="other">%d ek izin</item>
+        <item quantity="one">%d ek izin</item>
+    </plurals>
+    <plurals name="domain_urls_apps_summary">
+        <item quantity="other">%d uygulama desteklenen bağlantılarını açabilir</item>
+        <item quantity="zero">Hiçbir uygulama desteklenen bağlantıyı açamaz</item>
+        <item quantity="one">Bir uygulama, desteklediği bağlantıları açabilir</item>
+    </plurals>
+    <plurals name="high_power_count">
+        <item quantity="other">Pil optimizasyonunu yoksaymak için %d uygulamaya izin verildi</item>
+        <item quantity="one">Pil optimizasyonunu yoksaymak için 1 uygulamaya izin verildi</item>
+    </plurals>
+    <plurals name="memory_usage_apps_summary">
+        <item quantity="other">Son %2$s içinde %1$d uygulama bellek kullandı</item>
+        <item quantity="one">Son %2$s içinde 1 uygulama bellek kullandı</item>
+    </plurals>
+    <plurals name="remaining_time_format_days">
+        <item quantity="other">%dgün</item>
+        <item quantity="one">%d gün</item>
+    </plurals>
+    <plurals name="remaining_time_format_hours">
+        <item quantity="other">%d saat</item>
+        <item quantity="one">%d saat</item>
+    </plurals>
+    <plurals name="stamina_xssm_add_applications_descr">
+        <item quantity="other">%d uygulama şu anda listede</item>
+        <item quantity="one">%1$d uygulama şu anda listede</item>
+    </plurals>
+    <plurals name="not_time_left_format_hours">
+        <item quantity="other">%d saat</item>
+        <item quantity="one">%d saat</item>
+    </plurals>
+    <plurals name="not_time_left_format_minutes">
+        <item quantity="other">%d dakika</item>
+        <item quantity="one">%d dakika</item>
+    </plurals>
+    <plurals name="xssm_settings_blacklist_summary_txt">
+        <item quantity="other">%d uygulama seçildi</item>
+        <item quantity="one">%d uygulama seçildi</item>
+    </plurals>
+</resources>

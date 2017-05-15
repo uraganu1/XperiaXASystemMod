@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">デベロッパーになるまであと%1$dステップです。</item>
+        <item quantity="one">デベロッパーになるまであと%1$dステップです。</item>
+    </plurals>
+    <plurals name="security_settings_fingerprint_preference_summary">
+        <item quantity="other">指紋ロック解除機能は有効です</item>
+        <item quantity="one">指紋ロック解除機能は有効です</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">パスワードには英字が%d文字以上必要です。</item>
+        <item quantity="one">パスワードには英字が1文字以上必要です。</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">パスワードには小文字の英字が%d文字以上必要です。</item>
+        <item quantity="one">パスワードには小文字の英字が1文字以上必要です。</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">パスワードには大文字の英字が%d文字以上必要です。</item>
+        <item quantity="one">パスワードには大文字の英字が1文字以上必要です。</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">パスワードには数字が%d個以上必要です。</item>
+        <item quantity="one">パスワードには数字が1つ以上必要です。</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">パスワードには記号が%d個以上必要です。</item>
+        <item quantity="one">パスワードには記号が1つ以上必要です。</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">パスワードには記号または数字が%d個以上必要です。</item>
+        <item quantity="one">パスワードには記号または数字が1つ以上必要です。</item>
+    </plurals>
+    <plurals name="wrong_pin_code">
+        <item quantity="other">SIM PINコードが無効です。入力できるのはあと%d回です。</item>
+        <item quantity="one">SIM PINコードが無効です。入力できるのはあと%d回です。この回数を超えると、お使いの機器をロック解除するのに通信事業者にお問い合わせいただく必要があります。</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">%d個のアプリが通知を読み取ることができます</item>
+        <item quantity="one">%d個のアプリが通知を読み取ることができます</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_minute">
+        <item quantity="other">%1$d分間のみのアラームに変更します(%2$sまで)</item>
+        <item quantity="one">%2$sまで1分間のみのアラームに変更します</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_hour">
+        <item quantity="other">%2$sまで%1$d時間のみのアラームに変更します</item>
+        <item quantity="one">%2$sまで1時間のみのアラームに変更します</item>
+    </plurals>
+    <plurals name="permissions_summary">
+        <item quantity="other">%d件の権限を許可しました</item>
+        <item quantity="one">%d件の権限を許可しました</item>
+    </plurals>
+    <plurals name="runtime_permissions_summary">
+        <item quantity="other">%1$d件中%2$d件の権限を許可しました</item>
+        <item quantity="one">%1$d件中%2$d件の権限を許可しました</item>
+    </plurals>
+    <plurals name="runtime_permissions_additional_count">
+        <item quantity="other">%d個の追加権限があります</item>
+        <item quantity="one">%d個の追加権限があります</item>
+    </plurals>
+    <plurals name="domain_urls_apps_summary">
+        <item quantity="other">%d個のアプリがサポートされているリンクを開くことができます</item>
+        <item quantity="zero">サポートされているリンクを開けるアプリがありません</item>
+        <item quantity="one">1個のアプリが対応リンクを開くことが可能</item>
+    </plurals>
+    <plurals name="high_power_count">
+        <item quantity="other">%d個のアプリが電池の最適化を無視することを許可されました</item>
+        <item quantity="one">1個のアプリが電池の最適化を無視することを許可されました</item>
+    </plurals>
+    <plurals name="memory_usage_apps_summary">
+        <item quantity="other">過去%2$sで%1$d個のアプリがメモリーを使いました</item>
+        <item quantity="one">過去%2$sで1個のアプリがメモリーを使いました</item>
+    </plurals>
+    <plurals name="remaining_time_format_days">
+        <item quantity="other">%d日</item>
+        <item quantity="one">%d日</item>
+    </plurals>
+    <plurals name="remaining_time_format_hours">
+        <item quantity="other">%d時間</item>
+        <item quantity="one">%d時間</item>
+    </plurals>
+    <plurals name="stamina_xssm_add_applications_descr">
+        <item quantity="other">%d個のアプリがリスト内にあります</item>
+        <item quantity="one">%1$d個のアプリがリスト内にあります</item>
+    </plurals>
+    <plurals name="not_time_left_format_hours">
+        <item quantity="other">%d時間</item>
+        <item quantity="one">%d時間</item>
+    </plurals>
+    <plurals name="not_time_left_format_minutes">
+        <item quantity="other">%d分</item>
+        <item quantity="one">%d分</item>
+    </plurals>
+    <plurals name="xssm_settings_blacklist_summary_txt">
+        <item quantity="other">%d個のアプリが登録されています</item>
+        <item quantity="one">%d個のアプリが登録されています</item>
+    </plurals>
+</resources>

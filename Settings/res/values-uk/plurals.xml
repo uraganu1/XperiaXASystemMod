@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">Щоб стати розробником, залишилося лише стільки кроків: %1$d.</item>
+        <item quantity="one">Щоб стати розробником, залишився лише %1$d крок.</item>
+        <item quantity="few">Щоб стати розробником, залишилося ще %1$d кроки.</item>
+        <item quantity="many">Щоб стати розробником, залишилося ще %1$d кроків.</item>
+    </plurals>
+    <plurals name="security_settings_fingerprint_preference_summary">
+        <item quantity="other">Розблокування відбитком пальця ввімкнено</item>
+        <item quantity="one">Розблокування відбитком пальця ввімкнено</item>
+        <item quantity="few">Налаштовано %1$d відбитки пальця</item>
+        <item quantity="many">Налаштовано %1$d відбитків пальця</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">Пароль має містити принаймні стільки літер: %d.</item>
+        <item quantity="one">Пароль має містити принаймні 1 літеру.</item>
+        <item quantity="few">Пароль має містити принаймні %d літери.</item>
+        <item quantity="many">Пароль має містити принаймні %d літер.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">Пароль має містити принаймні стільки малих літер: %d.</item>
+        <item quantity="one">Пароль має містити принаймні 1 малу літеру.</item>
+        <item quantity="few">Пароль має містити принаймні %d малі літери.</item>
+        <item quantity="many">Пароль має містити принаймні %d малих літер.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">Пароль має містити принаймні стільки великих літер: %d.</item>
+        <item quantity="one">Пароль має містити принаймні 1 велику літеру.</item>
+        <item quantity="few">Пароль має містити принаймні %d великі літери.</item>
+        <item quantity="many">Пароль має містити принаймні %d великих літер.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">Пароль має містити принаймні стільки цифр: %d.</item>
+        <item quantity="one">Пароль має містити принаймні 1 цифру.</item>
+        <item quantity="few">Пароль має містити принаймні %d цифри.</item>
+        <item quantity="many">Пароль має містити принаймні %d цифр.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">Пароль має містити принаймні стільки спеціальних символів: %d.</item>
+        <item quantity="one">Пароль має містити принаймні 1 спеціальний символ.</item>
+        <item quantity="few">Пароль має містити принаймні %d спеціальні символи.</item>
+        <item quantity="many">Пароль має містити принаймні %d спеціальних символів.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">Пароль має містити принаймні стільки небуквених символів: %d.</item>
+        <item quantity="one">Пароль має містити принаймні 1 небуквений символ.</item>
+        <item quantity="few">Пароль має містити принаймні %d небуквені символи.</item>
+        <item quantity="many">Пароль має містити принаймні %d небуквених символів.</item>
+    </plurals>
+    <plurals name="wrong_pin_code">
+        <item quantity="other">Неправильний PIN-код SIM-картки. У вас залишилося стільки спроб: %d.</item>
+        <item quantity="one">Неправильний PIN-код SIM-картки. Залишилося спроб: %d. Після цього потрібно буде зв’язатися з постачальником послуг, щоб розблокувати пристрій.</item>
+        <item quantity="few">Неправильний PIN-код SIM-карти. У вас залишилося %d спроби.</item>
+        <item quantity="many">Неправильний PIN-код SIM-карти. У вас залишилося %d спроб.</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">Програми, що можуть читати сповіщення: %d</item>
+        <item quantity="one">Програми, що можуть читати сповіщення: %d</item>
+        <item quantity="few">%d додатки можуть читати сповіщення</item>
+        <item quantity="many">%d додатків можуть читати сповіщення</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_minute">
+        <item quantity="other">Перейти на сигнали лише на %1$d хв (до %2$s)</item>
+        <item quantity="one">Вибрати сигнали лише на одну хвилину до %2$s</item>
+        <item quantity="few">Вибрати сигнали лише на %1$d хвилини до %2$s</item>
+        <item quantity="many">Вибрати сигнали лише на %1$d хвилин до %2$s</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_hour">
+        <item quantity="other">Перейти на сигнали лише на %1$d год, до %2$s</item>
+        <item quantity="one">Вибрати сигнали лише на одну годину до %2$s</item>
+        <item quantity="few">Вибрати сигнали лише на %1$d години до %2$s</item>
+        <item quantity="many">Вибрати сигнали лише на %1$d годин до %2$s</item>
+    </plurals>
+    <plurals name="permissions_summary">
+        <item quantity="other">Надано дозволів: %d</item>
+        <item quantity="one">Надано %d дозвіл</item>
+        <item quantity="few">Надано %d дозволи</item>
+        <item quantity="many">Надано %d дозволів</item>
+    </plurals>
+    <plurals name="runtime_permissions_summary">
+        <item quantity="other">Надано дозволів: %1$d з %2$d</item>
+        <item quantity="one">Надано %1$d дозвіл із %2$d</item>
+        <item quantity="few">Надано %1$d дозволи з %2$d</item>
+        <item quantity="many">Надано %1$d дозволів із %2$d</item>
+    </plurals>
+    <plurals name="runtime_permissions_additional_count">
+        <item quantity="other">Додаткові дозволи: %d</item>
+        <item quantity="one">%d додатковий дозвіл</item>
+        <item quantity="few">%d додаткові дозволи</item>
+        <item quantity="many">%d додаткових дозволів</item>
+    </plurals>
+    <plurals name="domain_urls_apps_summary">
+        <item quantity="other">Програми (%d) можуть відкривати підтримувані посилання</item>
+        <item quantity="zero">Жодна програма не може відкривати підтримувані посилання</item>
+        <item quantity="one">Одна програма може відкривати підтримувані посилання</item>
+        <item quantity="few">%d додатки можуть відкривати підтримувані посилання</item>
+        <item quantity="many">%d додатків можуть відкривати підтримувані посилання</item>
+    </plurals>
+    <plurals name="high_power_count">
+        <item quantity="other">Програмам (%d) можна ігнорувати оптимізацію роботи акумулятора</item>
+        <item quantity="one">Одній програмі дозволено ігнорувати оптимізацію використання акумулятора</item>
+        <item quantity="few">%d додаткам дозволено ігнорувати оптимізацію використання акумулятора</item>
+        <item quantity="many">%d додаткам дозволено ігнорувати оптимізацію використання акумулятора</item>
+    </plurals>
+    <plurals name="memory_usage_apps_summary">
+        <item quantity="other">Програми (%1$d) використовували пам’ять протягом останніх %2$s</item>
+        <item quantity="one">За ост. %2$s пам’ять використовувала одна програма</item>
+        <item quantity="few">За ост. %2$s пам’ять використовували %1$d додатки</item>
+        <item quantity="many">За ост. %2$s пам’ять використовувало %1$d додатків</item>
+    </plurals>
+    <plurals name="remaining_time_format_days">
+        <item quantity="other">%d дн.</item>
+        <item quantity="one">%d день</item>
+    </plurals>
+    <plurals name="remaining_time_format_hours">
+        <item quantity="other">%d год.</item>
+        <item quantity="one">%d година</item>
+    </plurals>
+    <plurals name="stamina_xssm_add_applications_descr">
+        <item quantity="other">Програм зараз у списку: %d</item>
+        <item quantity="one">%1$d програма зараз у списку</item>
+    </plurals>
+    <plurals name="not_time_left_format_hours">
+        <item quantity="other">%d год.</item>
+        <item quantity="one">%d год.</item>
+    </plurals>
+    <plurals name="not_time_left_format_minutes">
+        <item quantity="other">%d хв.</item>
+        <item quantity="one">%d хв.</item>
+    </plurals>
+    <plurals name="xssm_settings_blacklist_summary_txt">
+        <item quantity="other">Вибрано програм: %d</item>
+        <item quantity="one">Вибрано програм: %d</item>
+    </plurals>
+</resources>

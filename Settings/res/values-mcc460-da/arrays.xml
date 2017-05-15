@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="app_ops_summaries">
+        <item>omtrentlig placering</item>
+        <item>nøjagtig placering</item>
+        <item>GPS</item>
+        <item>vibrer</item>
+        <item>læs kontaktpersoner</item>
+        <item>rediger kontakter</item>
+        <item>læse opkaldsliste</item>
+        <item>rediger opkaldslisten</item>
+        <item>læs kalenderen</item>
+        <item>rediger kalenderen</item>
+        <item>WLAN-søgning</item>
+        <item>underretning</item>
+        <item>mobilscanning</item>
+        <item>ring til telefon</item>
+        <item>læs sms</item>
+        <item>skriv sms</item>
+        <item>modtag sms</item>
+        <item>modtag nød-sms</item>
+        <item>modtag mms</item>
+        <item>modtag WAP-push</item>
+        <item>send sms</item>
+        <item>læs ICC-sms</item>
+        <item>skriv ICC-sms</item>
+        <item>skift indstillinger</item>
+        <item>tegn ovenpå</item>
+        <item>underretninger om adgang</item>
+        <item>kamera</item>
+        <item>optag lyd</item>
+        <item>afspil lyd</item>
+        <item>læs udklipsholder</item>
+        <item>rediger udklipsholder</item>
+        <item>medieknapper</item>
+        <item>lydfokusering</item>
+        <item>generel lydstyrke</item>
+        <item>lydstyrke for stemme</item>
+        <item>lydstyrke for ringetone</item>
+        <item>lydstyrke for medier</item>
+        <item>alarmlydstyrke</item>
+        <item>lydstyrke for underretninger</item>
+        <item>lydstyrke for bluetooth</item>
+        <item>hold aktiv</item>
+        <item>overvåg placering</item>
+        <item>overvåg placering med højt strømforbrug</item>
+        <item>hent brugsstatistik</item>
+        <item>slå mikrofonlyd til/fra</item>
+        <item>medieprojektion</item>
+        <item>aktivér VPN</item>
+        <item>skriv baggrund</item>
+        <item>forslagsstruktur</item>
+        <item>forslagsskærmbillede</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices">
+        <item>WLAN-netværk er foretrukket</item>
+        <item>Mobilnetværk er foretrukket</item>
+    </string-array>
+    <string-array name="wapi_psk_type">
+        <item>WLAN ASCII</item>
+        <item>WLAN hexadecimal</item>
+    </string-array>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="powersaver_feature_haptic">Naka-off ang pag-vibrate kapag na-touch</string>
+    <string name="powersaver_feature_bravia">Naka-off ang Mobile BRAVIA Engine</string>
+    <string name="stamina_queue_background_data_title">I-queue background data</string>
+    <string name="stamina_xssm_add_applications_title">Apps na aktibo sa standby</string>
+    <string name="application_usage_title">Pagkonsumo ng baterya ng app</string>
+    <string name="wifi_tether_settings_text">Mga setting ng portable na Wi-Fi hotspot</string>
+</resources>

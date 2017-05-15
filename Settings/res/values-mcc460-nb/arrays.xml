@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="app_ops_summaries">
+        <item>anslått posisjon</item>
+        <item>nøyaktig posisjon</item>
+        <item>GPS</item>
+        <item>vibrer</item>
+        <item>lesing av kontakter</item>
+        <item>endre kontakter</item>
+        <item>Lese anropsloggen</item>
+        <item>endre anropslogg</item>
+        <item>lesing av kalender</item>
+        <item>Endre kalenderen</item>
+        <item>WLAN-skann</item>
+        <item>varsel</item>
+        <item>mobiltelefonskann</item>
+        <item>ring til telefon</item>
+        <item>Les SMS</item>
+        <item>Skriv SMS</item>
+        <item>Motta SMS</item>
+        <item>Motta nød-SMS</item>
+        <item>Motta MMS</item>
+        <item>Motta WAP-push</item>
+        <item>Send SMS</item>
+        <item>Les ICC SMS</item>
+        <item>Skriv ICC SMS</item>
+        <item>Endre innstillingene</item>
+        <item>tegn øverst</item>
+        <item>varseltilgang</item>
+        <item>kamera</item>
+        <item>spill inn lyd</item>
+        <item>spill av lyd</item>
+        <item>lesing av utklippstavlen</item>
+        <item>endring av utklippstavlen</item>
+        <item>medieknapper</item>
+        <item>audiofokus</item>
+        <item>hovedvolum</item>
+        <item>stemmevolum</item>
+        <item>ringevolum</item>
+        <item>medievolum</item>
+        <item>alarmvolum</item>
+        <item>varselvolum</item>
+        <item>bluetooth-volum</item>
+        <item>hold aktiv</item>
+        <item>overvåk posisjon</item>
+        <item>overvåk plassering med høyt strømforbruk</item>
+        <item>få bruksstatistikk</item>
+        <item>slå mikrofonen av eller på</item>
+        <item>projiser media</item>
+        <item>aktiver VPN</item>
+        <item>skriv bakgrunn</item>
+        <item>assistansestruktur</item>
+        <item>assistanseskjermdump</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices">
+        <item>WLAN er foretrukket</item>
+        <item>Mobil er foretrukket</item>
+    </string-array>
+    <string-array name="wapi_psk_type">
+        <item>WLAN ASCII</item>
+        <item>WLAN hexadecimal</item>
+    </string-array>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="powersaver_feature_haptic">Ukipen dardara desaktibatuta</string>
+    <string name="powersaver_feature_sync">Sinkronizazio automatikoa desaktibatuta</string>
+    <string name="powersaver_feature_data">Datu mugikorrak desaktibatuta</string>
+    <string name="powersaver_feature_bravia">Mobile BRAVIA Engine desaktibatuta</string>
+    <string name="stamina_queue_background_data_title">Jarri ilaran atzeko planoko datuak</string>
+    <string name="stamina_xssm_add_applications_title">Egonean moduko aplikazio aktiboak</string>
+    <string name="application_usage_title">Aplikazioen energia kontsumoa</string>
+    <string name="wifi_tether_settings_text">Wi-Fi publiko eramangarriaren ezarpenak</string>
+    <string name="auto_sync_text">Sinkronizazio automatikoa</string>
+</resources>

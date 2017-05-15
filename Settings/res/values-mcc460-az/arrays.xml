@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="app_ops_summaries">
+        <item>təxmini yerləşmə</item>
+        <item>yaxşı yer</item>
+        <item>GPS</item>
+        <item>vibrasiya</item>
+        <item>kontaktları oxuyun</item>
+        <item>kontaktları dəyişin</item>
+        <item>zəng jurnalı oxuyun</item>
+        <item>zəng jurnalına dəyişiklik edin</item>
+        <item>təqvimi oxuyun</item>
+        <item>təqvimə dəyişiklik edin</item>
+        <item>WLAN skan</item>
+        <item>bildiriş</item>
+        <item>mobil skan</item>
+        <item>Telefona zəng edin</item>
+        <item>SMS oxuyun</item>
+        <item>SMS yazın</item>
+        <item>SMS alın</item>
+        <item>təcili SMS alın</item>
+        <item>MMS alın</item>
+        <item>WAP push əldə edin</item>
+        <item>SMS göndərin</item>
+        <item>ICC SMS oxuyun</item>
+        <item>ICC SMS yazın</item>
+        <item>ayarları dəyişin</item>
+        <item>yuxarıda çəkin</item>
+        <item>giriş bildirişi</item>
+        <item>kamera</item>
+        <item>audio qeydəalın</item>
+        <item>audio oxudun</item>
+        <item>panonu oxuyun</item>
+        <item>panoda dəyişiklik edin</item>
+        <item>media düymələri</item>
+        <item>audio fokus</item>
+        <item>master həcmi</item>
+        <item>səs həcmi</item>
+        <item>zəng həcmi</item>
+        <item>media həcmi</item>
+        <item>siqnal səsi</item>
+        <item>bildiriş həcmi</item>
+        <item>bluetooth həcmi</item>
+        <item>oyaq saxla</item>
+        <item>məkanı monitor edin</item>
+        <item>yüksək enerji məkanına nəzarət</item>
+        <item>istifadə statistikası al</item>
+        <item>mikrofonu səssiz/səsli et</item>
+        <item>layihə mediası</item>
+        <item>VPN aktivləşdirin</item>
+        <item>yazı divar kağızı</item>
+        <item>köməkçi struktur</item>
+        <item>köməkçi skrinşot</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices">
+        <item>WLAN tərcih edilir</item>
+        <item>Mobil şəbəkə tərcih edilir</item>
+    </string-array>
+    <string-array name="wapi_psk_type">
+        <item>WLAN ASCII</item>
+        <item>WLAN onaltılıq</item>
+    </string-array>
+</resources>

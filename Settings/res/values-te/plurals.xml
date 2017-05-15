@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">మీరు ఇప్పుడు డెవలపర్ కావడానికి %1$d అడుగుల దూరంలో ఉన్నారు.</item>
+        <item quantity="one">మీరు ఇప్పుడు డెవలపర్ కావడానికి %1$d అడుగు దూరంలో ఉన్నారు.</item>
+    </plurals>
+    <plurals name="security_settings_fingerprint_preference_summary">
+        <item quantity="other">వేలుముద్ర అన్‌లాకింగ్ సక్రియ పరచబడింది</item>
+        <item quantity="one">వేలుముద్ర అన్‌లాకింగ్ సక్రియ పరచబడింది</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">పాస్‌వర్డ్ తప్పనిసరిగా కనీసం %d అక్షరాలను కలిగి ఉండాలి.</item>
+        <item quantity="one">పాస్‌వర్డ్ తప్పనిసరిగా కనీసం 1 అక్షరాన్ని కలిగి ఉండాలి.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">పాస్‌వర్డ్ తప్పనిసరిగా కనీసం %d లోయర్‌కేస్ అక్షరాలను కలిగి ఉండాలి.</item>
+        <item quantity="one">పాస్‌వర్డ్ తప్పనిసరిగా కనీసం 1 లోయర్‌కేస్ అక్షరాన్ని కలిగి ఉండాలి.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">పాస్‌వర్డ్ తప్పనిసరిగా కనీసం %d అప్పర్‌కేస్ అక్షరాలను కలిగి ఉండాలి.</item>
+        <item quantity="one">పాస్‌వర్డ్ తప్పనిసరిగా కనీసం 1 అప్పర్‌కేస్ అక్షరాన్ని కలిగి ఉండాలి.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">పాస్‌వర్డ్ తప్పనిసరిగా కనీసం 1 సంఖ్యాత్మక అంకెలను కలిగి ఉండాలి.</item>
+        <item quantity="one">పాస్‌వర్డ్ తప్పనిసరిగా కనీసం 1 సంఖ్యాత్మక అంకెను కలిగి ఉండాలి.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">పాస్‌వర్డ్ తప్పనిసరిగా కనీసం %d ప్రత్యేక చిహ్నాలను కలిగి ఉండాలి.</item>
+        <item quantity="one">పాస్‌వర్డ్ తప్పనిసరిగా కనీసం 1 ప్రత్యేక చిహ్నాన్ని కలిగి ఉండాలి.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">పాస్‌వర్డ్ తప్పనిసరిగా కనీసం %d అక్షరేతర గుర్తులను కలిగి ఉండాలి.</item>
+        <item quantity="one">పాస్‌వర్డ్ తప్పనిసరిగా కనీసం 1 అక్షరేతర గుర్తును కలిగి ఉండాలి.</item>
+    </plurals>
+    <plurals name="wrong_pin_code">
+        <item quantity="other">తప్పు SIM PIN కోడ్, మీకు %d ప్రయత్నాలు మిగిలి ఉన్నాయి.</item>
+        <item quantity="one">తప్పు SIM PIN కోడ్, మీ పరికరాన్ని అన్‌లాక్ చేయడానికి మీరు మీ సర్వీసు ప్రొవైడర్‌ను సంప్రదించే ముందు మీకు %d ప్రయత్నం మిగిలి ఉంది.</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">%d అప్లికేషన్లు నోటిఫికేషన్లను చదవగలవు</item>
+        <item quantity="one">%d అప్లికేషన్ నోటిఫికేషన్లను చదవగలదు</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_minute">
+        <item quantity="other">%1$d నిమిషాల పాటు (%2$s వరకు) అలారాలు మాత్రమే పద్ధతికి మార్చండి</item>
+        <item quantity="one">ఒక నిమిషం పాటు %2$s వరకు అలారాలు మాత్రమే పద్ధతికి మార్చండి</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_hour">
+        <item quantity="other">%1$d గంటల పాటు %2$s వరకు అలారాలు మాత్రమే పద్ధతికి మార్చండి</item>
+        <item quantity="one">ఒక గంట పాటు %2$s వరకు అలారాలు మాత్రమే పద్ధతికి మార్చండి</item>
+    </plurals>
+    <plurals name="permissions_summary">
+        <item quantity="other">%d అనుమతులు ఇవ్వబడ్డాయి</item>
+        <item quantity="one">%d అనుమతి ఇవ్వబడింది</item>
+    </plurals>
+    <plurals name="runtime_permissions_summary">
+        <item quantity="other">%1$d లో %2$d అనుమతులు ఇవ్వబడ్డాయి</item>
+        <item quantity="one">%1$d లో %2$d అనుమతి ఇవ్వబడింది</item>
+    </plurals>
+    <plurals name="runtime_permissions_additional_count">
+        <item quantity="other">%d అదనపు అనుమతులు</item>
+        <item quantity="one">%d అదనపు అనుమతి</item>
+    </plurals>
+    <plurals name="domain_urls_apps_summary">
+        <item quantity="other">%d అప్లికేషన్‌లు వాటి మద్దతు లింకులను తెరవగలవు</item>
+        <item quantity="zero">ఏ అప్లికేషన్ ఎలాంటి మద్దతు లింకును తెరవలేదు</item>
+        <item quantity="one">ఒక అనువర్తనం అది మద్దతిచ్చే లింక్‌లను తెరవగలదు</item>
+    </plurals>
+    <plurals name="high_power_count">
+        <item quantity="other">%d అప్లికేషన్‌లు బ్యాటరీ ఆప్టిమైజేషన్ విస్మరించడానికి అనుమతించబడ్డాయి</item>
+        <item quantity="one">1 అప్లికేషన్ బ్యాటరీ ఆప్టిమైజేషన్ విస్మరించడానికి అనుమతించబడింది</item>
+    </plurals>
+    <plurals name="memory_usage_apps_summary">
+        <item quantity="other">%1$d అప్లికేషన్‌లు గత %2$s లో మెమరీని వినియోగించాయి</item>
+        <item quantity="one">గత %2$sపాటు 1 అప్లికేషన్ మెమరీని ఉపయోగిస్తుంది</item>
+    </plurals>
+    <plurals name="remaining_time_format_days">
+        <item quantity="other">%d రోజులు</item>
+        <item quantity="one">%d రోజు</item>
+    </plurals>
+    <plurals name="remaining_time_format_hours">
+        <item quantity="other">%d గంటలు</item>
+        <item quantity="one">%d గంట</item>
+    </plurals>
+    <plurals name="stamina_xssm_add_applications_descr">
+        <item quantity="other">%d అనువర్తనాలు ప్రస్తుతం జాబితాలో ఉన్నాయి</item>
+        <item quantity="one">%1$d అనువర్తన ప్రస్తుతం జాబితాలో ఉంది</item>
+    </plurals>
+    <plurals name="not_time_left_format_hours">
+        <item quantity="other">%d గంటలు</item>
+        <item quantity="one">%d గంట</item>
+    </plurals>
+    <plurals name="not_time_left_format_minutes">
+        <item quantity="other">%d నిమిషాలు</item>
+        <item quantity="one">%d నిమిషం</item>
+    </plurals>
+    <plurals name="xssm_settings_blacklist_summary_txt">
+        <item quantity="other">%d అప్లికేషన్‌లను ఎంపిక చేశారు</item>
+        <item quantity="one">%d అప్లికేషన్‌ను ఎంపిక చేశారు</item>
+    </plurals>
+</resources>

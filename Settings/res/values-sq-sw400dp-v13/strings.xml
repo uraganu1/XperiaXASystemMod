@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="powersaver_feature_haptic">Dridhja gjatë prekjes joaktive</string>
+    <string name="powersaver_feature_sync">Sinkronizimi automatik joaktiv</string>
+    <string name="powersaver_feature_data">Të dhënat celulare joaktive</string>
+    <string name="powersaver_feature_gamma">Regjimi natën aktiv</string>
+    <string name="powersaver_feature_bravia">Mobile BRAVIA Engine joaktiv</string>
+    <string name="stamina_xssm_add_applications_title">Aplikacionet aktive në gjendje gatishmërie</string>
+    <string name="application_usage_title">Konsumi i energjisë nga aplikacionet</string>
+    <string name="wifi_tether_settings_text">Cilësimet e zonës portative të internetit me valë Wi-Fi</string>
+    <string name="usb_direct_settings_hi_res_audio_title_txt">Audio me rezolucion të lartë me USB</string>
+</resources>

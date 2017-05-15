@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="powersaver_feature_haptic">Bergetar saat disentuh nonaktif</string>
+    <string name="powersaver_feature_sync">Sinkronisasi otomatis nonaktif</string>
+    <string name="powersaver_feature_bravia">Mobile BRAVIA Engine nonaktif</string>
+    <string name="stamina_xssm_add_applications_title">Aplikasi aktif saat siaga</string>
+    <string name="usb_direct_settings_hi_res_audio_title_txt">Audio Res Tinggi lewat USB</string>
+</resources>

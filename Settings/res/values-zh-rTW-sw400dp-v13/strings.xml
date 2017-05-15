@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="powersaver_feature_gamma">開啟夜間模式</string>
+    <string name="powersaver_feature_bravia">關閉Mobile BRAVIA Engine</string>
+    <string name="usb_direct_settings_hi_res_audio_title_txt">透過USB播放高解析度音訊</string>
+</resources>

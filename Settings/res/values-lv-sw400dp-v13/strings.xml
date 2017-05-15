@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="powersaver_feature_haptic">Vibrēšana pieskaroties izslēgta</string>
+    <string name="powersaver_feature_sync">Automātiskā sinhronizācija izslēgta</string>
+    <string name="powersaver_feature_bravia">Mobile BRAVIA Engine 2 izslēgts</string>
+    <string name="stamina_xssm_add_applications_title">Gaidīšanas režīmā aktīvās lietotnes</string>
+    <string name="application_usage_title">Lietotnes enerģijas patēriņš</string>
+    <string name="wifi_tether_settings_text">Portatīva Wi-Fi tīklāja iestatījumi</string>
+    <string name="usb_direct_settings_hi_res_audio_title_txt">Augstas izšķirtspējas audio, izmantojot USB</string>
+    <string name="auto_sync_text">Automātiskā sinhronizācija</string>
+</resources>

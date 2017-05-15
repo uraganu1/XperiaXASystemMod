@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="powersaver_feature_haptic">Vibrazione al tocco disattivata</string>
+    <string name="powersaver_feature_sync">Sincronizzazione automatica disattivata</string>
+    <string name="powersaver_feature_bravia">Mobile BRAVIA Engine non attivo</string>
+    <string name="stamina_queue_background_data_title">Coda dati background</string>
+    <string name="application_usage_title">Consumo energia app</string>
+    <string name="wifi_tether_settings_text">Impostazioni hotspot Wi-Fi portatile</string>
+    <string name="auto_sync_text">Sincronizzazione automatica</string>
+</resources>

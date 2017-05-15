@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">Sada ste na %1$d koraka od toga da postanete projektant</item>
+        <item quantity="one">Sada ste na %1$d korak od toga da postanete projektant</item>
+    </plurals>
+    <plurals name="security_settings_fingerprint_preference_summary">
+        <item quantity="other">Aktivirano je otključavanje otiskom prsta</item>
+        <item quantity="one">Aktivirano je otključavanje otiskom prsta</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">Lozinka mora da sadrži najmanje %d slova</item>
+        <item quantity="one">Lozinka mora da sadrži najmanje 1 slovo</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">Lozinka mora da sadrži najmanje %d malih slova</item>
+        <item quantity="one">Lozinka mora da sadrži najmanje 1 malo slovo</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">Lozinka mora da sadrži najmanje %d velikih slova</item>
+        <item quantity="one">Lozinka mora da sadrži najmanje 1 veliko slovo</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">Lozinka mora da sadrži najmanje %d numeričkih cifara</item>
+        <item quantity="one">Lozinka mora da sadrži najmanje 1 numeričku cifru</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">Lozinka mora da sadrži najmanje %d specijalnih simbola</item>
+        <item quantity="one">Lozinka mora da sadrži najmanje 1 specijalni simbol</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">Lozinka mora da sadrži najmanje %d znakova koji nisu slova</item>
+        <item quantity="one">Lozinka mora da sadrži najmanje 1 znak koji nije slovo</item>
+    </plurals>
+    <plurals name="wrong_pin_code">
+        <item quantity="other">Netačan SIM PIN kôd, preostalo vam je %d pokušaja.</item>
+        <item quantity="one">Netačan SIM PIN kôd, preostao vam je %d pokušaj, a nakon toga moraćete da se obratite dobavljaču usluga radi otključavanja uređaja.</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">Aplikacije (%d) mogu da čitaju obaveštenja</item>
+        <item quantity="one">%d aplikacija može da čita obaveštenja</item>
+    </plurals>
+    <plurals name="remaining_time_format_days">
+        <item quantity="other">%d dana</item>
+        <item quantity="one">%d dan</item>
+    </plurals>
+    <plurals name="remaining_time_format_hours">
+        <item quantity="other">%d časova</item>
+        <item quantity="one">%d čas</item>
+    </plurals>
+    <plurals name="stamina_xssm_add_applications_descr">
+        <item quantity="other">Aplikacija na listi:%d</item>
+        <item quantity="one">Aplikacija na listi: %1$d</item>
+    </plurals>
+    <plurals name="not_time_left_format_hours">
+        <item quantity="other">%d sati</item>
+        <item quantity="one">%d sat</item>
+    </plurals>
+    <plurals name="not_time_left_format_minutes">
+        <item quantity="other">%d minuta</item>
+        <item quantity="one">%d minut</item>
+    </plurals>
+    <plurals name="xssm_settings_blacklist_summary_txt">
+        <item quantity="other">Izabrano aplikacija: %d</item>
+        <item quantity="one">Izabrano aplikacija: %d</item>
+    </plurals>
+    <plurals name="lock_after_timeout_minutes">
+        <item quantity="other">"%1$d minuta "</item>
+        <item quantity="one">"%1$d minut "</item>
+    </plurals>
+</resources>

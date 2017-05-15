@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="app_ops_summaries">
+        <item>ಒರಟು ಸ್ಥಾನ</item>
+        <item>ಉತ್ಕೃಷ್ಟ ಸ್ಥಾನ</item>
+        <item>GPS</item>
+        <item>ಕಂಪನ</item>
+        <item>ಓದುವ ಸಂಪರ್ಕಗಳು</item>
+        <item>ಸಂಪರ್ಕಗಳನ್ನು ಮಾರ್ಪಡಿಸಿ</item>
+        <item>ಕರೆಯ ಲಾಗ್‌ ಓದಿ</item>
+        <item>ಕರೆಯ ಲಾಗ್‌ ಮಾರ್ಪಡಿಸಿ</item>
+        <item>ಕ್ಯಾಲೆಂಡರ್‌ ಓದಿ</item>
+        <item>ಕ್ಯಾಲೆಂಡರ್‌ ಮಾರ್ಪಡಿಸಿ</item>
+        <item>wi-fi ಸ್ಕ್ಯಾನ್‌</item>
+        <item>ಅಧಿಸೂಚನೆ</item>
+        <item>ಸೆಲ್ ಸ್ಕ್ಯಾನ್</item>
+        <item>ಫೋನ್‌‌ಗೆ ಕರೆಮಾಡಿ</item>
+        <item>SMS ಓದಿ</item>
+        <item>SMS ಬರೆಯಿರಿ</item>
+        <item>SMS ಸ್ವೀಕರಿಸಿ</item>
+        <item>ತುರ್ತು SMS ಸ್ವೀಕರಿಸಿ</item>
+        <item>MMS ಸ್ವೀಕರಿಸಿ</item>
+        <item>WAP ಪುಶ್‌ ಸ್ವೀಕರಿಸಿ</item>
+        <item>SMS ಕಳುಹಿಸು</item>
+        <item>ICC SMS ಓದಿ</item>
+        <item>ICC SMS ಬರೆಯಿರಿ</item>
+        <item>ಸೆಟ್ಟಿಂಗ್‌‌ಗಳನ್ನು ಮಾರ್ಪಡಿಸಿ</item>
+        <item>ಮೇಲಕ್ಕೆ ಎಳೆಯಿರಿ</item>
+        <item>ಅಧಿಸೂಚನೆಗಳನ್ನು ಪ್ರವೇಶಿಸಿ</item>
+        <item>ಕ್ಯಾಮರಾ</item>
+        <item>ಆಡಿಯೋ ರೆಕಾರ್ಡ್‌ ಮಾಡಿ</item>
+        <item>ಆಡಿಯೋ ಪ್ಲೇ ಮಾಡಿ</item>
+        <item>ಕ್ಲಿಪ್‌ಬೋರ್ಡ್‌ ಓದಿ</item>
+        <item>ಕ್ಲಿಪ್‌ಬೋರ್ಡ್‌ ಮಾರ್ಪಡಿಸಿ</item>
+        <item>ಮಾಧ್ಯಮ ಬಟನ್‌ಗಳು</item>
+        <item>ಆಡಿಯೋ ಫೋಕಸ್</item>
+        <item>ಮಾಸ್ಟರ್‌ ವಾಲ್ಯೂಮ್</item>
+        <item>ಧ್ವನಿ ವಾಲ್ಯೂಮ್</item>
+        <item>ರಿಂಗ್‌ ವಾಲ್ಯೂಮ್</item>
+        <item>ಮಾಧ್ಯಮ ವಾಲ್ಯೂಮ್</item>
+        <item>ಎಚ್ಚರಿಕೆ ವಾಲ್ಯೂಮ್</item>
+        <item>ಅಧಿಸೂಚನೆ ವಾಲ್ಯೂಮ್</item>
+        <item>bluetooth ವಾಲ್ಯೂಮ್</item>
+        <item>ಎಚ್ಚರವಹಿಸಿ</item>
+        <item>ಪರಿವೀಕ್ಷಣೆ ಸ್ಥಾನ</item>
+        <item>ಪರಿವೀಕ್ಷಣೆಯ ಹೆಚ್ಚಿನ ಸಾಮರ್ಥ್ಯದ ಸ್ಥಾನ</item>
+        <item>ಬಳಕೆ ಅಂಕಿಅಂಶಗಳನ್ನು ಪಡೆಯಿರಿ</item>
+        <item>ಮೈಕ್ರೋಫೋನ್ ಮ್ಯೂಟ್/ಅನ್‌ಮ್ಯೂಟ್ ಮಾಡಿ</item>
+        <item>ಪ್ರಾಜೆಕ್ಟ್ ಮೀಡಿಯಾ</item>
+        <item>VPN ಸಕ್ರಿಯಗೊಳಿಸಿ</item>
+        <item>ವಾಲ್‌ಪೇಪರ್‌ ಬರೆಯಿರಿ</item>
+        <item>ವಿನ್ಯಾಸಕ್ಕೆ ಸಹಾಯ</item>
+        <item>ಸ್ಕ್ರೀನ್‌ಶಾಟ್‌‌ಗೆ ಸಹಾಯ</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices">
+        <item>ವೈ-ಫೈಗೆ ಆದ್ಯತೆ ನೀಡಲಾಗಿದೆ</item>
+        <item>ಸೆಲ್ಯುಲಾರ್‌ಗೆ ಆದ್ಯತೆ ನೀಡಲಾಗಿದೆ</item>
+    </string-array>
+</resources>

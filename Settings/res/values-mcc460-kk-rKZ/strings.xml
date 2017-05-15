@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_disabled_wifi_failure">WLAN байланысының қатесі</string>
+    <string name="connected_via_wfa">WLAN көмекшісі арқылы қосылу орындалды</string>
+    <string name="radio_controls_summary">WLAN, Bluetooth, ұшақ режимін, ұялы желілерді және VPN басқару</string>
+    <string name="wifi_assistant_title">WLAN Assistant</string>
+    <string name="wifi_alert_lockdown_by_device_owner">%1$s құрылғыңызды басқарады және осы WLAN желісін өзгертуге немесе жоюға рұқсат етпейді. Қосымша ақпарат алу үшін, әкімшіңізге хабарласыңыз.</string>
+    <string name="wifi_quick_toggle_title">WLAN</string>
+    <string name="wifi_quick_toggle_summary">WLAN қосу</string>
+    <string name="wifi_settings">WLAN</string>
+    <string name="wifi_settings_category">WLAN параметрлері</string>
+    <string name="wifi_settings_title">WLAN</string>
+    <string name="wifi_setup_wizard_title">WLAN желісін таңдау</string>
+    <string name="wifi_select_network">WLAN желісін таңдау</string>
+    <string name="wifi_starting">WLAN байланысын қосуда…</string>
+    <string name="wifi_stopping">WLAN байланысын өшіруде…</string>
+    <string name="wifi_poor_network_detection_summary">Егер интернет байланысы жақсы болмаса WLAN желісін қолданбаңыз</string>
+    <string name="wifi_automatically_connect_title">WLAN желісін автоматты түрде пайдалану</string>
+    <string name="wifi_automatically_connect_summary">WLAN көмекшісіне сапасы жоғары екені анықталған ашық желілерге автоматты түрде қосылуға мүмкіндік береді</string>
+    <string name="wifi_scan_notify_text">Орынды анықтау дәлдігін жақсарту үшін жүйелік қолданбалар мен қызметтер әлі де WLAN желілерін іздей алады. Мұны LINK_BEGINіздеу параметрлеріндеLINK_END өзгертуге болады.</string>
+    <string name="wifi_setting_sleep_policy_title">Ұйқы кезінде WLAN қосулы болсын</string>
+    <string name="wifi_setting_on_during_sleep_title">Ұйқы режимінде WLAN қосулы</string>
+    <string name="wifi_suspend_optimizations">WLAN жетілдіру</string>
+    <string name="wifi_suspend_optimizations_summary">WLAN қосылғанда батарея қолданысын азайту</string>
+    <string name="wifi_limit_optimizations_summary">WLAN пайдаланатын батареяны шектеу</string>
+    <string name="wifi_switch_away_when_unvalidated">WLAN интернеттен ажыратылса, ұялы деректерге ауысу.</string>
+    <string name="wifi_access_points">WLAN желілері</string>
+    <string name="wifi_menu_p2p">WLAN Direct</string>
+    <string name="wifi_empty_list_wifi_off">Қол жетімді желілерді көру үшін WLAN байланысын қосыңыз.</string>
+    <string name="wifi_empty_list_wifi_on">WLAN желілерін іздеуде…</string>
+    <string name="wifi_empty_list_user_restricted">WLAN желісін өзгертуге рұқсатыңыз жоқ.</string>
+    <string name="wifi_wps_setup_title">WLAN қорғалған орнату</string>
+    <string name="wifi_wps_onstart_pbc">Маршрутизатордағы WLAN Protected Setup түймесін басыңыз. Ол «WPS» деп аталуы немесе мына таңбамен белгіленуі мүмкін:</string>
+    <string name="wifi_wps_onstart_pin">%1$s пин кодын WLAN рутеріне енгізіңіз. Орнатуға екі минут қажет болуы мүмкін.</string>
+    <string name="wifi_wps_connected">%s WLAN желісіне қосылған</string>
+    <string name="wifi_wps_failed_overlap">Басқа WPS (WLAN-қорғалған) сессиясы анықталды. Бірнеше минуттан кейін қайта әрекеттеніңіз.</string>
+    <string name="wifi_ap_band_config">WLAN жиілік ауқымын таңдау</string>
+    <string name="wifi_scan_always_turnon_message">"Аймақ нақтылығын жақсарту және басқа мақсаттар үшін, %1$s қолданбасы желі тексеруді қосуды қалайды, WLAN өшіріліп тұрса да.
+
+Желі тексергісі келетеін барлық қолданбаларға рұқсат берілсін бе?"</string>
+    <string name="wifi_skipped_message">ЕСКЕРТУ: егер WLAN қадамын өткізіп жіберсеңіз, телефон бастапқы жүктеулер және жаңартулар үшін тек ұялы деректерді пайдаланады. Ықтимал деректер ақыларын болдырмау үшін WLAN желісіне қосылыңыз.</string>
+    <string name="wifi_and_mobile_skipped_message">"WLAN желісін реттемесе:
+
+"<li>Телефоныңызда интернет байланысы болмайды.</li>"
+
+"<li>Интернетке қосылғанша бағдарламалық құрал жаңартуларын алмайсыз.</li>"
+
+"<li>Қазір құрылғыны қорғау мүмкіндіктерін белсендіре алмайсыз.</li></string>
+    <string name="wifi_connect_failed_message">Телефон осы WLAN желісіне жалғана алмады.</string>
+    <string name="wifi_advanced_titlebar">Жетілдірілген WLAN</string>
+    <string name="wifi_setting_frequency_band_title">WLAN жиілік жолағы</string>
+    <string name="wifi_p2p_settings_title">WLAN Direct</string>
+    <string name="wifi_tether_checkbox_text">Жиналмалы WLAN хотспот</string>
+    <string name="wifi_hotspot_checkbox_text">WLAN хотспоты</string>
+    <string name="wifi_hotspot_checkbox_text_summary">WLAN желісін қамтамасыз ету үшін ұялы байланысты пайдалану</string>
+    <string name="wifi_tether_failed_subtext">Жиналамалы WLAN хотспот қателігі</string>
+    <string name="wifi_tether_configure_ap_text">WLAN хотспот орнату</string>
+    <string name="wifi_hotspot_configure_ap_text">WLAN хотспотын реттеу</string>
+    <string name="wifi_hotspot_configure_ap_text_summary">AndroidAP WPA2 PSK жылжымалы WLAN хотспоты</string>
+    <string name="wifi_tether_configure_subtext">%1$s %2$s жиналмалы WLAN хотспот</string>
+    <string name="wifi_calling_settings_title">WLAN қоңыраулары</string>
+    <string name="wifi_calling_mode_dialog_title">WLAN қоңырау шалу режимі</string>
+    <string name="wifi_calling_off_explanation">WLAN қоңырау шалу қосулы кезде қалауыңызға және қайсы сигнал күштілігіне байланысты телефоныңыз қоңырауларды WLAN желілері не жабдықтаушы желісі арқылы бағыттауы мүмкін. Бұл мүмкіндікті қосудан бұрын жабдықтаушыңыздың қатысты алымдары мен басқа мәліметтерді тексеріңіз.</string>
+    <string name="status_wifi_mac_address">WLAN MAC мекенжайы</string>
+    <string name="reset_network_desc">"Бұл келесілерді қоса барлық желі параметрлерін қалпына келтіреді:
+
+"<li>WLAN</li>"
+"<li>Ұялы байланыс деректері</li>"
+"<li>Bluetooth</li></string>
+    <string name="network_scorer_change_active_dialog_title">WLAN assistant өзгерту керек пе?</string>
+    <string name="location_mode_high_accuracy_description">Орынды анықтау үшін GPS, WLAN, Bluetooth немесе ұялы желілерді пайдалану</string>
+    <string name="location_mode_battery_saving_description">Орынды анықтау үшін WLAN, Bluetooth немесе ұялы желілерді пайдалану</string>
+    <string name="location_scanning_wifi_always_scanning_title">WLAN іздеу</string>
+    <string name="location_scanning_wifi_always_scanning_description">Орын дәлірек анықталуы үшін жүйелік қолданбаларға және қызметтерге WLAN желілерін толассыз іздеп отыруға рұқсат етіңіз.</string>
+    <string name="location_network_based">WLAN және ұялы желі арқылы орынды анықтау</string>
+    <string name="location_neighborhood_level_wifi">Орын WLAN арқылы анықталды</string>
+    <string name="wifi_verbose_logging">WLAN егжей-тегжейлі журналға тір. қосу</string>
+    <string name="wifi_aggressive_handover">WLAN желісін күштеп ұялыға ауыстыру</string>
+    <string name="wifi_allow_scan_with_traffic">WLAN роумингін іздеулерге әрқашан рұқсат ету</string>
+    <string name="wifi_verbose_logging_summary">WLAN жур. тір. дең. арт., WLAN желісін таңдағышта әр SSID RSSI бойынша көрсету</string>
+    <string name="wifi_aggressive_handover_summary">WLAN сигналы әлсіз болғанда, деректер байланысы мәжбүрлі түрде ұялы желіге ауысады</string>
+    <string name="wifi_allow_scan_with_traffic_summary">Интерфейсте бар деректер трафигінің мөлшерінің негізінде WLAN роумингін іздеулерге рұқсат ету/тыйым салу</string>
+    <string name="mobile_data_always_on_summary">WLAN қосулы кезде де ұялы деректерді белсенді етіп ұстау (желіні жылдам ауыстыру үшін).</string>
+    <string name="battery_stats_wifi_running_label">WLAN</string>
+    <string name="wifi_on_time">WLAN уақытында</string>
+    <string name="bluetooth_on_time">WLAN уақытында</string>
+    <string name="power_wifi">WLAN</string>
+    <string name="usage_type_wifi_running">WLAN айналымы</string>
+    <string name="usage_type_data_wifi_send">WLAN пакеттері жіберілді</string>
+    <string name="usage_type_data_wifi_recv">WLAN пакеттері қабылданды</string>
+    <string name="battery_action_wifi">WLAN параметрлері</string>
+    <string name="battery_desc_wifi">WLAN тұтынған батарея</string>
+    <string name="battery_sugg_wifi">"Қолданыстан тыс  немесе қол жетімсіз болғанда WLAN байланысын өшіру қажет"</string>
+    <string name="gadget_toggle_wifi">WLAN параметрін жаңартуда</string>
+    <string name="gadget_wifi">WLAN</string>
+    <string name="backup_data_summary">Қолданба дерекқоры, WLAN кілтсөздері және басқа параметрлердің сақтық көшірмесін Google серверлеріне сақтаңыз</string>
+    <string name="backup_erase_dialog_message">WLAN құпия сөздері, бетбелгілер, басқа параметрлер мен қолданба деректерінің сақтық көшірмесін жасау процесі тоқтатылып, Google серверлеріндегі көшірмелер жойылсын ба?</string>
+    <string name="fullbackup_erase_dialog_message">Құрылғы деректерінің (мысалы, WLAN құпия сөзі және қоңырау тарихы сияқты) және қолданба деректерінің (мысалы, қолданбалар сақталған параметрлер мен файлдар) сақтық көшірмесін жасауды тоқтатып, Google Drive дискісінен барлық көшірмелерді өшіру керек пе?</string>
+    <string name="fullbackup_data_summary">"Құрылғы деректерінің (мысалы, WLAN құпия сөздері және қоңыраулар тарихы) және қолданба деректерінің (мысалы, қолданбалар сақтайтын параметрлер және файлдар) сақтық көшірмесін қашықтан автоматты түрде жасау.
+
+Сақтық көшірмені автоматты түрде жасау функциясын қоссаңыз, құрылғы және қолданба деректері қашықтан сақталып отырады. Қолданба деректеріне қолданбаға сақталған кез келген дерек (әзірлеуші параметрлеріне байланысты), соның ішінде контактілер, хабарлар және фотосуреттер сияқты құпия деректер жатады."</string>
+    <string name="wifi_setup_title">WLAN орнату</string>
+    <string name="wifi_setup_title_editing_network">%s WLAN желісіне жалғау</string>
+    <string name="wifi_setup_title_connecting_network">%s WLAN желісіне жалғауда…</string>
+    <string name="wifi_setup_title_connected_network">%s WLAN желісіне жалғанған</string>
+    <string name="wifi_setup_eap_not_supported">Орнату кезінде EAP WLAN байланысын конфигурациялау мүмкін емес. Орнату аяқталған соң Параметерлер > Сымсыз &amp; желілер арқылы орындауға болады.</string>
+    <string name="wifi_setup_description_connected">Орнатуды жалғастыру үшін <b>Келесі</b>" пәрменін түртіңіз.
+
+Басқа WLAN желісіне жалғау үшін "<b>Артқа</b> пәрменін түртіңіз.</string>
+    <string name="data_usage_menu_show_wifi">WLAN көрсету</string>
+    <string name="data_usage_menu_hide_wifi">WLAN жасыру</string>
+    <string name="data_usage_disable_wifi_limit">WLAN дерекқор шектеуін реттеу</string>
+    <string name="data_usage_tab_wifi">WLAN</string>
+    <string name="data_usage_restrict_background">Фондық ұялы деректерді шектесеңіз, WLAN желісіне қосылмаған болсаңыз, кейбір қолданбалар мен қызметтер жұмыс істемейді.</string>
+    <string name="data_usage_restrict_background_multiuser">"Фондық ұялы деректерді шектесеңіз, WLAN желісіне қосылмаған болсаңыз, кейбір қолданбалар мен қызметтер жұмыс істемейді.
+
+Бұл параметр осы телефондағы барлық пайдаланушыларға әсер етеді."</string>
+    <string name="data_usage_metered_body">Фондық деректер шектелсе, өлшенетін желілер ұялы ретінде қарастырылады. Осы желілерді үлкен жүктеулер үшін пайдалану алдында қолданбалар ескертуі мүмкін.</string>
+    <string name="data_usage_metered_wifi">Өлшенетін WLAN желілері</string>
+    <string name="data_usage_metered_wifi_disabled">Өлшенетін желілерді таңдау үшін WLAN функциясын қосыңыз.</string>
+    <string name="user_add_user_message_long">"Қосымша пайдаланушыларды жасау арқылы осы құрылғыны басқа адамдармен бөлісуге болады. Әр пайдаланушыда өз кеңістігі бар. Пайдаланушы оны жеке қолданбалармен, экранның артқы фонымен және т.с.с. теңшей алады. Сондай-ақ, пайдаланушылар барлығына әсер ететін WLAN сияқты құрылғы параметрлерін реттей алады.
+
+Жаңа пайдаланушыны қосқанда сол адам өз кеңістігін реттеуі керек.
+
+BREAK_2BREAK_3Кез келген пайдаланушы барлық басқа пайдаланушылар үшін қолданбаларды жаңарта алады."</string>
+    <string name="restriction_wifi_config_title">WLAN және ұялы</string>
+    <string name="restriction_wifi_config_summary">WLAN және ұялы желілерді өзгертуге рұқсат беру</string>
+    <string name="setup_wifi_nfc_tag">WLAN NFC белгісін реттеу</string>
+</resources>

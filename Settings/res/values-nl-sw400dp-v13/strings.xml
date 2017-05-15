@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="powersaver_feature_sync">Auto-synchronisatie uit</string>
+    <string name="powersaver_feature_bravia">Mobile BRAVIA Engine uit</string>
+    <string name="application_usage_title">Stroomverbruik van app</string>
+    <string name="wifi_tether_settings_text">Instellingen draagbare Wi-Fi-hotspot</string>
+    <string name="auto_sync_text">Automatische synchronisatie</string>
+</resources>

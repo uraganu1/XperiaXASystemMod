@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/search_result_item_layout" layout="@layout/search_result_item" />
+    <RelativeLayout android:id="@id/somc_search_result" android:paddingTop="@dimen/somc_search_result_item_padding_top_bottom" android:paddingBottom="@dimen/somc_search_result_item_padding_top_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/somc_search_result_item_padding_start_end" android:paddingEnd="@dimen/somc_search_result_item_padding_start_end">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:ellipsize="marquee" android:id="@id/somc_title" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textAppearance="?android:textAppearanceSmall" android:ellipsize="marquee" android:id="@id/somc_summary" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="4" android:layout_below="@id/somc_title" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/somc_no_match_layout" android:paddingTop="@dimen/somc_search_result_item_padding_top_bottom" android:paddingBottom="@dimen/somc_search_result_item_padding_top_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/somc_search_result_item_padding_start_end" android:paddingEnd="@dimen/somc_search_result_item_padding_start_end">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:ellipsize="marquee" android:id="@id/somc_no_match" android:fadingEdge="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="4" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/somc_header_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textAppearance="@style/TextAppearance.ResultTitle" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/somc_header" android:layout_width="fill_parent" android:layout_height="@dimen/dashboard_category_title_height" android:text="@string/search_results_label" android:singleLine="true" android:textAlignment="viewStart" android:paddingStart="@dimen/search_title_padding_start" />
+    </RelativeLayout>
+</FrameLayout>

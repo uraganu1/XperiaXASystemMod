@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="app_ops_summaries">
+        <item>apytikslė vietovė</item>
+        <item>tiksli vietovė</item>
+        <item>GPS</item>
+        <item>vibruoti</item>
+        <item>skaityti kontaktus</item>
+        <item>keisti kontaktus</item>
+        <item>skaityti skambučių žurnalą</item>
+        <item>keisti skambučių žurnalą</item>
+        <item>skaityti kalendorių</item>
+        <item>keisti kalendorių</item>
+        <item>„WLAN“ žvalgymas</item>
+        <item>pranešimas</item>
+        <item>mobiliųjų telefonų žvalgymas</item>
+        <item>skambinti į telefoną</item>
+        <item>skaityti SMS</item>
+        <item>rašyti SMS</item>
+        <item>gauti SMS</item>
+        <item>gauti nepaprastosios padėties SMS</item>
+        <item>gauti MMS</item>
+        <item>gauti „WAP Push“ pranešimus</item>
+        <item>siųsti SMS</item>
+        <item>skaityti ICC SMS</item>
+        <item>rašyti ICC SMS</item>
+        <item>keisti nustatymus</item>
+        <item>piešti viršuje</item>
+        <item>pasiekti pranešimus</item>
+        <item>fotoaparatas</item>
+        <item>įrašyti garso įrašą</item>
+        <item>leisti garso įrašą</item>
+        <item>skaityti iškarpinę</item>
+        <item>keisti iškarpinę</item>
+        <item>medijos mygtukai</item>
+        <item>garso sutelktis</item>
+        <item>pagrindinis garsumas</item>
+        <item>balso garsumas</item>
+        <item>skambučio garsumas</item>
+        <item>medijos garsumas</item>
+        <item>signalo garsumas</item>
+        <item>pranešimų garsumas</item>
+        <item>„Bluetooth“ garsumas</item>
+        <item>neužmigdyti</item>
+        <item>stebėti vietovę</item>
+        <item>stebėti didelė galia vietovė</item>
+        <item>gauti naudojimo statistiką</item>
+        <item>nutildyti / įjungti mikrofono garsą</item>
+        <item>projektuoti mediją</item>
+        <item>suaktyvinti VPN</item>
+        <item>Rašymo ekrano fonas</item>
+        <item>pagalbinė struktūra</item>
+        <item>pagalbinė ekrano kopija</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices">
+        <item>Pageidautinas „WLAN“ ryšys</item>
+        <item>Pageidautinas mobilusis ryšys</item>
+    </string-array>
+    <string-array name="wapi_psk_type">
+        <item>WLAN ASCII</item>
+        <item>WLAN hexadecimal</item>
+    </string-array>
+</resources>

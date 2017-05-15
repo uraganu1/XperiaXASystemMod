@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="app_ops_summaries">
+        <item>موقعیت مکانی غیردقیق</item>
+        <item>موقعیت مکانی دقیق</item>
+        <item>‏GPS</item>
+        <item>لرزش</item>
+        <item>خواندن مخاطبین</item>
+        <item>اصلاح مخاطبین</item>
+        <item>خواندن گزارش تماس</item>
+        <item>اصلاح گزارش تماس</item>
+        <item>خواندن تقویم</item>
+        <item>اصلاح تقویم</item>
+        <item>‏جستجوی شبکه WLAN</item>
+        <item>اعلان</item>
+        <item>جستجوی شبکه سلولی</item>
+        <item>تماس تلفنی</item>
+        <item>خواندن پیامک</item>
+        <item>نوشتن پیامک</item>
+        <item>دریافت پیامک</item>
+        <item>دریافت پیامک‌های اضطراری</item>
+        <item>‏دریافت MMS</item>
+        <item>‏دریافت پیام ارسال داده WAP</item>
+        <item>ارسال پیامک</item>
+        <item>‏خواندن پیامک ICC</item>
+        <item>‏نوشتن پیامک ICC</item>
+        <item>اصلاح تنظیمات</item>
+        <item>در بالا طراحی کنید</item>
+        <item>اعلان‌های دسترسی</item>
+        <item>دوربین</item>
+        <item>ضبط صدا</item>
+        <item>پخش صدا</item>
+        <item>خواندن کلیپ بورد</item>
+        <item>اصلاح کلیپ‌بورد</item>
+        <item>دکمه‌های رسانه‌ای</item>
+        <item>فوکوس صدا</item>
+        <item>میزان کنترل</item>
+        <item>میزان صدا</item>
+        <item>حجم حلقه</item>
+        <item>میزان صدای رسانه</item>
+        <item>میزان صدای هشدار</item>
+        <item>میزان صدای اعلان</item>
+        <item>میزان صدای بلوتوث</item>
+        <item>بیدار باش</item>
+        <item>کنترل موقعیت مکانی</item>
+        <item>کنترل مکان پرقدرت</item>
+        <item>دریافت آمار استفاده</item>
+        <item>صدادار/بی‌صدا کردن میکروفن</item>
+        <item>فرستادن رسانه</item>
+        <item>‏فعال کردن VPN</item>
+        <item>نوشتن کاغذدیواری</item>
+        <item>دستیار ساختار</item>
+        <item>دستیار عکس صفحه‌نمایش</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices">
+        <item>‏WLAN ترجیحی</item>
+        <item>شبکه همراه ترجیحی</item>
+    </string-array>
+    <string-array name="wapi_psk_type">
+        <item>‏WLAN ASCII</item>
+        <item>‏WLAN hexadecimal</item>
+    </string-array>
+</resources>

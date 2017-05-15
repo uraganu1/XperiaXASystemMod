@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="powersaver_feature_haptic">Vibrace při dotyku - vypnuto</string>
+    <string name="powersaver_feature_sync">Automatická synchronizace - vypnuto</string>
+    <string name="powersaver_feature_gamma">Noční režim - zapnuto</string>
+    <string name="powersaver_feature_bravia">Mobile BRAVIA Engine vypnuto</string>
+    <string name="stamina_queue_background_data_title">Zařazovat data na pozadí do fronty</string>
+    <string name="stamina_xssm_add_applications_title">Aplikace aktivní v pohotovostním režimu</string>
+    <string name="application_usage_title">Spotřeba energie aplikacemi</string>
+    <string name="wifi_tether_settings_text">Nastavení přenosného přístupového bodu Wi-Fi</string>
+    <string name="auto_sync_text">Automatická synchronizace</string>
+</resources>

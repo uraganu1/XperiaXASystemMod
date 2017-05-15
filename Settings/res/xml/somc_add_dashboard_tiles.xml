@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dashboard-categories
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dashboard-category>
+        <dashboard-tile android:icon="@drawable/ic_settings_airplane" android:title="@string/airplane_mode">
+            <extra android:name="extra_after_id" android:value="wireless_section" />
+            <extra android:name="extra_depend_on_is_owner_only" android:value="false" />
+        </dashboard-tile>
+        <dashboard-tile android:icon="@drawable/ic_settings_connectivity" android:id="@id/xperia_connectivity_settings" android:title="@string/device_connection" android:fragment="com.sonymobile.settings.GenericSettingsFragment">
+            <extra android:name="extra_after_id" android:value="data_usage_settings" />
+            <extra android:name="extra_depend_on_is_owner_only" android:value="false" />
+            <extra android:name="extra_fragment_preference_xml" android:value="xperia_connectivity_settings" />
+            <extra android:name="extra_fragment_help_resource" android:value="help_url_xperia_connectivity" />
+        </dashboard-tile>
+        <dashboard-tile android:icon="@drawable/ic_settings_personalization" android:id="@id/themes_settings" android:title="@string/theme_label_xperia">
+            <extra android:name="extra_depend_on_is_valid_intent" android:value="true" />
+            <extra android:name="extra_after_id" android:value="themes_section" />
+            <extra android:name="extra_depend_on_is_owner_only" android:value="false" />
+            <intent android:targetPackage="com.sonymobile.runtimeskinning.core" android:targetClass="com.sonymobile.runtimeskinning.picker.SkinPickerActivity" />
+        </dashboard-tile>
+        <dashboard-tile android:icon="@drawable/ic_settings_wallpaper" android:title="@string/wallpaper_settings_title">
+            <extra android:name="extra_depend_on_is_valid_intent" android:value="true" />
+            <extra android:name="extra_after_id" android:value="themes_section" />
+            <extra android:name="extra_depend_on_is_owner_only" android:value="false" />
+            <intent android:targetPackage="com.sonyericsson.lockscreen.uxpnxt" android:action="com.sonymobile.settings.intent.action.SET_HOME_OR_LOCKSCREEN_WALLPAPER" android:targetClass="com.sonymobile.lockscreen.wallpaper.SetHomeOrLockscreenWallpaperActivity" />
+        </dashboard-tile>
+        <dashboard-tile android:icon="@drawable/ic_settings_call" android:id="@id/call_settings" android:title="@string/call_settings_title">
+            <extra android:name="extra_depend_on_is_voice_capable" android:value="true" />
+            <extra android:name="extra_after_title" android:value="user_settings_title" />
+            <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.android.phone.CallFeaturesSetting" />
+        </dashboard-tile>
+        <dashboard-tile android:icon="@drawable/ic_settings_introduction" android:id="@id/introduction_to_xperia" android:title="@string/gettoknowit_settings_title_v2">
+            <extra android:name="extra_depend_on_is_valid_intent" android:value="true" />
+            <extra android:name="extra_after_id" android:value="system_section" />
+            <extra android:name="extra_depend_on_is_owner_only" android:value="false" />
+            <intent android:targetPackage="com.sonymobile.gettoknowit" android:action="com.sonymobile.gettoknowit.LAUNCH_FROM_SETTINGS" android:targetClass="com.sonymobile.gettoknowit.main.MainActivity" />
+        </dashboard-tile>
+        <dashboard-tile android:icon="@drawable/ic_settings_anti_spamming" android:id="@id/anti_spamming" android:title="@string/anti_spam_app_name_settings_txt">
+            <extra android:name="extra_depend_on_is_valid_intent" android:value="true" />
+            <extra android:name="extra_after_id" android:value="security_settings" />
+            <extra android:name="extra_depend_on_is_owner_only" android:value="true" />
+            <intent android:targetPackage="com.sonymobile.numberassistant" android:action="android.intent.action.MAIN" android:targetClass="com.sonymobile.numberassistant.AntiSpammingActivity" />
+        </dashboard-tile>
+        <dashboard-tile android:icon="@drawable/ic_settings_support" android:id="@id/support" android:title="@string/support_settings_title">
+            <extra android:name="extra_depend_on_is_valid_intent" android:value="true" />
+            <extra android:name="extra_after_id" android:value="about_settings" />
+            <intent android:targetPackage="com.sonymobile.support" android:action="android.intent.action.VIEW" android:targetClass="com.sonymobile.support.InAppSupport" />
+        </dashboard-tile>
+        <dashboard-tile android:icon="@drawable/ic_settings_storage" android:id="@id/smart_cleaner_settings" android:title="@string/settings_storage_memory_title_txt">
+            <extra android:name="extra_replace_id" android:value="storage_settings" />
+            <extra android:name="extra_depend_on_is_owner_only" android:value="false" />
+            <intent android:targetPackage="com.sonymobile.smartcleaner" android:action="android.intent.action.MAIN" android:targetClass="com.sonymobile.smartcleaner.StorageAndMemorySettings" />
+        </dashboard-tile>
+    </dashboard-category>
+</dashboard-categories>

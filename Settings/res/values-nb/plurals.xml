@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">Du er nå %1$d trinn fra å bli en utvikler.</item>
+        <item quantity="one">Du er nå %1$d trinn fra å bli en utvikler.</item>
+    </plurals>
+    <plurals name="security_settings_fingerprint_preference_summary">
+        <item quantity="other">Fingeravtrykksopplåsing aktivert</item>
+        <item quantity="one">Fingeravtrykksopplåsing aktivert</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">Passordet må inneholde minst %d bokstaver</item>
+        <item quantity="one">Passordet må inneholde minst én bokstav.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">Passordet må inneholde minst %d små bokstaver.</item>
+        <item quantity="one">Passordet må inneholde minst én liten bokstav.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">Passordet må inneholde minst %d store bokstaver.</item>
+        <item quantity="one">Passordet må inneholde minst én stor bokstav.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">Passordet må inneholde minst %d sifre.</item>
+        <item quantity="one">Passordet må inneholde minst ett siffer.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">Passordet må inneholde minst %d spesialtegn.</item>
+        <item quantity="one">Passordet må inneholde minst ett spesialtegn.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">Passordet må inneholde minst %d tegn som ikke er bokstaver.</item>
+        <item quantity="one">Passordet må inneholde minst ett tegn som ikke er en bokstav.</item>
+    </plurals>
+    <plurals name="wrong_pin_code">
+        <item quantity="other">Feil PIN-kode for SIM-kortet. Du har %d forsøk igjen.</item>
+        <item quantity="one">Feil PIN-kode for SIM-kortet. Du har %d forsøk igjen før du må kontakte operatøren din for å låse opp enheten.</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">%d apper kan lese varsler</item>
+        <item quantity="one">%d app kan lese varsler</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_minute">
+        <item quantity="other">Endre til bare alarmer i %1$d minutter (til %2$s)</item>
+        <item quantity="one">Endre til bare alarmer i ett minutt til %2$s</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_hour">
+        <item quantity="other">Endre til bare alarmer i %1$d timer til %2$s</item>
+        <item quantity="one">Endre til bare alarmer i én time til %2$s</item>
+    </plurals>
+    <plurals name="permissions_summary">
+        <item quantity="other">%d tillatelser gitt</item>
+        <item quantity="one">%d tillatelse gitt</item>
+    </plurals>
+    <plurals name="runtime_permissions_summary">
+        <item quantity="other">%1$d av %2$d tillatelser gitt</item>
+        <item quantity="one">%1$d av %2$d tillatelse gitt</item>
+    </plurals>
+    <plurals name="runtime_permissions_additional_count">
+        <item quantity="other">%d ekstra tillatelser</item>
+        <item quantity="one">%d ekstra tillatelse</item>
+    </plurals>
+    <plurals name="domain_urls_apps_summary">
+        <item quantity="other">%d apper kan åpne deres støttede koblinger</item>
+        <item quantity="zero">Ingen app kan åpne noen støttede koblinger</item>
+        <item quantity="one">Én app kan åpne de støttede linkene sine</item>
+    </plurals>
+    <plurals name="high_power_count">
+        <item quantity="other">%d apper tillatt å ignorere batterioptimalisering</item>
+        <item quantity="one">1 app tillatt å ignorere batterioptimalisering</item>
+    </plurals>
+    <plurals name="memory_usage_apps_summary">
+        <item quantity="other">%1$d apper brukte minnet i de siste %2$s</item>
+        <item quantity="one">1 app brukte minnet i de siste %2$s</item>
+    </plurals>
+    <plurals name="remaining_time_format_days">
+        <item quantity="other">%d dager</item>
+        <item quantity="one">%d dag</item>
+    </plurals>
+    <plurals name="remaining_time_format_hours">
+        <item quantity="other">%d timer</item>
+        <item quantity="one">%d time</item>
+    </plurals>
+    <plurals name="stamina_xssm_add_applications_descr">
+        <item quantity="other">Listen inneholder for tiden %d apper</item>
+        <item quantity="one">Listen inneholder for tiden %1$d app</item>
+    </plurals>
+    <plurals name="not_time_left_format_hours">
+        <item quantity="other">%d timer</item>
+        <item quantity="one">%d time</item>
+    </plurals>
+    <plurals name="not_time_left_format_minutes">
+        <item quantity="other">%d minutter</item>
+        <item quantity="one">%d minutt</item>
+    </plurals>
+    <plurals name="xssm_settings_blacklist_summary_txt">
+        <item quantity="other">%d apper valgt</item>
+        <item quantity="one">%d app valgt</item>
+    </plurals>
+</resources>

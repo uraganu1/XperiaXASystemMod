@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="powersaver_feature_haptic">Dezactivare vibrare la atingere</string>
+    <string name="powersaver_feature_sync">Dezactivare sincronizare automată</string>
+    <string name="powersaver_feature_data">Dezactivare date telefon mobil</string>
+    <string name="powersaver_feature_bravia">Mobile BRAVIA Engine oprit</string>
+    <string name="stamina_xssm_add_applications_title">Aplicaţii active în regim aşteptare</string>
+    <string name="application_usage_title">Consum de energie aplicaţie</string>
+</resources>

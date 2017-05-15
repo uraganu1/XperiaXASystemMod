@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/battery_settings_actionbar_title" android:key="stamina_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.sonymobile.settings.stamina.StaminaPreferenceCategory android:title="@string/battery_level_estimated_time_title" />
+    <com.sonymobile.settings.stamina.StaminaPreferenceCategory android:title="@string/battery_header_power_saving" android:key="power_save" />
+    <com.sonymobile.settings.stamina.StaminaPreference android:key="stamina" settings:staminaPrefTitle="@string/extended_standby_mode_label" settings:staminaPrefSummary="@string/battery_list_stamina_mode_desc" settings:staminaPrefIcon="@drawable/battery_stamina_mode_icn" />
+    <com.sonymobile.settings.stamina.StaminaPreference android:key="usm" settings:staminaPrefTitle="@string/usm_item_label" settings:staminaPrefSummary="@string/battery_list_usm_desc" settings:staminaPrefIcon="@drawable/battery_ultra_stamina_mode_icn" />
+</PreferenceScreen>

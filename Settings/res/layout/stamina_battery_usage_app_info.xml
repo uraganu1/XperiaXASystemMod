@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/settings_side_margin" android:paddingEnd="@dimen/settings_side_margin">
+        <TextView android:id="@id/title" android:paddingTop="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/apps_info_title" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" style="@style/TextAppearance.CategoryTitle" />
+        <TextView android:id="@id/descr_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/unused_apps_info_description" android:maxLines="4" style="@style/StaminaItemDescr" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/unused_buttons" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+            <Button android:id="@id/restrict" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/unused_apps_info_restrict" android:layout_weight="1.0" />
+            <Button android:id="@id/uninstall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/apps_info_uninstall" android:layout_weight="1.0" />
+        </LinearLayout>
+        <TextView android:id="@id/activity_title" android:paddingTop="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/apps_info_details_title" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" style="@style/TextAppearance.CategoryTitle" />
+        <TableLayout android:paddingTop="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:stretchColumns="*" android:shrinkColumns="*" android:paddingStart="16.0dip" android:paddingEnd="16.0dip">
+            <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:id="@id/last_used" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="0" android:text="@string/unused_apps_last_used_date" style="@style/StaminaAppUsageDetails" />
+                <TextView android:gravity="end" android:id="@id/last_used_data" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_column="1" android:text="@string/unused_apps_last_used_date" style="@style/StaminaAppUsageDetails" />
+            </TableRow>
+            <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:id="@id/install_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="0" android:text="@string/unused_apps_install_date" style="@style/StaminaAppUsageDetails" />
+                <TextView android:gravity="end" android:id="@id/install_date_data" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_column="1" android:text="@string/unused_apps_install_date" style="@style/StaminaAppUsageDetails" />
+            </TableRow>
+            <TableRow android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:id="@id/data_traffic" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_column="0" android:text="@string/unused_apps_info_data" style="@style/StaminaAppUsageDetails" />
+                <TextView android:gravity="end" android:id="@id/data_traffic_data" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_column="1" android:text="@string/unused_apps_info_data" style="@style/StaminaAppUsageDetails" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</ScrollView>

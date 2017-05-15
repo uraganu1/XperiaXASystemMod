@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">Anda kini %1$d langkah daripada menjadi pemaju.</item>
+        <item quantity="one">Anda kini %1$d langkah daripada menjadi pemaju.</item>
+    </plurals>
+    <plurals name="security_settings_fingerprint_preference_summary">
+        <item quantity="other">Membuka kunci cap jari diaktifkan</item>
+        <item quantity="one">Membuka kunci cap jari diaktifkan</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">Kata laluan mesti mengandungi sekurang-kurangnya %d huruf.</item>
+        <item quantity="one">Kata laluan mesti mengandungi sekurang-kurangnya 1 huruf.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">Kata laluan mesti mengandungi sekurang-kurangnya %d huruf kecil.</item>
+        <item quantity="one">Kata laluan mesti mengandungi sekurang-kurangnya 1 huruf kecil.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">Kata laluan mesti mengandungi sekurang-kurangnya %d huruf besar.</item>
+        <item quantity="one">Kata laluan mesti mengandungi sekurang-kurangnya 1 huruf besar.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">Kata laluan mesti mengandungi sekurang-kurangnya %d digit angka.</item>
+        <item quantity="one">Kata laluan mesti mengandungi sekurang-kurangnya 1 digit angka.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">Kata laluan mesti mengandungi sekurang-kurangnya %d simbol khas.</item>
+        <item quantity="one">Kata laluan mesti mengandungi sekurang-kurangnya 1 simbol khas.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">Kata laluan mesti mengandungi sekurang-kurangnya %d aksara bukan huruf.</item>
+        <item quantity="one">Kata laluan mesti mengandungi sekurang-kurangnya 1 aksara bukan huruf.</item>
+    </plurals>
+    <plurals name="wrong_pin_code">
+        <item quantity="other">Kod PIN SIM salah, anda mempunyai %d baki percubaan.</item>
+        <item quantity="one">Kod PIN SIM salah, anda mempunyai %d baki percubaan sebelum anda perlu menghubungi pembekal perkhidmatan anda untuk membuka kunci peranti anda.</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">%d apl boleh membaca pemberitahuan</item>
+        <item quantity="one">%d apl boleh membaca pemberitahuan</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_minute">
+        <item quantity="other">Ubah ke penggera sahaja selama %1$d minit (sehingga %2$s)</item>
+        <item quantity="one">Ubah ke penggera sahaja selama seminit sehingga %2$s</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_hour">
+        <item quantity="other">Ubah ke penggera sahaja selama %1$d jam sehingga %2$s</item>
+        <item quantity="one">Ubah ke penggera sahaja selama satu jam sehingga %2$s</item>
+    </plurals>
+    <plurals name="permissions_summary">
+        <item quantity="other">%d kebenaran diberikan</item>
+        <item quantity="one">%d kebenaran diberikan</item>
+    </plurals>
+    <plurals name="runtime_permissions_summary">
+        <item quantity="other">%1$d daripada %2$d kebenaran diberikan</item>
+        <item quantity="one">%1$d daripada %2$d kebenaran diberikan</item>
+    </plurals>
+    <plurals name="runtime_permissions_additional_count">
+        <item quantity="other">%d kebenaran tambahan</item>
+        <item quantity="one">%d kebenaran tambahan</item>
+    </plurals>
+    <plurals name="domain_urls_apps_summary">
+        <item quantity="other">%d aplikasi boleh membuka pautan yang disokong</item>
+        <item quantity="zero">Tiada aplikasi yang boleh membuka sebarang pautan yang disokong</item>
+        <item quantity="one">Satu apl dapat membuka pautan sokongannya</item>
+    </plurals>
+    <plurals name="high_power_count">
+        <item quantity="other">%d dibenarkan untuk mengabaikan pengoptimuman bateri</item>
+        <item quantity="one">1 alikasi dibenarkan untuk mengabaikan pengoptimuman bateri</item>
+    </plurals>
+    <plurals name="memory_usage_apps_summary">
+        <item quantity="other">%1$d aplikasi telah menggunakan memori dalam %2$s terakhir</item>
+        <item quantity="one">1 aplikasi telah menggunakan memori dalam %2$s terakhir</item>
+    </plurals>
+    <plurals name="remaining_time_format_days">
+        <item quantity="other">%d hari</item>
+        <item quantity="one">%d hari</item>
+    </plurals>
+    <plurals name="remaining_time_format_hours">
+        <item quantity="other">%d jam</item>
+        <item quantity="one">%d jam</item>
+    </plurals>
+    <plurals name="stamina_xssm_add_applications_descr">
+        <item quantity="other">%d aplikasi dalam senarai</item>
+        <item quantity="one">%1$d aplikasi dalam senarai</item>
+    </plurals>
+    <plurals name="not_time_left_format_hours">
+        <item quantity="other">%d jam</item>
+        <item quantity="one">%d jam</item>
+    </plurals>
+    <plurals name="not_time_left_format_minutes">
+        <item quantity="other">%d minit</item>
+        <item quantity="one">%d minit</item>
+    </plurals>
+    <plurals name="xssm_settings_blacklist_summary_txt">
+        <item quantity="other">%d apl dipilih</item>
+        <item quantity="one">%d apl dipilih</item>
+    </plurals>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="powersaver_feature_sync">Desactivada sincronización automática</string>
+    <string name="powersaver_feature_data">Desactivar datos celulares</string>
+    <string name="powersaver_feature_bravia">Mobile BRAVIA Engine desactivado</string>
+    <string name="stamina_xssm_add_applications_title">Aplicaciones activas en espera</string>
+    <string name="application_usage_title">Consumo de energía de aplicaciones</string>
+    <string name="keep_lockscreen_notifications_title">Mantener notificaciones en pantalla de bloqueo</string>
+    <string name="spell_checker_not_present">No hay aplicaciones de revisión ortográfica instaladas</string>
+    <string name="wifi_tether_settings_text">Ajustes de la zona activa portátil de Wi-Fi</string>
+    <string name="auto_sync_text">Sincronización automática</string>
+</resources>

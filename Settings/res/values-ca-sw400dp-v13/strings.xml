@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="powersaver_feature_haptic">Atura vibració en tocar</string>
+    <string name="powersaver_feature_sync">Atura sincronització automàtica</string>
+    <string name="powersaver_feature_data">Atura les dades mòbils</string>
+    <string name="powersaver_feature_gamma">Inicia el mode nocturn</string>
+    <string name="powersaver_feature_bravia">Mobile BRAVIA Engine desactivat</string>
+    <string name="application_usage_title">"Consum d'energia de les aplicacions"</string>
+    <string name="wifi_tether_settings_text">Paràmetres del punt de connexió de Wi-Fi portàtil</string>
+    <string name="auto_sync_text">Sincronització automàtica</string>
+</resources>

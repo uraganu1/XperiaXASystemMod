@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="app_ops_summaries">
+        <item>прыблізнае месцазнаходжанне</item>
+        <item>дакладнае месцазнаходжанне</item>
+        <item>GPS</item>
+        <item>вібрыраваць</item>
+        <item>прачытаць кантакты</item>
+        <item>змяніць кантакты</item>
+        <item>прачытаць журнал выклікаў</item>
+        <item>змяніць журнал выклікаў</item>
+        <item>прачытаць каляндар</item>
+        <item>змяніць каляндар</item>
+        <item>Сканаванне WLAN</item>
+        <item>апавяшчэнне</item>
+        <item>сканаванне сеткі</item>
+        <item>тэлефонны выклік</item>
+        <item>прачытаць SMS</item>
+        <item>напісаць SMS</item>
+        <item>атрымаць SMS</item>
+        <item>атрымаць экстранную SMS</item>
+        <item>атрымаць MMS</item>
+        <item>атрымаць паведамленне WAP</item>
+        <item>даслаць SMS</item>
+        <item>прачытаць ICC SMS</item>
+        <item>напісаць ICC SMS</item>
+        <item>змяніць налады</item>
+        <item>намаляваць паверх</item>
+        <item>паведамленні доступу</item>
+        <item>камера</item>
+        <item>запіс аўдыё</item>
+        <item>прайграць аўдыё</item>
+        <item>прачытаць буфер абмену</item>
+        <item>змяніць буфер абмену</item>
+        <item>кнопкі мультымедыя</item>
+        <item>аўдыёфакусіроўка</item>
+        <item>рэгулятар гучнасці</item>
+        <item>гучнасць голасу</item>
+        <item>гучнасць сігналу выкліку</item>
+        <item>гучнасць мультымедыя</item>
+        <item>гучнасць будзільніка</item>
+        <item>гучнасць апавяшчэнняў</item>
+        <item>гучнасць Bluetooth</item>
+        <item>не драміце</item>
+        <item>месцазнаходжане манітора</item>
+        <item>манітор высокага напружання</item>
+        <item>атрымаць статыстыку выкарыстання</item>
+        <item>адключыць/уключыць мікрафон</item>
+        <item>праектаваць медыя</item>
+        <item>актываваць VPN</item>
+        <item>запісаць фонавы малюнак</item>
+        <item>дапамагаць структуры</item>
+        <item>дапамагаць здымкам экрана</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices">
+        <item>Пераважна WLAN</item>
+        <item>Пераважна сотавая</item>
+    </string-array>
+    <string-array name="wapi_psk_type">
+        <item>WLAN ASCII</item>
+        <item>WLAN шаснаццатковы</item>
+    </string-array>
+</resources>

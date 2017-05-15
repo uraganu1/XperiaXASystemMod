@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">您只需完成剩餘的 %1$d 個步驟，即可成為開發人員。</item>
+        <item quantity="one">您只需完成剩餘的 %1$d 個步驟，即可成為開發人員。</item>
+    </plurals>
+    <plurals name="security_settings_fingerprint_preference_summary">
+        <item quantity="other">已啟用指紋解鎖</item>
+        <item quantity="one">已啟用指紋解鎖</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">密碼至少必須包含 %d 個字母。</item>
+        <item quantity="one">密碼至少必須包含 1 個字母。</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">密碼至少必須包含 %d 個小寫字母。</item>
+        <item quantity="one">密碼至少必須包含 1 個小寫字母。</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">密碼至少必須包含 %d 個大寫字母。</item>
+        <item quantity="one">密碼至少必須包含 1 個大寫字母。</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">密碼至少必須包含 %d 個數字。</item>
+        <item quantity="one">密碼至少必須包含 1 個數字。</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">密碼至少必須包含 %d 個特殊符號。</item>
+        <item quantity="one">密碼至少必須包含 1 個特殊符號。</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">密碼至少必須包含 %d 個非字母字元。</item>
+        <item quantity="one">密碼至少必須包含 1 個非字母字元。</item>
+    </plurals>
+    <plurals name="wrong_pin_code">
+        <item quantity="other">SIM卡PIN碼不正確，您還可以嘗試%d次。</item>
+        <item quantity="one">SIM卡PIN碼不正確，您還可以嘗試%d次。如果仍然失敗，就必須連絡服務供應商才能為裝置解鎖。</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">%d個應用程式可以讀取通知</item>
+        <item quantity="one">%d個應用程式可以讀取通知</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_minute">
+        <item quantity="other">變更為鬧鐘模式，持續%1$d分鐘(結束時間為%2$s)</item>
+        <item quantity="one">變更為鬧鐘模式持續一分鐘，結束時間為%2$s</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_hour">
+        <item quantity="other">變更為鬧鐘模式，持續%1$d小時，結束時間為%2$s</item>
+        <item quantity="one">變更為鬧鐘模式持續一小時，結束時間為%2$s</item>
+    </plurals>
+    <plurals name="permissions_summary">
+        <item quantity="other">已授予%d個權限</item>
+        <item quantity="one">已授予%d個權限</item>
+    </plurals>
+    <plurals name="runtime_permissions_summary">
+        <item quantity="other">已授予%1$d個權限中的%2$d個</item>
+        <item quantity="one">已授予%1$d個權限中的%2$d個</item>
+    </plurals>
+    <plurals name="runtime_permissions_additional_count">
+        <item quantity="other">%d個額外權限</item>
+        <item quantity="one">%d個額外權限</item>
+    </plurals>
+    <plurals name="domain_urls_apps_summary">
+        <item quantity="other">%d個應用程式可以開啟其支援的連結</item>
+        <item quantity="zero">沒有應用程式可以開啟任何支援的連結</item>
+        <item quantity="one">1 個應用程式可以開啟支援的連結</item>
+    </plurals>
+    <plurals name="high_power_count">
+        <item quantity="other">%d個應用程式可忽略電池效能最佳化設定</item>
+        <item quantity="one">1個應用程式可忽略電池效能最佳化設定</item>
+    </plurals>
+    <plurals name="memory_usage_apps_summary">
+        <item quantity="other">%1$d個應用程式在過去%2$s使用了記憶體</item>
+        <item quantity="one">1個應用程式在過去%2$s使用了記憶體</item>
+    </plurals>
+    <plurals name="remaining_time_format_days">
+        <item quantity="other">%d天</item>
+        <item quantity="one">%d天</item>
+    </plurals>
+    <plurals name="remaining_time_format_hours">
+        <item quantity="other">%d小時</item>
+        <item quantity="one">%d小時</item>
+    </plurals>
+    <plurals name="stamina_xssm_add_applications_descr">
+        <item quantity="other">目前清單中有%d個應用程式</item>
+        <item quantity="one">目前清單中有%1$d個應用程式</item>
+    </plurals>
+    <plurals name="not_time_left_format_hours">
+        <item quantity="other">%d小時</item>
+        <item quantity="one">%d小時</item>
+    </plurals>
+    <plurals name="not_time_left_format_minutes">
+        <item quantity="other">%d分鐘</item>
+        <item quantity="one">%d分鐘</item>
+    </plurals>
+    <plurals name="xssm_settings_blacklist_summary_txt">
+        <item quantity="other">已選取%d個應用程式</item>
+        <item quantity="one">已選取%d個應用程式</item>
+    </plurals>
+</resources>

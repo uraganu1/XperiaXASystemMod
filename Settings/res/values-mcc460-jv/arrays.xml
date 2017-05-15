@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="app_ops_summaries">
+        <item>panggonan sawetara</item>
+        <item>panggonan sing cetha</item>
+        <item>GPS</item>
+        <item>kedher</item>
+        <item>maca kontak</item>
+        <item>owahi kontak</item>
+        <item>maca dhaptar telpon</item>
+        <item>owahi log telpon</item>
+        <item>maca tanggalan</item>
+        <item>owahi tanggalan</item>
+        <item>Pindai WLAN</item>
+        <item>kabar</item>
+        <item>pindai seluler</item>
+        <item>telpon</item>
+        <item>maca SMS</item>
+        <item>nulis SMS</item>
+        <item>tampa SMS</item>
+        <item>tampa SMS dharurat</item>
+        <item>tampa MMS</item>
+        <item>tampa WAP push</item>
+        <item>kirim SMS</item>
+        <item>maca ICC SMS</item>
+        <item>nulis ICC SMS</item>
+        <item>owahi setelan</item>
+        <item>gambar ing ndhuwur</item>
+        <item>kabar akses</item>
+        <item>kamera</item>
+        <item>rekam audio</item>
+        <item>puter audio</item>
+        <item>maca papan klip</item>
+        <item>owahi papan klip</item>
+        <item>tombol media</item>
+        <item>fokus audio</item>
+        <item>volume utama</item>
+        <item>volume swara</item>
+        <item>volume dering</item>
+        <item>volume media</item>
+        <item>volume alarm</item>
+        <item>volume notifikasi</item>
+        <item>volume Bluetooth</item>
+        <item>tetep siyaga</item>
+        <item>awasi panggonan</item>
+        <item>awasi panggonan berdaya dhuwur</item>
+        <item>jupuk stat panggunaan</item>
+        <item>bisu/unekake mikropon</item>
+        <item>media proyek</item>
+        <item>aktifake VPN</item>
+        <item>tulis wallpaper</item>
+        <item>pitulung struktur</item>
+        <item>pitulung jepretan layar</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices">
+        <item>WLAN dipilih</item>
+        <item>Seluler dipilih</item>
+    </string-array>
+    <string-array name="wapi_psk_type">
+        <item>WLAN ASCII</item>
+        <item>WLAN hexadecimal</item>
+    </string-array>
+</resources>

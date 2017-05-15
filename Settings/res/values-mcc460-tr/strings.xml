@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_security_wapi_psk">WLAN PSK</string>
+    <string name="wifi_disabled_wifi_failure">Kablosuz Bağlantı Hatası</string>
+    <string name="accessibility_wifi_off">WLAN kapalı.</string>
+    <string name="accessibility_no_wifi">WLAN bağlantısı kesildi.</string>
+    <string name="accessibility_wifi_one_bar">WLAN bir çubuk.</string>
+    <string name="accessibility_wifi_two_bars">WLAN iki çubuk.</string>
+    <string name="accessibility_wifi_three_bars">WLAN üç çubuk.</string>
+    <string name="accessibility_wifi_signal_full">WLAN sinyali tam.</string>
+    <string name="radio_controls_summary">WLAN, Bluetooth, uçak modu, cep telefonu şebekesi ve VPN özelliklerini yönet</string>
+    <string name="wifi_assistant_title">WLAN Assistant</string>
+    <string name="wifi_alert_lockdown_by_device_owner">Cihazınızı %1$s yönetiyor ve bu kablosuz ağın değiştirilmesine ve silinmesine izin vermiyor. Daha fazla bilgi edinmek için yöneticinize başvurun.</string>
+    <string name="wifi_quick_toggle_title">WLAN</string>
+    <string name="wifi_quick_toggle_summary">"WLAN'yi aç"</string>
+    <string name="wifi_settings">WLAN</string>
+    <string name="wifi_settings_category">WLAN ayarları</string>
+    <string name="wifi_settings_title">WLAN</string>
+    <string name="wifi_setup_wizard_title">WLAN seç</string>
+    <string name="wifi_poor_network_detection_summary">İnternet bağlantısı iyi olmadıkça WLAN ağını kullanma</string>
+    <string name="wifi_setting_sleep_policy_title">Uyku modunda WLAN etkin kılsın</string>
+    <string name="wifi_suspend_optimizations">WLAN optimizasyonu</string>
+    <string name="wifi_suspend_optimizations_summary">Kablosuz açıkken pil kullanımını en aza indir</string>
+    <string name="wifi_access_points">WLAN ağlar</string>
+    <string name="wifi_menu_p2p">WLAN Direct</string>
+    <string name="wifi_empty_list_wifi_off">"Kullanılabilir ağları görmek için WLAN'yi açın."</string>
+    <string name="wifi_empty_list_wifi_on">WLAN ağları aranıyor…</string>
+    <string name="wifi_empty_list_user_restricted">WLAN ağı değiştirme izniniz yok.</string>
+    <string name="wifi_wps_setup_title">WLAN Korumalı Kurulum</string>
+    <string name="wifi_wps_onstart_pbc">Yönlendiricinizdeki WLAN Korumalı Kurulum düğmesine basın. \"WPS\" olarak adlandırılmış veya şu simgeyle gösteriliyor olabilir:</string>
+    <string name="wifi_wps_onstart_pin">WLAN yönlendiricinizde %1$s PIN kodunu girin. Kurulum işleminin tamamlanması iki dakika kadar sürebilir.</string>
+    <string name="wifi_wps_connected">%s WLAN ağına bağlanıldı</string>
+    <string name="wifi_scan_always_turnon_message">"Konum bilgisinin doğruluğunu artırmak ve diğer amaçlar için, %1$s WLAN bağlantı kapalı olduğunda bile ağ tarama işlevini açmak istiyor.
+
+Tarama yapmak isteyen tüm uygulamaların bu işlevi kullanmalarına izin veriyor musunuz?"</string>
+    <string name="wifi_skipped_message">"UYARI: Ek servis sağlayıcı veri ücretleri alınabilir.
+
+Telefon kurulumu, ciddi düzeyde ağ aktivitesi gerektirebilir."</string>
+    <string name="wifi_and_mobile_skipped_message">"WLAN kurulumunu atlarsanız:
+
+"<li>Telefonunuzun İnternet bağlantısı olmayacaktır.</li>"
+
+"<li>"İnternet'e bağlanana kadar yazılım güncellemelerini alamayacaksınız."</li>"
+
+"<li>Şu an için cihaz koruma özelliklerini etkinleştiremezsiniz.</li></string>
+    <string name="wifi_connect_failed_message">Telefon bu WLAN ağa bağlanamadı.</string>
+    <string name="wifi_advanced_titlebar">WLAN ayarları</string>
+    <string name="wifi_setting_frequency_band_title">WLAN frekans bandı</string>
+    <string name="wifi_advanced_settings_label">WLAN ayarları</string>
+    <string name="wifi_p2p_settings_title">WLAN Direct</string>
+    <string name="wifi_tether_checkbox_text">Taşınabilir WLAN hotspot</string>
+    <string name="wifi_tether_failed_subtext">Taşınabilir WLAN hotspot hatası</string>
+    <string name="wifi_tether_configure_ap_text">WLAN genel alan. yapılandır</string>
+    <string name="wifi_tether_configure_subtext">"%1$s taşınabilir WLAN hotspot.
+Güvenlik: %2$s"</string>
+    <string name="wifi_calling_settings_title">WLAN çağrısı</string>
+    <string name="wifi_calling_mode_dialog_title">Kablosuz çağrı modu</string>
+    <string name="wifi_calling_off_explanation">"Mobil ağ kapsamasının zayıf olduğu yerlerde çağrı kalitesini artırmak için WLAN çağrısını kullanın.
+ 
+Maliyet
+WLAN çağrı ücretleri hakkında bilgi için lütfen servis sağlayıcınızla iletişim kurun.
+ 
+WLAN çağrısı hakkında notlar
+WLAN çağrısını sürdürmek için WLAN kapsama alanında bulunduğunuzdan emin olun."</string>
+    <string name="status_wifi_mac_address">WLAN MAC adresi</string>
+    <string name="network_scorer_change_active_dialog_title">WLAN Assistant değiştirilsin mi?</string>
+    <string name="location_mode_high_accuracy_description">Konumu belirlemek için GPS, WLAN, Bluetooth veya hücresel ağlar kullanılır</string>
+    <string name="location_mode_battery_saving_description">Konumu belirlemek için WLAN, Bluetooth veya hücresel ağlar kullanılır</string>
+    <string name="location_neighborhood_level_wifi">Yer, WLAN tarafından belirlendi</string>
+    <string name="wifi_aggressive_handover">"WLAN'dan Mobil veriye agresif geçiş"</string>
+    <string name="battery_stats_wifi_running_label">WLAN</string>
+    <string name="wifi_on_time">WLAN özelliğinin açık olduğu süre</string>
+    <string name="bluetooth_on_time">WLAN özelliğinin açık olduğu süre</string>
+    <string name="power_wifi">WLAN</string>
+    <string name="usage_type_wifi_running">WLAN çalışıyor</string>
+    <string name="usage_type_data_wifi_send">WLAN paketleri gönderildi</string>
+    <string name="usage_type_data_wifi_recv">WLAN paketleri alındı</string>
+    <string name="battery_action_wifi">WLAN ayarları</string>
+    <string name="battery_desc_wifi">WLAN tarafından kullanılan pil</string>
+    <string name="battery_sugg_wifi">Kullanmadığınız veya kullanılamadığı zaman WLAN özelliğini kapatın</string>
+    <string name="gadget_toggle_wifi">WLAN ayarları güncelleniyor</string>
+    <string name="gadget_wifi">WLAN</string>
+    <string name="backup_data_summary">Uygulama verilerini, WLAN parolalarını ve diğer ayarları Google™ sunucularında yedekleyin</string>
+    <string name="backup_erase_dialog_message">WLAN parolalarınız, yer işaretleriniz ve diğer ayarlarınız ile uygulama verilerinizin yedeklenmesini durdurmak ve Google™ sunucularındaki tüm kopyaları silmek istiyor musunuz?</string>
+    <string name="fullbackup_erase_dialog_message">"Cihaz verilerinin (kablosuz ağ şifreleri ve çağrı geçmişi gibi) ve uygulama verilerinin (uygulamalar tarafından depolanan ayarlar ve dosyalar gibi) yedeklenmesi durdurulsun ve Google Drive'daki tüm kopyaları silinsin mi?"</string>
+    <string name="fullbackup_data_summary">"Cihaz verilerini (Kablosuz ağ şifreleri ve çağrı geçmişi gibi) ve uygulama verilerini (uygulamalar tarafından depolanan ayarlar ve dosyalar gibi) uzaktan otomatik olarak yedekleyin.
+
+Otomatik yedeklemeyi açtığınızda, cihaz ve uygulama verileri periyodik olarak uzaktan kaydedilir. Uygulama verileri, bir uygulamanın kaydettiği (geliştirici ayarlarına göre), kişiler, iletiler ve fotoğraflar gibi hassas olabilecek verileri de içeren her türlü veri olabilir."</string>
+    <string name="wifi_setup_title">WLAN kurulumu</string>
+    <string name="wifi_setup_title_editing_network">%s WLAN ağına bağlan</string>
+    <string name="wifi_setup_title_connecting_network">%s WLAN ağına bağlanılıyor...</string>
+    <string name="wifi_setup_title_connected_network">Connected %s WLAN ağına bağlanıldı</string>
+    <string name="wifi_setup_eap_not_supported">Kurulum sırasında WLAN EAP bağlantısı yapılandıramazsınız. Kurulumdan sonra Kablosuz ve Ağlar altında Ayarlar bölümünden bunu yapabilirsiniz.</string>
+    <string name="wifi_setup_description_connected">Kuruluma devam etmek için <b>İleri</b>"'ye dokunun.
+
+Farklı bir WLAN ağına bağlanmak için "<b>Geri</b>"'ye dokunun."</string>
+    <string name="data_usage_menu_show_wifi">WLAN göster</string>
+    <string name="data_usage_menu_hide_wifi">"WLAN'yı gizle"</string>
+    <string name="data_usage_disable_wifi_limit">WLAN veri sınırını ayarla</string>
+    <string name="data_usage_tab_wifi">WLAN</string>
+    <string name="data_usage_restrict_background">Arka plan mobil verilerini sınırlarsanız, WLAN ağına bağlanmadığınız sürece bazı uygulamalar ve servisler çalışmaz.</string>
+    <string name="data_usage_restrict_background_multiuser">"Arka planda hücresel veri kullanımını kısıtlarsanız WLAN ağa bağlanmadığınız sürece bazı uygulamalar ve hizmetler çalışmaz.
+
+Bu ayar, bu telefondaki tüm kullanıcıları etkiler."</string>
+    <string name="data_usage_metered_body">Mobil genel alan olan WLAN ağları seçin. Arka planda çalışırken uygulamaların bu ağları kullanmaları kısıtlanabilir. Uygulamalar ayrıca yüksek hacimli indirme işlemleri için bu ağları kullanmadan önce kullanıcıyı uyarabilir.</string>
+    <string name="data_usage_metered_wifi">Tarifeli WLAN ağlar</string>
+    <string name="data_usage_metered_wifi_disabled">Tarifeli ağları seçmek için WLAN servisini açın.</string>
+    <string name="user_add_user_message_long">"Ek kullanıcılar oluşturarak bu cihazı başkalarıyla paylaşabilirsiniz. Her kullanıcının uygulamalarla, duvar kağıdıyla ve başka ayarlarla özelleştirebileceği kendi alanı olur. Ayrıca kullanıcılar WLAN gibi herkesi etkileyen cihaz ayarlarını değiştirebilirler.
+
+Yeni bir kullanıcı eklediğinizde, ilgili kişinin kendi alanını ayarlaması gerekir.
+
+Her kullanıcı diğer tüm kullanıcılar için uygulamaları güncelleyebilir."</string>
+    <string name="restriction_wifi_config_title">WLAN ve Mobil</string>
+    <string name="restriction_wifi_config_summary">WLAN ve Mobil ayarlarını değiştirmeye izin ver</string>
+    <string name="setup_wifi_nfc_tag">Kablosuz NFC Etiketini ayarla</string>
+    <string name="l_dialog_message_hint">"STAMINA mod şunları içerir:
+
+• Uzun bekleme
+Ekran kapalı olduğunda WLAN'yı geçici olarak devre dışı bırakarak güçten tasarruf eder. Çoğu uygulama pasifleşir.
+Ekran açıldığında cihazınız normal şekilde çalışır.
+Uzun bekleme modu etkinleştirildiğinde bazı uygulamaları aktif tutmak isterseniz söz konusu uygulamaları Bekleme modunda aktif uygulamalar listesine ekleyin.
+
+• Uzun kullanım
+Cihazınız kullanımdayken donanım performansını sınırlandırarak güçten tasarruf eder."</string>
+    <string name="powersaver_feature_wifi">WLAN kapalı</string>
+    <string name="stamina_xssm_summary">"Ekran kapalı olduğunda mobil verileri ve WLAN'yi devre dışı bırakır"</string>
+    <string name="usm_descr">"Ultra STAMINA modu, pil ömrünü önemli ölçüde uzatır. Uzun süre boyunca cihazınızı şarj edemediğiniz durumlarda kullanılabilir.
+
+Sadece Telefon ve Mesajlaşma gibi birkaç temel işlev kullanılabilir. Daha fazla ayrıntı için \"Daha fazla bilgi\"ye dokunun.
+
+WLAN ve Mobil veri üzerinden İnternet bağlantısının devre dışı olacağını unutmayın."</string>
+    <string name="battery_usm_desc">"Ultra STAMINA modu, pil ömrünü önemli ölçüde uzatır. WLAN ve Mobil veri üzerinden İnternet bağlantısının devre dışı bırakılacağını unutmayın. Ana ekranınız Ultra STAMINA modu Ana Ekranına dönüştürülür.
+
+Ultra STAMINA modunda kullanılabilen uygulamalar"</string>
+    <string name="somc_wifi_turned_on_info">WLAN açık. Listeden ağınızı seçin.</string>
+    <string name="wifi_tethering_warning_txt">Medya aktarımı, telefon yazılım güncellemesi, yedekleme ve geri yükleme gibi devam etmekte olan tüm WLAN işlemleri kesilir.</string>
+    <string name="somc_backup_failed_no_wifi_summary">WLAN bağlantısı bekleniyor</string>
+    <string name="wifi_hs2_strings_hotspot2_summary_txt">WLAN açıkken mevcut Passpoint ağlarına otomatik olarak bağlanın</string>
+    <string name="wifi_tether_settings_subtext">Taşınabilir WLAN genel alanı ayarla ve yönet</string>
+    <string name="wifi_tether_settings_text">Taşınabilir WLAN genel alan ayarları</string>
+    <string name="wifi_security_wapi_cert">WLAN CERT</string>
+    <string name="ct_wifi_connected_text">China Telecom WLAN bağlandı</string>
+    <string name="cw_network_priority">China Telecom WLAN içn Öncl Tnı</string>
+    <string name="cw_network_priority_summary">Diğer WLAN ağlarına göre China Telecom WLAN ağlarına öncelik tanınacaktır</string>
+    <string name="data_traffic_disabled_text">Veri trafiği devre dışı bırakıldığından China Telecom WLAN ağlarına bağlanılamadı. Veri trafiği şimdi etkinleştirilsin mi?</string>
+    <string name="install_wapi_certs">WLAN sertifikalarını yükle</string>
+    <string name="location_based_wifi">Konum tabanlı WLAN</string>
+    <string name="operator_auto_connect_hotspot_description_txt">AT&amp;T WLAN genel alanına otomatik bağlan</string>
+    <string name="operator_auto_connect_hotspot_txt">AT&amp;T WLAN oto. bağlan</string>
+    <string name="wifi_context_menu_change_wapi_certificate">WLAN Sertifikasını değiştir</string>
+    <string name="wifi_p2p_settings">WLAN Direct™ ayarları</string>
+    <string name="wifi_security_verbose_wapi_cert">WLAN CERT korumalı</string>
+    <string name="wifi_security_verbose_wapi_psk">WLAN PSK korumalı</string>
+    <string name="wifi_tether_explanation_dialog_text">"Cihazınızı Mobil Genel Alanı olarak kullanabilirsiniz. Bu, diğer cihazların (maksimum 10) bir WLAN ağı üzerinden genel alana bağlanmasına izin verir. Bağlanan cihazlar, mobil ağ bağlantınız üzerinden İnternet'e erişir. Mobil Genel Alan mobil veri kullanır ve ek ücretler söz konusu olabilir.
+
+Mobil Genel Alan daha fazla pil tüketir. Pil ömrünü uzatmak için cihazı bir prize bağlayın."</string>
+    <string name="wifi_wps_category_title">Kablosuz ağını ayarla</string>
+    <string name="xssm_guidecontent_what_stamina40jp_txt">"STAMINA modu, cihaz ayarlarını yaparak pil gücünden tasarruf edilmesini sağlar. Uyku modundayken düşük fonksiyonellikle çalıştırmak üzere uygulamaları seçebilirsiniz. (Bu, pil gücünden tasarruf etmenize yardımcı olur, çünkü çoğu uygulama uyku modunda bile pil tüketmeye devam eder.)
+
+Seçilen uygulamalar için devre dışı bırakılan fonksiyonlar:
+- WLAN
+- Mobil veri
+- Zaman sayacı
+
+Tüm uygulamalar için bildirim ışığı uyku modunda aynı sıklıkta, aynı renkte yanıp söner.
+
+Siz cihazı kontrol ederken STAMINA modu devre dışı olur."</string>
+    <string name="wifi_security_short_wapi_cert">WLAN CERT</string>
+    <string name="wifi_security_short_wapi_psk">WLAN PSK</string>
+    <string name="vzw_avoid_bad_connections_text">"Bağlandığınız WLAN ağı, İnternet'e bağlı değil.
+
+Böyle durumlarda otomatik olarak mobil ağa geçiş yapmak için Gelişmiş WLAN Ayarları'nda Kötü WLAN bağlantılarını engelle seçeneğini etkinleştirin."</string>
+    <string name="vzw_avoid_bad_connections_title">WLAN İnternet bağlantısı yok</string>
+    <string name="vzw_wifi_avoid_bad_connections">Kötü WLAN bağlantılarını engelle</string>
+    <string name="vzw_wifi_avoid_bad_connections_summary">Bağlandığınız WLAN ağının İnternet bağlantısı olmadığında mobil ağı kullanın. (Veri kullanım ücretleri geçerli olabilir.)</string>
+    <string name="vzw_wifi_password_error_dialog_txt">WLAN parolası kabul edilmedi. Lütfen parolayı kontrol edip tekrar deneyin.</string>
+    <string name="vzw_wifi_setup_wizard_desc">"Şimdi WLAN'ya bağlanmak isterseniz bir ağ seçin."</string>
+    <string name="vzw_wifi_setup_wizard_title">"WLAN'yı Ayarlayın"</string>
+</resources>

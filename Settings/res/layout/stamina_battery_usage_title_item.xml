@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="64.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/title" android:paddingTop="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" style="@style/TextAppearance.CategoryTitle" />
+    <TextView android:textColor="?android:textColorPrimary" android:id="@id/description" android:maxLines="6" android:layout_below="@id/title" style="@style/StaminaItemDescr" />
+    <TextView android:textColor="?android:textColorPrimary" android:id="@id/empty" android:layout_below="@id/description" style="@style/StaminaNoItems" />
+</RelativeLayout>

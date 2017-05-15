@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="app_ops_summaries">
+        <item>հենակետային տեղանք</item>
+        <item>ճշգրիտ տեղադրություն</item>
+        <item>GPS</item>
+        <item>թրթռալ</item>
+        <item>տեսնել կոնտակտների ցանկը</item>
+        <item>փոփոխել կոնտակտները</item>
+        <item>տեսնել զանգերի մատյանը</item>
+        <item>փոփոխել զանգերի մատյանը</item>
+        <item>կարդալ օրացույցը</item>
+        <item>փոփոխել օրացույցը</item>
+        <item>WLAN տեսածրում</item>
+        <item>ծանուցում</item>
+        <item>բջջային սկանավորում</item>
+        <item>Հեռախոսահամար</item>
+        <item>կարդալ SMS-ը</item>
+        <item>գրել SMS</item>
+        <item>ստանալ SMS</item>
+        <item>ստանալ արտակարգ իրավիճակների SMS-ներ</item>
+        <item>ստանալ MMS</item>
+        <item>ստանալ WAP սեղմում</item>
+        <item>ուղարկել SMS</item>
+        <item>կարդալ ICC SMS</item>
+        <item>գրել ICC SMS</item>
+        <item>փոփոխել կարգավորումները</item>
+        <item>պատկերել վերին մասում</item>
+        <item>մուտք գործել ծանուցումներ</item>
+        <item>ֆոտոխցիկ</item>
+        <item>ձայնագրել ձայնանյութ</item>
+        <item>նվագարկել ձայնանյութը</item>
+        <item>կարդալ սեղմատախտակը</item>
+        <item>փոփոխել սեղմատախտակը</item>
+        <item>մեդիա կոճակներ</item>
+        <item>աուդիո ֆոկուս</item>
+        <item>ձայնի հիմնական բարձրություն</item>
+        <item>ձայնի բարձրություն</item>
+        <item>զանգի բարձրություն</item>
+        <item>մեդիանյութերի ձայնի բարձրություն</item>
+        <item>զարթուցիչի ձայնի բարձրություն</item>
+        <item>ծանուցման ձայնի բարձրություն</item>
+        <item>bluetooth-ի ձայնի բարձրություն</item>
+        <item>արթուն պահել</item>
+        <item>վերահսկել տեղադրությունը</item>
+        <item>մշտադիտարկել էներգատար տեղանքները</item>
+        <item>ստանալ օգտագործման վիճակագրությունը</item>
+        <item>խոսափողն անջատել/միացնել</item>
+        <item>տեսարձակել մեդիան</item>
+        <item>ակտիվացնել VPN-ը</item>
+        <item>փոխել պաստառը</item>
+        <item>օժանդակ կառույց</item>
+        <item>օժանդակ էկրանի պատկեր</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices">
+        <item>WLAN, նախընտրելի</item>
+        <item>Բջջային, նախընտրելի</item>
+    </string-array>
+    <string-array name="wapi_psk_type">
+        <item>WLAN ASCII</item>
+        <item>WLAN տասնվեցական</item>
+    </string-array>
+</resources>

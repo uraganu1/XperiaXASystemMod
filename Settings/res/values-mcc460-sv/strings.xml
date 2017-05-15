@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_security_wapi_psk">WLAN PSK</string>
+    <string name="wifi_disabled_wifi_failure">WLAN-anslutningsfel</string>
+    <string name="connected_via_wfa">Ansluten via WLAN-assistent</string>
+    <string name="accessibility_wifi_off">WLAN av.</string>
+    <string name="accessibility_no_wifi">WLAN frånkopplat.</string>
+    <string name="accessibility_wifi_one_bar">WLAN en stapel.</string>
+    <string name="accessibility_wifi_two_bars">WLAN två staplar.</string>
+    <string name="accessibility_wifi_three_bars">WLAN tre staplar.</string>
+    <string name="accessibility_wifi_signal_full">WLAN full signal</string>
+    <string name="radio_controls_summary">Hantera WLAN, Bluetooth, flygplansläge, mobilnät och VPN</string>
+    <string name="wifi_assistant_title">WLAN Assistant</string>
+    <string name="wifi_alert_lockdown_by_device_owner">%1$s administrerar din enhet och tillåter inte att det här WLAN-nätverket ändras eller raderas. Kontakta administratören för mer information.</string>
+    <string name="wifi_quick_toggle_title">WLAN</string>
+    <string name="wifi_quick_toggle_summary">Aktivera WLAN</string>
+    <string name="wifi_settings">WLAN</string>
+    <string name="wifi_settings_category">WLAN-inställningar</string>
+    <string name="wifi_settings_title">WLAN</string>
+    <string name="wifi_setup_wizard_title">Välj WLAN</string>
+    <string name="wifi_select_network">Välj WLAN</string>
+    <string name="wifi_poor_network_detection_summary">Använd inte WLAN-nätverk som inte har en bra Internetanslutning</string>
+    <string name="wifi_automatically_connect_title">Använd automatiskt öppna WLAN</string>
+    <string name="wifi_automatically_connect_summary">Tillåt att en WLAN-assistent ansluter till öppna nätverk som bedöms vara av hög kvalitet.</string>
+    <string name="wifi_scan_notify_text">I syfte att förbättra platsangivelserna kan systemtjänster och -appar fortfarande söka efter WLAN-nätverk. Du kan ändra detta i LINK_BEGINsökinställningarnaLINK_END.</string>
+    <string name="wifi_setting_sleep_policy_title">Behåll WLAN vid viloläge</string>
+    <string name="wifi_setting_on_during_sleep_title">WLAN på i viloläge</string>
+    <string name="wifi_suspend_optimizations">WLAN-optimering</string>
+    <string name="wifi_suspend_optimizations_summary">Minimera batterianvändningen när WLAN är aktiverat</string>
+    <string name="wifi_limit_optimizations_summary">Batterianvänd.gräns för WLAN</string>
+    <string name="wifi_switch_away_when_unvalidated">Byt till mobildata om jag förlorar internetåtkomsten via WLAN.</string>
+    <string name="wifi_access_points">WLAN-nätverk</string>
+    <string name="wifi_menu_p2p">WLAN Direct</string>
+    <string name="wifi_empty_list_wifi_off">Aktivera WLAN för att visa tillgängliga nätverk.</string>
+    <string name="wifi_empty_list_wifi_on">Söker efter WLAN-nätverk…</string>
+    <string name="wifi_empty_list_user_restricted">Du har inte behörighet att ändra WLAN-nätverket</string>
+    <string name="wifi_wps_setup_title">Skyddad WLAN-konfiguration</string>
+    <string name="wifi_wps_onstart_pbc">Tryck på knappen för skyddad WLAN-konfiguration på routern. Den kan kallas WPS eller vara märkt med denna symbol:</string>
+    <string name="wifi_wps_onstart_pin">Ange PIN-koden %1$s på din WLAN-router. Det kan ta upp till två minuter att slutföra installationen.</string>
+    <string name="wifi_wps_connected">Ansluten till WLAN-nätverket %s</string>
+    <string name="wifi_scan_always_turnon_message">"%1$s vill aktivera nätverkssökning även när WLAN är avstängt för att kunna förbättra positionens exakthet och andra ändamål.
+
+Vill du tillåta detta för alla appar som vill söka efter nätverk?"</string>
+    <string name="wifi_skipped_message">"VARNING! Eventuella operatörsdebiteringar för datatrafik kan tillkomma.
+
+Konfigurationen av mobilen kan kräva betydande nätverksaktivitet."</string>
+    <string name="wifi_and_mobile_skipped_message">"Om du hoppar över WLAN:
+
+"<li>Telefonen har ingen internetanslutning.</li>"
+
+"<li>Du får inga programvaruuppdateringar förrän du ansluter till internet.</li>"
+
+"<li>Det går inte att aktivera funktioner för enhetsskydd just nu.</li></string>
+    <string name="wifi_connect_failed_message">Mobilen kunde inte anslutas till WLAN-nätverket.</string>
+    <string name="wifi_advanced_titlebar">WLAN-inställningar</string>
+    <string name="wifi_setting_frequency_band_title">WLAN-frekvensband</string>
+    <string name="wifi_advanced_settings_label">WLAN-inställningar</string>
+    <string name="wifi_p2p_settings_title">WLAN Direct</string>
+    <string name="wifi_tether_checkbox_text">Mobil WLAN-hotspot</string>
+    <string name="wifi_hotspot_checkbox_text">WLAN-surfzon</string>
+    <string name="wifi_hotspot_checkbox_text_summary">Använd mobilanslutning för WLAN-nätverk</string>
+    <string name="wifi_tether_failed_subtext">Fel på mobil WLAN-hotspot</string>
+    <string name="wifi_tether_configure_ap_text">Konfigurera WLAN-hotspot</string>
+    <string name="wifi_hotspot_configure_ap_text">Installation för WLAN-surfzon</string>
+    <string name="wifi_hotspot_configure_ap_text_summary">AndroidAP WPA2 PSK WLAN-surfzon</string>
+    <string name="wifi_tether_configure_subtext">"%1$s mobil WLAN-hotspot.
+Säkerhet: %2$s"</string>
+    <string name="wifi_calling_settings_title">WLAN-samtal</string>
+    <string name="wifi_calling_mode_dialog_title">WLAN-samtalsläge</string>
+    <string name="wifi_calling_off_explanation">"Med WLAN-samtal kan du förbättra samtalskvaliteten på platser med sämre mobiltäckning.
+ 
+Kostnad
+Kontakta tjänstleverantören för information om debiteringar för WLAN-samtal.
+ 
+Observera om WLAN-samtal
+WLAN-samtal fungerar endast inom WLAN-nätverkets täckning."</string>
+    <string name="status_wifi_mac_address">MAC-adress för WLAN</string>
+    <string name="reset_network_desc">"Alla nätverksinställningar kommer att återställas, inklusive:
+
+"<li>WLAN</li>"
+"<li>Mobildata</li>"
+"<li>Bluetooth</li></string>
+    <string name="network_scorer_change_active_dialog_title">Vill du byta WLAN-assistentapp?</string>
+    <string name="location_mode_high_accuracy_description">Använd GPS, WLAN, Bluetooth eller mobilnät för att bestämma plats</string>
+    <string name="location_mode_battery_saving_description">Använd WLAN, Bluetooth eller mobilnät för att bestämma plats</string>
+    <string name="location_scanning_wifi_always_scanning_title">WLAN-sökning</string>
+    <string name="location_neighborhood_level_wifi">Platsen fastställs av WLAN</string>
+    <string name="wifi_display_certification">Certifiering för WLAN-skärmdelning</string>
+    <string name="wifi_verbose_logging">Aktivera utförlig loggning för WLAN</string>
+    <string name="wifi_aggressive_handover">Aggressiv överlämning från WLAN till mobildata</string>
+    <string name="wifi_allow_scan_with_traffic">Tillåt alltid sökning efter WLAN-roaming</string>
+    <string name="wifi_display_certification_summary">Visa certifieringsalternativ för WLAN-skärmdelning</string>
+    <string name="wifi_verbose_logging_summary">Öka loggningsnivån för WLAN, visa per SSID RSSI i WLAN Picker</string>
+    <string name="wifi_aggressive_handover_summary">När funktionen har aktiverats kommer dataanslutningen lämnas över från WLAN till mobilen på ett aggressivare sätt när WLAN-signalen är svag</string>
+    <string name="wifi_allow_scan_with_traffic_summary">Tillåt/tillåt inte sökning efter WLAN-roaming utifrån mängden datatrafik i gränssnittet</string>
+    <string name="mobile_data_always_on_summary">Håll alltid mobildata aktiverad, även när WLAN är aktiverat (så att du snabbt kan byta mellan nätverk).</string>
+    <string name="battery_stats_wifi_running_label">WLAN</string>
+    <string name="wifi_on_time">WLAN på sedan</string>
+    <string name="bluetooth_on_time">WLAN på sedan</string>
+    <string name="power_wifi">WLAN</string>
+    <string name="usage_type_wifi_running">WLAN är aktiverat</string>
+    <string name="usage_type_data_wifi_send">WLAN-paket har skickats</string>
+    <string name="usage_type_data_wifi_recv">WLAN-paket har mottagits</string>
+    <string name="battery_action_wifi">WLAN-inställningar</string>
+    <string name="battery_desc_wifi">Batteri som förbrukas av WLAN</string>
+    <string name="battery_sugg_wifi">Inaktivera WLAN när det inte används eller när det inte är tillgängligt</string>
+    <string name="gadget_toggle_wifi">Uppdatera WLAN-inställningar</string>
+    <string name="gadget_wifi">WLAN</string>
+    <string name="backup_data_summary">Säkerhetskopiera appdata, WLAN-lösenord och andra inställningar till Google™s servrar</string>
+    <string name="backup_erase_dialog_message">Vill avbryta säkerhetskopieringen av WLAN-lösenord, bokmärken, andra inställningar och appdata samt radera alla kopior på Google™s servrar?</string>
+    <string name="fullbackup_erase_dialog_message">Vill du sluta säkerhetskopiera enhetsdata (t.ex. WLAN-lösenord och samtalshistorik) och appdata (t.ex. inställningar och filer som har sparats i appar), och radera alla kopior på Google Drive?</string>
+    <string name="fullbackup_data_summary">"Fjärrsäkerhetskopiera enhetsdata (t.ex. WLAN-lösenord och samtalshistorik) och appdata (t.ex. inställningar och filer som har sparats i appar) automatiskt.
+
+När du aktiverar automatisk säkerhetskopiering fjärrsparas enhets- och appdata då och då. Appdata kan vara all data som har sparats i en app (beroende på utvecklarinställningarna), inklusive data som kan vara känslig, till exempel kontakter, meddelanden och foton."</string>
+    <string name="wifi_setup_title">WLAN-konfiguration</string>
+    <string name="wifi_setup_title_editing_network">Anslut till WLAN-nätverket %s</string>
+    <string name="wifi_setup_title_connecting_network">Ansluter till WLAN-nätverket %s…</string>
+    <string name="wifi_setup_title_connected_network">Ansluten till WLAN-nätverket %s</string>
+    <string name="wifi_setup_eap_not_supported">Det går inte att konfigurera en EAP-WLAN-anslutning under installationen. Efter installationen kan du göra det i Inställningar > Trådlöst och nätverk.</string>
+    <string name="wifi_setup_description_connected">Rör vid <b>Nästa</b>" om·du vill fortsätta med konfigurationen.
+
+Rör vid "<b>Tillbaka</b> om du vill ansluta till ett annat WLAN-nätverk.</string>
+    <string name="data_usage_menu_show_wifi">Visa WLAN</string>
+    <string name="data_usage_menu_hide_wifi">Dölj WLAN</string>
+    <string name="data_usage_disable_wifi_limit">Ange gräns för WLAN-data</string>
+    <string name="data_usage_tab_wifi">WLAN</string>
+    <string name="data_usage_restrict_background">Om du begränsar mobila bakgrundsdata kanske vissa appar och tjänster inte fungerar såvida du inte är ansluten till ett WLAN-nätverk.</string>
+    <string name="data_usage_restrict_background_multiuser">"Om du begränsar bakgrundsmobildata kommer vissa appar och tjänster endast att fungera om du är ansluten till WLAN.
+
+Den här inställningen påverkar alla användare på telefonen."</string>
+    <string name="data_usage_metered_body">Välj WLAN-nätverk som är mobila hotspots. Appar kan hindras från att använda dessa nätverk när de körs i bakgrunden. Det kan även visas en varning i apparna innan du använder dessa nätverk för stora hämtningar.</string>
+    <string name="data_usage_metered_wifi">Uppmätta WLAN-nätverk</string>
+    <string name="data_usage_metered_wifi_disabled">Aktivera WLAN om du vill välja uppmätta nätverk.</string>
+    <string name="user_add_user_message_long">"Du kan dela enheten med andra om du skapar flera användare. Alla användare får sitt eget utrymme som de kan anpassa som de vill med appar, bakgrund och så vidare. Användarna kan även ändra enhetsinställningar som påverkar alla, till exempel WLAN.
+
+När du lägger till en ny användare måste han eller hon konfigurera sitt utrymme.
+
+Alla användare kan uppdatera appar för samtliga användares räkning."</string>
+    <string name="restriction_wifi_config_title">WLAN och mobilt</string>
+    <string name="restriction_wifi_config_summary">Tillåt ändring av inställningar för WLAN och mobilt</string>
+    <string name="setup_wifi_nfc_tag">Ange en NFC-tagg för WLAN</string>
+    <string name="l_dialog_message_hint">"STAMINA-läget innehåller:
+
+• Utökad standby
+Sparar ström när skärmen är avstängd genom att tillfälligt inaktivera WLAN. De flesta appar är inaktiva.
+När skärmen är på fungerar enheten normalt.
+Om du vill att vissa appar ska vara aktiva i Utökad standby lägger du till apparna i listan Appar aktiva i standby.
+
+• Utökad användning
+Sparar ström när enheten används genom att begränsa maskinvaruprestanda."</string>
+    <string name="powersaver_feature_wifi">WLAN av</string>
+    <string name="stamina_xssm_summary">Inaktiverar mobildata och WLAN när skärmen är avstängd</string>
+    <string name="usm_descr">"Ultra STAMINA-läget förlänger batteriets livslängd avsevärt. Det kan användas om du inte kan ladda enheten under en längre tid.
+
+Endast vissa grundläggande funktioner, som telefon och meddelanden är tillgängliga. Tryck på Mer info för mer information.
+
+Observera att Internetanslutning via WLAN eller mobil datatrafik inaktiveras."</string>
+    <string name="battery_usm_desc">"Ultra STAMINA-läget förlänger batteriets livslängd avsevärt. Observera att internetanslutningar via WLAN och mobildata inaktiveras. Startsidan ändras till Ultra STAMINA-startsidan.
+
+Tillgängliga appar i Ultra STAMINA-läget"</string>
+    <string name="somc_wifi_turned_on_info">WLAN är på. Välj nätverk i listan.</string>
+    <string name="wifi_tethering_warning_txt">Eventuella pågående WLAN-åtgärder som medieöverföringar, telefonuppdateringar, säkerhetskopieringar och återställningar avbryts.</string>
+    <string name="somc_backup_failed_no_wifi_summary">Väntar på WLAN-anslutning</string>
+    <string name="wifi_hs2_strings_hotspot2_summary_txt">Anslut automatiskt till tillgängliga Passpoint-nätverk när WLAN är på</string>
+    <string name="wifi_tether_settings_subtext">Ställ in och hantera portabel WLAN-hotspot</string>
+    <string name="wifi_tether_settings_text">Inställningar för portabel WLAN-hotspot</string>
+    <string name="wifi_security_wapi_cert">WLAN CERT</string>
+    <string name="ct_wifi_connected_text">Ansluten till China Telecom WLAN</string>
+    <string name="cw_network_priority">Prioritera China Telecom WLAN</string>
+    <string name="cw_network_priority_summary">China Telecoms WLAN-nätverk prioriteras före anslutningar till andra WLAN-nätverk</string>
+    <string name="data_traffic_disabled_text">Det gick inte att ansluta till China Telecoms WLAN-nätverk eftersom datatrafik är inaktiverat. Aktivera datatrafik?</string>
+    <string name="install_wapi_certs">Installera WLAN-certifikat</string>
+    <string name="location_based_wifi">Platsbaserad WLAN</string>
+    <string name="operator_auto_connect_hotspot_description_txt">Autoanslut till operatörens WLAN-hotspot</string>
+    <string name="operator_auto_connect_hotspot_txt">Oper. WLAN, autoanslut</string>
+    <string name="wifi_context_menu_change_wapi_certificate">Ändra WLAN-certifikat</string>
+    <string name="wifi_p2p_settings">WLAN Direct™-inställningar</string>
+    <string name="wifi_security_verbose_wapi_cert">Skyddad med WLAN CERT</string>
+    <string name="wifi_security_verbose_wapi_psk">Skyddad med WLAN PSK</string>
+    <string name="wifi_tether_explanation_dialog_text">"Du kan använda enheten som en mobil trådlös surfzon. Detta gör att andra enheter (max 10) kan ansluta till den via ett WLAN-nätverk. Anslutna enheter får åtkomst till Internet via din mobila nätverksanslutning. Mobil trådlös surfzon använder mobildata och kan medföra ytterligare debiteringar.
+
+Mobil trådlös surfzon förbrukar mer batteri. Anslut enheten till ett nätuttag för att förlänga batteritiden."</string>
+    <string name="wifi_wps_category_title">Konfigurera WLAN-nätverk</string>
+    <string name="xssm_guidecontent_what_stamina40jp_txt">"STAMINA-läget minskar batteriförbrukningen genom att justera enhetsinställningarna. Du kan välja vilka appar som ska köras med reducerad funktionalitet under viloläget. (Detta hjälper dig att spara på batteriet eftersom de flesta appar förbrukar batteriet även under viloläget.)
+
+Funktioner som inaktiveras för valda appar:
+- WLAN
+- Mobildata
+- Timer
+
+Aviseringslampan för alla appar blinkar i samma färg och med samma frekvens under viloläget.
+
+STAMINA-läget inaktiveras när du hanterar enheten."</string>
+    <string name="wifi_security_short_wapi_cert">WLAN CERT</string>
+    <string name="wifi_security_short_wapi_psk">WLAN PSK</string>
+    <string name="vzw_avoid_bad_connections_text">"Det anslutna WLAN-nätverket är inte anslutet till internet.
+
+Om du automatiskt vill växla till mobilnätet när detta händer aktiverar du Undvik dåliga WLAN-anslutningar i de avancerade WLAN-inställningarna."</string>
+    <string name="vzw_avoid_bad_connections_title">Ingen WLAN-anslutning till internet</string>
+    <string name="vzw_wifi_avoid_bad_connections">Undvik dåliga WLAN-anslutningar</string>
+    <string name="vzw_wifi_avoid_bad_connections_summary">Använd mobilnätet när det anslutna WLAN-nätverket saknar internetanslutning. (Dataanvändning kan tillkomma.)</string>
+    <string name="vzw_wifi_password_error_dialog_txt">WLAN-lösenordet accepterades inte. Kontrollera lösenordet och försök igen.</string>
+    <string name="vzw_wifi_setup_wizard_desc">Välj ett nätverk om du vill ansluta till WLAN.</string>
+    <string name="vzw_wifi_setup_wizard_title">Ställ in WLAN</string>
+</resources>

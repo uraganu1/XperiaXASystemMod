@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="powersaver_feature_sync">Автоқадамдастыру өшірулі</string>
+    <string name="powersaver_feature_data">Мобильді деректер өшірулі</string>
+    <string name="powersaver_feature_bravia">Mobile BRAVIA Engine өшірулі</string>
+    <string name="stamina_queue_background_data_title">Фондық деректерді кезекке қою</string>
+    <string name="stamina_xssm_add_applications_title">Күту режимінде белсенді қолданбалар</string>
+    <string name="wifi_tether_settings_text">Жылжымалы Wi-Fi ыстық нүктесінің параметрлері</string>
+    <string name="usb_direct_settings_hi_res_audio_title_txt">USB арқылы ажыратымдылығы жоғары аудио</string>
+    <string name="auto_sync_text">Автоқадамдастыру</string>
+</resources>

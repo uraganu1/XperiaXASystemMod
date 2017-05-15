@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="app_ops_summaries">
+        <item>aptuvena atrašanās vieta</item>
+        <item>precīza atrašanās vieta</item>
+        <item>GPS</item>
+        <item>vibrozvans</item>
+        <item>lasīt kontaktpersonas</item>
+        <item>modificēt kontaktu informāciju</item>
+        <item>nolasīt zvanu žurnālu</item>
+        <item>modificēt zvanu žurnālu</item>
+        <item>lasīt kalendāru</item>
+        <item>modificēt kalendāru</item>
+        <item>WLAN meklēšana</item>
+        <item>paziņojums</item>
+        <item>mobilā tālruņa meklēšana</item>
+        <item>zvanīt uz tālruņa numuru</item>
+        <item>lasīt īsziņu</item>
+        <item>rakstīt īsziņu</item>
+        <item>saņemt īsziņu</item>
+        <item>saņemt ārkārtas īsziņu</item>
+        <item>saņemt multiziņu</item>
+        <item>saņemt WAP push ziņojumu</item>
+        <item>sūtīt īsziņu</item>
+        <item>lasīt ICC īsziņu</item>
+        <item>rakstīt ICC īsziņu</item>
+        <item>modificēt iestatījumus</item>
+        <item>zīmēt augšdaļā</item>
+        <item>piekļūt paziņojumiem</item>
+        <item>kamera</item>
+        <item>ierakstīt audio</item>
+        <item>atskaņot audio</item>
+        <item>lasīt starpliktuvi</item>
+        <item>modificēt starpliktuvi</item>
+        <item>multivides pogas</item>
+        <item>audio uzsvars</item>
+        <item>galvenais skaļums</item>
+        <item>balss skaļums</item>
+        <item>zvana skaļums</item>
+        <item>multivides skaļums</item>
+        <item>signāla skaļums</item>
+        <item>paziņojumu skaļums</item>
+        <item>Bluetooth apjoms</item>
+        <item>neļaut pāriet miega rež.</item>
+        <item>pārraudzīt atrašanās vietu</item>
+        <item>pārraudzīt lieljaudas atrašanās vietu</item>
+        <item>iegūt lietojuma statistiku</item>
+        <item>izslēgt/ieslēgt mikrofonu</item>
+        <item>projicēt saturu</item>
+        <item>aktivizēt VPN</item>
+        <item>izveidot fona tapeti</item>
+        <item>palīdzīga struktūra</item>
+        <item>palīdzīgs ekrānuzņēmums</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices">
+        <item>Vēlams WLAN tīkls</item>
+        <item>Vēlams mobilais tīkls</item>
+    </string-array>
+    <string-array name="wapi_psk_type">
+        <item>WLAN ASCII</item>
+        <item>WLAN hexadecimal</item>
+    </string-array>
+</resources>

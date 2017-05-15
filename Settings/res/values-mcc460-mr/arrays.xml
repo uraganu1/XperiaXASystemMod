@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="app_ops_summaries">
+        <item>खडबडीत स्थान</item>
+        <item>उत्कृष्ट स्थान</item>
+        <item>GPS</item>
+        <item>कंपन होणे</item>
+        <item>संपर्क वाचा</item>
+        <item>संपर्क सुधारित करा</item>
+        <item>कॉल लॉग वाचा</item>
+        <item>कॉल लॉग सुधारित करा</item>
+        <item>कॅलेंडर वाचा</item>
+        <item>कॅलेंडर सुधारित करा</item>
+        <item>WLAN स्कॅन</item>
+        <item>सूचना</item>
+        <item>सेल स्कॅन</item>
+        <item>फोनवर कॉल करा</item>
+        <item>SMS वाचा</item>
+        <item>SMS लिहा</item>
+        <item>SMS प्राप्त करा</item>
+        <item>आणीबाणी SMS प्राप्त करा</item>
+        <item>MMS प्राप्त करा</item>
+        <item>WAP पुश प्राप्त करा</item>
+        <item>SMS पाठवा</item>
+        <item>ICC SMS वाचा</item>
+        <item>ICC SMS लिहा</item>
+        <item>सेटिंग्ज सुधारित करा</item>
+        <item>शीर्षस्थानी रेखांकित करा</item>
+        <item>सूचनांमध्ये प्रवेश करा</item>
+        <item>कॅमेरा</item>
+        <item>ऑडिओ रेकॉर्ड करा</item>
+        <item>ऑडिओ प्ले करा</item>
+        <item>क्लिपबोर्ड वाचा</item>
+        <item>क्लिपबोर्ड सुधारित करा</item>
+        <item>मीडिया बटण</item>
+        <item>ऑडिओ फोकस</item>
+        <item>प्रमुख व्हॉल्यूम</item>
+        <item>व्हॉईस व्हॉल्यूम</item>
+        <item>रिंग व्हॉल्यूम</item>
+        <item>मीडिया व्हॉल्यूम</item>
+        <item>अलार्म व्हॉल्यूम</item>
+        <item>सूचना व्हॉल्यूम</item>
+        <item>Bluetooth व्हॉल्यूम</item>
+        <item>सक्रिय ठेवा</item>
+        <item>स्थानाचे परीक्षण करा</item>
+        <item>उच्च उर्जा स्थानाचे परीक्षण करा</item>
+        <item>वापर आकडेवारी मिळवा</item>
+        <item>मायक्रोफोन निःशब्द/सशब्द करा</item>
+        <item>प्रोजेक्ट मीडिया</item>
+        <item>VPN सक्रिय करा</item>
+        <item>लिहिण्याचा वॉलपेपर</item>
+        <item>साहाय्य रचना</item>
+        <item>साहाय्य स्क्रीनशॉट</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices">
+        <item>वाय-फाय प्राधान्यकृत</item>
+        <item>सेल्युलर प्राधान्यकृत</item>
+    </string-array>
+    <string-array name="wapi_psk_type">
+        <item>WLAN ASCII</item>
+        <item>WLAN hexadecimal</item>
+    </string-array>
+</resources>

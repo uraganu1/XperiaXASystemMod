@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="app_ops_summaries">
+        <item>оквирна локација</item>
+        <item>прецизна локација</item>
+        <item>GPS</item>
+        <item>вибрација</item>
+        <item>читање контаката</item>
+        <item>izmena kontakata</item>
+        <item>читање евиденције позива</item>
+        <item>izmena evidencije poziva</item>
+        <item>читање календара</item>
+        <item>мењање календара</item>
+        <item>WLAN skeniranje</item>
+        <item>обавештење</item>
+        <item>скенирање телефона</item>
+        <item>позивање телефона</item>
+        <item>читање SMS порука</item>
+        <item>писање SMS порука</item>
+        <item>prijem SMS poruka</item>
+        <item>пријем хитних SMS порука</item>
+        <item>пријем MMS порука</item>
+        <item>пријем push порука преко WAP-а</item>
+        <item>слање SMS порука</item>
+        <item>читање ICC SMS порука</item>
+        <item>писање ICC SMS порука</item>
+        <item>мењање подешавања</item>
+        <item>повлачење на врх</item>
+        <item>приступ обавештењима</item>
+        <item>камера</item>
+        <item>снимање аудио записа</item>
+        <item>пуштање аудио записа</item>
+        <item>читање меморије</item>
+        <item>мењање меморије</item>
+        <item>dugmad za medije</item>
+        <item>audio fokus</item>
+        <item>glavna jačina zvuka</item>
+        <item>jačina zvuka glasa</item>
+        <item>jačina zvuka zvona</item>
+        <item>jačina zvuka medija</item>
+        <item>jačina zvuka alarma</item>
+        <item>jačina zvuka obaveštenja</item>
+        <item>јачина звука Bluetooth-а</item>
+        <item>ostani budan</item>
+        <item>nadgledaj lokaciju</item>
+        <item>nadgledanje lokacije visoke snage</item>
+        <item>преузми статистику о коришћењу</item>
+        <item>искључи/укључи звук микрофона</item>
+        <item>mediji za projekat</item>
+        <item>aktiviraj VPN</item>
+        <item>upis na pozadinu</item>
+        <item>struktura pomoći</item>
+        <item>snimak ekrana pomoći</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices">
+        <item>Prednost WLAN</item>
+        <item>Prednost mob. mreža</item>
+    </string-array>
+    <string-array name="wapi_psk_type">
+        <item>WLAN ASCII</item>
+        <item>WLAN hexadecimal</item>
+    </string-array>
+</resources>

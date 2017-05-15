@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" style="@style/SettingsActivityScrollViewStyle">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="?android:listPreferredItemPaddingStart" android:paddingEnd="?android:listPreferredItemPaddingEnd">
+            <TextView android:textAppearance="@android:style/TextAppearance.Material.Subhead" android:textSize="24.0sp" android:textStyle="bold" android:textColor="?android:textColorPrimary" android:gravity="bottom" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="48.0dip" android:text="@string/crypt_keeper_setup_title" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+            <RelativeLayout android:id="@id/top_divider" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ProgressBar android:id="@id/progress_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?android:attr/progressBarStyleHorizontal" />
+            </RelativeLayout>
+            <TextView android:textAppearance="@android:style/TextAppearance.Material.Subhead" android:id="@id/status" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" />
+            <ImageView android:layout_gravity="end|bottom|center" android:id="@id/encroid" android:layout_width="wrap_content" android:layout_height="0.0dip" android:src="@drawable/encroid_waiting" android:layout_weight="1.0" android:contentDescription="@null" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout style="@style/SettingsActivityButtonLayoutStyle">
+        <Button android:id="@id/factory_reset" android:visibility="gone" android:text="@string/master_clear_button_text" style="@style/SettingsActivityButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

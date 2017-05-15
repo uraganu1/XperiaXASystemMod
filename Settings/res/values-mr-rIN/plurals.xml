@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">आपण आता एक विकासक बनण्यापासून %1$d चरण दूर आहात.</item>
+        <item quantity="one">आपण आता एक विकासक बनण्यापासून %1$d चरण दूर आहात.</item>
+    </plurals>
+    <plurals name="security_settings_fingerprint_preference_summary">
+        <item quantity="other">फिंगरप्रिंट अनलॉक करा सक्रिय झाले</item>
+        <item quantity="one">फिंगरप्रिंट अनलॉक करा सक्रिय झाले</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">संकेतशब्दामध्ये कमीतकमी %d अक्षर असावीत.</item>
+        <item quantity="one">संकेतशब्दामध्ये कमीतकमी 1 अक्षर असावे.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">संकेतशब्दामध्ये कमीतकमी %d लोअरकेस अक्षरे असावीत.</item>
+        <item quantity="one">संकेतशब्दामध्ये कमीतकमी 1 लोअरकेस अक्षर असावे.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">संकेतशब्दामध्ये कमीतकमी %d अप्परकेस अक्षरे असावीत.</item>
+        <item quantity="one">संकेतशब्दामध्ये कमीतकमी 1 अप्परकेस अक्षर असावे.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">संकेतशब्दामध्ये कमीतकमी %d संख्यात्मक अंक असावेत.</item>
+        <item quantity="one">संकेतशब्दामध्ये कमीतकमी 1 संख्यात्मक अंक असावा.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">संकेतशब्दामध्ये कमीतकमी %d विशिष्ट चिन्ह असावीत.</item>
+        <item quantity="one">संकेतशब्दामध्ये कमीतकमी 1 विशिष्ट चिन्ह असावे.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">संकेतशब्दामध्ये कमीतकमी %d अक्षर नसलेले वर्ण असावेत.</item>
+        <item quantity="one">संकेतशब्दामध्ये कमीतकमी 1 अक्षर नसलेला वर्ण असावा.</item>
+    </plurals>
+    <plurals name="wrong_pin_code">
+        <item quantity="other">चुकीचा SIM PIN कोड, आपल्याकडे %d प्रयत्न शिल्लक आहेत.</item>
+        <item quantity="one">चुकीचा SIM PIN कोड, आपल्याकडे %d प्रयत्न शिल्लक आहेत, तत्पूर्वी आपण आता आपले उपकरण अनलॉक करण्यासाठी आपल्या सेवा प्रदात्याशी संपर्क साधणे आवश्यक आहे.</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">%d अनुप्रयोग सूचनापत्र वाचू शकतात</item>
+        <item quantity="one">%d अनुप्रयोगाला सूचनापत्र वाचणे शक्य आहे</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_minute">
+        <item quantity="other">%1$d मिनिटांसाठी (%2$s पर्यंत) अलार्म वर बदला</item>
+        <item quantity="one">%2$s पर्यंत केवळ एक मिनिटासाठी गजरांवर बदला</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_hour">
+        <item quantity="other">%2$s पर्यंत %1$d तासांसाठी अलार्म वर बदला</item>
+        <item quantity="one">%2$s पर्यंत केवळ एक तासासाठी गजरांवर बदला</item>
+    </plurals>
+    <plurals name="permissions_summary">
+        <item quantity="other">%d परवानग्यांना मंजूरी दिली</item>
+        <item quantity="one">%d परवानगीस मंजूरी दिली</item>
+    </plurals>
+    <plurals name="runtime_permissions_summary">
+        <item quantity="other">%1$d पैकी %2$d परवानग्यांना मंजूरी दिली</item>
+        <item quantity="one">%1$d पैकी %2$d परवानग्यांना मंजूरी दिली</item>
+    </plurals>
+    <plurals name="runtime_permissions_additional_count">
+        <item quantity="other">%d अतिरिक्त परवानग्या</item>
+        <item quantity="one">%d अतिरिक्त परवानगी</item>
+    </plurals>
+    <plurals name="domain_urls_apps_summary">
+        <item quantity="other">%d अनुप्रयोगांना त्यांच्या समर्थित लिंक्स उघडता येतील</item>
+        <item quantity="zero">कोणत्याही अनुप्रयोगाला कोणतीही समर्थित लिंक उघडता येणार नाही</item>
+        <item quantity="one">एका अनुप्रयोगास त्याच्या समर्थित लिंक्स उघडता येतील</item>
+    </plurals>
+    <plurals name="high_power_count">
+        <item quantity="other">%d अॅप्सने बॅटरी ऑप्टिमायझेशन दुर्लक्षित करण्याची अनुमती दिली</item>
+        <item quantity="one">एका अनुप्रयोगाने बॅटरी इष्टतमीकरणास दुर्लक्षित करण्याची परवानगी दिली</item>
+    </plurals>
+    <plurals name="memory_usage_apps_summary">
+        <item quantity="other">गेल्या %2$s मध्‍ये %1$d अ‍ॅप्सने मेमरी वापरली</item>
+        <item quantity="one">गेल्या %2$s मध्ये एका अनुप्रयोगाने मेमरी वापरली</item>
+    </plurals>
+</resources>

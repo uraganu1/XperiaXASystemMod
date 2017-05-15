@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="app_ops_summaries">
+        <item>சீரற்ற இருப்பிடம்</item>
+        <item>சிறந்த இருப்பிடம்</item>
+        <item>GPS</item>
+        <item>அதிர்வு</item>
+        <item>தொடர்புகளைப் படி</item>
+        <item>தொடர்புகளை மாற்றியமை</item>
+        <item>அழைப்புப் பதிவைப் படி</item>
+        <item>அழைப்புப் பதிவை மாற்றியமை</item>
+        <item>கேலெண்டரைப் படி</item>
+        <item>கேலெண்டரை மாற்று</item>
+        <item>WLAN ஸ்கேன்</item>
+        <item>அறிவிப்பு</item>
+        <item>கைபேசியை ஸ்கேன் செய்</item>
+        <item>தொலைபேசியை அழை</item>
+        <item>SMS படி</item>
+        <item>SMS எழுது</item>
+        <item>SMS பெறு</item>
+        <item>அவசரநிலை SMS ஐப் பெறு</item>
+        <item>MMS பெறு</item>
+        <item>WAP அறிவிப்பைப் பெறு</item>
+        <item>SMS அனுப்பு</item>
+        <item>ICC SMS ஐப் படி</item>
+        <item>ICC SMS எழுது</item>
+        <item>அமைப்புகளை மாற்று</item>
+        <item>மேலே வரை</item>
+        <item>அறிவிப்புகளை அணுகு</item>
+        <item>கேமரா</item>
+        <item>ஆடியோவைப் பதிவுசெய்</item>
+        <item>ஆடியோவை இயக்கு</item>
+        <item>கிளிப்போர்டைப் படி</item>
+        <item>கிளிப்போர்ட்டை மாற்று</item>
+        <item>மீடியா பொத்தான்கள்</item>
+        <item>ஆடியோவை மையப்படுத்து</item>
+        <item>முதன்மை ஒலியளவு</item>
+        <item>குரல் ஒலியளவு</item>
+        <item>அழைப்பு - ஒலியளவு</item>
+        <item>மீடியாவின் ஒலியளவு</item>
+        <item>அலாரத்தின் ஒலியளவு</item>
+        <item>அறிவிப்பின் ஒலியளவு</item>
+        <item>புளூடூத் ஒலியளவு</item>
+        <item>செயலில்</item>
+        <item>இருப்பிடத்தைக் கண்காணி</item>
+        <item>அதிக ஆற்றல் இடத்தைக் கண்காணி</item>
+        <item>பயன்பாட்டு புள்ளிவிவரத்தைப் பெறுக</item>
+        <item>மைக்ரோஃபோனை முடக்கு/இயக்கு</item>
+        <item>ஊடகத்தை புரொஜக்ட் செய்</item>
+        <item>VPN -ஐ செயல்படுத்து</item>
+        <item>வால்பேப்பரில் எழுது</item>
+        <item>கட்டமைப்புக்கு உதவு</item>
+        <item>திரைப்பிடிப்புக்கு உதவு</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices">
+        <item>வைஃபைக்கு முன்னுரிமை</item>
+        <item>செல்லுலாருக்கு முன்னுரிமை</item>
+    </string-array>
+    <string-array name="wapi_psk_type">
+        <item>WLAN ASCII</item>
+        <item>WLAN hexadecimal</item>
+    </string-array>
+</resources>

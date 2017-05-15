@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">Ještě %1$d klepnutí a bude z vás vývojář.</item>
+        <item quantity="one">Ještě %1$d klepnutí a bude z vás vývojář.</item>
+        <item quantity="few">Ještě %1$d kroky a bude z vás vývojář.</item>
+        <item quantity="many">Ještě %1$d kroku a bude z vás vývojář.</item>
+    </plurals>
+    <plurals name="security_settings_fingerprint_preference_summary">
+        <item quantity="other">Odemčení pomocí otisku prstu aktivováno</item>
+        <item quantity="one">Odemčení pomocí otisku prstu aktivováno</item>
+        <item quantity="few">Nastavení %1$d otisků prstu</item>
+        <item quantity="many">Nastavení %1$d otisku prstu</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">Požadovaný minimální počet písmen v heslu: %d.</item>
+        <item quantity="one">Heslo musí obsahovat nejméně jedno písmeno.</item>
+        <item quantity="few">Heslo musí obsahovat alespoň %d písmena.</item>
+        <item quantity="many">Heslo musí obsahovat alespoň %d písmena.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">Požadovaný minimální počet malých písmen v heslu: %d.</item>
+        <item quantity="one">Heslo musí obsahovat nejméně jedno malé písmeno.</item>
+        <item quantity="few">Heslo musí obsahovat alespoň %d malá písmena.</item>
+        <item quantity="many">Heslo musí obsahovat alespoň %d malého písmena.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">Požadovaný minimální počet velkých písmen v heslu: %d.</item>
+        <item quantity="one">Heslo musí obsahovat nejméně jedno velké písmeno.</item>
+        <item quantity="few">Heslo musí obsahovat alespoň %d velká písmena.</item>
+        <item quantity="many">Heslo musí obsahovat alespoň %d velkého písmena.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">Požadovaný minimální počet číslic v heslu: %d.</item>
+        <item quantity="one">Heslo musí obsahovat alespoň jednu číslici.</item>
+        <item quantity="few">Heslo musí obsahovat alespoň %d číslice.</item>
+        <item quantity="many">Heslo musí obsahovat alespoň %d číslice.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">Požadovaný minimální počet zvláštních symbolů v heslu: %d.</item>
+        <item quantity="one">Heslo musí obsahovat nejméně jeden zvláštní symbol.</item>
+        <item quantity="few">Heslo musí obsahovat alespoň %d speciální symboly.</item>
+        <item quantity="many">Heslo musí obsahovat alespoň %d speciálního symbolu.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">Požadovaný minimální počet nepísmenných znaků v heslu: %d.</item>
+        <item quantity="one">Heslo musí obsahovat nejméně jeden znak jiný než písmeno.</item>
+        <item quantity="few">Heslo musí obsahovat alespoň %d znaky jiné než písmena.</item>
+        <item quantity="many">Heslo musí obsahovat alespoň %d znaku jiného než písmeno.</item>
+    </plurals>
+    <plurals name="wrong_pin_code">
+        <item quantity="other">Zadali jste nesprávný kód PIN SIM karty. Počet zbývajících pokusů: %d.</item>
+        <item quantity="one">Zadali jste nesprávný kód PIN karty SIM. Máte ještě %d pokus, poté budete muset o odemknutí zařízení požádat svého poskytovatele služeb.</item>
+        <item quantity="few">Zadali jste nesprávný kód PIN SIM karty. Máte ještě %d pokusy.</item>
+        <item quantity="many">Zadali jste nesprávný kód PIN SIM karty. Máte ještě %d pokusu.</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">Aplikace mohou číst oznámení (celkem %d)</item>
+        <item quantity="one">%d aplikace může číst oznámení</item>
+        <item quantity="few">%d aplikace mohou číst oznámení</item>
+        <item quantity="many">%d aplikace může číst oznámení</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_minute">
+        <item quantity="other">Změna výstrah pouze po %1$d minut (do %2$s)</item>
+        <item quantity="one">Změna výstrah pouze po 1 minutu do %2$s</item>
+        <item quantity="few">Na %1$d minuty (tedy do %2$s) přepnout do režimu Pouze budíky</item>
+        <item quantity="many">Na %1$d minuty (tedy do %2$s) přepnout do režimu Pouze budíky</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_hour">
+        <item quantity="other">Změna výstrah pouze po %1$d hodin do %2$s</item>
+        <item quantity="one">Změna výstrah pouze po 1 hodinu do %2$s</item>
+        <item quantity="few">Na %1$d hodiny (tedy do %2$s) přepnout do režimu Pouze budíky</item>
+        <item quantity="many">Na %1$d hodiny (tedy do %2$s) přepnout do režimu Pouze budíky</item>
+    </plurals>
+    <plurals name="permissions_summary">
+        <item quantity="other">Udělená oprávnění: %d</item>
+        <item quantity="one">Uděleno %d oprávnění</item>
+        <item quantity="few">Udělena %d oprávnění</item>
+        <item quantity="many">Uděleno %d oprávnění</item>
+    </plurals>
+    <plurals name="runtime_permissions_summary">
+        <item quantity="other">Udělená oprávnění: %1$d z %2$d</item>
+        <item quantity="one">Uděleno %1$d oprávnění z %2$d</item>
+        <item quantity="few">Bylo uděleno %1$d z %2$d oprávnění</item>
+        <item quantity="many">Bylo uděleno %1$d z %2$d oprávnění</item>
+    </plurals>
+    <plurals name="runtime_permissions_additional_count">
+        <item quantity="other">Další oprávnění: %d</item>
+        <item quantity="one">%d další oprávnění</item>
+        <item quantity="few">%d další oprávnění</item>
+        <item quantity="many">%d dalšího oprávnění</item>
+    </plurals>
+    <plurals name="domain_urls_apps_summary">
+        <item quantity="other">%d aplikací může otevírat podporované odkazy</item>
+        <item quantity="zero">Žádná aplikace nemůže otevřít podporovaný odkaz</item>
+        <item quantity="one">Jedna aplikace může otevřít své podporované odkazy</item>
+        <item quantity="few">%d aplikace mohou otevírat podporované odkazy</item>
+        <item quantity="many">%d aplikace mohou otevírat podporované odkazy</item>
+    </plurals>
+    <plurals name="high_power_count">
+        <item quantity="other">Aplikace (%d) mohou ignorovat optimalizaci baterie</item>
+        <item quantity="one">1 aplikace může ignorovat optimalizaci baterie</item>
+        <item quantity="few">Ignorovat optimalizaci výdrže baterie mají povoleno %d aplikace</item>
+        <item quantity="many">Ignorovat optimalizaci výdrže baterie má povoleno %d aplikace</item>
+    </plurals>
+    <plurals name="memory_usage_apps_summary">
+        <item quantity="other">%1$d aplik. využilo paměť za posledních %2$s</item>
+        <item quantity="one">1 aplikace využila paměť za posledních %2$s</item>
+        <item quantity="few">%1$d aplikace použily paměť během posledních %2$s</item>
+        <item quantity="many">%1$d aplikace použilo paměť během posledních %2$s</item>
+    </plurals>
+    <plurals name="remaining_time_format_days">
+        <item quantity="other">%d dnů</item>
+        <item quantity="one">%d den</item>
+    </plurals>
+    <plurals name="remaining_time_format_hours">
+        <item quantity="other">%d hod.</item>
+        <item quantity="one">%d hodina</item>
+    </plurals>
+    <plurals name="stamina_xssm_add_applications_descr">
+        <item quantity="other">Aktuální počet aplikací v seznamu: %d</item>
+        <item quantity="one">Aktuální počet aplikací v seznamu: %1$d</item>
+    </plurals>
+    <plurals name="not_time_left_format_hours">
+        <item quantity="other">%d h</item>
+        <item quantity="one">%d h</item>
+    </plurals>
+    <plurals name="not_time_left_format_minutes">
+        <item quantity="other">%d m</item>
+        <item quantity="one">%d m</item>
+    </plurals>
+    <plurals name="xssm_settings_blacklist_summary_txt">
+        <item quantity="other">Vybrané aplikace: %d</item>
+        <item quantity="one">Vybrané aplikace: %d</item>
+    </plurals>
+</resources>

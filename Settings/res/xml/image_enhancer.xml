@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/image_enhancer_txt"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:layout="@layout/radio_preference" android:title="@string/image_enhancer_off_txt" android:key="off" android:summary="@string/image_enhancer_off_desc_txt" />
+    <CheckBoxPreference android:layout="@layout/radio_preference" android:title="@string/mobile_bravia_engine2_txt" android:key="mobile_bravia_engine_2" android:summary="@string/mobile_bravia_engine2_desc_txt" />
+    <CheckBoxPreference android:layout="@layout/radio_preference" android:title="@string/super_vivid_mode_txt" android:key="super-vivid" android:summary="@string/super_vivid_mode_desc_txt" />
+</PreferenceScreen>

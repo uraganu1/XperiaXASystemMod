@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_disabled_wifi_failure">WLAN ਕਨੈਕਸ਼ਨ ਅਸਫਲਤਾ</string>
+    <string name="connected_via_wfa">WLAN ਸਹਾਇਕ ਰਾਹੀਂ ਕਨੈਕਟ ਕੀਤਾ</string>
+    <string name="radio_controls_summary">WLAN, Bluetooth, ਏਅਰਪਲੇਨ ਮੋਡ, ਸੈਲਿਊਲਰ ਨੈਟਵਰਕਸ &amp; VPN ਵਿਵਸਥਿਤ ਕਰੋ</string>
+    <string name="wifi_assistant_title">WLAN ਸਹਾਇਕ</string>
+    <string name="wifi_alert_lockdown_by_device_owner">%1$s ਤੁਹਾਡੀ ਡਿਵਾਈਸ ਨੂੰ ਪ੍ਰਬੰਧਿਤ ਕਰਦਾ ਹੈ ਅਤੇ ਇਸ WLAN ਨੈੱਟਵਰਕ ਨੂੰ ਸੋਧਣ ਅਤੇ ਮਿਟਾਉਣ ਦੀ ਆਗਿਆ ਨਹੀਂ ਦਿੰਦਾ। ਹੋਰ ਜਾਣਕਾਰੀ ਲਈ, ਆਪਣੇ ਪ੍ਰਬੰਧਕ ਨੂੰ ਸੰਪਰਕ ਕਰੋ।</string>
+    <string name="wifi_quick_toggle_title">WLAN</string>
+    <string name="wifi_quick_toggle_summary">WLAN ਚਾਲੂ ਕਰੋ</string>
+    <string name="wifi_settings">WLAN</string>
+    <string name="wifi_settings_category">WLAN ਸੈਟਿੰਗਾਂ</string>
+    <string name="wifi_settings_title">WLAN</string>
+    <string name="wifi_setup_wizard_title">WLAN ਨੈਟਵਰਕ ਚੁਣੋ</string>
+    <string name="wifi_select_network">WLAN ਚੁਣੋ</string>
+    <string name="wifi_starting">WLAN ਚਾਲੂ ਕਰ ਰਿਹਾ ਹੈ…</string>
+    <string name="wifi_stopping">WLAN ਬੰਦ ਕਰ ਰਿਹਾ ਹੈ…</string>
+    <string name="wifi_poor_network_detection_summary">ਜੇਕਰ ਤੱਕ ਤੁਹਾਡੇ ਕੋਲ ਇੱਕ ਚੰਗਾ ਇੰਟਰਨੈਟ ਕਨੈਕਸ਼ਨ ਨਾ ਹੋਵੇ ਤਾਂ WLAN ਨੈਟਵਰਕ ਨਾ ਵਰਤੋ</string>
+    <string name="wifi_automatically_connect_title">ਆਟੋਮੈਟਿਕਲੀ ਓਪਨ WLAN ਵਰਤੋ</string>
+    <string name="wifi_automatically_connect_summary">ਉੱਚ ਕੁਆਲਿਟੀ ਨਿਰਧਾਰਿਤ ਕਰਨ ਲਈ ਓਪਨ ਨੈਟਵਰਕਾਂ ਨਾਲ ਇੱਕ WLAN ਸਹਾਇਕ ਆਟੋਮੈਟਿਕਲੀ ਕਨੈਕਟ ਕਰੋ</string>
+    <string name="wifi_scan_notify_text">ਨਿਰਧਾਰਿਤ ਸਥਾਨ ਸ਼ੁੱਧਤਾ ਨੂੰ ਬਿਹਤਰ ਬਣਾਉਣ ਲਈ, ਸਿਸਟਮ ਐਪਸ ਅਤੇ ਸੇਵਾਵਾਂ WLAN ਨੈਟਵਰਕਾਂ ਨੂੰ ਤਦ ਵੀ ਸਕੈਨ ਕਰ ਸਕਦੀਆਂ ਹਨ। ਤੁਸੀਂ ਇਸਨੂੰ LINK_BEGINਸਕੈਨਿੰਗ ਸੈਟਿੰਗਾਂLINK_END ਵਿੱਚ ਬਦਲ ਸਕਦੇ ਹੋ।</string>
+    <string name="wifi_setting_sleep_policy_title">ਨਿਸ਼ਕਿਰਿਆ ਹੋਣ ਦੇ ਦੌਰਾਨ WLAN ਚਾਲੂ ਰੱਖੋ</string>
+    <string name="wifi_setting_on_during_sleep_title">ਨਿਸ਼ਕਿਰਿਆ ਹੋਣ ਦੇ ਦੌਰਾਨ WLAN ਚਾਲੂ</string>
+    <string name="wifi_suspend_optimizations">WLAN ਅਨੁਕੂਲਨ</string>
+    <string name="wifi_suspend_optimizations_summary">ਜਦੋਂ WLAN ਚਾਲੂ ਹੋਵੇ ਤਾਂ ਬੈਟਰੀ ਵਰਤੋਂ ਘੱਟ ਕਰੋ</string>
+    <string name="wifi_limit_optimizations_summary">WLAN ਵੱਲੋਂ ਵਰਤੀ ਗਈ ਸੀਮਿਤ ਬੈਟਰੀ</string>
+    <string name="wifi_switch_away_when_unvalidated">ਸੈਲਿਉਲਰ ਡਾਟਾ ਤੇ ਸਵਿਚ ਕਰੋ ਜੇਕਰ WLAN ਇੰਟਰਨੈਟ ਪਹੁੰਚ ਨਸ਼ਟ ਕਰ ਦਿੰਦਾ ਹੈ।</string>
+    <string name="wifi_access_points">WLAN ਨੈਟਵਰਕ</string>
+    <string name="wifi_menu_p2p">WLAN ਡਾਇਰੈਕਟ</string>
+    <string name="wifi_empty_list_wifi_off">ਉਪਲਬਧ ਨੈਟਵਰਕ ਦੇਖਣ ਲਈ, WLAN ਚਾਲੂ ਕਰੋ।</string>
+    <string name="wifi_empty_list_wifi_on">WLAN ਨੈਟਵਰਕਾਂ ਦੀ ਖੋਜ ਕਰ ਰਿਹਾ ਹੈ…</string>
+    <string name="wifi_empty_list_user_restricted">ਤੁਹਾਡੇ ਕੋਲ WLAN ਨੈਟਵਰਕ ਨੂੰ ਬਦਲਣ ਦੀ ਅਨੁਮਤੀ ਨਹੀਂ ਹੈ।</string>
+    <string name="wifi_wps_setup_title">WLAN ਸੁਰੱਖਿਅਤ ਸੈਟਅਪ</string>
+    <string name="wifi_wps_onstart_pbc">ਆਪਣੇ ਰੂਟਰ ਤੇ WLAN ਸੁਰੱਖਿਅਤ ਸੈਟਅਪ ਬਟਨ ਦਬਾਓ। ਇਸਨੂੰ \"WPS\" ਕਿਹਾ ਜਾ ਸਕਦਾ ਹੈ ਜਾਂ ਇਸ ਚਿੰਨ੍ਹ ਨਾਲ ਚਿੰਨ੍ਹਿਤ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ:</string>
+    <string name="wifi_wps_onstart_pin">ਆਪਣੇ WLAN ਰੂਟਰ ਤੇ pin %1$s ਦਰਜ ਕਰੋ। ਸੈਟਅਪ ਨੂੰ ਪੂਰਾ ਹੋਣ ਵਿੱਚ ਦੋ ਮਿੰਟ ਲੱਗ ਸਕਦੇ ਹਨ।</string>
+    <string name="wifi_wps_connected">WLAN ਨੈਟਵਰਕ %s ਨਾਲ ਕਨੈਕਟ ਕੀਤਾ</string>
+    <string name="wifi_scan_always_turnon_message">"ਨਿਰਧਾਰਿਤ ਸਥਾਨ ਸ਼ੁੱਧਤਾ ਨੂੰ ਬਿਹਤਰ ਬਣਾਉਣ ਲਈ ਅਤੇ ਹੋਰਾਂ ਮੰਤਵਾਂ ਲਈ, %1$s ਨੈਟਵਰਕ ਸਕੈਨਿੰਗ ਚਾਲੂ ਕਰਨਾ ਚਾਹੁੰਦਾ ਹੈ, ਭਾਵੇਂ WLAN ਬੰਦ ਹੋਵੇ। 
+
+ਕੀ ਇਸਨੂੰ ਸਾਰੇ ਐਪਸ ਲਈ ਆਗਿਆ ਦੇਣੀ ਹੈ ਜਿਹਨਾਂ ਨੂੰ ਸਕੈਨ ਕਰਨਾ ਚਾਹੁੰਦਾ ਹੈ?"</string>
+    <string name="wifi_skipped_message">ਚਿਤਾਵਨੀ: ਜੇਕਰ ਤੁਸੀਂ WLAN ਛੱਡਦੇ ਹੋ, ਤਾਂ ਤੁਹਾਡਾ ਫੋਨ ਅਰੰਭਿਤ ਡਾਊਨਲੋਡਾਂ ਅਤੇ ਅਪਡੇਟਾਂ ਲਈ ਕੇਵਲ ਸੈਲਿਊਲਰ ਡਾਟਾ ਵਰਤੇਗਾ। ਸੰਭਾਵਿਤ ਡਾਟਾ ਖ਼ਰਚਿਆਂ ਤੋਂ ਬਚਣ ਲਈ, WLAN ਨਾਲ ਕਨੈਕਟ ਕਰੋ।</string>
+    <string name="wifi_connect_failed_message">ਫੋਨ ਇਸ WLAN ਨੈਟਵਰਕ ਨਾਲ ਕਨੈਕਟ ਕਰਨ ਵਿੱਚ ਅਸਮਰੱਥ ਸੀ।</string>
+    <string name="wifi_advanced_titlebar">ਉੱਨਤ WLAN</string>
+    <string name="wifi_setting_frequency_band_title">WLAN ਬਾਰੰਬਾਰਤਾ ਬੈਂਡ</string>
+    <string name="wifi_p2p_settings_title">WLAN ਡਾਇਰੈਕਟ</string>
+    <string name="wifi_tether_checkbox_text">ਪੋਰਟੇਬਲ WLAN ਹੌਟਸਪੌਟ</string>
+    <string name="wifi_hotspot_checkbox_text">WLAN ਹੌਟਸਪੌਟ</string>
+    <string name="wifi_hotspot_checkbox_text_summary">WLAN ਨੈਟਵਰਕ ਮੁਹੱਈਆ ਕਰਨ ਲਈ ਸੈਲਿਊਲਰ ਕਨੈਕਸ਼ਨ ਵਰਤੋ</string>
+    <string name="wifi_tether_failed_subtext">ਪੋਰਟੇਬਲ WLAN ਹੌਟਸਪੌਟ ਅਸ਼ੁੱਧੀ</string>
+    <string name="wifi_tether_configure_ap_text">WLAN ਹੌਟਸਪੌਟ ਸੈਟ ਅਪ ਕਰੋ</string>
+    <string name="wifi_hotspot_configure_ap_text">WLAN ਹੌਟਸਪੌਟ ਸੈਟਅਪ</string>
+    <string name="wifi_hotspot_configure_ap_text_summary">AndroidAP WPA2 PSK ਪੋਰਟੇਬਲ WLAN ਹੌਟਸਪੌਟ</string>
+    <string name="wifi_tether_configure_subtext">%1$s %2$s ਪੋਰਟੇਬਲ WLAN ਹੌਟਸਪੌਟ</string>
+    <string name="wifi_calling_settings_title">WLAN ਕਾਲਿੰਗ</string>
+    <string name="wifi_calling_mode_dialog_title">WLAN ਕਾਲਿੰਗ ਮੋਡ</string>
+    <string name="wifi_calling_off_explanation">ਜਦੋਂ WLAN ਕਾਲਿੰਗ ਚਾਲੂ ਹੁੰਦੀ ਹੈ, ਤਾਂ ਤੁਹਾਡਾ ਫੋਨ ਤੁਹਾਡੀ ਤਰਜੀਹ ਅਤੇ ਕਿਹੜਾ ਸਿਗਨਲ ਵੱਧ ਮਜ਼ਬੂਤ ਹੈ, ਦੇ ਆਧਾਰ ਤੇ WLAN ਨੈਟਵਰਕਾਂ ਜਾਂ ਤੁਹਾਡੇ ਕੈਰੀਅਰ ਦੇ ਨੈਟਵਰਕ ਰਾਹੀਆਂ ਕਾਲਾਂ ਰੂਟ ਕਰ ਸਕਦਾ ਹੈ। ਇਸ ਵਿਸ਼ੇਸ਼ਤਾ ਨੂੰ ਚਾਲੂ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ, ਫੀਸ ਅਤੇ ਹੋਰ ਵੇਰਵਿਆਂ ਲਈ ਆਪਣੇ ਕੈਰੀਅਰ ਨੂੰ ਸੰਪਰਕ ਕਰੋ।</string>
+    <string name="status_wifi_mac_address">WLAN MAC ਪਤਾ</string>
+    <string name="reset_network_desc">"ਇਹ ਸਾਰੀਆਂ ਨੈਟਵਰਕ ਸੈਟਿੰਗਾਂ ਰੀਸੈਟ ਕਰ ਦੇਵੇਗਾ, ਜਿਹਨਾਂ ਵਿੱਚ ਸ਼ਾਮਲ ਹਨ:
+
+"<li>WLAN</li>"
+"<li>ਸੈਲਿਊਲਰ ਡਾਟਾ</li>"
+"<li>Bluetooth</li></string>
+    <string name="network_scorer_change_active_dialog_title">ਕੀ WLAN ਸਹਾਇਕ ਬਦਲਣਾ ਹੈ?</string>
+    <string name="location_mode_high_accuracy_description">ਨਿਰਧਾਰਿਤ ਸਥਾਨ ਦਾ ਪਤਾ ਲਗਾਉਣ ਲਈ GPS, WLAN, Bluetooth ਅਤੇ ਸੈਲਿਊਲਰ ਨੈਟਵਰਕ ਵਰਤੋ</string>
+    <string name="location_mode_battery_saving_description">ਨਿਰਧਾਰਿਤ ਸਥਾਨ ਦਾ ਪਤਾ ਲਗਾਉਣ ਲਈ WLAN, Bluetooth ਅਤੇ ਸੈਲਿਊਲਰ ਨੈਟਵਰਕ ਵਰਤੋ</string>
+    <string name="location_scanning_wifi_always_scanning_title">WLAN ਸਕੈਨਿੰਗ</string>
+    <string name="location_scanning_wifi_always_scanning_description">ਸਿਸਟਮ ਐਪਸ ਅਤੇ ਸੇਵਾਵਾਂ ਨੂੰ WLAN ਨੈਟਵਰਕਾਂ ਖੋਜਣ ਦੀ ਆਗਿਆ ਦੇ ਕੇ ਕਿਸੇ ਵੀ ਸਮੇਂ ਨਿਰਧਾਰਿਤ ਸਥਾਨ ਬਿਹਤਰ ਬਣਾਓ।</string>
+    <string name="location_network_based">WLAN &amp; ਸੈਲਿਊਲਰ ਨੈਟਵਰਕ ਨਿਰਧਾਰਿਤ ਸਥਾਨ</string>
+    <string name="location_neighborhood_level_wifi">WLAN ਵੱਲੋਂ ਨਿਸ਼ਚਿਤ ਨਿਰਧਾਰਿਤ ਸਥਾਨ</string>
+    <string name="wifi_verbose_logging">WLAN ਵਰਬੋਸ ਲੌਗਿੰਗ ਸਮਰੱਥ ਬਣਾਓ</string>
+    <string name="wifi_aggressive_handover">ਸੈਲਿਊਲਰ ਹੈਂਡਓਵਰ ਲਈ ਅਗਰੈਸਿਵ WLAN</string>
+    <string name="wifi_allow_scan_with_traffic">ਹਮੇਸ਼ਾਂ WLAN Roam Scans ਦੀ ਆਗਿਆ ਦਿਓ</string>
+    <string name="wifi_verbose_logging_summary">WLAN ਲੌਗਿੰਗ ਪੱਧਰ ਵਧਾਓ, WLAN Picker ਵਿੱਚ ਪ੍ਰਤੀ SSID RSSI ਦਿਖਾਓ</string>
+    <string name="wifi_aggressive_handover_summary">ਜਦੋਂ ਸਮਰਥਿਤ ਹੋਵੇ, ਤਾਂ WLAN ਸੈਲਿਊਲਰ ਨੂੰ ਡਾਟਾ ਕਨੈਕਸ਼ਨ ਹੈਂਡ ਓਵਰ ਕਰਨ ਵਿੱਚ ਵੱਧ ਅਗ੍ਰੈਸਿਵ ਹੋ ਜਾਏਗਾ, ਜਦੋਂ WLAN ਸਿਗਨਲ ਘੱਟ ਹੋਵੇ</string>
+    <string name="wifi_allow_scan_with_traffic_summary">ਇੰਟਰਫੇਸ ਤੇ ਮੌਜੂਦ ਡਾਟਾ ਟ੍ਰੈਫਿਕ ਦੀ ਮਾਤਰਾ ਦੇ ਆਧਾਰ ਤੇ WLAN ਰੋਮ ਸਕੈਨ ਦੀ ਆਗਿਆ ਦਿਓ/ਅਸਵੀਕਾਰ ਕਰੋ</string>
+    <string name="mobile_data_always_on_summary">ਹਮੇਸ਼ਾ ਮੋਬਾਈਲ ਡੇਟਾ ਨੂੰ ਕਿਰਿਆਸ਼ੀਲ ਰੱਖੋ ਭਾਵੇਂ WLAN ਕਿਰਿਆਸ਼ੀਲ ਹੋਵੇ (ਤੇਜ਼ ਨੈੱਟਵਰਕ ਸਵਿੱਚਿੰਗ ਲਈ)।</string>
+    <string name="battery_stats_wifi_running_label">WLAN</string>
+    <string name="wifi_on_time">WLAN ਚਾਲੂ ਹੋਣ ਦਾ ਸਮਾਂ</string>
+    <string name="bluetooth_on_time">WLAN ਚਾਲੂ ਹੋਣ ਦਾ ਸਮਾਂ</string>
+    <string name="power_wifi">WLAN</string>
+    <string name="usage_type_wifi_running">WLAN ਚੱਲ ਰਿਹਾ ਹੈ</string>
+    <string name="usage_type_data_wifi_send">WLAN ਪੈਕੇਟ ਭੇਜੇ</string>
+    <string name="usage_type_data_wifi_recv">WLAN ਪੈਕੇਟ ਪ੍ਰਾਪਤ ਕੀਤੇ</string>
+    <string name="battery_action_wifi">WLAN ਸੈਟਿੰਗਾਂ</string>
+    <string name="battery_desc_wifi">WLAN ਵੱਲੋਂ ਵਰਤੀ ਗਈ ਬੈਟਰੀ</string>
+    <string name="battery_sugg_wifi">WLAN ਬੰਦ ਕਰੋ ਜਦੋਂ ਇਸਨੂੰ ਵਰਤ ਨਾ ਰਹੇ ਹੋਵੋ ਜਾਂ ਜਦੋਂ ਇਹ ਉਪਲਬਧ ਨਾ ਹੋਵੇ</string>
+    <string name="gadget_toggle_wifi">WLAN ਸੈਟਿੰਗ ਅਪਡੇਟ ਕਰ ਰਿਹਾ ਹੈ</string>
+    <string name="gadget_wifi">WLAN</string>
+    <string name="backup_data_summary">Google ਸਰਵਰਾਂ ਤੇ ਐਪ ਡਾਟਾ, WLAN ਪਾਸਵਰਡਾਂ ਅਤੇ ਹੋਰ ਸੈਟਿੰਗਾਂ ਬੈਕ ਅਪ ਕਰੋ</string>
+    <string name="backup_erase_dialog_message">ਆਪਣੇ WLAN ਪਾਸਵਰਡਾਂ, ਬੁੱਕਮਾਰਕਾਂ, ਹੋਰ ਸੈਟਿੰਗਾਂ ਅਤੇ ਐਪ ਡਾਟਾ ਨੂੰ ਬੈਕ ਅਪ ਕਰਨਾ ਬੰਦ ਕਰਨਾ ਹੈ ਅਤੇ Google ਸਰਵਰਾਂ ਦੀਆਂ ਸਾਰੀਆਂ ਕਾਪੀਆਂ ਮਿਟਾਉਣੀਆਂ ਹਨ?</string>
+    <string name="fullbackup_erase_dialog_message">"ਕੀ ਡਿਵਾਈਸ ਡੇਟਾ (ਜਿਵੇਂ ਕਿ WLAN ਪਾਸਵਰਡ ਅਤੇ ਕਲ ਇਤਿਹਾਸ) ਅਤੇ ਐਪ ਡੇਟਾ (ਜਿਵੇਂ ਕਿ ਐਪਸ ਦਾ ਸਟੋਰ ਕੀਤੀ ਸੈੱਟਿੰਗਜ਼ ਅਤੇ ਫ਼ਾਈਲਾਂ) ਦਾ ਬੈੱਕ ਅੱਪ ਤੋਂ ਰੋਕਣਾ ਹੈ, ਅਤੇ ਇਸਦੇ ਨਾਲ-ਨਾਲ Google Drive 'ਤੇ ਸਾਰੀਆਂ ਪ੍ਰਤੀਲਿਪੀਆਂ ਨੂੰ ਮਿਟਾਉਣਾ ਹੈ?"</string>
+    <string name="fullbackup_data_summary">"ਡਿਵਾਈਸ ਡੇਟਾ ਰਿਮੋਟ ਦੇ ਰੂਪ ਵਿੱਚ (ਜਿਵੇਂ ਕਿ WLAN ਪਾਸਵਰਡ ਅਤੇ ਕਲ ਇਤਿਹਾਸ) ਅਤੇ ਐਪ ਡੇਟਾ (ਜਿਵੇਂ ਕਿ ਐਪਸ ਦਾ ਸਟੋਰ ਕੀਤੀ ਸੈੱਟਿੰਗਜ਼ ਅਤੇ ਫ਼ਾਈਲਾਂ) ਦਾ ਸਵੈਚਲ ਬੈੱਕ ਅੱਪ ਲਿਓ।
+
+ਜਦੋਂ ਤੁਸੀਂ ਸਵੈਚਲ ਬੈੱਕ ਅੱਪ ਨੂੰ ਚਾਲੂ ਕਰਦੇ ਹੋ, ਤਾਂ ਡਿਵਾਈਸ ਅਤੇ ਐਪ ਡੇਟਾ ਨੂੰ ਰਿਮੋਟ ਦੇ ਰੂਪ ਵਿੱਚ ਅਵਧੀ ਅਨੁਸਾਰ ਸੁਰੱਖਿਅਤ ਕੀਤਾ ਜਾਂਦਾ ਹੈ। ਐਪ ਡੇਟਾ ਕੋਈ ਵੀ ਡੇਟਾ ਹੋ ਸਕਦਾ ਹੈ ਜੋ ਸੰਪਰਕ, ਸੁਨੇਹੇ, ਅਤੇ ਫੋਟੋਆਂ ਵਰਗੇ ਸੰਭਾਵੀ ਸੰਵੇਦਨਸ਼ੀਲ ਡੇਟਾ ਸਮੇਤ, ਕਿਸੇ ਐਪ ਨੇ ਸੁਰੱਖਿਅਤ ਕੀਤਾ ਹੁੰਦਾ ਹੈ (ਨਿਰਮਾਤਾ ਸੈੱਟਿੰਗਜ਼ ਦੇ ਅਧਾਰ 'ਤੇ)।"</string>
+    <string name="wifi_setup_title">WLAN ਸੈਟਅਪ</string>
+    <string name="wifi_setup_title_editing_network">WLAN ਨੈਟਵਰਕ %s ਨਾਲ ਕਨੈਕਟ ਕਰੋ</string>
+    <string name="wifi_setup_title_connecting_network">WLAN ਨੈਟਵਰਕ %s ਨਾਲ ਕਨੈਕਟ ਕਰ ਰਿਹਾ ਹੈ…</string>
+    <string name="wifi_setup_title_connected_network">WLAN ਨੈਟਵਰਕ %s ਨਾਲ ਕਨੈਕਟ ਕੀਤਾ</string>
+    <string name="wifi_setup_eap_not_supported">ਤੁਸੀਂ ਸੈਟਅਪ ਦੇ ਦੌਰਾਨ ਇੱਕ EAP WLAN ਕਨੈਕਸ਼ਨ ਕੌਂਫਿਗਰ ਨਹੀਂ ਕਰ ਸਕਦੇ। ਸੈਟਅਪ ਤੋਂ ਬਾਅਦ, ਤੁਸੀਂ ਸੈਟਿੰਗਾਂ > ਵਾਇਰਲੈਸ &amp; ਨੈਟਵਰਕਾਂ ਵਿੱਚ ਅਜਿਹਾ ਕਰ ਸਕਦੇ ਹੋ।</string>
+    <string name="wifi_setup_description_connected">ਸੈਟਅਪ ਨੂੰ ਜਾਰੀ ਰੱਖਣ ਲਈ <b>ਅਗਲਾ</b>" ਨੂੰ ਛੋਹਵੋ।
+
+ਇੱਕ ਵੱਖਰੇ WLAN ਨੈਟਵਰਕ ਨਾਲ ਕਨੈਕਟ ਕਰਨ ਲਈ "<b>ਪਿੱਛੇ ਜਾਓ</b> ਨੂੰ ਛੋਹਵੋ।</string>
+    <string name="data_usage_menu_show_wifi">WLAN ਦਿਖਾਓ</string>
+    <string name="data_usage_menu_hide_wifi">WLAN ਲੁਕਾਓ</string>
+    <string name="data_usage_disable_wifi_limit">WLAN ਡਾਟਾ ਸੀਮਾ ਸੈਟ ਕਰੋ</string>
+    <string name="data_usage_tab_wifi">WLAN</string>
+    <string name="data_usage_restrict_background">ਜੇਕਰ ਤੁਸੀਂ ਪਿਛੋਕੜ ਸੈਲਿਊਲਰ ਡਾਟਾ ਤੇ ਪ੍ਰਤਿਬੰਧ ਲਾਉਂਦੇ ਹੋ, ਤਾਂ ਕੁਝ ਐਪਸ ਅਤੇ ਸੇਵਾਵਾਂ ਉਦੋਂ ਤੱਕ ਕੰਮ ਨਹੀਂ ਕਰਨਗੀਆਂ ਜਦੋਂ ਤੱਕ ਤੁਸੀਂ WLAN ਨਾਲ ਕਨੈਕਟ ਨਹੀਂ ਕਰਦੇ।</string>
+    <string name="data_usage_restrict_background_multiuser">"ਜੇਕਰ ਤੁਸੀਂ ਪਿਛੋਕੜ ਸੈਲਿਊਲਰ ਡਾਟਾ ਤੇ ਪ੍ਰਤਿਬੰਧ ਲਾਉਂਦੇ ਹੋ, ਤਾਂ ਕੁਝ ਐਪਸ ਅਤੇ ਸੇਵਾਵਾਂ ਉਦੋਂ ਤੱਕ ਕੰਮ ਨਹੀਂ ਕਰਨਗੀਆਂ ਜਦੋਂ ਤੱਕ ਤੁਸੀਂ WLAN ਨਾਲ ਕਨੈਕਟ ਨਹੀਂ ਕਰਦੇ।
+
+ਇਹ ਸੈਟਿੰਗ ਇਸ ਫੋਨ ਦੇ ਸਾਰੇ ਉਪਭੋਗਤਾਵਾਂ ਤੇ ਅਸਰ ਪਾਉਂਦੀ ਹੈ।"</string>
+    <string name="data_usage_metered_body">ਹਿਸਾਬ ਲਗਾਏ ਨੈਟਵਰਕਾਂ ਨਾਲ ਸੈਲਿਊਲਰ ਵਾਂਗ ਵਿਹਾਰ ਕੀਤਾ ਜਾਂਦਾ ਹੈ ਜਦੋਂ ਪਿਛੋਕੜ ਡਾਟਾ ਪ੍ਰਤਿਬੰਧਿਤ ਕੀਤਾ ਜਾਂਦਾ ਹੈ। ਐਪਸ ਵੱਡੀਆਂ ਡਾਊਨਲੋਡਸ ਲਈ ਇਹ ਨੈਟਵਰਕ ਵਰਤਣ ਤੋਂ ਪਹਿਲਾਂ ਚਿਤਾਵਨੀ ਦੇ ਸਕਦੇ ਹਨ।</string>
+    <string name="data_usage_metered_wifi">ਮੀਟਰਡ WLAN ਨੈਟਵਰਕ</string>
+    <string name="data_usage_metered_wifi_disabled">ਮੀਟਰਡ ਨੈਟਵਰਕ ਚੁਣਨ ਲਈ, WLAN ਚਾਲੂ ਕਰੋ।</string>
+    <string name="user_add_user_message_long">"ਤੁਸੀਂ ਵਾਧੂ ਉਪਭੋਗਤਾ ਬਣਾ ਕੇ ਹੋਰਾਂ ਲੋਕਾਂ ਨਾਲ ਇਹ ਡਿਵਾਈਸ ਸ਼ੇਅਰ ਕਰ ਸਕਦੇ ਹੋ। ਹਰੇਕ ਉਪਭੋਗਤਾ ਦਾ ਆਪਣਾ ਖੁਦ ਦਾ ਸਪੇਸ ਹੁੰਦਾ ਹੈ, ਜਿਸਨੂੰ ਉਹ ਐਪਸ ਅਤੇ ਵਾਲਪੇਪਰ ਆਦਿ ਨਾਲ ਅਨੁਕੂਲ ਬਣਾ ਸਕਦੇ ਹਨ। ਉਪਭੋਗਤਾ ਡਿਵਾਈਸ ਸੈਟਿੰਗਾਂ ਵੀ ਵਰਤ ਸਕਦੇ ਹਨ ਜਿਵੇਂ WLAN ਜੋ ਹਰੇਕ ਤੇ ਅਸਰ ਪਾਉਂਦਾ ਹੈ।
+
+ਜਦੋਂ ਤੁਸੀਂ ਇੱਕ ਨਵਾਂ ਉਪਭੋਗਤਾ ਜੋੜਦੇ ਹੋ, ਉਸ ਵਿਅਕਤੀ ਨੂੰ ਆਪਣਾ ਸਪੇਸ ਸੈਟ ਅਪ ਕਰਨ ਦੀ ਲੋੜ ਹੁੰਦੀ ਹੈ।
+
+ਕੋਈ ਵੀ ਉਪਭੋਗਤਾ ਹੋਰ ਸਾਰੇ ਉਪਭੋਗਤਾਵਾਂ ਦੇ ਐਪਸ ਨੂੰ ਅਪਡੇਟ ਕਰ ਸਕਦਾ ਹੈ।"</string>
+    <string name="restriction_wifi_config_title">WLAN ਅਤੇ ਮੋਬਾਈਲ</string>
+    <string name="restriction_wifi_config_summary">WLAN ਅਤੇ ਮੋਬਾਈਲ ਸੈਟਿੰਗਾਂ ਦੇ ਸੰਸ਼ੋਧਨ ਦੀ ਆਗਿਆ ਦਿਓ</string>
+    <string name="setup_wifi_nfc_tag">WLAN NFC ਟੈਗ ਸੈਟ ਅਪ ਕਰੋ</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="powersaver_feature_haptic">\"Vibrer au toucher\" désactivée</string>
+    <string name="powersaver_feature_sync">Synchronisation automatique désactivée</string>
+    <string name="powersaver_feature_data">Données mobiles désactivées</string>
+    <string name="powersaver_feature_gamma">Mode Nuit activé</string>
+    <string name="powersaver_feature_bravia">Mobile BRAVIA Engine arrêté</string>
+    <string name="stamina_queue_background_data_title">"Placer les données d'arrière-plan en file d'attente"</string>
+    <string name="application_usage_title">"Consommation d'énergie des applis"</string>
+    <string name="wifi_tether_settings_text">"Réglages du point d'accès Wi-Fi mobile"</string>
+    <string name="auto_sync_text">Synchronisation automatique</string>
+</resources>

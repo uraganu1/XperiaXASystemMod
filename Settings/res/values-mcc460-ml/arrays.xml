@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="app_ops_summaries">
+        <item>മോശം ലൊക്കേഷൻ</item>
+        <item>നല്ല ലൊക്കേഷൻ</item>
+        <item>GPS</item>
+        <item>വൈബ്രേറ്റുചെയ്യുക</item>
+        <item>കോൺടാക്റ്റുകൾ റീഡുചെയ്യുക</item>
+        <item>സമ്പർക്കങ്ങൾ പരിഷ്‌ക്കരിക്കുക</item>
+        <item>കോൾ ലോഗ് റീഡുചെയ്യുക</item>
+        <item>കോൾ ലോഗ് പരിഷ്‌ക്കരിക്കുക</item>
+        <item>കലണ്ടർ റീഡുചെയ്യുക</item>
+        <item>കലണ്ടർ പരിഷ്‌ക്കരിക്കുക</item>
+        <item>WLAN സ്‌കാൻ</item>
+        <item>അറിയിപ്പ്</item>
+        <item>സെൽ സ്‌കാൻ</item>
+        <item>ഫോണ്‍ വിളിക്കുക</item>
+        <item>SMS വായിക്കുക</item>
+        <item>SMS എഴുതുക</item>
+        <item>SMS നേടുക</item>
+        <item>അടിയന്തര SMS നേടുക</item>
+        <item>MMS നേടുക</item>
+        <item>WAP പുഷ് നേടുക</item>
+        <item>SMS അയയ്‌ക്കുക</item>
+        <item>ICC SMS വായിക്കുക</item>
+        <item>ICC SMS എഴുതുക</item>
+        <item>ക്രമീകരണങ്ങൾ പരിഷ്‌ക്കരിക്കുക</item>
+        <item>മുകളിൽ ഡ്രോ ചെയ്യുക</item>
+        <item>അറിയിപ്പുകൾ ആക്‌സസ്സുചെയ്യുക</item>
+        <item>ക്യാമറ</item>
+        <item>ഓഡിയോ റെക്കോർഡുചെയ്യുക</item>
+        <item>ഓഡിയോ പ്ലേ ചെയ്യുക</item>
+        <item>ക്ലിപ്പ്ബോർഡ് റീഡുചെയ്യുക</item>
+        <item>ക്ലിപ്പ്ബോർഡ് പരിഷ്‌ക്കരിക്കുക</item>
+        <item>മീഡിയ ബട്ടണുകൾ</item>
+        <item>ഓഡിയോ ഫോക്കസ്</item>
+        <item>മൊത്തം വോളിയം</item>
+        <item>വോയ്‌സ് വോളിയം</item>
+        <item>റിംഗ് വോളിയം</item>
+        <item>മീഡിയ വോളിയം</item>
+        <item>അലാറം വോളിയം</item>
+        <item>അറിയിപ്പ് വോളിയം</item>
+        <item>bluetooth വോളിയം</item>
+        <item>സജീവമായി തുടരുക</item>
+        <item>ലൊക്കേഷൻ നിരീക്ഷിക്കുക</item>
+        <item>ഉയർന്ന പവർ ലൊക്കേഷൻ നിരീക്ഷിക്കുക</item>
+        <item>ഉപയോഗ സ്ഥിതിവിവരക്കണക്കുകൾ നേടുക</item>
+        <item>മൈക്രോഫോൺ മ്യൂട്ടുചെയ്യുക/അൺമ്യൂട്ടുചെയ്യുക</item>
+        <item>പ്രോജക്‌റ്റ് മീഡിയ</item>
+        <item>VPN സജീവമാക്കുക</item>
+        <item>വാൾപേപ്പർ റൈറ്റുചെയ്യുക</item>
+        <item>അസിസ്റ്റ് ഘടന</item>
+        <item>അസിസ്റ്റ് സ്‌ക്രീൻഷോട്ട്</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices">
+        <item>വൈഫൈ തിരഞ്ഞെടുത്തിരിക്കുന്നു</item>
+        <item>സെല്ലുലാർ തിരഞ്ഞെടുത്തിരിക്കുന്നു</item>
+    </string-array>
+    <string-array name="wapi_psk_type">
+        <item>WLAN ASCII</item>
+        <item>WLAN hexadecimal</item>
+    </string-array>
+</resources>

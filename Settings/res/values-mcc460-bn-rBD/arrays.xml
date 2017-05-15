@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="app_ops_summaries">
+        <item>অনির্দিষ্ট অবস্থান</item>
+        <item>সূক্ষ্ম অবস্থান</item>
+        <item>GPS</item>
+        <item>কম্পন</item>
+        <item>পরিচিতিগুলি পড়ুন</item>
+        <item>পরিচিতি পরিবর্তন করুন</item>
+        <item>কল লগ পড়ুন</item>
+        <item>কল লগ পরিবর্তন করুন</item>
+        <item>ক্যালেন্ডার পড়ুন</item>
+        <item>ক্যালেন্ডারে পরিবর্তন করুন</item>
+        <item>wi-fi স্ক্যান</item>
+        <item>বিজ্ঞপ্তি</item>
+        <item>সেল স্ক্যান</item>
+        <item>ফোন করুন</item>
+        <item>SMS পড়ুন</item>
+        <item>SMS লিখুন</item>
+        <item>SMS পান</item>
+        <item>জরুরী SMS পান</item>
+        <item>MMS পান</item>
+        <item>WAP পুশ পান</item>
+        <item>SMS পাঠান</item>
+        <item>ICC SMS পড়ুন</item>
+        <item>ICC SMS লিখুন</item>
+        <item>সেটিংস সংশোধন করুন</item>
+        <item>উপরে অঙ্কন করুন</item>
+        <item>বিজ্ঞপ্তিগুলি অ্যাক্সেস করুন</item>
+        <item>ক্যামেরা</item>
+        <item>অডিও রেকর্ড করুন</item>
+        <item>অডিও প্লে করুন</item>
+        <item>ক্লিপবোর্ড পড়ুন</item>
+        <item>ক্লিপবোর্ড সংশোধন করুন</item>
+        <item>মিডিয়া বোতাম</item>
+        <item>অডিও ফোকাস করুন</item>
+        <item>মাস্টার ভলিউম</item>
+        <item>ভয়েস ভলিউম</item>
+        <item>রিং ভলিউম</item>
+        <item>মিডিয়া ভলিউম</item>
+        <item>অ্যালার্মের ভলিউম</item>
+        <item>বিজ্ঞপ্তির ভলিউম</item>
+        <item>Bluetooth এর ভলিউম</item>
+        <item>জাগিয়ে রাখা</item>
+        <item>অবস্থান নিরীক্ষণ করুন</item>
+        <item>উচ্চ ক্ষমতার অবস্থান নিরীক্ষণ করুন</item>
+        <item>ব্যবহারের পরিসংখ্যান পান</item>
+        <item>মাইক্রোফোন নিঃশব্দ/সশব্দ করুন</item>
+        <item>মিডিয়া অভিক্ষেপ করুন</item>
+        <item>VPN সক্রিয় করুন</item>
+        <item>লেখার ওয়ালপেপার</item>
+        <item>গঠন সহায়তা</item>
+        <item>স্ক্রীনশট সহায়তা</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices">
+        <item>WLAN ব্যবহার করুন</item>
+        <item>পছন্দের মোবাইল নেটওয়ার্ক</item>
+    </string-array>
+</resources>

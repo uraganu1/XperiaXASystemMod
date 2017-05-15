@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">ഒരു ഡവലപ്പറായിത്തീരുന്നതിന് നിങ്ങൾ %1$d ചുവടുകൾ മാത്രം അകലെയാണ്.</item>
+        <item quantity="one">ഒരു ഡവലപ്പറായിത്തീരുന്നതിന് നിങ്ങൾ %1$d ചുവട് മാത്രം അകലെയാണ്.</item>
+    </plurals>
+    <plurals name="security_settings_fingerprint_preference_summary">
+        <item quantity="other">വിരലടയാളം അൺ‌ലോക്കുചെയ്യൽ സജീവമാക്കി</item>
+        <item quantity="one">വിരലടയാളം അൺ‌ലോക്കുചെയ്യൽ സജീവമാക്കി</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">പാസ്‌വേഡിൽ %d അക്ഷരങ്ങളെങ്കിലും ഉണ്ടായിരിക്കണം.</item>
+        <item quantity="one">പാസ്‌വേഡിൽ ഒരു അക്ഷരമെങ്കിലും ഉണ്ടായിരിക്കണം.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">പാസ്‌വേഡിൽ %d ചെറിയക്ഷരങ്ങളെങ്കിലും ഉണ്ടായിരിക്കണം.</item>
+        <item quantity="one">പാസ്‌വേഡിൽ ഒരു ചെറിയക്ഷരമെങ്കിലും ഉണ്ടായിരിക്കണം.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">പാസ്‌വേഡിൽ %d വലിയക്ഷരങ്ങളെങ്കിലും ഉണ്ടായിരിക്കണം.</item>
+        <item quantity="one">പാസ്‌വേഡിൽ ഒരു വലിയക്ഷരമെങ്കിലും ഉണ്ടായിരിക്കണം.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">പാസ്‌വേഡിൽ %d സംഖ്യകളെങ്കിലും ഉണ്ടായിരിക്കണം.</item>
+        <item quantity="one">പാസ്‌വേഡിൽ ഒരു അക്കമെങ്കിലും ഉണ്ടായിരിക്കണം.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">പാസ്‌വേഡിൽ %d പ്രത്യേക ചിഹ്നങ്ങളെങ്കിലും ഉണ്ടായിരിക്കണം.</item>
+        <item quantity="one">പാസ്‌വേഡിൽ ഒരു പ്രത്യേക ചിഹ്നമെങ്കിലും ഉണ്ടായിരിക്കണം.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">പാസ്‌വേഡിൽ അക്ഷരമല്ലാത്ത %d പ്രതീകങ്ങളെങ്കിലും ഉണ്ടായിരിക്കണം.</item>
+        <item quantity="one">പാസ്‌വേഡിൽ അക്ഷരമല്ലാത്ത ഒരു പ്രതീകമെങ്കിലും ഉണ്ടായിരിക്കണം.</item>
+    </plurals>
+    <plurals name="wrong_pin_code">
+        <item quantity="other">തെറ്റായ SIM PIN കോഡ്, നിങ്ങൾക്ക് അവശേഷിക്കുന്ന %d ശ്രമങ്ങളുണ്ട്.</item>
+        <item quantity="one">തെറ്റായ SIM PIN കോഡ്, നിങ്ങളുടെ ഉപകരണത്തിന്റെ ലോക്ക് നീക്കാൻ സേവന ദാതാവുമായി ബന്ധപ്പെടുന്നതിന് നിങ്ങൾക്ക് %d ശ്രമങ്ങൾ ബാക്കിയുണ്ട്.</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">അറിയിപ്പുകൾ വായിക്കാൻ %d ആപ്ലിക്കേഷനുകൾക്ക് കഴിയില്ല</item>
+        <item quantity="one">അറിയിപ്പുകൾ വായിക്കാൻ %d ആപ്ലിക്കേഷന് കഴിയില്ല</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_minute">
+        <item quantity="other">%1$d മിനിറ്റ് നേരത്തേയ്ക്ക് മാത്രമേ അലാറം മാറ്റാനാകൂ (%2$s വരെ)</item>
+        <item quantity="one">%2$s വരെ ഒരു മിനിറ്റ് നേരത്തേയ്ക്ക് മാത്രമേ അലാറങ്ങൾ മാറ്റാനാകൂ</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_hour">
+        <item quantity="other">%2$s വരെ %1$d മണിക്കൂർ നേരത്തേയ്ക്ക് മാത്രമേ അലാറം മാറ്റാനാകൂ</item>
+        <item quantity="one">%2$s വരെ ഒരു മണിക്കൂർ നേരത്തേയ്ക്ക് മാത്രമേ അലാറങ്ങൾ മാറ്റാനാകൂ</item>
+    </plurals>
+    <plurals name="permissions_summary">
+        <item quantity="other">%d അനുമതികൾ അനുവദിച്ചു</item>
+        <item quantity="one">%d അനുമതി അനുവദിച്ചു</item>
+    </plurals>
+    <plurals name="runtime_permissions_summary">
+        <item quantity="other">%1$d / %2$d അനുമതികൾ അനുവദിച്ചു</item>
+        <item quantity="one">%1$d / %2$d അനുമതി അനുവദിച്ചു</item>
+    </plurals>
+    <plurals name="runtime_permissions_additional_count">
+        <item quantity="other">%d അധിക അനുമതികൾ</item>
+        <item quantity="one">%d അധിക അനുമതി</item>
+    </plurals>
+    <plurals name="domain_urls_apps_summary">
+        <item quantity="other">%d ആപ്ലിക്കേഷനുകൾക്ക് അവയുടെ പിന്തുണയ്ക്കുന്ന ലിങ്കുകൾ തുറക്കാനാകും</item>
+        <item quantity="zero">ആപ്ലിക്കേഷനുകൾക്കൊന്നും പിന്തുണയ്ക്കുന്ന ഒരു ലിങ്കും തുറക്കാനാകില്ല</item>
+        <item quantity="one">ഒരു ആപ്പിന് അതിന്റെ പിന്തുണയ്‌ക്കുന്ന ലിങ്കുകൾ തുറക്കാനാകും</item>
+    </plurals>
+    <plurals name="high_power_count">
+        <item quantity="other">ബാറ്ററി പരമാവധി ഉപയോഗപ്രദമാക്കൽ നിരസിക്കാൻ %d ആപ്ലിക്കേഷനുകളെ അനുവദിച്ചിരിക്കുന്നു</item>
+        <item quantity="one">ബാറ്ററി പരമാവധി ഉപയോഗപ്രദമാക്കൽ നിരസിക്കാൻ 1 ആപ്ലിക്കേഷനെ അനുവദിച്ചു</item>
+    </plurals>
+    <plurals name="memory_usage_apps_summary">
+        <item quantity="other">കഴിഞ്ഞ %2$s ദിവസത്തിൽ %1$d ആപ്ലിക്കേഷനുകൾ മെമ്മറി ഉപയോഗിച്ചു</item>
+        <item quantity="one">കഴിഞ്ഞ %2$s സമയത്തിൽ 1 ആപ്ലിക്കേഷൻ മെമ്മറി ഉപയോഗിച്ചു</item>
+    </plurals>
+</resources>

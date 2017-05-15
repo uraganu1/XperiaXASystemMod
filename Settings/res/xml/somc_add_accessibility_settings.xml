@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.sonymobile.settings.preference.RemovePreference settings:targetParentKey="system_category" settings:targetKey="captioning_preference_screen" />
+    <com.sonymobile.settings.preference.PreferenceCategory android:title="@string/settings_header_hearing_txt" android:key="hearing_category" settings:before="first">
+        <PreferenceScreen android:title="@string/accessibility_captioning_title" android:key="captioning_preference_screen" android:fragment="com.android.settings.accessibility.CaptionPropertiesFragment" />
+    </com.sonymobile.settings.preference.PreferenceCategory>
+    <com.sonymobile.settings.preference.RemovePreference settings:targetParentKey="system_category" settings:targetKey="screen_magnification_preference_screen" />
+    <com.sonymobile.settings.preference.RemovePreference settings:targetParentKey="system_category" settings:targetKey="toggle_large_text_preference" />
+    <com.sonymobile.settings.preference.RemovePreference settings:targetParentKey="system_category" settings:targetKey="toggle_high_text_contrast_preference" />
+    <com.sonymobile.settings.preference.RemovePreference settings:targetParentKey="display_category" settings:targetKey="toggle_inversion_preference" />
+    <com.sonymobile.settings.preference.RemovePreference settings:targetParentKey="display_category" settings:targetKey="daltonizer_preference_screen" />
+    <com.sonymobile.settings.preference.RemovePreference settings:targetParentKey="system_category" settings:targetKey="enable_global_gesture_preference_screen" />
+    <com.sonymobile.settings.preference.RemovePreference settings:targetParentKey="system_category" settings:targetKey="toggle_speak_password_preference" />
+    <com.sonymobile.settings.preference.RemovePreference settings:targetParentKey="system_category" settings:targetKey="tts_settings_preference" />
+    <com.sonymobile.settings.preference.RemovePreference settings:targetParentKey="system_category" settings:targetKey="ipo_setting" />
+    <com.sonymobile.settings.preference.PreferenceCategory android:title="@string/settings_header_vision_txt" android:key="vision_category" settings:after="hearing_category">
+        <PreferenceScreen android:title="@string/accessibility_screen_magnification_title" android:key="screen_magnification_preference_screen" android:fragment="com.android.settings.accessibility.ToggleScreenMagnificationPreferenceFragment" />
+        <SwitchPreference android:persistent="false" android:title="@string/accessibility_toggle_large_text_preference_title" android:key="toggle_large_text_preference" />
+        <SwitchPreference android:persistent="false" android:title="@string/accessibility_toggle_high_text_contrast_preference_title" android:key="toggle_high_text_contrast_preference" android:summary="@string/experimental_preference" />
+        <SwitchPreference android:persistent="false" android:title="@string/accessibility_display_inversion_preference_title" android:key="toggle_inversion_preference" android:summary="@string/accessibility_display_inversion_preference_subtitle" />
+        <PreferenceScreen android:title="@string/accessibility_display_daltonizer_preference_title" android:key="daltonizer_preference_screen" android:fragment="com.android.settings.accessibility.ToggleDaltonizerPreferenceFragment" />
+        <PreferenceScreen android:key="com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService" />
+        <PreferenceScreen android:title="@string/accessibility_global_gesture_preference_title" android:key="enable_global_gesture_preference_screen" android:fragment="com.android.settings.accessibility.ToggleGlobalGesturePreferenceFragment" />
+        <SwitchPreference android:persistent="false" android:title="@string/accessibility_toggle_speak_password_preference_title" android:key="toggle_speak_password_preference" />
+        <PreferenceScreen android:title="@string/tts_settings_title" android:key="tts_settings_preference" android:fragment="com.android.settings.tts.TextToSpeechSettings" />
+        <SwitchPreference android:persistent="false" android:title="@string/ipo_title" android:key="ipo_setting" android:summary="@string/ipo_summary_off" />
+    </com.sonymobile.settings.preference.PreferenceCategory>
+    <com.sonymobile.settings.preference.RemovePreference settings:targetParentKey="system_category" settings:targetKey="toggle_power_button_ends_call_preference" />
+    <com.sonymobile.settings.preference.RemovePreference settings:targetParentKey="system_category" settings:targetKey="toggle_lock_screen_rotation_preference" />
+    <com.sonymobile.settings.preference.RemovePreference settings:targetParentKey="system_category" settings:targetKey="select_long_press_timeout_preference" />
+    <com.sonymobile.settings.preference.PreferenceCategory android:title="@string/settings_header_operation_txt" android:key="operation_category" settings:after="vision_category">
+        <SwitchPreference android:persistent="false" android:title="@string/accessibility_power_button_ends_call_prerefence_title" android:key="toggle_power_button_ends_call_preference" />
+        <SwitchPreference android:persistent="false" android:title="@string/accelerometer_title" android:key="toggle_lock_screen_rotation_preference" />
+        <ListPreference android:persistent="false" android:entries="@array/long_press_timeout_selector_titles" android:title="@string/accessibility_long_press_timeout_preference_title" android:key="select_long_press_timeout_preference" android:entryValues="@array/long_press_timeout_selector_values" />
+    </com.sonymobile.settings.preference.PreferenceCategory>
+    <com.sonymobile.settings.preference.RemovePreference settings:targetKey="services_category" />
+    <com.sonymobile.settings.preference.PreferenceCategory android:title="@string/accessibility_services_title" android:key="services_category" settings:after="operation_category" />
+    <com.sonymobile.settings.preference.RemovePreference settings:targetKey="system_category" />
+    <com.sonymobile.settings.preference.RemovePreference settings:targetKey="display_category" />
+</PreferenceScreen>

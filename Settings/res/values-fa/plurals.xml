@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">شما در حال حاضر، %1$d قدم تا برنامه‌نویس شدن فاصله دارید.</item>
+        <item quantity="one">شما در حال حاضر، %1$d قدم تا برنامه‌نویس شدن فاصله دارید.</item>
+    </plurals>
+    <plurals name="security_settings_fingerprint_preference_summary">
+        <item quantity="other">بازگشایی با اثر انگشت فعال شد</item>
+        <item quantity="one">بازگشایی با اثر انگشت فعال شد</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">‏گذرواژه باید دارای حداقل %d حرف باشد.</item>
+        <item quantity="one">گذرواژه باید دارای حداقل 1 حرف باشد.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">‏گذروازه باید دارای حداقل %d حرف کوچک باشد.</item>
+        <item quantity="one">گذرواژه باید دارای حداقل 1 حرف کوچک باشد.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">‏گذرواژه باید دارای حداقل %d حرف بزرگ باشد.</item>
+        <item quantity="one">گذرواژه باید دارای حداقل 1 حرف بزرگ باشد.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">‏گذرواژه باید دارای حداقل %d رقم باشد.</item>
+        <item quantity="one">گذرواژه باید دارای حداقل 1 رقم باشد.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">‏گذرواژه باید دارای حداقل %d نماد ویژه باشد.</item>
+        <item quantity="one">گذرواژه باید دارای حداقل 1 نماد ویژه باشد.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">‏گذرواژه باید دارای حداقل %d نویسه غیرحرفی باشد.</item>
+        <item quantity="one">گذرواژه باید حداقل دارای 1 نویسه غیرحرفی باشد.</item>
+    </plurals>
+    <plurals name="wrong_pin_code">
+        <item quantity="other">کد پین سیم کارت اشتباه است، %d بار دیگر می‌توانید تلاش کنید.</item>
+        <item quantity="one">کد پین سیم کارت اشتباه است، %d بار دیگر می‌توانید تلاش کنید و پس از آن برای گشودن قفل دستگاهتان باید با ارائه‌دهنده خدمات تماس بگیرید.</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">%d برنامه‌‌ می‌توانند اعلان‌ها را بخوانند</item>
+        <item quantity="one">%d برنامه می‌تواند اعلان‌ها را بخواند</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_minute">
+        <item quantity="other">تغییر در هشدارها تنها به مدت %1$d دقیقه (تا %2$s)</item>
+        <item quantity="one">تغییر در هشدارها فقط به مدت یک دقیقه تا %2$s</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_hour">
+        <item quantity="other">تغییر در هشدارها تنها به مدت %1$d ساعت تا %2$s</item>
+        <item quantity="one">تغییر در هشدارها فقط به مدت یک ساعت تا %2$s</item>
+    </plurals>
+    <plurals name="permissions_summary">
+        <item quantity="other">%d مجوز اعطا شده</item>
+        <item quantity="one">%d مجوز اعطا شده</item>
+    </plurals>
+    <plurals name="runtime_permissions_summary">
+        <item quantity="other">‏%1$d از %2$d اجازه اعطا شد</item>
+        <item quantity="one">‏%1$d از %2$d اجازه اعطا شد</item>
+    </plurals>
+    <plurals name="runtime_permissions_additional_count">
+        <item quantity="other">%d مجوز اضافی</item>
+        <item quantity="one">%d مجوز اضافی</item>
+    </plurals>
+    <plurals name="domain_urls_apps_summary">
+        <item quantity="other">برنامه های %d می توانند لینک های پشتیبانی شده خود را باز کنند</item>
+        <item quantity="zero">هیچ برنامه ای نمی تواند لینک پشتیبانی شده ای را باز کند</item>
+        <item quantity="one">یک برنامه می تواند لینک های پشتیبانی شده خود را باز کند</item>
+    </plurals>
+    <plurals name="high_power_count">
+        <item quantity="other">به %d برنامه اجازه داده شد بهینه‌سازی مصرف باتری را نادیده بگیرند</item>
+        <item quantity="one">به 1 برنامه اجازه داده شد بهینه‌سازی مصرف باتری را نادیده بگیرد</item>
+    </plurals>
+    <plurals name="memory_usage_apps_summary">
+        <item quantity="other">%1$d برنامه در %2$s گذشته از حافظه استفاده کرده‌اند</item>
+        <item quantity="one">1 برنامه در %2$s گذشته از حافظه استفاده کرده است</item>
+    </plurals>
+    <plurals name="remaining_time_format_days">
+        <item quantity="other">%d روز</item>
+        <item quantity="one">%d روز</item>
+    </plurals>
+    <plurals name="remaining_time_format_hours">
+        <item quantity="other">%d ساعت</item>
+        <item quantity="one">%d ساعت</item>
+    </plurals>
+    <plurals name="stamina_xssm_add_applications_descr">
+        <item quantity="other">%d برنامه در حال حاضر در لیست است</item>
+        <item quantity="one">%1$d برنامه در حال حاضر در لیست است</item>
+    </plurals>
+    <plurals name="not_time_left_format_hours">
+        <item quantity="other">%d ساعت</item>
+        <item quantity="one">%d ساعت</item>
+    </plurals>
+    <plurals name="not_time_left_format_minutes">
+        <item quantity="other">%d دقیقه</item>
+        <item quantity="one">%d دقیقه</item>
+    </plurals>
+    <plurals name="xssm_settings_blacklist_summary_txt">
+        <item quantity="other">%d برنامه انتخاب شده است</item>
+        <item quantity="one">%d برنامه انتخاب شده است</item>
+    </plurals>
+</resources>

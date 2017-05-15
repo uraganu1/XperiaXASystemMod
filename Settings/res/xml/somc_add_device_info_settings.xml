@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.sonymobile.settings.preference.IntentPreference android:key="xperia_diagnostic" settings:dependOnIsValidIntent="true" settings:before="status_info" settings:hasMetaData="true">
+        <intent android:targetPackage="com.sonymobile.support" android:action="android.intent.action.MAIN" android:targetClass="com.sonymobile.support.startDiagnostics" />
+    </com.sonymobile.settings.preference.IntentPreference>
+    <com.sonymobile.settings.preference.IntentPreference android:key="usage_info_settings" settings:dependOnIsValidIntent="true" settings:after="certificates" settings:hasMetaData="true">
+        <intent android:targetPackage="com.sonymobile.anondata" android:action="com.sonyericsson.intent.action.GET_PREFERENCE" android:targetClass="com.sonymobile.anondata.ui.Settings" />
+    </com.sonymobile.settings.preference.IntentPreference>
+</PreferenceScreen>

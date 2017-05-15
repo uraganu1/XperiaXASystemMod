@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="powersaver_feature_sync">Otomatik senkronizasyon kapalı</string>
+    <string name="powersaver_feature_bravia">Mobile BRAVIA Engine kapalı</string>
+    <string name="stamina_xssm_add_applications_title">Bekleme modunda aktif olan uygulamalar</string>
+    <string name="usb_direct_settings_hi_res_audio_title_txt">USB ile Yüksek Çözünürlüklü Ses</string>
+    <string name="auto_sync_text">Otomatik senkronizasyon</string>
+</resources>

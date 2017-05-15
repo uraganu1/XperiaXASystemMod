@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">Sampeyan saiki %1$d jangkah saka dadi pangembang</item>
+        <item quantity="one">Sampeyan saiki %1$d jangkah saka dadi pangembang</item>
+    </plurals>
+    <plurals name="security_settings_fingerprint_preference_summary">
+        <item quantity="other">Pambukak kunci sidhik driji diaktifake</item>
+        <item quantity="one">Pambukak kunci sidhik driji diaktifake</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">Sandhi kudu ngamot paling sithik %d abjad</item>
+        <item quantity="one">Sandhi kudu ngamot paling sithik 1 abjad</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">Sandhi kudu ngamot paling sithik %d abjad cilik</item>
+        <item quantity="one">Sandhi kudu ngamot paling sithik 1 abjad cilik</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">Sandhi kudu ngamot paling sithik %d abjad gedhe</item>
+        <item quantity="one">Sandhi kudu ngamot paling sithik 1 abjad gedhe</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">Sandhi kudu ngamot paling sithik %d angka digit</item>
+        <item quantity="one">Sandhi kudu ngamot paling sithik 1 angka numerik</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">Sandhi kudu ngamot paling sithik %d simbol kusus</item>
+        <item quantity="one">Sandhi kudu ngamot paling sithik 1 simbol kusus</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">Sandhi kudu ngamot paling sithik %d karakter sing dudu abjad</item>
+        <item quantity="one">Sandhi kudu ngamot paling sithik 1 karakter sing dudu abjad</item>
+    </plurals>
+    <plurals name="wrong_pin_code">
+        <item quantity="other">Kode PIN SIM salah, kari %d upaya maneh.</item>
+        <item quantity="one">Kode PIN SIM salah, kari %d upaya sadurunge sampeyan kudu ngubungi operator layanan kanggo mbukak kunci piranti.</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">%d aplikasi bisa maca kabar</item>
+        <item quantity="one">%d aplikasi bisa maca kabar</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_minute">
+        <item quantity="other">Owahan nyang weker mung sasuwene %1$d menit (nganti %2$s)</item>
+        <item quantity="one">Owah nyang weker mung sasuwene sak menit nganti %2$s</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_hour">
+        <item quantity="other">Owahan nyang weker mung sasuwene %1$d jam nganti %2$s</item>
+        <item quantity="one">Owah nyang weker mung sasuwene sak jam nganti %2$s</item>
+    </plurals>
+    <plurals name="permissions_summary">
+        <item quantity="other">%d diwenehi idin</item>
+        <item quantity="one">%d diwenehi idin</item>
+    </plurals>
+    <plurals name="runtime_permissions_summary">
+        <item quantity="other">%1$d saka %2$d diwenehi idin</item>
+        <item quantity="one">%1$d saka %2$d diwenehi idin</item>
+    </plurals>
+    <plurals name="runtime_permissions_additional_count">
+        <item quantity="other">%d idin tambahan</item>
+        <item quantity="one">%d idin tambahan</item>
+    </plurals>
+    <plurals name="domain_urls_apps_summary">
+        <item quantity="other">%d aplikasi bisa mbukak tautan kadhukunge</item>
+        <item quantity="zero">Ora ana aplikasi sing bisa mbukak tautan sing kadhukung</item>
+        <item quantity="one">Siji aplikasi bisa mbukak tautan kadhukunge</item>
+    </plurals>
+    <plurals name="high_power_count">
+        <item quantity="other">%d aplikasi sing diidini supaya nglirwakake optimisasi baterei</item>
+        <item quantity="one">1 aplikasi sing diidini kanggo nglirwakake optimisasi baterei</item>
+    </plurals>
+    <plurals name="memory_usage_apps_summary">
+        <item quantity="other">%1$d aplikasi nggunakake memori ing %2$s kepungkur</item>
+        <item quantity="one">1 aplikasi nggunakake memori ing %2$s kepungkur</item>
+    </plurals>
+    <plurals name="remaining_time_format_days">
+        <item quantity="other">%d dina</item>
+        <item quantity="one">%d dina</item>
+    </plurals>
+    <plurals name="remaining_time_format_hours">
+        <item quantity="other">%d jam</item>
+        <item quantity="one">%d jam</item>
+    </plurals>
+    <plurals name="stamina_xssm_add_applications_descr">
+        <item quantity="other">%d aplikasi sing ana ing dhaptar</item>
+        <item quantity="one">%1$d aplikasi sing ana ing dhaptar</item>
+    </plurals>
+    <plurals name="not_time_left_format_hours">
+        <item quantity="other">%d jam</item>
+        <item quantity="one">%d jam</item>
+    </plurals>
+    <plurals name="not_time_left_format_minutes">
+        <item quantity="other">%d menit</item>
+        <item quantity="one">%d menit</item>
+    </plurals>
+    <plurals name="xssm_settings_blacklist_summary_txt">
+        <item quantity="other">%d apl sing dipilih</item>
+        <item quantity="one">%d aplikasi sing dipilih</item>
+    </plurals>
+</resources>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">개발자가 되려면 %1$d단계가 남았습니다.</item>
+        <item quantity="one">개발자가 되려면 %1$d단계가 남았습니다.</item>
+    </plurals>
+    <plurals name="security_settings_fingerprint_preference_summary">
+        <item quantity="other">지문 잠금 해제가 활성화됨</item>
+        <item quantity="one">지문 잠금 해제가 활성화됨</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">비밀번호에는 적어도 %d개의 문자가 포함되어야 합니다.</item>
+        <item quantity="one">비밀번호에는 적어도 하나의 문자가 포함되어야 합니다.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">비밀번호에는 적어도 %d개의 소문자가 포함되어야 합니다.</item>
+        <item quantity="one">비밀번호에는 적어도 하나의 소문자가 포함되어야 합니다.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">비밀번호에는 적어도 %d개의 대문자가 포함되어야 합니다.</item>
+        <item quantity="one">비밀번호에는 적어도 하나의 대문자가 포함되어야 합니다.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">비밀번호에는 적어도 %d개의 숫자가 포함되어야 합니다.</item>
+        <item quantity="one">비밀번호에는 적어도 하나의 숫자가 포함되어야 합니다.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">비밀번호에는 적어도 %d개의 특수 기호가 포함되어야 합니다.</item>
+        <item quantity="one">비밀번호에는 적어도 하나의 특수 기호가 포함되어야 합니다.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">비밀번호에는 적어도 %d개 이상의 글자가 아닌 문자가 포함되어야 합니다.</item>
+        <item quantity="one">비밀번호에는 글자가 아닌 문자가 한 개 이상 포함되어야 합니다.</item>
+    </plurals>
+    <plurals name="wrong_pin_code">
+        <item quantity="other">USIM PIN 코드가 잘못되었습니다. %d번의 기회가 남았습니다.</item>
+        <item quantity="one">USIM PIN 코드가 잘못되었습니다. %d회 더 실패할 경우 서비스 공급자에게 문의하여 장치를 잠금 해제해야 합니다.</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">%d개 앱이 알림을 읽을 수 있음</item>
+        <item quantity="one">%d개 앱이 알림을 읽을 수 있음</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_minute">
+        <item quantity="other">%1$d분 동안만 알람으로 변경(%2$s까지)</item>
+        <item quantity="one">%2$s까지 1분 동안만 알람으로 변경</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_hour">
+        <item quantity="other">%2$s까지 %1$d시간 동안만 알람으로 변경</item>
+        <item quantity="one">%2$s까지 1시간 동안만 알람으로 변경</item>
+    </plurals>
+    <plurals name="permissions_summary">
+        <item quantity="other">%d개 권한 부여됨</item>
+        <item quantity="one">%d개 권한 부여됨</item>
+    </plurals>
+    <plurals name="runtime_permissions_summary">
+        <item quantity="other">%1$d/%2$d개 권한 부여됨</item>
+        <item quantity="one">%1$d/%2$d개 권한 부여됨</item>
+    </plurals>
+    <plurals name="runtime_permissions_additional_count">
+        <item quantity="other">%d개 추가 권한</item>
+        <item quantity="one">%d개 추가 권한</item>
+    </plurals>
+    <plurals name="domain_urls_apps_summary">
+        <item quantity="other">%d개 앱이 지원되는 링크를 열 수 있음</item>
+        <item quantity="zero">지원되는 링크를 열 수 있는 앱이 없음</item>
+        <item quantity="one">1개 앱에서 지원되는 링크를 열 수 있습니다.</item>
+    </plurals>
+    <plurals name="high_power_count">
+        <item quantity="other">%d개 앱이 배터리 최적화를 무시하도록 허용함</item>
+        <item quantity="one">1개 앱이 배터리 최적화를 무시하도록 허용함</item>
+    </plurals>
+    <plurals name="memory_usage_apps_summary">
+        <item quantity="other">%1$d개 앱이 지난 %2$s 동안 메모리를 사용함</item>
+        <item quantity="one">1개 앱이 지난 %2$s 동안 메모리를 사용함</item>
+    </plurals>
+    <plurals name="remaining_time_format_days">
+        <item quantity="other">%d일</item>
+        <item quantity="one">%d일</item>
+    </plurals>
+    <plurals name="remaining_time_format_hours">
+        <item quantity="other">%d시간</item>
+        <item quantity="one">%d시간</item>
+    </plurals>
+    <plurals name="stamina_xssm_add_applications_descr">
+        <item quantity="other">%d개 앱이 현재 목록에 있음</item>
+        <item quantity="one">%1$d개 앱이 현재 목록에 있음</item>
+    </plurals>
+    <plurals name="not_time_left_format_hours">
+        <item quantity="other">%d시간</item>
+        <item quantity="one">%d시간</item>
+    </plurals>
+    <plurals name="not_time_left_format_minutes">
+        <item quantity="other">%d분</item>
+        <item quantity="one">%d분</item>
+    </plurals>
+    <plurals name="xssm_settings_blacklist_summary_txt">
+        <item quantity="other">%d개 앱이 선택됨</item>
+        <item quantity="one">%d개 앱이 선택됨</item>
+    </plurals>
+</resources>

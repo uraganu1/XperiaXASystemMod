@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/lock_settings_picker_title" android:key="lock_settings_picker"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceScreen android:persistent="false" android:title="@string/unlock_set_unlock_off_title" android:key="unlock_set_off" />
+    <PreferenceScreen android:persistent="false" android:title="@string/unlock_set_unlock_none_title" android:key="unlock_set_none" />
+    <PreferenceScreen android:persistent="false" android:title="@string/unlock_set_unlock_pattern_title" android:key="unlock_set_pattern" />
+    <PreferenceScreen android:persistent="false" android:title="@string/unlock_set_unlock_mode_voice_weak" android:key="unlock_set_voice_weak" />
+    <PreferenceScreen android:persistent="false" android:title="@string/unlock_set_unlock_pin_title" android:key="unlock_set_pin" />
+    <PreferenceScreen android:persistent="false" android:title="@string/unlock_set_unlock_password_title" android:key="unlock_set_password" />
+    <com.sonymobile.settings.preference.IncludePreference android:key="include" settings:include="@xml/somc_add_security_settings_picker" />
+</PreferenceScreen>

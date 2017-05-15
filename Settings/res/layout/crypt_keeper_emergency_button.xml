@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button android:layout_gravity="center_horizontal" android:id="@id/emergencyCallButton" android:background="@drawable/cryptkeeper_emergency_button_background" android:layout_margin="16.0dip" android:layout_marginTop="0.0dip" android:text="@string/cryptkeeper_emergency_call" android:drawablePadding="16.0dip" android:textAllCaps="false" android:drawableStart="@drawable/cryptkeeper_emergency_button" android:paddingStart="16.0dip" android:paddingEnd="24.0dip" style="@style/SettingsActivityButtonStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

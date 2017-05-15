@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="powersaver_feature_data">إيقاف تشغيل بيانات الجوال</string>
+    <string name="powersaver_feature_bravia">إيقاف Mobile BRAVIA Engine</string>
+    <string name="stamina_xssm_add_applications_title">التطبيقات النشطة في وضع الاستعداد</string>
+    <string name="application_usage_title">الطاقة التي يستهلكها التطبيق</string>
+    <string name="wifi_tether_settings_text">إعدادات نقطة اتصال Wi-Fi محمولة</string>
+</resources>

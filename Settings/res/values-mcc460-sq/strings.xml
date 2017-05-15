@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_security_wapi_psk">WLAN PSK</string>
+    <string name="wifi_disabled_wifi_failure">Lidhja WLAN dështoi</string>
+    <string name="connected_via_wfa">U lidh nëpërmjet asistentit të WLAN</string>
+    <string name="accessibility_wifi_off">WLAN joaktiv.</string>
+    <string name="accessibility_no_wifi">WLAN u shkëput.</string>
+    <string name="accessibility_wifi_one_bar">WLAN me një shirit.</string>
+    <string name="accessibility_wifi_two_bars">WLAN me dy shirita.</string>
+    <string name="accessibility_wifi_three_bars">WLAN me tre shirita.</string>
+    <string name="accessibility_wifi_signal_full">WLAN me sinjal të plotë.</string>
+    <string name="radio_controls_summary">Menaxhoni WLAN, Bluetooth, mënyrën Në avion, rrjetet celulare dhe VPN-të</string>
+    <string name="wifi_assistant_title">Ndihmësi i WLAN</string>
+    <string name="wifi_alert_lockdown_by_device_owner">%1$s menaxhon pajisjen tuaj dhe nuk e lejon modifikimin ose fshirjen e këtij rrjeti WLAN. Për më shumë informacione, kontaktoni me administratorin tuaj.</string>
+    <string name="wifi_quick_toggle_title">WLAN</string>
+    <string name="wifi_quick_toggle_summary">Aktivizo WLAN</string>
+    <string name="wifi_settings">WLAN</string>
+    <string name="wifi_settings_category">Cilësimet e WLAN</string>
+    <string name="wifi_settings_title">WLAN</string>
+    <string name="wifi_setup_wizard_title">Përzgjidhni WLAN</string>
+    <string name="wifi_select_network">Përzgjidh WLAN</string>
+    <string name="wifi_poor_network_detection_summary">Mos përdor një rrjet WLAN nëse, nuk ka lidhje të mirë interneti</string>
+    <string name="wifi_automatically_connect_title">Përdor automatikisht rrjetet e hapura WLAN</string>
+    <string name="wifi_automatically_connect_summary">Lejo një ndihmës të WLAN të lidhet automatikisht me rrjetet e hapura të përcaktuara si rrjete të cilësisë së lartë</string>
+    <string name="wifi_scan_notify_text">Për të përmirësuar saktësinë e vendndodhjes, aplikacionet dhe shërbimet e sistemit mund të skanojnë akoma për rrjetet WLAN. Këtë mund ta ndryshoni te LINK_BEGINcilësimet e skanimitLINK_END.</string>
+    <string name="wifi_setting_sleep_policy_title">Mbaj WLAN aktiv gjatë fjetjes</string>
+    <string name="wifi_setting_on_during_sleep_title">WLAN aktiv gjatë fjetjes</string>
+    <string name="wifi_suspend_optimizations">Optimizimi i WLAN</string>
+    <string name="wifi_suspend_optimizations_summary">Minimizo përdorimin e baterisë kur WLAN është aktiv</string>
+    <string name="wifi_limit_optimizations_summary">Kufizoni baterinë e përdorur nga WLAN</string>
+    <string name="wifi_switch_away_when_unvalidated">Kaloni te të dhënat celulare nëse WLAN humbet qasjen në internet.</string>
+    <string name="wifi_access_points">Rrjetet WLAN</string>
+    <string name="wifi_menu_p2p">WLAN Direct</string>
+    <string name="wifi_empty_list_wifi_off">Aktivizoni WLAN, për të parë rrjetet e disponueshme.</string>
+    <string name="wifi_empty_list_wifi_on">Duke kërkuar për rrjete WLAN...</string>
+    <string name="wifi_empty_list_user_restricted">Nuk keni leje për të ndryshuar rrjetin WLAN</string>
+    <string name="wifi_wps_setup_title">Konfigurimi i WLAN të mbrojtur</string>
+    <string name="wifi_wps_onstart_pbc">Shtypni butonin e Konfigurimit të WLAN të mbrojtur në rrugëzuesin tuaj. Ai mund të quhet \"WPS\" ose të jetë i shënuar me këtë simbol:</string>
+    <string name="wifi_wps_onstart_pin">Futni kodin PIN %1$s në rrugëzuesin tuaj WLAN. Konfigurimi mund të dojë deri në dy minuta që të përfundojë.</string>
+    <string name="wifi_wps_connected">U lidh me rrjetin WLAN %s</string>
+    <string name="wifi_scan_always_turnon_message">"Për të përmirësuar saktësinë e vendndodhjes dhe për qëllime të tjera, %1$s dëshiron të aktivizojë skanimin e rrjeteve, edhe kur WLAN është joaktiv.
+
+Të lejohet kjo për të gjitha aplikacionet që dëshironi të skanoni?"</string>
+    <string name="wifi_skipped_message">"PARALAJMËRIM: Mund të shkaktoni tarifa shtesë të ofruesit të shërbimit për të dhënat.
+
+Konfigurimi i telefonit mund të kërkojë aktivitet të madh në rrjet."</string>
+    <string name="wifi_and_mobile_skipped_message">"Nëse e kapërceni WLAN:
+
+"<li>Telefoni juaj nuk do të ketë një lidhje interneti.</li>"
+
+"<li>Nuk do të merrni përditësime të softuerëve deri sa të lidheni me internetin.</li>"
+
+"<li>"Nuk mund t'i aktivizoni tiparet e mbrojtjes së pajisjes në këtë kohë."</li></string>
+    <string name="wifi_connect_failed_message">Telefoni nuk ishte në gjendje të lidhej me këtë rrjet WLAN.</string>
+    <string name="wifi_advanced_titlebar">Cilësimet e WLAN</string>
+    <string name="wifi_setting_frequency_band_title">Brezi i frekuencave WLAN</string>
+    <string name="wifi_advanced_settings_label">Cilësimet e WLAN</string>
+    <string name="wifi_p2p_settings_title">WLAN Direct</string>
+    <string name="wifi_tether_checkbox_text">Pikë aktive WLAN e lëvizshme</string>
+    <string name="wifi_hotspot_checkbox_text">Zona e internetit me valë WLAN</string>
+    <string name="wifi_hotspot_checkbox_text_summary">Përdorni lidhjen celulare për të ofruar rrjetin WLAN</string>
+    <string name="wifi_tether_failed_subtext">Gabim i pikës aktive WLAN të lëvizshme</string>
+    <string name="wifi_tether_configure_ap_text">Konfig. zon. internetit me valë WLAN</string>
+    <string name="wifi_hotspot_configure_ap_text">Konfigurimi i zonës së internetit me valë WLAN</string>
+    <string name="wifi_hotspot_configure_ap_text_summary">Zonë portative e internetit me valë WLAN AndroidAP WPA2 PSK</string>
+    <string name="wifi_tether_configure_subtext">"%1$s Pika aktive WLAN e lëvizshme.
+Siguria: %2$s"</string>
+    <string name="wifi_calling_settings_title">Telefonimi me WLAN</string>
+    <string name="wifi_calling_mode_dialog_title">Regjimi i telefonimit me WLAN</string>
+    <string name="wifi_calling_off_explanation">"Përdorni Telefonimin me WLAN për të rritur cilësinë e telefonatave në vendet ku mbulimi me sinjal i rrjetit celular është i dobët.
+ 
+Kostoja
+Për informacione mbi tarifat e Telefonimit me WLAN, kontaktoni me ofruesin e shërbimit.
+ 
+Shënime mbi Telefonimin me WLAN
+Për të qëndruar në Telefonimin me WLAN, sigurohuni që të qëndroni brenda rrezes së rrjetit WLAN."</string>
+    <string name="status_wifi_mac_address">Adresa MAC e WLAN</string>
+    <string name="reset_network_desc">"Kjo do të ricilësojë të gjitha cilësimet e rrjetit, duke përfshirë:
+
+"<li>WLAN</li>"
+"<li>Të dhënat celulare</li>"
+"<li>Bluetooth</li></string>
+    <string name="network_scorer_change_active_dialog_title">Të ndryshohet ndihmësi i WLAN?</string>
+    <string name="location_mode_high_accuracy_description">Përdorni GPS, WLAN, Bluetooth ose rrjetet celulare për përcaktimin e vendndodhjes</string>
+    <string name="location_mode_battery_saving_description">Përdorni WLAN, Bluetooth ose rrjetet celulare për përcaktimin e vendndodhjes</string>
+    <string name="location_scanning_wifi_always_scanning_title">Skanimi i WLAN</string>
+    <string name="location_scanning_wifi_always_scanning_description">Përmirësoni vendndodhjen duke lejuar që aplikacionet dhe shërbimet e sistemit të zbulojnë rrjetet WLAN në çdo kohë.</string>
+    <string name="location_neighborhood_level_wifi">Vendndodhja u përcaktua nga WLAN</string>
+    <string name="wifi_verbose_logging">Aktivizo regjistrimin e detajuar të WLAN</string>
+    <string name="wifi_aggressive_handover">Dorëzim agresiv i WLAN në Të dhënat celulare</string>
+    <string name="wifi_allow_scan_with_traffic">Lejo gjithmonë skanimet në roaming të WLAN</string>
+    <string name="wifi_verbose_logging_summary">Rritni nivelin e regjistrimit të WLAN, afisho RSSI-në për çdo SSID në Zgjedhësin e WLAN</string>
+    <string name="wifi_aggressive_handover_summary">Kur të jetë i aktivizuar, WLAN do të jetë më agresiv përsa i përket kalimit të lidhjes së të dhënave në Celulare, kur sinjali i WLAN është i dobët</string>
+    <string name="wifi_allow_scan_with_traffic_summary">Lejoni/Nuk lejoni Skanimet e roaming me WLAN bazuar në sasinë e trafikut të të dhënave të pranishme në ndërfaqe</string>
+    <string name="mobile_data_always_on_summary">Mbajini të dhënat celulare gjithmonë aktive, edhe kur WLAN është aktiv (për ndërrimin e shpejtë të rrjetit).</string>
+    <string name="battery_stats_wifi_running_label">WLAN</string>
+    <string name="wifi_on_time">Koha e aktivizimit të WLAN</string>
+    <string name="bluetooth_on_time">Koha e aktivizimit të WLAN</string>
+    <string name="power_wifi">WLAN</string>
+    <string name="usage_type_wifi_running">Ekzekutimi i WLAN</string>
+    <string name="usage_type_data_wifi_send">Paketat e WLAN të dërguara</string>
+    <string name="usage_type_data_wifi_recv">Paketat e WLAN të marra</string>
+    <string name="battery_action_wifi">Cilësimet e WLAN</string>
+    <string name="battery_desc_wifi">Bateria e përdorur nga WLAN</string>
+    <string name="battery_sugg_wifi">Çaktivizoni WLAN kur nuk e përdorni ose kur nuk është i disponueshëm</string>
+    <string name="gadget_toggle_wifi">Duke përditësuar cilësimin e WLAN</string>
+    <string name="gadget_wifi">WLAN</string>
+    <string name="backup_data_summary">Krijoni kopje rezervë të të dhënave të aplikacionit, të fjalëkalimeve të WLAN dhe të cilësime të tjera në serverët e Google™</string>
+    <string name="backup_erase_dialog_message">Të ndalohet krijimi i kopjeve rezervë të fjalëkalimeve të WLAN, kujtesoreve, cilësimeve të tjera dhe të dhënave të aplikacioneve tuaja, si edhe të fshihen të gjitha kopjet në serverët e Google™?</string>
+    <string name="fullbackup_erase_dialog_message">Ndaloni krijimin e kopjeve rezervë për të dhënat e pajisjes (si fjalëkalimet e WLAN dhe lista e telefonatave) dhe për të dhënat e aplikacioneve (si cilësimet dhe skedarët e ruajtur nga aplikacionet), si dhe spastroni të gjitha kopjet në Google Drive?</string>
+    <string name="fullbackup_data_summary">"Krijoni automatikisht kopje rezervë të të dhënave të pajisjes (si p.sh. fjalëkalimet e WLAN dhe lista e telefonatave) dhe të të dhënave të aplikacioneve (si cilësimet dhe skedarët e ruajtur nga aplikacionet) në largësi.
+
+Kur të aktivizoni kopjen rezervë automatike, të dhënat e pajisjes dhe të aplikacioneve ruhen periodikisht në largësi. Të dhënat e aplikacioneve mund të jenë çdo e dhënë që ka ruajtur një aplikacion (bazuar në cilësimet e zhvilluesit), përfshirë të dhëna ndoshta delikate si kontaktet, mesazhet dhe fotografitë."</string>
+    <string name="wifi_setup_title">Konfigurimi i WLAN</string>
+    <string name="wifi_setup_title_editing_network">Lidhu me rrjetin WLAN %s</string>
+    <string name="wifi_setup_title_connecting_network">Duke u lidhur me rrjetin WLAN %s…</string>
+    <string name="wifi_setup_title_connected_network">U lidh me rrjetin WLAN %s</string>
+    <string name="wifi_setup_eap_not_supported">Nuk mund të konfiguroni një rrjet WLAN EAP gjatë konfigurimit. Pas konfigurimit, mund ta bëni këtë te Cilësimet > Rrjetet pa tel.</string>
+    <string name="wifi_setup_description_connected">Prekni <b>Tjetër</b>" për të vazhduar me konfigurimin.
+
+Prekni "<b>Kthehu</b>" për t'u lidhur me një rrjet tjetër WLAN."</string>
+    <string name="data_usage_menu_show_wifi">Afisho WLAN</string>
+    <string name="data_usage_menu_hide_wifi">Fshih WLAN</string>
+    <string name="data_usage_disable_wifi_limit">Cilëso kufirin e të dhënave WLAN</string>
+    <string name="data_usage_tab_wifi">WLAN</string>
+    <string name="data_usage_restrict_background">Nëse kufizoni të dhënat celulare në sfond, disa aplikacione dhe shërbime nuk do të punojnë nëse nuk jeni lidhur me një rrjet WLAN.</string>
+    <string name="data_usage_restrict_background_multiuser">"Nëse kufizoni të dhënat celulare në sfond, disa aplikacione dhe shërbime nuk do të funksionojnë nëse nuk lidheni me WLAN.
+
+Ky cilësim ndikon te të gjithë përdoruesit në këtë telefon."</string>
+    <string name="data_usage_metered_body">"Përzgjidhni rrjetet WLAN të cilat janë zona të internetit me valë celulare. Aplikacionet mund t'i përdorin në mënyrë të kufizuar këto rrjete kur janë në sfond. Aplikacionet gjithashtu mund të paralajmërojnë para përdorimit të këtyre rrjeteve për shkarkime të mëdha."</string>
+    <string name="data_usage_metered_wifi">Rrjetet WLAN me limit</string>
+    <string name="data_usage_metered_wifi_disabled">Për të përzgjedhur rrjetet me limit, aktivizoni WLAN.</string>
+    <string name="user_add_user_message_long">"Mund ta bashkëndani këtë pajisje me persona të tjerë duke krijuar përdorues shtesë. Çdo përdorues ka hapësirën e tij, të cilën mund ta përshtasë me aplikacionet, me sfondin e kështu me radhë. Përdoruesit mund të rregullojnë edhe cilësimet e pajisjes, si WLAN, që ndikojnë te të gjithë.
+
+Kur shtoni një përdorues të ri, ai person duhet të konfigurojë hapësirën e tij.
+
+Çdo përdorues mund të përditësojë aplikacionet për të gjithë përdoruesit e tjerë."</string>
+    <string name="restriction_wifi_config_title">WLAN dhe celulare</string>
+    <string name="restriction_wifi_config_summary">Lejoni modifikimin e cilësimeve të WLAN dhe celulare</string>
+    <string name="setup_wifi_nfc_tag">Konfiguro etiketën NFC për WLAN</string>
+    <string name="l_dialog_message_hint">"Regjimi STAMINA përfshin:
+
+• Në gatishmëri të zgjatur
+Kursen energji kur ekrani është joaktiv nga çaktivizimi i përkohshëm i WLAN. Shumica e aplikacioneve nuk do të jenë aktive.
+Kur ekrani është aktiv, pajisja juaj do të funksionojë normalisht.
+Nëse dëshironi të mbani disa aplikacione aktive kur Në gatishmëri të zgjatur është aktivizuar, shtoni aplikacionet në listën Aplikacionet aktive në gjendje gatishmërie.
+
+• Përdorimi i zgjeruar
+Kursen energji kur pajisja juaj është në përdorim nga kufizimi i funksionimit të harduerit."</string>
+    <string name="powersaver_feature_wifi">WLAN i çaktivizuar</string>
+    <string name="stamina_xssm_summary">Çaktivizon të dhënat celulare dhe WLAN kur ekrani është joaktiv</string>
+    <string name="usm_descr">"Regjimi Ultra STAMINA do ta shtojë shumë kohëzgjatjen e baterisë. Ai mund të përdoret kur nuk mund ta ngarkoni pajisjen tuaj për një kohë të gjatë.
+
+Vetëm disa funksione bazë, si Telefoni dhe Mesazhimi do të jenë të disponueshme. Trokitni lehtë \"Më shumë informacion\" për më shumë hollësi.
+
+Kini parasysh që lidhja me internetin nëpërmjet WLAN dhe Të dhënat celulare do të çaktivizohen."</string>
+    <string name="battery_usm_desc">"Regjimi Ultra STAMINA do të zgjasë ndjeshëm jetëgjatësinë e baterisë. Kini parasysh se lidhja e internetit nëpërmjet WLAN dhe të dhënat celulare do të çaktivizohen. Ekrani bazë do të kalojë te Faqja bazë e regjimit Ultra STAMINA.
+
+Aplikacionet e disponueshme në regjimin Ultra STAMINA"</string>
+    <string name="somc_wifi_turned_on_info">WLAN është aktivizuar. Përzgjidhni rrjetin tuaj në listë.</string>
+    <string name="wifi_tethering_warning_txt">Do të ndërpriten të gjitha veprimet që po kryhen nëpërmjet WLAN, si p.sh. transferimi i mediave, përditësimi i softuerit të telefonit, kopjet rezervë dhe rikthimi.</string>
+    <string name="somc_backup_failed_no_wifi_summary">Duke pritur lidhjen WLAN</string>
+    <string name="wifi_hs2_strings_hotspot2_summary_txt">Lidhje automatike me rrjetet e disponueshme Passpoint kur WLAN është aktiv</string>
+    <string name="wifi_tether_settings_subtext">Konfiguroni dhe menaxhoni pikën aktive portative WLAN</string>
+    <string name="wifi_tether_settings_text">Cilës. e zon. portative të intern. WLAN</string>
+    <string name="wifi_security_wapi_cert">WLAN CERT</string>
+    <string name="ct_wifi_connected_text">WLAN i China Telecom u lidh</string>
+    <string name="cw_network_priority">Përparësi WLAN i China Telecom</string>
+    <string name="cw_network_priority_summary">Rrjetet WLAN të China Telecom do të kenë përparësi nga rrjetet e tjera në lidhje</string>
+    <string name="data_traffic_disabled_text">Nuk mund të lidhej me rrjetet WLAN të China Telecom përderisa trafiku i të dhënave është i çaktivizuar. Të aktivizohet trafiku i të dhënave tani?</string>
+    <string name="install_wapi_certs">Instalo certifikatat e WLAN-t</string>
+    <string name="location_based_wifi">WLAN sipas vendndodhjes</string>
+    <string name="operator_auto_connect_hotspot_description_txt">Lidhje auto. me zonën e internetit me valë WLAN të AT&amp;T</string>
+    <string name="operator_auto_connect_hotspot_txt">Lidh. auto. WLAN e AT&amp;T</string>
+    <string name="wifi_context_menu_change_wapi_certificate">Ndrysho certifikatën e WLAN-t</string>
+    <string name="wifi_p2p_settings">Cilësimet e WLAN Direct™</string>
+    <string name="wifi_security_verbose_wapi_cert">Siguruar me WLAN CERT</string>
+    <string name="wifi_security_verbose_wapi_psk">Siguruar me WLAN PSK</string>
+    <string name="wifi_tether_explanation_dialog_text">"Mund ta përdorni pajisjen tuaj si një zonë interneti me valë celulare. Kjo i lejon pajisjet e tjera (maksimumi 10) të lidhen me të nëpërmjet një rrjeti WLAN. Pajisjet e lidhura do të mund të qasen në internet nëpërmjet lidhjes së rrjetit celular tuaj. Zona e internetit me valë celulare përdor të dhëna celulare dhe mund të ketë si rezultat tarifa shtesë.
+
+Zona e internetit me valë celulare konsumon më shumë bateri. Për të zgjatur jetën e baterisë, vëreni pajisjen në prizë."</string>
+    <string name="wifi_wps_category_title">Konfiguro rrjetin WLAN</string>
+    <string name="xssm_guidecontent_what_stamina40jp_txt">"Regjimi STAMINA kursen energjinë e baterisë duke rregulluar cilësimet e pajisjes. Mund të zgjidhni aplikacione për t'u ekzekutuar me funksionalitet të reduktuar gjatë regjimit të fjetjes. (Kjo ju ndihmon të kurseni energjinë e baterisë sepse shumica e aplikacioneve vazhdojnë ta shterojnë baterinë edhe gjatë regjimit të fjetjes.)
+
+Funksionet e çaktivizuara për aplikacionet e përzgjedhura:
+- WLAN
+- Të dhënat celulare
+- Kohëmatësi
+
+Drita e njoftimit për të gjitha aplikacionet vezullon në të njëjtën ngjyrë e me të njëjtën shpeshtësi gjatë regjimit të fjetjes.
+
+Regjimi STAMINA çaktivizohet kur jeni duke kontrolluar pajisjen."</string>
+    <string name="wifi_security_short_wapi_cert">WLAN CERT</string>
+    <string name="wifi_security_short_wapi_psk">WLAN PSK</string>
+    <string name="vzw_avoid_bad_connections_text">"Rrjeti WLAN që jeni lidhur nuk është i lidhur me internetin.
+
+Për të kaluar automatikisht në rrjetin celular kur të realizohet lidhja, aktivizoni Shmang lidhjet e këqija WLAN te Cilësimet e përparuara të WLAN."</string>
+    <string name="vzw_avoid_bad_connections_title">Nuk ka lidhje interneti WLAN</string>
+    <string name="vzw_wifi_avoid_bad_connections">Shmang lidhjet e këqija WLAN</string>
+    <string name="vzw_wifi_avoid_bad_connections_summary">Përdorni rrjetin celular sa herë që rrjeti WLAN me të cilin jeni lidhur nuk ka lidhje me internetin. (Mund të zbatohet përdorimi i të dhënave.)</string>
+    <string name="vzw_wifi_password_error_dialog_txt">Fjalëkalimi i rrjetit WLAN nuk u pranua. Kontrolloni fjalëkalimin dhe provojeni përsëri.</string>
+    <string name="vzw_wifi_setup_wizard_desc">Përzgjidhni një rrjet nëse dëshironi të lidheni tani me WLAN.</string>
+    <string name="vzw_wifi_setup_wizard_title">Konfiguro WLAN</string>
+</resources>

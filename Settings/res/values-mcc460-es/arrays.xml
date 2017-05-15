@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="app_ops_summaries">
+        <item>ubicación aproximada</item>
+        <item>ubicación precisa</item>
+        <item>GPS</item>
+        <item>vibrar</item>
+        <item>leer contactos</item>
+        <item>modificar contactos</item>
+        <item>leer registro de llamadas</item>
+        <item>modificar registro de llamadas</item>
+        <item>leer calendario</item>
+        <item>modificar calendario</item>
+        <item>búsqueda de WLAN</item>
+        <item>notificación</item>
+        <item>búsqueda de dispositivo</item>
+        <item>llamar a un teléfono</item>
+        <item>leer SMS</item>
+        <item>redactar SMS</item>
+        <item>recibir SMS</item>
+        <item>recibir SMS de emergencia</item>
+        <item>recibir MMS</item>
+        <item>recibir push de WAP</item>
+        <item>enviar SMS</item>
+        <item>leer ICC SMS</item>
+        <item>redactar ICC SMS</item>
+        <item>modificar configuración</item>
+        <item>dibujar en la parte superior</item>
+        <item>acceder a las notificaciones</item>
+        <item>cámara</item>
+        <item>grabar audio</item>
+        <item>reproducir audio</item>
+        <item>leer portapapeles</item>
+        <item>modificar portapapeles</item>
+        <item>botones de medios</item>
+        <item>enfoque de audio</item>
+        <item>volumen principal</item>
+        <item>volumen de voz</item>
+        <item>volumen de tono</item>
+        <item>volumen de medios</item>
+        <item>volumen de alarma</item>
+        <item>volumen de notificación</item>
+        <item>volumen de bluetooth</item>
+        <item>mantener en funcionamiento</item>
+        <item>controlar ubicación</item>
+        <item>supervisar ubicación de alta potencia</item>
+        <item>obtener estadísticas de uso</item>
+        <item>silenciar/dejar de silenciar micrófono</item>
+        <item>proyectar contenido multimedia</item>
+        <item>activar VPN</item>
+        <item>escribir fondo de pantalla</item>
+        <item>asistir a la estructura</item>
+        <item>asistir a la captura de pantalla</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices">
+        <item>Red WLAN preferida</item>
+        <item>Red móvil preferida</item>
+    </string-array>
+    <string-array name="wapi_psk_type">
+        <item>WLAN ASCII</item>
+        <item>WLAN hexadecimal</item>
+    </string-array>
+</resources>

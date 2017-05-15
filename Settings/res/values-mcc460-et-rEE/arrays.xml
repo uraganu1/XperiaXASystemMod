@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="app_ops_summaries">
+        <item>üldine asukoht</item>
+        <item>täpne asukoht</item>
+        <item>GPS</item>
+        <item>vibratsioon</item>
+        <item>kontaktide lugemine</item>
+        <item>kontaktide muutmine</item>
+        <item>kõnelogi lugemine</item>
+        <item>kõnelogi muutmine</item>
+        <item>kalendri lugemine</item>
+        <item>kalendri muutmine</item>
+        <item>WLAN skannimine</item>
+        <item>märguanne</item>
+        <item>mobiili skannimine</item>
+        <item>helistamine telefonile</item>
+        <item>SMS-i lugemine</item>
+        <item>SMS-i kirjutamine</item>
+        <item>SMS-i vastuvõtmine</item>
+        <item>hädaolukorra SMS-i vastuvõtmine</item>
+        <item>MMS-i vastuvõtmine</item>
+        <item>WAP-edastuse vastuvõtmine</item>
+        <item>SMS-i saatmine</item>
+        <item>ICC SMS-i lugemine</item>
+        <item>ICC SMS-i kirjutamine</item>
+        <item>seadete muutmine</item>
+        <item>peale joonistamine</item>
+        <item>juurdepääsumärguanded</item>
+        <item>kaamera</item>
+        <item>heli salvestamine</item>
+        <item>heli esitamine</item>
+        <item>lõikelaua lugemine</item>
+        <item>lõikelaua muutmine</item>
+        <item>meedianupud</item>
+        <item>helifookus</item>
+        <item>põhihelitugevus</item>
+        <item>hääle helitugevus</item>
+        <item>helina helitugevus</item>
+        <item>meedia helitugevus</item>
+        <item>äratuse helitugevus</item>
+        <item>märguande helitugevus</item>
+        <item>Bluetoothi helitugevus</item>
+        <item>hoia ärkvel</item>
+        <item>monitori asukoht</item>
+        <item>suure võimsusega asukoha jälgimine</item>
+        <item>kasutusstatistika hankimine</item>
+        <item>mikrofoni vaigistamine või vaigistuse tühistamine</item>
+        <item>meediumi projitseerimine</item>
+        <item>VPN-i aktiveerimine</item>
+        <item>taustapilt kirjutamiseks</item>
+        <item>abistruktuur</item>
+        <item>abistav ekraanipilt</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices">
+        <item>WLAN eelistusega</item>
+        <item>Mobiilside eelistusega</item>
+    </string-array>
+</resources>

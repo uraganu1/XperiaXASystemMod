@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="powersaver_feature_haptic">Вибриране при докосване – изключено</string>
+    <string name="powersaver_feature_sync">Автоматично синхронизиране – изключено</string>
+    <string name="powersaver_feature_data">Мобилни данни – изключени</string>
+    <string name="powersaver_feature_gamma">Нощен режим – включен</string>
+    <string name="powersaver_feature_bravia">Mobile BRAVIA Engine – изключен</string>
+    <string name="stamina_queue_background_data_title">Поставяне на фоновите данни в опашка</string>
+    <string name="stamina_xssm_add_applications_title">Активни приложения в режим на готовност</string>
+    <string name="application_usage_title">Консумация на енергия от приложението</string>
+    <string name="wifi_tether_settings_text">Настройки на преносимата Wi-Fi точка за достъп</string>
+    <string name="usb_direct_settings_hi_res_audio_title_txt">Звук с висока резолюция чрез USB</string>
+    <string name="auto_sync_text">Автоматично синхронизиране</string>
+</resources>

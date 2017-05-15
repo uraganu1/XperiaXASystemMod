@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="powersaver_feature_data">মোবাইল ডেটা বন্ধ</string>
+    <string name="powersaver_feature_gamma">রাত্রিকালীন অবস্থা চালু</string>
+    <string name="powersaver_feature_bravia">Mobile BRAVIA Engine বন্ধ</string>
+    <string name="stamina_xssm_add_applications_title">স্ট্যান্ডবাইতে অ্যাপস সক্রিয় হয়</string>
+    <string name="wifi_tether_settings_text">পোর্টেবল Wi-Fi হটস্পট সেটিং</string>
+    <string name="usb_direct_settings_hi_res_audio_title_txt">USB এর মাধ্যমে উচ্চ-রেজোলিউশনের অডিও</string>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="screensaver_settings_disabled_prompt">ONにすると充電時にスクリーンセーバーが起動します。</string>
+    <string name="powersaver_feature_bravia">モバイルブラビアエンジン2をOFF</string>
+    <string name="stamina_queue_background_data_title">バックグラウンドデータのキュー</string>
+</resources>

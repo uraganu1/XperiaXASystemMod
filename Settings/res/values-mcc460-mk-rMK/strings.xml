@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_disabled_wifi_failure">Поврзувањето преку WLAN не успеа</string>
+    <string name="connected_via_wfa">Поврзано преку помошник за WLANsmile</string>
+    <string name="radio_controls_summary">Управувајте со WLAN, Bluetooth, режим на летање со авион, мобилни мрежи и ВПН-мрежи</string>
+    <string name="wifi_assistant_title">Помошник за WLAN</string>
+    <string name="wifi_alert_lockdown_by_device_owner">%1$s управува со уредот и не дозволува менување или бришење на оваа WLAN мрежа. За повеќе информации, контактирајте со администраторот.</string>
+    <string name="wifi_quick_toggle_title">WLAN</string>
+    <string name="wifi_quick_toggle_summary">Вклучи WLAN</string>
+    <string name="wifi_settings">WLAN</string>
+    <string name="wifi_settings_category">Подесувања за WLAN</string>
+    <string name="wifi_settings_title">WLAN</string>
+    <string name="wifi_setup_wizard_title">Изберете WLAN мрежа</string>
+    <string name="wifi_select_network">Избери WLAN</string>
+    <string name="wifi_starting">Вклучување на WLAN...</string>
+    <string name="wifi_stopping">Исклучување на WLAN...</string>
+    <string name="wifi_poor_network_detection_summary">Не користи WLAN мрежа, освен ако има добро поврзување со интернет</string>
+    <string name="wifi_automatically_connect_title">Автоматски користете отворена WLAN</string>
+    <string name="wifi_automatically_connect_summary">Дозволете помошникот за WLAN автоматски да се поврзува со отворени мрежи со висок квалитет</string>
+    <string name="wifi_scan_notify_text">За да се подобри точноста на локацијата, системските апликации и услуги сѐ уште може да скенираат WLAN мрежи. Ова може да го измените во LINK_BEGINпоставките за скенирањеLINK_END.</string>
+    <string name="wifi_setting_sleep_policy_title">Задржи WLAN во текот на режим на мирување</string>
+    <string name="wifi_setting_on_during_sleep_title">Вклучена WLAN при мирување</string>
+    <string name="wifi_suspend_optimizations">Оптимизација на WLAN</string>
+    <string name="wifi_suspend_optimizations_summary">Минимизирај употреба на батерија кога е вклучена WLAN</string>
+    <string name="wifi_limit_optimizations_summary">Огр. бат. за корист. на WLAN</string>
+    <string name="wifi_switch_away_when_unvalidated">Префрли се на мобилни податоци ако WLAN го губи пристапот до интернет.</string>
+    <string name="wifi_access_points">WLAN мрежи</string>
+    <string name="wifi_menu_p2p">WLAN Direct</string>
+    <string name="wifi_empty_list_wifi_off">За да ги видите достапните мрежи, вклучете WLAN.</string>
+    <string name="wifi_empty_list_wifi_on">Се пребарува за WLAN мрежи...</string>
+    <string name="wifi_empty_list_user_restricted">Немате дозвола за промена на WLAN мрежата.</string>
+    <string name="wifi_wps_setup_title">Заштитено подесување на WLAN</string>
+    <string name="wifi_wps_onstart_pbc">Притиснете го копчето „Заштитено поставување на WLAN“ на рутерот. Тоа може да се нарекува „WPS“ или да се означи со овој симбол:</string>
+    <string name="wifi_wps_onstart_pin">Внесете ПИН %1$s на вашиот WLAN насочувач. Подесувањето може да трае и до две минути за да се заврши.</string>
+    <string name="wifi_wps_connected">Поврзано со WLAN мрежа %s</string>
+    <string name="wifi_scan_always_turnon_message">"За да се подобри точноста на локација и за други цели, %1$s сака да се вклучи скенирање за мрежи  дури и кога WLAN е исклучена.
+
+Дозволи го ова за сите апликации кои сакаат да се скенира?"</string>
+    <string name="wifi_skipped_message">ПРЕДУПРЕДУВАЊЕ: Ако прескокнете WLAN, телефонот ќе користи само мобилни податоци за првични преземања или ажурирања. За да избегнете можни трошоци за податоци, поврзете се на WLAN.</string>
+    <string name="wifi_and_mobile_skipped_message">"Доколку го прескокнете WLAN:
+
+"<li>Телефонот нема да има интернет-врска.</li>"
+
+"<li>Нема да добивате софтверски ажурирања сѐ додека не се поврзете на интернет.</li>"
+
+"<li>Во моментов не може да ги активирате функциите за заштита на уредот.</li></string>
+    <string name="wifi_connect_failed_message">Телефонот не можеше да се поврзе со оваа WLAN мрежа.</string>
+    <string name="wifi_advanced_titlebar">Напредна WLAN</string>
+    <string name="wifi_setting_frequency_band_title">Опсег на фреквенција на WLAN</string>
+    <string name="wifi_p2p_settings_title">WLAN Direct</string>
+    <string name="wifi_tether_checkbox_text">Точка на пристап на пренослива WLAN</string>
+    <string name="wifi_hotspot_checkbox_text">Жешко место за WLAN</string>
+    <string name="wifi_hotspot_checkbox_text_summary">Корист. моб. пов. за обез. мре. на WLAN</string>
+    <string name="wifi_tether_failed_subtext">Грешка на точка на пристап на пренослива WLAN</string>
+    <string name="wifi_tether_configure_ap_text">Подесување точка на пристап на WLAN</string>
+    <string name="wifi_hotspot_configure_ap_text">Постав. жешко место за WLAN</string>
+    <string name="wifi_hotspot_configure_ap_text_summary">Пре. ж.м. за WLAN на AndroidAP WPA2 PSK</string>
+    <string name="wifi_tether_configure_subtext">%1$s %2$s точка на пристап на пренослива WLAN</string>
+    <string name="wifi_calling_settings_title">Повикување преку WLAN</string>
+    <string name="wifi_calling_mode_dialog_title">Режим – повикување преку WLAN</string>
+    <string name="wifi_calling_off_explanation">Кога е вклучено повикувањето преку WLAN, телефонот може да насочува повици преку мрежи на WLAN или мрежата на операторот, зависно од параметрите и кој сигнал е посилен. Пред да ја вклучите функцијата, проверете кај операторот за давачки и други детали.</string>
+    <string name="status_wifi_mac_address">Адреса на MAC за WLAN</string>
+    <string name="reset_network_desc">"Ова ќе ги ресетира сите мрежни поставки, вклучувајќи и:
+
+"<li>WLAN</li>"
+"<li>Мобилни податоци</li>"
+"<li>Bluetooth</li></string>
+    <string name="network_scorer_change_active_dialog_title">Да се промени помошникот за WLAN?</string>
+    <string name="location_mode_high_accuracy_description">Користи GPS, WLAN, Bluetooth или мобилни мрежи за да ја утврдиш локацијата</string>
+    <string name="location_mode_battery_saving_description">Користи WLAN, Bluetooth или мобилни мрежи за да ја утврдиш локацијата</string>
+    <string name="location_scanning_wifi_always_scanning_title">Скенирање на WLAN</string>
+    <string name="location_scanning_wifi_always_scanning_description">За да ја подобрите локацијата, дозволете системските апликации и услуги да откриваат WLAN мрежи во секое време.</string>
+    <string name="location_network_based">Лок. на мр. на WLAN и на моб.</string>
+    <string name="location_neighborhood_level_wifi">Локацијата е утврдена со WLAN</string>
+    <string name="wifi_verbose_logging">Овозможи преопширно пријавување WLAN</string>
+    <string name="wifi_aggressive_handover">Агресивно предавање од WLAN на мобилен</string>
+    <string name="wifi_allow_scan_with_traffic">Секогаш дозволувај WLAN скенирање во роаминг</string>
+    <string name="wifi_verbose_logging_summary">Зголеми WLAN ниво на пријавување, прикажи по SSID RSSI во WLAN бирач</string>
+    <string name="wifi_aggressive_handover_summary">Кога е вклучено, WLAN ќе биде поагресивно при предавање на поврзувањето со податоци на мобилната мрежа при слаб сигнал на WLAN.</string>
+    <string name="wifi_allow_scan_with_traffic_summary">Дозволи/Забрани WLAN скенирање во роаминг според количината на постоечкиот податочен сообраќај на интерфејсот.</string>
+    <string name="mobile_data_always_on_summary">Секогаш држи го активен мобилниот интернет, дури и при активно WLAN (за брзо префрлување мрежа).</string>
+    <string name="battery_stats_wifi_running_label">WLAN</string>
+    <string name="wifi_on_time">WLAN на време</string>
+    <string name="bluetooth_on_time">WLAN на време</string>
+    <string name="power_wifi">WLAN</string>
+    <string name="usage_type_wifi_running">WLAN се извршува</string>
+    <string name="usage_type_data_wifi_send">WLAN пакетите се испратени</string>
+    <string name="usage_type_data_wifi_recv">WLAN пакетите се примени</string>
+    <string name="battery_action_wifi">Подесувања за WLAN</string>
+    <string name="battery_desc_wifi">Батеријата искористена од WLAN</string>
+    <string name="battery_sugg_wifi">Исклучете ја WLAN мрежата кога не се користи или кога не е достапна</string>
+    <string name="gadget_toggle_wifi">Се ажурира WLAN подесување</string>
+    <string name="gadget_wifi">WLAN</string>
+    <string name="backup_data_summary">Резервна копија на податоци за апликација, на лозинки на WLAN и други подесувања на сервери на Google</string>
+    <string name="backup_erase_dialog_message">Да престане со резервни копии на вашите лозинки на WLAN, обележувачи, други поставки и податоци за апликацијата и да ги избрише сите копии на серверите на Google?</string>
+    <string name="fullbackup_erase_dialog_message">Дали да се престане со создавање резервна копија на податоците на уредот (како што се лозинки за WLAN и историја на повикување) и податоците за апликациите (како што се поставки и датотеки што ги складирале апликациите) и да се избришат сите копии на Диск на Google?</string>
+    <string name="fullbackup_data_summary">"Автоматски создајте резервна копија на податоците на уредот (како што се лозинки за WLAN и историја на повици) и податоците за апликациите (како што се поставки и датотеки кои ги складирале апликациите) од далечина.
+
+Откако ќе вклучите автоматско создавање резервна копија, податоците за уредот и апликациите повремено се зачувуваат на далечина. Податоците за апликацијата може да бидат секакви податоци кои ги зачувала апликацијата (според поставките на програмерот), вклучувајќи потенцијално чувствителни податоци како што се контакти, пораки и фотографии."</string>
+    <string name="wifi_setup_title">Подесување на WLAN</string>
+    <string name="wifi_setup_title_editing_network">Поврзете се на WLAN мрежата %s</string>
+    <string name="wifi_setup_title_connecting_network">Се поврзува со WLAN мрежата %s...</string>
+    <string name="wifi_setup_title_connected_network">Поврзано на WLAN мрежата %s</string>
+    <string name="wifi_setup_eap_not_supported">Не може да конфигурирате EAP поврзување за WLAN за време на подесување. По подесувањето, може тоа да го направите во Поставки > Безжични мрежи.</string>
+    <string name="wifi_setup_description_connected">Допрете <b>Следно</b>" за да продолжи со подесувањето.
+
+Допрете"<b>Назад</b> за да се поврзете со друга WLAN мрежа.</string>
+    <string name="data_usage_menu_show_wifi">Покажи WLAN</string>
+    <string name="data_usage_menu_hide_wifi">Сокриј WLAN</string>
+    <string name="data_usage_disable_wifi_limit">Граница за WLAN податоци</string>
+    <string name="data_usage_tab_wifi">WLAN</string>
+    <string name="data_usage_restrict_background">Ако ограничите мобилни податоци во заднина, некои апликации и услуги нема да се извршуваат освен ако не сте поврзани на WLAN.</string>
+    <string name="data_usage_restrict_background_multiuser">"Ако ограничите мобилни податоци во заднина, некои апликации и услуги нема да се извршуваат освен ако не сте поврзани на WLAN.
+
+Поставката важи за сите корисници на телефонот."</string>
+    <string name="data_usage_metered_body">Со мрежите со ограничен пренос на податоци се постапува како со мобилни кога податоците од заднина се ограничени. Апликациите може да предупредат пред да користат вакви мрежи за големи преземања.</string>
+    <string name="data_usage_metered_wifi">Мрежи на WLAN со огран. пренос</string>
+    <string name="data_usage_metered_wifi_disabled">За да изберете мрежи со огран. пренос на подат., вклучете WLAN.</string>
+    <string name="user_add_user_message_long">"Со создавање дополнителни корисници може да го споделите уредов со други. Секој корисник има сопствен простор што може да го нагодува со сопствени апликации, тапети и така натаму. Корисниците може и да нагодуваат поставки на уредот, како WLAN, што се однесуваат на сите.
+
+Кога додавате нов корисник, тој треба да го постави својот простор.
+
+Секој корисник може да ажурира апликации за сите други корисници."</string>
+    <string name="restriction_wifi_config_title">WLAN и мобилен</string>
+    <string name="restriction_wifi_config_summary">Дозволи промена на WLAN и подесувања на мобилен</string>
+    <string name="setup_wifi_nfc_tag">Поставете WLAN ознака за НФЦ</string>
+</resources>

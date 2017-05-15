@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.sonymobile.settings.preference.IntentPreference android:key="oma_client_provisioning" settings:dependOnIsValidIntent="true" settings:after="mobile_network_settings" settings:hasMetaData="true">
+        <intent android:action="com.sonyericsson.android.omacp.intent.action.START_OMA_CP" />
+    </com.sonymobile.settings.preference.IntentPreference>
+    <com.sonymobile.settings.preference.IntentPreference android:key="internet_settings" settings:dependOnIsValidIntent="true" settings:after="mobile_network_settings" settings:hasMetaData="true">
+        <intent android:targetPackage="com.sonymobile.apnupdater" android:targetClass="com.sonymobile.apnupdater.ApnUpdaterEntry" />
+    </com.sonymobile.settings.preference.IntentPreference>
+    <com.sonymobile.settings.preference.IntentPreference android:key="rcs_settings" settings:dependOnIsValidIntent="true" settings:dependOnSettingsSystem="somc.rcs_settings_configured" settings:after="internet_settings" settings:hasMetaData="true">
+        <intent android:targetPackage="com.sonymobile.rcs.settings" android:targetClass="com.sonymobile.rcs.settings.RcsSettings" />
+    </com.sonymobile.settings.preference.IntentPreference>
+    <com.sonymobile.settings.preference.RemovePreference settings:targetKey="toggle_airplane" />
+    <com.sonymobile.settings.preference.PreferenceScreen android:title="@string/nfc_payment_settings_title" android:key="payment_settings" android:fragment="com.android.settings.nfc.PaymentSettings" settings:keywords="@string/settings_keywords_payment_txt" settings:after="android_beam_settings" />
+    <com.sonymobile.settings.preference.SwitchPreference android:title="@string/show_operator_name_title" android:key="showOperatorNameInStatusBar" android:summary="@string/show_operator_name_summary" android:defaultValue="true" settings:dependOnResource="@bool/config_showOperatorNameInStatusBar" settings:valueOfSettingsSystem="show_operator_name" />
+</PreferenceScreen>

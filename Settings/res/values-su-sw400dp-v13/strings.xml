@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="powersaver_feature_haptic">Geter lamun toel pareum</string>
+    <string name="powersaver_feature_sync">Sinkronisasi otomatis pareum</string>
+    <string name="powersaver_feature_gamma">Modeu peuting aktip</string>
+    <string name="powersaver_feature_bravia">Mobile BRAVIA Engine pareum</string>
+    <string name="stamina_xssm_add_applications_title">Aplikasi aktip dina standby</string>
+    <string name="usb_direct_settings_hi_res_audio_title_txt">Audio Resolusi-Luhur liwat USB</string>
+</resources>

@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="saved_network">Saved by %1$s</string>
+    <string name="connected_via_wfa">Connected via Wi‑Fi assistant</string>
+    <string name="bluetooth_disconnecting">Disconnecting…</string>
+    <string name="bluetooth_connecting">Connecting…</string>
+    <string name="bluetooth_pairing">Pairing…</string>
+    <string name="bluetooth_opp_profile_summary_connected">Connected to file transfer server</string>
+    <string name="bluetooth_opp_profile_summary_not_connected">Not connected to file transfer server</string>
+    <string name="bluetooth_pairing_error_message">"Couldn't pair with %1$s."</string>
+    <string name="bluetooth_pairing_pin_error_message">"Couldn't pair with %1$s because of an incorrect PIN or passkey."</string>
+    <string name="bluetooth_pairing_device_down_error_message">"Can't communicate with %1$s."</string>
+    <string name="bluetooth_pairing_rejected_error_message">Pairing rejected by %1$s.</string>
+    <string name="wifi_auto_connect_off">"Auto-connect disabled, won't automatically reconnect."</string>
+    <string name="radioInfo_menu_viewFDN">View Fixed Dialing Numbers</string>
+    <string name="radioInfo_menu_viewSDN">View Service Dialing Numbers</string>
+    <string name="bluetooth_lock_voice_dialing">Lock voice dialing</string>
+    <string name="bluetooth_lock_voice_dialing_summary">Prevent use of the bluetooth dialer when the screen is locked</string>
+    <string name="bluetooth_is_disconnect_question">Disconnect %1$s?</string>
+    <string name="bluetooth_ask_start_broadcast">%1$s wants to turn on Bluetooth broadcasting to communicate with other devices nearby. You can change this later in Bluetooth settings.</string>
+    <string name="bluetooth_ask_enablement_and_start_broadcast">%1$s wants to turn on Bluetooth and Bluetooth broadcasting to communicate with other devices nearby. You can change this later in Bluetooth settings.</string>
+    <string name="bluetooth_turning_on">Turning Bluetooth on…</string>
+    <string name="bluetooth_turning_off">Turning Bluetooth off…</string>
+    <string name="bluetooth_connection_notif_message">Touch to connect to \"%1$s\".</string>
+    <string name="bluetooth_connection_dialog_text">Do you want to connect to \"%1$s\"?</string>
+    <string name="bluetooth_pb_acceptance_dialog_text">%1$s wants to access your contacts and call history. Give access to %2$s?</string>
+    <string name="bluetooth_sap_acceptance_dialog_text">%1$s wants to access your SIM card. Granting access to the SIM card will disable data connectivity on your device for the duration of the connection. Give access to %2$s?</string>
+    <string name="intent_sender_account_label">Account:</string>
+    <string name="proxy_error_empty_port">You need to complete the port field.</string>
+    <string name="proxy_url_title">"PAC URL: "</string>
+    <string name="band_mode_loading">Loading band list…</string>
+    <string name="sdcard_changes_instructions">Changes take effect when USB cable is reconnected.</string>
+    <string name="sdcard_settings_not_present_status">No SD card.</string>
+    <string name="sdcard_settings_mass_storage_status">SD card is being used as a mass storage device.</string>
+    <string name="sdcard_settings_unmounted_status">"It's now safe to remove the SD card."</string>
+    <string name="sdcard_settings_scanning_status">Scanning SD card for media…</string>
+    <string name="sdcard_settings_read_only_status">SD card mounted read-only.</string>
+    <string name="radio_controls_summary">Manage Wi-Fi, Bluetooth, airplane mode, mobile networks, &amp; VPNs</string>
+    <string name="roaming_warning_multiuser">"When you allow data roaming, you may incur significant roaming charges!
+
+This setting affects all users on this phone."</string>
+    <string name="date_and_time_settings_summary">Set date, time, time zone, &amp; formats</string>
+    <string name="date_time_24hour_title">24‑hour format</string>
+    <string name="lock_immediately_summary_with_exception">Immediately after sleep, except when kept unlocked by %1$s</string>
+    <string name="lock_after_timeout_summary_with_exception">%1$s after sleep, except when kept unlocked by %2$s</string>
+    <string name="owner_info_settings_status">%1$d / %2$d</string>
+    <string name="owner_info_settings_edit_text_hint">E.g., Joe’s Android.</string>
+    <string name="security_settings_fingerprint_enroll_onboard_message">To use your fingerprint to unlock your screen or confirm purchases, you’ll need to:</string>
+    <string name="security_settings_fingerprint_enroll_introduction_message">Just touch the fingerprint sensor to unlock your phone, authorize purchases, or sign in to apps.</string>
+    <string name="security_settings_fingerprint_enroll_introduction_message_warning">Use pattern, PIN, or password as your backup screen lock method when fingerprint is not available.</string>
+    <string name="security_settings_fingerprint_enroll_introduction_risk_link_text">Learn more</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message">The sensor is located on the power button on the right side of the phone.</string>
+    <string name="security_settings_fingerprint_enroll_start_title">Let’s start!</string>
+    <string name="security_settings_fingerprint_enroll_start_message">Touch the sensor lightly with your finger and lift it after you feel a vibration.</string>
+    <string name="security_settings_fingerprint_enroll_finish_message">Whenever you see this icon, you can use your fingerprint for identification or to authorize a purchase.</string>
+    <string name="security_settings_fingerprint_enroll_touch_dialog_title">Whoops, that’s not the sensor</string>
+    <string name="security_settings_fingerprint_enroll_disclaimer">In addition to unlocking your phone, you can also use your fingerprint to authorize purchases and app access.</string>
+    <string name="security_settings_fingerprint_enroll_disclaimer_lockscreen_disabled">Screen lock option disabled. You can still use your fingerprint to authorize purchases and app access.</string>
+    <string name="fingerprint_add_max">You can add up to %d fingerprints</string>
+    <string name="crypt_keeper_desc">"You can encrypt your accounts, settings, downloaded apps and their data, media, and other files. After you encrypt your phone, assuming you’ve set up a screen lock (that is, a pattern or numeric PIN or password), you’ll need to unlock the screen to decrypt the phone every time you power it on. The only other way to decrypt is to perform a factory data reset, erasing all your data.
+
+Encryption takes an hour or more. You must start with a charged battery and keep your phone plugged in throughout the process. If you interrupt it, you’ll lose some or all of your data."</string>
+    <string name="crypt_keeper_dialog_need_password_message">You need to set a lock screen PIN, pattern or password before you can start encryption.</string>
+    <string name="crypt_keeper_final_desc">The encryption operation is irreversible and if you interrupt it, you’ll lose data. Encryption takes an hour or more, during which the phone will restart several times.</string>
+    <string name="crypt_keeper_setup_description">Wait while your phone is being encrypted. ^1% complete.</string>
+    <string name="crypt_keeper_setup_time_remaining">Wait while your phone is being encrypted. Time remaining: ^1</string>
+    <string name="crypt_keeper_warn_wipe">Warning: Your device will be wiped after ^1 more failed attempts to be unlocked!</string>
+    <string name="crypt_keeper_failed_summary">"Encryption was interrupted and can’t complete. As a result, the data on your phone is no longer accessible.
+
+To resume using your phone, you need to perform a factory reset. When you set up your phone after the reset, you’ll have an opportunity to restore any data that was backed up to your Google Account."</string>
+    <string name="crypt_keeper_data_corrupt_summary">"The password you entered is correct, but unfortunately your data is corrupt.
+
+To resume using your phone, you need to perform a factory reset. When you set up your phone after the reset, you’ll have an opportunity to restore any data that was backed up to your Google Account."</string>
+    <string name="lock_settings_picker_title">Choose screen lock</string>
+    <string name="unlock_set_unlock_launch_picker_change_summary">Change or disable pattern, PIN, or password security</string>
+    <string name="unlock_set_unlock_disabled_summary">Disabled by administrator, encryption policy, or credential storage</string>
+    <string name="unlock_setup_wizard_fingerprint_details">Once you’ve set up a screen lock, you can also set up your fingerprint in Settings > Security.</string>
+    <string name="unlock_disable_frp_warning_content_pattern_fingerprint">"Device protection features will not work without your pattern.
+
+Your saved fingerprints will also be removed from this device and you won't be able to unlock your phone, authorize purchases, or sign in to apps with them."</string>
+    <string name="unlock_disable_frp_warning_content_pin_fingerprint">"Device protection features will not work without your PIN.
+
+Your saved fingerprints will also be removed from this device and you won't be able to unlock your phone, authorize purchases, or sign in to apps with them."</string>
+    <string name="unlock_disable_frp_warning_content_password_fingerprint">"Device protection features will not work without your password.
+
+Your saved fingerprints will also be removed from this device and you won't be able to unlock your phone, authorize purchases, or sign in to apps with them."</string>
+    <string name="unlock_disable_frp_warning_content_unknown_fingerprint">"Device protection features will not work without your screen lock.
+
+Your saved fingerprints will also be removed from this device and you won't be able to unlock your phone, authorize purchases, or sign in to apps with them."</string>
+    <string name="lockpassword_press_continue">Tap Continue when done</string>
+    <string name="lockpassword_pin_too_long">PIN must be fewer than %d digits.</string>
+    <string name="lockpassword_pin_contains_non_digits">PIN must contain only digits 0-9.</string>
+    <string name="lockpassword_pin_recently_used">"Device administrator doesn't allow using a recent PIN"</string>
+    <string name="lockpassword_password_requires_alpha">Password must contain at least one letter.</string>
+    <string name="lockpassword_password_requires_digit">Password must contain at least one digit.</string>
+    <string name="lockpassword_password_requires_symbol">Password must contain at least one symbol.</string>
+    <string name="lockpassword_password_recently_used">"Device administrator doesn't allow using a recent password"</string>
+    <string name="lock_setup">Setup is complete.</string>
+    <string name="bluetooth_enter_passkey_msg">Type the pairing code then press Return or Enter</string>
+    <string name="bluetooth_enter_pin_other_device">You may also need to type this PIN on the other device.</string>
+    <string name="bluetooth_enter_passkey_other_device">You may also need to type this passkey on the other device.</string>
+    <string name="bluetooth_pairing_shares_phonebook">Allow %1$s to access your contacts and call history</string>
+    <string name="bluetooth_searching_for_devices">Searching…</string>
+    <string name="bluetooth_pairing_dialog_contants_request">%1$s wants to access your contacts and call history.</string>
+    <string name="bluetooth_pairing_dialog_paring_request">%1$s wants to pair with Bluetooth. When connected, it will have access to your contacts and call history.</string>
+    <string name="bluetooth_device_context_connect_advanced">Options…</string>
+    <string name="ble_scan_notify_text">To improve location accuracy, system apps and services can still detect Bluetooth devices. You can change this in LINK_BEGINscanning settingsLINK_END.</string>
+    <string name="bluetooth_connect_specific_profiles_title">Connect to…</string>
+    <string name="wifi_assistant_title">Wi‑Fi Assistant</string>
+    <string name="wifi_alert_lockdown_by_device_owner">%1$s manages your device and doesn’t allow modifying or deleting this Wi-Fi network. For more information, contact your administrator.</string>
+    <string name="android_beam_explained">"When this feature is turned on, you can beam app content to another NFC-capable device by holding the devices close together. For example, you can beam Browser pages, YouTube videos, People contacts, and more.
+
+Just bring the devices together so that the NFC detection areas touch each other and then tap your screen. The app determines what gets beamed."</string>
+    <string name="wifi_setup_wizard_title">Select Wi-Fi network</string>
+    <string name="wifi_select_network">Select Wi‑Fi</string>
+    <string name="wifi_automatically_connect_title">Use open Wi‑Fi automatically</string>
+    <string name="wifi_automatically_connect_summary">Let a Wi‑Fi assistant automatically connect to open networks determined to be high quality</string>
+    <string name="wifi_scan_notify_text">To improve location accuracy, system apps and services can still scan for Wi‑Fi networks. You can change this in LINK_BEGINscanning settingsLINK_END.</string>
+    <string name="wifi_setting_on_during_sleep_title">Wi‑Fi on during sleep</string>
+    <string name="wifi_suspend_optimizations">Wi-Fi optimization</string>
+    <string name="wifi_suspend_optimizations_summary">Minimize battery usage when Wi-Fi is on</string>
+    <string name="wifi_limit_optimizations_summary">Limit battery used by Wi‑Fi</string>
+    <string name="wifi_switch_away_when_unvalidated">Switch to cellular data if Wi‑Fi loses Internet access.</string>
+    <string name="wifi_empty_list_wifi_off">To see available networks, turn Wi-Fi on.</string>
+    <string name="wifi_wps_setup_msg">Starting WPS…</string>
+    <string name="wifi_wps_onstart_pbc">Press the Wi‑Fi Protected Setup button on your router. It may be called “WPS” or marked with this symbol:</string>
+    <string name="wifi_wps_complete">WPS succeeded. Connecting to the network…</string>
+    <string name="wifi_wps_failed_generic">WPS failed. Please try again in a few minutes.</string>
+    <string name="passpoint_content">%1$s credentials</string>
+    <string name="wifi_hotspot_message">%1$s requires you to sign in online before you connect to the network.</string>
+    <string name="no_internet_access_remember">Don’t ask again for this network</string>
+    <string name="wifi_skipped_message">"WARNING: You may incur extra service provider data charges.
+
+Phone setup can require significant network activity."</string>
+    <string name="wifi_and_mobile_skipped_message">"If you skip Wi‑Fi:
+
+"<li>Your phone won’t have an Internet connection.</li>"
+
+"<li>You won’t get software updates until you connect to the Internet.</li>"
+
+"<li>You can’t activate device protection features at this time.</li></string>
+    <string name="wifi_connect_failed_message">The phone was unable to connect to this Wi-Fi network.</string>
+    <string name="wifi_p2p_menu_searching">Searching…</string>
+    <string name="wifi_p2p_failed_connect_message">"Couldn't connect."</string>
+    <string name="wifi_p2p_disconnect_message">If you disconnect, your connection with %1$s will end.</string>
+    <string name="wifi_p2p_cancel_connect_title">Cancel invitation?</string>
+    <string name="wifi_p2p_cancel_connect_message">Do you want to cancel invitation to connect with %1$s?</string>
+    <string name="wifi_hotspot_checkbox_text">Wi‑Fi hotspot</string>
+    <string name="wifi_hotspot_checkbox_text_summary">Use cellular connection to provide Wi‑Fi network</string>
+    <string name="wifi_tether_stopping">Turning off hotspot…</string>
+    <string name="wifi_hotspot_configure_ap_text">Wi‑Fi hotspot setup</string>
+    <string name="wifi_hotspot_configure_ap_text_summary">AndroidAP WPA2 PSK portable Wi‑Fi hotspot</string>
+    <string name="wifi_calling_settings_title">Wi-Fi calling</string>
+    <string name="wifi_calling_mode_dialog_title">Wi-Fi calling mode</string>
+    <string name="wifi_calling_off_explanation">"Use Wi-Fi calling to increase call quality in places where mobile network coverage is poor.
+ 
+Cost
+For information about charges of Wi-Fi calling, please contact your service provider.
+ 
+Notes on Wi-Fi calling
+To stay on Wi-Fi calling, make sure to stay in the Wi-Fi range."</string>
+    <string name="dtmf_tone_enable_title">Dialpad touch tones</string>
+    <string name="dock_not_found_text">You need to dock the phone before setting up dock audio.</string>
+    <string name="accessibility_category_work">Work profile accounts - %s</string>
+    <string name="accessibility_work_account_title">Work account - %s</string>
+    <string name="accessibility_personal_account_title">Personal account - %s</string>
+    <string name="auto_brightness_summary">Optimize brightness level for available light</string>
+    <string name="screensaver_settings_disabled_prompt">Turn on Daydream to control what happens when the device is docked or charging.</string>
+    <string name="doze_summary">Wake screen when you pick up device or receive notifications</string>
+    <string name="sim_reenter_new">Re‑type new PIN</string>
+    <string name="sim_bad_pin">Type a PIN that is 4 to 8 numbers</string>
+    <string name="sim_change_failed">"Can’t change PIN.
+Possibly incorrect PIN."</string>
+    <string name="sim_multi_sims_summary">Choose the SIM you prefer for mobile data.</string>
+    <string name="sim_change_data_message">Use %1$s instead of %2$s for cellular data?</string>
+    <string name="sim_preferred_message">%1$s is the only SIM in your device. Do you want to use this SIM for cellular data, calls, and SMS messages?</string>
+    <string name="device_status_summary">Phone number, signal, etc.</string>
+    <string name="status_latest_area_info">Operator info</string>
+    <string name="memory_calculating_size">Calculating…</string>
+    <string name="dlg_error_unmount_text">"Couldn't unmount SD card. Try again later."</string>
+    <string name="storage_menu_set_up">Set up</string>
+    <string name="usb_ptp_summary">"Lets you transfer photos using camera software, and transfer any files on computers that don't support MTP"</string>
+    <string name="usb_midi_summary">Lets MIDI enabled applications work over USB with MIDI software on your computer.</string>
+    <string name="storage_volume_summary">%1$s used of %2$s</string>
+    <string name="storage_size_large">^1<small><small> ^2</small></small></string>
+    <string name="storage_volume_used">Used of %1$s</string>
+    <string name="storage_volume_used_total">Total used of %1$s</string>
+    <string name="storage_mount_success">%1$s is mounted</string>
+    <string name="storage_mount_failure">Couldn’t mount %1$s</string>
+    <string name="storage_unmount_success">%1$s is safely ejected</string>
+    <string name="storage_unmount_failure">Couldn’t safely eject %1$s</string>
+    <string name="storage_format_success">%1$s is formatted</string>
+    <string name="storage_format_failure">Couldn’t format %1$s</string>
+    <string name="storage_dialog_unmounted">"This ^1 is safely ejected, but still available.
+
+To use this ^1, you have to mount it first."</string>
+    <string name="storage_dialog_unmountable">"This ^1 is corrupted.
+
+To use this ^1, you have to set it up first."</string>
+    <string name="storage_dialog_unsupported">"This device doesn’t support this ^1.
+
+To use this ^1 with this device, you have to set it up first."</string>
+    <string name="storage_internal_format_details">"After formatting, you can use this ^1 in other devices.
+
+All data on this ^1 will be erased. Consider backing up first.
+
+"<b>Back up photos &amp; other media</b>"
+Move your media files to alternative storage on this device, or transfer them to a computer using a USB cable.
+
+"<b>Back up apps</b>"
+All apps stored on this ^1 will be uninstalled and their data will be erased. To keep these apps, move them to alternative storage on this device."</string>
+    <string name="storage_internal_unmount_details"><b>When you eject this ^1, apps stored on it will stop working, and media files stored on it will not be available until it is reinserted.</b>"
+
+This ^1 is formatted to work on this device only. It won’t work on any others."</string>
+    <string name="storage_internal_forget_details">"To use the apps, photos, or data this ^1 contains, reinsert it.
+
+Alternatively, you can choose to forget this storage if the device isn’t available.
+
+If you choose to forget, all the data the device contains will be lost forever.
+
+You can reinstall the apps later, but their data stored on this device will be lost."</string>
+    <string name="storage_internal_forget_confirm_title">Forget ^1?</string>
+    <string name="storage_internal_forget_confirm">All the apps, photos, and data stored on this ^1 will be lost forever.</string>
+    <string name="storage_detail_explore">Explore ^1</string>
+    <string name="storage_detail_dialog_other">"Other includes shared files saved by apps, files downloaded from the Internet or Bluetooth, Android files, and so on.
+
+To see the entire contents of this ^1, touch Explore."</string>
+    <string name="storage_detail_dialog_user">"^1 may have saved photos, music, movies, apps, or other data that is taking up ^2 of storage.
+
+To view details, switch to ^1."</string>
+    <string name="storage_wizard_init_title">Set up your ^1</string>
+    <string name="storage_wizard_format_confirm_body">"This requires the ^1 to be formatted to make it secure.
+
+After formatting, this ^1 will only work in this device.
+
+"<b>Formatting erases all data currently stored on the ^1.</b> To avoid losing the data, consider backing it up.</string>
+    <string name="storage_wizard_format_confirm_public_body">"This requires the ^1 to be formatted.
+
+"<b>Formatting erases all data currently stored on the ^1.</b> To avoid losing the data, consider backing it up.</string>
+    <string name="storage_wizard_format_progress_title">Formatting ^1…</string>
+    <string name="storage_wizard_format_progress_body">Don’t remove the ^1 while it’s formatting.</string>
+    <string name="storage_wizard_migrate_body">"You can move your photos, files, and some apps to this new ^1.
+
+The move takes about ^2 and will free ^3 on internal storage. Some apps won’t work while it’s underway."</string>
+    <string name="storage_wizard_migrate_confirm_body"><b>The move takes about ^1. It will free ^2 on ^3.</b></string>
+    <string name="storage_wizard_migrate_progress_title">Moving data…</string>
+    <string name="storage_wizard_migrate_details">"During the move:
+• Don’t remove the ^1.
+• Some apps won’t work correctly.
+• Keep the device charged."</string>
+    <string name="storage_wizard_ready_title">^1 is ready</string>
+    <string name="storage_wizard_ready_external_body">Your ^1 is all set to use with photos and other media.</string>
+    <string name="storage_wizard_ready_internal_body">"Your new ^1 is working.
+
+To move photos, files, and app data to this device, go to Settings > Storage."</string>
+    <string name="storage_wizard_move_confirm_title">Move ^1</string>
+    <string name="storage_wizard_move_confirm_body">"Moving ^1 and its data to ^2 will take only a few moments. You won’t be able to use the app until the move is complete.
+
+Don’t remove the ^2 during the move."</string>
+    <string name="storage_wizard_move_progress_title">Moving ^1…</string>
+    <string name="storage_wizard_move_progress_body">"Don’t remove the ^1 during the move.
+
+The ^2 app on this device won’t be available until the move is complete."</string>
+    <string name="storage_wizard_slow_body">"This ^1 appears to be slow.
+
+You can continue, but apps moved to this location may stutter and data transfers may take a long time.
+
+Consider using a faster ^1 for better performance."</string>
+    <string name="reset_network_desc">"This will reset all network settings, including:
+
+"<li>Wi‑Fi</li>"
+"<li>Cellular data</li>"
+"<li>Bluetooth</li></string>
+    <string name="reset_network_final_desc">Reset all network settings? You can’t undo this action!</string>
+    <string name="master_clear_desc">This will erase all data from your phone’s <b>internal storage</b>", including:
+
+"<li>Your Google account</li>"
+"<li>System and app data and settings</li>"
+"<li>Downloaded apps</li></string>
+    <string name="master_clear_desc_erase_external_storage">"
+
+To clear music, pictures, and other user data, the "<b>internal storage</b> needs to be erased.</string>
+    <string name="master_clear_final_desc">Erase all your personal information and downloaded apps? You can’t undo this action!</string>
+    <string name="bluetooth_tethering_off_subtext_config">"Sharing this %1$d's Internet connection"</string>
+    <string name="sms_change_default_dialog_text">Do you want to use %1$s instead of %2$s as your default messaging app?</string>
+    <string name="network_scorer_change_active_dialog_title">Change Wi‑Fi assistant?</string>
+    <string name="network_scorer_change_active_dialog_text">Use %1$s instead of %2$s to manage your network connections?</string>
+    <string name="network_scorer_change_active_no_previous_dialog_text">Use %s to manage your network connections?</string>
+    <string name="mobile_connect_to_internet">Please connect to the internet</string>
+    <string name="location_mode_high_accuracy_description">Use GPS, Wi‑Fi, Bluetooth, or cellular networks to determine location</string>
+    <string name="location_mode_battery_saving_description">Use Wi‑Fi, Bluetooth, or cellular networks to determine location</string>
+    <string name="location_scanning_wifi_always_scanning_title">Wi‑Fi scanning</string>
+    <string name="location_scanning_wifi_always_scanning_description">Improve location by allowing system apps and services to detect Wi‑Fi networks at any time.</string>
+    <string name="location_scanning_bluetooth_always_scanning_description">Improve location by allowing system apps and services to detect Bluetooth devices at any time.</string>
+    <string name="location_neighborhood_level">Let apps use Google’s location service to estimate your location faster. Anonymous location data will be collected and sent to Google.</string>
+    <string name="webview_license_title">System WebView License</string>
+    <string name="wallpaper_attributions_values">"Satellite imagery providers:
+©2014 CNES / Astrium, DigitalGlobe, Bluesky"</string>
+    <string name="settings_license_activity_loading">Loading…</string>
+    <string name="settings_safetylegal_activity_loading">Loading…</string>
+    <string name="lockpattern_settings_power_button_instantly_locks_summary">Except when kept unlocked by %1$s</string>
+    <string name="lockpattern_too_many_failed_confirmation_attempts">Too many incorrect attempts. Try again in %d seconds.</string>
+    <string name="install_all_warning">Your phone and personal data are more vulnerable to attack by apps from unknown sources. You agree that you are solely responsible for any damage to your phone or loss of data that may result from using these apps.</string>
+    <string name="permissions_label">Permissions</string>
+    <string name="screen_compatibility_text">This app may not be designed for your screen. You can control how it adjusts to your screen here.</string>
+    <string name="reset_app_preferences_desc">"This will reset all preferences for:
+
+ "<li>Disabled apps</li>"
+ "<li>Disabled app notifications</li>"
+ "<li>Default applications for actions</li>"
+ "<li>Background data restrictions for apps</li>"
+ "<li>Any permission restrictions</li>"
+
+You will not lose any app data."</string>
+    <string name="reset_app_preferences_button">RESET APPS</string>
+    <string name="not_installed">Not installed for this user</string>
+    <string name="recompute_size">Recomputing size…</string>
+    <string name="security_settings_desc_multi">This app can access the following on your phone. In order to improve performance and reduce memory usage, some of these permissions are available to %1$sbecause it runs in the same process as %2$s:</string>
+    <string name="computing_size">Computing…</string>
+    <string name="invalid_size_value">"Couldn't compute package size."</string>
+    <string name="app_special_disable_dlg_text">If you disable this app, other apps may no longer function as intended. Your data will also be deleted.</string>
+    <string name="app_disable_notifications_dlg_text">If you turn off notifications for this app, you may miss important alerts and updates.</string>
+    <string name="running_processes_item_description_s_s">%1$dprocess and %2$d service</string>
+    <string name="running_processes_item_description_s_p">%1$dprocess and %2$d services</string>
+    <string name="running_processes_item_description_p_s">%1$dprocesses and %2$d service</string>
+    <string name="running_processes_item_description_p_p">%1$dprocesses and %2$d services</string>
+    <string name="service_stop_description">This service was started by its app. Stopping it may cause the app to fail.</string>
+    <string name="service_manage_description">%1$s: currently in use. Touch Settings to control it.</string>
+    <string name="process_service_in_use_description">Service %1$sis in use.</string>
+    <string name="process_provider_in_use_description">Provider %1$sis in use.</string>
+    <string name="runningservicedetails_stop_dlg_text">If you stop this service, some features of your phone may stop working correctly until you power it off and then on again.</string>
+    <string name="auto_caps">Auto-capitalization</string>
+    <string name="auto_punctuate_summary">Press Space key twice to insert \".\"</string>
+    <string name="ime_security_warning">This input method may be able to collect all the text you type, including personal data like passwords and credit card numbers. It comes from the app %1$s. Use this input method?</string>
+    <string name="spellchecker_security_warning">This spell checker may be able to collect all the text you type, including personal data like passwords and credit card numbers. It comes from the app %1$s. Use this spell checker?</string>
+    <string name="user_dict_settings_add_dialog_less_options">Less options</string>
+    <string name="clear_adb_keys">Revoke USB debugging authorizations</string>
+    <string name="bugreport_in_power_summary">Show a button in the power menu for taking a bug report</string>
+    <string name="oem_unlock_enable">OEM unlocking</string>
+    <string name="oem_unlock_enable_summary">Allow the bootloader to be unlocked</string>
+    <string name="mock_location_app_set">Mock location app: %1$s</string>
+    <string name="wifi_verbose_logging">Enable Wi‑Fi Verbose Logging</string>
+    <string name="wifi_allow_scan_with_traffic">Always allow Wi‑Fi Roam Scans</string>
+    <string name="mobile_data_always_on">Cellular data always active</string>
+    <string name="wifi_verbose_logging_summary">Increase Wi‑Fi logging level, show per SSID RSSI in Wi‑Fi Picker</string>
+    <string name="wifi_aggressive_handover_summary">When enabled, Wi‑Fi will be more aggressive in handing over the data connection to Cellular, when Wi‑Fi signal is low</string>
+    <string name="wifi_allow_scan_with_traffic_summary">Allow/Disallow Wi‑Fi Roam Scans based on the amount of data traffic present at the interface</string>
+    <string name="mobile_data_always_on_summary">Always keep mobile data active, even when Wi‑Fi is active (for fast network switching).</string>
+    <string name="adb_keys_warning_message">"Revoke access to USB debugging from all computers you've previously authorized?"</string>
+    <string name="dev_settings_warning_message">These settings are intended for development use only. They can cause your device and the applications on it to break or misbehave.</string>
+    <string name="verify_apps_over_usb_summary">Check apps installed via ADB/ADT for harmful behavior</string>
+    <string name="enforce_read_external_confirm_message">"When SD card is protected, apps must request permission to read data from external storage.
+
+Some apps may not work until updated by their developers."</string>
+    <string name="allow_bind_app_widget_activity_allow_bind">After you create the widget, %1$s can access all data it displays.</string>
+    <string name="battery_history_seconds">%1$ds</string>
+    <string name="battery_history_hours_no_seconds">%1$dh %2$dm</string>
+    <string name="battery_history_minutes_no_seconds">%1$dm</string>
+    <string name="accessibility_screen_magnification_summary">"When this feature is turned on, you can zoom in and out by triple-tapping the screen.
+
+While zoomed in, you can:
+"<li><ul>"Pan: Drag two or more fingers across the screen.
+"<li>Adjust zoom level: Pinch two or more fingers together or spread them apart.</li></ul></li>"
+
+You can also temporarily magnify what's under your finger by triple-tapping and holding. In this magnified state, you can drag your finger to explore different parts of the screen. Lift your finger to return to your previous state.
+
+Note: Triple-tap for magnification works everywhere except the keyboard and navigation bar."</string>
+    <string name="accessibility_toggle_screen_magnification_auto_update_preference_title">Auto update screen magnification</string>
+    <string name="accessibility_toggle_screen_magnification_auto_update_preference_summary">Update screen magnification on app transitions</string>
+    <string name="accessibility_display_inversion_preference_title">Color inversion</string>
+    <string name="accessibility_display_daltonizer_preference_title">Color correction</string>
+    <string name="daltonizer_type_overridden">Overridden by %1$s</string>
+    <string name="accessibility_feature_or_input_method_not_allowed">Not allowed by your organization</string>
+    <string name="captioning_background_color">Background color</string>
+    <string name="captioning_window_color">Caption window color</string>
+    <string name="captioning_foreground_color">Text color</string>
+    <string name="captioning_edge_color">Edge color</string>
+    <string name="color_gray">Gray</string>
+    <string name="touch_filtered_warning">Because an app is obscuring a permission request, Settings can’t verify your response.</string>
+    <string name="enable_service_encryption_warning">If you turn on %1$s, your device won’t use your screen lock to enhance data encryption.</string>
+    <string name="enable_service_pattern_reason">Because turning on %1$s affects data encryption, you need to confirm your pattern.</string>
+    <string name="enable_service_pin_reason">Because turning on %1$s affects data encryption, you need to confirm your PIN.</string>
+    <string name="enable_service_password_reason">Because turning on %1$s affects data encryption, you need to confirm your password.</string>
+    <string name="print_settings_title">Print services</string>
+    <string name="print_service_security_warning_summary">Your document may pass through one or more servers on its way to the printer.</string>
+    <string name="power_usage_not_available">"Battery usage data isn't available"</string>
+    <string name="power_discharge_remaining">%1$s remaining</string>
+    <string name="power_charge_remaining">%1$s to charge</string>
+    <string name="power_discharging_duration">%1$s- approx. %2$s left</string>
+    <string name="power_charging">%1$s - %2$s</string>
+    <string name="power_charging_duration">%1$s - %2$s until full</string>
+    <string name="power_charging_duration_ac">%1$s - %2$s until full on AC</string>
+    <string name="power_charging_duration_usb">%1$s - %2$s until full over USB</string>
+    <string name="power_charging_duration_wireless">%1$s - %2$s until full from wireless</string>
+    <string name="usage_type_data_wifi_send">Wi‑Fi packets sent</string>
+    <string name="usage_type_data_wifi_recv">Wi‑Fi packets received</string>
+    <string name="battery_sugg_radio">Switch to airplane mode to save power in areas with no cell coverage</string>
+    <string name="battery_msg_unaccounted">Battery use is an approximation of power use and does not include every source of battery drain. Miscellaneous is the difference between the computed approximate power use and the actual drain observed on the battery.</string>
+    <string name="mah">%d mAh</string>
+    <string name="process_dex2oat_label">App optimization</string>
+    <string name="process_stats_total_duration">%1$sof %2$s used over last %3$s</string>
+    <string name="process_stats_total_duration_percentage">%1$s of RAM used over %2$s</string>
+    <string name="voice_interaction_security_warning">This voice input service will be able to control all voice enabled applications on your behalf. It comes from the %s application. Enable the use of this service?</string>
+    <string name="tts_engine_error">"The engine you chose can't run."</string>
+    <string name="tts_engine_security_warning">This speech synthesis engine may be able to collect all the text that will be spoken, including personal data like passwords and credit card numbers. It comes from the %s engine. Enable the use of this speech synthesis engine?</string>
+    <string name="tts_notif_engine_install_message">Enable new engine before use.</string>
+    <string name="backup_data_summary">Back up app data, Wi-Fi passwords, and other settings to Google™ servers</string>
+    <string name="auto_restore_summary">When reinstalling an app, restore backed up settings and data</string>
+    <string name="backup_configure_account_default_summary">No account is currently storing backed up data</string>
+    <string name="local_backup_password_summary_none">"Desktop full backups aren't currently protected"</string>
+    <string name="backup_erase_dialog_message">Stop backing up your Wi-Fi passwords, bookmarks, other settings, and app data, plus erase all copies on Google™ servers?</string>
+    <string name="fullbackup_data_summary">"Automatically back up device data (such as Wi-Fi passwords and call history) and app data (such as settings and files stored by apps) remotely.
+
+When you turn on automatic backup, device and app data is periodically saved remotely. App data can be any data that an app has saved (based on developer settings), including potentially sensitive data such as contacts, messages, and photos."</string>
+    <string name="device_admin_warning">Activating this administrator will allow the app %1$s to perform the following operations:</string>
+    <string name="device_admin_status">This administrator is active and allows the app %1$s to perform the following operations:</string>
+    <string name="profile_owner_add_title">Activate Profile Manager?</string>
+    <string name="adding_profile_owner_warning">"By proceeding, your User will be managed by your Administrator which may also be able to store associated data, in addition to your personal data.
+
+Your Administrator has the ability to monitor and manage settings, access, apps, and data associated with this User, including network activity and your device\\’s location information."</string>
+    <string name="wifi_setup_status_scanning">Scanning networks…</string>
+    <string name="wifi_setup_status_connecting">Connecting…</string>
+    <string name="wifi_setup_description_connecting">Connecting can take a few minutes…</string>
+    <string name="background_data_summary">Apps can sync, send, and receive data at any time</string>
+    <string name="sync_in_progress">Syncing now…</string>
+    <string name="header_data_and_synchronization">Data &amp; synchronization</string>
+    <string name="really_remove_account_message">Removing this account will delete all of its messages, contacts, and other data from the phone!</string>
+    <string name="enter_password">To start Android™, enter your password.</string>
+    <string name="checking_decryption">Checking…</string>
+    <string name="misc_files_selected_count">%1$d of %2$d selected</string>
+    <string name="hdcp_checking_dialog_title">Set HDCP checking behavior</string>
+    <string name="wait_for_debugger_summary">Debugged application waits for debugger to attach before executing</string>
+    <string name="debug_hw_drawing_category">Hardware accelerated rendering</string>
+    <string name="strict_mode_summary">Flash screen when apps do long operations on main thread</string>
+    <string name="show_screen_updates">Show surface updates</string>
+    <string name="simulate_color_space">Simulate color space</string>
+    <string name="force_hw_ui_summary">Force use of GPU for 2d drawing</string>
+    <string name="confirm_enable_multi_window_text">WARNING: This is a highly experimental feature that allows multiple activities on-screen at the same time through the Recent apps UI. Some apps may crash or not function correctly when used with this feature.</string>
+    <string name="immediately_destroy_activities_summary">Destroy every activity as soon as the user leaves it</string>
+    <string name="show_all_anrs_summary">Show App Not Responding dialog for background apps</string>
+    <string name="data_usage_menu_show_wifi">Show Wi‑Fi</string>
+    <string name="data_usage_menu_hide_wifi">Hide Wi‑Fi</string>
+    <string name="data_usage_change_cycle">Change cycle…</string>
+    <string name="data_usage_disable_mobile">You will be unable to use the Internet, email, map, and other data services via mobile network. Continue?</string>
+    <string name="data_usage_list_mobile">Mobile</string>
+    <string name="data_usage_list_none">None</string>
+    <string name="data_usage_enable_mobile">Mobile data traffic</string>
+    <string name="data_usage_restrict_denied_dialog">Restricting background data is possible only when you’ve set a cellular data limit.</string>
+    <string name="data_usage_auto_sync_on_dialog">"Any changes you make to your accounts on the web will be automatically copied to your phone.
+
+Some accounts may also automatically copy any changes you make on the phone to the web. A Google Account works this way."</string>
+    <string name="data_usage_limit_dialog_mobile">"Your mobile data connection will be disabled when the specified limit is reached.
+
+Since data usage is measured by your phone, and your service provider may account for usage differently, consider using a conservative limit."</string>
+    <string name="data_usage_restrict_background_multiuser">"If you restrict background cellular data, some apps and services won’t work unless you’re connected to Wi‑Fi.
+
+This setting affects all users on this phone."</string>
+    <string name="data_usage_sweep_warning"><font size="21"> ^1 </font> <font size="9">^2</font>"
+"<font size="12">warning</font></string>
+    <string name="data_usage_sweep_limit"><font size="21"> ^1 </font> <font size="9">^2</font>"
+"<font size="12">limit</font></string>
+    <string name="data_usage_total_during_range_mobile">%2$s: about %1$s used, as measured by your phone. Your carrier’s data usage accounting may differ.</string>
+    <string name="data_usage_metered_wifi">Metered Wi‑Fi networks</string>
+    <string name="data_usage_metered_wifi_disabled">To select metered networks, turn Wi‑Fi on.</string>
+    <string name="vpn_version">Version %s</string>
+    <string name="ssl_ca_cert_info_message">"This device is managed by:
+%s
+
+Your administrator is capable of monitoring your network activity, including emails, apps, and secure websites.
+
+For more information, contact your administrator."</string>
+    <string name="ssl_ca_cert_warning_message">"A third party is capable of monitoring your network activity, including emails, apps, and secure websites.
+
+A trusted credential installed on your device is making this possible."</string>
+    <string name="user_summary_managed_profile_not_set_up">Not set up - Work profile</string>
+    <string name="user_add_max_count">You can add up to %1$d users</string>
+    <string name="user_add_user_message_long">"You can share this device with other people by creating additional users. Each user has their own space, which they can customize with apps, wallpaper, and so on. Users can also adjust device settings like Wi‑Fi that affect everyone.
+
+When you add a new user, that person needs to set up their space.
+
+Any user can update apps for all other users."</string>
+    <string name="user_add_user_message_short">"When you add a new user, that person needs to set up their space.
+
+Any user can update apps for all other users."</string>
+    <string name="user_setup_dialog_message">Make sure the person is available to take the device and set up their space</string>
+    <string name="user_profile_confirm_remove_message">All apps and data will be deleted</string>
+    <string name="user_adding_new_user">Adding new user…</string>
+    <string name="user_enable_calling_sms">Turn on phone calls &amp; SMS</string>
+    <string name="user_enable_calling_confirm_message">Call history will be shared with this user</string>
+    <string name="nfc_payment_no_apps">Pay with your phone in stores</string>
+    <string name="nfc_payment_app_and_desc">%1$s - %2$s</string>
+    <string name="nfc_payment_favor_default">Always</string>
+    <string name="nfc_how_it_works_got_it">Got it</string>
+    <string name="nfc_payment_set_default">Always use %1$s when you Tap &amp; pay?</string>
+    <string name="nfc_payment_set_default_instead_of">Always use %1$s instead of %2$s when you Tap &amp; pay?</string>
+    <string name="app_sees_restricted_accounts_and_controlled_by">This app can access your accounts. Controlled by %1$s</string>
+    <string name="restriction_wifi_config_title">Wi‑Fi and Mobile</string>
+    <string name="restriction_wifi_config_summary">Allow modification of Wi‑Fi and Mobile settings</string>
+    <string name="restriction_nfc_enable_summary_config">Allow data exchange when this %1$s touches another NFC device</string>
+    <string name="sim_card_number_title">SIM %1$d</string>
+    <string name="sim_editor_color">SIM color</string>
+    <string name="sim_signal_strength">%1$d dBm %2$d asu</string>
+    <string name="sim_calls_ask_first_prefs_title">Ask every time</string>
+    <string name="keywords_wifi">wifi wi-fi network connection</string>
+    <string name="keywords_more_default_sms_app">text message texting messages messaging</string>
+    <string name="keywords_more_mobile_networks">mobile cellular cell carrier wireless data 4g 3g 2g lte</string>
+    <string name="keywords_display_brightness_level">dim screen touchscreen battery</string>
+    <string name="keywords_display_auto_brightness">dim screen touchscreen battery</string>
+    <string name="keywords_display_wallpaper">background personalize customize diplay</string>
+    <string name="keywords_storage">space disk hard drive device usage</string>
+    <string name="keywords_battery">power usage charge</string>
+    <string name="keywords_spell_checker">spelling dictionary spellcheck auto-correct</string>
+    <string name="keywords_voice_input">recognizer input speech speak language hands-free hand free recognition offensive word audio history bluetooth headset</string>
+    <string name="keywords_text_to_speech_output">rate language default speak speaking tts accessibility reader blind</string>
+    <string name="keywords_date_and_time">clock military</string>
+    <string name="keywords_factory_data_reset">wipe delete restore clear remove</string>
+    <string name="keywords_keyboard_and_ime">text correction correct sound vibrate auto language gesture suggest suggestion theme offensive word type emoji international</string>
+    <string name="keywords_default_phone_app">phone dialer default</string>
+    <string name="keywords_ignore_optimizations">ignore optimizations doze app standby</string>
+    <string name="status_tag_not_writable">NFC tag is not writable. Please use a different tag.</string>
+    <string name="notification_listener_security_warning_summary">%1$s will be able to read all notifications, including personal information such as contact names and the text of messages you receive. It will also be able to dismiss notifications or trigger action buttons they contain.</string>
+    <string name="app_notification_priority_summary">Let this app’s notifications be heard when Do not disturb is set to Priority only</string>
+    <string name="app_notification_peekable_summary">Let this app emphasize certain notifications by sliding them briefly into view on the current screen</string>
+    <string name="app_notification_sensitive_summary">When the device is locked, hide content in this app’s notifications that might reveal private information</string>
+    <string name="zen_mode_delete_rule_confirmation">Delete “%1$s” rule?</string>
+    <string name="zen_mode_delete_rule_button">Delete</string>
+    <string name="zen_mode_event_rule_summary_calendar_template">During events for %1$s</string>
+    <string name="zen_mode_event_rule_summary_reply_template">Where reply is %1$s</string>
+    <string name="zen_mode_event_rule_reply_any_except_no">Yes, Maybe, or Not replied</string>
+    <string name="zen_mode_rule_summary_combination">%1$s / %2$s</string>
+    <string name="summary_range_symbol_combination">%1$s - %2$s</string>
+    <string name="summary_range_verbal_combination">%1$s to %2$s</string>
+    <string name="zen_mode_repeat_callers_summary">If the same person calls a second time within a %d minute period, allow it</string>
+    <string name="zen_mode_end_time_next_day_summary_format">%s next day</string>
+    <string name="zen_mode_summary_alarms_only_by_time">Change to alarms only until %1$s</string>
+    <string name="screen_pinning_description">"When this setting is turned on, you can use screen pinning to keep the current screen in view until you unpin.
+
+To use screen pinning:
+
+1. Make sure screen pinning is turned on.
+
+2. Open the screen you want to pin.
+
+3. Tap □ (Recent apps key).
+
+4. Swipe up and then tap the pin icon."</string>
+    <string name="managing_admin">Managed by %s</string>
+    <string name="encryption_interstitial_message_pin">"You can further protect this device by requiring your PIN before it starts up. Until the device starts up, it can't receive calls, messages, or notifications, including alarms.
+
+This helps protect data on lost or stolen devices."</string>
+    <string name="encryption_interstitial_message_pattern">"You can further protect this device by requiring your pattern before it starts up. Until the device starts up, it can't receive calls, messages, or notifications, including alarms.
+
+This helps protect data on lost or stolen devices."</string>
+    <string name="encryption_interstitial_message_password">"You can further protect this device by requiring your password before it starts up. Until the device starts up, it can't receive calls, messages, or notifications, including alarms.
+
+This helps protect data on lost or stolen devices."</string>
+    <string name="encryption_interstitial_message_pin_for_fingerprint">"In addition to using your fingerprint to unlock your device, you can further protect this device by requiring your PIN before it starts up. Until the device starts up, it can’t receive calls, messages, or notifications, including alarms.
+
+This helps protect data on lost or stolen devices."</string>
+    <string name="encryption_interstitial_message_pattern_for_fingerprint">"In addition to using your fingerprint to unlock your device, you can further protect this device by requiring your pattern before it starts up. Until the device starts up, it can’t receive calls, messages, or notifications, including alarms.
+
+This helps protect data on lost or stolen devices."</string>
+    <string name="encryption_interstitial_message_password_for_fingerprint">"In addition to using your fingerprint to unlock your device, you can further protect this device by requiring your password before it starts up. Until the device starts up, it can’t receive calls, messages, or notifications, including alarms.
+
+This helps protect data on lost or stolen devices."</string>
+    <string name="encrypt_talkback_dialog_message_pin">"When you enter your PIN to start this device, accessibility services like %1$s won't yet be available."</string>
+    <string name="encrypt_talkback_dialog_message_pattern">"When you enter your pattern to start this device, accessibility services like %1$s won't yet be available."</string>
+    <string name="encrypt_talkback_dialog_message_password">"When you enter your password to start this device, accessibility services like %1$s won't yet be available."</string>
+    <string name="imei_information_summary">IMEI relative information</string>
+    <string name="slot_number">(Slot %1$d)</string>
+    <string name="storage_summary_format">%1$s used in %2$s</string>
+    <string name="data_summary_format">%1$s used since %2$s</string>
+    <string name="notifications_two_items">%1$s / %2$s</string>
+    <string name="notifications_three_items">%1$s / %2$s / %3$s</string>
+    <string name="app_permissions_summary" formatted="false">%d of %d apps allowed additional access</string>
+    <string name="app_permissions_group_summary" formatted="false">%d of %d apps allowed</string>
+    <string name="domain_urls_summary_none">Don’t open supported links</string>
+    <string name="domain_urls_summary_one">Open %s</string>
+    <string name="domain_urls_summary_some">Open %s and related URLs</string>
+    <string name="fingerprint_not_recognized">Not recognized</string>
+    <string name="assistant_security_warning_title">Make %s your assistant?</string>
+    <string name="assistant_security_warning">The assistant will be able to read information about apps in use on your system, including information visible on your screen or accessible within the apps.</string>
+    <string name="usage_access_description">Usage access allows an app to track what other apps you’re using and how often, as well as your carrier, language settings, and other details.</string>
+    <string name="always_running">Always running (%s)</string>
+    <string name="sometimes_running">Sometimes running (%s)</string>
+    <string name="rarely_running">Rarely running (%s)</string>
+    <string name="memory_max_desc">Maximum %1$s</string>
+    <string name="memory_avg_desc">Average %1$s</string>
+    <string name="memory_use_running_format">%1$s / %2$s</string>
+    <string name="process_format">%1$s (%2$d)</string>
+    <string name="high_power_apps">Battery optimization</string>
+    <string name="high_power_filter_on">Not optimized</string>
+    <string name="high_power_on">Ignoring battery optimization</string>
+    <string name="high_power_off">Optimizing battery use</string>
+    <string name="high_power_desc">Don’t apply battery optimization. May drain your battery more quickly.</string>
+    <string name="battery_summary">%1$d%% use since last full charge</string>
+    <string name="additional_permissions_more">%1$d more</string>
+    <string name="assist_footer">Assist apps can help you based on information from the screen you’re viewing. Some apps support both launcher and voice input services to give you integrated assistance.</string>
+    <string name="memory_use_summary">%1$s avg memory used in last 3 hours</string>
+    <string name="sort_avg_use">Sort by avg use</string>
+    <string name="sort_max_use">Sort by max use</string>
+    <string name="zen_access_warning_dialog_title">Allow access to Do not disturb for %1$s?</string>
+    <string name="ignore_optimizations_on">Don’t optimize</string>
+    <string name="ignore_optimizations_off">Optimize</string>
+    <string name="ignore_optimizations_title">Allow %s to ignore battery optimizations?</string>
+    <string name="work_profile_usage_access_warning">Turning off usage access for this app doesn’t prevent your administrator tracking data usage for apps in your work profile.</string>
+    <string name="accessibility_lock_screen_progress">%1$d of %2$d characters used</string>
+    <string name="allow_overlay_description">This permission allows an app to display on top of other apps you’re using and may interfere with your use of the interface in other applications, or change what you think you are seeing in other applications.</string>
+    <string name="keywords_system_alert_window">system alert window dialog draw on top other apps</string>
+    <string name="system_alert_window_summary" formatted="false">%d of %d apps allowed to draw on top of other apps</string>
+    <string name="write_settings_summary" formatted="false">%d of %d apps allowed to read or write system settings</string>
+    <string name="dialog_percentage_counter">%d%%</string>
+    <string name="dialog_message_stamina_enable_warning">Enable one or more functions in STAMINA mode to optimize battery time.</string>
+    <string name="power_save_mode_label">Low battery mode</string>
+    <string name="powersaver_header_label">Low battery mode settings</string>
+    <string name="whitelist_warning_header">Note!</string>
+    <string name="consuming_apps_info_description">%s sends and receives data in the background, and uses processing power. You may reduce battery consumption by uninstalling it or enabling STAMINA mode.</string>
+    <string name="dialog_title_lbm_hint">Low battery mode</string>
+    <string name="dialog_message_lbm_hint">"Low battery mode turns off power consuming features and settings when the battery is below a preset level.
+Use when battery power is running low and you can't charge your device. You will still receive phone calls and text messages."</string>
+    <string name="dialog_message_lbm_hint_no_telephony">"Low battery mode turns off power consuming features and settings when the battery is below a preset level.
+Use when battery power is running low and you can't charge your device."</string>
+    <string name="usm_descr">"Ultra STAMINA mode will extend battery lifetime significantly. It can be used when you can't charge your device for a long time.
+
+Note that Internet connection through Wi-Fi and Mobile data will be disabled.
+
+Only a few basic functions, such as Phone and Messaging will be available. Tap \"More info\" for more details."</string>
+    <string name="dialog_message_usm_not_ready">Please wait a short moment, and then try again to activate Ultra STAMINA Mode.</string>
+    <string name="battery_list_usm_desc">Prolongs battery time extensively by limiting the available apps to the minimum necessary</string>
+    <string name="battery_whitelist_tab_selected">Not optimized</string>
+    <string name="battery_option_how_to_use_stamina_guide">"When STAMINA mode is activated, GPS, vibration, image enhancement, rendering performance, etc. are restricted to reduce battery consumption. Also, as background data is restricted, Email and other apps that rely on syncing may not be updated.
+
+Note that an Android power-saving feature is active even when STAMINA mode is not activated so background data may be restricted during sleep mode.
+
+To add apps active in standby, tap Battery optimization in the options menu.
+
+All restrictions are disabled while charging."</string>
+    <string name="battery_option_how_to_use_stamina_guide_new">"When STAMINA mode is activated, GPS, vibration, image enhancement, etc. are restricted to reduce battery consumption. Also, as background data is restricted, Email and other apps that rely on syncing may not be updated.
+
+To add apps active in standby, tap Battery optimization in the options menu.
+
+All restrictions are disabled while charging."</string>
+    <string name="battery_option_how_to_use_stamina_guide_new2">"When STAMINA mode is activated, GPS, vibration, etc. are restricted to reduce battery consumption. Also, as background data is restricted, Email and other apps that rely on syncing may not be updated.
+
+To add apps active in standby, tap Battery optimization in the options menu.
+
+All restrictions are disabled while charging."</string>
+    <string name="battery_add_apps_in_standby_desc">Added apps will use network connections. This will increase the battery consumption. Note that the functions marked in Advanced STAMINA mode settings are not allowed to use network connections even if you add the same functions/apps in this list.</string>
+    <string name="battery_usm_desc">"Ultra STAMINA mode will extend battery lifetime significantly. Note that Internet connection through Wi-Fi and Mobile data will be disabled.Your Home screen will be switched to Ultra STAMINA mode Home.
+
+Available apps in Ultra STAMINA mode"</string>
+    <string name="battery_stamina_mode_settings_auto_title">Auto start at %d%% battery</string>
+    <string name="battery_stamina_mode_settings_guide_desc">STAMINA mode restricts device performance and some functions to reduce battery consumption. Select a restriction level in STAMINA level.</string>
+    <string name="battery_option_battery_optimization">Battery optimization</string>
+    <string name="somc_bluetooth_help_header_text">Make sure that your other device is in pairing mode, and select it from the list.</string>
+    <string name="somc_bluetooth_pairing_support_text">Make sure to confirm the pairing on the other device</string>
+    <string name="keep_lockscreen_notifications_summary">Notifications will be shown until you swipe to dismiss them. If disabled, only new notifications will be shown on lock screen.</string>
+    <string name="crypt_keeper_failed_attempts_almost_at_wipe">You have incorrectly attempted to unlock the phone ^1 times. After ^2 more unsuccessful attempts, the phone will be reset to factory default and all user data will be lost.</string>
+    <string name="master_clear_sd_card">Note: Any data which is encrypted by this device on a <b>SD card</b> will be unreadable after a factory data reset.</string>
+    <string name="crypt_keeper_confirm_sd_encrypt">You need to draw your unlock pattern to change the SD card encryption setting.</string>
+    <string name="sdcrypt_keeper_title">Encrypt SD Card</string>
+    <string name="sdcrypt_keeper_summary">A security policy restricts deactivation of SD card encryption</string>
+    <string name="backward_compatible">Backward compatible mode</string>
+    <string name="data_usage_auto_sync_on_extended_with_cost_warning_dialog">"Any changes you make to your accounts on the web will be automatically copied to your phone.
+
+Some accounts may also automatically copy any changes you make on the phone to the web.
+
+To select what type of information to sync within each account, go to Settings > Accounts &amp; sync.
+
+Data transmission charges may apply when updates are made to your phone."</string>
+    <string name="tethering_allow_warning_txt">While tethering you cannot use the Internet on your phone. Do you want to continue to tether?</string>
+    <string name="tethering_allow_roaming_warning_txt">"While tethering you cannot use the Internet on your phone. You may be able to if you choose another network. Please always check the other network's charges. Do you want to continue to tether?"</string>
+    <string name="somc_backup_section_title">Xperia™ Backup &amp; restore</string>
+    <string name="somc_google_backup_section_title">Google™ Backup &amp; restore</string>
+    <string name="somc_backup_welcome_text">Backup Xperia™ exclusive content such as home screen layout, email accounts and conversations periodically to an online account.</string>
+    <string name="somc_backup_update_text">Backup to online account is unavailable until after you update</string>
+    <string name="somc_backup_mount_text">Automatic backup is unavailable until the SD card is mounted</string>
+    <string name="reading_settings">Reading settings</string>
+    <string name="updating_settings">Updating settings</string>
+    <string name="wifi_hs2_strings_dialog_roaming_attention_message_txt">When Passpoint is on, your device will automatically switch among available Passpoint networks, which may result in different charges from the domestic charges in Japan.</string>
+    <string name="security_settings_fingerprint_enroll_error_dialog_title">Enrollment was not completed</string>
+    <string name="security_settings_fingerprint_enroll_error_timeout_dialog_message">Fingerprint enrollment time limit reached. Try again.</string>
+    <string name="security_settings_fingerprint_enroll_error_generic_dialog_message">"Fingerprint enrollment didn't work. Try again or use a different finger."</string>
+    <string name="fingerprint_last_delete_message">"You won't be able to use your fingerprints to unlock your phone, authorize purchases, or sign in to apps with them."</string>
+    <string name="high_power_system">Battery optimization not available</string>
+    <string name="high_power_prompt_title">Ignore battery optimizations?</string>
+    <string name="swiqi_strings_swiqi_desc_txt">Improve the viewing quality of photos and videos, giving you clearer, sharper and more natural images</string>
+    <string name="super_vivid_mode_desc_txt">Maximize colors while viewing photos and videos, giving you surreal, vibrant, and super-vivid images</string>
+    <string name="display_category_personalisation_title">Personalization</string>
+    <string name="xloud_strings_xloud_desc_txt">Enhance the loudness of speaker</string>
+    <string name="wifi_tether_settings_subtext">Set up &amp; manage portable Wi-Fi hotspot</string>
+    <string name="optimized_backlight_title">Optimized backlight</string>
+    <string name="optimized_backlight_summary">Power saving display mode</string>
+    <string name="usb_direct_settings_hi_res_audio_title_txt">Hi-Res Audio via USB</string>
+    <string name="usb_direct_settings_hi_res_audio_desc_txt">Play High-Resolution Audio using USB DAC/DAC amp. When connected, sound effects become disabled.</string>
+    <string name="wifi_tether_settings_get_started_help">Get started with Mobile Hotspot</string>
+    <string name="usb_tether_settings_get_started_help">Get started with USB tethering</string>
+    <string name="wifi_display_settings_summary">Mirror your Xperia™ on your Google Cast™ compliant TV or device (such as Chromecast™)</string>
+    <string name="settings_sim_status_sub_des_txt">Phone number, Network, etc.</string>
+    <string name="automatic_brightness_powersave_mode">Power save mode</string>
+    <string name="cw_network_priority">Prioritize China Telecom Wi-Fi</string>
+    <string name="cw_network_priority_summary">China Telecom Wi-Fi networks will be prioritized over other Wi-Fi networks in connection</string>
+    <string name="dual_tether_apn_enterprise">Orange Internet Enterprise</string>
+    <string name="emmc_erase_everything_desc">Clear all files saved in it? Action cannot be reversed!</string>
+    <string name="lid_confirm_on_text">The SD card will unmount automatically when battery cover is removed to prevent data loss.</string>
+    <string name="master_reset_desc">"This will reset all settings of your phone, including:
+"<li>Phone system settings</li>"
+"<li>Bundled application settings</li>"
+It will not erase:
+"<li>User specified settings</li>"
+"<li>Installed applications</li>"
+"<li>Files in internal storage and/or SD card, such as music or photos</li></string>
+    <string name="wifi_authenticating_text">Authenticating…</string>
+    <string name="wifi_connecting_text">Connecting…</string>
+    <string name="wifi_obtaining_text">Obtaining IP address…</string>
+    <string name="wifi_scaning_text">Scanning…</string>
+    <string name="wifi_tether_explanation_dialog_text">"You can use your device as a Mobile Hotspot. This allows other devices (maximum 10) to connect to it via a Wi-Fi network. The connected devices will have access to the Internet via your mobile network connection. Mobile Hotspot uses mobile data and can result in additional charges.
+
+Mobile Hotspot consumes more battery. Connect the device to an outlet to extend battery life."</string>
+    <string name="wifi_tether_explanation_menu_item_text">Get started with Mobile Hotspot</string>
+    <string name="wps_popup_pin">Wait until the connection with the access point is established</string>
+    <string name="wps_popup_pin_accepted">PIN accepted</string>
+    <string name="xssm_guidecontent_addapps_stamina40jp_txt">"Turn on [Use when screen off] and select apps you wish to run with reduced functionality during sleep mode. 
+The [Battery draining apps] tab shows apps that consume a lot of battery power.
+The bar below each app indicates battery power consumption."</string>
+    <string name="xssm_guidecontent_addapps_stamina51jp_txt">"Turn on [Use when screen off] and select apps you wish to run with reduced functionality during sleep mode. 
+The [Battery draining apps] tab shows apps that consume a lot of battery power.
+The bar below each app indicates battery power consumption."</string>
+    <string name="xssm_guidecontent_note_stamina40jp_txt">"You can select apps to run with reduced functionality during sleep mode. If selected apps do not function properly, deselect them.
+
+The notification light for all apps flashes in the same color at the same frequency during sleep mode.
+
+STAMINA mode becomes deactivated while charging."</string>
+    <string name="xssm_guidecontent_note_stamina50jp_txt">"If selected apps do not function properly, deselect them.
+
+STAMINA mode is deactivated while you are controlling or charging the device."</string>
+    <string name="xssm_guidecontent_what_stamina40jp_txt">"STAMINA mode saves battery power by adjusting device settings. You can choose applications to run with reduced functionality during sleep mode. (This helps you save battery power because most apps keep draining the battery even during sleep mode.)
+
+Functions disabled for selected apps:
+- Wi-Fi
+- Mobile data
+- Timer
+
+The notification light for all apps flashes in the same color at the same frequency during sleep mode.
+
+STAMINA mode is deactivated while you are controlling the device."</string>
+    <string name="xssm_guidecontent_what_stamina50jp_txt">"STAMINA mode saves battery power by disabling network connections and timer function during sleep mode for your selected apps. (This helps you save battery power because most apps keep draining the battery even during sleep mode.) 
+
+STAMINA mode also adjusts display settings to get the most battery life when the screen is on."</string>
+    <string name="xssm_settings_screen_off_restrict_title_txt">Use when screen is off</string>
+    <string name="xssm_settings_screen_on_restrict_summary_txt">Adjust device settings (e.g., screen frame rate) and turn off Image enhancement to save power when the screen is on</string>
+</resources>

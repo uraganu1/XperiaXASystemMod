@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="powersaver_feature_haptic">ಮುಟ್ಟಿದಾಗ ಕಂಪನ ಆಫ್</string>
+    <string name="powersaver_feature_data">ಮೊಬೈಲ್ ಡೇಟಾ ಆಫ್</string>
+    <string name="powersaver_feature_gamma">ರಾತ್ರಿ ಮೋಡ್ ಆನ್</string>
+    <string name="powersaver_feature_bravia">Mobile BRAVIA Engine ಆಫ್</string>
+    <string name="stamina_xssm_add_applications_title">ಸ್ಟ್ಯಾಂಡ್‌ ಬೈನಲ್ಲಿ ಸಕ್ರಿಯವಾಗಿರುವ ಅಪ್ಲಿಕೇಶನ್‌ಗಳು</string>
+    <string name="application_usage_title">ಆಪ್ ಶಕ್ತಿ ಬಳಕೆ</string>
+    <string name="wifi_tether_settings_text">ಪೋರ್ಟೇಬಲ್ Wi-Fi ಹಾಟ್‌ಸ್ಪಾಟ್ ಸಂಯೋ.</string>
+    <string name="usb_direct_settings_hi_res_audio_title_txt">USB ಮೂಲಕ ಅಧಿಕ-ರೆಸೊ ಆಡಿಯೊ</string>
+</resources>

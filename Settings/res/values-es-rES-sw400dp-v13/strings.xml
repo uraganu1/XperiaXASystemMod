@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="powersaver_feature_haptic">Vibración al tocar desactivada</string>
+    <string name="powersaver_feature_sync">Autosincronización desactivada</string>
+    <string name="powersaver_feature_data">Datos móviles desactivados</string>
+    <string name="powersaver_feature_gamma">Modo nocturno activado</string>
+    <string name="powersaver_feature_bravia">Mobile BRAVIA Engine desactivado</string>
+    <string name="stamina_queue_background_data_title">Poner en cola los datos en segundo plano</string>
+    <string name="stamina_xssm_add_applications_title">Aplicaciones activas en modo de espera</string>
+    <string name="application_usage_title">Consumo de energía de la aplicación</string>
+    <string name="wifi_tether_settings_text">Ajustes de áreas de conexión Wi-Fi portátiles</string>
+    <string name="usb_direct_settings_hi_res_audio_title_txt">Audio de alta resolución por USB</string>
+    <string name="auto_sync_text">Autosincronización</string>
+</resources>

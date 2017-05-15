@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="add_device_admin_msg">Ativar o administrador do dispositivo?</string>
+    <string name="powersaver_feature_sync">Sincronização auto. desativada</string>
+    <string name="powersaver_feature_data">Dados móveis desativados</string>
+    <string name="powersaver_feature_bravia">Mobile BRAVIA Engine desativado</string>
+    <string name="stamina_queue_background_data_title">Fila de dados de segundo plano</string>
+    <string name="stamina_xssm_add_applications_title">Aplicativos ativos em modo de espera</string>
+    <string name="application_usage_title">Consumo de energia do aplicativo</string>
+    <string name="keep_lockscreen_notifications_title">Manter notificações na tela de bloqueio</string>
+    <string name="wifi_tether_settings_text">Configuração do Roteador Wi-Fi portátil</string>
+    <string name="auto_sync_text">Sincronização automática</string>
+</resources>

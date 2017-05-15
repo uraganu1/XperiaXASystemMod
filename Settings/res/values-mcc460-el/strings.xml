@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_security_wapi_psk">WLAN PSK</string>
+    <string name="wifi_disabled_wifi_failure">Αποτυχία σύνδεσης WLAN</string>
+    <string name="connected_via_wfa">Σύνδεση μέσω βοηθού WLAN</string>
+    <string name="accessibility_wifi_off">Το WLAN απενεργοποιήθηκε.</string>
+    <string name="accessibility_no_wifi">Το WLAN αποσυνδέθηκε.</string>
+    <string name="accessibility_wifi_one_bar">Το σήμα WLAN έχει μία ράβδο.</string>
+    <string name="accessibility_wifi_two_bars">Το σήμα WLAN έχει δύο ράβδους.</string>
+    <string name="accessibility_wifi_three_bars">Το σήμα WLAN έχει τρεις ράβδους.</string>
+    <string name="accessibility_wifi_signal_full">Πλήρες σήμα WLAN.</string>
+    <string name="radio_controls_summary">Διαχείριση WLAN, Bluetooth, λειτουργίας πτήσης, δικτύων κιν. τηλ/νίας και VPN</string>
+    <string name="wifi_assistant_title">Βοηθός WLAN</string>
+    <string name="wifi_alert_lockdown_by_device_owner">Η εφαρμογή %1$s διαχειρίζεται τη συσκευή σας και δεν επιτρέπει την τροποποίηση ή τη διαγραφή αυτού του δικτύου WLAN. Για περισσότερες πληροφορίες, επικοινωνήστε με το διαχειριστή.</string>
+    <string name="wifi_quick_toggle_title">WLAN</string>
+    <string name="wifi_quick_toggle_summary">Ενεργοποίηση WLAN</string>
+    <string name="wifi_settings">WLAN</string>
+    <string name="wifi_settings_category">Ρυθμίσεις WLAN</string>
+    <string name="wifi_settings_title">WLAN</string>
+    <string name="wifi_setup_wizard_title">Επιλογή WLAN</string>
+    <string name="wifi_select_network">Επιλογή δικτύου WLAN</string>
+    <string name="wifi_poor_network_detection_summary">Να μην γίνεται χρήση δικτύων WLAN, εκτός αν έχουν καλή σύνδεση στο Διαδίκτυο</string>
+    <string name="wifi_automatically_connect_title">Αυτόματη χρήση ανοιχτού δικτύου WLAN</string>
+    <string name="wifi_automatically_connect_summary">Να επιτρέπεται σε ένα βοηθό WLAN η αυτόμ. σύνδεση σε ανοιχτά δίκτυα που θεωρούνται υψηλής ποιότητας</string>
+    <string name="wifi_scan_notify_text">Για τη βελτίωση του εντοπισμού τοποθεσίας, οι εφαρμογές και οι υπηρεσίες θα μπορούν ακόμη να εκτελέσουν σάρωση για δίκτυα WLAN. Μπορείτε να αλλάξετε αυτήν την επιλογή στις LINK_BEGINρυθμίσεις σάρωσηςLINK_END.</string>
+    <string name="wifi_setting_sleep_policy_title">Διατήρ.WLAN ενεργ.κατά την αναστ.</string>
+    <string name="wifi_setting_on_during_sleep_title">Ενεργό WLAN κατά την αδράνεια</string>
+    <string name="wifi_suspend_optimizations">Βελτιστοποίηση WLAN</string>
+    <string name="wifi_suspend_optimizations_summary">Ελαχιστοποίηση χρήσης μπαταρίας όταν το WLAN είναι ενεργό</string>
+    <string name="wifi_limit_optimizations_summary">Περιορ. μπαταρίας από WLAN</string>
+    <string name="wifi_switch_away_when_unvalidated">Εναλλαγή σε δεδομένα κινητής τηλεφωνίας, εάν το WLAN χάσει την πρόσβαση στο διαδίκτυο.</string>
+    <string name="wifi_access_points">Δίκτυα WLAN</string>
+    <string name="wifi_menu_p2p">WLAN Direct</string>
+    <string name="wifi_empty_list_wifi_off">Για την εμφάνιση διαθέσιμων δικτύων, ενεργοποιήστε το WLAN.</string>
+    <string name="wifi_empty_list_wifi_on">Αναζήτηση για δίκτυα WLAN…</string>
+    <string name="wifi_empty_list_user_restricted">Δεν έχετε άδεια για αλλαγή του δικτύου WLAN</string>
+    <string name="wifi_wps_setup_title">Ρύθμιση προστατευόμενου WLAN</string>
+    <string name="wifi_wps_onstart_pbc">Πατήστε το κουμπί ρύθμισης προστατευόμενου WLAN στο δρομολογητή σας. Μπορεί να ονομάζεται \"WPS\" ή να επισημαίνεται με αυτό το σύμβολο:</string>
+    <string name="wifi_wps_onstart_pin">Εισαγάγετε τον κωδικό PIN %1$s στο δρομολογητή σας WLAN. Η ολοκλήρωση της εγκατάστασης μπορεί να διαρκέσει έως και δύο λεπτά.</string>
+    <string name="wifi_wps_connected">Σύνδεση στο δίκτυο WLAN %s</string>
+    <string name="wifi_scan_always_turnon_message">"Για τη βελτίωση της ακρίβειας της τοποθεσίας σας και για άλλους σκοπούς, η εφαρμογή %1$s επιθυμεί να ενεργοποιήσει τη σάρωση δικτύων, ακόμη και όταν το WLAN είναι απενεργοποιημένο.
+
+Να επιτρέπεται αυτή η ενέργεια για όλες τις εφαρμογές που επιθυμούν σάρωση;"</string>
+    <string name="wifi_hotspot_title">Να γίνει σύνδεση στο σημείο πρόσβασης WLAN;</string>
+    <string name="wifi_skipped_message">"ΠΡΟΕΙΔΟΠΟΙΗΣΗ: ενδέχεται να ισχύουν επιπλέον χρεώσεις δεδομένων από τον πάροχο υπηρεσιών σας.
+
+Η ρύθμιση του τηλεφώνου μπορεί να απαιτεί μεγάλη δραστηριότητα δικτύου."</string>
+    <string name="wifi_and_mobile_skipped_message">"Αν παραλείψετε το WLAN
+
+"<li>Το τηλέφωνό σας δεν θα έχει σύνδεση στο διαδίκτυο.</li>"
+
+"<li>Δεν θα λαμβάνετε ενημερώσεις λογισμικού εάν δεν είστε συνδεδεμένοι στο διαδίκτυο.</li>"
+
+"<li>Προς το παρόν δεν μπορείτε να ενεργοποιήσετε τις δυνατότητες προστασίας της συσκευής.</li></string>
+    <string name="wifi_connect_failed_message">Δεν ήταν δυνατή η σύνδεση του τηλεφώνου σε αυτό το δίκτυο WLAN.</string>
+    <string name="wifi_advanced_titlebar">Ρυθμίσεις WLAN</string>
+    <string name="wifi_setting_frequency_band_title">Ζώνη συχνοτήτων WLAN</string>
+    <string name="wifi_advanced_settings_label">Ρυθμίσεις WLAN</string>
+    <string name="wifi_p2p_settings_title">WLAN Direct</string>
+    <string name="wifi_tether_checkbox_text">Φορητό WLAN hotspot</string>
+    <string name="wifi_hotspot_checkbox_text">Σημείο πρόσβασης WLAN</string>
+    <string name="wifi_hotspot_checkbox_text_summary">Χρήση σύνδεσης κιν. τηλ. για παροχή δικτ. WLAN</string>
+    <string name="wifi_tether_starting">Ενεργοποίηση σημείου πρόσβασης WLAN…</string>
+    <string name="wifi_tether_stopping">Απενεργοποίηση σημείου πρόσβασης WLAN…</string>
+    <string name="wifi_tether_failed_subtext">Σφάλμα φορητού WLAN hotspot</string>
+    <string name="wifi_tether_configure_ap_text">Διαμόρφωση WLAN hotspot</string>
+    <string name="wifi_hotspot_configure_ap_text">Ρύθμ. σημείου πρόσβασης WLAN</string>
+    <string name="wifi_hotspot_configure_ap_text_summary">Φορ. σημ. πρόσ. WLAN AndroidAP WPA2 PSK</string>
+    <string name="wifi_tether_configure_subtext">"%1$s φορητό WLAN hotspot.
+Ασφάλεια: %2$s"</string>
+    <string name="wifi_calling_settings_title">Κλήση WLAN</string>
+    <string name="wifi_calling_mode_dialog_title">Λειτουργία κλήσης WLAN</string>
+    <string name="wifi_calling_off_explanation">"Χρησιμοποιήστε την κλήση WLAN για να αυξήσετε την ποιότητα κλήσεων σε σημεία με κακή κάλυψη δικτύου κινητής τηλεφωνίας.
+ 
+Κόστος
+Για πληροφορίες σχετικά με τις χρεώσεις της κλήσης WLAN, επικοινωνήστε με τον πάροχο υπηρεσιών σας.
+ 
+Σημειώσεις για την κλήση WLAN
+Για να παραμείνετε στην κλήση WLAN, βεβαιωθείτε ότι βρίσκεστε εντός της εμβέλειας του WLAN."</string>
+    <string name="status_wifi_mac_address">Διεύθυνση MAC WLAN</string>
+    <string name="reset_network_desc">"Με αυτόν τον τρόπο θα γίνει επαναφορά όλων των ρυθμίσεων δικτύου, μεταξύ των οποίων για:
+
+"<li>WLAN</li>"
+"<li>Δεδομένα κινητής τηλεφωνίας</li>"
+"<li>Bluetooth</li></string>
+    <string name="network_scorer_change_active_dialog_title">Αλλαγή βοηθού WLAN;</string>
+    <string name="location_mode_high_accuracy_description">Χρήση GPS, WLAN, Bluetooth ή δικτύων κινητής τηλεφωνίας για τον προσδιορισμό τοποθεσίας</string>
+    <string name="location_mode_battery_saving_description">Χρήση WLAN, Bluetooth ή δικτύων κινητής τηλεφωνίας για τον προσδιορισμό τοποθεσίας</string>
+    <string name="location_scanning_wifi_always_scanning_title">Σάρωση WLAN</string>
+    <string name="location_scanning_wifi_always_scanning_description">Βελτιώστε την τοποθεσία επιτρέποντας σε εφαρμογές και υπηρεσίες συστήματος να ανιχνεύουν δίκτυα WLAN, ανά πάσα στιγμή.</string>
+    <string name="location_neighborhood_level_wifi">Η τοποθεσία καθορίζεται από το WLAN</string>
+    <string name="wifi_verbose_logging">Ενεργοποίηση λεπτομερ. καταγραφής WLAN</string>
+    <string name="wifi_aggressive_handover">Επιθετική μεταβίβαση WLAN σε δεδομένα κινητής τηλεφωνίας</string>
+    <string name="wifi_allow_scan_with_traffic">Να επιτρέπεται πάντα η σάρωση WLAN κατά την περιαγωγή</string>
+    <string name="wifi_verbose_logging_summary">Αύξηση επιπέδου καταγ. WLAN, εμφάνιση ανά SSID RSSI στο εργαλείο επιλογής WLAN</string>
+    <string name="wifi_aggressive_handover_summary">Όταν είναι ενεργό, το WLAN θα μεταβιβάζει πιο επιθετικά τη σύνδ.δεδομένων σε δίκτυο κινητής τηλ., όταν το σήμα WLAN είναι χαμηλό</string>
+    <string name="wifi_allow_scan_with_traffic_summary">Να επιτρέπεται/να μην επιτρέπεται η σάρωση WLAN κατά την περιαγωγή, βάσει της ποσότητας επισκεψιμότητας δεδομένων στη διεπαφή</string>
+    <string name="mobile_data_always_on_summary">Τα δεδομένα κινητής τηλεφωνίας να διατηρούνται πάντα ενεργά, ακόμα και όταν είναι ενεργό το WLAN (για γρήγορη εναλλαγή δικτύου).</string>
+    <string name="battery_stats_wifi_running_label">WLAN</string>
+    <string name="wifi_on_time">Ώρα ενεργοποίησης WLAN</string>
+    <string name="bluetooth_on_time">Ώρα ενεργοποίησης WLAN</string>
+    <string name="power_wifi">WLAN</string>
+    <string name="usage_type_wifi_running">Εκτέλεση WLAN...</string>
+    <string name="usage_type_data_wifi_send">Αποστ. πακέτ. δεδομ. WLAN</string>
+    <string name="usage_type_data_wifi_recv">Λήψη πακέτων δεδομ. WLAN</string>
+    <string name="battery_action_wifi">Ρυθμίσεις WLAN</string>
+    <string name="battery_desc_wifi">Μπαταρία που χρησιμοποιείται από το δίκτυο WLAN</string>
+    <string name="battery_sugg_wifi">Απενεργοποίηση του WLAN όταν δεν χρησιμοποιείται ή όταν δεν είναι διαθέσιμο</string>
+    <string name="gadget_toggle_wifi">Ενημέρωση ρύθμισης WLAN</string>
+    <string name="gadget_wifi">WLAN</string>
+    <string name="backup_data_summary">Δημιουργήστε αντίγραφα ασφαλείας για δεδομένα εφαρμογών, κωδικούς πρόσβασης WLAN και άλλες ρυθμίσεις στους διακομιστές Google™</string>
+    <string name="backup_erase_dialog_message">Διακοπή δημιουργίας αντιγράφων ασφαλείας για τους κωδικούς πρόσβασης WLAN, τους σελιδοδείκτες, άλλες ρυθμίσεις και δεδομένα εφαρμογών και διαγραφή όλων των αντιγράφων από τους διακομιστές της Google™;</string>
+    <string name="fullbackup_erase_dialog_message">Να διακοπεί η δημιουργία αντιγράφου ασφαλείας για τα δεδομένα συσκευών (όπως είναι οι κωδικοί πρόσβασης WLAN και το ιστορικό κλήσεων) και τα δεδομένα εφαρμογών (όπως είναι οι ρυθμίσεις και τα αρχεία που αποθηκεύουν οι εφαρμογές) και να διαγραφούν όλα τα αντίτυπα από το Google Drive;</string>
+    <string name="fullbackup_data_summary">"Δημιουργήστε αντίγραφα ασφαλείας για τα δεδομένα της συσκευής σας (όπως τους κωδικούς WLAN και το ιστορικό κλήσεων) και τα δεδομένα εφαρμογών (όπως ρυθμίσεις και αρχεία που έχουν αποθηκευτεί από τις εφαρμογές) απομακρυσμένα και αυτόματα.
+
+Με την ενεργοποίηση της αυτόματης δημιουργίας αντιγράφων ασφαλείας, τα δεδομένα της συσκευής και των εφαρμογών αποθηκεύονται απομακρυσμένα περιοδικά. Τα δεδομένα εφαρμογών μπορεί να είναι διαφόρων ειδών δεδομένα τα οποία έχουν αποθηκευτεί από κάποια εφαρμογή (ανάλογα με τις ρυθμίσεις του προγραμματιστή), συμπεριλαμβανομένων δυνητικά ευαίσθητων δεδομένων, όπως επαφών, μηνυμάτων και φωτογραφιών."</string>
+    <string name="wifi_setup_title">Ρύθμιση WLAN</string>
+    <string name="wifi_setup_title_editing_network">Σύνδεση στο δίκτυο WLAN %s</string>
+    <string name="wifi_setup_title_connecting_network">Σύνδεση στο δίκτυο WLAN %s…</string>
+    <string name="wifi_setup_title_connected_network">Έχει συνδεθεί στο δίκτυο WLAN %s</string>
+    <string name="wifi_setup_eap_not_supported">Δεν είναι δυνατή η διαμόρφωση σύνδεσης EAP WLAN κατά τη διάρκεια της ρύθμισης. Μετά τη ρύθμιση, μπορείτε να τη διαμορφώσετε από τις Ρυθμίσεις > Ασύρματο και δίκτυα.</string>
+    <string name="wifi_setup_description_connected">Αγγίξτε το στοιχείο <b>Επόμενο</b>" για να συνεχίσετε την εγκατάσταση.
+
+Αγγίξτε το στοιχείο "<b>Πίσω</b> για να συνδεθείτε σε διαφορετικό δίκτυο WLAN.</string>
+    <string name="data_usage_menu_show_wifi">Εμφάνιση WLAN</string>
+    <string name="data_usage_menu_hide_wifi">Απόκρυψη χρήσης WLAN</string>
+    <string name="data_usage_disable_wifi_limit">Ορισμός ορίου δεδομένων WLAN</string>
+    <string name="data_usage_tab_wifi">WLAN</string>
+    <string name="data_usage_restrict_background">Αν περιορίσετε τα δεδομένα παρασκηνίου κινητής τηλεφωνίας, ορισμένες εφαρμογές και υπηρεσίες δεν θα λειτουργούν, αν δεν είστε συνδεδεμένοι σε κάποιο δίκτυο WLAN.</string>
+    <string name="data_usage_restrict_background_multiuser">"Αν περιορίσετε τα δεδομένα παρασκηνίου κινητής τηλεφωνίας, ορισμένες εφαρμογές και υπηρεσίες δεν θα λειτουργούν, παρά μόνο αν υπάρχει σύνδεση WLAN.
+
+Η ρύθμιση αυτή επηρεάζει όλους τους χρήστες αυτού του τηλεφώνου."</string>
+    <string name="data_usage_metered_body">Επιλέξτε τα δίκτυα WLAN που αποτελούν σημεία πρόσβασης για κινητά. Η χρήση αυτών των δικτύων από τις εφαρμογές μπορεί να αποκλειστεί όταν βρίσκονται στο παρασκήνιο. Οι εφαρμογές μπορεί επίσης να προειδοποιούν πριν από τη χρήση αυτών των δικτύων για μεγάλες λήψεις.</string>
+    <string name="data_usage_metered_wifi">Καταμετρημένα δίκτυα WLAN</string>
+    <string name="data_usage_metered_wifi_disabled">Για επιλογή καταμετρημένων δικτύων, ενεργοποιήστε το WLAN.</string>
+    <string name="user_add_user_message_long">"Μπορείτε να μοιραστείτε αυτήν τη συσκευή με άλλα άτομα, δημιουργώντας επιπλέον χρήστες. Κάθε χρήστης θα έχει το δικό του χώρο, τον οποίο μπορεί να προσαρμόσει με τις δικές του εφαρμογές, ταπετσαρία κ.λπ. Οι χρήστες μπορούν επίσης να προσαρμόσουν ρυθμίσεις της συσκευής, όπως το WLAN, που επηρεάζουν όλους τους χρήστες.
+
+Κατά την προσθήκη ενός νέου χρήστη, αυτός θα πρέπει να ρυθμίσει το χώρο του.
+
+Οποιοσδήποτε χρήστης μπορεί να ενημερώνει εφαρμογές για όλους τους άλλους χρήστες."</string>
+    <string name="restriction_wifi_config_title">WLAN και δίκτυα κινητής τηλεφωνίας</string>
+    <string name="restriction_wifi_config_summary">Να επιτρέπεται η τροποποίηση των ρυθμίσεων WLAN και δίκτυων κινητής τηλεφωνίας</string>
+    <string name="keywords_wifi_calling">WLAN κλήση WLAN κλήσεις</string>
+    <string name="setup_wifi_nfc_tag">Ρύθμιση ετικέτας ΕΚΠ WLAN</string>
+    <string name="l_dialog_message_hint">"Η λειτουργία STAMINA περιλαμβάνει:
+
+• Εκτεταμένη κατάσταση αναμονής
+Εξοικονομεί ενέργεια όταν η οθόνη είναι απενεργοποιημένη απενεργοποιώντας προσωρινά το WLAN. Οι περισσότερες εφαρμογές θα είναι ανενεργές.
+Όταν είναι ενεργοποιημένη η οθόνη, η συσκευή σας θα λειτουργεί κανονικά.
+Εάν θέλετε να διατηρήσετε ενεργές κάποιες εφαρμογές όταν είναι ενεργοποιημένη η εκτεταμένη κατάσταση αναμονής, προσθέστε τις εφαρμογές στη λίστα \"Ενεργές εφαρμογές σε κατάσταση αναμονής\".
+
+• Εκτεταμένη χρήση
+Εξοικονομεί ενέργεια όταν χρησιμοποιείται η συσκευή σας περιορίζοντας την απόδοση του υλικού."</string>
+    <string name="powersaver_feature_wifi">Απενεργοποίηση WLAN</string>
+    <string name="stamina_xssm_summary">Απενεργοποιεί τα δεδομένα κινητής τηλεφωνίας και WLAN όταν η οθόνη είναι απενεργοποιημένη</string>
+    <string name="usm_descr">"Η λειτουργία Ultra STAMINA παρατείνει σημαντικά τη διάρκεια της μπαταρίας. Μπορεί να χρησιμοποιηθεί όταν δεν μπορείτε να φορτίσετε τη συσκευή σας για μεγάλο χρονικό διάστημα.
+
+Θα είναι διαθέσιμες μόνο λίγες βασικές λειτουργίες, όπως το τηλέφωνο και τα μηνύματα. Για περισσότερες λεπτομέρειες, πατήστε \"Περισσότερες πληροφορίες\".
+
+Σημειώστε ότι θα είναι απενεργοποιημένη η σύνδεση Internet μέσω WLAN και τα δεδομένα κινητής τηλεφωνίας."</string>
+    <string name="battery_usm_desc">"Η λειτουργία Ultra STAMINA θα παρατείνει σημαντικά τη διάρκεια μπαταρίας. Σημειώστε ότι θα απενεργοποιηθεί η σύνδεση Internet μέσω WLAN και δεδομένων κινητής τηλεφωνίας. Η αρχική οθόνη θα αλλάξει στην αρχική οθόνη της λειτουργίας Ultra STAMINA.
+
+Διαθέσιμες εφαρμογές σε λειτουργία Ultra STAMINA"</string>
+    <string name="somc_wifi_turned_on_info">Το WLAN είναι ενεργό. Επιλέξτε το δίκτυό σας από τη λίστα.</string>
+    <string name="wifi_tethering_warning_txt">Θα διακοπούν οποιεσδήποτε λειτουργίες WLAN βρίσκονται σε εξέλιξη, όπως η μεταφορά πολυμέσων, η ενημέρωση λογισμικού τηλεφώνου, η δημιουργία αντιγράφου ασφαλείας και η επαναφορά.</string>
+    <string name="somc_backup_failed_no_wifi_summary">Αναμονή για σύνδεση WLAN</string>
+    <string name="wifi_hs2_strings_hotspot2_summary_txt">Αυτόματη σύνδεση σε διαθέσιμα δίκτυα Passpoint όταν είναι ενεργοποιημένο το WLAN</string>
+    <string name="wifi_tether_settings_subtext">"Ρύθμιση και διαχείριση του φορητού  hotspot WLAN"</string>
+    <string name="wifi_tether_settings_text">Ρυθμίσεις φορητού WLAN hotspot</string>
+    <string name="wifi_security_wapi_cert">WLAN CERT</string>
+    <string name="ct_wifi_connected_text">Σύνδεση WLAN China Telecom</string>
+    <string name="cw_network_priority">Προτερ. WLAN China Telecom</string>
+    <string name="cw_network_priority_summary">Τα δίκτυα WLAN της China Telecom θα έχουν προτεραιότητα κατά τη σύνδεση σε σχέση με άλλα δίκτυα WLAN</string>
+    <string name="data_traffic_disabled_text">Δεν ήταν δυνατή η σύνδεση στα δίκτυα WLAN της China Telecom επειδή η κίνηση δεδομένων είναι απενεργοποιημένη. Ενεργοποίηση κίνησης δεδομένων τώρα;</string>
+    <string name="install_wapi_certs">Εγκατάσταση πιστοπ. WLAN</string>
+    <string name="location_based_wifi">WLAN βάσει τοποθεσίας</string>
+    <string name="operator_auto_connect_hotspot_description_txt">Αυτόματη σύνδεση στο hotspot δικτύου WLAN της AT&amp;T</string>
+    <string name="operator_auto_connect_hotspot_txt">Αυτ.σύνδ.σε AT&amp;T WLAN</string>
+    <string name="wifi_context_menu_change_wapi_certificate">Αλλαγή πιστοποιητικού WLAN</string>
+    <string name="wifi_p2p_settings">Ρυθμίσεις WLAN Direct™</string>
+    <string name="wifi_security_verbose_wapi_cert">Ασφαλές με WLAN CERT</string>
+    <string name="wifi_security_verbose_wapi_psk">Ασφαλές με WLAN PSK</string>
+    <string name="wifi_tether_explanation_dialog_text">"Μπορείτε να χρησιμοποιήσετε τη συσκευή σας ως κινητό hotspot. Με αυτόν τον τρόπο, άλλες συσκευές (έως 10) μπορούν να συνδεθούν με αυτήν μέσω ενός δικτύου WLAN. Οι συνδεδεμένες συσκευές θα έχουν πρόσβαση στο Internet μέσω της σύνδεσης κινητής τηλεφωνίας σας. Το κινητό hotspot χρησιμοποιεί δεδομένα κινητής τηλεφωνίας και μπορεί να επιφέρει πρόσθετες χρεώσεις.
+
+Το κινητό hotspot καταναλώνει περισσότερη μπαταρία. Συνδέστε τη συσκευή σε μια πρίζα, για να επεκτείνετε τη διάρκεια της μπαταρίας."</string>
+    <string name="wifi_wps_category_title">Ρύθμιση δικτύου WLAN</string>
+    <string name="xssm_guidecontent_what_stamina40jp_txt">"Η λειτουργία STAMINA εξοικονομεί ενέργεια μπαταρίας προσαρμόζοντας τις ρυθμίσεις της συσκευής. Μπορείτε να επιλέξετε εφαρμογές που θα εκτελούνται με μειωμένη λειτουργικότητα κατά τη λειτουργία αναστολής. (Με αυτό τον τρόπο εξοικονομείτε ενέργεια μπαταρίας επειδή οι περισσότερες εφαρμογές εξακολουθούν να καταναλώνουν ενέργεια ακόμα και στη λειτουργία αναστολής.)
+
+Απενεργοποιημένες λειτουργίες για επιλεγμένες εφαρμογές:
+- WLAN
+- Δεδομένα κινητής τηλεφωνίας
+- Χρονόμετρο
+
+Η λυχνία ειδοποίησης για όλες τις εφαρμογές αναβοσβήνει με το ίδιο χρώμα και με την ίδια συχνότητα κατά τη λειτουργία αναστολής.
+
+Η λειτουργία STAMINA απενεργοποιείται όταν πραγματοποιείτε έλεγχο της συσκευής."</string>
+    <string name="wifi_security_short_wapi_cert">WLAN CERT</string>
+    <string name="wifi_security_short_wapi_psk">WLAN PSK</string>
+    <string name="vzw_avoid_bad_connections_text">"Το δίκτυο WLAN με το οποίο είστε συνδεδεμένοι δεν είναι συνδεδεμένο στο Internet.
+
+Όταν συμβαίνει αυτό, για αυτόματη εναλλαγή στο δίκτυο κινητής τηλεφωνίας,, ενεργοποιήστε τη λειτουργία \"Αποφυγή κακών συνδέσεων WLAN\" στις \"Προηγμένες ρυθμίσεις WLAN\"."</string>
+    <string name="vzw_avoid_bad_connections_title">Χωρίς σύνδεση Internet μέσω WLAN</string>
+    <string name="vzw_wifi_avoid_bad_connections">Αποφυγή κακών συνδέσεων WLAN</string>
+    <string name="vzw_wifi_avoid_bad_connections_summary">Να χρησιμοποιείται το δίκτυο κινητής τηλεφωνίας όταν δεν υπάρχει σύνδεση Internet στο δίκτυο WLAN με το οποίο είστε συνδεδεμένοι. (Ενδέχεται να ισχύουν χρεώσεις χρήσης δεδομένων.)</string>
+    <string name="vzw_wifi_password_error_dialog_txt">Ο κωδικός WLAN δεν έγινε αποδεκτός. Ελέγξτε τον κωδικό πρόσβασης και προσπαθήστε ξανά.</string>
+    <string name="vzw_wifi_setup_wizard_desc">Επιλέξτε ένα δίκτυο εάν θέλετε να συνδεθείτε τώρα με WLAN.</string>
+    <string name="vzw_wifi_setup_wizard_title">Ρύθμιση WLAN</string>
+</resources>

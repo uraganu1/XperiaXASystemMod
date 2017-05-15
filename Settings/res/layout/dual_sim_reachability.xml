@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/switch_bar_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.android.settings.widget.SwitchBar android:theme="@style/ThemeOverlay.SwitchBar.Settings" android:id="@id/switch_bar" android:background="@drawable/switchbar_background" android:layout_width="fill_parent" android:layout_height="?android:actionBarSize" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/descriptionlayout" android:paddingTop="@dimen/dual_sim_reachability_padding_vertical" android:paddingBottom="@dimen/dual_sim_reachability_margin_vertical" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/dual_sim_reachability_padding_horizental" android:paddingEnd="@dimen/dual_sim_reachability_padding_horizental">
+        <TextView android:textAppearance="@android:style/TextAppearance.Material.Subhead" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/phone_settings_dual_sim_reachability_description_part_one_txt" />
+        <TextView android:textAppearance="@android:style/TextAppearance.Material.Subhead" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dual_sim_reachability_margin_vertical" android:text="@string/phone_settings_dual_sim_reachability_description_part_two_txt" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/mainLayout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ScrollView android:id="@id/scroll" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:id="@id/xdivert_sim1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dual_sim_reachability_padding_vertical" android:layout_marginBottom="@dimen/dual_sim_reachability_margin_vertical" android:layout_marginStart="@dimen/input_number_view_padding_start" android:layout_marginEnd="@dimen/dual_sim_reachability_padding_horizental">
+                    <TextView android:textAppearance="@android:style/TextAppearance.Material.Subhead" android:id="@id/input_sim1_number_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/call_forward_sim1_number" />
+                    <TextView android:textAppearance="@android:style/TextAppearance.Material.Body1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/call_forward_sim1_number_desc" />
+                    <EditText android:textAppearance="@android:style/TextAppearance.Material.Subhead" android:id="@id/sim1_number" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_margin" android:hint="@string/call_forward_input_hint" android:scrollHorizontally="true" android:singleLine="true" android:capitalize="none" android:autoText="false" android:inputType="phone" android:imeOptions="actionNext" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/xdivert_sim2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dual_sim_reachability_padding_vertical" android:layout_below="@id/xdivert_sim1" android:layout_marginStart="@dimen/input_number_view_padding_start" android:layout_marginEnd="@dimen/dual_sim_reachability_padding_horizental">
+                    <TextView android:textAppearance="@android:style/TextAppearance.Material.Subhead" android:id="@id/input_sim2_number_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/call_forward_sim2_number" />
+                    <TextView android:textAppearance="@android:style/TextAppearance.Material.Body1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/call_forward_sim2_number_desc" />
+                    <EditText android:textAppearance="@android:style/TextAppearance.Material.Subhead" android:id="@id/sim2_number" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space_margin" android:hint="@string/call_forward_input_hint" android:scrollHorizontally="true" android:singleLine="true" android:capitalize="none" android:autoText="false" android:inputType="phone" android:imeOptions="actionDone" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+        <LinearLayout android:orientation="horizontal" android:id="@id/button_background" android:background="@color/light_gray" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/scroll" style="?android:attr/buttonBarStyle">
+            <Button android:layout_gravity="center" android:id="@id/cancel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@android:string/cancel" android:layout_weight="1.0" style="?android:attr/buttonBarButtonStyle" />
+            <Button android:layout_gravity="center" android:id="@id/done" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/button_done" android:layout_weight="1.0" style="?android:attr/buttonBarButtonStyle" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

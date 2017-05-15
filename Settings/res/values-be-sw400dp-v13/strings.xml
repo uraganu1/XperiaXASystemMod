@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="powersaver_feature_wifi">Wi-Fi выключаны</string>
+    <string name="powersaver_feature_haptic">Вібрацыя пры дотыку выключана</string>
+    <string name="powersaver_feature_gps">GPS выключаны</string>
+    <string name="powersaver_feature_sync">Аўтасінхранізацыя выключана</string>
+    <string name="powersaver_feature_data">Мабільныя дадзеныя выключаны</string>
+    <string name="powersaver_feature_gamma">Начны рэжым уключаны</string>
+    <string name="powersaver_feature_bravia">Mobile BRAVIA Engine выключана</string>
+    <string name="powersaver_feature_xreality">X-Reality выключана</string>
+    <string name="powersaver_feature_xloud">xLOUD™ выключаны</string>
+    <string name="stamina_queue_background_data_title">Фонавыя дадзеныя ў чаргу</string>
+    <string name="stamina_xssm_add_applications_title">Дадатак актыўны ў рэжыме чакання</string>
+    <string name="application_usage_title">Спажыванне энергіі прыкладаннем</string>
+    <string name="wifi_tether_settings_text">Параметры партатыўнага пункта доступу Wi-Fi</string>
+    <string name="usb_direct_settings_hi_res_audio_title_txt">Аўдыё ў высокай якасці па USB</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_weight="1.0" />
+    <view android:id="@id/hce_settings_color_bar" android:layout_width="fill_parent" android:layout_height="20.0dip" android:layout_marginTop="19.0dip" android:layoutDirection="ltr" android:layout_marginStart="@android:dimen/preference_fragment_padding_side" android:layout_marginEnd="@android:dimen/preference_fragment_padding_side" class="com.sonymobile.settings.nfc.HceColorBar" />
+    <TextView android:textSize="14.0dip" android:gravity="center" android:id="@id/mem_used_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:singleLine="true" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?android:attr/buttonBarStyle">
+        <Button android:id="@id/button_cancel" android:layout_width="0.0px" android:layout_height="fill_parent" android:text="@android:string/cancel" android:layout_weight="1.0" style="?android:attr/buttonBarButtonStyle" />
+        <Button android:id="@id/button_ok" android:layout_width="0.0px" android:layout_height="fill_parent" android:text="@android:string/ok" android:layout_weight="1.0" style="?android:attr/buttonBarButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

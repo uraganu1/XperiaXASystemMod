@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.sonymobile.settings.preference.RemovePreference settings:targetParentKey="security_category" settings:targetKey="owner_info_settings" />
+    <com.sonymobile.settings.preference.PreferenceCategory android:title="@string/settings_header_lockscreen_txt" android:key="lock_screen_category" settings:after="security_category">
+        <com.android.settings.SingleLineSummaryPreference android:title="@string/owner_info_settings_title" android:key="owner_info_settings" android:summary="@string/owner_info_settings_summary" />
+        <com.sonymobile.settings.preference.IntentPreference android:key="lockscreen" settings:dependOnIsValidIntent="true" settings:hasMetaData="true">
+            <intent android:action="com.sonyericsson.settings.intent.action.LOCKSCREEN" />
+        </com.sonymobile.settings.preference.IntentPreference>
+        <com.android.settings.DropDownPreference android:persistent="false" android:title="@string/lock_screen_notifications_title" android:key="lock_screen_notifications" />
+        <com.sonymobile.settings.preference.SwitchPreference android:persistent="false" android:title="@string/keep_lockscreen_notifications_title" android:key="somc.lockscreen.keep_notifications" android:summary="@string/keep_lockscreen_notifications_summary" android:switchTextOn="" android:switchTextOff="" />
+    </com.sonymobile.settings.preference.PreferenceCategory>
+    <com.sonymobile.settings.preference.PreferenceCategory android:title="@string/find_my_device" android:key="find_my_device" settings:after="lock_screen_category">
+        <com.sonymobile.settings.preference.IntentPreference android:key="find_my_xperia" settings:dependOnIsValidIntent="true" settings:hasMetaData="true">
+            <intent android:targetPackage="com.sonymobile.mx.android" android:targetClass="com.sonymobile.mx.android.ui.StatusActivity" />
+        </com.sonymobile.settings.preference.IntentPreference>
+    </com.sonymobile.settings.preference.PreferenceCategory>
+    <com.sonymobile.settings.preference.PreferenceCategory android:title="@string/pdg_category_title" android:key="privacy_management" settings:before="first">
+        <com.sonymobile.settings.preference.IntentPreference android:title="@string/pdg_summary_title" android:key="pdg_settings" settings:dependOnIsValidIntent="true">
+            <intent android:targetPackage="com.kddi.android.pdg" android:action="android.intent.action.VIEW" android:targetClass="com.kddi.android.pdg.ui.PdgSettingActivity" />
+        </com.sonymobile.settings.preference.IntentPreference>
+    </com.sonymobile.settings.preference.PreferenceCategory>
+</PreferenceScreen>

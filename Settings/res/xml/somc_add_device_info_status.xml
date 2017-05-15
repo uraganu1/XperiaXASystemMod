@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.sonymobile.settings.preference.IntentPreference android:persistent="false" android:key="maintenancemenu" settings:dependOnIsValidIntent="true" settings:after="battery_level" settings:hasMetaData="true">
+        <intent android:targetPackage="com.sonyericsson.maintenancemenu" android:targetClass="com.sonyericsson.maintenancemenu.batteryhealthcheck.BatteryHealthCheckActivity" />
+    </com.sonymobile.settings.preference.IntentPreference>
+    <com.sonymobile.settings.preference.RemovePreference settings:targetKey="sim_status" />
+    <com.sonymobile.settings.preference.IntentPreference android:persistent="false" android:title="@string/sim_status_title" android:key="sim_status" android:summary="@string/settings_sim_status_sub_des_txt" settings:dependOnIsValidIntent="true" settings:before="imei_info">
+        <intent android:targetPackage="com.android.settings" android:targetClass="com.android.settings.deviceinfo.SimStatus" />
+    </com.sonymobile.settings.preference.IntentPreference>
+</PreferenceScreen>

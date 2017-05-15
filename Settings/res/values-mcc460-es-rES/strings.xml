@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_security_wapi_psk">WLAN PSK</string>
+    <string name="wifi_disabled_wifi_failure">Error de conexión WLAN</string>
+    <string name="connected_via_wfa">Conectado a través de asistente WLAN</string>
+    <string name="accessibility_wifi_off">WLAN apagado.</string>
+    <string name="accessibility_no_wifi">WLAN desconectado.</string>
+    <string name="accessibility_wifi_one_bar">Una barra de WLAN.</string>
+    <string name="accessibility_wifi_two_bars">Dos barras de WLAN.</string>
+    <string name="accessibility_wifi_three_bars">Tres barras de WLAN.</string>
+    <string name="accessibility_wifi_signal_full">Señal de WLAN completa.</string>
+    <string name="radio_controls_summary">Gestionar WLAN, Bluetooth, modo avión, redes móviles y VPN</string>
+    <string name="wifi_assistant_title">Asistente WLAN</string>
+    <string name="wifi_alert_lockdown_by_device_owner">%1$s administra tu dispositivo y no permite modificar ni eliminar esta red WLAN. Para obtener más información, ponte en contacto con el administrador.</string>
+    <string name="wifi_quick_toggle_title">WLAN</string>
+    <string name="wifi_quick_toggle_summary">Activar WLAN</string>
+    <string name="wifi_settings">WLAN</string>
+    <string name="wifi_settings_category">Ajustes de WLAN</string>
+    <string name="wifi_settings_title">WLAN</string>
+    <string name="wifi_setup_wizard_title">Seleccionar WLAN</string>
+    <string name="wifi_select_network">Selecciona una red WLAN</string>
+    <string name="wifi_poor_network_detection_summary">No usar una red WLAN a menos que tenga una buena conexión a Internet</string>
+    <string name="wifi_automatically_connect_title">Usar redes WLAN abiertas automáticamente</string>
+    <string name="wifi_automatically_connect_summary">Dejar que un asistente de WLAN se conecte automáticamente a redes abiertas consideradas de buena calidad</string>
+    <string name="wifi_scan_notify_text">Para mejorar la precisión de la ubicación, los servicios y las aplicaciones del sistema pueden buscar redes WLAN aunque esté desactivada la conexión WLAN. Puedes cambiar esta opción en los LINK_BEGINajustes de búsquedaLINK_END.</string>
+    <string name="wifi_setting_sleep_policy_title">WLAN activa en modo suspensión</string>
+    <string name="wifi_setting_on_during_sleep_title">WLAN activado en suspensión</string>
+    <string name="wifi_suspend_optimizations">Optimización de WLAN</string>
+    <string name="wifi_suspend_optimizations_summary">Minimizar el uso de la batería cuando la conexión WLAN está activada</string>
+    <string name="wifi_limit_optimizations_summary">Limitar batería usada por WLAN</string>
+    <string name="wifi_switch_away_when_unvalidated">Cambiar a conexión de datos móviles si se pierde el acceso a Internet a través de la red WLAN.</string>
+    <string name="wifi_access_points">Redes WLAN</string>
+    <string name="wifi_menu_p2p">WLAN Direct</string>
+    <string name="wifi_empty_list_wifi_off">Para ver las redes disponibles, activa WLAN.</string>
+    <string name="wifi_empty_list_wifi_on">Buscando redes WLAN…</string>
+    <string name="wifi_empty_list_user_restricted">No tiene permiso para cambiar la red WLAN</string>
+    <string name="wifi_wps_setup_title">Configuración WLAN Protected</string>
+    <string name="wifi_wps_onstart_pbc">Pulse el botón de WLAN Protected Setup del router. Es posible que se llame WPS o que esté identificado con este símbolo:</string>
+    <string name="wifi_wps_onstart_pin">Introduzca el código PIN %1$s en el router WLAN. El proceso de configuración puede tardar hasta dos minutos.</string>
+    <string name="wifi_wps_connected">Conexión establecida con la red WLAN %s</string>
+    <string name="wifi_scan_always_turnon_message">"Para mejorar la precisión de ubicación y por otros motivos, %1$s desea activar la búsqueda de redes, incluso con la conexión WLAN desactivada.
+
+¿Desea permitir que puedan realizar búsquedas todas las aplicaciones que lo deseen?"</string>
+    <string name="wifi_skipped_message">"ADVERTENCIA: Es posible que incurra en tarifas del operador de servicios por los datos adicionales.
+
+La configuración del móvil puede requerir una actividad de red significativa."</string>
+    <string name="wifi_and_mobile_skipped_message">"Si omite la conexión a WLAN:
+
+"<li>Su teléfono no tendrá conexión a Internet.</li>"
+
+"<li>No recibirá actualizaciones de software hasta que se conecte a Internet.</li>"
+
+"<li>No podrá activar las funciones de protección del dispositivo en este momento.</li></string>
+    <string name="wifi_connect_failed_message">El móvil no ha podido conectarse a esta red WLAN.</string>
+    <string name="wifi_advanced_titlebar">Ajustes de WLAN</string>
+    <string name="wifi_setting_frequency_band_title">Banda de frecuencia de WLAN</string>
+    <string name="wifi_advanced_settings_label">Ajustes de WLAN</string>
+    <string name="wifi_p2p_settings_title">WLAN Direct</string>
+    <string name="wifi_tether_checkbox_text">Zona WLAN portátil</string>
+    <string name="wifi_hotspot_checkbox_text">Zona WLAN</string>
+    <string name="wifi_hotspot_checkbox_text_summary">Usar conex. móvil para ofrecer red WLAN</string>
+    <string name="wifi_tether_enabled_subtext">Zona WLAN portátil %1$s activa</string>
+    <string name="wifi_tether_failed_subtext">Error de zona WLAN portátil</string>
+    <string name="wifi_tether_configure_ap_text">Configurar zona WLAN</string>
+    <string name="wifi_hotspot_configure_ap_text">Configuración zona WLAN</string>
+    <string name="wifi_hotspot_configure_ap_text_summary">Zona WLAN portátil AndroidAP WPA2 PSK</string>
+    <string name="wifi_tether_configure_subtext">"Área de conexión WLAN portátil %1$s.
+Seguridad: %2$s"</string>
+    <string name="wifi_tether_configure_ssid_default">Zona WLAN Android</string>
+    <string name="wifi_calling_settings_title">Llamadas WLAN</string>
+    <string name="wifi_calling_mode_dialog_title">Modo de llamadas WLAN</string>
+    <string name="wifi_calling_off_explanation">"Use la llamada WLAN para aumentar la calidad de la llamada en aquellos lugares donde la cobertura de red móvil es deficiente.
+ 
+Coste
+Para obtener más información sobre las tarifas de la llamada WLAN, póngase en contacto con su proveedor de servicios.
+ 
+Notas sobre la llamada WLAN
+Para realizar una llamada WLAN, asegúrese de que se encuentra en un rango WLAN."</string>
+    <string name="status_wifi_mac_address">Dirección MAC de WLAN</string>
+    <string name="reset_network_desc">"Se restablecerán todos los ajustes de red, incluidos los siguientes:
+
+"<li>WLAN</li>"
+"<li>Datos móviles</li>"
+"<li>Bluetooth</li></string>
+    <string name="tether_settings_title_wifi">Zona WLAN portátil</string>
+    <string name="tether_settings_title_all">Vinculación y zona WLAN portátil</string>
+    <string name="network_scorer_change_active_dialog_title">¿Cambiar asistente de WLAN?</string>
+    <string name="location_mode_high_accuracy_description">Determinar ubicación por GPS, WLAN, Bluetooth o redes móviles</string>
+    <string name="location_mode_battery_saving_description">Determinar ubicación por WLAN, Bluetooth o redes móviles</string>
+    <string name="location_scanning_wifi_always_scanning_title">Búsqueda de redes WLAN</string>
+    <string name="location_scanning_wifi_always_scanning_description">Los servicios y las aplicaciones del sistema pueden detectar redes WLAN en cualquier momento para mejorar la precisión de la ubicación.</string>
+    <string name="location_neighborhood_level_wifi">Ubicación determinada por WLAN</string>
+    <string name="wifi_verbose_logging">Habilitar registro WLAN detallado</string>
+    <string name="wifi_aggressive_handover">Transferencia total de WLAN a datos móviles</string>
+    <string name="wifi_allow_scan_with_traffic">Permitir siempre búsquedas de WLAN</string>
+    <string name="wifi_verbose_logging_summary">Aumentar nivel registro sesión WLAN, mostrar por SSID RSSI en selector WLAN</string>
+    <string name="wifi_aggressive_handover_summary">Si está habilitada, la conexión WLAN será más agresiva al transferir conexión de datos al móvil (si la señal WLAN no es estable)</string>
+    <string name="wifi_allow_scan_with_traffic_summary">Permitir/No permitir búsquedas de WLAN basadas en la cantidad de tráfico de datos presente en la interfaz</string>
+    <string name="mobile_data_always_on_summary">Mantén los datos móviles siempre activos, aunque la conexión WLAN esté activada (para cambiar de red rápidamente).</string>
+    <string name="power_charging_duration_wireless">%1$s - %2$s hasta completar con WLAN</string>
+    <string name="battery_stats_wifi_running_label">WLAN</string>
+    <string name="wifi_on_time">WLAN a tiempo</string>
+    <string name="bluetooth_on_time">WLAN a tiempo</string>
+    <string name="power_wifi">WLAN</string>
+    <string name="usage_type_wifi_running">WLAN en ejecución</string>
+    <string name="usage_type_data_wifi_send">Paquetes WLAN enviados</string>
+    <string name="usage_type_data_wifi_recv">Paquetes WLAN recibidos</string>
+    <string name="battery_action_wifi">Ajustes de WLAN</string>
+    <string name="battery_desc_wifi">Batería utilizada por WLAN</string>
+    <string name="battery_sugg_wifi">Desactiva WLAN cuando no lo estés utilizando o cuando no esté disponible.</string>
+    <string name="gadget_toggle_wifi">Actualizando ajustes WLAN</string>
+    <string name="gadget_wifi">WLAN</string>
+    <string name="backup_data_summary">Hacer copia de seguridad de los datos de aplicaciones, contraseñas WLAN y otros ajustes en servidores Google™.</string>
+    <string name="backup_erase_dialog_message">¿Quieres impedir la copia de seguridad de tus contraseñas WLAN, favoritos, otros ajustes y datos de aplicaciones y además borrar todas las copias en los servidores Google™?</string>
+    <string name="fullbackup_erase_dialog_message">¿Quieres detener la copia de seguridad de los datos del dispositivo (como las contraseñas de redes WLAN y el historial de llamadas) y de las aplicaciones (por ejemplo, los ajustes y los archivos guardados) y borrar todas las copias de Google Drive?</string>
+    <string name="fullbackup_data_summary">"Realiza una copia de seguridad automática de los datos del dispositivo (como las contraseñas de redes WLAN y el historial de llamadas) y de los datos de las aplicaciones (como sus ajustes y archivos guardados) de forma remota.
+
+Al activar la copia de seguridad automática, los datos del dispositivo y de las aplicaciones se guardan periódicamente de forma remota. Los datos de las aplicaciones pueden ser cualquier tipo de información que guarden (en función de la configuración de los desarrolladores), incluidos los datos que pueden ser confidenciales (como contactos, mensajes y fotos)."</string>
+    <string name="wifi_setup_title">Configuración WLAN</string>
+    <string name="wifi_setup_title_editing_network">Conectar a la red WLAN %s</string>
+    <string name="wifi_setup_title_connecting_network">Conectando a la red WLAN %s...</string>
+    <string name="wifi_setup_title_connected_network">Conectado a la red WLAN %s</string>
+    <string name="wifi_setup_eap_not_supported">No puedes configurar una conexión WLAN EAP durante la configuración. Después, podrás hacerlo en Ajustes > Conexiones inalámbricas y redes.</string>
+    <string name="wifi_setup_description_connected">Toca <b>Siguiente</b>" para continuar con la configuración.
+Toca "<b>Atrás</b> para conectarte a una red WLAN diferente.</string>
+    <string name="data_usage_menu_show_wifi">Mostrar WLAN</string>
+    <string name="data_usage_menu_hide_wifi">Ocultar WLAN</string>
+    <string name="data_usage_disable_wifi_limit">Establecer límite de datos WLAN</string>
+    <string name="data_usage_tab_wifi">WLAN</string>
+    <string name="data_usage_restrict_background">Si restringes los datos móviles de referencia, algunas aplicaciones y servicios no funcionarán a no ser que te conectes a una red WLAN.</string>
+    <string name="data_usage_restrict_background_multiuser">"Si restringe los datos móviles en segundo plano, algunas aplicaciones y algunos servicios no funcionarán sin conexión WLAN.
+
+Esta configuración afecta a todos los usuarios del teléfono."</string>
+    <string name="data_usage_metered_body">Selecciona las redes WLAN que sean áreas de conexión móviles. Se puede impedir que las aplicaciones usen estas redes cuando se ejecuten en segundo plano. Asimismo, las aplicaciones pueden mostrar un mensaje de advertencia antes de usar estas redes para descargar archivos de gran tamaño.</string>
+    <string name="data_usage_metered_wifi">Redes WLAN de uso medido</string>
+    <string name="data_usage_metered_wifi_disabled">Para seleccionar redes de uso medido, active WLAN.</string>
+    <string name="user_add_user_message_long">"Puede crear más usuarios para compartir este dispositivo con otras personas. Cada usuario tiene su propio espacio, que se puede personalizar con aplicaciones, fondos de pantalla, etc., y puede modificar los ajustes del dispositivo que afectan a todos los usuarios, como la conexión WLAN.
+
+Cuando se añade un usuario nuevo, este debe configurar su espacio.
+
+Cualquier usuario puede actualizar las aplicaciones del resto de usuarios."</string>
+    <string name="restriction_wifi_config_title">WLAN y móvil</string>
+    <string name="restriction_wifi_config_summary">Permitir la modificación de los ajustes de WLAN y móvil</string>
+    <string name="setup_wifi_nfc_tag">Configurar etiqueta NFC WLAN</string>
+    <string name="l_dialog_message_hint">"El modo STAMINA incluye:
+
+• Modo en espera ampliado
+Ahorra energía cuando la pantalla está desactivada al deshabilitar temporalmente la WLAN. La mayoría de las aplicaciones estarán inactivas.
+Una vez activada la pantalla, el dispositivo funcionará con normalidad.
+Si desea mantener activas algunas aplicaciones cuando el modo en espera ampliado está activado, añada las aplicaciones a la lista de Aplicaciones activas en modo de espera.
+
+• Uso ampliado
+Ahorra energía cuando el dispositivo está en uso al restringir el rendimiento de hardware."</string>
+    <string name="powersaver_feature_wifi">WLAN desactivada</string>
+    <string name="stamina_xssm_summary">Desactiva los datos móviles y el WLAN cuando la pantalla está apagada.</string>
+    <string name="usm_descr">"El modo Ultra STAMINA ampliará considerablemente la duración de la batería. Se puede usar cuando no puede cargar el dispositivo durante un tiempo prolongado.
+
+Solo estarán disponibles algunas funciones básicas, como Teléfono y Mensajería. Puntee \"Más información\" para más detalles.
+
+Tenga en cuenta que se deshabilitará la conexión a Internet a través de WLAN y datos móviles."</string>
+    <string name="battery_usm_desc">"El modo Ultra STAMINA ampliará considerablemente la duración de la batería. Tenga en cuenta que se deshabilitarán las conexiones a Internet a través de WLAN y datos móviles. La pantalla de inicio cambiará a la pantalla de inicio del modo Ultra STAMINA.
+
+Aplicaciones disponibles en modo Ultra STAMINA"</string>
+    <string name="somc_wifi_turned_on_info">WLAN está activado. Seleccione la red en la lista.</string>
+    <string name="wifi_tethering_warning_txt">Toda operación WLAN en curso, como transferencia de elementos multimedia, actualización del software del móvil, copia de seguridad y restauración se interrumpirá.</string>
+    <string name="somc_backup_failed_no_wifi_summary">En espera de conexión WLAN</string>
+    <string name="wifi_hs2_strings_hotspot2_summary_txt">Conectarse automáticamente a las redes Passpoint disponibles cuando WLAN está activado</string>
+    <string name="wifi_tether_settings_subtext">Configurar y administrar las áreas de conexión de WLAN portátil</string>
+    <string name="wifi_tether_settings_text">Ajustes áreas conexión WLAN portátil</string>
+    <string name="wifi_security_wapi_cert">WLAN CERT</string>
+    <string name="ct_wifi_connected_text">WLAN de China Telecom conect.</string>
+    <string name="cw_network_priority">Priorizar WLAN de China Telecom</string>
+    <string name="cw_network_priority_summary">Las redes WLAN de China Telecom tendrán prioridad sobre otras redes WLAN en conexión.</string>
+    <string name="data_traffic_disabled_text">No se pudo conectar a las redes WLAN de China Telecom ya que el tráfico de datos está deshabilitado. ¿Habilitar ahora tráfico de datos?</string>
+    <string name="install_wapi_certs">Instalar certificados WLAN</string>
+    <string name="location_based_wifi">WLAN basado en ubicación</string>
+    <string name="operator_auto_connect_hotspot_description_txt">Conectarse automáticamente al área de conexión WLAN de AT&amp;T</string>
+    <string name="operator_auto_connect_hotspot_txt">Conexión WLAN de AT&amp;T</string>
+    <string name="wifi_context_menu_change_wapi_certificate">Cambiar Certificado WLAN</string>
+    <string name="wifi_p2p_settings">Ajustes de WLAN Direct™</string>
+    <string name="wifi_security_verbose_wapi_cert">Protegida con WLAN CERT</string>
+    <string name="wifi_security_verbose_wapi_psk">Protegida con WLAN PSK</string>
+    <string name="wifi_tether_explanation_dialog_text">"Puede utilizar el dispositivo como un área de conexión móvil. Esto permite a otros dispositivos (un máximo de 10) conectarse a él a través de una red WLAN. Los dispositivos conectados tendrán acceso a Internet a través de la conexión de red móvil de su dispositivo. El área de conexión móvil utiliza datos móviles y puede dar lugar a tarifas adicionales.
+
+El área de conexión móvil consume más batería. Conecte el dispositivo a una toma de corriente para ampliar la duración de la batería."</string>
+    <string name="wifi_wps_category_title">Configurar red WLAN</string>
+    <string name="xssm_guidecontent_what_stamina40jp_txt">"El modo STAMINA permite ahorrar batería al adaptar los ajustes del dispositivo. Puede elegir qué aplicaciones ejecutar con funcionalidad reducida durante el modo reposo. (Esto ayuda a ahorrar batería porque la mayoría de las aplicaciones consumen batería incluso durante el modo reposo).
+
+Funciones deshabilitadas para las aplicaciones seleccionadas:
+- WLAN
+- Datos móviles
+- Temporizador
+
+La luz de notificación de todas las aplicaciones parpadea en el mismo color y a la misma frecuencia durante el modo reposo.
+
+El modo STAMINA se desactiva mientras está controlando el dispositivo."</string>
+    <string name="wifi_security_short_wapi_cert">WLAN CERT</string>
+    <string name="wifi_security_short_wapi_psk">WLAN PSK</string>
+    <string name="vzw_avoid_bad_connections_text">"La red WLAN a la que está conectado no está conectada a Internet.
+
+Para cambiar automáticamente a la red móvil cuando esto suceda, active Evitar conexiones WLAN débiles en Ajustes WLAN avanzados."</string>
+    <string name="vzw_avoid_bad_connections_title">Sin conexión a Internet WLAN</string>
+    <string name="vzw_wifi_avoid_bad_connections">Evitar conexiones WLAN débiles</string>
+    <string name="vzw_wifi_avoid_bad_connections_summary">Utilice la red móvil siempre cuando la red WLAN a la que está conectado no tenga conexión a Internet (se pueden aplicar tarifas por uso de datos).</string>
+    <string name="vzw_wifi_password_error_dialog_txt">La contraseña WLAN no se ha aceptado. Compruebe la contraseña y vuelva a intentarlo.</string>
+    <string name="vzw_wifi_setup_wizard_desc">Seleccione una red si desea conectarse ahora a WLAN.</string>
+    <string name="vzw_wifi_setup_wizard_title">Configurar WLAN</string>
+</resources>

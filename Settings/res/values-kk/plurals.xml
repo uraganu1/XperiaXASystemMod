@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">"Сіз қазір дамытушы болудан  %1$dқадам қашықсыз."</item>
+        <item quantity="one">Сіз қазір дамытушы болудан %1$d қадам қашықсыз.</item>
+    </plurals>
+    <plurals name="security_settings_fingerprint_preference_summary">
+        <item quantity="other">Саусақ ізімен құлыпты ашу іске қосылды</item>
+        <item quantity="one">Саусақ ізімен құлыпты ашу іске қосылды</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">Кілтсөзде кем дегенде %d әріп болуы керек.</item>
+        <item quantity="one">Кілтсөзде кем дегенде 1 әріп болуы керек.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">Кілтсөзде кем дегенде %d кішкене әріпті таңба болуы тиіс.</item>
+        <item quantity="one">Кілтсөзде кем дегенде кішкене әріпті 1 таңба болуы тиіс.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">Кілтсөзде кем дегенде %d үлкен әріпті таңба болуы тиіс.</item>
+        <item quantity="one">Кілтсөзде кем дегенде 1 үлкен әріпті таңба болуы тиіс.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">Кілтсөзде кем дегенде %d сандық таңба болуы тиіс.</item>
+        <item quantity="one">Кілтсөзде кем дегенде 1 сандық бірлік болуы керек.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">Кілтсөзде кем дегенде %d ерекше таңба болуы тиіс.</item>
+        <item quantity="one">Кілтсөзде кем дегенде 1 ерекше таңба болуы тиіс.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">Кілтсөзде кем дегенде %d әріп емес таңба болуы тиіс.</item>
+        <item quantity="one">Кілтсөзде кем дегенде 1 әріп емес таңба болуы тиіс.</item>
+    </plurals>
+    <plurals name="wrong_pin_code">
+        <item quantity="other">Қате SIM PIN коды, сізде %d әрекет қалды.</item>
+        <item quantity="one">Қате SIM PIN коды, құрылғының құлпын ашу үшін қызмет көрсетушіге хабарласу алдында %d әрекет қалды.</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">%d қолданбалары хабарландыруларды оқи алады</item>
+        <item quantity="one">%d қолданбасы хабарландыруларды оқи алады</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_minute">
+        <item quantity="other">Дабылдарға тек %1$d минутқа ауыстыру (%2$s дейін)</item>
+        <item quantity="one">%2$s дейін дабылдарға тек бір минутқа ауыстыру</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_hour">
+        <item quantity="other">Дабылдарға %2$s дейін тек %1$d сағатқа ауыстыру</item>
+        <item quantity="one">%2$s дейін дабылдарға тек бір сағатқа ауыстыру</item>
+    </plurals>
+    <plurals name="permissions_summary">
+        <item quantity="other">%d рұқсат берілді</item>
+        <item quantity="one">%d рұқсат берілді</item>
+    </plurals>
+    <plurals name="runtime_permissions_summary">
+        <item quantity="other">%1$d ішінен %2$d рұқсат берілді</item>
+        <item quantity="one">%1$d ішінен %2$d рұқсат берілді</item>
+    </plurals>
+    <plurals name="runtime_permissions_additional_count">
+        <item quantity="other">%d қосымша рұқсат</item>
+        <item quantity="one">%d қосымша рұқсат</item>
+    </plurals>
+    <plurals name="domain_urls_apps_summary">
+        <item quantity="other">%d қолданба қолдау көрсетілетін сілтемелерін аша алады</item>
+        <item quantity="zero">Ешбір қолдау көрсетілетін сілтемені ешбір қолданба аша алмайды</item>
+        <item quantity="one">Бір қолданба өзінің қолдау көрсетілетін сілтемелерін аша алады</item>
+    </plurals>
+    <plurals name="high_power_count">
+        <item quantity="other">%d қолданбаға батареяны оңтайландыруды елемеуге рұқсат етілген</item>
+        <item quantity="one">1 қолданбаға батареяны оңтайландыруды елемеуге рұқсат етілген</item>
+    </plurals>
+    <plurals name="memory_usage_apps_summary">
+        <item quantity="other">Соңғы %2$s ішінде %1$d қолданба жадты пайдаланды</item>
+        <item quantity="one">Соңғы %2$s ішінде 1 қолданба жадты пайдаланды</item>
+    </plurals>
+    <plurals name="remaining_time_format_days">
+        <item quantity="other">%d күн</item>
+        <item quantity="one">%d күн</item>
+    </plurals>
+    <plurals name="remaining_time_format_hours">
+        <item quantity="other">%d сағат</item>
+        <item quantity="one">%d сағат</item>
+    </plurals>
+    <plurals name="stamina_xssm_add_applications_descr">
+        <item quantity="other">%d ағымдағы тізімдегі бағдарламалар</item>
+        <item quantity="one">%1$d ағымдағы тізімдегі бағдарлама</item>
+    </plurals>
+    <plurals name="not_time_left_format_hours">
+        <item quantity="other">%d сағат</item>
+        <item quantity="one">%d сағат</item>
+    </plurals>
+    <plurals name="not_time_left_format_minutes">
+        <item quantity="other">%d минут</item>
+        <item quantity="one">%d минут</item>
+    </plurals>
+    <plurals name="xssm_settings_blacklist_summary_txt">
+        <item quantity="other">%d қолданба таңдалған</item>
+        <item quantity="one">%d қолданба таңдалған</item>
+    </plurals>
+</resources>

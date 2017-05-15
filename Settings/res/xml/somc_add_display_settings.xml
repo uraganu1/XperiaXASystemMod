@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.sonymobile.settings.preference.IntentPreference android:key="preferred_application_settings" settings:dependOnIsValidIntent="true" settings:before="first" settings:hasMetaData="true">
+        <intent android:targetPackage="com.sonyericsson.docomo.settings" android:targetClass="com.sonyericsson.docomo.settings.PreferredAppSettingActivity" />
+    </com.sonymobile.settings.preference.IntentPreference>
+    <com.sonymobile.settings.preference.PreferenceCategory android:title="@string/settings_header_backlight_txt" android:key="customize_category" settings:before="first" />
+    <com.sonymobile.settings.preference.IntentPreference android:key="intelligent_backlight" settings:dependOnIsValidIntent="true" settings:after="screen_timeout" settings:hasMetaData="true" settings:valueOfSettingsSystem="intelligent_backlight">
+        <intent android:targetPackage="com.sonymobile.intelligent.backlight" android:targetClass="com.sonymobile.intelligent.backlight.SmartBacklightGuidance" />
+    </com.sonymobile.settings.preference.IntentPreference>
+    <com.sonymobile.settings.preference.PreferenceCategory android:title="@string/settings_header_image_quality_txt" android:key="quality_category" settings:after="intelligent_backlight" />
+    <com.sonymobile.settings.preference.IntentPreference android:key="image_enhancer" settings:dependOnIsValidIntent="true" settings:dependOnSystemProperty="ro.service.xrfm.supported" settings:after="quality_category" settings:hasMetaData="true" settings:valueOfSystemProperty="persist.service.xrfm.mode">
+        <intent android:targetPackage="com.android.settings" android:targetClass="com.android.settings.ImageEnhancerSettings" />
+    </com.sonymobile.settings.preference.IntentPreference>
+    <com.sonymobile.settings.preference.IntentPreference android:key="white_balance" settings:dependOnIsValidIntent="true" settings:dependOnIsOwnerOnly="true" settings:after="quality_category" settings:hasMetaData="true">
+        <intent android:targetPackage="com.sonymobile.whitebalance" android:action="android.intent.action.MAIN" android:targetClass="com.sonymobile.whitebalance.WhiteBalanceActivity" />
+    </com.sonymobile.settings.preference.IntentPreference>
+    <com.sonymobile.settings.preference.PreferenceCategory android:title="@string/settings_header_other_txt" android:key="other_category" settings:after="quality_category" />
+    <com.sonymobile.settings.preference.IntentPreference android:key="font_selector" settings:dependOnIsValidIntent="true" settings:dependOnIsOwnerOnly="true" settings:after="font_size" settings:hasMetaData="true">
+        <intent android:targetPackage="com.sonymobile.fontselector" android:action="android.intent.action.MAIN" android:targetClass="com.sonymobile.fontselector.MainActivity" />
+    </com.sonymobile.settings.preference.IntentPreference>
+    <com.sonymobile.settings.preference.IntentPreference android:key="intelligent_rotation" settings:dependOnIsValidIntent="true" settings:before="system_icons" settings:hasMetaData="true">
+        <intent android:targetPackage="com.sonymobile.intelligent.rotation" android:targetClass="com.sonymobile.intelligent.rotation.RotationMainMenu" />
+    </com.sonymobile.settings.preference.IntentPreference>
+    <com.sonymobile.settings.preference.RemovePreference settings:dependOnIsValidIntent="true" settings:targetKey="auto_rotate">
+        <intent android:targetPackage="com.sonymobile.intelligent.rotation" android:targetClass="com.sonymobile.intelligent.rotation.SmartScreenRotationMenu" />
+    </com.sonymobile.settings.preference.RemovePreference>
+    <com.sonymobile.settings.preference.IntentPreference android:key="system_icons" settings:dependOnIsValidIntent="true" settings:after="intelligent_rotation" settings:hasMetaData="true">
+        <intent android:targetPackage="com.sonyericsson.settings" android:targetClass="com.sonymobile.settings.systemicon.SystemIconSettings" />
+    </com.sonymobile.settings.preference.IntentPreference>
+    <com.sonymobile.settings.preference.RemovePreference settings:targetKey="screensaver" />
+    <PreferenceScreen android:title="@string/screensaver_settings_title" android:key="screensaver_new" android:fragment="com.android.settings.DreamSettings" settings:after="system_icons" />
+    <com.sonymobile.settings.preference.SwitchPreference android:title="@string/swiqi_strings_swiqi2_txt" android:key="swiqi2" android:summary="@string/swiqi_strings_swiqi_desc_txt" android:defaultValue="true" settings:dependOnSystemProperty="ro.service.swiqi2.supported" settings:dependOnIsOwnerOnly="true" settings:after="system_icons" settings:valueOfSettingsSystem="com.sonymobile.swiqi2_mode" />
+    <com.sonymobile.settings.preference.SwitchPreference android:title="@string/swiqi_strings_swiqi3_txt" android:key="swiqi3" android:summary="@string/swiqi_strings_swiqi_desc_txt" android:defaultValue="true" settings:dependOnSystemProperty="ro.service.swiqi3.supported" settings:dependOnIsOwnerOnly="true" settings:after="system_icons" settings:valueOfSystemProperty="persist.service.swiqi3.enable" />
+    <com.sonymobile.settings.preference.RemovePreference settings:dependOnSystemProperty="ro.service.xrfm.supported" settings:targetKey="swiqi3" />
+    <com.sonymobile.settings.preference.RemovePreference settings:targetKey="wallpaper" />
+    <com.sonymobile.settings.preference.RemovePreference settings:dependOnIsValidIntent="true" settings:targetKey="wifi_display">
+        <intent android:targetPackage="com.sonymobile.tvout.wifidisplay" android:targetClass="com.sonymobile.tvout.wifidisplay.WfdStarterActivity" />
+    </com.sonymobile.settings.preference.RemovePreference>
+</PreferenceScreen>

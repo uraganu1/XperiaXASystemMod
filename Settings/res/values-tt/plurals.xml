@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">Сез хәзер ясаучы булга кадәр %1$d адымда</item>
+        <item quantity="one">Сез хәзер ясаучы булуга кадәр %1$d адымда</item>
+    </plurals>
+    <plurals name="security_settings_fingerprint_preference_summary">
+        <item quantity="other">Бармак эзе белән бик ачтыру активлаштырылды</item>
+        <item quantity="one">Бармак эзе белән бик ачтыру активлаштырылды</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">Серсүздә кимендә %d хәреф булырга тиеш</item>
+        <item quantity="one">Серсүздә кимендә бер хәреф булырга тиеш</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">Серсүздә кимендә %d юл хәреф булырга тиеш</item>
+        <item quantity="one">Серсүздә кимендә бер юл хәреф булырга тиеш</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">Серсүздә кимендә %d баш хәреф булырга тиеш</item>
+        <item quantity="one">Серсүздә кимендә бер баш хәреф булырга тиеш</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">Серсүздә кимендә %d сан булырга тиеш</item>
+        <item quantity="one">Серсүздә кимендә бер сан булырга тиеш</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">Серсүздә кимендә %d махсус билге булырга тиеш</item>
+        <item quantity="one">Серсүздә кимендә бер махсус билге булырга тиеш</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">Серсүздә кимендә %d хәрефле булмаган символ булырга тиеш</item>
+        <item quantity="one">Серсүздә кимендә бер хәрефле булмаган символ булырга тиеш</item>
+    </plurals>
+    <plurals name="wrong_pin_code">
+        <item quantity="other">SIM PIN коды ялгыш, сезнең %d омтылышыгыз калды.</item>
+        <item quantity="one">SIM-картаның PIN коды дөрес түгел, җайланманы ачу өчен хезмәт тәэмин итүчесенә мөрәҗәгать итәргә туры килгәнче %d омтылыш калды.</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">%d кушымта искәрмәләрне укый ала</item>
+        <item quantity="one">%d кушымта искәрмәләрне укый ала</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_minute">
+        <item quantity="other">%1$d минутка (%2$s булганчы) уяткычлар өчен генә үзгәртү</item>
+        <item quantity="one">%2$s булганчы бер минутка уяткычлар өчен генә үзгәртү</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_hour">
+        <item quantity="other">%1$d сәгатькә (%2$s булганчы) уяткычлар өчен генә үзгәртү</item>
+        <item quantity="one">%2$s булганчы бер сәгатькә уяткычлар өчен генә үзгәртү</item>
+    </plurals>
+    <plurals name="permissions_summary">
+        <item quantity="other">%d рөхсәт бирелде</item>
+        <item quantity="one">%d рөхсәт бирелде</item>
+    </plurals>
+    <plurals name="runtime_permissions_summary">
+        <item quantity="other">%1$d арасыннан %2$d рөхсәт бирелде</item>
+        <item quantity="one">%1$d арасыннан %2$d рөхсәт бирелде</item>
+    </plurals>
+    <plurals name="runtime_permissions_additional_count">
+        <item quantity="other">%d өстәмә рөхсәт</item>
+        <item quantity="one">%d өстәмә рөхсәт</item>
+    </plurals>
+    <plurals name="domain_urls_apps_summary">
+        <item quantity="other">%d кушымта үзләре куллана торган сылтамаларны ача ала</item>
+        <item quantity="zero">Бер кушымта да кулланыла торган сылтамаларның берсен дә ача алмый</item>
+        <item quantity="one">Бер кушымта үзе куллана торган сылтамаларны ача ала</item>
+    </plurals>
+    <plurals name="high_power_count">
+        <item quantity="other">%d кушымтага батареяны оптимизацияләүгә игътибар итмәскә рөхсәт ителгән</item>
+        <item quantity="one">1 кушымтага батареяны оптимизацияләүгә игътибар итмәскә рөхсәт ителгән</item>
+    </plurals>
+    <plurals name="memory_usage_apps_summary">
+        <item quantity="other">Соңгы %2$s эчендә %1$d кушымта кулланган хәтер</item>
+        <item quantity="one">Соңгы %2$s эчендә 1 кушымта кулланган хәтер</item>
+    </plurals>
+    <plurals name="remaining_time_format_days">
+        <item quantity="other">%dкөн</item>
+        <item quantity="one">%dкөн</item>
+    </plurals>
+    <plurals name="remaining_time_format_hours">
+        <item quantity="other">%d сәг.</item>
+        <item quantity="one">%d сәг.</item>
+    </plurals>
+    <plurals name="stamina_xssm_add_applications_descr">
+        <item quantity="other">%dкушымталар семлектә хәзер</item>
+        <item quantity="one">%1$dкушымталар исемлектә хәзер</item>
+    </plurals>
+    <plurals name="xssm_settings_blacklist_summary_txt">
+        <item quantity="other">%d кушымталар сайланган</item>
+        <item quantity="one">%d кушымта сайланган</item>
+    </plurals>
+</resources>

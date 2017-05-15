@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="app_ops_summaries">
+        <item>približná poloha</item>
+        <item>presná poloha</item>
+        <item>GPS</item>
+        <item>vibrovanie</item>
+        <item>čítanie kontaktov</item>
+        <item>úprava kontaktov</item>
+        <item>čítanie denníka hovorov</item>
+        <item>úprava denníka hovorov</item>
+        <item>čítanie kalendára</item>
+        <item>úprava kalendára</item>
+        <item>hľadanie sietí WLAN</item>
+        <item>upozornenie</item>
+        <item>prehľadanie mobilných sietí</item>
+        <item>volanie na telefón</item>
+        <item>čítanie správ SMS</item>
+        <item>písanie správ SMS</item>
+        <item>príjem správ SMS</item>
+        <item>príjem núdzových správ SMS</item>
+        <item>príjem správ MMS</item>
+        <item>príjem správ WAP push</item>
+        <item>odosielanie správ SMS</item>
+        <item>čítanie správ ICC SMS</item>
+        <item>písanie správ ICC SMS</item>
+        <item>úprava nastavení</item>
+        <item>vykreslenie navrch</item>
+        <item>prístup k upozorneniam</item>
+        <item>fotoaparát:</item>
+        <item>záznam zvuku</item>
+        <item>prehrávanie zvuku</item>
+        <item>načítať schránku</item>
+        <item>upraviť schránku</item>
+        <item>mediálne tlačidlá</item>
+        <item>zvukové zameranie</item>
+        <item>hlavná hlasitosť</item>
+        <item>hlasitosť hlasu</item>
+        <item>hlasitosť zvonenia</item>
+        <item>hlasitosť médií</item>
+        <item>hlasitosť budíkov</item>
+        <item>hlasitosť upozornení</item>
+        <item>hlasitosť bluetooth</item>
+        <item>zakázať režim spánku</item>
+        <item>sledovať polohu</item>
+        <item>sledovanie polohy s vysokým výkonnom</item>
+        <item>získanie štatistiky používania</item>
+        <item>stlmenie alebo zrušenie stlmenia mikrofónu</item>
+        <item>projekcia médií</item>
+        <item>aktivácia VPN</item>
+        <item>zápis tapety</item>
+        <item>asistovaná štruktúra</item>
+        <item>asistovaná snímka obrazovky</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices">
+        <item>Uprednostniť WLAN</item>
+        <item>Uprednostniť mobilné pripojenie</item>
+    </string-array>
+    <string-array name="wapi_psk_type">
+        <item>WLAN ASCII</item>
+        <item>WLAN hexadecimal</item>
+    </string-array>
+</resources>

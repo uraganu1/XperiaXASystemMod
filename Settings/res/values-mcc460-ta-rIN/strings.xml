@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_disabled_wifi_failure">வைஃபை இணைப்பில் தோல்வி</string>
+    <string name="radio_controls_summary">வைஃபை, புளுடூத், விமானப் பயன்முறை, செல்லுலார் நெட்வொர்க்குகள் &amp; VPNகளை நிர்வகிக்கவும்</string>
+    <string name="wifi_alert_lockdown_by_device_owner">உங்கள் சாதனத்தை நிர்வகிக்கும் %1$s, இந்த வைஃபை நெட்வொர்க்கை மாற்றுவதை அல்லது நீக்குவதை அனுமதிக்கவில்லை. மேலும் தகவலுக்கு, நிர்வாகியைத் தொடர்புகொள்ளவும்.</string>
+    <string name="wifi_quick_toggle_title">வைஃபை</string>
+    <string name="wifi_quick_toggle_summary">வைஃபையை இயக்கு</string>
+    <string name="wifi_settings">வைஃபை</string>
+    <string name="wifi_settings_category">வைஃபை அமைப்பு</string>
+    <string name="wifi_settings_title">வைஃபை</string>
+    <string name="wifi_setup_wizard_title">வைஃபையைத் தேர்ந்தெடு</string>
+    <string name="wifi_poor_network_detection_summary">சிறப்பான இணைய இணைப்பைப் பெறும் வரை வைஃபை நெட்வொர்க்கைப் பயன்படுத்தாதே</string>
+    <string name="wifi_setting_sleep_policy_title">உறக்கநிலையில் WLAN இயக்கு</string>
+    <string name="wifi_suspend_optimizations">வைஃபையை மேம்படுத்துதல்</string>
+    <string name="wifi_suspend_optimizations_summary">வைஃபையை இயக்கத்தில் இருக்கும்போது பேட்டரி பயன்பாட்டைக் குறை</string>
+    <string name="wifi_access_points">வைஃபை நெட்வொர்க்குகள்</string>
+    <string name="wifi_menu_p2p">வைஃபை டைரக்ட்</string>
+    <string name="wifi_empty_list_wifi_off">கிடைக்கும் நெட்வொர்க்குகளைப் பார்க்க, வைஃபையை இயக்கவும்.</string>
+    <string name="wifi_empty_list_wifi_on">வைஃபை நெட்வொர்க்கைத் தேடுகிறது…</string>
+    <string name="wifi_empty_list_user_restricted">வைஃபை நெட்வொர்க்கை மாற்றுவதற்கான அனுமதி உங்களுக்கு இல்லை.</string>
+    <string name="wifi_wps_setup_title">வைஃபை பாதுகாக்கப்பட்ட அமைவு</string>
+    <string name="wifi_wps_onstart_pin">உங்கள் வைஃபை ரூட்டரில் pin %1$s ஐ உள்ளிடவும். அமைவு முடிய இரண்டு நிமிடங்கள் வரை ஆகலாம்.</string>
+    <string name="wifi_wps_connected">வைஃபை நெட்வொர்க் %s உடன் இணைக்கப்பட்டது</string>
+    <string name="wifi_scan_always_turnon_message">"இருப்பிடத்தைத் துல்லியமாக அறிவதற்கு மேம்படுத்த மற்றும் பிற காரணங்களுக்காக, வைஃபை முடக்கத்தில் இருக்கும்போதும் நெட்வொர்க்கை ஸ்கேன் செய்வதை இயக்கத்தில் வைக்க %1$s விரும்புகிறது.
+
+ஸ்கேன் செய்ய விரும்பும் எல்லா பயன்பாடுகளுக்கும் இதை அனுமதிக்கவா?"</string>
+    <string name="wifi_skipped_message">எச்சரிக்கை: வைஃபை அமைப்பதைத் தவிர்த்தால், தொடக்க இறக்கங்கள் மற்றும் புதுப்பிப்புகளுக்காக உங்கள் மொபைல் செல்லுலார் தரவை மட்டுமே பயன்படுத்தும். ஏற்படக்கூடிய தரவுக் கட்டணங்களைத் தவிர்க்க, வைஃபையுடன் இணைக்கவும்.</string>
+    <string name="wifi_connect_failed_message">வைஃபை நெட்வொர்க்குடன் தொலைபேசியை இணைக்க முடியவில்லை.</string>
+    <string name="wifi_advanced_titlebar">மேம்பட்ட வைஃபை</string>
+    <string name="wifi_setting_frequency_band_title">வைஃபை அதிர்வெண் கற்றை</string>
+    <string name="wifi_p2p_settings_title">வைஃபை Direct</string>
+    <string name="wifi_tether_checkbox_text">போர்ட்டபில் வைஃபை ஹாட்ஸ்பாட்</string>
+    <string name="wifi_tether_failed_subtext">போர்ட்டபில் வைஃபை ஹாட்ஸ்பாட் பிழை</string>
+    <string name="wifi_tether_configure_ap_text">வைஃபை ஹாட்ஸ்பாட்டை அமை</string>
+    <string name="wifi_tether_configure_subtext">%1$s %2$s போர்ட்டபில் வைஃபை ஹாட்ஸ்பாட்</string>
+    <string name="wifi_calling_settings_title">வைஃபை அழைப்பு</string>
+    <string name="wifi_calling_mode_dialog_title">வைஃபை அழைப்புப் பயன்முறை</string>
+    <string name="wifi_calling_off_explanation">வைஃபை அழைப்பு இயக்கத்தில் இருக்கும் போது, முன்னுரிமை மற்றும் வலிமையாக இருக்கிற சிக்னலைப் பொறுத்து வைஃபை நெட்வொர்க்குகள் அல்லது மொபைல் நிறுவன நெட்வொர்க்குக்கு அழைப்புகளை உங்கள் ஃபோன் திசைதிருப்பும். இந்த அம்சத்தை இயக்குவதற்கு முன், கட்டணங்கள் மற்றும் பிற விவரங்கள் குறித்து உங்கள் மொபைல் நிறுவனத்திடமிருந்து தெரிந்துகொள்ளவும்.</string>
+    <string name="status_wifi_mac_address">வைஃபை MAC முகவரி</string>
+    <string name="location_neighborhood_level_wifi">வைஃபை மூலம் இருப்பிடம் கண்டறியப்பட்டது</string>
+    <string name="wifi_aggressive_handover">ஒத்துழைக்காத வைஃபையிலிருந்து செல்லுலாருக்கு மாறு</string>
+    <string name="wifi_verbose_logging_summary">WLAN நுழைவு அளவை அதிகரித்து, வைஃபை தேர்வியில் ஒவ்வொன்றிற்கும் SSID RSSI ஐ காட்டுக</string>
+    <string name="battery_stats_wifi_running_label">வைஃபை</string>
+    <string name="wifi_on_time">வைஃபை இயக்க நேரம்</string>
+    <string name="bluetooth_on_time">வைஃபை இயக்க நேரம்</string>
+    <string name="power_wifi">வைஃபை</string>
+    <string name="usage_type_wifi_running">வைஃபை இயங்குகிறது</string>
+    <string name="battery_action_wifi">வைஃபை அமைப்பு</string>
+    <string name="battery_desc_wifi">வைஃபை ஆல் பயன்படுத்தப்பட்ட பேட்டரி</string>
+    <string name="battery_sugg_wifi">வைஃபை ஐப் பயன்படுத்தாமல் இருக்கும்போது அல்லது அது கிடைக்காதபோது அதை முடக்கவும்</string>
+    <string name="gadget_toggle_wifi">வைஃபை அமைப்பைப் புதுப்பிக்கிறது</string>
+    <string name="gadget_wifi">வைஃபை</string>
+    <string name="backup_data_summary">பயன்பாட்டுத் தரவு, வைஃபை கடவுச்சொற்கள் மற்றும் Google சேவையகங்களுக்கான பிற அமைப்புகளைக் காப்புப் பிரதியெடு</string>
+    <string name="backup_erase_dialog_message">உங்கள் வைஃபை கடவுச்சொற்கள், புத்தகக்குறிகள், பிற அமைப்புகள் மற்றும் பயன்பாட்டுத் தரவைக் காப்புப் பிரதியெடுப்பதை நிறுத்துவதுடன், Google சேவையகங்களில் உள்ள எல்லா நகல்களையும் அழித்துவிட வேண்டுமா?</string>
+    <string name="fullbackup_erase_dialog_message">சாதனத் தரவையும் (வைஃபை கடவுச்சொற்கள் மற்றும் அழைப்பு பதிவு போன்றவை) பயன்பாட்டுத் தரவையும் (பயன்பாடுகளில் சேமிக்கப்பட்டிருக்கும் அமைப்புகள் மற்றும் கோப்புகள் போன்றவை) காப்புப் பிரதி எடுப்பதை நிறுத்தி, Google இயக்ககத்தில் உள்ள எல்லா நகல்களையும் அழிக்கவா?</string>
+    <string name="fullbackup_data_summary">"சாதனத் தரவையும் (வைஃபை கடவுச்சொற்கள், அழைப்பு பதிவு போன்றவை) பயன்பாட்டுத் தரவையும் (பயன்பாடுகளில் சேமிக்கப்பட்டிருக்கும் அமைப்புகள், கோப்புகள் போன்றவை) தொலைநிலையில் தானாகக் காப்புப் பிரதி எடுக்கும்.
+
+தானியங்கு காப்புப் பிரதியை இயக்கும் போது, சாதனம் மற்றும் பயன்பாட்டுத் தரவானது குறிப்பிட்ட கால இடைவெளியில் தொலைநிலையில் சேமிக்கப்படும். பயன்பாட்டுத் தரவு என்பது, தொடர்புகள், செய்திகள், படங்கள் போன்ற மிகவும் முக்கிய தரவு உட்பட, பயன்பாடு சேமித்த (டெவெலப்பர் அமைப்புகளைப் பொறுத்து) எந்தத் தரவாகவும் இருக்கலாம்."</string>
+    <string name="wifi_setup_title">வைஃபை அமைவு</string>
+    <string name="wifi_setup_title_editing_network">வைஃபை நெட்வொர்க் %s உடன் இணை</string>
+    <string name="wifi_setup_title_connecting_network">வைஃபை நெட்வொர்க் %s உடன் இணைக்கிறது…</string>
+    <string name="wifi_setup_title_connected_network">வைஃபை நெட்வொர்க் %s உடன் இணைக்கப்பட்டது</string>
+    <string name="wifi_setup_eap_not_supported">அமைக்கும்போது, EAP வைஃபை இணைப்பை உள்ளமைக்க முடியாது. அமைத்தப் பிறகு, நீங்கள் அதை அமைப்பு > வயர்லெஸ் &amp; நெட்வொர்க்குகள் என்பதில் செய்ய முடியும்.</string>
+    <string name="wifi_setup_description_connected">அமைவைத் தொடர <b>அடுத்து</b>" என்பதைக் கிளிக் செய்யவும்.
+
+வேறொரு வைஃபை நெட்வொர்க்குடன் இணைப்பதற்கு, "<b>பின்செல்</b> என்பதைத் தொடவும்.</string>
+    <string name="data_usage_disable_wifi_limit">வைஃபை தரவின் வரம்பை அமை</string>
+    <string name="data_usage_tab_wifi">வைஃபை</string>
+    <string name="data_usage_restrict_background">பின்புல செல்லுலார் தரவைக் கட்டுப்படுத்தினால், வைஃபையுடன் இணைக்கப்படும் வரை சில பயன்பாடுகளும் சேவைகளும் வேலை செய்யாது.</string>
+    <string name="data_usage_metered_body">பின்புலத் தரவு கட்டுப்படுத்தப்பட்டிருக்கும் போது கட்டண நெட்வொர்க்குகள் செல்லுலார் போன்றதாக கருதப்படும். அதிகளவு பதிவிறக்கங்களுக்கு இந்த நெட்வொர்க்குகளைப் பயன்படுத்தும் முன் பயன்பாடுகள் எச்சரிக்கலாம்.</string>
+    <string name="setup_wifi_nfc_tag">வைஃபை NFC குறியை அமை</string>
+</resources>

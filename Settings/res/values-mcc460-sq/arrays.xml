@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="app_ops_summaries">
+        <item>vendndodhje e zakonshme</item>
+        <item>vendndodhje e sofistikuar</item>
+        <item>GPS</item>
+        <item>dridhje</item>
+        <item>lexo kontaktet</item>
+        <item>modifikoni kontaktet</item>
+        <item>lexo regjistrin e telefonatave</item>
+        <item>modifikoni regjistrin e telefonatave</item>
+        <item>lexo kalendarin</item>
+        <item>modifiko kalendarin</item>
+        <item>skanimi i WLAN</item>
+        <item>njoftimi</item>
+        <item>skanimi i celularit</item>
+        <item>telefono në telefon</item>
+        <item>lexo SMS</item>
+        <item>shkruaj SMS</item>
+        <item>merr SMS</item>
+        <item>merr SMS urgjente</item>
+        <item>merr MMS</item>
+        <item>merr mesazh njoftues për WAP</item>
+        <item>dërgo SMS</item>
+        <item>lexo SMS-në e ICC-së</item>
+        <item>shkruaj SMS-në e ICC-së</item>
+        <item>modifiko cilësimet</item>
+        <item>zvarrite në krye</item>
+        <item>qasu te njoftimet</item>
+        <item>kamera</item>
+        <item>regjistro audio</item>
+        <item>riprodho audio</item>
+        <item>lexo kujtesën e fragmenteve</item>
+        <item>modifiko kujtesën e fragmenteve</item>
+        <item>butonat e medias</item>
+        <item>fokusi i audios</item>
+        <item>volumi kryesor</item>
+        <item>volumi i zërit</item>
+        <item>volumi i ziles</item>
+        <item>volumi i medias</item>
+        <item>volumi i alarmit</item>
+        <item>volumi i njoftimit</item>
+        <item>volumi i bluetooth</item>
+        <item>mbaj zgjuar</item>
+        <item>monitoro vendndodhjen</item>
+        <item>monitoro vendndodhjen me energji të lartë</item>
+        <item>merr statistikat e përdorimit</item>
+        <item>hesht/çhesht mikrofonin</item>
+        <item>projektoni median</item>
+        <item>aktivizoni VPN-në</item>
+        <item>shkruani në sfond</item>
+        <item>struktura e ndihmës</item>
+        <item>pamja e ekranit e ndihmës</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices">
+        <item>Preferohet WLAN</item>
+        <item>Preferohet rrjeti celular</item>
+    </string-array>
+    <string-array name="wapi_psk_type">
+        <item>WLAN ASCII</item>
+        <item>WLAN hexadecimal</item>
+    </string-array>
+</resources>

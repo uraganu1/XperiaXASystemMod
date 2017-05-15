@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="app_ops_summaries">
+        <item>ubicació aproximada</item>
+        <item>ubicació precisa</item>
+        <item>GPS</item>
+        <item>vibració</item>
+        <item>lectura de contactes</item>
+        <item>modifica els contactes</item>
+        <item>llegeix el registre de trucades</item>
+        <item>modifica el registre de trucades</item>
+        <item>lectura del calendari</item>
+        <item>modifica el calendari</item>
+        <item>detecció de WLAN</item>
+        <item>notificació</item>
+        <item>exploració de cel·la</item>
+        <item>trucada de telèfon</item>
+        <item>llegeix SMS</item>
+        <item>escriu SMS</item>
+        <item>rep SMS</item>
+        <item>"rep SMS d'emergència"</item>
+        <item>rep MMS</item>
+        <item>rep insercions WAP</item>
+        <item>envia SMS</item>
+        <item>llegeix SMS ICC</item>
+        <item>escriu SMS ICC</item>
+        <item>modifica la configuració</item>
+        <item>dibuixa a sobre</item>
+        <item>accedeix a les notificacions</item>
+        <item>càmera</item>
+        <item>"enregistra l'àudio"</item>
+        <item>"reprodueix l'àudio"</item>
+        <item>llegeix el porta-retalls</item>
+        <item>modifica el porta-retalls</item>
+        <item>botons multimèdia</item>
+        <item>"enfocament de l'àudio"</item>
+        <item>volum general</item>
+        <item>volum de la veu</item>
+        <item>volum del to</item>
+        <item>volum multimèdia</item>
+        <item>"volum de l'alarma"</item>
+        <item>volum de notificació</item>
+        <item>volum del Bluetooth</item>
+        <item>actiu</item>
+        <item>supervisa la ubicació</item>
+        <item>fes un seguiment de la precisió de la ubicació</item>
+        <item>"obtenir estadístiques d'ús"</item>
+        <item>silenciar el micròfon o activar-ne el so</item>
+        <item>projecta fitxers multimèdia</item>
+        <item>activa la VPN</item>
+        <item>"fons de pantalla d'escriptura"</item>
+        <item>"estructura d'assistència"</item>
+        <item>"captura de pantalla d'assistència"</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices">
+        <item>Preferència per la WLAN</item>
+        <item>Preferència per les dades mòbils</item>
+    </string-array>
+    <string-array name="wapi_psk_type">
+        <item>WLAN ASCII</item>
+        <item>WLAN hexadecimal</item>
+    </string-array>
+</resources>

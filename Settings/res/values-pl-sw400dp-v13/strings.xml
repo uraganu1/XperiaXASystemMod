@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="powersaver_feature_haptic">Wyłączenie wibracji przy dotknięciu</string>
+    <string name="powersaver_feature_sync">Wyłączenie autosynchronizacji</string>
+    <string name="powersaver_feature_data">Wyłącz transmisję danych w sieci komórkowej</string>
+    <string name="powersaver_feature_gamma">Włącz tryb nocny</string>
+    <string name="powersaver_feature_bravia">Wyłącz Mobile BRAVIA Engine</string>
+    <string name="stamina_xssm_add_applications_title">Aplikacje włączone w trybie gotowości</string>
+    <string name="wifi_tether_settings_text">Ustawienia przenośnego hotspotu Wi-Fi</string>
+    <string name="usb_direct_settings_hi_res_audio_title_txt">Dźwięk wysokiej rozdzielczości przez USB</string>
+</resources>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">只需 %1$d 步操作即可进入开发者模式。</item>
+        <item quantity="one">只需 %1$d 步操作即可进入开发者模式。</item>
+    </plurals>
+    <plurals name="security_settings_fingerprint_preference_summary">
+        <item quantity="other">指纹解锁已启用</item>
+        <item quantity="one">指纹解锁已启用</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">密码必须包含至少 %d 个字母。</item>
+        <item quantity="one">密码必须包含至少 1 个字母。</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">密码必须包含至少 %d 个小写字母。</item>
+        <item quantity="one">密码必须包含至少 1 个小写字母。</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">密码必须包含至少 %d 个大写字母。</item>
+        <item quantity="one">密码必须包含至少 1 个大写字母。</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">密码必须包含至少 %d 个数字。</item>
+        <item quantity="one">密码必须包含至少 1 个数字。</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">密码必须包含至少 %d 个特殊符号。</item>
+        <item quantity="one">密码必须包含至少 1 个特殊符号。</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">密码必须包含至少 %d 个非字母字符。</item>
+        <item quantity="one">密码必须包含至少 1 个非字母字符。</item>
+    </plurals>
+    <plurals name="wrong_pin_code">
+        <item quantity="other">SIM卡PIN码不正确，您还有%d次尝试机会。</item>
+        <item quantity="one">SIM卡PIN码不正确，您还有%d次尝试机会。如果仍然失败，则必须联系服务提供商帮您解锁设备。</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">%d个应用可以读取通知</item>
+        <item quantity="one">%d个应用可以读取通知</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_minute">
+        <item quantity="other">更改为仅限闹钟%1$d分钟（到%2$s）</item>
+        <item quantity="one">更改为仅限闹钟1分钟（到%2$s）</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_hour">
+        <item quantity="other">更改为仅限闹钟%1$d小时（到%2$s）</item>
+        <item quantity="one">更改为仅限闹钟1小时（到%2$s）</item>
+    </plurals>
+    <plurals name="permissions_summary">
+        <item quantity="other">已授予%d项权限</item>
+        <item quantity="one">已授予%d项权限</item>
+    </plurals>
+    <plurals name="runtime_permissions_summary">
+        <item quantity="other">已授予%1$d项权限（共%2$d项）</item>
+        <item quantity="one">已授予%1$d项权限（共%2$d项）</item>
+    </plurals>
+    <plurals name="runtime_permissions_additional_count">
+        <item quantity="other">%d项额外权限</item>
+        <item quantity="one">%d项额外权限</item>
+    </plurals>
+    <plurals name="domain_urls_apps_summary">
+        <item quantity="other">%d个应用可以打开支持的链接</item>
+        <item quantity="zero">应用无法打开任何支持的链接</item>
+        <item quantity="one">1 个应用可以打开支持的链接</item>
+    </plurals>
+    <plurals name="high_power_count">
+        <item quantity="other">允许%d个应用忽略电池优化</item>
+        <item quantity="one">允许1个应用忽略电池优化</item>
+    </plurals>
+    <plurals name="memory_usage_apps_summary">
+        <item quantity="other">%1$d个应用在过去%2$s内使用了内存</item>
+        <item quantity="one">1个应用在过去%2$s内使用了内存</item>
+    </plurals>
+    <plurals name="remaining_time_format_days">
+        <item quantity="other">%d天</item>
+        <item quantity="one">%d 天</item>
+    </plurals>
+    <plurals name="remaining_time_format_hours">
+        <item quantity="other">%d小时</item>
+        <item quantity="one">%d小时</item>
+    </plurals>
+    <plurals name="stamina_xssm_add_applications_descr">
+        <item quantity="other">目前列表中包含%d个应用程序</item>
+        <item quantity="one">%1$d应用程序当前在列表中</item>
+    </plurals>
+    <plurals name="not_time_left_format_hours">
+        <item quantity="other">%d小时</item>
+        <item quantity="one">%d 小时</item>
+    </plurals>
+    <plurals name="not_time_left_format_minutes">
+        <item quantity="other">%d分钟</item>
+        <item quantity="one">%d分钟</item>
+    </plurals>
+    <plurals name="xssm_settings_blacklist_summary_txt">
+        <item quantity="other">已选择%d个应用程序</item>
+        <item quantity="one">已选择%d个应用程序</item>
+    </plurals>
+</resources>

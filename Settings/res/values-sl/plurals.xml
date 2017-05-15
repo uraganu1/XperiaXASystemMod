@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">Št. korakov, ki vas loči od tega, da postanete razvijalec: %1$d.</item>
+        <item quantity="one">Št. korakov, ki vas loči od tega, da postanete razvijalec: %1$d.</item>
+        <item quantity="two">%1$d koraka vas ločita od tega, da postanete razvijalec.</item>
+        <item quantity="few">%1$d koraki vas ločijo od tega, da postanete razvijalec.</item>
+    </plurals>
+    <plurals name="security_settings_fingerprint_preference_summary">
+        <item quantity="other">Odklepanje s pristnim odtisom je aktivirano</item>
+        <item quantity="one">Odklepanje s pristnim odtisom je aktivirano</item>
+        <item quantity="two">%1$d prstna odtisa sta nastavljena</item>
+        <item quantity="few">%1$d prstni odtisi so nastavljeni</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">Geslo mora imeti vsaj toliko črk: %d.</item>
+        <item quantity="one">Geslo mora imeti vsaj eno črko.</item>
+        <item quantity="two">Geslo mora imeti vsaj %d črki.</item>
+        <item quantity="few">Geslo mora imeti vsaj %d črke.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">Geslo mora imeti vsaj toliko malih črk: %d.</item>
+        <item quantity="one">Geslo mora imeti vsaj eno malo črko.</item>
+        <item quantity="two">Geslo mora imeti vsaj %d mali črki.</item>
+        <item quantity="few">Geslo mora imeti vsaj %d male črke.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">Geslo mora imeti vsaj toliko velikih črk: %d.</item>
+        <item quantity="one">Geslo mora imeti vsaj eno veliko črko.</item>
+        <item quantity="two">Geslo mora imeti vsaj %d veliki črki.</item>
+        <item quantity="few">Geslo mora imeti vsaj %d velike črke.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">Geslo mora imeti vsaj toliko številk: %d.</item>
+        <item quantity="one">Geslo mora imeti vsaj eno številko.</item>
+        <item quantity="two">Geslo mora imeti vsaj %d številki.</item>
+        <item quantity="few">Geslo mora imeti vsaj %d številke.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">Geslo mora imeti vsaj toliko posebnih znakov: %d</item>
+        <item quantity="one">Geslo mora imeti vsaj en posebni znak.</item>
+        <item quantity="two">Geslo mora imeti vsaj %d posebna znaka.</item>
+        <item quantity="few">Geslo mora imeti vsaj %d posebne znake.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">Geslo mora imeti vsaj toliko znakov, ki niso črke: %d.</item>
+        <item quantity="one">Geslo mora imeti vsaj en znak, ki ni črka.</item>
+        <item quantity="two">Geslo mora imeti vsaj %d znaka, ki nista črka.</item>
+        <item quantity="few">Geslo mora imeti vsaj %d znake, ki niso črke.</item>
+    </plurals>
+    <plurals name="wrong_pin_code">
+        <item quantity="other">Napačna koda PIN kartice SIM. Poskusite lahko še %d-krat.</item>
+        <item quantity="one">Napačna koda PIN kartice SIM. Na voljo imate še %d poskus. Potem se boste morali za odklenitev naprave obrniti na ponudnika storitev.</item>
+        <item quantity="two">Napačna koda PIN kartice SIM. Na voljo imate še %d poskusa.</item>
+        <item quantity="few">Napačna koda PIN kartice SIM. Na voljo imate še %d poskuse.</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">Programi (%d) lahko berejo obvestila</item>
+        <item quantity="one">Program (%d) lahko bere obvestila</item>
+        <item quantity="two">%d aplikaciji lahko bereta obvestila</item>
+        <item quantity="few">%d aplikacije lahko berejo obvestila</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_minute">
+        <item quantity="other">Preklopi na alarme le za %1$d min (do %2$s)</item>
+        <item quantity="one">Sprememba na samo alarme za eno minuto do %2$s</item>
+        <item quantity="two">Sprememba na samo alarme za %1$d minuti (do %2$s)</item>
+        <item quantity="few">Sprememba na samo alarme za %1$d minute (do %2$s)</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_hour">
+        <item quantity="other">Preklopi na alarme le za %1$d h do %2$s</item>
+        <item quantity="one">Sprememba na samo alarme za eno uro do %2$s</item>
+        <item quantity="two">Sprememba na samo alarme za %1$d uri do %2$s</item>
+        <item quantity="few">Sprememba na samo alarme za %1$d ure do %2$s</item>
+    </plurals>
+    <plurals name="permissions_summary">
+        <item quantity="other">Dodeljena dovoljenja: %d</item>
+        <item quantity="one">%d odobreno dovoljenje</item>
+        <item quantity="two">%d odobreni dovoljenji</item>
+        <item quantity="few">%d odobrena dovoljenja</item>
+    </plurals>
+    <plurals name="runtime_permissions_summary">
+        <item quantity="other">Dodeljena dovoljenja: %1$d od %2$d</item>
+        <item quantity="one">Število odobrenih dovoljenj: %1$d od %2$d</item>
+        <item quantity="two">Število odobrenih dovoljenj: %1$d od %2$d</item>
+        <item quantity="few">Število odobrenih dovoljenj: %1$d od %2$d</item>
+    </plurals>
+    <plurals name="runtime_permissions_additional_count">
+        <item quantity="other">Dodatna dovoljenja: %d</item>
+        <item quantity="one">%d dodatno dovoljenje</item>
+        <item quantity="two">%d dodatni dovoljenji</item>
+        <item quantity="few">%d dodatna dovoljenja</item>
+    </plurals>
+    <plurals name="domain_urls_apps_summary">
+        <item quantity="other">%d programov lahko odpre podprte povezave</item>
+        <item quantity="zero">Noben program ne more odpreti podprtih povezav</item>
+        <item quantity="one">En program lahko odpre podprte povezave</item>
+        <item quantity="two">%d aplikaciji lahko odpreta svoje podprte povezave</item>
+        <item quantity="few">%d aplikacije lahko odprejo svoje podprte povezave</item>
+    </plurals>
+    <plurals name="high_power_count">
+        <item quantity="other">%d programom je dovoljeno prezrtje optimizacije baterije</item>
+        <item quantity="one">1 programu je dovoljeno prezreti optimizacijo baterije</item>
+        <item quantity="two">%d aplikacijama je dovoljeno prezreti optimizacije akumulatorja</item>
+        <item quantity="few">%d aplikacijam je dovoljeno prezreti optimizacije akumulatorja</item>
+    </plurals>
+    <plurals name="memory_usage_apps_summary">
+        <item quantity="other">%1$d programov je zapolnilo pomnilnik v zadnjih %2$s</item>
+        <item quantity="one">1 app used memory in the last %2$s</item>
+        <item quantity="two">%1$d aplikaciji sta uporabljali pomnilnik v zadnjega toliko časa: %2$s</item>
+        <item quantity="few">%1$d aplikacije so uporabljale pomnilnik v zadnjega toliko časa: %2$s</item>
+    </plurals>
+    <plurals name="remaining_time_format_days">
+        <item quantity="other">Št. dni: %d</item>
+        <item quantity="one">%d dan</item>
+    </plurals>
+    <plurals name="remaining_time_format_hours">
+        <item quantity="other">%d h</item>
+        <item quantity="one">%d ura</item>
+    </plurals>
+    <plurals name="stamina_xssm_add_applications_descr">
+        <item quantity="other">Št. programov, ki so trenutno na seznamu: %d</item>
+        <item quantity="one">Št. programom, ki so trenutno na seznamu: %1$d</item>
+    </plurals>
+    <plurals name="not_time_left_format_hours">
+        <item quantity="other">Št. ur: %d</item>
+        <item quantity="one">Št. ur: %d</item>
+    </plurals>
+    <plurals name="not_time_left_format_minutes">
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min</item>
+    </plurals>
+    <plurals name="xssm_settings_blacklist_summary_txt">
+        <item quantity="other">Št. izbranih programov: %d</item>
+        <item quantity="one">Št. izbranih programov: %d</item>
+    </plurals>
+</resources>
