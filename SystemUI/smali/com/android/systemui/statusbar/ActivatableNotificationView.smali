@@ -57,6 +57,8 @@
 
 .field private mIsBelowSpeedBump:Z
 
+.field private mMyBelowSpeedBump:Z
+
 .field private final mLegacyColor:I
 
 .field private final mLinearInterpolator:Landroid/view/animation/Interpolator;
@@ -362,6 +364,10 @@
     move-result v0
 
     iput v0, p0, Lcom/android/systemui/statusbar/ActivatableNotificationView;->mOutlineAlphaDimmed:F
+
+    const v0, 0x0
+
+    iput-boolean v0, p0, Lcom/android/systemui/statusbar/ActivatableNotificationView;->mMyBelowSpeedBump:Z
 
     .line 137
     return-void
@@ -2055,7 +2061,7 @@
 .end method
 
 .method protected onFinishInflate()V
-    .locals 2
+    .locals 3
 
     .prologue
     .line 165
@@ -2088,6 +2094,13 @@
 
     const v1, 0x7f020149
 
+    iget-boolean v2, p0, Lcom/android/systemui/statusbar/ActivatableNotificationView;->mMyBelowSpeedBump:Z
+
+    if-eqz v2, :cond_5
+
+    const v1, 0x7f0202be
+
+    :cond_5
     invoke-virtual {v0, v1}, Lcom/android/systemui/statusbar/NotificationBackgroundView;->setCustomBackground(I)V
 
     .line 169
@@ -2305,10 +2318,7 @@
     if-eq p1, v0, :cond_0
 
     .line 377
-    iput-boolean p1, p0, Lcom/android/systemui/statusbar/ActivatableNotificationView;->mIsBelowSpeedBump:Z
-
-    .line 378
-    invoke-direct {p0}, Lcom/android/systemui/statusbar/ActivatableNotificationView;->updateBackgroundTint()V
+    iput-boolean p1, p0, Lcom/android/systemui/statusbar/ActivatableNotificationView;->mMyBelowSpeedBump:Z
 
     .line 374
     :cond_0
