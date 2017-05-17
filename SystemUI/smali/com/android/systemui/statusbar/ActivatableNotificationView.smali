@@ -2313,7 +2313,7 @@
     invoke-super {p0, p1}, Lcom/android/systemui/statusbar/ExpandableOutlineView;->setBelowSpeedBump(Z)V
 
     .line 376
-    iget-boolean v0, p0, Lcom/android/systemui/statusbar/ActivatableNotificationView;->mIsBelowSpeedBump:Z
+    iget-boolean v0, p0, Lcom/android/systemui/statusbar/ActivatableNotificationView;->mMyBelowSpeedBump:Z
 
     if-eq p1, v0, :cond_0
 
