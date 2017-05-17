@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Поставки на апликацијата</string>
+    <string name="sonyericsson_settings_title">Xperia™</string>
+    <string name="permlab_settings">пристап до поставки</string>
+    <string name="permdesc_settings">Овозможува апликацијата да пристапи до поставките.</string>
+    <string name="system_icon_settings_menu_title">Икони на лентата за статус</string>
+    <string name="system_icon_settings_title">Системски икони</string>
+    <string name="system_icon_settings_description">Одберете кои системски икони да се прикажат на лентата за статус</string>
+    <string name="system_icon_bluetooth_slot_title">Bluetooth</string>
+    <string name="system_icon_nfc_slot_title">NFC</string>
+    <string name="system_icon_super_stamina_slot_title">STAMINA</string>
+    <string name="system_icon_volume_slot_title">Не вознемирувај</string>
+    <string name="system_icon_wifi_slot_title">Wi-Fi</string>
+    <string name="system_icon_battery_slot_title">Батерија</string>
+    <string name="system_icon_alarm_clock_slot_title">Аларм</string>
+    <string name="system_icon_clock_slot_title">Време</string>
+    <string name="system_icon_battery_percent_view_title">Процент на батерија</string>
+    <string name="system_icon_location_slot_title">Локација</string>
+    <string name="app_notifications_title">Известувања за апликација</string>
+    <string name="notification_most_recent_tab_title">Најнови</string>
+    <string name="notification_downloaded_tab_title">Преземени</string>
+    <string name="notification_all_apps_tab_title">Сите</string>
+    <string name="app_notification_row_banned">Блокирана</string>
+    <string name="app_notification_row_priority">Приоритет</string>
+    <string name="app_notification_row_sensitive">Чувствителна</string>
+</resources>

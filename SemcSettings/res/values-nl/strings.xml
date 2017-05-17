@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ApplicationSettings</string>
+    <string name="sonyericsson_settings_title">Xperia™</string>
+    <string name="permlab_settings">instellingen openen</string>
+    <string name="permdesc_settings">Hiermee kunnen de instellingen worden geopend in de applicatie</string>
+    <string name="system_icon_settings_menu_title">Statusbalkpictogrammen</string>
+    <string name="system_icon_settings_title">Systeempictogrammen</string>
+    <string name="system_icon_settings_description">Selecteer welke systeempictogrammen op de statusbalk worden weergegeven</string>
+    <string name="system_icon_bluetooth_slot_title">Bluetooth</string>
+    <string name="system_icon_nfc_slot_title">NFC</string>
+    <string name="system_icon_super_stamina_slot_title">STAMINA</string>
+    <string name="system_icon_volume_slot_title">Niet storen</string>
+    <string name="system_icon_wifi_slot_title">Wi-Fi</string>
+    <string name="system_icon_battery_slot_title">Batterij</string>
+    <string name="system_icon_alarm_clock_slot_title">Alarm</string>
+    <string name="system_icon_clock_slot_title">Tijd</string>
+    <string name="system_icon_battery_percent_view_title">Batterij percentage</string>
+    <string name="system_icon_location_slot_title">Locatie</string>
+    <string name="app_notifications_title">App-meldingen</string>
+    <string name="notification_most_recent_tab_title">Meest recent</string>
+    <string name="notification_downloaded_tab_title">Gedownload</string>
+    <string name="notification_all_apps_tab_title">Alles</string>
+    <string name="app_notification_row_banned">Geblokkeerd</string>
+    <string name="app_notification_row_priority">Prioriteit</string>
+    <string name="app_notification_row_sensitive">Gevoelig</string>
+</resources>

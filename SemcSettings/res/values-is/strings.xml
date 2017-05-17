@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Stillingar forrits</string>
+    <string name="sonyericsson_settings_title">Xperia™</string>
+    <string name="permlab_settings">aðgangsstillingar</string>
+    <string name="permdesc_settings">Veitir forritinu aðgang að stillingunum.</string>
+    <string name="system_icon_settings_menu_title">Tákn á stöðustiku</string>
+    <string name="system_icon_settings_title">Kerfistákn</string>
+    <string name="system_icon_settings_description">Veldu hvaða kerfistákn eiga að birtast í stöðustikunni</string>
+    <string name="system_icon_bluetooth_slot_title">Bluetooth</string>
+    <string name="system_icon_nfc_slot_title">Nándartenging</string>
+    <string name="system_icon_super_stamina_slot_title">STAMINA</string>
+    <string name="system_icon_volume_slot_title">Ekki trufla</string>
+    <string name="system_icon_wifi_slot_title">Wi-Fi</string>
+    <string name="system_icon_battery_slot_title">Rafhlaða</string>
+    <string name="system_icon_alarm_clock_slot_title">Vekjari</string>
+    <string name="system_icon_clock_slot_title">Tími</string>
+    <string name="system_icon_battery_percent_view_title">Rafhlöðuprósenta</string>
+    <string name="system_icon_location_slot_title">Staðsetning</string>
+    <string name="app_notifications_title">Forritatilkynningar</string>
+    <string name="notification_most_recent_tab_title">Nýjast</string>
+    <string name="notification_downloaded_tab_title">Sótt</string>
+    <string name="notification_all_apps_tab_title">Allt</string>
+    <string name="app_notification_row_banned">Á bannlista</string>
+    <string name="app_notification_row_priority">Forgangur</string>
+    <string name="app_notification_row_sensitive">Viðkvæmt</string>
+</resources>

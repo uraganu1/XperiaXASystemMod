@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sovellusasetukset</string>
+    <string name="sonyericsson_settings_title">Xperia™</string>
+    <string name="permlab_settings">käyttöasetukset</string>
+    <string name="permdesc_settings">Sallii sovelluksen käyttää asetuksia</string>
+    <string name="system_icon_settings_menu_title">Tilarivin kuvakkeet</string>
+    <string name="system_icon_settings_title">Järjestelmäkuvakkeet</string>
+    <string name="system_icon_settings_description">Valitse, mitkä järjestelmäkuvakkeet näytetään tilarivillä</string>
+    <string name="system_icon_bluetooth_slot_title">Bluetooth</string>
+    <string name="system_icon_nfc_slot_title">NFC</string>
+    <string name="system_icon_super_stamina_slot_title">STAMINA</string>
+    <string name="system_icon_volume_slot_title">Ei saa häiritä</string>
+    <string name="system_icon_wifi_slot_title">Wi-Fi</string>
+    <string name="system_icon_battery_slot_title">Akku</string>
+    <string name="system_icon_alarm_clock_slot_title">Hälytys</string>
+    <string name="system_icon_clock_slot_title">Aika</string>
+    <string name="system_icon_battery_percent_view_title">Akkuvirta prosentteina</string>
+    <string name="system_icon_location_slot_title">Sijainti</string>
+    <string name="app_notifications_title">Sovellusilmoitukset</string>
+    <string name="notification_most_recent_tab_title">Uusimmat</string>
+    <string name="notification_downloaded_tab_title">Ladatut</string>
+    <string name="notification_all_apps_tab_title">Kaikki</string>
+    <string name="app_notification_row_banned">Estetty</string>
+    <string name="app_notification_row_priority">Tärkeät</string>
+    <string name="app_notification_row_sensitive">Herkkä</string>
+</resources>

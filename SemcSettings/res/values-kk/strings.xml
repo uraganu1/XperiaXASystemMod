@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ApplicationSettings</string>
+    <string name="sonyericsson_settings_title">Xperia™</string>
+    <string name="permlab_settings">кіру параметрлері</string>
+    <string name="permdesc_settings">Бағдарламаға параметрлерге кіру мүмкіндігін береді.</string>
+    <string name="system_icon_settings_menu_title">Күй жолағының белгішелері</string>
+    <string name="system_icon_settings_title">Жүйелік белгішелер</string>
+    <string name="system_icon_settings_description">Күй жолағында қай жүйелік белгішелер көрсетілетінін таңдау</string>
+    <string name="system_icon_bluetooth_slot_title">Bluetooth</string>
+    <string name="system_icon_nfc_slot_title">NFC</string>
+    <string name="system_icon_super_stamina_slot_title">STAMINA</string>
+    <string name="system_icon_volume_slot_title">Мазаламау</string>
+    <string name="system_icon_wifi_slot_title">Wi-Fi</string>
+    <string name="system_icon_battery_slot_title">Батарея</string>
+    <string name="system_icon_alarm_clock_slot_title">Ескерту</string>
+    <string name="system_icon_clock_slot_title">Уақыт</string>
+    <string name="system_icon_battery_percent_view_title">Батарея қуатының пайызы</string>
+    <string name="system_icon_location_slot_title">Орын</string>
+    <string name="app_notifications_title">Қолданба хабар-лары</string>
+    <string name="notification_most_recent_tab_title">Ең соңғы</string>
+    <string name="notification_downloaded_tab_title">Жүктелген</string>
+    <string name="notification_all_apps_tab_title">Барлығы</string>
+    <string name="app_notification_row_banned">Бөгелген</string>
+    <string name="app_notification_row_priority">Басымдылық</string>
+    <string name="app_notification_row_sensitive">Құпия</string>
+</resources>

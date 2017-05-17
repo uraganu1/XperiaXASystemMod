@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">應用程式設定</string>
+    <string name="sonyericsson_settings_title">Xperia™</string>
+    <string name="permlab_settings">存取設定</string>
+    <string name="permdesc_settings">允許應用程式存取設定。</string>
+    <string name="system_icon_settings_menu_title">狀態列圖示</string>
+    <string name="system_icon_settings_title">系統圖示</string>
+    <string name="system_icon_settings_description">選取要在狀態列中顯示的系統圖示</string>
+    <string name="system_icon_bluetooth_slot_title">藍牙</string>
+    <string name="system_icon_nfc_slot_title">NFC</string>
+    <string name="system_icon_super_stamina_slot_title">STAMINA</string>
+    <string name="system_icon_volume_slot_title">勿擾模式</string>
+    <string name="system_icon_wifi_slot_title">Wi-Fi</string>
+    <string name="system_icon_battery_slot_title">電池</string>
+    <string name="system_icon_alarm_clock_slot_title">鬧鐘</string>
+    <string name="system_icon_clock_slot_title">時間</string>
+    <string name="system_icon_battery_percent_view_title">電力百分比</string>
+    <string name="system_icon_location_slot_title">地點</string>
+    <string name="app_notifications_title">應用程式通知</string>
+    <string name="notification_most_recent_tab_title">最近</string>
+    <string name="notification_downloaded_tab_title">已下載</string>
+    <string name="notification_all_apps_tab_title">全部</string>
+    <string name="app_notification_row_banned">已封鎖</string>
+    <string name="app_notification_row_priority">優先</string>
+    <string name="app_notification_row_sensitive">機密</string>
+</resources>

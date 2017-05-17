@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ApplicationSettings</string>
+    <string name="sonyericsson_settings_title">Xperia™</string>
+    <string name="permlab_settings">beállítások elérése</string>
+    <string name="permdesc_settings">Az alkalmazás elérheti a beállításokat.</string>
+    <string name="system_icon_settings_menu_title">Állapotsáv ikonjai</string>
+    <string name="system_icon_settings_title">Rendszerikonok</string>
+    <string name="system_icon_settings_description">Az állapotsávon megjelenítendő rendszerikonok kiválasztása</string>
+    <string name="system_icon_bluetooth_slot_title">Bluetooth</string>
+    <string name="system_icon_nfc_slot_title">NFC</string>
+    <string name="system_icon_super_stamina_slot_title">STAMINA</string>
+    <string name="system_icon_volume_slot_title">Ne zavarjanak</string>
+    <string name="system_icon_wifi_slot_title">Wi-Fi</string>
+    <string name="system_icon_battery_slot_title">Akkumulátor</string>
+    <string name="system_icon_alarm_clock_slot_title">Riasztás</string>
+    <string name="system_icon_clock_slot_title">idő</string>
+    <string name="system_icon_battery_percent_view_title">Akkumulátor százaléka</string>
+    <string name="system_icon_location_slot_title">Helyszín</string>
+    <string name="app_notifications_title">Alkalmazásértesítések</string>
+    <string name="notification_most_recent_tab_title">Legutóbbiak</string>
+    <string name="notification_downloaded_tab_title">Letöltve</string>
+    <string name="notification_all_apps_tab_title">Mind</string>
+    <string name="app_notification_row_banned">Letiltva</string>
+    <string name="app_notification_row_priority">Prioritás</string>
+    <string name="app_notification_row_sensitive">Bizalmas</string>
+</resources>

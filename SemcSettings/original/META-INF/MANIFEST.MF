@@ -1,0 +1,66 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (signatory)
+
+Name: AndroidManifest.xml
+SHA1-Digest: ykgmdEAlKpp+Zyi6MWiQklWLX8A=
+
+Name: res/drawable-xxhdpi-v4/ic_settings_alarm.png
+SHA1-Digest: XiNiQueoR7IGN/SLKFDma5IMo64=
+
+Name: res/drawable-xxhdpi-v4/ic_settings_battery_perc.png
+SHA1-Digest: ZUQ+H9BJzMI55MPK8yQ8Mx8fP3c=
+
+Name: res/drawable-xxhdpi-v4/ic_settings_battery_perc_disabled.png
+SHA1-Digest: bPG516fmbmy9YaVwdwnwaiz7awI=
+
+Name: res/drawable-xxhdpi-v4/ic_settings_batterystatus.png
+SHA1-Digest: qIwRYOgxqfS/p3uZDa4u517LZtc=
+
+Name: res/drawable-xxhdpi-v4/ic_settings_bluetooth.png
+SHA1-Digest: kNy3sfoxQdKXSencwWeHXlrSUhc=
+
+Name: res/drawable-xxhdpi-v4/ic_settings_location.png
+SHA1-Digest: PTW3dZ/2nyJu6399IzT2iabaSfQ=
+
+Name: res/drawable-xxhdpi-v4/ic_settings_silentmode.png
+SHA1-Digest: FZ4mjSTCPwRbVHjFdDYYJ/lo0Lg=
+
+Name: res/drawable-xxhdpi-v4/ic_settings_stamina.png
+SHA1-Digest: 8O1u1vHaefeN4kuczJg9qOcGmAQ=
+
+Name: res/drawable-xxhdpi-v4/ic_settings_stamina_disabled.png
+SHA1-Digest: SK3JG5rFhsu/pDvGeplYUDNlL2g=
+
+Name: res/drawable-xxhdpi-v4/ic_settings_time.png
+SHA1-Digest: p4jYvN0rkm6TM2aNdx/uEqMRjbc=
+
+Name: res/drawable-xxhdpi-v4/ic_settings_wifi.png
+SHA1-Digest: AvJAkH4SvNa0bbVwvEsd23l8i3s=
+
+Name: res/drawable/ic_settings_battery_percent.xml
+SHA1-Digest: TS111bfGQdhbZbkC4KlpoNbwYXk=
+
+Name: res/drawable/ic_settings_stamina_mode.xml
+SHA1-Digest: VltT82CeTA3jxN/jLITHvfUoWSw=
+
+Name: res/layout/main.xml
+SHA1-Digest: 0j9BoK5YAJnpASe/yHy6jFONOhc=
+
+Name: res/layout/notification_list.xml
+SHA1-Digest: +rEMnqE/igs2l5QAvklMt2G/BvM=
+
+Name: res/layout/notification_listitem.xml
+SHA1-Digest: ZWcrIKZsnUnpLQvysOSMHhLy2kI=
+
+Name: res/layout/notification_tab_host.xml
+SHA1-Digest: yOg25ujeAJAqf1DueVhm5MpmZ0U=
+
+Name: res/layout/system_icon_list.xml
+SHA1-Digest: ZfouBHRb7q9sKB4zMOuroGyyw6c=
+
+Name: res/layout/system_icon_listitem.xml
+SHA1-Digest: qlEIbiV/y8Wdz9oWm2X3mhpCFUg=
+
+Name: resources.arsc
+SHA1-Digest: 7TymvT0V6lncOPXltg009sFAj98=
+

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Appinställningar</string>
+    <string name="sonyericsson_settings_title">Xperia™</string>
+    <string name="permlab_settings">åtkomst till inställningar</string>
+    <string name="permdesc_settings">Ger appen åtkomst till inställningarna.</string>
+    <string name="system_icon_settings_menu_title">Ikoner för statusfält</string>
+    <string name="system_icon_settings_title">Systemikoner</string>
+    <string name="system_icon_settings_description">Välj vilka systemikoner som ska visas i statusfältet</string>
+    <string name="system_icon_bluetooth_slot_title">Bluetooth</string>
+    <string name="system_icon_nfc_slot_title">NFC</string>
+    <string name="system_icon_super_stamina_slot_title">STAMINA</string>
+    <string name="system_icon_volume_slot_title">Stör ej</string>
+    <string name="system_icon_wifi_slot_title">Wi-Fi</string>
+    <string name="system_icon_battery_slot_title">Batteri</string>
+    <string name="system_icon_alarm_clock_slot_title">Alarm</string>
+    <string name="system_icon_clock_slot_title">Tid</string>
+    <string name="system_icon_battery_percent_view_title">Batteriprocent</string>
+    <string name="system_icon_location_slot_title">Plats</string>
+    <string name="app_notifications_title">Appaviseringar</string>
+    <string name="notification_most_recent_tab_title">Senaste</string>
+    <string name="notification_downloaded_tab_title">Hämtade</string>
+    <string name="notification_all_apps_tab_title">Alla</string>
+    <string name="app_notification_row_banned">Blockerad</string>
+    <string name="app_notification_row_priority">Prioritet</string>
+    <string name="app_notification_row_sensitive">Känsligt</string>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nastavitve programa</string>
+    <string name="sonyericsson_settings_title">Xperia™</string>
+    <string name="permlab_settings">nastavitve dostopa</string>
+    <string name="permdesc_settings">Omogoča programu dostop do nastavitev.</string>
+    <string name="system_icon_settings_menu_title">Ikone vrstice stanja</string>
+    <string name="system_icon_settings_title">Sistemske ikone</string>
+    <string name="system_icon_settings_description">Izberite, katere sistemske ikone želite prikazati v vrstici stanja</string>
+    <string name="system_icon_bluetooth_slot_title">Bluetooth</string>
+    <string name="system_icon_nfc_slot_title">NFC</string>
+    <string name="system_icon_super_stamina_slot_title">STAMINA</string>
+    <string name="system_icon_volume_slot_title">Ne motite</string>
+    <string name="system_icon_wifi_slot_title">Wi-Fi</string>
+    <string name="system_icon_battery_slot_title">Baterija</string>
+    <string name="system_icon_alarm_clock_slot_title">Alarm</string>
+    <string name="system_icon_clock_slot_title">Ura</string>
+    <string name="system_icon_battery_percent_view_title">Odstotek baterije</string>
+    <string name="system_icon_location_slot_title">Lokacija</string>
+    <string name="app_notifications_title">Obvestila aplikacij</string>
+    <string name="notification_most_recent_tab_title">Zadnji</string>
+    <string name="notification_downloaded_tab_title">Preneseni</string>
+    <string name="notification_all_apps_tab_title">Vsi</string>
+    <string name="app_notification_row_banned">Blokirano</string>
+    <string name="app_notification_row_priority">Prioriteta</string>
+    <string name="app_notification_row_sensitive">Občutljivo</string>
+</resources>
