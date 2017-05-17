@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/multi_choice_contacts_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/buttons" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" style="?android:attr/buttonBarStyle">
+        <Button android:id="@id/mlt_contcts_discard_btn" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/spb_strings_gen_cancel_txt" android:layout_weight="1.0" style="?android:attr/buttonBarButtonStyle" />
+        <Button android:id="@id/mlt_contcts_done_btn" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/menu_done" android:layout_weight="1.0" style="?android:attr/buttonBarButtonStyle" />
+    </LinearLayout>
+    <ListView android:scrollbarStyle="outsideOverlay" android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" android:layout_above="@id/buttons" />
+</RelativeLayout>

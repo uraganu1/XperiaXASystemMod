@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="spb_strings_delete_deleting_failed_txt">
+        <item quantity="other">தொடர்புகளை நீக்கு</item>
+        <item quantity="one">தொடர்பை நீக்கு</item>
+    </plurals>
+    <plurals name="spb_strings_delete_multiple_delete_confirmation_txt">
+        <item quantity="other">தேர்வு தொடர்பு நீக்கப்படும்</item>
+        <item quantity="one">தேர்வு தொடர்பு நீக்கப்படும்</item>
+    </plurals>
+    <plurals name="spb_strings_delete_progress_deleting_contacts_txt">
+        <item quantity="other">தொடர்புகளை நீக்குகிறது</item>
+        <item quantity="one">தொடர்பை நீக்குகிறது</item>
+    </plurals>
+    <plurals name="spb_strings_delete_contact_deleted_txt">
+        <item quantity="other">தொடர்புகள் நீக்கப்பட்டன</item>
+        <item quantity="one">தொடர்பு நீக்கப்பட்டது</item>
+    </plurals>
+    <plurals name="favorite_contactsAddedToast">
+        <item quantity="other">பிடித்தவையில் தொடர்புகள் சேர்க்கப்பட்டது</item>
+        <item quantity="one">பிடித்தவையில் தொடர்பு சேர்க்கப்பட்டது</item>
+    </plurals>
+    <plurals name="gal_completed_fmt">
+        <item quantity="other">%2$s -இலிருந்து %1$d முடிவுகள்</item>
+        <item quantity="one">%2$s வழங்கும் 1 முடிவு</item>
+    </plurals>
+    <plurals name="spb_strings_group_available_data_count">
+        <item quantity="other">%2$d இல் %1$d உறுப்பினர்கள்</item>
+        <item quantity="one">%1$d இல் %2$d உறுப்பினர்</item>
+    </plurals>
+    <plurals name="spb_strings_export_contacts_exported_txt">
+        <item quantity="other">தொடர்புகள் ஏற்றுமதி செய்யப்பட்டன</item>
+        <item quantity="one">தொடர்பு ஏற்றுமதி செய்யப்பட்டது</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">குரல்மின்னஞ்சல் செய்தி. (%1$d)</item>
+        <item quantity="one">குரலஞ்சல் செய்தி</item>
+    </plurals>
+    <plurals name="ice_view_remove_contacts_from_ice_list_toast_info">
+        <item quantity="other">ICE தொடர்புகள் பட்டியலிலிருந்து தொடர்புகள் அழிக்கப்பட்டன</item>
+        <item quantity="one">ICE தொடர்புகள் பட்டியலிலிருந்து தொடர்பு அழிக்கப்பட்டது</item>
+    </plurals>
+</resources>

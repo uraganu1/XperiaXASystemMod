@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="spb_strings_delete_deleting_failed_txt">
+        <item quantity="other">Odstránenie kontaktov</item>
+        <item quantity="one">Odstrániť kontakt</item>
+    </plurals>
+    <plurals name="spb_strings_delete_multiple_delete_confirmation_txt">
+        <item quantity="other">Vybraté kontakty sa odstránia</item>
+        <item quantity="one">Vybratý kontakt sa odstráni</item>
+    </plurals>
+    <plurals name="spb_strings_delete_progress_deleting_contacts_txt">
+        <item quantity="other">Odstraňujú sa kontakty</item>
+        <item quantity="one">Kontakt sa odstraňuje</item>
+    </plurals>
+    <plurals name="spb_strings_delete_contact_deleted_txt">
+        <item quantity="other">Kontakty odstránené</item>
+        <item quantity="one">Kontakt odstránený</item>
+    </plurals>
+    <plurals name="favorite_contactsAddedToast">
+        <item quantity="other">Kontakty bol pridané k obľúbeným</item>
+        <item quantity="one">Kontakt bol pridaný k obľúbeným</item>
+    </plurals>
+    <plurals name="gal_completed_fmt">
+        <item quantity="other">Počet výsledkov z domény %2$s: %1$d</item>
+        <item quantity="one">1 výsledok z domény %2$s</item>
+    </plurals>
+    <plurals name="spb_strings_group_available_data_count">
+        <item quantity="other">Počet členov: %1$d z %2$d</item>
+        <item quantity="one">Počet členov: %1$d z %2$d</item>
+    </plurals>
+    <plurals name="spb_strings_export_contacts_exported_txt">
+        <item quantity="other">Kontakty sa exportovali</item>
+        <item quantity="one">Kontakt sa exportoval</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">Hlasové správy (%1$d)</item>
+        <item quantity="one">Hlasová správa</item>
+    </plurals>
+    <plurals name="ice_view_remove_contacts_from_ice_list_toast_info">
+        <item quantity="other">Kontakty sa vymazali zo zoznamu ICE kontaktov</item>
+        <item quantity="one">Kontakt sa vymazal zo zoznamu ICE kontaktov</item>
+    </plurals>
+</resources>

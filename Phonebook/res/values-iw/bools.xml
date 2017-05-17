@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="spb_alphabet_bar_collapsible">true</bool>
+</resources>

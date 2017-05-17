@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/pileview_item_image_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <TextView android:textSize="20.0sp" android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/pile_view_more_counter" android:background="@color/pile_view_additional_counter_background_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:textAlignment="center" />
+    <ImageView android:layout_gravity="center" android:id="@id/pileview_item_video_indicator" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_attach_video_pileview_tinted" android:scaleType="centerCrop" />
+    <View android:background="@drawable/attachment_frame" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/pileview_item_remove_button" android:background="@drawable/pile_view_close_button_background" android:padding="@dimen/pileview_item_close_button_x_to_edge_padding" android:layout_width="@dimen/pileview_item_close_button_size" android:layout_height="@dimen/pileview_item_close_button_size" android:layout_marginTop="@dimen/pileview_item_close_button_shift_left_top" android:src="@drawable/ic_attach_close" android:tint="@android:color/white" android:layout_marginStart="@dimen/pileview_item_close_button_shift_left_top" />
+</merge>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/dialpad_toolbar" />
+    <RelativeLayout android:background="@color/call_button_container_color" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/smartsearch_fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/call_button_container" />
+        <FrameLayout android:id="@id/twelve_key_dialer_fragment_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+        <FrameLayout android:id="@id/call_button_container" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="@dimen/fab_call_container_height" android:layout_alignParentBottom="true" android:layout_centerInParent="true">
+            <include android:layout_gravity="center|top" android:id="@id/fab_call" android:visibility="gone" android:layout_width="@dimen/fab_size" android:layout_height="@dimen/fab_size" layout="@layout/floating_call_button" />
+            <include android:layout_gravity="bottom|center" android:id="@id/dual_call_button_group" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/call_button_group_margin_bottom" layout="@layout/dual_call_button_group" />
+            <include android:id="@id/call_button_items" android:visibility="gone" layout="@layout/call_button_items" />
+        </FrameLayout>
+    </RelativeLayout>
+</LinearLayout>

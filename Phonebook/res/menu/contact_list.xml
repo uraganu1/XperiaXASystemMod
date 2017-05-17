@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/spb_contacts_search_contact_icn" android:id="@id/menu_search" android:title="@string/menu_search" android:showAsAction="ifRoom" />
+    <item android:id="@id/menu_add_account" android:title="@string/spb_contacts_list_menu_add_account_txt" />
+    <item android:id="@id/menu_import" android:title="@string/spb_strings_contacts_import_txt" />
+    <item android:id="@id/menu_export" android:title="@string/spb_strings_contacts_list_menu_export_contacts_txt" />
+    <item android:id="@id/menu_start_verizon_cloud" android:visible="false" android:title="@string/spb_strings_contacts_list_menu_start_verizon_cloud_txt" />
+    <item android:enabled="true" android:id="@id/menu_mark" android:title="@string/spb_strings_contacts_list_menu_mark_mode_txt" />
+    <item android:id="@id/menu_filter" android:title="@string/spb_strings_contacts_list_filter_txt" />
+    <item android:id="@id/menu_find_link" android:title="@string/spb_strings_link_contact_suggestion_check_contacts_option_txt" />
+    <item android:icon="@android:drawable/ic_menu_preferences" android:id="@id/menu_settings" android:title="@string/spb_strings_gen_settings_txt" />
+    <item android:id="@id/menu_help" android:visible="false" android:title="@string/spb_strings_menu_item_help" android:showAsAction="never" />
+    <item android:id="@id/menu_send_feedback" android:visible="false" android:title="@string/spb_strings_menu_send_feedback_txt" />
+    <item android:id="@id/menu_traceview" android:visible="false" android:title="Traceview" />
+</menu>

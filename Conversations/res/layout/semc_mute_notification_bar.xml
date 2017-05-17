@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textSize="14.0dip" android:textStyle="bold" android:gravity="center_vertical" android:id="@id/conversation_mute_notification_bar_turn_on_button" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/conversation_strings_action_unmute_conversation" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" android:layout_alignParentEnd="true" style="?android:attr/textAppearanceMediumInverse" />
+    <View android:id="@id/conversation_mute_notification_bar_divider" android:background="@color/mute_conversation_bar_semitransparent_white" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:layout_alignStart="@id/conversation_mute_notification_bar_turn_on_button" />
+    <TextView android:gravity="start|center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/conversation_strings_mute_conversation_notification" android:maxLines="2" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" android:layout_toStartOf="@id/conversation_mute_notification_bar_turn_on_button" style="@style/MuteNotificationBanner" />
+</RelativeLayout>

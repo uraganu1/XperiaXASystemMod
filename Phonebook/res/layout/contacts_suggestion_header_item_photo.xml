@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/header_item_info" android:background="@drawable/spb_link_contact_header_background" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/contacts_link_header_layout_height" android:layout_centerVertical="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <QuickContactBadge android:id="@id/list_item_photo" android:layout_width="@dimen/contacts_list_item_photo_width" android:layout_height="@dimen/contacts_list_item_photo_height" android:scaleType="centerCrop" android:layout_centerVertical="true" android:layout_marginStart="@dimen/contacts_list_item_head_photo_margin_right" android:layout_marginEnd="@dimen/contacts_list_item_head_photo_margin_left" android:layout_alignParentStart="true" style="?android:attr/quickContactBadgeStyleSmallWindowMedium" />
+    <RelativeLayout android:id="@id/list_item_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/item_photo_editor_margin_left" android:layout_toEndOf="@id/list_item_photo">
+        <TextView android:gravity="center_vertical" android:id="@id/list_item_name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextAppearance.Medium.Marquee" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/list_item_sub_line" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/list_item_name">
+            <ImageView android:id="@id/list_item_icn" android:visibility="gone" android:layout_width="@dimen/contacts_list_item_photo_list_item_icon_width" android:layout_height="@dimen/contacts_list_item_photo_list_item_icon_height" android:layout_marginEnd="@dimen/contacts_list_item_photo_list_item_icon_margin_right" />
+            <TextView android:textStyle="bold" android:textColor="?android:textColorSecondary" android:id="@id/list_item_label" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextAppearance.Small.Marquee" />
+            <TextView android:textColor="?android:textColorSecondary" android:id="@id/list_item_data" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextAppearance.Small.Marquee" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

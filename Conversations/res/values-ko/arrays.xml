@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>어디예요?</item>
+        <item>뭐 하고 있어요?</item>
+        <item>급합니다! 즉시 연락해 주세요.</item>
+        <item>죄송합니다. 회의 중입니다.</item>
+        <item>괜찮습니다. 걱정하지 마세요.</item>
+        <item>집에 가는 길입니다.</item>
+        <item>바로 연락 드리겠습니다.</item>
+        <item>바로 가겠습니다.</item>
+        <item>이것 좀 보세요!</item>
+    </string-array>
+</resources>

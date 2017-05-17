@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<overlay-resources>
+    <filter-group group="nine-patch">
+        <filter type="type" value="nine-patch" />
+    </filter-group>
+    <filter-group group="bitmap">
+        <filter type="type" value="bitmap" />
+    </filter-group>
+    <filter-group group="image">
+        <filter type="type" value="bitmap,nine-patch" />
+    </filter-group>
+    <filter-group group="color">
+        <filter type="type" value="color" />
+    </filter-group>
+    <overlay id="@color/add_edit_account_chooser_background" filters="color" />
+    <overlay id="@color/call_button_container_color" filters="color" />
+    <overlay id="@drawable/ic_big_contact_picture_normal" filters="bitmap">
+        <filter type="size" minWidth="48dp" maxWidth="140dp" minHeight="48dp" maxHeight="140dp" />
+    </overlay>
+    <filter-group group="fab-open-dialer-icon">
+        <filter type="type" value="bitmap,vector" />
+        <filter type="size" minWidth="1px" maxWidth="56dp" minHeight="1px" maxHeight="56dp" />
+    </filter-group>
+    <overlay id="@drawable/fab_open_dial_pad_icon" filters="fab-open-dialer-icon" />
+    <filter-group group="dialpad_buttons">
+        <filter type="type" value="bitmap,nine-patch" />
+        <filter type="size" minWidth="1px" maxWidth="35dp" minHeight="1px" maxHeight="35dp" />
+    </filter-group>
+    <overlay id="@drawable/dial_num_normal" filters="dialpad_buttons" />
+    <overlay id="@drawable/dial_num_focused" filters="dialpad_buttons" />
+    <overlay id="@drawable/dial_num_pressed" filters="dialpad_buttons" />
+    <overlay id="@drawable/dial_num_pressed_focused" filters="dialpad_buttons" />
+    <filter-group group="dial-num-button-selector">
+        <filter type="type" value="selector,animated-selector">
+            <filter type="included" value="false" />
+        </filter>
+        <filter type="type" value="bitmap,vector,nine-patch">
+            <filter type="included" value="true" />
+        </filter>
+        <filter type="size" minWidth="1px" maxWidth="35dp" minHeight="1px" maxHeight="35dp">
+            <filter type="included" value="true" />
+        </filter>
+    </filter-group>
+    <overlay id="@drawable/dialpad_btn_background" filters="dial-num-button-selector" />
+    <overlay id="@color/dial_pad_btn_ripple_color" filters="color" />
+    <overlay id="@color/dial_pad_btn_bg_color_normal" filters="color" />
+    <overlay id="@color/dial_pad_btn_bg_color_pressed" filters="color" />
+    <overlay id="@color/dial_pad_btn_bg_color_focused" filters="color" />
+    <overlay id="@color/dial_pad_btn_bg_color_focused_pressed" filters="color" />
+    <overlay id="@color/dialpad_text_color" filters="color" />
+    <overlay id="@drawable/dialpad_voicemail_icn" filters="bitmap">
+        <filter type="size" minWidth="25dp" maxWidth="30dp" minHeight="12dp" maxHeight="16dp" />
+    </overlay>
+    <overlay id="@drawable/dial_background" filters="image">
+        <filter type="size" minWidth="1px" maxWidth="100dp" minHeight="1px" maxHeight="50dp" />
+    </overlay>
+    <overlay id="@drawable/btn_dial_textfield_normal" filters="image">
+        <filter type="size" minWidth="1px" maxWidth="300dp" minHeight="1px" maxHeight="42dp" />
+    </overlay>
+    <overlay id="@color/dialpad_inputfield_bg_color" filters="color" />
+    <overlay id="@color/dialpad_inputfield_text_color" filters="color" />
+    <filter-group group="delete_digits_button">
+        <filter type="type" value="bitmap,vector" />
+        <filter type="size" minWidth="30dp" maxWidth="34dp" minHeight="30dp" maxHeight="34dp" />
+    </filter-group>
+    <overlay id="@drawable/ic_delete_phone_number_normal" filters="delete_digits_button" />
+    <overlay id="@drawable/ic_delete_phone_number_focused" filters="delete_digits_button" />
+    <overlay id="@drawable/ic_delete_phone_number_disabled" filters="delete_digits_button" />
+    <filter-group group="delete-button-selector">
+        <filter type="type" value="selector,animated-selector">
+            <filter type="included" value="false" />
+        </filter>
+        <filter type="type" value="bitmap,vector">
+            <filter type="included" value="true" />
+        </filter>
+        <filter type="size" minWidth="30dp" maxWidth="34dp" minHeight="30dp" maxHeight="34dp">
+            <filter type="included" value="true" />
+        </filter>
+    </filter-group>
+    <overlay id="@drawable/delete_phonenumber_btn" filters="delete-button-selector" />
+    <overlay id="@color/call_log_search_bar_bg_color" filters="color" />
+    <overlay id="@color/call_log_search_bar_hint_text_color" filters="color" />
+    <overlay id="@color/call_log_search_bar_icon_tint" filters="color" />
+    <overlay id="@color/generic_primary_background_color" filters="color" />
+    <overlay id="@color/generic_secondary_background_color" filters="color" />
+    <overlay id="@bool/use_static_contact_picture" />
+</overlay-resources>

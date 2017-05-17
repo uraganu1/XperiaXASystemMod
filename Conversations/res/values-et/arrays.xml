@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>Kus oled?</item>
+        <item>Mis teed?</item>
+        <item>Kiire! Vasta esimesel võimalusel.</item>
+        <item>Olen koosolekul.</item>
+        <item>Kõik on korras. Ära muretse.</item>
+        <item>Olen teel koju.</item>
+        <item>Võtan sinuga hiljem ühendust.</item>
+        <item>Olen kohe kohal.</item>
+        <item>Vaata seda!</item>
+    </string-array>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>Hol vagy?</item>
+        <item>Mit csinálsz?</item>
+        <item>Sürgős! Válaszolj, amint lehet.</item>
+        <item>Sajnálom, értekezleten vagyok.</item>
+        <item>Jól vagyok, ne aggódj.</item>
+        <item>Úton vagyok hazafelé.</item>
+        <item>Visszahívlak.</item>
+        <item>Rögtön ott vagyok.</item>
+        <item>Ezt nézd meg!</item>
+    </string-array>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/generic_padding" android:paddingBottom="@dimen/generic_padding" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="center" android:id="@id/file_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@null" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/file_transfer_body" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingEnd="@dimen/generic_margin" android:layout_marginStart="@dimen/generic_padding">
+        <TextView android:textStyle="bold" android:ellipsize="end" android:id="@id/file_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/BubbleText" />
+        <TextView android:id="@id/file_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/BubbleText" />
+    </LinearLayout>
+</LinearLayout>

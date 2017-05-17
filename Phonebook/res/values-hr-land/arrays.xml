@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spb_arrays_contacts_list_scroll_bar_characters_txt">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>・</item>
+        <item>H</item>
+        <item>・</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>・</item>
+        <item>S</item>
+        <item>・</item>
+        <item>Z</item>
+        <item>Ž</item>
+        <item>\#</item>
+    </string-array>
+    <string-array name="spb_arrays_contacts_list_separator_characters_txt">
+        <item>A</item>
+        <item>B</item>
+        <item>C,Č,Ć</item>
+        <item>D,Dž</item>
+        <item>E,F,G</item>
+        <item>H</item>
+        <item>I,J,K</item>
+        <item>L,Lj</item>
+        <item>M</item>
+        <item>N,Nj</item>
+        <item>O,P,R</item>
+        <item>S,Š</item>
+        <item>T,U,V</item>
+        <item>Z</item>
+        <item>Ž</item>
+        <item>\#</item>
+    </string-array>
+    <string-array name="spb_arrays_contacts_list_index_box_characters_txt">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>D</item>
+        <item>H</item>
+        <item>H</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>N</item>
+        <item>S</item>
+        <item>S</item>
+        <item>Z</item>
+        <item>Ž</item>
+        <item>\#</item>
+    </string-array>
+</resources>

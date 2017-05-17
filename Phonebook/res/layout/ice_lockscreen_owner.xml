@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:paddingTop="@dimen/ice_lockscreen_owner_padding_top" android:paddingBottom="@dimen/ice_lockscreen_owner_padding_bottom" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <QuickContactBadge android:id="@id/owner_image" android:layout_width="@dimen/contacts_list_item_photo_width" android:layout_height="@dimen/contacts_list_item_photo_height" android:scaleType="centerCrop" android:layout_centerVertical="true" android:layout_marginStart="@dimen/contacts_list_item_head_photo_margin_left" android:layout_marginEnd="@dimen/contacts_list_item_head_photo_margin_right" android:layout_alignParentStart="true" style="?android:attr/quickContactBadgeStyleSmallWindowMedium" />
+    <LinearLayout android:orientation="vertical" android:id="@id/owner_description_container" android:paddingBottom="@dimen/contacts_list_item_relative_layout_padding_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toEndOf="@id/owner_image">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/owner_text" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ice_lockscreen_phone_owner" android:singleLine="true" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:ellipsize="end" android:id="@id/owner_detail_text" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_marginEnd="@dimen/ice_myself_detail_text_margin_end" />
+    </LinearLayout>
+</RelativeLayout>

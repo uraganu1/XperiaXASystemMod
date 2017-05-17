@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>எங்கே இருக்கிறீர்கள்?</item>
+        <item>என்ன செய்ய போகிறீர்கள்?</item>
+        <item>அவசரம்! உடனடி பதில்.</item>
+        <item>சாரி. மீட்டிங்கில் உள்ளேன்.</item>
+        <item>நான் நலம். கவலை வேண்டா.</item>
+        <item>வீட்டிற்கு சென்றுகொண்டிரு.</item>
+        <item>உங்களுக்கு தெரியப்படுத்துக.</item>
+        <item>நான் அங்கு இருப்பேன்.</item>
+        <item>இதை முயற்சி செய்யவும்!</item>
+    </string-array>
+</resources>

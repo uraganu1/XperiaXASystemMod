@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>کجایی؟</item>
+        <item>می خواهی چکار کنی؟</item>
+        <item>فوری! لطفاً هر چه سریعتر جواب بده.</item>
+        <item>متأسفم، الان در جلسه هستم.</item>
+        <item>خوبم. نگران نباشید.</item>
+        <item>در راه خانه هستم.</item>
+        <item>پیش تو بر می گردم.</item>
+        <item>الان می رسم آنجا.</item>
+        <item>این را بررسی کن!</item>
+    </string-array>
+</resources>

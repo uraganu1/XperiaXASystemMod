@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:id="@id/semc_text_template_input_edit_string" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dialog_small_padding" android:maxLines="10" android:inputType="text" android:layout_marginStart="@dimen/dialog_padding" android:layout_marginEnd="@dimen/dialog_padding" />
+</LinearLayout>

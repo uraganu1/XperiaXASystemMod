@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="spb_arrays_contacts_list_scroll_bar_characters_txt" />
+    <array name="spb_arrays_contacts_list_separator_characters_txt" />
+    <array name="spb_arrays_contacts_list_index_box_characters_txt" />
+    <string-array name="spb_arrays_edit_option_list_add_image_txt">
+        <item>藝廊</item>
+        <item>拍攝新相片</item>
+    </string-array>
+    <string-array name="spb_arrays_edit_option_list_add_album_image_txt">
+        <item>相簿</item>
+        <item>拍攝新相片</item>
+    </string-array>
+    <string-array name="otherLabels">
+        <item>組織</item>
+        <item>便條</item>
+    </string-array>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/top_contacts_header" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="start|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/top_contacts_title_margin_start">
+        <TextView android:textColor="@android:color/white" android:id="@id/top_contacts_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/top_contacts_header_title" style="@android:style/TextAppearance.Material.Title" />
+        <TextView android:textColor="@android:color/white" android:id="@id/top_contacts_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/top_contacts_description_max_width" android:text="@string/top_contacts_list_description" android:layout_below="@id/top_contacts_title" style="@android:style/TextAppearance.Material.Body1" />
+    </RelativeLayout>
+    <ImageView android:layout_gravity="end" android:id="@id/top_contact_header_empty_icon" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/empty_top_contacts_icon" />
+</FrameLayout>

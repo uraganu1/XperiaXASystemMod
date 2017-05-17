@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sonyericsson.conversations.ui.MessageTimestampView android:gravity="center_vertical" android:orientation="horizontal" android:background="@null" android:paddingTop="@dimen/message_header_top_padding" android:paddingBottom="@dimen/message_header_bottom_padding" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/message_header_height" android:minHeight="@dimen/message_header_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/message_item_header_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginEnd="@dimen/message_header_item_icon_margin_end" />
+    <include layout="@layout/somc_sim_card_indicator" />
+    <TextView android:textSize="@dimen/message_header_text_size" android:textStyle="bold" android:gravity="center_vertical" android:id="@id/message_item_header_type_indicator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingEnd="@dimen/message_header_item_icon_margin_end" style="?android:attr/textAppearanceSmall" />
+    <TextView android:textSize="@dimen/message_header_text_size" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/message_item_header_text" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" style="?android:attr/textAppearanceSmall" />
+    <ImageView android:id="@id/message_item_header_icon_priority" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/message_item_read_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/message_header_timestamp_seen_icon_margin_bottom" android:layout_marginStart="@dimen/message_header_timestamp_seen_icon_margin_start" />
+    <ImageView android:id="@id/message_item_star_icon" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/conv_btn_star_big_buttonless_dark_on" />
+</com.sonyericsson.conversations.ui.MessageTimestampView>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>คุณอยู่ที่ไหน?</item>
+        <item>คุณเป็นอย่างไรบ้าง?</item>
+        <item>ด่วน! โปรดตอบฉันโดยเร็วที่สุด</item>
+        <item>ขออภัย ฉันกำลังประชุมอยู่</item>
+        <item>ฉันสบายดี ไม่ต้องเป็นห่วง</item>
+        <item>ฉันกำลังเดินทางกลับบ้าน</item>
+        <item>ฉันจะติดต่อกลับคุณ</item>
+        <item>ฉันจะอยู่ที่นั่น</item>
+        <item>ลองดูนี่สิ!</item>
+    </string-array>
+</resources>

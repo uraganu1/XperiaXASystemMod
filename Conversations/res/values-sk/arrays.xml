@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>Kde sa nachádzate?</item>
+        <item>Čo sa chystáte urobiť?</item>
+        <item>Súrne. Odpovedajte čo najskôr.</item>
+        <item>Prepáčte, práve som na stretnutí.</item>
+        <item>Som v poriadku. Nebojte sa.</item>
+        <item>Som na ceste domov.</item>
+        <item>Vrátim sa.</item>
+        <item>Hneď prídem.</item>
+        <item>Pozrite si toto.</item>
+    </string-array>
+</resources>

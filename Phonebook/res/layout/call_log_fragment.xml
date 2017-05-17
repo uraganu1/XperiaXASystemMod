@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/call_log_voicemail_status" />
+    <ListView android:scrollbarStyle="outsideOverlay" android:layout_gravity="top" android:id="@android:id/list" android:paddingBottom="@dimen/general_list_item_padding_bottom" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="true" android:divider="@null" />
+    <include layout="@layout/call_log_empty_view" />
+</LinearLayout>

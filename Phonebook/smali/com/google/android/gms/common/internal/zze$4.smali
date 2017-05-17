@@ -1,0 +1,63 @@
+.class Lcom/google/android/gms/common/internal/zze$4;
+.super Lcom/google/android/gms/common/internal/zze;
+.source "Unknown"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/google/android/gms/common/internal/zze;->zza(CC)Lcom/google/android/gms/common/internal/zze;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x8
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic zzajn:C
+
+.field final synthetic zzajo:C
+
+
+# direct methods
+.method constructor <init>(CC)V
+    .locals 1
+
+    int-to-char v0, p1
+
+    iput-char v0, p0, Lcom/google/android/gms/common/internal/zze$4;->zzajn:C
+
+    int-to-char v0, p2
+
+    iput-char v0, p0, Lcom/google/android/gms/common/internal/zze$4;->zzajo:C
+
+    invoke-direct {p0}, Lcom/google/android/gms/common/internal/zze;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public zzd(C)Z
+    .locals 1
+
+    iget-char v0, p0, Lcom/google/android/gms/common/internal/zze$4;->zzajn:C
+
+    if-le v0, p1, :cond_1
+
+    :cond_0
+    const/4 v0, 0x0
+
+    :goto_0
+    return v0
+
+    :cond_1
+    iget-char v0, p0, Lcom/google/android/gms/common/internal/zze$4;->zzajo:C
+
+    if-gt p1, v0, :cond_0
+
+    const/4 v0, 0x1
+
+    goto :goto_0
+.end method

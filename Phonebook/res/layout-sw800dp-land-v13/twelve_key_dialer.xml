@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sonyericsson.android.socialphonebook.ui.widget.DialpadLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/smartsearch_dial_textfield_shadow" android:scaleType="fitXY" android:importantForAccessibility="no" />
+    <RelativeLayout android:background="@drawable/dial_background" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/digits_container" layout="@layout/dialpad_inputfield" />
+        <include android:id="@id/dialpad_container" android:layout_width="fill_parent" android:layout_height="@dimen/dialpad_height" android:layout_below="@id/digits_container" layout="@layout/dialpad" />
+    </RelativeLayout>
+</com.sonyericsson.android.socialphonebook.ui.widget.DialpadLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/contacts_list_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:socialphonebook="http://schemas.android.com/apk/res/com.sonyericsson.android.socialphonebook">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/contacts_list_margin_top" android:paddingStart="@dimen/contacts_list_root_padding_left" android:paddingEnd="@dimen/contacts_list_list_padding_right">
+        <com.sonyericsson.android.socialphonebook.widget.IndexedListView android:id="@id/alphabet_indexed_list" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.sonyericsson.android.socialphonebook.widget.SpbListView android:scrollbarStyle="outsideOverlay" android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fastScrollEnabled="@bool/enableFastScrollBar" />
+        </com.sonyericsson.android.socialphonebook.widget.IndexedListView>
+        <TextView android:gravity="center" android:id="@id/emptyText" android:paddingTop="@dimen/contacts_list_emptyText_margin_top" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/noContacts" style="@style/TextAppearance.Medium" />
+    </FrameLayout>
+</LinearLayout>

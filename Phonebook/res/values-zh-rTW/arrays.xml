@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="spb_arrays_contacts_list_scroll_bar_characters_txt" />
+    <string-array name="spb_arrays_contacts_list_separator_characters_txt">
+        <item>ㄅ</item>
+        <item>ㄆ</item>
+        <item>ㄇ</item>
+        <item>ㄈ</item>
+        <item>ㄉ</item>
+        <item>ㄊ</item>
+        <item>ㄋ</item>
+        <item>ㄌ</item>
+        <item>ㄍ</item>
+        <item>ㄎ</item>
+        <item>ㄏ</item>
+        <item>ㄐ</item>
+        <item>ㄑ</item>
+        <item>ㄒ</item>
+        <item>ㄓ</item>
+        <item>ㄔ</item>
+        <item>ㄕ</item>
+        <item>ㄖ</item>
+        <item>ㄗ</item>
+        <item>ㄘ</item>
+        <item>ㄙ</item>
+        <item>ㄚ</item>
+        <item>ㄛ</item>
+        <item>ㄜ</item>
+        <item>ㄝ</item>
+        <item>ㄞ</item>
+        <item>ㄟ</item>
+        <item>ㄠ</item>
+        <item>ㄡ</item>
+        <item>ㄢ</item>
+        <item>ㄣ</item>
+        <item>ㄤ</item>
+        <item>ㄥ</item>
+        <item>ㄦ</item>
+        <item>ㄧ</item>
+        <item>ㄨ</item>
+        <item>ㄩ</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+        <item>\#</item>
+    </string-array>
+    <array name="spb_arrays_contacts_list_index_box_characters_txt" />
+    <string-array name="spb_arrays_edit_option_list_add_image_txt">
+        <item>圖片庫</item>
+        <item>拍攝新相片</item>
+    </string-array>
+    <string-array name="spb_arrays_edit_option_list_add_album_image_txt">
+        <item>相簿</item>
+        <item>拍攝新相片</item>
+    </string-array>
+    <string-array name="otherLabels">
+        <item>組織</item>
+        <item>附註</item>
+    </string-array>
+</resources>

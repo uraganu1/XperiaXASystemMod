@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@id/menu_dialpad" android:visible="false">
+        <item android:icon="@drawable/spb_add_contact_icon" android:id="@id/menu_add_to_contact" android:title="@string/recentCalls_addToContact" />
+        <item android:icon="@android:drawable/ic_menu_send" android:id="@id/menu_send_sms" android:title="@string/menu_sendTextMessage" />
+        <item android:icon="@drawable/ic_videocall_icon" android:id="@id/menu_video_call" android:title="@string/lte_menu_item_make_video_call" />
+        <item android:id="@id/menu_speed_dial_setting" android:title="@string/speed_dial_setting_title_bar_txt" />
+        <item android:id="@id/menu_add_prefix" android:title="@string/spb_strings_menu_add_prefix" />
+        <item android:id="@id/menu_international_call" android:title="@string/spb_strings_menu_international_call" />
+        <item android:id="@id/menu_call_setting" android:title="@string/lte_menu_item_open_call_settings" />
+        <item android:id="@id/menu_enable_smart_search" android:title="@string/spb_strings_enable_smart_search_txt" />
+        <item android:id="@id/menu_disable_smart_search" android:title="@string/spb_strings_disable_smart_search_txt" />
+        <item android:id="@id/menu_help" android:visible="false" android:title="@string/spb_strings_menu_item_help" android:showAsAction="never" />
+    </group>
+</menu>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>कुठे आहेस?</item>
+        <item>काय चाललं आहे?</item>
+        <item>तातडीचे! लवकरात लवकर प्रत्युत्तर देणे.</item>
+        <item>क्षमस्व, मी आत्ता बैठकीत आहे.</item>
+        <item>मी ठीक आहे. काळजी नसावी.</item>
+        <item>घराच्या मार्गावर आहे.</item>
+        <item>मी परत फोन करीन.</item>
+        <item>मी पोहोचेन.</item>
+        <item>हे बघ!</item>
+    </string-array>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="spb_strings_delete_deleting_failed_txt">
+        <item quantity="other">Kayıtları sil</item>
+        <item quantity="one">Kaydı sil</item>
+    </plurals>
+    <plurals name="spb_strings_delete_multiple_delete_confirmation_txt">
+        <item quantity="other">Seçilen kişiler silinecek</item>
+        <item quantity="one">Seçilen kayıt silinecek</item>
+    </plurals>
+    <plurals name="spb_strings_delete_progress_deleting_contacts_txt">
+        <item quantity="other">Kayıtlar siliniyor</item>
+        <item quantity="one">Kayıt siliniyor</item>
+    </plurals>
+    <plurals name="spb_strings_delete_contact_deleted_txt">
+        <item quantity="other">Kişiler silindi</item>
+        <item quantity="one">Kayıt silindi</item>
+    </plurals>
+    <plurals name="favorite_contactsAddedToast">
+        <item quantity="other">Kayıtlar favorilere eklendi</item>
+        <item quantity="one">Kayıt favorilere eklendi</item>
+    </plurals>
+    <plurals name="gal_completed_fmt">
+        <item quantity="other">%2$s adresinden %1$d sonuç</item>
+        <item quantity="one">%2$s adresinden 1 sonuç</item>
+    </plurals>
+    <plurals name="spb_strings_group_available_data_count">
+        <item quantity="other">%1$d / %2$d üye</item>
+        <item quantity="one">%1$d / %2$d üye</item>
+    </plurals>
+    <plurals name="spb_strings_export_contacts_exported_txt">
+        <item quantity="other">Kayıtlar dışa aktarıldı</item>
+        <item quantity="one">Kayıt dışa aktarıldı</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">Sesli mesajlar (%1$d)</item>
+        <item quantity="one">Sesli mesaj</item>
+    </plurals>
+    <plurals name="ice_view_remove_contacts_from_ice_list_toast_info">
+        <item quantity="other">Kayıtlar ICE kayıtları listesinden silindi</item>
+        <item quantity="one">Kayıt ICE kayıtları listesinden silindi</item>
+    </plurals>
+</resources>

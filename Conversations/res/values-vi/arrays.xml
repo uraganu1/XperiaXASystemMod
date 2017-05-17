@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>Bạn ở đâu?</item>
+        <item>Bạn đang làm gì?</item>
+        <item>Khẩn cấp! Hãy trả lời tôi càng sớm càng tốt.</item>
+        <item>Rất tiếc. Tôi đang họp.</item>
+        <item>Tôi khỏe. Đừng lo.</item>
+        <item>Tôi đang về nhà.</item>
+        <item>Tôi sẽ trả lời bạn.</item>
+        <item>Tôi sẽ đến đó ngay.</item>
+        <item>Hãy xem nhé!</item>
+    </string-array>
+</resources>

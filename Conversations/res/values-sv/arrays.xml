@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>Var är du?</item>
+        <item>Vad gör du?</item>
+        <item>Viktigt! Svara genast.</item>
+        <item>Jag är tyvärr i ett möte.</item>
+        <item>Jag mår bra. Oroa dig inte.</item>
+        <item>Jag är på väg hem.</item>
+        <item>Jag återkommer.</item>
+        <item>Jag är snart framme.</item>
+        <item>Kolla på det här!</item>
+    </string-array>
+</resources>

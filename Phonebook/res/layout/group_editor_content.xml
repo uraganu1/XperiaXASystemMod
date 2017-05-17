@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/group_editor_header" />
+    <com.sonyericsson.android.socialphonebook.widget.SpbListView android:id="@id/group_member_list" android:focusable="false" android:descendantFocusability="afterDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@null" android:layout_weight="1.0" android:layout_marginStart="@dimen/item_generic_editor_edit_label_margin_left" android:layout_marginEnd="@dimen/item_generic_editor_edit_label_margin_right" />
+    <ViewStub android:id="@id/stub_confirm_buttons" android:layout="@layout/group_editor_confirm_buttons" android:inflatedId="@id/done_discard_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</merge>

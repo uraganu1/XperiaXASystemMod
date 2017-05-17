@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="?android:selectableItemBackground" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/contacts_pick_recipient_list_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/btn_delete" android:background="@drawable/btn_close" android:focusable="true" android:layout_width="@dimen/contacts_pick_recipient_list_item_delete_icon_width" android:layout_height="@dimen/contacts_pick_recipient_list_item_delete_icon_height" android:layout_centerVertical="true" android:layout_marginStart="@dimen/contacts_pick_recipient_list_item_delete_icon_margin_left" android:layout_marginEnd="@dimen/contacts_pick_recipient_list_item_delete_icon_margin_right" android:layout_alignParentEnd="true" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerVertical="true" android:layout_marginStart="@dimen/contacts_pick_recipient_list_item_margin_left" android:layout_toStartOf="@id/btn_delete" android:layout_alignParentStart="true">
+        <TextView android:gravity="center" android:id="@id/list_item_name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextAppearance.Medium.Marquee" />
+        <TextView android:textColor="?android:textColorSecondary" android:gravity="center" android:id="@id/list_item_data" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textDirection="ltr" android:textAlignment="viewStart" style="@style/TextAppearance.Small.Marquee" />
+    </LinearLayout>
+</RelativeLayout>

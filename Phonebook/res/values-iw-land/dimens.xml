@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="alphabar_text_size">0.0sp</dimen>
+    <dimen name="contacts_list_alphabet_bar_width">40.0dip</dimen>
+</resources>

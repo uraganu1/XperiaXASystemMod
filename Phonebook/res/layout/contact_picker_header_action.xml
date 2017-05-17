@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sonyericsson.android.socialphonebook.contactpicker.ContactPickerHeaderAction android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/contact_picker_header_action" android:background="?android:selectableItemBackground" android:paddingTop="@dimen/contact_picker_header_padding_top_bottom" android:paddingBottom="@dimen/contact_picker_header_padding_top_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/contact_picker_header_min_height" android:paddingStart="@dimen/contact_picker_header_padding_start_end" android:paddingEnd="@dimen/contact_picker_header_padding_start_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon" android:focusable="false" android:layout_width="@dimen/contact_picker_header_addicon_width_height" android:layout_height="@dimen/contact_picker_header_addicon_width_height" android:scaleType="fitCenter" />
+    <TextView android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/contact_picker_header_title_margin_start" style="@style/TextAppearance.Medium.Marquee" />
+</com.sonyericsson.android.socialphonebook.contactpicker.ContactPickerHeaderAction>

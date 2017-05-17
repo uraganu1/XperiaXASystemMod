@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.contacts.editor.GroupMembershipView android:orientation="vertical" android:id="@id/group_membership_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingEnd="@dimen/edit_contact_padding_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/edit_kind_title" />
+    <Button android:gravity="start|center" android:id="@id/group_list" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/editor_min_line_item_height" style="@style/ContactEditorGroupListTheme" />
+    <View android:id="@id/line" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="@dimen/raw_contact_edit_spinner_line_height" android:alpha="@dimen/raw_contact_edit_spinner_line_transparency" />
+</com.android.contacts.editor.GroupMembershipView>

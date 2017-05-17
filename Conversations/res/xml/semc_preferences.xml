@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/conversations_strings_settings_category_notification" android:key="pref_key_category_notification" android:order="200">
+        <com.sonyericsson.conversations.ui.MmsRingtonePreference android:title="@string/conversations_strings_settings_notification_ringtone_txt" android:key="pref_key_ringtone" android:summary="@string/conversations_strings_settings_notification_ringtone_info_txt" android:ringtoneType="notification" />
+        <SwitchPreference android:title="@string/conversations_strings_settings_notification_enabled_txt" android:key="pref_key_enable_notifications" android:summary="@string/conversations_strings_settings_notification_enabled_info_txt" android:defaultValue="@bool/notification_enabled" />
+        <SwitchPreference android:title="@string/conversations_strings_settings_notification_vibration_txt" android:key="pref_key_vibrate" android:summary="@string/conversations_strings_settings_notification_vibration_info_txt" android:defaultValue="@bool/notification_vibration" />
+        <SwitchPreference android:title="@string/conversations_strings_settings_led_notification_enabled_txt" android:key="semc_pref_key_notification_led_enabled" android:defaultValue="@bool/notification_led_enabled" />
+        <SwitchPreference android:title="@string/conversations_strings_settings_delivery_report_txt" android:key="pref_key_delivery_reports" />
+        <SwitchPreference android:title="@string/conversations_strings_settings_read_report_txt" android:key="pref_key_mms_read_reports" android:summary="@string/conversations_strings_settings_read_report_info_txt" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/conversations_strings_settings_category_message_template" android:key="pref_key_category_message_template" android:order="202">
+        <com.sonyericsson.conversations.ui.HighlightablePreference android:title="@string/conversations_strings_settings_text_template_txt" android:key="pref_key_text_template" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/conversations_strings_settings_category_mms_settings" android:key="pref_key_category_mms_settings" android:order="203">
+        <SwitchPreference android:title="@string/conversations_strings_settings_mms_auto_retrieval_title_txt" android:key="pref_key_mms_auto_retrieval" android:summary="@string/conversations_strings_settings_mms_auto_retrieval_info_txt" android:defaultValue="@bool/mms_auto_retrieval" />
+        <SwitchPreference android:title="@string/conversations_strings_settings_mms_retrieval_during_roaming_txt" android:key="pref_key_mms_retrieval_during_roaming" android:summary="@string/conversations_strings_settings_mms_retrieval_during_roaming_info_txt" android:defaultValue="@bool/mms_retrieval_during_roaming" />
+        <SwitchPreference android:title="@string/conversations_strings_settings_mms_group_conversation_title_txt" android:key="pref_key_mms_group_conversation" android:summary="@string/conversations_strings_settings_mms_group_conversation_info_txt" />
+        <EditTextPreference android:title="@string/conversations_strings_settings_mms_group_sim1_number_title_txt" android:key="pref_key_sim_1_number" android:summary="@string/conversations_strings_settings_mms_group_sim_number_info_txt" android:dependency="pref_key_mms_group_conversation" android:dialogTitle="@string/conversations_strings_settings_mms_group_sim_number_title_txt" android:inputType="phone" />
+        <EditTextPreference android:title="@string/conversations_strings_settings_mms_group_sim2_number_title_txt" android:key="pref_key_sim_2_number" android:summary="@string/conversations_strings_settings_mms_group_sim_number_info_txt" android:dependency="pref_key_mms_group_conversation" android:defaultValue="" android:dialogTitle="@string/conversations_strings_settings_mms_group_sim_number_title_txt" android:inputType="phone" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/conversations_strings_settings_category_general_settings" android:key="pref_key_category_general_settings" android:order="204">
+        <com.sonyericsson.conversations.ui.DefaultSmsAppPreference android:title="@string/conversations_strings_settings_default_sms_app_title_txt" android:key="semc_pref_default_sms_app" android:summary="@string/conversations_strings_settings_default_sms_app_enabled_info_txt" />
+        <com.sonyericsson.conversations.ui.CostSavingPreference android:title="@string/conversations_strings_settings_cost_saving_txt" android:key="semc_pref_key_character_conversion" android:summary="@string/conversations_strings_settings_cost_saving_summary_txt" android:defaultValue="@bool/character_conversion" />
+        <Preference android:title="@string/conversations_strings_settings_attach_geotagged_media_txt" android:key="pref_key_geotag" android:summary="" />
+        <SwitchPreference android:title="@string/conversations_strings_settings_cellbroadcast_enabled_txt" android:key="semc_pref_key_cellbroadcast_enabled" android:defaultValue="@bool/cellbroadcast_enabled" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/conversations_strings_settings_category_sim_settings" android:key="pref_key_category_multi_sim_settings" android:order="205">
+        <PreferenceScreen android:title="@string/conversations_strings_settings_screen_sim1_settings" android:key="pref_key_screen_sim1_settings" />
+        <PreferenceScreen android:title="@string/conversations_strings_settings_screen_sim2_settings" android:key="pref_key_screen_sim2_settings" />
+    </PreferenceCategory>
+</PreferenceScreen>

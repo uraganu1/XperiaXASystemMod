@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/preference" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight" android:paddingStart="@dimen/general_setting_padding_start" android:paddingEnd="@dimen/general_setting_padding_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/display_header_content_margin_top" android:layout_marginBottom="@dimen/display_header_content_margin_bottom" android:layout_weight="1.0">
+        <TextView android:ellipsize="marquee" android:id="@id/label" android:fadingEdge="horizontal" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/TextAppearance.Medium.Marquee" />
+        <TextView android:textColor="?android:textColorSecondary" android:id="@id/data" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:layout_below="@id/label" android:layout_alignStart="@id/label" style="@style/TextAppearance.Small" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/generic_secondary_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:scrollbarStyle="outsideOverlay" android:layout_gravity="top" android:id="@android:id/list" android:background="@color/generic_secondary_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/smart_search_list_margin_bottom" android:drawSelectorOnTop="true" android:divider="@null" style="@style/Theme.Spb.PaperBackground" />
+    <TextView android:gravity="center_horizontal" android:id="@id/smartsearch_empty_label" android:paddingTop="@dimen/smart_search_list_empty_padding_top" android:focusableInTouchMode="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/smart_search_list_empty_label" android:paddingStart="@dimen/smart_search_list_empty_padding_start_end" android:paddingEnd="@dimen/smart_search_list_empty_padding_start_end" style="@style/TextAppearance.Medium" />
+</RelativeLayout>

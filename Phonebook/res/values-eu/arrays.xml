@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spb_arrays_edit_option_list_add_image_txt">
+        <item>Ateratakoak</item>
+        <item>Atera beste argazki bat</item>
+    </string-array>
+    <string-array name="spb_arrays_edit_option_list_add_album_image_txt">
+        <item>Albuma</item>
+        <item>Atera beste argazki bat</item>
+    </string-array>
+    <string-array name="otherLabels">
+        <item>Enpresa</item>
+        <item>Oharra</item>
+    </string-array>
+</resources>

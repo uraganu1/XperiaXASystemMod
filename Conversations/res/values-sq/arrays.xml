@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>Ku je?</item>
+        <item>Çfarë je duke bërë?</item>
+        <item>"Urgjente! M'u përgjigj shpejt."</item>
+        <item>Më fal, ndodhem në mbledhje.</item>
+        <item>Jam mirë. Mos u mërzit.</item>
+        <item>Jam rrugës për në shtëpi.</item>
+        <item>Do të flasim më vonë.</item>
+        <item>Po vij atje.</item>
+        <item>Shikoje këtë!</item>
+    </string-array>
+</resources>

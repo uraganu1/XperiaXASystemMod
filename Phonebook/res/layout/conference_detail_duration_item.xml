@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/conference_call_duration_holder" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="?android:dividerVertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/conference_call_detail_list_item_divider_margin" android:layout_marginBottom="@dimen/conference_call_detail_list_item_divider_margin" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="@dimen/call_detail_list_item_min_height" android:paddingStart="@dimen/call_detail_list_item_padding_start_end" android:paddingEnd="@dimen/call_detail_list_item_padding_start_end">
+        <TextView android:textColor="?android:colorAccent" android:id="@id/conference_call_duration_title" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@android:style/TextAppearance.Material.Subhead" />
+        <TextView android:textColor="?android:textColorSecondary" android:id="@id/conference_call_duration_time" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/conference_call_detail_list_item_margin_top" style="@android:style/TextAppearance.Material.Body1" />
+    </LinearLayout>
+    <View android:background="?android:dividerVertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/conference_call_detail_list_item_divider_margin" android:layout_marginBottom="@dimen/conference_call_detail_list_item_divider_margin" />
+    <TextView android:textColor="?android:colorAccent" android:id="@id/conference_call_participant_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/conference_call_participants" android:paddingStart="@dimen/call_detail_list_item_padding_start_end" android:paddingEnd="@dimen/call_detail_list_item_padding_start_end" style="@android:style/TextAppearance.Material.Subhead" />
+</LinearLayout>

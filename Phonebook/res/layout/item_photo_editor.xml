@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view android:orientation="horizontal" android:background="?android:selectableItemBackground" android:focusable="false" android:clickable="false" android:descendantFocusability="blocksDescendants" android:layout_width="wrap_content" android:layout_height="wrap_content" class="com.android.contacts.editor.PhotoEditorView"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="@drawable/spb_addphoto_box" android:layout_width="@dimen/raw_contact_edit_photo_picture_size" android:layout_height="@dimen/raw_contact_edit_photo_picture_size">
+        <include layout="@layout/photo_editor_view_default_image" />
+        <ImageView android:id="@id/photo" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        <ImageView android:layout_gravity="end|bottom|center" android:id="@id/photo_triangle_affordance" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/semc_spinner_ab_default_holo_dark" />
+    </FrameLayout>
+</view>

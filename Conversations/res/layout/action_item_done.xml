@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gui_done_txt" android:drawablePadding="@dimen/conversation_extra_margin" android:drawableStart="@drawable/conv_file_accept_button" style="@android:style/Widget.ActionButton"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

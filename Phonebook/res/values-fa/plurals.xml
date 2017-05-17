@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="spb_strings_delete_deleting_failed_txt">
+        <item quantity="other">حذف مخاطبین</item>
+        <item quantity="one">حذف مخاطب</item>
+    </plurals>
+    <plurals name="spb_strings_delete_multiple_delete_confirmation_txt">
+        <item quantity="other">مخاطبین انتخابی حذف خواهند شد</item>
+        <item quantity="one">مخاطب انتخابی حذف می شود</item>
+    </plurals>
+    <plurals name="spb_strings_delete_progress_deleting_contacts_txt">
+        <item quantity="other">درحال حذف مخاطبین</item>
+        <item quantity="one">درحال حذف مخاطب</item>
+    </plurals>
+    <plurals name="spb_strings_delete_contact_deleted_txt">
+        <item quantity="other">مخاطبین حذف شدند</item>
+        <item quantity="one">مخاطب حذف شد</item>
+    </plurals>
+    <plurals name="favorite_contactsAddedToast">
+        <item quantity="other">مخاطبین به موارد دلخواه اضافه شد</item>
+        <item quantity="one">مخاطب به موارد دلخواه اضافه شد</item>
+    </plurals>
+    <plurals name="gal_completed_fmt">
+        <item quantity="other">%1$d نتیجه از %2$s</item>
+        <item quantity="one">1 نتیجه از %2$s</item>
+    </plurals>
+    <plurals name="spb_strings_group_available_data_count">
+        <item quantity="other">‏%1$d از %2$d عضو</item>
+        <item quantity="one">‏%1$d از %2$d عضو</item>
+    </plurals>
+    <plurals name="spb_strings_export_contacts_exported_txt">
+        <item quantity="other">مخاطبین صادر شدند</item>
+        <item quantity="one">مخاطب صادر شد</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">پیام صوتی (%1$d)</item>
+        <item quantity="one">پیام پست صوتی</item>
+    </plurals>
+    <plurals name="ice_view_remove_contacts_from_ice_list_toast_info">
+        <item quantity="other">مخاطبین از فهرست مخاطبین ICE حذف شدند</item>
+        <item quantity="one">مخاطب از فهرست مخاطبین ICE حذف شد</item>
+    </plurals>
+</resources>

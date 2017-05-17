@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>Missä olet?</item>
+        <item>Mitä olet tekemässä?</item>
+        <item>Kiireellistä asiaa! Vastaa heti.</item>
+        <item>Olen valitettavasti kokouksessa.</item>
+        <item>Kaikki on hyvin. Älä huoli.</item>
+        <item>Olen matkalla kotiin.</item>
+        <item>Palaan asiaan.</item>
+        <item>Olen kohta perillä.</item>
+        <item>Katsopa tätä!</item>
+    </string-array>
+</resources>

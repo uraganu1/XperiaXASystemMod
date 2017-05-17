@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@+layout/dialpad_toolbar" />
+    <LinearLayout android:orientation="horizontal" android:background="@color/call_button_container_color" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="@dimen/twelve_key_dialer_width" android:layout_height="fill_parent">
+            <FrameLayout android:id="@id/twelve_key_dialer_fragment_container" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <FrameLayout android:id="@id/call_button_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include android:layout_gravity="bottom|center" android:id="@id/fab_call" android:visibility="gone" android:layout_width="@dimen/fab_size" android:layout_height="@dimen/fab_size" android:layout_marginTop="@dimen/fab_call_top_margin" android:layout_marginBottom="@dimen/fab_call_bottom_margin" layout="@layout/floating_call_button" />
+                <include android:id="@id/dual_call_button_group" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/call_button_group_margin_bottom" layout="@layout/dual_call_button_group" />
+                <include android:id="@id/call_button_items" android:visibility="gone" layout="@layout/call_button_items" />
+            </FrameLayout>
+        </LinearLayout>
+        <View android:id="@id/dialpad_calllog_divider" android:background="?android:dividerVertical" android:layout_width="@dimen/call_log_list_item_divider_width" android:layout_height="wrap_content" />
+        <FrameLayout android:id="@id/smartsearch_fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+</LinearLayout>

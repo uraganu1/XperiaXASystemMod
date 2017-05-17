@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet android:transitionOrdering="sequential"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <transitionSet android:transitionOrdering="together">
+        <fade android:duration="@integer/message_list_changes_animation_duration" android:fadingMode="fade_out">
+            <targets>
+                <target android:targetId="@id/message_item" />
+            </targets>
+        </fade>
+        <changeBounds android:duration="@integer/message_list_changes_animation_duration">
+            <targets>
+                <target android:targetId="@id/message_item" />
+            </targets>
+        </changeBounds>
+    </transitionSet>
+    <fade android:duration="@integer/message_list_changes_animation_duration" android:fadingMode="fade_in" />
+</transitionSet>

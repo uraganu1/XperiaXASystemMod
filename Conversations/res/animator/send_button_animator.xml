@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="sequentially"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <set android:ordering="together">
+        <objectAnimator android:valueFrom="@dimen/send_button_animator_normal_scale" android:valueTo="@dimen/send_button_animator_enlarged_scale" android:valueType="floatType" android:propertyName="scaleX" />
+        <objectAnimator android:valueFrom="@dimen/send_button_animator_normal_scale" android:valueTo="@dimen/send_button_animator_enlarged_scale" android:valueType="floatType" android:propertyName="scaleY" />
+    </set>
+    <set android:ordering="together">
+        <objectAnimator android:duration="@integer/send_button_translate_duration" android:valueFrom="@dimen/send_button_animator_enlarged_scale" android:valueTo="@dimen/send_button_animator_normal_scale" android:valueType="floatType" android:propertyName="scaleX" />
+        <objectAnimator android:duration="@integer/send_button_translate_duration" android:valueFrom="@dimen/send_button_animator_enlarged_scale" android:valueTo="@dimen/send_button_animator_normal_scale" android:valueType="floatType" android:propertyName="scaleY" />
+        <objectAnimator android:valueFrom="@dimen/animator_full_alpha" android:valueTo="@dimen/animator_no_alpha" android:valueType="floatType" android:propertyName="alpha" />
+        <objectAnimator android:duration="@integer/send_button_translate_duration" android:valueTo="@integer/send_button_exit_distance" android:valueType="floatType" android:propertyName="translationX" />
+    </set>
+</set>

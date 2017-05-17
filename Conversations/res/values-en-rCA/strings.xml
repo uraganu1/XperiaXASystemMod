@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="conversation_strings_message_details_status_cancelled_txt">Canceled</string>
+    <string name="conversation_strings_message_details_status_cancelled_incoming">Download canceled</string>
+    <string name="conversation_strings_message_details_status_cancelled_outgoing">Upload canceled</string>
+    <string name="conversations_strings_empty_starredmessage_hint_txt">"You have no starred messages.
+
+Stars are a great way to organize the messages that are most important to you. You can mark messages with a star to make them appear in this list. To mark a message with a star, go into the conversation and long press the message, then tap Add star."</string>
+    <string name="conversations_strings_composer_toast_message_size_change">%d character text message</string>
+    <string name="conversations_strings_settings_smsc_number_title_txt">SMS center number</string>
+    <string name="conversations_strings_settings_notification_enabled_info_txt">Notify in status bar for new messages</string>
+    <string name="conversations_strings_settings_rcs_user_alias_hint">Alias can only contain letters A-Z and numbers 0-9</string>
+    <string name="conversations_strings_settings_rcs_ft_auto_accept_roaming_txt">Auto download when roaming</string>
+    <string name="conversations_strings_settings_fully_branded_rcs_service_on_off_info_txt">Chat with a person or group, share pictures &amp; videos in HD quality and make videos calls.</string>
+    <string name="conversations_strings_rcs_file_transfer_invite_auto_declined_low_storage_txt" formatted="false">%s tried to send you a file, %s of size %s, but the file was rejected since there is not enough storage on the device</string>
+    <string name="conversations_strings_rcs_file_transfer_invite_auto_declined_exceeds_max_size_txt" formatted="false">%s tried to send you a file, %s, but the file was rejected since it is larger than %s %s which is the maximum size allowed</string>
+    <string name="conversations_strings_fdn_blocked_txt">Cannot send message. Number not in fixed dialing number list.</string>
+    <string name="conversations_strings_max_recipients_dlg_title_txt">Max participants</string>
+    <string name="conversations_strings_sms_contact_organization_txt">Organization</string>
+    <string name="conversations_strings_idd_fail_txt">“+” could not be converted to the corresponding international direct dial number. Please enter the number manually instead of “+”.</string>
+    <string name="conversations_strings_action_confirm_message_delete_star_txt">Delete message? (Starred message will not be deleted)</string>
+    <string name="conversations_strings_action_confirm_message_delete_several_star_txt">Delete messages? (Starred message will not be deleted)</string>
+    <string name="conversations_strings_action_confirm_message_delete_star_checkbox_txt">Check to delete all selected messages</string>
+    <string name="conversations_strings_typing_info_divider">", "</string>
+    <string name="conversations_strings_typing_info_last_divider">" and "</string>
+    <string name="conversations_strings_filetransfer_status_pending_outgoing">Ready for sending</string>
+    <string name="conversations_strings_filetransfer_status_failed_low_memory">Insufficient available space</string>
+    <string name="conversations_strings_filetransfer_status_timed_out">Canceled. Transfer expired.</string>
+    <string name="conversations_strings_joyn_file_max_size_dialog_text">One or more files exceed the max size limit</string>
+    <string name="conversations_strings_joyn_max_size">File exceeds max size limit</string>
+    <string name="conversations_strings_stickers_tap_store_bubble_text">Just tap</string>
+    <string name="conversations_strings_sticker_store_download_error_pack_button_text">Error downloading sticker pack</string>
+    <string name="conversations_strings_geotag_ask_part2_txt">(You can always change this in messaging settings later on)</string>
+    <string name="conversations_strings_group_chat_disabled_txt">Cannot create a group chat right now. Please try again later.</string>
+    <string name="conversations_strings_add_recipient_disabled_txt">Cannot add participant right now. Please try again later.</string>
+    <string name="conversations_strings_welcome_screen_status_and_sms_title">Status &amp; switching to SMS</string>
+    <string name="conversations_strings_joyn_welcome_screen_page_attachments_short_description">Now you can use stickers to express your feelings</string>
+    <string name="conversations_strings_xperia_transfer_inbox_promotion_text">Get all the content from your old device with Xperia™ Transfer Mobile!</string>
+    <string name="conversations_strings_mms_singel_video_no_text_snippet">Sent a movie</string>
+    <string name="conversations_strings_mms_singel_vcal_no_text_snippet">Sent a calendar invite</string>
+    <string name="conversations_strings_mms_multiple_videos_no_text_snippet">Sent movies</string>
+    <string name="conversations_strings_mms_multiple_vcals_no_text_snippet">Sent calendar invites</string>
+    <string name="sketch_missing_dialog_message">"To get more stickers you need to download the Sony Sketch application.
+
+Stickers are provided by Sketch.
+
+It's free and available on Google Play™."</string>
+    <string name="conversations_strings_write_settings_info_dialog_detailed_desc">Tap continue to go to write system settings permission screen.</string>
+    <string name="conversations_strings_permission_storage_rationale">To access or save photos, media, and files on your device.</string>
+</resources>

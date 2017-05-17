@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/checkbox_with_description_scrollview" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/checkbox_with_description_RelativeLayout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/content_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" style="@style/DialogBody" />
+        <CheckBox android:textColor="?android:textColorSecondary" android:id="@id/checkbox_with_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dialog_small_padding" android:layout_below="@id/content_description" android:layout_marginEnd="@dimen/dialog_padding" android:layout_alignStart="@id/content_description" />
+        <TextView android:textAppearance="@android:style/TextAppearance.Small" android:id="@id/checkbox_change_later_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dialog_small_padding" android:layout_below="@id/checkbox_with_description" android:layout_marginEnd="@dimen/dialog_padding" android:layout_alignStart="@id/checkbox_with_description" />
+    </RelativeLayout>
+</ScrollView>

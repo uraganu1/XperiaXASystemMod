@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spb_arrays_contacts_list_scroll_bar_characters_txt">
+        <item>あ,COLLAPSIBLE_INIT_OPEN</item>
+        <item>か</item>
+        <item>さ</item>
+        <item>た</item>
+        <item>な</item>
+        <item>は</item>
+        <item>ま</item>
+        <item>や</item>
+        <item>ら</item>
+        <item>わ</item>
+        <item>A,COLLAPSIBLE_INIT_CLOSE</item>
+        <item>・</item>
+        <item>D</item>
+        <item>・</item>
+        <item>G</item>
+        <item>・</item>
+        <item>J</item>
+        <item>・</item>
+        <item>M</item>
+        <item>・</item>
+        <item>P</item>
+        <item>・</item>
+        <item>T</item>
+        <item>・</item>
+        <item>Z</item>
+        <item>\#,NO_COLLAPSIBLE</item>
+    </string-array>
+    <string-array name="spb_arrays_contacts_list_separator_characters_txt">
+        <item>あ</item>
+        <item>か</item>
+        <item>さ</item>
+        <item>た</item>
+        <item>な</item>
+        <item>は</item>
+        <item>ま</item>
+        <item>や</item>
+        <item>ら</item>
+        <item>わ</item>
+        <item>A</item>
+        <item>B,C</item>
+        <item>D</item>
+        <item>E,F</item>
+        <item>G</item>
+        <item>H,I</item>
+        <item>J</item>
+        <item>K,L</item>
+        <item>M</item>
+        <item>N,O</item>
+        <item>P</item>
+        <item>Q,R,S</item>
+        <item>T</item>
+        <item>U,V,W,X,Y</item>
+        <item>Z</item>
+        <item>\#</item>
+    </string-array>
+    <string-array name="spb_arrays_contacts_list_index_box_characters_txt">
+        <item>あ</item>
+        <item>か</item>
+        <item>さ</item>
+        <item>た</item>
+        <item>な</item>
+        <item>は</item>
+        <item>ま</item>
+        <item>や</item>
+        <item>ら</item>
+        <item>わ</item>
+        <item>A</item>
+        <item>A</item>
+        <item>D</item>
+        <item>D</item>
+        <item>G</item>
+        <item>G</item>
+        <item>J</item>
+        <item>J</item>
+        <item>M</item>
+        <item>M</item>
+        <item>P</item>
+        <item>P</item>
+        <item>T</item>
+        <item>T</item>
+        <item>Z</item>
+        <item>\#</item>
+    </string-array>
+    <string-array name="spb_arrays_edit_option_list_add_image_txt">
+        <item>ギャラリーから選択</item>
+        <item>新しい写真を撮影</item>
+    </string-array>
+    <string-array name="spb_arrays_edit_option_list_add_album_image_txt">
+        <item>アルバム</item>
+        <item>新しい写真を撮影</item>
+    </string-array>
+    <string-array name="section_range_list">
+        <item>あ:あ-か</item>
+        <item>か:か-さ</item>
+        <item>さ:さ-た</item>
+        <item>た:た-な</item>
+        <item>な:な-は</item>
+        <item>は:は-ま</item>
+        <item>ま:ま-や</item>
+        <item>や:や-ら</item>
+        <item>ら:ら-わ</item>
+        <item>わ:わ-ㄅ</item>
+    </string-array>
+    <string-array name="otherLabels">
+        <item>組織</item>
+        <item>メモ</item>
+    </string-array>
+</resources>

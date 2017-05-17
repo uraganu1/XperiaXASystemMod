@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notification_wifi_calling">C.gọi sẽ được thực hiện qua WLAN.</string>
+</resources>

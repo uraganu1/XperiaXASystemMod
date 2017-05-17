@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="spb_strings_delete_deleting_failed_txt">
+        <item quantity="other">حذف جهات الاتصال</item>
+        <item quantity="one">حذف جهة اتصال</item>
+    </plurals>
+    <plurals name="spb_strings_delete_multiple_delete_confirmation_txt">
+        <item quantity="other">سيتم حذف جهات الاتصال المحددة</item>
+        <item quantity="one">سيتم حذف جهة الاتصال المحددة</item>
+    </plurals>
+    <plurals name="spb_strings_delete_progress_deleting_contacts_txt">
+        <item quantity="other">حذف جهات الاتصال</item>
+        <item quantity="one">حذف جهة الاتصال</item>
+    </plurals>
+    <plurals name="spb_strings_delete_contact_deleted_txt">
+        <item quantity="other">تم حذف جهات الاتصال</item>
+        <item quantity="one">تم حذف جهة الاتصال</item>
+    </plurals>
+    <plurals name="favorite_contactsAddedToast">
+        <item quantity="other">تمت إضافة جهات الاتصال إلى المفضلات</item>
+        <item quantity="one">تمت إضافة جهة الاتصال إلى المفضلات</item>
+    </plurals>
+    <plurals name="gal_completed_fmt">
+        <item quantity="other">%1$d نتائج من %2$s</item>
+        <item quantity="one">1 نتيجة من %2$s</item>
+    </plurals>
+    <plurals name="spb_strings_group_available_data_count">
+        <item quantity="other">‏%1$d من %2$d أعضاء</item>
+        <item quantity="one">عضو %1$d من %2$d</item>
+    </plurals>
+    <plurals name="spb_strings_export_contacts_exported_txt">
+        <item quantity="other">تم تصدير جهات الاتصال</item>
+        <item quantity="one">تم تصدير جهة الاتصال</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">رسائل البريد الصوتي (%1$d)</item>
+        <item quantity="one">رسالة بريد صوتي</item>
+    </plurals>
+    <plurals name="ice_view_remove_contacts_from_ice_list_toast_info">
+        <item quantity="other">تم مسح جهات الاتصال من لائحة جهات اتصال ICE</item>
+        <item quantity="one">تم مسح جهة الاتصال من لائحة جهات اتصال ICE</item>
+    </plurals>
+</resources>

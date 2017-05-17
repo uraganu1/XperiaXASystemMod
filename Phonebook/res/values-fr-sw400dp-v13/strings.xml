@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="showFilterPhones">Contacts avec numéros de téléphone</string>
+    <string name="spb_strings_help_text_of_input_text_for_email_txt">Saisir un nom ou un email</string>
+    <string name="exporting_contact_list_title">Exportation des données de contacts</string>
+</resources>

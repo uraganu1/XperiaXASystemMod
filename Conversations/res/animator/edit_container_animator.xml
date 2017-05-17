@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="sequentially"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator android:valueTo="@integer/edit_container_bounce_distance" android:valueType="floatType" android:propertyName="translationX" />
+    <set android:ordering="together"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <objectAnimator android:duration="@integer/edit_container_translate_duration" android:valueTo="@integer/edit_container_exit_distance" android:valueType="floatType" android:propertyName="translationX" />
+        <objectAnimator android:valueFrom="@dimen/animator_full_alpha" android:valueTo="@dimen/animator_no_alpha" android:valueType="floatType" android:propertyName="alpha" />
+    </set>
+</set>

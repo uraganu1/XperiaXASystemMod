@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="spb_strings_delete_deleting_failed_txt">
+        <item quantity="other">ಸಂಪರ್ಕಗಳನ್ನು ಅಳಿಸಿ</item>
+        <item quantity="one">ಸಂಪರ್ಕ ಅಳಿಸಿ</item>
+    </plurals>
+    <plurals name="spb_strings_delete_multiple_delete_confirmation_txt">
+        <item quantity="other">ಆರಿಸಿದ ಸಂಪರ್ಕಗಳು ಅಳಿಸಲ್ಪಡುತ್ತವೆ</item>
+        <item quantity="one">ಆರಿಸಿದ ಸಂಪರ್ಕಗಳು ಅಳಿಸಲ್ಪಡುತ್ತವೆ</item>
+    </plurals>
+    <plurals name="spb_strings_delete_progress_deleting_contacts_txt">
+        <item quantity="other">ಸಂಪರ್ಕಗಳನ್ನು ಅಳಿಸುತ್ತಿದೆ</item>
+        <item quantity="one">ಸಂಪರ್ಕ ಅಳಿಸುತ್ತಿದೆ</item>
+    </plurals>
+    <plurals name="spb_strings_delete_contact_deleted_txt">
+        <item quantity="other">ಸಂಪರ್ಕಗಳು ಅಳಿಸಲ್ಪಟ್ಟವು</item>
+        <item quantity="one">ಸಂಪರ್ಕ ಅಳಿಸಲಾಯಿತು</item>
+    </plurals>
+    <plurals name="favorite_contactsAddedToast">
+        <item quantity="other">ಸಂಪರ್ಕಗಳನ್ನು ಮೆಚ್ಚಿನವುಗಳಿಗೆ ಸೇರಿಸಲಾಗಿದೆ</item>
+        <item quantity="one">ಸಂಪರ್ಕವನ್ನು ಮೆಚ್ಚಿನವುಗಳಿಗೆ ಸೇರಿಸಲಾಗಿದೆ</item>
+    </plurals>
+    <plurals name="gal_completed_fmt">
+        <item quantity="other">%1$d ನಿಂದ ಫಲಿತಾಂಶಗಳು %2$s</item>
+        <item quantity="one">%2$s 1 ಫಲಿತಾಂಶ</item>
+    </plurals>
+    <plurals name="spb_strings_group_available_data_count">
+        <item quantity="other">%2$d ರಲ್ಲಿ %1$d ಸದಸ್ಯರು</item>
+        <item quantity="one">%1$d ರಲ್ಲಿ %2$d ಸದಸ್ಯ</item>
+    </plurals>
+    <plurals name="spb_strings_export_contacts_exported_txt">
+        <item quantity="other">ಸಂಪರ್ಕಗಳನ್ನು ರಫ್ತು ಮಾಡಲಾಯಿತು</item>
+        <item quantity="one">ಸಂಪರ್ಕ ರಫ್ತು ಮಾಡಲಾಯಿತು</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">ಧ್ವನಿ ಮೇಲ್ ಸಂದೇಶಗಳು (%1$d)</item>
+        <item quantity="one">ಧ್ವನಿ ಮೇಲ್ ಸಂದೇಶ</item>
+    </plurals>
+    <plurals name="ice_view_remove_contacts_from_ice_list_toast_info">
+        <item quantity="other">ICE ಸಂಪರ್ಕಗಳ ಪಟ್ಟಿಯಿಂದ ಸಂಪರ್ಕವನ್ನು ತೆರವುಗೊಳಿಸಲಾಗಿದೆ</item>
+        <item quantity="one">ICE ಸಂಪರ್ಕಗಳ ಪಟ್ಟಿಯಿಂದ ಸಂಪರ್ಕವನ್ನು ತೆರವುಗೊಳಿಸಲಾಗಿದೆ</item>
+    </plurals>
+</resources>

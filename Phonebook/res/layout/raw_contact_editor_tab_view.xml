@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.contacts.editor.RawContactEditorTabView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/body" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/edit_contact_padding_start">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nameLabelsGroup" style="@style/TextAppearance.Small" />
+            <include android:id="@id/edit_name" layout="@layout/structured_name_editor_view" />
+        </LinearLayout>
+        <include layout="@layout/raw_contact_editor_body" />
+    </LinearLayout>
+</com.android.contacts.editor.RawContactEditorTabView>

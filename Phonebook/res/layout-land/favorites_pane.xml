@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.sonyericsson.movablepanes.transfer.TransferLayout android:id="@id/favorites_transfer_view" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="inherit"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <com.sonyericsson.movablepanes.paneview.PaneView android:id="@id/favorites_pane_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/favorites_grid_margin" android:layout_marginBottom="@dimen/favorites_grid_margin" android:paddingStart="@dimen/favorites_pane_padding" android:paddingEnd="@dimen/favorites_pane_padding" />
+        <com.sonyericsson.android.socialphonebook.ui.widget.DragFavoritesBitmapView android:id="@id/transfer" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </com.sonyericsson.movablepanes.transfer.TransferLayout>
+    <include layout="@layout/favorites_empty" />
+    <include android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/favorites_oob_empty_slate_top_margin" android:layout_weight="1.0" layout="@layout/favorites_out_of_box" />
+</LinearLayout>

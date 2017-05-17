@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spb_arrays_edit_option_list_add_image_txt">
+        <item>গ্যালারী</item>
+        <item>নতুন ছবি নিন</item>
+    </string-array>
+    <string-array name="spb_arrays_edit_option_list_add_album_image_txt">
+        <item>অ্যালবাম</item>
+        <item>নতুন ছবি নিন</item>
+    </string-array>
+    <string-array name="otherLabels">
+        <item>প্রতিষ্ঠান</item>
+        <item>লক্ষ্যনীয়</item>
+    </string-array>
+</resources>

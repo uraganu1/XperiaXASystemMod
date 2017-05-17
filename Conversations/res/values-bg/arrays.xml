@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>Къде си?</item>
+        <item>Какво правиш?</item>
+        <item>Спешно! Отг. възм. най-скоро.</item>
+        <item>В момента съм на събрание.</item>
+        <item>Добре съм. Не се тревожи.</item>
+        <item>Пътувам към вкъщи.</item>
+        <item>Ще се свържа с теб по-късно.</item>
+        <item>Идвам веднага.</item>
+        <item>Виж това!</item>
+    </string-array>
+</resources>

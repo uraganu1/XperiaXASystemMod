@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="general_list_item_padding_start">16.0dip</dimen>
+    <dimen name="editor_type_label_width">150.0dip</dimen>
+    <dimen name="dialpad_height">400.0dip</dimen>
+    <dimen name="dialer_padding">70.0dip</dimen>
+    <dimen name="dialpad_digit_text_size">40.0dip</dimen>
+    <dimen name="dialpad_star_text_size">36.0sp</dimen>
+    <dimen name="dialpad_pound_text_size">24.0sp</dimen>
+    <dimen name="dialpad_label_text_size">12.0sp</dimen>
+    <dimen name="dialpad_input_hint_text_size">29.0sp</dimen>
+    <dimen name="dialpad_input_long_text_size">38.0dip</dimen>
+    <dimen name="dialpad_call_text_size">23.0dip</dimen>
+    <dimen name="calllog_land_date_text_size">16.0sp</dimen>
+    <dimen name="twelve_key_dialer_width">380.0dip</dimen>
+    <dimen name="twelve_key_dialer_digits_and_backspace_height">56.0dip</dimen>
+    <item type="dimen" name="twelve_key_dialer_backspace_width">@dimen/twelve_key_dialer_digits_and_backspace_height</item>
+    <dimen name="contacts_list_item_photo_width">40.0dip</dimen>
+    <dimen name="contacts_list_item_photo_height">40.0dip</dimen>
+    <dimen name="photo_margin_end">32.0dip</dimen>
+    <dimen name="shortcut_icon_size">64.0dip</dimen>
+    <dimen name="fav_badge_size">140.0dip</dimen>
+    <dimen name="contact_picker_header_padding_start_end">24.0dip</dimen>
+    <dimen name="contact_picker_header_title_margin_start">32.0dip</dimen>
+    <dimen name="list_item_generic_margin">16.0dip</dimen>
+    <dimen name="list_item_generic_relative_padding">96.0dip</dimen>
+    <dimen name="list_item_photo_status_index_letter_width">96.0dip</dimen>
+    <dimen name="picker_list_item_min_height">64.0dip</dimen>
+    <dimen name="contacts_list_alphabet_bar_width">32.0dip</dimen>
+    <dimen name="twelve_key_dialer_padding">60.0dip</dimen>
+    <dimen name="contacts_list_item_photo_status_index_letter_padding_end">21.0dip</dimen>
+</resources>

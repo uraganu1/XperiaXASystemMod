@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/starmessage_content_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dialog_small_padding" android:layout_marginBottom="@dimen/dialog_padding" android:layout_marginStart="@dimen/dialog_padding" android:layout_marginEnd="@dimen/dialog_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/starred_message_dialog_title_text_size" android:textStyle="bold" android:textColor="@android:color/black" android:id="@id/starmessage_title_text_view" android:paddingTop="@dimen/starred_message_dialog_title_padding_top" android:paddingBottom="@dimen/starred_message_dialog_title_padding_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/conversations_strings_conversationlist_menu_starredmessage_txt" />
+    <ScrollView android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="start" android:layout_gravity="start" android:id="@id/starmessage_emptytext_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/conversations_strings_empty_starredmessage_hint_txt" />
+    </ScrollView>
+    <com.sonyericsson.conversations.ui.SafeListView android:id="@id/starmessagelist_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

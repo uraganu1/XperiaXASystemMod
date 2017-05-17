@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="@dimen/pileview_non_visual_content_icon_padding_horizontal" android:top="@dimen/pileview_non_visual_content_icon_padding_vertical" android:right="@dimen/pileview_non_visual_content_icon_padding_horizontal" android:bottom="@dimen/pileview_non_visual_content_icon_padding_vertical">
+        <bitmap android:gravity="center" android:src="@drawable/ic_attach_play_pileview" android:antialias="true" />
+    </item>
+</layer-list>

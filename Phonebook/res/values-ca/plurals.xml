@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="spb_strings_delete_deleting_failed_txt">
+        <item quantity="other">Suprimeix contactes</item>
+        <item quantity="one">Suprimeix contacte</item>
+    </plurals>
+    <plurals name="spb_strings_delete_multiple_delete_confirmation_txt">
+        <item quantity="other">Se suprimiran els contactes seleccionats.</item>
+        <item quantity="one">Se suprimirà el contacte seleccionat</item>
+    </plurals>
+    <plurals name="spb_strings_delete_progress_deleting_contacts_txt">
+        <item quantity="other">"S'estan suprimint els contactes"</item>
+        <item quantity="one">"S'està suprimint el contacte"</item>
+    </plurals>
+    <plurals name="spb_strings_delete_contact_deleted_txt">
+        <item quantity="other">"S'han suprimit els contactes"</item>
+        <item quantity="one">"S'ha suprimit el contacte"</item>
+    </plurals>
+    <plurals name="favorite_contactsAddedToast">
+        <item quantity="other">"S'han afegit els contactes als favorits"</item>
+        <item quantity="one">"S'ha afegit el contacte als favorits"</item>
+    </plurals>
+    <plurals name="gal_completed_fmt">
+        <item quantity="other">%1$d resultats de %2$s</item>
+        <item quantity="one">1 resultat de %2$s</item>
+    </plurals>
+    <plurals name="spb_strings_group_available_data_count">
+        <item quantity="other">%1$d de %2$d membres</item>
+        <item quantity="one">"%1$d d'%2$d membre"</item>
+    </plurals>
+    <plurals name="spb_strings_export_contacts_exported_txt">
+        <item quantity="other">"S'han exportat els contactes"</item>
+        <item quantity="one">"S'ha exportat el contacte"</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">Missatges de correu de veu (%1$d)</item>
+        <item quantity="one">Missatge de correu de veu</item>
+    </plurals>
+    <plurals name="ice_view_remove_contacts_from_ice_list_toast_info">
+        <item quantity="other">"S'han esborrat els contactes de la llista de contactes ICE"</item>
+        <item quantity="one">"S'ha esborrat el contacte de la llista de contactes ICE"</item>
+    </plurals>
+</resources>

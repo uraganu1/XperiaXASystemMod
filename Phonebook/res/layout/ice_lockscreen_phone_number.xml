@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/ice_lockscreen_phone_number_container" android:paddingBottom="@dimen/contacts_list_item_relative_layout_padding_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/ice_lockscreen_phone_number_prefix" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:ellipsize="end" android:id="@id/ice_lockscreen_phone_number" android:fadingEdge="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:textDirection="ltr" />
+</LinearLayout>

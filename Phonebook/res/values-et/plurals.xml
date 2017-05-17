@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="spb_strings_delete_deleting_failed_txt">
+        <item quantity="other">Kustuta kontaktid</item>
+        <item quantity="one">Kustuta kontakt</item>
+    </plurals>
+    <plurals name="spb_strings_delete_multiple_delete_confirmation_txt">
+        <item quantity="other">Valitud kontaktid kustutatakse</item>
+        <item quantity="one">Valitud kontakt kustutatakse</item>
+    </plurals>
+    <plurals name="spb_strings_delete_progress_deleting_contacts_txt">
+        <item quantity="other">Kontaktide kustutamine</item>
+        <item quantity="one">Kontakti kustutamine</item>
+    </plurals>
+    <plurals name="spb_strings_delete_contact_deleted_txt">
+        <item quantity="other">Kontaktid on kustutatud</item>
+        <item quantity="one">Kontakt on kustutatud</item>
+    </plurals>
+    <plurals name="favorite_contactsAddedToast">
+        <item quantity="other">Kontaktid on lemmikutesse lisatud</item>
+        <item quantity="one">Kontakt on lemmikutesse lisatud</item>
+    </plurals>
+    <plurals name="gal_completed_fmt">
+        <item quantity="other">%1$d tulemust %2$s-st</item>
+        <item quantity="one">Üks tulemus asukohast %2$s</item>
+    </plurals>
+    <plurals name="spb_strings_group_available_data_count">
+        <item quantity="other">%1$d/%2$d liiget</item>
+        <item quantity="one">%1$d/%2$d liiget</item>
+    </plurals>
+    <plurals name="spb_strings_export_contacts_exported_txt">
+        <item quantity="other">Kontaktid on eksporditud</item>
+        <item quantity="one">Kontakt on eksporditud</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">Häälsõnumid (%1$d)</item>
+        <item quantity="one">Kõneposti teade</item>
+    </plurals>
+    <plurals name="ice_view_remove_contacts_from_ice_list_toast_info">
+        <item quantity="other">Kontaktid on eemaldatud ICE-kontaktide loendist</item>
+        <item quantity="one">Kontakt on eemaldatud ICE-kontaktide loendist</item>
+    </plurals>
+</resources>

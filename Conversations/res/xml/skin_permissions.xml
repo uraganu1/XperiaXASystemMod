@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<overlay-resources>
+    <filter-group group="write_new_message">
+        <filter type="type" value="bitmap,vector" />
+        <filter type="size" minWidth="56dp" maxWidth="56dp" minHeight="56dp" maxHeight="56dp" />
+    </filter-group>
+    <overlay id="@drawable/write_new_message_background" filters="write_new_message" />
+    <filter-group group="write_new_message_content">
+        <filter type="type" value="bitmap,vector" />
+        <filter type="size" minWidth="24dp" maxWidth="24dp" minHeight="24dp" maxHeight="24dp" />
+    </filter-group>
+    <overlay id="@drawable/write_new_message_content_icon" filters="write_new_message_content" />
+    <overlay id="@drawable/ic_compose" filters="write_new_message_content" />
+    <filter-group group="write_new_message_color">
+        <filter type="type" value="color" />
+    </filter-group>
+    <overlay id="@color/write_new_message_content_tint" filters="write_new_message_color" />
+    <filter-group group="send_button">
+        <filter type="type" value="bitmap,vector" />
+        <filter type="size" minWidth="24dp" maxWidth="24dp" minHeight="24dp" maxHeight="24dp" />
+    </filter-group>
+    <overlay id="@drawable/ic_send" filters="send_button" />
+    <overlay id="@drawable/ic_send_enabled" filters="send_button" />
+    <overlay id="@drawable/ic_send_joyn_enabled" filters="send_button" />
+    <overlay id="@drawable/ic_send_dsds_1_enabled" filters="send_button" />
+    <overlay id="@drawable/ic_send_dsds_2_enabled" filters="send_button" />
+    <overlay id="@drawable/ic_send_disabled" filters="send_button" />
+    <filter-group group="send_button_color">
+        <filter type="type" value="color" />
+        <filter type="alpha" value="0.625" tolerance="0.375" />
+    </filter-group>
+    <overlay id="@color/conversation_send_button_tint_color_disabled" filters="send_button_color" />
+    <filter-group group="message_backplates">
+        <filter type="type" value="nine-patch" />
+        <filter type="size" minWidth="32dp" maxWidth="32dp" minHeight="32dp" maxHeight="32dp" />
+    </filter-group>
+    <overlay id="@drawable/ic_speech_bubble_right" filters="message_backplates" />
+    <overlay id="@drawable/ic_speech_bubble_right_stacked" filters="message_backplates" />
+    <overlay id="@drawable/ic_speech_bubble_left" filters="message_backplates" />
+    <overlay id="@drawable/ic_speech_bubble_left_stacked" filters="message_backplates" />
+    <filter-group group="message_backplates_ft">
+        <filter type="type" value="nine-patch" />
+        <filter type="size" minWidth="9dp" maxWidth="9dp" minHeight="21dp" maxHeight="21dp" />
+    </filter-group>
+    <overlay id="@drawable/ic_speech_bubble_file_transfer" filters="message_backplates_ft" />
+    <filter-group group="message_backplates_color">
+        <filter type="type" value="color" />
+    </filter-group>
+    <overlay id="@color/conversation_sent_message_bubble_color" filters="message_backplates_color" />
+    <overlay id="@color/conversation_recv_message_bubble_color" filters="message_backplates_color" />
+    <overlay id="@color/conversation_message_bubble_pressed_color" filters="message_backplates_color" />
+    <filter-group group="message_color">
+        <filter type="type" value="color" />
+    </filter-group>
+    <overlay id="@color/conversation_sent_message_text_color" filters="message_color" />
+    <overlay id="@color/conversation_recv_message_text_color" filters="message_color" />
+</overlay-resources>

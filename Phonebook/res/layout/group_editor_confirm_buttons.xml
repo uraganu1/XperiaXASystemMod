@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/done_discard_container" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?android:attr/buttonBarStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/btn_discard" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/spb_strings_gen_cancel_txt" android:layout_weight="1.0" style="?android:attr/buttonBarButtonStyle" />
+    <Button android:id="@id/btn_done" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/spb_strings_select_done_txt" android:layout_weight="1.0" style="?android:attr/buttonBarButtonStyle" />
+</LinearLayout>

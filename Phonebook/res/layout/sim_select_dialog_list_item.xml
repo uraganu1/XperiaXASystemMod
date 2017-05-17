@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/sim1" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight" android:layout_marginTop="@dimen/sim_picker_list_item_marginTop"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/sim_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerCrop" android:tint="@color/dual_sim_icons_color" android:contentDescription="@null" android:layout_marginStart="@dimen/sim_picker_list_item_image_margin_start" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginStart="@dimen/sim_picker_list_item_text_margin_start">
+        <TextView android:gravity="bottom" android:layout_gravity="bottom" android:id="@id/sim_name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextAppearance.Medium.Marquee" />
+        <TextView android:textColor="?android:textColorSecondary" android:gravity="top" android:layout_gravity="top" android:id="@id/sim_number" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@android:style/TextAppearance.Material.Body1" />
+    </LinearLayout>
+</LinearLayout>

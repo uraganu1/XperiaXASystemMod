@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>Unde eşti?</item>
+        <item>Ce faci?</item>
+        <item>Urgent! Răspunde-mi repede.</item>
+        <item>Scuze, sunt într-o şedinţă.</item>
+        <item>Sunt bine. Nicio grijă.</item>
+        <item>Sunt în drum spre casă.</item>
+        <item>Te caut eu.</item>
+        <item>Voi fi acolo.</item>
+        <item>Vezi aici!</item>
+    </string-array>
+</resources>

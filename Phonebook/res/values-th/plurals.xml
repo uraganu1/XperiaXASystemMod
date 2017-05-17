@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="spb_strings_delete_deleting_failed_txt">
+        <item quantity="other">ลบรายชื่อ</item>
+        <item quantity="one">ลบรายชื่อ</item>
+    </plurals>
+    <plurals name="spb_strings_delete_multiple_delete_confirmation_txt">
+        <item quantity="other">รายชื่อที่เลือกจะถูกลบ</item>
+        <item quantity="one">รายชื่อที่เลือกจะถูกลบออก</item>
+    </plurals>
+    <plurals name="spb_strings_delete_progress_deleting_contacts_txt">
+        <item quantity="other">กำลังลบรายชื่อ</item>
+        <item quantity="one">กำลังลบรายชื่อ</item>
+    </plurals>
+    <plurals name="spb_strings_delete_contact_deleted_txt">
+        <item quantity="other">ลบรายชื่อแล้ว</item>
+        <item quantity="one">ลบรายชื่อแล้ว</item>
+    </plurals>
+    <plurals name="favorite_contactsAddedToast">
+        <item quantity="other">เพิ่มรายชื่อลงในรายการโปรดแล้ว</item>
+        <item quantity="one">เพิ่มรายชื่อลงในรายการโปรดแล้ว</item>
+    </plurals>
+    <plurals name="gal_completed_fmt">
+        <item quantity="other">ผลลัพธ์ %1$d รายการจาก %2$s</item>
+        <item quantity="one">ผลลัพธ์ 1 รายการจาก %2$s</item>
+    </plurals>
+    <plurals name="spb_strings_group_available_data_count">
+        <item quantity="other">%1$d จาก %2$d สมาชิก</item>
+        <item quantity="one">%1$d จาก %2$d สมาชิก</item>
+    </plurals>
+    <plurals name="spb_strings_export_contacts_exported_txt">
+        <item quantity="other">ส่งออกรายชื่อแล้ว</item>
+        <item quantity="one">ส่งออกรายชื่อแล้ว</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">ข้อความเสียง (%1$d)</item>
+        <item quantity="one">ข้อความเสียง</item>
+    </plurals>
+    <plurals name="ice_view_remove_contacts_from_ice_list_toast_info">
+        <item quantity="other">ล้างรายชื่อจากรายการ ICE</item>
+        <item quantity="one">ล้างรายชื่อจากรายการ ICE</item>
+    </plurals>
+</resources>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap android:gravity="center" android:src="@drawable/fab_dial_wifi_icon"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

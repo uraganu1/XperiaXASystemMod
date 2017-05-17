@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="spb_strings_delete_deleting_failed_txt">
+        <item quantity="other">Eyða tengiliðum</item>
+        <item quantity="one">Eyða tengilið</item>
+    </plurals>
+    <plurals name="spb_strings_delete_multiple_delete_confirmation_txt">
+        <item quantity="other">Völdum tengiliðum verður eytt</item>
+        <item quantity="one">Völdum tengilið verður eytt</item>
+    </plurals>
+    <plurals name="spb_strings_delete_progress_deleting_contacts_txt">
+        <item quantity="other">Eyði tengiliðum</item>
+        <item quantity="one">Eyði tengilið</item>
+    </plurals>
+    <plurals name="spb_strings_delete_contact_deleted_txt">
+        <item quantity="other">Tengiliðum var eytt</item>
+        <item quantity="one">Tengiliðnum var eytt</item>
+    </plurals>
+    <plurals name="favorite_contactsAddedToast">
+        <item quantity="other">Tengiliðum bætt við uppáhald</item>
+        <item quantity="one">Tengiliði bætt við uppáhald</item>
+    </plurals>
+    <plurals name="gal_completed_fmt">
+        <item quantity="other">%1$d niðurstöður frá %2$s</item>
+        <item quantity="one">1 niðurstaða frá %2$s</item>
+    </plurals>
+    <plurals name="spb_strings_group_available_data_count">
+        <item quantity="other">%1$d af %2$d meðlimum</item>
+        <item quantity="one">%1$d af %2$d meðlimi</item>
+    </plurals>
+    <plurals name="spb_strings_export_contacts_exported_txt">
+        <item quantity="other">Tengiliðir fluttir út</item>
+        <item quantity="one">Tengiliður fluttur út</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">Talhólfsskilaboð (%1$d)</item>
+        <item quantity="one">Talhólfsskilaboð</item>
+    </plurals>
+    <plurals name="ice_view_remove_contacts_from_ice_list_toast_info">
+        <item quantity="other">Tengiliðum eytt af lista yfir ICE tengiliði</item>
+        <item quantity="one">Tengiliði eytt af lista yfir ICE tengiliði</item>
+    </plurals>
+</resources>

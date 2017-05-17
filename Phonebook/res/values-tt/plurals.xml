@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="spb_strings_delete_deleting_failed_txt">
+        <item quantity="other">Контактларны бетерү</item>
+        <item quantity="one">Контактны бетерү</item>
+    </plurals>
+    <plurals name="spb_strings_delete_multiple_delete_confirmation_txt">
+        <item quantity="other">Тамгаланган контактлар бетереләчәк</item>
+        <item quantity="one">Тамгаланган контакт бетереләчәк</item>
+    </plurals>
+    <plurals name="spb_strings_delete_progress_deleting_contacts_txt">
+        <item quantity="other">Контактларны бетерү</item>
+        <item quantity="one">Контактны бетерү</item>
+    </plurals>
+    <plurals name="spb_strings_delete_contact_deleted_txt">
+        <item quantity="other">Контактлар бетерелде</item>
+        <item quantity="one">Контакт бетерелде</item>
+    </plurals>
+    <plurals name="favorite_contactsAddedToast">
+        <item quantity="other">Контакт фаворитларга кушылган</item>
+        <item quantity="one">Контакт фаворитларга кушылган</item>
+    </plurals>
+    <plurals name="gal_completed_fmt">
+        <item quantity="other">%1$d нәтиҗә, чыганагы: %2$s</item>
+        <item quantity="one">%2$sтан 1 нәтиҗә</item>
+    </plurals>
+    <plurals name="spb_strings_group_available_data_count">
+        <item quantity="other">%1$d %2$d членн</item>
+        <item quantity="one">%1$d %2$d члены</item>
+    </plurals>
+    <plurals name="spb_strings_export_contacts_exported_txt">
+        <item quantity="other">Контактлар экспортланган</item>
+        <item quantity="one">Контакт экспортланган</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">Тавыш почта (%1$d)</item>
+        <item quantity="one">Тавыш почтасының хәбәре</item>
+    </plurals>
+    <plurals name="ice_view_remove_contacts_from_ice_list_toast_info">
+        <item quantity="other">ICE исемлегеннән контактлар бетерелде</item>
+        <item quantity="one">ICE исемлегеннән контактлар бетерелде</item>
+    </plurals>
+</resources>

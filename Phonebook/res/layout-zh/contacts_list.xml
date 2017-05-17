@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/contacts_list_root" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/contacts_list_margin_top" android:paddingStart="@dimen/contacts_list_root_padding_left" style="@style/Theme.Spb.PaperBackground"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:socialphonebook="http://schemas.android.com/apk/res/com.sonyericsson.android.socialphonebook">
+    <com.sonyericsson.android.socialphonebook.widget.IndexedListView android:id="@id/alphabet_indexed_list" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.sonyericsson.android.socialphonebook.widget.SpbListView android:scrollbarStyle="outsideOverlay" android:id="@android:id/list" android:paddingBottom="@dimen/general_list_item_padding_bottom" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" android:fastScrollEnabled="@bool/enableFastScrollBar" android:paddingEnd="@dimen/contacts_list_list_padding_right" />
+    </com.sonyericsson.android.socialphonebook.widget.IndexedListView>
+    <TextView android:gravity="center" android:id="@id/emptyText" android:paddingTop="@dimen/contacts_list_emptyText_margin_top" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/noContacts" style="@style/TextAppearance.Medium" />
+</RelativeLayout>

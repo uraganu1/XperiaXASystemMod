@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sonymobile.fab.FloatingActionButton android:focusable="true" android:clickable="true" android:contentDescription="@null" android:elevation="@dimen/fab_elevation"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/checkable_frame_layout" />
+</com.sonymobile.fab.FloatingActionButton>

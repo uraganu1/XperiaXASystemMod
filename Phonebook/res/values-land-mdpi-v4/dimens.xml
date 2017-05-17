@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="calllog_land_date_text_size">12.0sp</dimen>
+    <dimen name="twelve_key_dialer_width">270.0dip</dimen>
+    <dimen name="item_generic_editor_edit_label_margin_left">6.0dip</dimen>
+    <dimen name="item_generic_editor_edit_label_margin_right">6.0dip</dimen>
+</resources>

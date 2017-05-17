@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spb_arrays_contacts_list_scroll_bar_characters_txt">
+        <item>أ</item>
+        <item>ب</item>
+        <item>ت</item>
+        <item>ث</item>
+        <item>ج</item>
+        <item>ح</item>
+        <item>خ</item>
+        <item>د</item>
+        <item>ذ</item>
+        <item>ر</item>
+        <item>ز</item>
+        <item>س</item>
+        <item>ش</item>
+        <item>ص</item>
+        <item>ض</item>
+        <item>ط</item>
+        <item>ظ</item>
+        <item>ع</item>
+        <item>غ</item>
+        <item>ف</item>
+        <item>ق</item>
+        <item>ك</item>
+        <item>ل</item>
+        <item>م</item>
+        <item>ن</item>
+        <item>ه</item>
+        <item>و</item>
+        <item>ي</item>
+        <item>\#</item>
+    </string-array>
+    <string-array name="spb_arrays_contacts_list_separator_characters_txt">
+        <item>أ,ا,إ</item>
+        <item>ب</item>
+        <item>ت</item>
+        <item>ث</item>
+        <item>ج</item>
+        <item>ح</item>
+        <item>خ</item>
+        <item>د</item>
+        <item>ذ</item>
+        <item>ر</item>
+        <item>ز</item>
+        <item>س</item>
+        <item>ش</item>
+        <item>ص</item>
+        <item>ض</item>
+        <item>ط</item>
+        <item>ظ</item>
+        <item>ع</item>
+        <item>غ</item>
+        <item>ف</item>
+        <item>ق</item>
+        <item>ك</item>
+        <item>ل</item>
+        <item>م</item>
+        <item>ن</item>
+        <item>ه</item>
+        <item>و</item>
+        <item>ي</item>
+        <item>\#</item>
+    </string-array>
+    <string-array name="spb_arrays_contacts_list_index_box_characters_txt">
+        <item>أ</item>
+        <item>ب</item>
+        <item>ت</item>
+        <item>ث</item>
+        <item>ج</item>
+        <item>ح</item>
+        <item>خ</item>
+        <item>د</item>
+        <item>ذ</item>
+        <item>ر</item>
+        <item>ز</item>
+        <item>س</item>
+        <item>ش</item>
+        <item>ص</item>
+        <item>ض</item>
+        <item>ط</item>
+        <item>ظ</item>
+        <item>ع</item>
+        <item>غ</item>
+        <item>ف</item>
+        <item>ق</item>
+        <item>ك</item>
+        <item>ل</item>
+        <item>م</item>
+        <item>ن</item>
+        <item>ه</item>
+        <item>و</item>
+        <item>ي</item>
+        <item>\#</item>
+    </string-array>
+    <string-array name="spb_arrays_edit_option_list_add_image_txt">
+        <item>المعرض</item>
+        <item>التقاط صورة جديدة</item>
+    </string-array>
+    <string-array name="spb_arrays_edit_option_list_add_album_image_txt">
+        <item>الألبوم</item>
+        <item>التقاط صورة جديدة</item>
+    </string-array>
+    <string-array name="otherLabels">
+        <item>المؤسسة</item>
+        <item>ملحوظة</item>
+    </string-array>
+</resources>

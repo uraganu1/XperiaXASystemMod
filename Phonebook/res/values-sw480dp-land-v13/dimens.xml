@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dialpad_height">294.0dip</dimen>
+    <dimen name="twelve_key_dialer_width">400.0dip</dimen>
+    <dimen name="twelve_key_dialer_digits_and_backspace_height">70.0dip</dimen>
+    <item type="dimen" name="twelve_key_dialer_backspace_width">@dimen/twelve_key_dialer_digits_and_backspace_height</item>
+    <dimen name="twelve_key_dialer_padding">0.0dip</dimen>
+    <dimen name="fab_call_bottom_margin">20.0dip</dimen>
+</resources>

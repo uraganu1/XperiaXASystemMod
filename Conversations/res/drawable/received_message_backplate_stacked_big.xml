@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false">
+        <nine-patch android:src="@drawable/ic_speech_bubble_left_stacked" android:tint="@color/conversation_recv_message_bubble_color" />
+    </item>
+    <item android:state_pressed="true">
+        <nine-patch android:src="@drawable/ic_speech_bubble_left_stacked" android:tint="@color/conversation_recv_message_bubble_color_pressed" />
+    </item>
+</selector>

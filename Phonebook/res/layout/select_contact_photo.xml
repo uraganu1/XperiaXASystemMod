@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <GridView android:gravity="center" android:id="@id/gridview_contact_photos" android:padding="@dimen/select_contact_photo_gridview_padding" android:layout_width="fill_parent" android:layout_height="0.0dip" android:drawSelectorOnTop="true" android:horizontalSpacing="@dimen/select_contact_photo_gridview_spacing" android:verticalSpacing="@dimen/select_contact_photo_gridview_spacing" android:stretchMode="columnWidth" android:numColumns="3" android:layout_weight="1.0" />
+    <ListView android:id="@id/listview_choose_photo_actions" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@null" />
+</LinearLayout>

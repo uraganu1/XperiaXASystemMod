@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/body" android:paddingTop="@dimen/sim_export_reminder_body_margin_top_bottom" android:paddingBottom="@dimen/sim_export_reminder_body_margin_top_bottom" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false" android:paddingStart="@dimen/sim_export_reminder_body_margin_left_right" android:paddingEnd="@dimen/sim_export_reminder_body_margin_left_right">
+        <ProgressBar android:id="@android:id/progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/sim_export_reminder_progress_margin_right" />
+        <TextView android:layout_gravity="center_vertical" android:id="@id/message" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/TextAppearance.Medium" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:paddingTop="@dimen/dialog_account_auto_sync_body_padding_top_bottom" android:paddingBottom="@dimen/dialog_account_auto_sync_body_padding_top_bottom" android:paddingStart="@dimen/general_contact_dialog_padding_start_end" android:paddingEnd="@dimen/general_contact_dialog_padding_start_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:id="@id/syncCheckbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/spb_choose_account_auto_sync_checkbox_txt" />
+</LinearLayout>

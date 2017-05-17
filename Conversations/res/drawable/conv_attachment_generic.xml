@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap android:src="@drawable/conv_attachment" android:tint="@color/attachment_received_tint_color" android:autoMirrored="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

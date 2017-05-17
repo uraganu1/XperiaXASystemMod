@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:sharedUserId="com.sonyericsson.android.socialphonebook" package="com.sonyericsson.android.socialphonebook" platformBuildVersionCode="23" platformBuildVersionName="6.0-1459473230">
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.DEVICE_POWER"/>
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+    <uses-permission android:name="android.permission.BACKUP"/>
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"/>
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+    <uses-permission android:name="com.sonymobile.email.permission.ACCESS_PROVIDER"/>
+    <uses-permission android:name="com.sonyericsson.permission.VOIPCALLLOG"/>
+    <uses-permission android:name="com.sonyericsson.providers.cnap.permission.READ"/>
+    <uses-permission android:name="com.sonyericsson.providers.cnap.permission.WRITE"/>
+    <uses-permission android:name="com.sonyericsson.permission.SMARTSEARCH"/>
+    <uses-permission android:name="com.sonyericsson.updatecenter.permission.SEND_FEEDBACK"/>
+    <uses-permission android:name="com.android.email.permission.ACCESS_GAL_PROVIDER"/>
+    <uses-permission android:name="com.sonymobile.email.permission.ACCESS_GAL_PROVIDER"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="com.sonymobile.providers.landownerprovider.permission.READ"/>
+    <uses-permission android:name="com.sonyericsson.permission.CONVERSATIONS_SETTINGS_PROVIDER"/>
+    <uses-permission android:name="com.sonymobile.permission.VIEW_VVM_DETAIL"/>
+    <uses-permission android:name="com.vcast.mediamanager.CLOUD_PERMISSION"/>
+    <uses-permission android:name="com.sonymobile.rcs.permission.RCS"/>
+    <uses-permission android:name="com.sonymobile.imspresence.permission.READ_IMS_SETTINGS"/>
+    <uses-permission android:name="com.sonymobile.imspresence.permission.WRITE_IMS_SETTINGS"/>
+    <uses-permission android:name="com.sonymobile.sbmsprint.permission.HIDDEN_CODE"/>
+    <uses-permission android:name="com.sonymobile.helpapp7.HELP"/>
+    <uses-permission android:name="android.permission.CALL_PRIVILEGED"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+    <uses-permission android:name="android.permission.READ_CALL_LOG"/>
+    <uses-permission android:name="android.permission.WRITE_CALL_LOG"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.READ_PROFILE"/>
+    <uses-permission android:name="android.permission.WRITE_PROFILE"/>
+    <uses-permission android:name="android.permission.READ_SOCIAL_STREAM"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.NFC"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.READ_SYNC_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS"/>
+    <uses-permission android:name="com.android.voicemail.permission.ADD_VOICEMAIL"/>
+    <uses-permission android:name="com.android.voicemail.permission.WRITE_VOICEMAIL"/>
+    <uses-permission android:name="com.android.voicemail.permission.READ_VOICEMAIL"/>
+    <uses-permission android:name="android.permission.REBOOT"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
+    <uses-permission android:name="com.cequint.ecid.CALLER_ID_LOOKUP"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <uses-permission android:name="com.sonymobile.sbmsprint.permission.CARRIER_PARTITION_READ"/>
+    <uses-permission android:name="com.sonymobile.contactsrcs.RCS_CONTACTS_PERMISSION"/>
+    <uses-permission android:name="android.permission.MANAGE_USERS"/>
+    <uses-permission android:name="com.android.email.permission.READ_ATTACHMENT"/>
+    <uses-permission android:name="com.sonymobile.email.permission.READ_ATTACHMENT"/>
+    <uses-permission android:name="com.google.android.gm.permission.READ_GMAIL"/>
+    <uses-permission android:name="com.kddi.android.AddressbookPlus.permission.ACCESS_ADDRESS_BOOK_PLUS" android:protectionLevel="signatureOrSystem"/>
+    <uses-permission android:name="com.kddi.android.evc.permission.SETTINGS_PROVIDER"/>
+    <application android:allowBackup="true" android:backupAgent="com.sonyericsson.android.socialphonebook.backup.ContactsBackupAgent" android:icon="@drawable/ic_launcher_contacts" android:killAfterRestore="false" android:label="@string/contactsListPickSearch" android:name="com.sonyericsson.android.socialphonebook.ContactsApplication" android:process="com.sonyericsson.android.socialphonebook" android:requiredAccountType="*" android:supportsRtl="true" android:theme="@style/Theme.Spb">
+        <meta-data android:name="com.sonymobile.runtimeskinning.LAF_VERSION" android:value="3"/>
+        <meta-data android:name="com.sonymobile.runtimeskinning.SKIN_PERMISSIONS" android:resource="@xml/skin_permissions"/>
+        <meta-data android:name="com.google.android.backup.api_key" android:value="AEdPqrEAAAAI03wPOArhFnJv4bBQMcYn0nA-j1KxERxA_M9FfA"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <activity android:allowTaskReparenting="false" android:alwaysRetainTaskState="false" android:clearTaskOnLaunch="false" android:configChanges="keyboard|keyboardHidden" android:label="@string/contactsListPickSearch" android:launchMode="singleTask" android:name="com.sonyericsson.android.socialphonebook.activities.SocialPhonebookActivity" android:taskAffinity="com.sonyericsson.android.socialphonebook.contacts" android:theme="@style/Theme.Spb" android:uiOptions="splitActionBarWhenNarrow" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.APP_CONTACTS"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.contacts.action.LIST_DEFAULT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.TAB"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.contacts.action.LIST_CONTACTS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.TAB"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.contacts.action.LIST_ALL_CONTACTS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.TAB"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.contacts.action.LIST_CONTACTS_WITH_PHONES"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.TAB"/>
+            </intent-filter>
+            <intent-filter android:label="@string/starredList">
+                <action android:name="com.android.contacts.action.LIST_STARRED"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.TAB"/>
+            </intent-filter>
+            <intent-filter android:label="@string/frequentList">
+                <action android:name="com.android.contacts.action.LIST_FREQUENT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.TAB"/>
+            </intent-filter>
+            <intent-filter android:label="@string/strequentList">
+                <action android:name="com.android.contacts.action.LIST_STREQUENT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.TAB"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="contacts" android:mimeType="vnd.android.cursor.dir/person"/>
+                <data android:host="com.android.contacts" android:mimeType="vnd.android.cursor.dir/contact"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.FILTER_CONTACTS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity-alias android:clearTaskOnLaunch="true" android:label="@string/contactsListPickSearch" android:launchMode="singleTask" android:name="com.sonyericsson.android.socialphonebook.LaunchActivity" android:targetActivity="com.sonyericsson.android.socialphonebook.activities.SocialPhonebookActivity" android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+        </activity-alias>
+        <activity android:allowTaskReparenting="false" android:alwaysRetainTaskState="false" android:clearTaskOnLaunch="false" android:configChanges="keyboard|keyboardHidden" android:icon="@drawable/ic_launcher_phone" android:label="@string/launcherDialer" android:launchMode="singleTask" android:name="com.sonyericsson.android.socialphonebook.activities.PhoneActivity" android:taskAffinity="com.sonyericsson.android.socialphonebook.phone" android:theme="@style/Theme.Spb" android:uiOptions="splitActionBarWhenNarrow" android:windowSoftInputMode="stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity-alias android:icon="@drawable/ic_launcher_phone" android:label="@string/launcherDialer" android:name="com.sonyericsson.android.socialphonebook.DialerEntryActivity" android:targetActivity="com.sonyericsson.android.socialphonebook.activities.PhoneActivity" android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.DIAL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:mimeType="vnd.android.cursor.item/phone"/>
+                <data android:mimeType="vnd.android.cursor.item/person"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.DIAL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="voicemail"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.DIAL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.DIAL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="tel"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:mimeType="vnd.android.cursor.dir/calls"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.CALL_BUTTON"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+        </activity-alias>
+        <activity android:launchMode="singleTask" android:name="com.sonyericsson.android.socialphonebook.NonPhoneActivity" android:theme="@style/Theme.Spb.Translucent.ListDialog">
+            <intent-filter android:priority="-1">
+                <action android:name="android.intent.action.DIAL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:mimeType="vnd.android.cursor.item/phone"/>
+                <data android:mimeType="vnd.android.cursor.item/person"/>
+            </intent-filter>
+            <intent-filter android:priority="-1">
+                <action android:name="android.intent.action.DIAL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="voicemail"/>
+            </intent-filter>
+            <intent-filter android:priority="-1">
+                <action android:name="android.intent.action.DIAL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter android:priority="-1">
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+            <intent-filter android:priority="-1">
+                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.DIAL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="tel"/>
+            </intent-filter>
+            <intent-filter android:priority="-1">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:mimeType="vnd.android.cursor.dir/calls"/>
+            </intent-filter>
+            <intent-filter android:priority="-1">
+                <action android:name="android.intent.action.CALL_BUTTON"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden" android:label="@string/contactsListPickSearch" android:name="com.sonyericsson.android.socialphonebook.contactpicker.ContactPickMainActivity" android:theme="@style/Theme.Spb.Bidi.ListDialog" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="com.sonyericsson.android.socialphonebook.action.PICK"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.dir/contact"/>
+                <data android:mimeType="vnd.android.cursor.item/group_membership"/>
+                <data android:host="com.android.contacts" android:mimeType="vnd.android.cursor.dir/email_v2"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.sonyericsson.android.socialphonebook.action.PICK_CONVERSATIONS_TARGET"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.sonyericsson.android.socialphonebook.action.PICK_CONFERENCE_CALL_PARTICIPANTS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.sonyericsson.android.socialphonebook.PICK"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="com.android.contacts" android:mimeType="vnd.android.cursor.dir/email_v2"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.sonyericsson.contacts.PICK_CONVERSATIONS_TARGET"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.INSERT_OR_EDIT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.item/person"/>
+                <data android:mimeType="vnd.android.cursor.item/contact"/>
+                <data android:mimeType="vnd.android.cursor.item/raw_contact"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PICK"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="com.android.contacts" android:mimeType="vnd.android.cursor.dir/contact"/>
+                <data android:host="com.android.contacts" android:mimeType="vnd.android.cursor.dir/phone_v2"/>
+                <data android:host="com.android.contacts" android:mimeType="vnd.android.cursor.dir/postal-address_v2"/>
+                <data android:mimeType="vnd.android.cursor.dir/email_v2"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.GET_CONTENT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="com.android.contacts" android:mimeType="vnd.android.cursor.item/contact"/>
+                <data android:host="com.android.contacts" android:mimeType="vnd.android.cursor.item/phone_v2"/>
+                <data android:host="com.android.contacts" android:mimeType="vnd.android.cursor.item/postal-address_v2"/>
+            </intent-filter>
+        </activity>
+        <activity android:clearTaskOnLaunch="true" android:configChanges="keyboard|keyboardHidden" android:label="@string/spb_strings_gen_link_contact_txt" android:name="com.sonyericsson.android.socialphonebook.JoinContactActivity" android:theme="@style/Theme.Spb.Bidi.ListDialog">
+            <intent-filter>
+                <action android:name="com.android.contacts.action.JOIN_AGGREGATE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.sonyericsson.android.socialphonebook.LinkContactsSuggestionActivity" android:theme="@style/Theme.Spb.Bidi.ListDialog">
+            <intent-filter>
+                <action android:name="com.android.contacts.action.LINK_SUGGESTION"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="locale|keyboard|keyboardHidden|mcc|mnc|orientation|screenSize" android:name="com.sonyericsson.android.socialphonebook.FindAndLinkProcessActivity" android:theme="@style/Theme.Spb.Translucent.ListDialog">
+            <intent-filter>
+                <action android:name="com.android.contacts.action.FIND_PROCESS_ALL_CONTACTS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.android.contacts.action.FIND_PROCESS_SINGLE_CONTACT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.item/contact"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="locale|keyboard|keyboardHidden|mcc|mnc|orientation|screenSize" android:label="@string/displayGroups" android:name="com.sonyericsson.android.socialphonebook.ui.ContactsFilterActivity" android:parentActivityName="com.sonyericsson.android.socialphonebook.activities.SocialPhonebookActivity" android:theme="@style/Theme.Spb.Bidi" android:uiOptions="splitActionBarWhenNarrow"/>
+        <activity android:name="com.sonyericsson.android.socialphonebook.ui.ShowOrCreateActivity" android:theme="@style/Theme.Spb.Translucent">
+            <intent-filter>
+                <action android:name="com.android.contacts.action.SHOW_OR_CREATE_CONTACT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="mailto"/>
+                <data android:scheme="tel"/>
+            </intent-filter>
+        </activity>
+        <activity-alias android:icon="@drawable/ic_launcher_contacts" android:label="@string/shortcutContact" android:name="com.sonyericsson.android.socialphonebook.ContactShortcut" android:targetActivity="com.sonyericsson.android.socialphonebook.contactpicker.ContactPickMainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.CREATE_SHORTCUT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:icon="@drawable/ic_launcher_phone" android:label="@string/shortcutDialContact" android:name="alias.DialShortcut" android:targetActivity="com.sonyericsson.android.socialphonebook.contactpicker.ContactPickMainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.CREATE_SHORTCUT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:icon="@drawable/ic_launcher_shortcut_directmessage" android:label="@string/shortcutMessageContact" android:name="alias.MessageShortcut" android:targetActivity="com.sonyericsson.android.socialphonebook.contactpicker.ContactPickMainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.CREATE_SHORTCUT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity-alias>
+        <activity android:label="@string/editContactDescription" android:name="com.android.contacts.activities.ContactEditorActivity" android:theme="@style/Theme.Spb.AddEditTheme" android:windowSoftInputMode="adjustResize">
+            <intent-filter android:label="@string/editContactDescription">
+                <action android:name="android.intent.action.EDIT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.item/person"/>
+                <data android:mimeType="vnd.android.cursor.item/contact"/>
+                <data android:mimeType="vnd.android.cursor.item/raw_contact"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.sonyericsson.android.socialphonebook.ui.AddNewContactActivity" android:theme="@style/Theme.Spb.Translucent">
+            <intent-filter android:label="@string/insertContactDescription">
+                <action android:name="android.intent.action.INSERT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.dir/person"/>
+                <data android:mimeType="vnd.android.cursor.dir/contact"/>
+                <data android:mimeType="vnd.android.cursor.dir/raw_contact"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.sonyericsson.android.socialphonebook.ui.AddNewAccountActivity" android:theme="@style/Theme.Spb.Translucent"/>
+        <activity android:excludeFromRecents="true" android:label="@string/attachToContact" android:name="com.sonyericsson.android.socialphonebook.AttachImage" android:taskAffinity="">
+            <intent-filter>
+                <action android:name="android.intent.action.ATTACH_DATA"/>
+                <data android:mimeType="image/*"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="locale|keyboard|keyboardHidden|mcc|mnc|orientation|screenSize" android:name="com.sonyericsson.android.socialphonebook.DeleteContactsProcessActivity" android:theme="@style/Theme.Spb.Translucent"/>
+        <activity android:label="@string/spb_strings_gen_settings_txt" android:name="com.sonyericsson.android.socialphonebook.SpbPreferenceActivity" android:theme="@style/PreferenceActivityTheme"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:icon="@drawable/ic_launcher_phone" android:label="@string/callDetailTitle" android:name="com.sonyericsson.android.socialphonebook.calllog.CallLogDetailActivity" android:theme="@style/Theme.Spb.CallDetails">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.item/calls"/>
+                <data android:mimeType="vnd.android.cursor.item/voicemail"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:label="@string/groupsLabel" android:name="com.sonyericsson.android.socialphonebook.group.GroupCreateOrEditActivity" android:theme="@style/Theme.Spb.AddEditTheme.Group" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|screenSize" android:label="@string/groupsLabel" android:name="com.sonyericsson.android.socialphonebook.group.GroupDetailActivity" android:theme="@style/Theme.Spb.Bidi"/>
+        <activity android:excludeFromRecents="true" android:label="@string/contactsListPickSearch" android:launchMode="singleTop" android:name="com.android.contacts.quickcontact.QuickContactActivity" android:taskAffinity="" android:theme="@style/Theme.Spb.QuickContact" android:windowSoftInputMode="stateUnchanged">
+            <intent-filter>
+                <action android:name="com.android.contacts.action.QUICK_CONTACT"/>
+                <action android:name="android.provider.action.QUICK_CONTACT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.item/contact"/>
+                <data android:mimeType="vnd.android.cursor.item/person"/>
+            </intent-filter>
+            <intent-filter android:label="@string/viewContactDesription">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.item/person"/>
+                <data android:mimeType="vnd.android.cursor.item/contact"/>
+                <data android:mimeType="vnd.android.cursor.item/raw_contact"/>
+            </intent-filter>
+        </activity>
+        <receiver android:exported="false" android:name="com.sonyericsson.android.socialphonebook.quickcontact.QuickContactBroadcastReceiver"/>
+        <activity android:configChanges="locale|keyboard|keyboardHidden|mcc|mnc|orientation|screenSize" android:label="@string/spb_strings_sdn_txt" android:name="com.sonyericsson.android.socialphonebook.SdnContactsListActivity" android:theme="@style/Theme.Spb.Bidi"/>
+        <activity android:configChanges="locale|keyboard|keyboardHidden|mcc|mnc|orientation|screenSize" android:label="@string/spb_strings_sdn_txt" android:name="com.sonyericsson.android.socialphonebook.DualSdnContactsListActivity" android:theme="@style/Theme.Spb.Bidi"/>
+        <activity android:label="@string/speed_dial_setting_title_bar_txt" android:name="com.sonyericsson.android.socialphonebook.speeddial.SpeedDialActivity"/>
+        <activity android:label="@string/conference_call_voice_party_main_title" android:name="com.sonyericsson.android.socialphonebook.conferencecall.activities.ConferenceCallsActivity" android:parentActivityName="com.sonyericsson.android.socialphonebook.activities.PhoneActivity"/>
+        <activity android:label="@string/conference_call_voice_party_main_title" android:name="com.sonyericsson.android.socialphonebook.conferencecall.activities.ConferenceParticipantsActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.sonyericsson.android.socialphonebook.InsertGalContactActivity" android:theme="@style/Theme.Spb.Translucent">
+            <intent-filter>
+                <action android:name="com.sonyericsson.android.socialphonebook.action.INSERT_GAL"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.item/person"/>
+                <data android:mimeType="vnd.android.cursor.item/contact"/>
+                <data android:mimeType="vnd.android.cursor.dir/raw_contact"/>
+            </intent-filter>
+        </activity>
+        <service android:exported="false" android:name="com.android.contacts.ContactSaveService"/>
+        <receiver android:name="com.sonyericsson.android.socialphonebook.MasterResetReceiver" android:permission="android.permission.MASTER_CLEAR">
+            <intent-filter>
+                <action android:name="com.sonyericsson.settings.MASTERRESET"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.sonyericsson.android.socialphonebook.calllog.voicemail.CallLogReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.NEW_VOICEMAIL"/>
+                <data android:host="com.android.voicemail" android:mimeType="vnd.android.cursor.item/voicemail" android:scheme="content"/>
+            </intent-filter>
+            <intent-filter android:priority="100">
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name="com.sonyericsson.android.socialphonebook.calllog.voicemail.CallLogNotificationsService"/>
+        <service android:exported="false" android:name="com.sonyericsson.android.socialphonebook.calllog.voicemail.VoicemailPlayerService"/>
+        <activity android:configChanges="locale|keyboard|keyboardHidden|mcc|mnc|orientation|screenSize" android:name="com.sonyericsson.android.socialphonebook.BackupMenuActivity" android:theme="@style/Theme.Spb.Translucent"/>
+        <activity android:configChanges="locale|keyboard|keyboardHidden|mcc|mnc|orientation" android:label="@string/spb_strings_export_title_txt" android:name="com.sonyericsson.android.socialphonebook.SimExportListActivity" android:theme="@style/Theme.Spb.Bidi.ListDialog" android:uiOptions="splitActionBarWhenNarrow"/>
+        <activity android:configChanges="locale|keyboard|keyboardHidden|mcc|mnc|orientation|screenSize" android:name="com.sonyericsson.android.socialphonebook.ImportVCardActivity" android:theme="@style/Theme.Spb.Translucent">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="locale|keyboard|keyboardHidden|mcc|mnc|orientation|screenSize" android:name="com.sonyericsson.android.socialphonebook.ExportVCardActivity" android:theme="@style/Theme.Spb.Translucent">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="locale|keyboard|keyboardHidden|mcc|mnc|orientation|screenSize" android:name="com.sonyericsson.android.socialphonebook.SimExportActivity" android:theme="@style/Theme.Spb.NoTitle"/>
+        <activity android:configChanges="locale|keyboard|keyboardHidden|mcc|mnc|orientation|screenSize" android:label="@string/simContacts_title" android:name="com.sonyericsson.android.socialphonebook.SimImportActivity" android:theme="@style/Theme.Spb.Bidi.ListDialog">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.item/sim-contact"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:excludeFromRecents="true" android:name="com.sonyericsson.android.socialphonebook.ReceiveVcardActivity" android:theme="@style/Theme.Spb.Translucent">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:mimeType="text/vcard"/>
+                <data android:mimeType="text/x-vcard"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.INSERT"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="text/x-vcard"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.nfc.action.NDEF_DISCOVERED"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="text/x-vcard"/>
+                <data android:mimeType="text/x-vCard"/>
+                <data android:mimeType="text/vcard"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="com.sonyericsson.android.socialphonebook.SendVcardActivity" android:theme="@style/Theme.Spb.Translucent">
+            <intent-filter>
+                <action android:name="com.sonyericsson.android.socialphonebook.action.SEND_VCARD"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="vnd.android.cursor.item/person"/>
+                <data android:mimeType="vnd.android.cursor.item/contact"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden" android:name="com.sonyericsson.android.socialphonebook.MultiChoiceSendVCardActivity" android:theme="@style/Theme.Spb.Bidi" android:uiOptions="splitActionBarWhenNarrow">
+            <intent-filter>
+                <action android:name="com.sonyericsson.android.socialphonebook.action.SEND_VCARD_LIST"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/spb_strings_input_secret_code_txt" android:name="com.sonyericsson.android.socialphonebook.dialpad.InputSecretCodeActivity" android:theme="@style/Theme.Spb.Bidi" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:label="@string/spb_strings_contact_list_ice_item_name" android:name="com.sonyericsson.android.socialphonebook.ice.IceContactsViewActivity" android:parentActivityName="com.sonyericsson.android.socialphonebook.activities.SocialPhonebookActivity"/>
+        <activity android:configChanges="orientation|screenSize" android:name="com.sonyericsson.android.socialphonebook.ice.IceMedicalInfoActivity"/>
+        <activity android:label="@string/spb_strings_gen_settings_txt" android:name="com.sonyericsson.android.socialphonebook.ice.IcePreferencesActivity" android:parentActivityName="com.sonyericsson.android.socialphonebook.ice.IceContactsViewActivity"/>
+        <activity android:launchMode="singleTask" android:name="com.sonyericsson.android.socialphonebook.ice.lockscreen.LockScreenActivity" android:taskAffinity="com.sonyericsson.android.socialphonebook.ice.lockscreen" android:theme="@style/Theme.Spb.NoTitle">
+            <intent-filter>
+                <action android:name="com.sonyericsson.android.socialphonebook.action.SHOW_ICE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.sonyericsson.android.socialphonebook.icjp.JapanDialingActivity" android:theme="@style/Theme.Spb.Dialog">
+            <intent-filter>
+                <action android:name="com.sonyericsson.android.socialphonebook.action.CALL_JAPAN_NUMBER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <service android:exported="true" android:name="com.sonyericsson.android.socialphonebook.ViewNotificationService" android:permission="android.permission.WRITE_CONTACTS">
+            <intent-filter>
+                <action android:name="com.android.contacts.VIEW_NOTIFICATION"/>
+                <data android:mimeType="vnd.android.cursor.item/contact"/>
+            </intent-filter>
+        </service>
+        <activity android:name="com.android.contacts.test.FragmentTestActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.TEST"/>
+            </intent-filter>
+        </activity>
+        <receiver android:name="com.sonyericsson.android.socialphonebook.receivers.ActivitySetupReceiver">
+            <intent-filter android:priority="1000">
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="com.sonymobile.setupwizard.intent.action.ACTION_FINISHED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.sonyericsson.android.socialphonebook.receivers.OnUpgradeReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.PRE_BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED"/>
+            </intent-filter>
+        </receiver>
+        <provider android:authorities="@string/fileprovider_authority" android:exported="false" android:grantUriPermissions="true" android:name="android.support.v4.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths"/>
+        </provider>
+        <service android:exported="false" android:name="com.sonyericsson.android.socialphonebook.OnBroadcastReceivedService" android:permission="android.permission.WRITE_CONTACTS"/>
+        <receiver android:name="com.sonyericsson.android.socialphonebook.receivers.LocalProfileUpdateEventsReceiver">
+            <intent-filter android:priority="990">
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SIM_STATE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <service android:exported="false" android:name="com.android.contacts.common.vcard.VCardService"/>
+        <service android:name="com.sonyericsson.android.socialphonebook.gaw.GawService"/>
+        <activity android:configChanges="orientation" android:name="com.android.contacts.common.vcard.CancelActivity" android:theme="@style/BackgroundOnlyTheme"/>
+        <receiver android:name="com.sonyericsson.android.socialphonebook.receivers.SimChangedReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.SIM_STATE_CHANGED"/>
+                <action android:name="com.sonymobile.intent.action.SIM2_STATE_CHANGED"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MSIM_MODE"/>
+                <action android:name="android.intent.action.ACTION_SUBINFO_RECORD_UPDATED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.sonyericsson.android.socialphonebook.ManagedProfileSetup">
+            <intent-filter>
+                <action android:name="android.intent.action.USER_INITIALIZE"/>
+            </intent-filter>
+        </receiver>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:name="com.android.contacts.common.activity.RequestPermissionsActivity"/>
+        <activity android:configChanges="orientation|screenSize" android:exported="false" android:name="com.android.contacts.common.activity.RequestImportVCardPermissionsActivity"/>
+    </application>
+</manifest>

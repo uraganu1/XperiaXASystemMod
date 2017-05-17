@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/contacts_list_root" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/Theme.Spb.PaperBackground"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:socialphonebook="http://schemas.android.com/apk/res/com.sonyericsson.android.socialphonebook">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:orientation="horizontal" android:id="@id/list_search_panel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/contacts_pick_list_multi_choice_search_panel_height" android:layout_marginStart="@dimen/contacts_pick_list_multi_choice_search_panel_margin" android:layout_marginEnd="@dimen/contacts_pick_list_multi_choice_search_panel_margin">
+                <SearchView android:id="@id/search_box" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:inputType="textFilter|textAutoComplete" android:imeOptions="actionDone|flagNoExtractUi" android:iconifiedByDefault="true" />
+            </RelativeLayout>
+            <com.sonyericsson.android.socialphonebook.widget.IndexedListView android:id="@id/alphabet_indexed_list" android:paddingBottom="@dimen/contacts_pick_list_multi_choice_recipients_handle_height" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/buttons" android:layout_marginStart="@dimen/contacts_pick_list_multi_choice_search_panel_margin" android:layout_marginEnd="@dimen/contacts_pick_list_multi_choice_search_panel_margin">
+                <com.sonyericsson.android.socialphonebook.widget.SpbListView android:scrollbarStyle="outsideOverlay" android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fastScrollEnabled="@bool/enableFastScrollBar" />
+            </com.sonyericsson.android.socialphonebook.widget.IndexedListView>
+        </LinearLayout>
+        <TextView android:gravity="center" android:id="@id/emptyText" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/noContacts" style="@style/TextAppearance.Medium" />
+        <include layout="@layout/contact_pick_list_multi_choice_recipients" />
+    </FrameLayout>
+    <LinearLayout android:id="@id/buttons" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?android:attr/buttonBarStyle">
+        <Button android:id="@id/btn_discard" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/spb_strings_gen_cancel_txt" android:layout_weight="1.0" style="?android:attr/buttonBarButtonStyle" />
+        <Button android:id="@id/btn_done" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/spb_strings_select_done_txt" android:layout_weight="1.0" style="?android:attr/buttonBarButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

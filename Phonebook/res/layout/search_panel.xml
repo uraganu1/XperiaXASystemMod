@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:id="@id/list_search_panel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:socialphonebook="http://schemas.android.com/apk/res/com.sonyericsson.android.socialphonebook">
+    <ImageButton android:id="@id/new_contact_button" android:visibility="gone" android:layout_width="@dimen/search_panel_new_contact_button_width" android:layout_height="@dimen/search_panel_new_contact_button_height" android:src="@drawable/spb_add_contact_icon" android:layout_alignParentEnd="true" />
+    <RelativeLayout android:paddingTop="@dimen/search_panel_list_padding_top" android:paddingBottom="@dimen/search_panel_list_padding_bottom" android:layout_width="fill_parent" android:layout_height="@dimen/search_panel_search_box_height" android:paddingStart="@dimen/search_panel_list_padding_left" android:paddingEnd="@dimen/search_panel_list_padding_right" android:layout_toStartOf="@id/new_contact_button">
+        <SearchView android:id="@id/search_box" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textFilter|textAutoComplete" android:imeOptions="flagNoExtractUi" android:iconifiedByDefault="true" android:queryHint="@string/spb_strings_contacts_search_box_search_txt" />
+    </RelativeLayout>
+</RelativeLayout>

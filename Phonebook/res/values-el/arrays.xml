@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spb_arrays_contacts_list_scroll_bar_characters_txt">
+        <item>Α</item>
+        <item>・</item>
+        <item>Δ</item>
+        <item>・</item>
+        <item>Θ</item>
+        <item>・</item>
+        <item>Λ</item>
+        <item>・</item>
+        <item>Π</item>
+        <item>・</item>
+        <item>Υ</item>
+        <item>・</item>
+        <item>A</item>
+        <item>・</item>
+        <item>D</item>
+        <item>・</item>
+        <item>G</item>
+        <item>・</item>
+        <item>L</item>
+        <item>・</item>
+        <item>O</item>
+        <item>・</item>
+        <item>S</item>
+        <item>・</item>
+        <item>V</item>
+        <item>\#</item>
+    </string-array>
+    <string-array name="spb_arrays_contacts_list_separator_characters_txt">
+        <item>Α</item>
+        <item>Β,Γ</item>
+        <item>Δ</item>
+        <item>Ε,Ζ,Η</item>
+        <item>Θ</item>
+        <item>Ι,Κ</item>
+        <item>Λ</item>
+        <item>Μ,Ν,Ξ,Ο</item>
+        <item>Π</item>
+        <item>Ρ,Σ,Τ</item>
+        <item>Υ</item>
+        <item>Φ,Χ,Ψ,Ω</item>
+        <item>A</item>
+        <item>B,C</item>
+        <item>D</item>
+        <item>E,F</item>
+        <item>G</item>
+        <item>H,I,J,K</item>
+        <item>L</item>
+        <item>M,N</item>
+        <item>O</item>
+        <item>P,Q,R</item>
+        <item>S</item>
+        <item>T,U</item>
+        <item>V,W,X,Y,Z</item>
+        <item>\#</item>
+    </string-array>
+    <string-array name="spb_arrays_contacts_list_index_box_characters_txt">
+        <item>Α</item>
+        <item>Α</item>
+        <item>Δ</item>
+        <item>Δ</item>
+        <item>Θ</item>
+        <item>Θ</item>
+        <item>Λ</item>
+        <item>Λ</item>
+        <item>Π</item>
+        <item>Π</item>
+        <item>Υ</item>
+        <item>Υ</item>
+        <item>A</item>
+        <item>A</item>
+        <item>D</item>
+        <item>D</item>
+        <item>G</item>
+        <item>G</item>
+        <item>L</item>
+        <item>L</item>
+        <item>O</item>
+        <item>O</item>
+        <item>S</item>
+        <item>S</item>
+        <item>V</item>
+        <item>\#</item>
+    </string-array>
+    <string-array name="spb_arrays_edit_option_list_add_image_txt">
+        <item>Συλλογή</item>
+        <item>Λήψη νέας φωτογραφίας</item>
+    </string-array>
+    <string-array name="spb_arrays_edit_option_list_add_album_image_txt">
+        <item>Άλμπουμ</item>
+        <item>Λήψη νέας φωτογραφίας</item>
+    </string-array>
+    <string-array name="otherLabels">
+        <item>Οργανισμός</item>
+        <item>Σημείωση</item>
+    </string-array>
+</resources>

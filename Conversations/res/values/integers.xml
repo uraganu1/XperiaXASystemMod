@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="leak_canary_max_stored_leaks">7</integer>
+    <integer name="leak_canary_watch_delay_millis">5000</integer>
+    <integer name="google_play_services_version">8487000</integer>
+    <integer name="sms_max_segments">20</integer>
+    <integer name="mms_trigger_recipients">50</integer>
+    <integer name="mms_version">16</integer>
+    <integer name="mms_trigger_pdu_bytes">0</integer>
+    <integer name="mms_max_objects">5</integer>
+    <integer name="smsc_editable_value">1</integer>
+    <integer name="stacked_messages_delay">60000</integer>
+    <integer name="branding_policy">1</integer>
+    <integer name="conversation_input_field_min_nbr_rows">1</integer>
+    <integer name="conversation_input_field_max_nbr_rows">6</integer>
+    <integer name="composer_scroll_bar_fade_duration">600</integer>
+    <integer name="composer_scroll_bar_fade_delay">100</integer>
+    <integer name="message_list_changes_animation_duration">300</integer>
+    <integer name="sticker_picker_grid_columns">4</integer>
+    <integer name="edit_container_translate_duration">400</integer>
+    <integer name="send_button_translate_duration">400</integer>
+    <integer name="contact_badge_animation_duration">200</integer>
+    <integer name="bubble_content_grow_duration">75</integer>
+    <integer name="bubble_content_shrink_duration">150</integer>
+    <integer name="bubble_content_animation_delay">150</integer>
+    <integer name="status_icon_tick_animation_duration">800</integer>
+    <integer name="status_icon_fully_visible_duration">2000</integer>
+    <integer name="bubble_timestamp_animation_delay">500</integer>
+    <item type="integer" name="bubble_timestamp_animation_duration">@integer/status_icon_tick_animation_duration</item>
+    <integer name="edit_container_bounce_distance">-10</integer>
+    <integer name="edit_container_exit_distance">150</integer>
+    <integer name="send_button_exit_distance">30</integer>
+    <integer name="quick_contact_line_divider_alpha">128</integer>
+    <integer name="message_bubble_timestamp_animation_duration">300</integer>
+    <integer name="location_vcard_dialog_padding">30</integer>
+    <integer name="message_details_item_text_weight">9</integer>
+    <integer name="message_details_item_icon_weight">1</integer>
+    <integer name="gallery_columns">3</integer>
+    <integer name="gallery_orientation">1</integer>
+    <integer name="inline_camera_toggle_camera_fade_out_time">50</integer>
+    <integer name="inline_camera_spinner_show_time">1500</integer>
+</resources>

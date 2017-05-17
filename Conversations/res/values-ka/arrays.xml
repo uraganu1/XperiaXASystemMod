@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>სად ხართ?</item>
+        <item>რას აპირებთ?</item>
+        <item>სასწრაფოა! მიპასუხე.</item>
+        <item>ამჟამად შეხვედრაზე ვარ.</item>
+        <item>კარგად ვარ. ნუ ნერვიულობ.</item>
+        <item>ამჟამად სახლში მივდივარ.</item>
+        <item>დაგიკავშირდები.</item>
+        <item>იქ ვიქნები.</item>
+        <item>შეამოწმე!</item>
+    </string-array>
+</resources>

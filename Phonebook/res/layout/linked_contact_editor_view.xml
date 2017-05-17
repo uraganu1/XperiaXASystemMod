@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.contacts.editor.LinkedContactEditorView android:orientation="vertical" android:id="@id/editor_linked_contact" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/linked_contact_editor_view_header" />
+    <TabHost android:orientation="vertical" android:id="@id/tab_host" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <HorizontalScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true">
+                <TabWidget android:id="@android:id/tabs" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </HorizontalScrollView>
+            <RelativeLayout android:background="@color/add_edit_account_chooser_background" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:background="@drawable/semc_ab_solid_shadow_holo_light" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" />
+                <TextView android:textAppearance="?android:textAppearanceSmall" android:id="@id/account_title" android:paddingTop="@dimen/edit_contact_account_name_padding_top_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/spb_strings_edit_account_txt" android:singleLine="true" android:paddingStart="@dimen/edit_contact_account_name_padding_start_end" android:paddingEnd="@dimen/edit_contact_account_name_padding_start_end" />
+                <TextView android:textAppearance="?android:textAppearanceMedium" android:ellipsize="end" android:id="@id/account_name" android:paddingBottom="@dimen/edit_contact_account_name_padding_top_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@id/account_title" android:textIsSelectable="false" android:paddingStart="@dimen/edit_contact_account_name_padding_start_end" android:paddingEnd="@dimen/edit_contact_account_name_padding_start_end" />
+            </RelativeLayout>
+            <FrameLayout android:id="@android:id/tabcontent" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </LinearLayout>
+    </TabHost>
+    <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/edit_contact_unlink_background_vertical_padding" android:paddingBottom="@dimen/edit_contact_unlink_background_vertical_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:layout_gravity="center" android:id="@id/button_unlink_contact" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/spb_strings_edit_unlink_field_txt" />
+    </LinearLayout>
+</com.android.contacts.editor.LinkedContactEditorView>

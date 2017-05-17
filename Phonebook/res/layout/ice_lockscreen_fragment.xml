@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@android:id/list" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/ice_lockscreen_owner_list_view_margin_top" android:divider="@null" android:headerDividersEnabled="false" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center" android:id="@id/ice_lockscreen_empty_view" android:focusable="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/ice_lock_screen_empty_text" />
+</FrameLayout>

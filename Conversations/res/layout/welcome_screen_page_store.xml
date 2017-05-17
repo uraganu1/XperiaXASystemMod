@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/tutorial_store_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:background="?android:colorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/tutorial_store_bitmap" android:elevation="@dimen/actionbar_elevation" android:outlineProvider="bounds" />
+        <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/welcome_screen_title_margin_top" android:layout_marginBottom="@dimen/welcome_screen_title_margin_bottom" android:text="@string/welcome_screen_page_store_title" android:layout_marginStart="@dimen/welcome_screen_title_margin" android:layout_marginEnd="@dimen/welcome_screen_title_margin" style="@style/WelcomeScreen.LargeText" />
+                <TextView android:id="@id/welcome_text_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/welcome_screen_text_margin_bottom" android:text="@string/welcome_screen_page_store_message" android:layout_marginStart="@dimen/welcome_screen_text_margin" android:layout_marginEnd="@dimen/welcome_screen_text_margin" style="@style/WelcomeScreen.MediumText" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <ImageView android:layout_gravity="end" android:id="@id/bottom_sticker_store" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bottom_sticker_store" android:layout_alignParentBottom="true" android:layout_marginEnd="@dimen/welcome_screen_title_margin" android:layout_alignParentEnd="true" />
+</RelativeLayout>

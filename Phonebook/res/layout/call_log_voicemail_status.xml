@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/voicemail_status_view" android:background="?android:selectableItemBackground" android:paddingTop="@dimen/call_log_voicemail_status_padding_top" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorSecondary" android:layout_gravity="center" android:id="@id/voicemail_status_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/voicemail_status_not_available_text" />
+    <Button android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorSecondary" android:layout_gravity="center" android:id="@id/voicemail_status_action" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/call_log_voicemail_margin_top" android:text="@string/voicemail_status_action_call_server" />
+    <View android:id="@id/dividerHorizontal" android:background="?android:dividerHorizontal" android:layout_width="fill_parent" android:layout_height="@dimen/call_log_list_item_divider_height" android:layout_marginTop="@dimen/call_log_voicemail_margin_top" />
+</LinearLayout>

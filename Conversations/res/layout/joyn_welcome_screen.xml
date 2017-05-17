@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/rootView" android:background="?android:colorPrimary" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="5.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/pagination_layout" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.5" />
+    <android.support.v4.view.ViewPager android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="3.8" />
+    <FrameLayout android:gravity="center" android:layout_gravity="center" android:id="@id/button_layout" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="0.7">
+        <Button android:layout_gravity="top" android:id="@id/next" android:background="@drawable/joyn_welcome_screen_next_button" android:layout_width="wrap_content" android:layout_height="@dimen/joyn_welcome_screen_button_height" android:maxWidth="@dimen/joyn_welcome_screen_button_max_width" android:minWidth="@dimen/joyn_welcome_screen_next_button_min_width" android:text="@string/conversations_strings_welcome_screen_next_button" android:paddingStart="@dimen/joyn_welcome_screen_button_side_padding" android:paddingEnd="@dimen/joyn_welcome_screen_button_side_padding" style="@style/WelcomeScreenButtonText" />
+    </FrameLayout>
+</LinearLayout>

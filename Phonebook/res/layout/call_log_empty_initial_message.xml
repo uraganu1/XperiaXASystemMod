@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="center" android:id="@id/call_log_empty_info" android:paddingTop="@dimen/call_log_list_empty_padding_top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/call_log_empty_info_margin_top_bottom" android:layout_marginBottom="@dimen/call_log_empty_info_margin_top_bottom" android:text="@string/call_log_empty_text" android:paddingStart="@dimen/call_log_empty_info_padding_start_end" android:paddingEnd="@dimen/call_log_empty_info_padding_start_end" />
+</merge>

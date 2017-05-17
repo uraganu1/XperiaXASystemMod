@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+        <View android:gravity="right" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="@integer/editor_side_weight" />
+        <fragment android:id="@id/contact_editor_fragment" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="@integer/editor_content_weight" class="com.android.contacts.editor.ContactEditorFragment" />
+        <View android:gravity="left" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="@integer/editor_side_weight" />
+    </LinearLayout>
+</ScrollView>

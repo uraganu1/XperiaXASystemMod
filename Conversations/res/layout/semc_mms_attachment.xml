@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@drawable/attachment_received_background" android:paddingTop="@dimen/generic_padding" android:paddingBottom="@dimen/generic_padding" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/message_attachment_start_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/mms_attachment_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/generic_left_margin" android:layout_marginEnd="@dimen/generic_right_margin" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/mms_attachment_body" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingEnd="@dimen/generic_margin" android:layout_marginStart="@dimen/generic_padding">
+        <TextView android:textStyle="bold" android:ellipsize="end" android:id="@id/mms_attachment_caption" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:paddingEnd="@dimen/generic_margin" style="@style/BubbleText" />
+        <TextView android:id="@id/file_size" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/BubbleText" />
+    </LinearLayout>
+</LinearLayout>

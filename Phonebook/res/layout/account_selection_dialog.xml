@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/generic_secondary_background_color" android:paddingTop="@dimen/select_account_title_padding_top" android:paddingBottom="@dimen/select_account_title_padding_bottom" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight" android:text="@string/spb_choose_account_select_backup_dialog_title_txt" android:paddingStart="@dimen/select_account_title_padding_start" style="@android:style/TextAppearance.DeviceDefault.DialogWindowTitle" />
+    <ListView android:id="@android:id/list" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" />
+</LinearLayout>

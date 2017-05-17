@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="FullyTranslucent" parent="@android:style/Theme.Translucent.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:layoutDirection">ltr</item>
+    </style>
+    <style name="ListViewStyle" parent="@android:style/Widget.DeviceDefault.Light.ListView">
+        <item name="android:overScrollMode">always</item>
+        <item name="android:layoutDirection">ltr</item>
+    </style>
+    <style name="ContactsAlertDialogTheme" parent="@android:style/Theme.Material.Light.Dialog">
+        <item name="android:colorAccent">@color/primary_color</item>
+    </style>
+    <style name="DummyAnimation">
+        <item name="android:windowExitAnimation">@anim/dummy_animation</item>
+    </style>
+    <style name="TextAppearance">
+        <item name="android:textAppearance">@android:style/TextAppearance.DeviceDefault</item>
+    </style>
+    <style name="TextAppearance.ExtremeLarge" parent="@style/TextAppearance">
+        <item name="android:textSize">@dimen/general_extreme_large_font_size</item>
+    </style>
+    <style name="TextAppearance.ExtraLarge" parent="@style/TextAppearance">
+        <item name="android:textSize">@dimen/general_extra_large_font_size</item>
+    </style>
+    <style name="TextAppearance.Large" parent="@style/TextAppearance">
+        <item name="android:textAppearance">@android:style/TextAppearance.DeviceDefault.Large</item>
+    </style>
+    <style name="TextAppearance.Medium" parent="@style/TextAppearance">
+        <item name="android:textAppearance">@android:style/TextAppearance.DeviceDefault.Medium</item>
+    </style>
+    <style name="TextAppearance.Small" parent="@style/TextAppearance">
+        <item name="android:textAppearance">@android:style/TextAppearance.DeviceDefault.Small</item>
+    </style>
+    <style name="TextAppearance.ExtraSmall" parent="@style/TextAppearance">
+        <item name="android:textSize">@dimen/general_extra_small_font_size</item>
+    </style>
+    <style name="TextAppearance.ExtraLarge.Marquee" parent="@style/TextAppearance.ExtraLarge">
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:fadingEdge">horizontal</item>
+        <item name="android:fadingEdgeLength">@dimen/general_extra_large_font_fading_width</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="TextAppearance.Large.Marquee" parent="@style/TextAppearance.Large">
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:fadingEdge">horizontal</item>
+        <item name="android:fadingEdgeLength">@dimen/general_large_font_fading_width</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="TextAppearance.Medium.Marquee" parent="@style/TextAppearance.Medium">
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:fadingEdge">horizontal</item>
+        <item name="android:fadingEdgeLength">@dimen/general_medium_font_fading_width</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="TextAppearance.Small.Marquee" parent="@style/TextAppearance.Small">
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:fadingEdge">horizontal</item>
+        <item name="android:fadingEdgeLength">@dimen/general_small_font_fading_width</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="TextAppearance.ExtraSmall.Marquee" parent="@style/TextAppearance.ExtraSmall">
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:fadingEdge">horizontal</item>
+        <item name="android:fadingEdgeLength">@dimen/general_small_font_fading_width</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="TextAppearance.TitleLarge" parent="@style/TextAppearance">
+        <item name="android:textSize">@dimen/general_title_large_font_size</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:fadingEdge">horizontal</item>
+        <item name="android:fadingEdgeLength">@dimen/general_title_large_font_fading_width</item>
+    </style>
+    <style name="ListSeparator_TextView" parent="@android:attr/listSeparatorTextViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="Dialpad" parent="@android:style/TextAppearance.DeviceDefault">
+        <item name="android:textColor">@color/dialpad_text_color</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:layoutDirection">ltr</item>
+    </style>
+    <style name="Dialpad.Digit" parent="@style/Dialpad">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:background">@drawable/dialpad_btn_background</item>
+        <item name="android:focusable">true</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:soundEffectsEnabled">false</item>
+    </style>
+    <style name="Dialpad.DigitText" parent="@style/Dialpad">
+        <item name="android:textSize">@dimen/dialpad_digit_text_size</item>
+        <item name="android:textColor">?android:colorPrimary</item>
+        <item name="android:layout_marginBottom">@dimen/dialpad_digit_text_margin_bottom</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="Dialpad.DigitText.Star" parent="@style/Dialpad.DigitText">
+        <item name="android:textSize">@dimen/dialpad_star_text_size</item>
+        <item name="android:layout_marginTop">@dimen/dialpad_star_text_margin_top</item>
+        <item name="android:layout_marginBottom">@dimen/dialpad_star_text_margin_bottom</item>
+    </style>
+    <style name="Dialpad.DigitText.Pound" parent="@style/Dialpad.DigitText">
+        <item name="android:textSize">@dimen/dialpad_pound_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">@dimen/dialpad_pound_text_margin_top</item>
+        <item name="android:layout_marginBottom">@dimen/dialpad_pound_text_margin_bottom</item>
+    </style>
+    <style name="Dialpad.Label" parent="@style/Dialpad">
+        <item name="android:textSize">@dimen/dialpad_label_text_size</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="Dialpad.Label.SmartSearchLabel" parent="@style/Dialpad.Label">
+        <item name="android:layout_marginStart">@dimen/dialpad_label_non_latin_margin_start</item>
+    </style>
+    <style name="Dialpad.Label.Plus" parent="@style/Dialpad.Label">
+        <item name="android:textSize">@dimen/dialpad_plus_text_size</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="Dialpad.EditText" parent="@style/Dialpad">
+        <item name="android:textSize">@dimen/dialpad_input_hint_text_size</item>
+        <item name="android:textColor">@color/dialpad_inputfield_text_color</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="DialpadLabelContainer">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+    <style name="CallLogLandDate" parent="@style/TextAppearance.Small.Marquee">
+        <item name="android:textSize">@dimen/calllog_land_date_text_size</item>
+    </style>
+    <style name="CallLogSingleItemStyle">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:focusable">true</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:minHeight">@dimen/list_item_with_two_rows_height</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:paddingStart">@dimen/call_log_list_item_padding_start_end</item>
+    </style>
+    <style name="CallLogDetailsStyle">
+        <item name="android:gravity">center</item>
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:src">@drawable/call_log_detail_btn</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:tint">@color/call_log_item_detail_button_color</item>
+        <item name="android:paddingStart">@dimen/call_log_list_item_padding_start_end</item>
+        <item name="android:paddingEnd">@dimen/call_log_list_item_padding_start_end</item>
+    </style>
+    <style name="QuickContactListItemStyle">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">?android:listPreferredItemHeight</item>
+        <item name="android:layoutDirection">locale</item>
+        <item name="android:paddingStart">8.0dip</item>
+        <item name="android:paddingEnd">8.0dip</item>
+    </style>
+    <style name="QuickContactListItemTextWrapperStyle">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:layoutDirection">locale</item>
+        <item name="android:paddingStart">8.0dip</item>
+        <item name="android:paddingEnd">8.0dip</item>
+    </style>
+    <style name="QuickContactListBottomStyle">
+        <item name="android:background">@color/quickcontact_tab_indicator</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">2.0dip</item>
+        <item name="android:layoutDirection">ltr</item>
+    </style>
+    <style name="ContactDetailItemType">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="ContactDetailsListSeparatorTextViewStyle">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/people_app_theme_color</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">8.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="EditorAccountDefaultTheme">
+        <item name="android:textAppearance">@android:style/TextAppearance.DeviceDefault.Small</item>
+    </style>
+    <style name="ContactEditorTheme">
+        <item name="android:textAppearance">@android:style/TextAppearance.DeviceDefault.Small</item>
+    </style>
+    <style name="EditorAccountHeaderTheme">
+        <item name="android:textAppearance">@android:style/TextAppearance.DeviceDefault.Medium</item>
+    </style>
+    <style name="ContactEditorGroupListTextStyle" parent="@android:style/TextAppearance.Material.Body1" />
+    <style name="BaseSearchBarTextStyle" parent="@android:style/TextAppearance.Material.Body1">
+        <item name="android:textColorHint">@color/call_log_search_bar_hint_text_color</item>
+        <item name="android:background">@drawable/call_log_search_bg</item>
+        <item name="android:hint">@string/call_log_search_hint</item>
+        <item name="android:drawablePadding">@dimen/search_bar_icon_padding</item>
+        <item name="android:drawableStart">@drawable/call_log_search_bar_icon</item>
+        <item name="android:paddingStart">@dimen/search_bar_padding_start</item>
+        <item name="android:elevation">@dimen/search_bar_elevation</item>
+    </style>
+    <style name="SearchBarTextStyle" parent="@style/BaseSearchBarTextStyle" />
+    <style name="ContactEditorGroupListTheme" parent="@android:style/Widget.DeviceDefault.Light.Spinner">
+        <item name="android:textAppearance">@style/ContactEditorGroupListTextStyle</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+    <style name="SelectableItem" parent="@android:style/Theme.Material.Light">
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:focusable">true</item>
+    </style>
+    <style name="ExpandingEntryCardStyle">
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:focusable">true</item>
+        <item name="android:descendantFocusability">afterDescendants</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/expanding_entry_card_marginBottom</item>
+        <item name="android:layout_marginStart">@dimen/expanding_entry_card_marginStartEnd</item>
+        <item name="android:layout_marginEnd">@dimen/expanding_entry_card_marginStartEnd</item>
+        <item name="android:elevation">@dimen/expanding_entry_card_elevation</item>
+    </style>
+    <style name="ContactsActionBarOverflow" parent="@android:style/Widget.Material.Light.ActionButton.Overflow" />
+    <style name="ContactsActionBarTabTextStyle" parent="@android:style/Widget.Material.Light.ActionBar.TabText">
+        <item name="android:textSize">@dimen/tab_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/tab_text_color</item>
+        <item name="android:fontFamily">@string/tab_font_family</item>
+        <item name="android:layoutDirection">ltr</item>
+    </style>
+    <style name="DualCallButtonText">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:layout_marginStart">@dimen/call_button_text_margin_start_end</item>
+        <item name="android:layout_marginEnd">@dimen/call_button_text_margin_start_end</item>
+    </style>
+    <style name="GroupListSeparatorTextViewStyle">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?android:colorPrimary</item>
+        <item name="android:background">@null</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:paddingStart">8.0dip</item>
+    </style>
+    <style name="FlatButton">
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:minWidth">@dimen/flat_button_min_width</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:paddingStart">@dimen/flat_button_padding_start_end</item>
+        <item name="android:paddingEnd">@dimen/flat_button_padding_start_end</item>
+        <item name="android:layout_marginEnd">@dimen/flat_button_margin_end</item>
+    </style>
+    <style name="FavouriteOobTitle" parent="@style/TextAppearance.Medium" />
+    <style name="FavouriteOobBodyText" />
+    <style name="TextAppearance.ContentText" parent="@android:style/TextAppearance">
+        <item name="android:autoLink">all</item>
+        <item name="android:paddingLeft">@dimen/runtime_permission_alert_dialog_padding</item>
+        <item name="android:paddingRight">@dimen/runtime_permission_alert_dialog_padding</item>
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+    <style name="Theme.CustomTheme" parent="@android:style/Theme.DeviceDefault.Light.DarkActionBar">
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowActionBar">true</item>
+        <item name="android:actionBarStyle">@style/ActionBarStyle</item>
+    </style>
+    <style name="Theme.DialogActivityTheme" parent="@android:style/Theme.DeviceDefault.Light.DarkActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowActionBar">true</item>
+        <item name="android:actionBarStyle">@style/ActionBarStyle</item>
+    </style>
+    <style name="ActionBarStyle" parent="@android:style/Widget.DeviceDefault.Light.ActionBar.Solid">
+        <item name="android:height">56.0dip</item>
+        <item name="android:displayOptions">showCustom|showTitle</item>
+    </style>
+    <style name="ActivityContentMargin">
+        <item name="android:paddingLeft">@dimen/runtime_permission_activity_horizontal_margin</item>
+        <item name="android:paddingRight">@dimen/runtime_permission_activity_horizontal_margin</item>
+    </style>
+    <style name="PermissionAlertDialogTheme" parent="@android:style/Theme.DeviceDefault.Light.NoActionBar">
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:layoutDirection">locale</item>
+    </style>
+    <style name="CardView">
+        <item name="cardBackgroundColor">@color/cardview_light_background</item>
+        <item name="cardCornerRadius">@dimen/cardview_default_radius</item>
+        <item name="cardElevation">@dimen/cardview_default_elevation</item>
+        <item name="cardMaxElevation">@dimen/cardview_default_elevation</item>
+        <item name="cardUseCompatPadding">false</item>
+        <item name="cardPreventCornerOverlap">true</item>
+    </style>
+    <style name="CardView.Light" parent="@style/CardView">
+        <item name="cardBackgroundColor">@color/cardview_light_background</item>
+    </style>
+    <style name="CardView.Dark" parent="@style/CardView">
+        <item name="cardBackgroundColor">@color/cardview_dark_background</item>
+    </style>
+    <style name="Widget.Button.Spb" parent="@android:style/Widget.DeviceDefault.Light.Button">
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:layoutDirection">ltr</item>
+    </style>
+    <style name="ListSeparatorBoxTextViewStyle">
+        <item name="android:textAppearance">@android:style/TextAppearance.Material.Title</item>
+        <item name="android:textColor">?android:colorPrimary</item>
+        <item name="android:gravity">end|center</item>
+        <item name="android:includeFontPadding">true</item>
+    </style>
+    <style name="Default.TextAppearance.ExtraLarge.Inverse" parent="@android:style/TextAppearance.DeviceDefault.Large.Inverse">
+        <item name="android:textSize">28.0sp</item>
+    </style>
+    <style name="SemcActionBarMenuTextAppearance" parent="@android:style/Widget.DeviceDefault.Light.ActionBar.Solid">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="BackgroundOnlyTheme" parent="@android:style/Widget.DeviceDefault.Light">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+    <style name="TextAppearance.DeviceDefault.MenuItem" parent="@android:style/TextAppearance.DeviceDefault.Small">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:drawablePadding">@dimen/menu_item_drawable_padding</item>
+        <item name="android:paddingStart">@dimen/menu_item_padding_start_end</item>
+        <item name="android:paddingEnd">@dimen/menu_item_padding_start_end</item>
+    </style>
+    <style name="Dialog.DeviceDefault.Button.Borderless" parent="@android:style/Widget.DeviceDefault.Button.Borderless">
+        <item name="android:textColor">?android:colorAccent</item>
+        <item name="android:gravity">end|center</item>
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:minWidth">@dimen/dialog_button_min_width</item>
+        <item name="android:paddingStart">@dimen/dialog_button_padding_start_end</item>
+        <item name="android:paddingEnd">@dimen/dialog_button_padding_start_end</item>
+    </style>
+    <style name="Dialog.DeviceDefault.Button.Borderless.Land" parent="@style/Dialog.DeviceDefault.Button.Borderless">
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="ContactsToolbarStyle" parent="@android:style/Widget.Toolbar">
+        <item name="android:theme">@android:style/ThemeOverlay.Material.Dark.ActionBar</item>
+        <item name="android:icon">@android:color/transparent</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@color/toolbar_background_color</item>
+        <item name="android:titleTextAppearance">@android:style/TextAppearance.Material.Widget.ActionBar.Title</item>
+        <item name="android:subtitleTextAppearance">@android:style/TextAppearance.Material.Widget.ActionBar.Subtitle</item>
+        <item name="android:popupTheme">@android:style/ThemeOverlay.Material.Light</item>
+    </style>
+    <style name="ContactsCreateEditActionBarStyle" parent="@android:style/TextAppearance.Material.Subhead">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">?android:selectableItemBackgroundBorderless</item>
+        <item name="android:focusable">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:paddingStart">@dimen/editor_action_bar_image_start_padding</item>
+        <item name="android:paddingEnd">@dimen/editor_action_bar_image_end_padding</item>
+    </style>
+    <style name="ListSeparator" parent="@android:style/TextAppearance.Material.Body2">
+        <item name="android:textColor">?android:colorPrimary</item>
+        <item name="android:paddingTop">@dimen/general_list_separator_padding_top</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingStart">@dimen/general_list_separator_padding_start_end</item>
+        <item name="android:paddingEnd">@dimen/general_list_separator_padding_start_end</item>
+    </style>
+    <style name="Theme.Spb" parent="@android:style/Theme.DeviceDefault.Light.DarkActionBar">
+        <item name="android:windowActionBar">true</item>
+        <item name="android:actionModeBackground">?android:colorAccent</item>
+        <item name="android:actionModeCloseDrawable">@drawable/ic_back_arrow</item>
+        <item name="android:actionOverflowButtonStyle">@style/ContactsActionBarOverflow</item>
+        <item name="android:alertDialogTheme">@style/Theme.Spb.Dialog</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_back_arrow</item>
+        <item name="android:windowEnableSplitTouch">false</item>
+        <item name="android:statusBarColor">?android:colorPrimaryDark</item>
+        <item name="android:actionModeShareDrawable">@drawable/ic_menu_share</item>
+        <item name="listSeparatorBoxTextViewStyle">@style/ListSeparatorBoxTextViewStyle</item>
+        <item name="textAppearanceExtraLargeInverse">@style/Default.TextAppearance.ExtraLarge.Inverse</item>
+    </style>
+    <style name="Theme.Spb.Dialog" parent="@android:style/Theme.DeviceDefault.Light.Dialog">
+        <item name="android:layoutDirection">locale</item>
+        <item name="android:listPreferredItemPaddingStart">@dimen/general_contact_dialog_padding_start_end</item>
+        <item name="android:listPreferredItemPaddingEnd">@dimen/general_contact_dialog_padding_start_end</item>
+    </style>
+    <style name="Theme.Spb.CallDetails" parent="@style/Theme.Spb">
+        <item name="android:layoutDirection">locale</item>
+    </style>
+    <style name="Theme.Spb.Bidi" parent="@style/Theme.Spb">
+        <item name="android:layoutDirection">locale</item>
+    </style>
+    <style name="PreferenceActivityTheme" parent="@style/Theme.Spb.Bidi">
+        <item name="android:actionBarTheme">@style/ContactsToolbarStyle</item>
+    </style>
+    <style name="Theme.Spb.Bidi.ListDialog" parent="@style/Theme.Spb.Bidi" />
+    <style name="Theme.Spb.Bidi.ListDialog.PickDialog" parent="@style/Theme.Spb.Bidi.ListDialog">
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+    <style name="Theme.Spb.NoTitle" parent="@style/Theme.Spb">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:layoutDirection">locale</item>
+    </style>
+    <style name="Theme.Spb.QuickContact" parent="@style/Theme.Spb">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:listViewStyle">@style/ListViewStyle</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:actionBarItemBackground">@drawable/item_background_material_borderless_dark</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+    <style name="Theme.Spb.Translucent" parent="@style/Theme.Spb">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:layoutDirection">locale</item>
+    </style>
+    <style name="Theme.Spb.Translucent.ListDialog" parent="@style/Theme.Spb.Translucent" />
+    <style name="Theme.Spb.FullyTranslucent.QuickContact" parent="@style/Theme.Spb.Translucent">
+        <item name="android:windowAnimationStyle">@style/DummyAnimation</item>
+    </style>
+    <style name="Theme.Spb.TallTitleBarTheme" parent="@style/Theme.Spb">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:layoutDirection">ltr</item>
+    </style>
+    <style name="Theme.Spb.AddEditTheme" parent="@style/Theme.Spb">
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="Theme.Spb.AddEditTheme.Group" parent="@style/Theme.Spb.AddEditTheme">
+        <item name="android:actionBarSize">@dimen/editor_action_bar_size</item>
+    </style>
+    <style name="Theme.Spb.PaperBackground" parent="@style/Theme.Spb">
+        <item name="android:elevation">@dimen/paper_elevation</item>
+    </style>
+</resources>

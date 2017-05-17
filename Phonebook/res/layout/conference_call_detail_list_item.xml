@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/call_detail_list_item_holder" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/call_detail_list_item_min_height" android:paddingStart="@dimen/call_detail_list_item_padding_start_end" android:paddingEnd="@dimen/call_detail_list_item_padding_start_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:gravity="center" android:id="@id/action_icon" android:duplicateParentState="true" android:layout_width="@dimen/call_detail_list_item_icon_size" android:layout_height="@dimen/call_detail_list_item_icon_size" android:scaleType="centerInside" android:contentDescription="@null" android:layout_marginEnd="@dimen/call_detail_list_item_icon_margin_end" />
+    <TextView android:id="@id/action_text" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@android:style/TextAppearance.Material.Subhead" />
+</LinearLayout>

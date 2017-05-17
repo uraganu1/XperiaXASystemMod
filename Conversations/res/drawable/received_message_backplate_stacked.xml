@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="@color/conversation_message_bubble_pressed_color"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <nine-patch android:src="@drawable/ic_speech_bubble_left_stacked" android:tint="@color/conversation_recv_message_bubble_color" />
+    </item>
+</ripple>

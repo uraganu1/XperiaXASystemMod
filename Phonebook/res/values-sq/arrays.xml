@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spb_arrays_edit_option_list_add_image_txt">
+        <item>Galeria</item>
+        <item>Nxirr foto të re</item>
+    </string-array>
+    <string-array name="spb_arrays_edit_option_list_add_album_image_txt">
+        <item>Albumi</item>
+        <item>Nxirr foto të re</item>
+    </string-array>
+    <string-array name="otherLabels">
+        <item>Organizata</item>
+        <item>Shënimi</item>
+    </string-array>
+</resources>

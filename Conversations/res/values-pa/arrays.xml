@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>ਤੁਸੀਂ ਕਿੱਥੇ ਹੋ?</item>
+        <item>ਤੁਸੀਂ ਕੀ ਕਰਨ ਵਾਲੇ ਹੋ?</item>
+        <item>ਜ਼ਰੂਰੀ! ਕਿਰਪਾ ਕਰਕੇ ਮੈਨੂੰ ਜਲਦੀ ਜਵਾਬ ਦਿਓ।</item>
+        <item>ਮੁਆਫ ਕਰਨਾ, ਇਸ ਵੇਲੇ ਮੈਂ ਮੀਟਿੰਗ ਵਿੱਚ ਹਾਂ।</item>
+        <item>ਮੈਂ ਠੀਕ ਹਾਂ। ਚਿੰਤਾ ਨਾ ਕਰੋ।</item>
+        <item>ਮੈਂ ਘਰ ਜਾ ਰਿਹਾ ਹਾਂ।</item>
+        <item>ਮੈਂ ਤੁਹਾਡੇ ਨਾਲ ਫਿਰ ਗੱਲ ਕਰਾਂਗਾ/ਕਰਾਂਗੀ।</item>
+        <item>ਮੈਂ ਉੱਥੇ ਆਵਾਂਗਾ।</item>
+        <item>ਇਹ ਦੇਖੋ!</item>
+    </string-array>
+</resources>

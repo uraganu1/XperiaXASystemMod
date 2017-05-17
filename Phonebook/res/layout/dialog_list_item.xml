@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight" android:paddingStart="@dimen/general_contact_dialog_padding_start_end" android:paddingEnd="@dimen/general_contact_dialog_padding_start_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@android:id/icon" android:layout_width="@dimen/dialog_list_item_icon_size" android:layout_height="@dimen/dialog_list_item_icon_size" android:layout_margin="@dimen/dialog_list_item_margin" />
+    <TextView android:textColor="?android:textColorPrimary" android:layout_gravity="center_vertical" android:id="@android:id/text1" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextAppearance.Medium.Marquee" />
+</LinearLayout>

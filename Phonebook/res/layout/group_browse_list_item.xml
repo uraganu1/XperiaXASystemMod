@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/group_browse_list_item_padding_top_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/group_list_header" android:visibility="gone" layout="@layout/group_browse_list_account_header" />
+    <TableLayout android:orientation="horizontal" android:id="@id/group_list_item" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchColumns="1" android:shrinkColumns="0" android:paddingStart="@dimen/group_browse_list_item_padding_start" android:paddingEnd="@dimen/general_list_item_padding_end">
+        <TableRow>
+            <TextView android:layout_gravity="center_vertical" android:id="@id/label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/TextAppearance.Medium.Marquee" />
+            <TextView android:layout_gravity="center_vertical" android:id="@id/count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" style="@style/TextAppearance.Medium.Marquee" />
+            <ImageView android:id="@id/group_photo" android:layout_width="@dimen/group_browse_list_photo_size" android:layout_height="@dimen/group_browse_list_photo_size" android:layout_centerVertical="true" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

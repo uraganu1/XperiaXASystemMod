@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:clickable="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/mms_notification_download_text" android:paddingTop="@dimen/bubble_text_top_padding" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/conversation_strings_messagetext_downloading_multimedia_message_header" android:paddingStart="@dimen/bubble_text_backplate_padding" style="@style/BubbleText.Subject" />
+    <TextView android:id="@id/mms_notification_info_text" android:paddingBottom="@dimen/bubble_text_padding" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/generic_big_margin" android:text="@string/conversation_strings_messagetext_downloading_text" android:paddingStart="@dimen/bubble_text_backplate_padding" style="@style/BubbleText.Warning" />
+</LinearLayout>

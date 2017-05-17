@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/banner_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/banner_default_margin">
+        <TextView android:layout_gravity="start" android:id="@id/conversation_list_banner_turn_on_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/banner_default_margin" android:text="@string/conversations_strings_default_sms_app_banner_turn_on_sms_text" style="@style/DefaultAppBanner" />
+        <CheckBox android:layout_gravity="start" android:id="@id/do_not_show_again_checkbox" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/conversations_strings_composer_dialog_do_not_show_again" style="@style/DefaultAppBanner" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/conversation_list_banner_button_bar" android:layout_width="fill_parent" android:layout_height="@dimen/default_sms_app_banner_button_bar_height">
+        <Button android:textSize="@dimen/banner_text_size" android:gravity="center" android:id="@id/conversation_list_banner_later_button" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/conversations_strings_default_sms_app_banner_maybe_later_button_text" android:layout_weight="1.0" android:paddingStart="@dimen/banner_default_margin" android:paddingEnd="@dimen/banner_default_margin" style="?android:attr/textAppearanceMediumInverse" />
+        <View android:id="@id/conversation_list_banner_divider" android:background="@color/mute_conversation_bar_semitransparent_white" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginTop="@dimen/generic_margin" android:layout_marginBottom="@dimen/generic_margin" />
+        <Button android:textSize="@dimen/banner_text_size" android:textStyle="bold" android:gravity="center" android:id="@id/conversation_list_banner_activate_button" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/conversations_strings_default_sms_app_banner_turn_on_sms_button_text" android:layout_weight="1.0" android:paddingStart="@dimen/banner_default_margin" android:paddingEnd="@dimen/banner_default_margin" style="?android:attr/textAppearanceMediumInverse" />
+    </LinearLayout>
+</LinearLayout>

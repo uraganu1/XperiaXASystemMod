@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>Hvar ertu?</item>
+        <item>Hvað ertu að gera?</item>
+        <item>Áríðandi! Svaraðu sem fyrst.</item>
+        <item>Afsakaðu, ég er á fundi.</item>
+        <item>Engar áhyggjur. Það er allt í lagi.</item>
+        <item>Ég er á leiðinni heim.</item>
+        <item>Ég hef samband.</item>
+        <item>Ég er alveg að koma.</item>
+        <item>Skoðaðu þetta!</item>
+    </string-array>
+</resources>

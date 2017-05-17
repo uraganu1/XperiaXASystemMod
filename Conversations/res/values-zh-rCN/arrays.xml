@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>你在哪里？</item>
+        <item>你在忙什么呢？</item>
+        <item>有急事找你！请尽快回复我！</item>
+        <item>对不起，我正在开会。</item>
+        <item>我很好。请不要担心。</item>
+        <item>我在回家的路上。</item>
+        <item>我稍后回复您。</item>
+        <item>我马上到。</item>
+        <item>请看看这个！</item>
+    </string-array>
+</resources>

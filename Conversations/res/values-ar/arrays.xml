@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>أين أنت؟</item>
+        <item>ماذا تنوي أن تفعل؟</item>
+        <item>أمر طارئ! أرجو الرد في أقرب فرصة.</item>
+        <item>عذرًا، أنا في اجتماع الآن.</item>
+        <item>أنا بحالة جيدة. لا تقلق.</item>
+        <item>أنا في طريقي للمنزل.</item>
+        <item>سأعود إليك.</item>
+        <item>سأكون هناك.</item>
+        <item>ألق نظرة على هذا الأمر!</item>
+    </string-array>
+</resources>

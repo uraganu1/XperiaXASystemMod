@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>どこにいるの？</item>
+        <item>今何してるの？</item>
+        <item>重要です！すぐ返信ください。</item>
+        <item>ごめんなさい、今会議中です。</item>
+        <item>大丈夫です、気にしないでください。</item>
+        <item>帰宅中です。</item>
+        <item>後で連絡します。</item>
+        <item>すぐに行きます。</item>
+        <item>チェックしてみて！</item>
+    </string-array>
+</resources>

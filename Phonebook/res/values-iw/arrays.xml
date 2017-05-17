@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spb_arrays_contacts_list_scroll_bar_characters_txt">
+        <item>א,COLLAPSIBLE_INIT_OPEN</item>
+        <item>・</item>
+        <item>ד</item>
+        <item>・</item>
+        <item>ז</item>
+        <item>・</item>
+        <item>י</item>
+        <item>・</item>
+        <item>מ</item>
+        <item>・</item>
+        <item>ע</item>
+        <item>・</item>
+        <item>ק</item>
+        <item>・</item>
+        <item>ת</item>
+        <item>A,COLLAPSIBLE_INIT_CLOSE</item>
+        <item>・</item>
+        <item>D</item>
+        <item>・</item>
+        <item>G</item>
+        <item>・</item>
+        <item>J</item>
+        <item>・</item>
+        <item>M</item>
+        <item>・</item>
+        <item>P</item>
+        <item>・</item>
+        <item>T</item>
+        <item>・</item>
+        <item>Z</item>
+        <item>\#,NO_COLLAPSIBLE</item>
+    </string-array>
+    <string-array name="spb_arrays_contacts_list_separator_characters_txt">
+        <item>א</item>
+        <item>ב,ג</item>
+        <item>ד</item>
+        <item>ה,ו</item>
+        <item>ז</item>
+        <item>ח,ט</item>
+        <item>י</item>
+        <item>כ,ל</item>
+        <item>מ</item>
+        <item>נ,ס</item>
+        <item>ע</item>
+        <item>פ,צ</item>
+        <item>ק</item>
+        <item>ר,ש</item>
+        <item>ת</item>
+        <item>A</item>
+        <item>B,C</item>
+        <item>D</item>
+        <item>E,F</item>
+        <item>G</item>
+        <item>H,I</item>
+        <item>J</item>
+        <item>K,L</item>
+        <item>M</item>
+        <item>N,O</item>
+        <item>P</item>
+        <item>Q,R,S</item>
+        <item>T</item>
+        <item>U,V,W,X,Y</item>
+        <item>Z</item>
+        <item>\#</item>
+    </string-array>
+    <string-array name="spb_arrays_contacts_list_index_box_characters_txt">
+        <item>א</item>
+        <item>א</item>
+        <item>ד</item>
+        <item>ד</item>
+        <item>ז</item>
+        <item>ז</item>
+        <item>י</item>
+        <item>י</item>
+        <item>מ</item>
+        <item>מ</item>
+        <item>ע</item>
+        <item>ע</item>
+        <item>ק</item>
+        <item>ק</item>
+        <item>ת</item>
+        <item>A</item>
+        <item>A</item>
+        <item>D</item>
+        <item>D</item>
+        <item>G</item>
+        <item>G</item>
+        <item>J</item>
+        <item>J</item>
+        <item>M</item>
+        <item>M</item>
+        <item>P</item>
+        <item>P</item>
+        <item>T</item>
+        <item>T</item>
+        <item>Z</item>
+        <item>\#</item>
+    </string-array>
+    <string-array name="spb_arrays_edit_option_list_add_image_txt">
+        <item>גלריה</item>
+        <item>צלם תצלום חדש</item>
+    </string-array>
+    <string-array name="spb_arrays_edit_option_list_add_album_image_txt">
+        <item>אלבום</item>
+        <item>צלם תצלום חדש</item>
+    </string-array>
+    <string-array name="otherLabels">
+        <item>ארגון</item>
+        <item>הערה</item>
+    </string-array>
+</resources>

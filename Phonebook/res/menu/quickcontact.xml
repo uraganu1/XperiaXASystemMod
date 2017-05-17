@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/menu_star" android:showAsAction="always" />
+    <item android:icon="@drawable/ic_create_24dp" android:id="@id/menu_edit" android:title="@string/menu_editContact" android:alphabeticShortcut="e" android:showAsAction="always" />
+    <item android:icon="@drawable/spb_add_contact_menu_icn" android:id="@id/menu_copy_contact" android:title="@string/gal_addToContact" android:alphabeticShortcut="c" android:showAsAction="always" />
+    <item android:id="@id/menu_refresh_vilte_call_status" android:title="@string/lte_menu_item_refresh_call_status" android:alphabeticShortcut="r" android:showAsAction="never" />
+    <item android:id="@id/menu_share" android:title="@string/menu_share" android:alphabeticShortcut="s" />
+    <item android:id="@id/menu_delete" android:title="@string/inifinteview_menu_delete_contact_txt" android:showAsAction="never" />
+    <item android:id="@id/menu_linkcontact" android:title="@string/spb_strings_gen_link_contact_txt" android:showAsAction="never" />
+    <item android:id="@id/menu_create_contact_shortcut" android:title="@string/menu_create_contact_shortcut" />
+    <item android:id="@id/menu_set_ringtone" android:title="@string/menu_set_ring_tone" android:showAsAction="never" />
+    <item android:id="@id/menu_help" android:visible="false" android:title="@string/spb_strings_menu_item_help" android:showAsAction="never" />
+</menu>

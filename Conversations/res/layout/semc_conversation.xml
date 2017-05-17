@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/conversationlist_content_area" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/conversation_list_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <include layout="@layout/floating_action_button" />
+    </FrameLayout>
+    <com.sonyericsson.conversations.ui.MessageListResponsiveLayout android:id="@id/message_list_content_area" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false">
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:baselineAligned="false" android:layout_weight="1.0">
+                    <FrameLayout android:layout_gravity="bottom" android:id="@id/message_list_fragment_container" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+                    <FrameLayout android:id="@id/editor_fragment_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                </LinearLayout>
+                <FrameLayout android:id="@id/attachment_bar_fragment_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/attachment_bar_menu_height" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/conversation_top_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include android:id="@id/conversation_mute_notification_bar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/mute_notification_bar_height" layout="@layout/semc_mute_notification_bar" />
+                <FrameLayout android:id="@id/conversation_to_field_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </FrameLayout>
+    </com.sonyericsson.conversations.ui.MessageListResponsiveLayout>
+</merge>

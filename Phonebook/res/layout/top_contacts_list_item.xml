@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:layout_width="@dimen/top_contacts_item_width_height" android:layout_height="@dimen/top_contacts_item_width_height" android:layout_marginEnd="@dimen/top_contacts_item_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/top_contacts_photo" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@null" android:layout_alignParentStart="true" />
+    <com.sonyericsson.android.socialphonebook.ui.widget.ExponentialGradientView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/contact_icon_gradient_margin_top" android:color="@color/contact_image_gradient_end_color" />
+    <RelativeLayout android:gravity="bottom" android:paddingBottom="@dimen/top_contacts_text_padding_bottom" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentBottom="true">
+        <TextView android:textColor="@android:color/white" android:ellipsize="end" android:id="@id/top_contact_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:layout_above="@id/top_contact_number_label" android:layout_marginStart="@dimen/top_contacts_item_margin_start_end" android:layout_marginEnd="@dimen/top_contacts_item_margin_start_end" style="@android:style/TextAppearance.Material.Subhead" />
+        <TextView android:textColor="@android:color/white" android:id="@id/top_contact_number_label" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/top_contacts_item_margin_start_end" android:layout_marginEnd="@dimen/top_contacts_item_margin_start_end" style="@android:style/TextAppearance.Material.Body1" />
+    </RelativeLayout>
+</RelativeLayout>

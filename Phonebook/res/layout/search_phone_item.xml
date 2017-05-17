@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/searchPhoneItem" android:background="?android:selectableItemBackground" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="?android:textColorPrimary" android:gravity="center_vertical" android:id="@id/phone_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/list_item_with_one_row_height" android:layout_marginStart="@dimen/list_item_generic_margin" style="@android:style/TextAppearance.Material.Subhead" />
+    <ImageView android:id="@id/prepare_call_icon" android:background="?android:selectableItemBackground" android:focusable="true" android:clickable="true" android:layout_width="@dimen/detail_action_icon_width" android:layout_height="wrap_content" android:src="@drawable/call_plus_icon" android:scaleType="center" android:minHeight="@dimen/list_item_with_one_row_height" android:contentDescription="@string/call_plus_prepare_a_call" android:importantForAccessibility="yes" android:layout_alignParentEnd="true" />
+</RelativeLayout>

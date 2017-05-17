@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>Neredesin?</item>
+        <item>Ne yapıyorsun?</item>
+        <item>Acil! Lütfen HEMEN cevap ver.</item>
+        <item>Maalesef şu anda toplantıdayım.</item>
+        <item>İyiyim. Merak etme.</item>
+        <item>Eve dönüyorum.</item>
+        <item>Seni arayacağım.</item>
+        <item>Hemen geliyorum.</item>
+        <item>Şuna baksana!</item>
+    </string-array>
+</resources>

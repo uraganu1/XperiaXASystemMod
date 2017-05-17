@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:id="@id/display_group_local_account" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight" android:paddingStart="?android:expandableListPreferredItemPaddingLeft" android:paddingEnd="?android:scrollbarSize"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginEnd="@dimen/display_group_margin_right">
+        <TextView android:id="@android:id/text1" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextAppearance.Medium.Marquee" />
+    </RelativeLayout>
+</LinearLayout>

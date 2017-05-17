@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>Di manakah kamu?</item>
+        <item>Sedang apa kamu?</item>
+        <item>Penting! Balas segera.</item>
+        <item>Maaf, saya sedang rapat.</item>
+        <item>Aku baik2 saja. Jangan khawatir.</item>
+        <item>Aku dalam perjalanan pulang.</item>
+        <item>Aku segera kembali.</item>
+        <item>Aku segera ke sana.</item>
+        <item>Coba lihat ini!</item>
+    </string-array>
+</resources>

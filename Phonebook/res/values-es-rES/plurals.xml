@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="spb_strings_delete_deleting_failed_txt">
+        <item quantity="other">Eliminar contactos</item>
+        <item quantity="one">Eliminar contacto</item>
+    </plurals>
+    <plurals name="spb_strings_delete_multiple_delete_confirmation_txt">
+        <item quantity="other">Los contactos seleccionados se eliminarán</item>
+        <item quantity="one">El contacto seleccionado se eliminará.</item>
+    </plurals>
+    <plurals name="spb_strings_delete_progress_deleting_contacts_txt">
+        <item quantity="other">Eliminando contactos</item>
+        <item quantity="one">Eliminando contacto</item>
+    </plurals>
+    <plurals name="spb_strings_delete_contact_deleted_txt">
+        <item quantity="other">Contactos eliminados</item>
+        <item quantity="one">Contacto eliminado</item>
+    </plurals>
+    <plurals name="favorite_contactsAddedToast">
+        <item quantity="other">Contactos añadidos a favoritos</item>
+        <item quantity="one">Contacto añadido a favoritos</item>
+    </plurals>
+    <plurals name="gal_completed_fmt">
+        <item quantity="other">%1$d resultados de %2$s</item>
+        <item quantity="one">1 resultado de %2$s</item>
+    </plurals>
+    <plurals name="spb_strings_group_available_data_count">
+        <item quantity="other">%1$d de %2$d miembros</item>
+        <item quantity="one">%1$d de %2$d miembro</item>
+    </plurals>
+    <plurals name="spb_strings_export_contacts_exported_txt">
+        <item quantity="other">Contactos exportados</item>
+        <item quantity="one">Contacto exportado</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">Mensajes del buzón de voz (%1$d)</item>
+        <item quantity="one">Mensaje del buzón de voz</item>
+    </plurals>
+    <plurals name="ice_view_remove_contacts_from_ice_list_toast_info">
+        <item quantity="other">Contactos borrados de la lista de contactos ECE</item>
+        <item quantity="one">Contacto borrado de la lista de contactos ECE</item>
+    </plurals>
+</resources>

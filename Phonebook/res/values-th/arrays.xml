@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spb_arrays_edit_option_list_add_image_txt">
+        <item>แกลเลอรี</item>
+        <item>ถ่ายรูปใหม่</item>
+    </string-array>
+    <string-array name="spb_arrays_edit_option_list_add_album_image_txt">
+        <item>อัลบั้ม</item>
+        <item>ถ่ายรูปใหม่</item>
+    </string-array>
+    <string-array name="otherLabels">
+        <item>หน่วยงาน</item>
+        <item>หมายเหตุ</item>
+    </string-array>
+</resources>

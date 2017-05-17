@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>Wo bist Du?</item>
+        <item>Was hast Du vor?</item>
+        <item>Dringend! Bitte sofort antworten</item>
+        <item>Bin gerade in einer Besprechung.</item>
+        <item>Ich bin OK. Kein Grund zur Sorge!</item>
+        <item>Ich bin auf dem Heimweg.</item>
+        <item>Ich rufe zurück.</item>
+        <item>Ich bin gleich da.</item>
+        <item>Unbedingt ansehen!</item>
+    </string-array>
+</resources>

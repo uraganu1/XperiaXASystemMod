@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notification_wifi_calling">將通過WLAN撥打電話。</string>
+</resources>

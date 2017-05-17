@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>Kur esi?</item>
+        <item>Ko dari?</item>
+        <item>Steidzami! Lūdzu, atbildi tūlīt.</item>
+        <item>Šobrīd esmu sapulcē.</item>
+        <item>Neuztraucies, man viss kārtībā.</item>
+        <item>Dodos mājās.</item>
+        <item>Es ar tevi sazināšos.</item>
+        <item>Tūlīt būšu.</item>
+        <item>Paskaties!</item>
+    </string-array>
+</resources>

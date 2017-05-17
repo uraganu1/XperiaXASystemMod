@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="dial_num_pressed_focused">@drawable/dial_num_normal</item>
+    <item type="drawable" name="dial_num_pressed">@drawable/dial_num_normal</item>
+    <item type="drawable" name="dial_num_focused">@drawable/dial_num_normal</item>
+</resources>

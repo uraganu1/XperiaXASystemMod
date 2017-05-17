@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="spb_strings_delete_deleting_failed_txt">
+        <item quantity="other">ਸੰਪਰਕ ਹਟਾਉ</item>
+        <item quantity="one">ਸੰਪਰਕ ਹਟਾਓ</item>
+    </plurals>
+    <plurals name="spb_strings_delete_multiple_delete_confirmation_txt">
+        <item quantity="other">ਚੁਣੇ ਗਏ ਸੰਪਰਕ ਹਟਾਏ ਜਾਣਗੇ</item>
+        <item quantity="one">ਚੁਣਿਆ ਗਿਆ ਸੰਪਰਕ ਹਟਾਇਆ ਜਾਏਗਾ</item>
+    </plurals>
+    <plurals name="spb_strings_delete_progress_deleting_contacts_txt">
+        <item quantity="other">ਸੰਪਰਕ ਮਿਟਾਏ ਜਾ ਰਹੇ ਹਨ</item>
+        <item quantity="one">ਸੰਪਰਕ ਮਿਟਾ ਰਿਹਾ ਹੈ</item>
+    </plurals>
+    <plurals name="spb_strings_delete_contact_deleted_txt">
+        <item quantity="other">ਸੰਪਰਕ ਮਿਟਾਏ ਗਏ</item>
+        <item quantity="one">ਸੰਪਰਕ ਹਟਾਇਆ ਗਿਆ</item>
+    </plurals>
+    <plurals name="favorite_contactsAddedToast">
+        <item quantity="other">ਮਨਪਸੰਦ ਵਿੱਚ ਜੋੜੇ ਗਏ ਸੰਪਰਕ</item>
+        <item quantity="one">ਮਨਪਸੰਦ ਵਿੱਚ ਜੋੜਿਆ ਗਿਆ ਸੰਪਰਕ</item>
+    </plurals>
+    <plurals name="gal_completed_fmt">
+        <item quantity="other">%1$d ਦੇ %2$s ਨਤੀਜੇ</item>
+        <item quantity="one">%2$s ਤੋਂ 1 ਨਤੀਜਾ</item>
+    </plurals>
+    <plurals name="spb_strings_group_available_data_count">
+        <item quantity="other">%2$d ਦੇ %1$d ਮੈਂਬਰ</item>
+        <item quantity="one">%2$d ਦੇ %1$d ਮੈਂਬਰ</item>
+    </plurals>
+    <plurals name="spb_strings_export_contacts_exported_txt">
+        <item quantity="other">ਸੰਪਰਕ ਨਿਰਯਾਤ ਕੀਤੇ ਗਏ</item>
+        <item quantity="one">ਸੰਪਰਕ ਨਿਰਯਾਤ ਕੀਤੇ ਗਏ</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">ਵੋਆਇਸਮੇਲ ਸੁਨੇਹੇ (%1$d)</item>
+        <item quantity="one">ਵੋਆਇਸਮੇਲ ਸੁਨੇਹਾ</item>
+    </plurals>
+    <plurals name="ice_view_remove_contacts_from_ice_list_toast_info">
+        <item quantity="other">ਸੰਪਰਕ ICE ਸੰਪਰਕਾਂ ਦੀ ਸੂਚੀ ਵਿੱਚੋਂ ਮਿਟਾਏ ਗਏ</item>
+        <item quantity="one">ਸੰਪਰਕ ICE ਸੰਪਰਕਾਂ ਦੀ ਸੂਚੀ ਵਿੱਚੋਂ ਮਿਟਾਇਆ ਗਿਆ</item>
+    </plurals>
+</resources>

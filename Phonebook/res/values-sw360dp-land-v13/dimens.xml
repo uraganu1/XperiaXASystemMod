@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="twelve_key_dialer_width">300.0dip</dimen>
+    <dimen name="twelve_key_dialer_digits_and_backspace_height">50.0dip</dimen>
+    <item type="dimen" name="twelve_key_dialer_backspace_width">@dimen/twelve_key_dialer_digits_and_backspace_height</item>
+</resources>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap android:src="@drawable/ic_timestamp_seen" android:tint="@color/conversation_timestamp_seen_icon_tint_color"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="spb_strings_delete_deleting_failed_txt">
+        <item quantity="other">Supprimer des contacts</item>
+        <item quantity="one">Supprimer le contact</item>
+    </plurals>
+    <plurals name="spb_strings_delete_multiple_delete_confirmation_txt">
+        <item quantity="other">Les contacts sélectionnés seront supprimés</item>
+        <item quantity="one">Contact sélectionné sera supprimé</item>
+    </plurals>
+    <plurals name="spb_strings_delete_progress_deleting_contacts_txt">
+        <item quantity="other">Suppression des contacts en cours</item>
+        <item quantity="one">Suppression du contact en cours</item>
+    </plurals>
+    <plurals name="spb_strings_delete_contact_deleted_txt">
+        <item quantity="other">Contacts supprimés</item>
+        <item quantity="one">Contact supprimé</item>
+    </plurals>
+    <plurals name="favorite_contactsAddedToast">
+        <item quantity="other">Contacts ajoutés aux favoris</item>
+        <item quantity="one">Contact ajouté aux favoris</item>
+    </plurals>
+    <plurals name="gal_completed_fmt">
+        <item quantity="other">%1$d résultats de %2$s</item>
+        <item quantity="one">1 résultat de %2$s</item>
+    </plurals>
+    <plurals name="spb_strings_group_available_data_count">
+        <item quantity="other">%1$d membres sur %2$d</item>
+        <item quantity="one">%1$d membre sur %2$d</item>
+    </plurals>
+    <plurals name="spb_strings_export_contacts_exported_txt">
+        <item quantity="other">Contacts exportés</item>
+        <item quantity="one">Contact exporté</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">Messages vocaux (%1$d)</item>
+        <item quantity="one">Message vocal</item>
+    </plurals>
+    <plurals name="ice_view_remove_contacts_from_ice_list_toast_info">
+        <item quantity="other">Contacts supprimés de la liste des contacts ICE</item>
+        <item quantity="one">Contact supprimé de la liste des contacts ICE</item>
+    </plurals>
+</resources>

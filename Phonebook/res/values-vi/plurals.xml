@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="spb_strings_delete_deleting_failed_txt">
+        <item quantity="other">Xóa danh bạ</item>
+        <item quantity="one">Xóa liên lạc</item>
+    </plurals>
+    <plurals name="spb_strings_delete_multiple_delete_confirmation_txt">
+        <item quantity="other">Liên lạc được chọn sẽ bị xóa</item>
+        <item quantity="one">Liên lạc đã chọn sẽ bị xóa</item>
+    </plurals>
+    <plurals name="spb_strings_delete_progress_deleting_contacts_txt">
+        <item quantity="other">Đang xóa danh bạ</item>
+        <item quantity="one">Đang xóa liên lạc</item>
+    </plurals>
+    <plurals name="spb_strings_delete_contact_deleted_txt">
+        <item quantity="other">Đã xóa liên lạc</item>
+        <item quantity="one">Đã xóa liên lạc</item>
+    </plurals>
+    <plurals name="favorite_contactsAddedToast">
+        <item quantity="other">Các liên hệ được thêm vào liên hệ yêu thích</item>
+        <item quantity="one">Liên hệ được thêm vào liên hệ yêu thích</item>
+    </plurals>
+    <plurals name="gal_completed_fmt">
+        <item quantity="other">%1$d kết quả từ %2$s</item>
+        <item quantity="one">1 kết quả từ %2$s</item>
+    </plurals>
+    <plurals name="spb_strings_group_available_data_count">
+        <item quantity="other">%1$d/%2$d thành viên</item>
+        <item quantity="one">%1$d/%2$d thành viên</item>
+    </plurals>
+    <plurals name="spb_strings_export_contacts_exported_txt">
+        <item quantity="other">Đã xuất các liên lạc</item>
+        <item quantity="one">Đã xuất liên lạc</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">Tin nhắn thư thoại (%1$d)</item>
+        <item quantity="one">Thư thoại</item>
+    </plurals>
+    <plurals name="ice_view_remove_contacts_from_ice_list_toast_info">
+        <item quantity="other">Liên hệ bị xóa khỏi danh sách liên hệ ICE</item>
+        <item quantity="one">Liên hệ bị xóa khỏi danh sách liên hệ ICE</item>
+    </plurals>
+</resources>

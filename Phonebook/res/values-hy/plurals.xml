@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="spb_strings_delete_deleting_failed_txt">
+        <item quantity="other">Ջնջել կոնտակտներ</item>
+        <item quantity="one">Ջնջել կոնտակտ</item>
+    </plurals>
+    <plurals name="spb_strings_delete_multiple_delete_confirmation_txt">
+        <item quantity="other">Ընտրված կոնտակտները կջնջվեն</item>
+        <item quantity="one">Ընտրված կոնտակտը կջնջվի</item>
+    </plurals>
+    <plurals name="spb_strings_delete_progress_deleting_contacts_txt">
+        <item quantity="other">Կոնտակտները ջնջվում են</item>
+        <item quantity="one">Կոնտակտը ջնջվում է</item>
+    </plurals>
+    <plurals name="spb_strings_delete_contact_deleted_txt">
+        <item quantity="other">Կոնտակտները ջնջվեցին</item>
+        <item quantity="one">Կոնտակտը ջնջվեց</item>
+    </plurals>
+    <plurals name="favorite_contactsAddedToast">
+        <item quantity="other">Կոնտակտները հավելվեցին ընտրյալներին</item>
+        <item quantity="one">Կոնտակտը հավելվեց ընտրյալներին</item>
+    </plurals>
+    <plurals name="gal_completed_fmt">
+        <item quantity="other">%1$d արդյունք %2$s-ից</item>
+        <item quantity="one">1 արդյունք %2$s</item>
+    </plurals>
+    <plurals name="spb_strings_group_available_data_count">
+        <item quantity="other">%1$d՝ %2$d անդամներից</item>
+        <item quantity="one">%1$d՝ %2$d անդամներից</item>
+    </plurals>
+    <plurals name="spb_strings_export_contacts_exported_txt">
+        <item quantity="other">Կոնտակտները` արտահանած</item>
+        <item quantity="one">Կոնտակտը` արտահանած</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">Ձյն փոստի հղրդգրթյննր (%1$d)</item>
+        <item quantity="one">Ձյն փստի հղրդ</item>
+    </plurals>
+    <plurals name="ice_view_remove_contacts_from_ice_list_toast_info">
+        <item quantity="other">Կոնտակտները մաքրվեցին ICE կոնտակտների ցուցակից</item>
+        <item quantity="one">Կոնտակտը մաքրվեց ICE կոնտակտների ցուցակից</item>
+    </plurals>
+</resources>

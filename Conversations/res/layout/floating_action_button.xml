@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:layout_gravity="end|bottom|center" android:id="@id/floating_button_new_conversation" android:background="@drawable/write_new_message_background" android:layout_width="@dimen/floating_button_size" android:layout_height="@dimen/floating_button_size" android:layout_marginBottom="@dimen/floating_button_margin" android:src="@drawable/write_new_message_content_icon" android:contentDescription="@string/conversations_strings_conversationlist_header_new_conversation_txt" android:layout_marginEnd="@dimen/floating_button_margin" android:elevation="@dimen/floating_button_elevation" />
+</merge>

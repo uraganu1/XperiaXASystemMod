@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>Anjeun aya di mana?</item>
+        <item>Anjeun nuju naon?</item>
+        <item>Darurat! Gancang bales.</item>
+        <item>Punten, kuring nuju rapat.</item>
+        <item>Kuring cageur. Ulah melang.</item>
+        <item>Kuring keur di jalan ka imah.</item>
+        <item>Kuring bakal ngontak anjeun.</item>
+        <item>Kuring bakal ka ditu.</item>
+        <item>Tingali ieu!</item>
+    </string-array>
+</resources>

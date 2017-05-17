@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sonyericsson.conversations.ui.MessageContentMmsNotification android:orientation="horizontal" android:tag="@string/conversation_strings_mms_content_notification_tag" android:clickable="true" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <include android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="3.0" layout="@layout/somc_message_content_mms_download_info" />
+        <ImageView android:id="@id/mms_notification_download_button" android:clickable="false" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_download" android:scaleType="centerInside" android:tint="@android:color/black" android:layout_weight="1.0" android:layout_marginEnd="@dimen/generic_margin" />
+    </LinearLayout>
+</com.sonyericsson.conversations.ui.MessageContentMmsNotification>

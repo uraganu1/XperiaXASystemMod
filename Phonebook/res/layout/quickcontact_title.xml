@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/title_content_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/quickcontact_title_initial_margin" android:importantForAccessibility="no" android:layout_marginStart="@dimen/quickcontact_title_initial_margin" android:layout_marginEnd="@dimen/quickcontact_title_initial_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/avatar_view" android:background="@drawable/quickcontact_avatar_border" android:layout_width="@dimen/quickcontact_avatar_size" android:layout_height="@dimen/quickcontact_avatar_size" android:importantForAccessibility="no" />
+    <TextView android:textSize="@dimen/quickcontact_maximum_title_text_size" android:textColor="@color/letter_tile_font_color" android:layout_gravity="start|center|top" android:id="@id/large_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="@integer/quickcontact_title_lines" android:singleLine="true" android:importantForAccessibility="no" android:textAlignment="viewStart" />
+    <TextView android:textSize="@dimen/quickcontact_maximum_extra_info_text_size" android:textColor="@color/letter_tile_font_color" android:id="@id/quickcontact_extra_info" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="@integer/quickcontact_extra_info_lines" android:importantForAccessibility="yes" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/message_status_progress" android:padding="@dimen/bubble_status_icon_padding" android:visibility="gone" android:layout_width="@dimen/bubble_progressbar_size" android:layout_height="@dimen/bubble_progressbar_size" android:layout_margin="@dimen/bubble_status_icon_padding" android:indeterminate="true" android:progressTint="@color/bubble_progress_tint_color" android:progressTintMode="src_atop" android:indeterminateTint="@color/bubble_progress_tint_color" android:indeterminateTintMode="src_atop" style="?android:attr/android:progressBarStyleSmall" />
+    <ImageView android:id="@id/message_status_icon" android:padding="@dimen/bubble_status_icon_padding" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</merge>
