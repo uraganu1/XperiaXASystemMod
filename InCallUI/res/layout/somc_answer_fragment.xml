@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom" android:orientation="vertical" android:paddingTop="@dimen/answer_padding_vertical" android:paddingBottom="@dimen/answer_padding_vertical" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/answer_solid_shadow_panel_incoming_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/somc_button_text_color" android:ellipsize="end" android:layout_gravity="center_horizontal" android:id="@id/responseOptBtn" android:background="@drawable/somc_large_white_btn" android:paddingTop="@dimen/response_options_btn_padding_vertical" android:paddingBottom="@dimen/response_options_btn_padding_vertical" android:focusable="true" android:visibility="gone" android:clickable="true" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/response_options_btn_margin_bottom" android:text="@string/phone_strings_ans_mach_response_options_tab_txt" android:maxLines="1" android:paddingStart="@dimen/response_options_btn_padding_horizontal" android:paddingEnd="@dimen/response_options_btn_padding_horizontal" android:elevation="@dimen/response_options_btn_elevation" style="@android:style/TextAppearance.Material.Button" />
+    <include layout="@layout/somc_videocall_callwaiting_panel" />
+    <include layout="@layout/somc_videocall_incoming_call_panel" />
+    <include layout="@layout/somc_incoming_sliding_tab" />
+</LinearLayout>

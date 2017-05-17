@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="searchFoundCalllogs">
+        <item quantity="other">%d কল তালিকা</item>
+        <item quantity="one">১ কল তালিকা</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d টি পরিচিতি পাওয়া গেছে</item>
+        <item quantity="one">1 টি পরিচিতি পাওয়া গেছে</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d সেকেন্ড</item>
+        <item quantity="one">1 সেকেন্ড</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d মিনিট</item>
+        <item quantity="one">1 মিনিট</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="other">%d ঘন্টা</item>
+        <item quantity="one">1 ঘন্টা</item>
+    </plurals>
+</resources>

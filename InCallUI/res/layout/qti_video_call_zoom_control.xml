@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:theme="@style/Theme.InCallScreen" android:layout_width="fill_parent" android:layout_height="20.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.android.incallui.ZoomControlBar android:layout_gravity="center|clip_horizontal|clip_vertical" android:id="@id/zoom_control" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="20.0dip" />
+</FrameLayout>
