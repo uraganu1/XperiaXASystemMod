@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <version>1</version>
+    <folder back="round_folder_back" scale="0.75" layout="grid" />
+</resources>

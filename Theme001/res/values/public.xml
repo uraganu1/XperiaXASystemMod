@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <public type="drawable" name="home_folder_folder" id="0x7f020000" />
+    <public type="drawable" name="round_folder_back" id="0x7f020001" />
+    <public type="drawable" name="semc_theme_lockscreen_wallpaper" id="0x7f020002" />
+    <public type="drawable" name="semc_theme_preview" id="0x7f020003" />
+    <public type="drawable" name="semc_theme_wallpaper" id="0x7f020004" />
+    <public type="xml" name="iconpack" id="0x7f030000" />
+    <public type="string" name="somc_theme_title" id="0x7f040000" />
+    <public type="color" name="skin_color" id="0x7f050000" />
+</resources>
