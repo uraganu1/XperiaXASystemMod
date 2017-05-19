@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <include layout="@layout/somc_answering_machine_animation_background" />
-    <RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="@dimen/answer_solid_shadow_panel_incoming_height" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/call_card_content_margin_horizontal" android:layout_marginEnd="@dimen/call_card_content_margin_horizontal">
-        <include android:paddingBottom="@dimen/am_incoming_sliding_tab_padding_bottom" layout="@layout/somc_incoming_sliding_tab" />
-    </RelativeLayout>
-</RelativeLayout>

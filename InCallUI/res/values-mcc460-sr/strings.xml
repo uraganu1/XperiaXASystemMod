@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="notification_ongoing_call_wifi">Tekući WLAN poziv</string>
-    <string name="notification_incoming_call_wifi">Dolazni WLAN poziv</string>
-</resources>

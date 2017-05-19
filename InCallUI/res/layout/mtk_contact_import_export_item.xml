@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<view android:gravity="center_vertical" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/contact_import_export_item_min_height" class="com.mediatek.contacts.widget.ImportExportItem"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/icon" android:layout_width="@dimen/contact_import_export_icon_size" android:layout_height="@dimen/contact_import_export_icon_size" android:layout_marginLeft="12.0dip" android:scaleType="fitCenter" />
-    <LinearLayout android:orientation="horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
-        <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@android:color/black" android:id="@id/accountUserName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:singleLine="true" />
-    </LinearLayout>
-    <RadioButton android:layout_gravity="center|right" android:id="@id/radioButton" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" />
-</view>

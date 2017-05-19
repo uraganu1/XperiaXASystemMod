@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="@android:drawable/toast_frame" android:paddingTop="@dimen/small_dialog_padding_vertical" android:paddingBottom="@dimen/small_dialog_padding_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/small_dialog_padding_horizontal" android:paddingEnd="@dimen/small_dialog_padding_horizontal"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="@dimen/small_dialog_text_size" android:textColor="@android:color/bright_foreground_dark" android:gravity="center" android:id="@id/small_dialog_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="@color/somc_small_dialog_text_shadow_color" android:shadowRadius="2.75" android:layout_centerInParent="true" android:textAlignment="gravity" />
-</RelativeLayout>
