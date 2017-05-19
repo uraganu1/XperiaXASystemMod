@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="searchFoundCalllogs">
+        <item quantity="other">%d евиденција позива</item>
+        <item quantity="one">1 евиденција позива</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d je pronađeno</item>
+        <item quantity="one">1 je pronađen</item>
+        <item quantity="few">Пронађена су %d</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d sekundi</item>
+        <item quantity="one">1 sekunda</item>
+        <item quantity="few">%d секунде</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d minuta</item>
+        <item quantity="one">1 minut</item>
+        <item quantity="few">%d минута</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="other">%d časova</item>
+        <item quantity="one">1 sat</item>
+        <item quantity="few">%d сата</item>
+    </plurals>
+</resources>

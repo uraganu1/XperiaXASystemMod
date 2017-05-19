@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d табылды</item>
+        <item quantity="one">1 табылды</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d секунд</item>
+        <item quantity="one">1 секунд</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d минут</item>
+        <item quantity="one">1 минут</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="other">%d сағат</item>
+        <item quantity="one">1 сағат</item>
+    </plurals>
+</resources>

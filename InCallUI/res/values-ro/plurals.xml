@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="searchFoundCalllogs">
+        <item quantity="other">%d jurnale apeluri</item>
+        <item quantity="one">1 jurnal apeluri</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d găsit(e)</item>
+        <item quantity="one">1 găsit</item>
+        <item quantity="few">%d găsite</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d de secunde</item>
+        <item quantity="one">O secundă</item>
+        <item quantity="few">%d secunde</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d de minute</item>
+        <item quantity="one">Un minut</item>
+        <item quantity="few">%d minute</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="other">%d de ore</item>
+        <item quantity="one">O oră</item>
+        <item quantity="few">%d ore</item>
+    </plurals>
+</resources>

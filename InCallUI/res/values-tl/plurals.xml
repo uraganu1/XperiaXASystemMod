@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="searchFoundCalllogs">
+        <item quantity="other">%d mga log ng tawag</item>
+        <item quantity="one">1 log ng tawag</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d ang nahanap</item>
+        <item quantity="one">1 ang nahanap</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d na segundo</item>
+        <item quantity="one">1 segundo</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d na minuto</item>
+        <item quantity="one">1 minuto</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="other">%d na oras</item>
+        <item quantity="one">1 oras</item>
+    </plurals>
+</resources>

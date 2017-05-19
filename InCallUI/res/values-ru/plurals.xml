@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="searchFoundCalllogs">
+        <item quantity="other">Вызовов в журнале: %d</item>
+        <item quantity="one">В журнале 1 вызов</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">Найдено: %d</item>
+        <item quantity="one">Найдено: 1</item>
+        <item quantity="few">Найдено %d контакта</item>
+        <item quantity="many">Найдено %d контактов</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d с</item>
+        <item quantity="one">1 сек.</item>
+        <item quantity="few">%d секунды</item>
+        <item quantity="many">%d секунд</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d мин</item>
+        <item quantity="one">1 мин.</item>
+        <item quantity="few">%d минуты</item>
+        <item quantity="many">%d минут</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="other">%d ч</item>
+        <item quantity="one">1 ч.</item>
+        <item quantity="few">%d часа</item>
+        <item quantity="many">%d часов</item>
+    </plurals>
+</resources>

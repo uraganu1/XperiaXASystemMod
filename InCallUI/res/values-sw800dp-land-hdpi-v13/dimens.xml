@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_grid_layout_button_width">240.0dip</dimen>
+    <dimen name="button_grid_layout_button_height">110.0dip</dimen>
+    <dimen name="dialpad_additional_button_width">240.0dip</dimen>
+    <dimen name="dialpad_additional_button_height">120.0dip</dimen>
+</resources>

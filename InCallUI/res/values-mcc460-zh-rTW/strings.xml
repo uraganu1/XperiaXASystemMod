@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notification_ongoing_call_wifi">撥出的 WLAN 電話</string>
+    <string name="notification_incoming_call_wifi">撥入的 WLAN 電話</string>
+</resources>

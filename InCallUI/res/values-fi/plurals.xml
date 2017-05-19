@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="searchFoundCalllogs">
+        <item quantity="other">%d puhelulokia</item>
+        <item quantity="one">1 puheluloki</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">Löytyi %d</item>
+        <item quantity="one">Löytyi 1</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d sekuntia</item>
+        <item quantity="one">1 sekunti</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d minuuttia</item>
+        <item quantity="one">1 minuutti</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="other">%d tuntia</item>
+        <item quantity="one">1 tunti</item>
+    </plurals>
+</resources>

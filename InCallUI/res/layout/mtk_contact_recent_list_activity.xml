@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/pinned_header_list_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/contact_recent_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="1.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="5.0dip" android:listSelector="@android:color/transparent" android:transcriptMode="alwaysScroll" android:layout_alignParentLeft="true" android:fastScrollEnabled="true" />
+    <View android:background="?android:listDivider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="0.0dip" android:layout_marginRight="0.0dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/buttonbar_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_alignParentBottom="true" style="?android:attr/buttonBarStyle">
+        <Button android:id="@id/btn_cancel" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@android:string/cancel" android:layout_weight="1.0" style="?android:attr/buttonBarButtonStyle" />
+        <Button android:id="@id/btn_ok" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@android:string/ok" android:layout_weight="1.0" style="?android:attr/buttonBarButtonStyle" />
+    </LinearLayout>
+    <TextView android:textAppearance="?android:textAppearanceLarge" android:textColor="?android:textColorSecondary" android:gravity="center" android:id="@id/empty" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" />
+</RelativeLayout>
