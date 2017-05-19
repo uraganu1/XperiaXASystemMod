@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<overlay-resources>
+    <overlay id="@drawable/callhandling_contact_picture_default">
+        <filter type="type" value="bitmap" />
+        <filter type="size" minWidth="200dp" maxWidth="1080px" minHeight="200dp" maxHeight="1080px" />
+    </overlay>
+</overlay-resources>

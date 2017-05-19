@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="searchFoundCalllogs">
+        <item quantity="other">%d registres de trucades</item>
+        <item quantity="one">1 registre de trucades</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d contactes</item>
+        <item quantity="one">1 contacte</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d segons</item>
+        <item quantity="one">1 segon</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d minuts</item>
+        <item quantity="one">1 minut</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="other">%d hores</item>
+        <item quantity="one">1 hora</item>
+    </plurals>
+</resources>

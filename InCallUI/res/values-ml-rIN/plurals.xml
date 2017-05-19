@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d കണ്ടെത്തി</item>
+        <item quantity="one">1 കണ്ടെത്തി</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d സെക്കൻഡ്</item>
+        <item quantity="one">1 സെക്കന്റ്</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d മിനിറ്റ്</item>
+        <item quantity="one">1 മിനിറ്റ്</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="other">%d മണിക്കൂർ</item>
+        <item quantity="one">1 മണിക്കൂര്‍</item>
+    </plurals>
+</resources>

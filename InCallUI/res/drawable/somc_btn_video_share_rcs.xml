@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/btn_background" />
+    <item>
+        <selector>
+            <item android:state_enabled="false">
+                <bitmap android:gravity="center" android:src="@drawable/rcs_vs_not_available_icon" android:autoMirrored="true" />
+            </item>
+            <item>
+                <bitmap android:gravity="center" android:src="@drawable/rcs_vs_icon" android:autoMirrored="true" />
+            </item>
+        </selector>
+    </item>
+</layer-list>

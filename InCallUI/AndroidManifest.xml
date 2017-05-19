@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:sharedUserId="android.uid.phone" coreApp="true" package="com.android.incallui" platformBuildVersionCode="23" platformBuildVersionName="6.0-1472589048">
+    <original-package android:name="com.android.incallui"/>
+    <uses-permission android:name="android.permission.CALL_PRIVILEGED"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.READ_PRECISE_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.MODIFY_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.CONTROL_INCALL_EXPERIENCE"/>
+    <uses-permission android:name="android.permission.MANAGE_USERS"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL"/>
+    <uses-permission android:name="android.permission.STOP_APP_SWITCHES"/>
+    <uses-permission android:name="com.sonymobile.permission.ENTERPRISE_API"/>
+    <uses-permission android:name="com.sonymobile.permission.TELEPHONY_INTERFACE_EXTENTIONS"/>
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR"/>
+    <uses-permission android:name="android.permission.DEVICE_POWER"/>
+    <uses-permission android:name="com.sonymobile.permission.UI_PROCESS_START"/>
+    <permission android:name="com.sonymobile.permission.CALL_WIDGET_FRAMEWORK" android:protectionLevel="signatureOrSystem"/>
+    <application android:allowBackup="false" android:icon="@drawable/clh_launcher_phone" android:label="@string/phoneAppLabel" android:supportsRtl="true" android:usesCleartextTraffic="false">
+        <uses-library android:name="com.sonymobile.callwidgetframework.api"/>
+        <activity android:configChanges="keyboardHidden" android:excludeFromRecents="true" android:exported="false" android:label="@string/phoneAppLabel" android:launchMode="singleInstance" android:name=".InCallActivity" android:screenOrientation="nosensor" android:theme="@style/Theme.InCallScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.MONKEY"/>
+            </intent-filter>
+        </activity>
+        <receiver android:exported="false" android:name="NotificationBroadcastReceiver"/>
+        <receiver android:exported="true" android:name="SomcUiProcessStartReceiver" android:permission="com.sonymobile.permission.UI_PROCESS_START">
+            <intent-filter>
+                <action android:name="com.sonymobile.intent.action.UI_PROCESS_START"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="InCallServiceImpl" android:permission="android.permission.BIND_INCALL_SERVICE">
+            <meta-data android:name="android.telecom.IN_CALL_SERVICE_UI" android:value="true"/>
+            <intent-filter>
+                <action android:name="android.telecom.InCallService"/>
+            </intent-filter>
+        </service>
+        <meta-data android:name="com.sonymobile.runtimeskinning.SKIN_PERMISSIONS" android:resource="@xml/somc_skin_permissions"/>
+        <meta-data android:name="com.sonymobile.runtimeskinning.LAF_VERSION" android:value="2"/>
+        <service android:name=".callwidget.SomcCallWidgetManagerService" android:permission="com.sonymobile.permission.CALL_WIDGET_FRAMEWORK">
+            <intent-filter>
+                <action android:name="com.sonymobile.callwidgetframework.ACTION_REGISTER"/>
+            </intent-filter>
+        </service>
+    </application>
+</manifest>

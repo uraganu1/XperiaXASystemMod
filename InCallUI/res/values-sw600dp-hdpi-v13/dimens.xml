@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="am_animation_x_coordinate">320.0dip</dimen>
+    <dimen name="am_animation_y_coordinate">240.0dip</dimen>
+    <dimen name="am_animation_radius">88.66dip</dimen>
+    <dimen name="am_animation_stroke_width">12.0dip</dimen>
+    <dimen name="am_counter_margin_top">280.0dip</dimen>
+    <dimen name="am_indicator_margin_top">444.0dip</dimen>
+    <dimen name="am_indicator_text_size">14.0dip</dimen>
+</resources>

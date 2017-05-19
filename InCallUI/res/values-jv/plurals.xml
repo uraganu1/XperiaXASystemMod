@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">Ditemokake %d</item>
+        <item quantity="one">Ditemokake 1</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d detik</item>
+        <item quantity="one">1 detik</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d menit</item>
+        <item quantity="one">1 menit</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="other">%d jam</item>
+        <item quantity="one">1 jam</item>
+    </plurals>
+</resources>

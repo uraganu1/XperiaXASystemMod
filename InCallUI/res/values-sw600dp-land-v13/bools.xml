@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="config_browse_list_show_images">true</bool>
+    <bool name="config_use_two_panes_in_favorites">false</bool>
+</resources>

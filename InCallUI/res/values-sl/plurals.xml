@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="searchFoundCalllogs">
+        <item quantity="other">Št. dnevnikov klicev: %d</item>
+        <item quantity="one">1 dnevnik klicev</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">Št. najdenih: %d</item>
+        <item quantity="one">Št. najdenih: 1</item>
+        <item quantity="two">%d najdena</item>
+        <item quantity="few">%d najdeni</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d s</item>
+        <item quantity="one">1 sekunda</item>
+        <item quantity="two">%d sekundi</item>
+        <item quantity="few">%d sekunde</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d min</item>
+        <item quantity="one">1 minuta</item>
+        <item quantity="two">%d minuti</item>
+        <item quantity="few">%d minute</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="other">%d h</item>
+        <item quantity="one">1 ura</item>
+        <item quantity="two">%d uri</item>
+        <item quantity="few">%d ure</item>
+    </plurals>
+</resources>
