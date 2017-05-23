@@ -200,8 +200,8 @@
     <color name="material_grey_300">#ffa0a0a0</color>
     <color name="material_grey_100">#ffd5d5d5</color>
     <color name="material_grey_50">#ffeaeaea</color>
-    <color name="material_deep_teal_200">#ff80cbc4</color>
-    <color name="material_deep_teal_500">#ff009688</color>
+    <color name="material_deep_teal_200">#ff1f669b</color>
+    <color name="material_deep_teal_500">#ff1a5f89</color>
     <color name="material_blue_grey_800">#ff37474f</color>
     <color name="material_blue_grey_900">#ff263238</color>
     <color name="material_blue_grey_950">#ff21272b</color>
