@@ -11,7 +11,7 @@
     <color name="batterymeter_charge_color">#ffffffff</color>
     <color name="batterymeter_bolt_color">#ffffffff</color>
     <color name="qs_batterymeter_frame_color">#ff404040</color>
-    <color name="system_primary_color">#bf1a1a1a</color>
+    <color name="system_primary_color">#c71e1e1e</color>
     <color name="system_secondary_color">#ff283238</color>
     <color name="system_accent_color">#ff8084cb</color>
     <color name="system_warning_color">#fff4511e</color>
