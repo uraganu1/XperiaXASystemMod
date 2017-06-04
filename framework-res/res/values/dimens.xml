@@ -60,8 +60,8 @@
     <dimen name="search_view_text_min_width">160.0dip</dimen>
     <dimen name="search_view_preferred_width">320.0dip</dimen>
     <dimen name="alert_dialog_round_padding">27.0dip</dimen>
-    <dimen name="alert_dialog_title_height">64.0dip</dimen>
-    <dimen name="alert_dialog_button_bar_height">48.0dip</dimen>
+    <dimen name="alert_dialog_title_height">48.0dip</dimen>
+    <dimen name="alert_dialog_button_bar_height">46.0dip</dimen>
     <dimen name="leanback_alert_dialog_vertical_margin">27.0dip</dimen>
     <dimen name="leanback_alert_dialog_horizontal_margin">54.0dip</dimen>
     <dimen name="action_bar_default_height">48.0dip</dimen>
