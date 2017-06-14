@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
-    android:width="16dp"
-    android:height="24dp"
-    android:viewportWidth="28"
-    android:viewportHeight="48">
+    android:width="17dp"
+    android:height="17dp"
+    android:viewportWidth="17"
+    android:viewportHeight="17">
 
-    <path android:fillColor="#ffffffff" android:pathData="M5.05 38L9.863 31 5.05 31Z" />
+    <group android:name="wifi" android:translateX="2.9">
+    <path android:fillColor="#ffffffff" android:pathData="M2.8999999 15.5L5.7002888 12 2.8999999 12Z" />
     <!--1/4-->
-    <path android:fillColor="#ffffffff" android:pathData="M5.05 30l5.5 0 4.125 -6 -9.625 0z" />
+    <path android:fillColor="#ffffffff" android:pathData="M2.8999999 11.5l3.1999974 0 2.3999981 -3 -5.5999955 0z" />
     <!--2/4-->
-    <path android:fillColor="#ffffffff" android:pathData="M5.05 17l0 6 10.313 0 4.125 -6z" />
+    <path android:fillColor="#ffffffff" android:pathData="M2.8999999 5l0 3.0000002 6.0002863 0L11.300284 5Z" />
     <!--3/4-->
-    <path android:fillColor="#ffffffff" android:pathData="M24.3 10l-19.25 0 0 6 15.125 0z" />
+    <path android:fillColor="#ffffffff" android:pathData="M14.099991 1.5l-11.1999911 0 0 3 8.7999931 0z" />
     <!--4/4-->
-    <path android:fillColor="#ffffffff" android:pathData="M18.699605 38l2.83 0 0.484 -2 -2.828 0z" />
+    <path android:fillColor="#ffffffff" android:pathData="M12.274356 9.5004596l-0.931964 4.0002304 1.666745 0 0.931964 -4.0002304 -1.666745 0zM11.124747 14.49954L10.841996 15.5l1.646283 0 0.280892 -1.00046 -1.644424 0z" />
     <!--Error-->
-    <path android:fillColor="#ffffffff" android:pathData="M21.163005 26l-1.602 8 2.864 0 1.601 -8z" />
-    <!--Error-->
+    </group>
 </vector>

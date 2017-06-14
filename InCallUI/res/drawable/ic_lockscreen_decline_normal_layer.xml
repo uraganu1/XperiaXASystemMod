@@ -9,6 +9,6 @@
         </shape>
     </item>
     <item>
-        <bitmap android:gravity="center" android:src="@drawable/fab_ic_end_call" />
+        <bitmap android:gravity="center" android:src="@drawable/fab_ic_end_call" android:tint="@color/glowpad_end_call_widget_normal_tint" />
     </item>
 </layer-list>

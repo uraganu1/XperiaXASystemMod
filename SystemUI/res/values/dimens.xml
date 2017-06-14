@@ -60,7 +60,7 @@
     <dimen name="pull_span_min">25.0dip</dimen>
     <dimen name="qs_tile_height">60.0dip</dimen>
     <dimen name="qs_tile_icon_size">24.0dip</dimen>
-    <dimen name="qs_tile_text_size">10.0sp</dimen>
+    <dimen name="qs_tile_text_size">9.0sp</dimen>
     <dimen name="qs_tile_divider_height">1.0dip</dimen>
     <dimen name="qs_panel_padding">16.0dip</dimen>
     <dimen name="qs_dual_tile_height">60.0dip</dimen>
@@ -68,7 +68,7 @@
     <dimen name="qs_dual_tile_padding_horizontal">6.0dip</dimen>
     <dimen name="qs_tile_padding_top">12.0dip</dimen>
     <dimen name="qs_tile_padding_top_large_text">4.0dip</dimen>
-    <dimen name="qs_tile_padding_below_icon">6.0dip</dimen>
+    <dimen name="qs_tile_padding_below_icon">5.0dip</dimen>
     <dimen name="qs_tile_padding_bottom">2.0dip</dimen>
     <dimen name="qs_tile_spacing">0.0dip</dimen>
     <dimen name="qs_panel_padding_bottom">8.0dip</dimen>
@@ -246,9 +246,9 @@
     <dimen name="close_all_button_layout_margin_end">16.0dip</dimen>
     <dimen name="close_all_button_layout_margin_bottom">134.0dip</dimen>
     <dimen name="close_all_button_size">56.0dip</dimen>
-    <dimen name="somc_notification_clear_all_text_size">24.0sp</dimen>
-    <dimen name="somc_notification_clear_all_text_h_margin">4.0dip</dimen>
-    <dimen name="somc_notification_clear_all_text_h_margin_from_edge">8.0dip</dimen>
+    <dimen name="somc_notification_clear_all_text_size">14.0sp</dimen>
+    <dimen name="somc_notification_clear_all_text_h_margin">8.0dip</dimen>
+    <dimen name="somc_notification_clear_all_text_h_margin_from_edge">16.0dip</dimen>
     <dimen name="somc_qs_button_height">52.0dip</dimen>
     <dimen name="somc_qs_edit_text_size">14.0sp</dimen>
     <dimen name="somc_qs_edit_text_h_margin">8.0dip</dimen>

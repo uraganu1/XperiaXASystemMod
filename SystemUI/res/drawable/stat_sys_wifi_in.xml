@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <vector xmlns:android="http://schemas.android.com/apk/res/android"
-    android:width="16dp"
-    android:height="24dp"
-    android:viewportWidth="28"
-    android:viewportHeight="48">
+    android:width="17dp"
+    android:height="17dp"
+    android:viewportWidth="17"
+    android:viewportHeight="17">
 
-    <path android:name="in" android:fillColor="#ffffffff" android:pathData="M25 21l-3 -5 6 0z" />
+    <group android:name="wifi" android:translateX="2.9">
+    <path android:name="in" android:fillColor="#ffffffff" android:pathData="M12.60016 11.334521l1.294661 -2.8666264 -2.589324 0z" />
+    </group>
 </vector>
