@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="notification_ongoing_call_wifi">WLAN 발신 전화</string>
-    <string name="notification_incoming_call_wifi">WLAN 수신 전화</string>
-</resources>

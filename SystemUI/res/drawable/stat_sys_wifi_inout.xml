@@ -6,7 +6,7 @@
     android:viewportHeight="17">
 
     <group android:name="wifi" android:translateX="2.9">
-    <path android:name="in" android:fillColor="#ffffffff" android:pathData="M12.60016 11.334521l1.294661 -2.8666264 -2.589324 0z" />
-    <path android:name="out" android:fillColor="#ffffffff" android:pathData="M12.600166 5.0652823l-1.294669 2.8666065 2.589337 0z" />
+        <path android:name="in" android:fillColor="#ffffffff" android:pathData="M12.60016 11.334521l1.294661 -2.8666264 -2.589324 0z" />
+        <path android:name="out" android:fillColor="#ffffffff" android:pathData="M12.600166 5.0652823l-1.294669 2.8666065 2.589337 0z" />
     </group>
 </vector>

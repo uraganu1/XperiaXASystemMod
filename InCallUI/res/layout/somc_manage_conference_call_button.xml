@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <Button android:textSize="@dimen/conference_retrieve_button_text_size" android:textColor="?android:colorPrimary" android:layout_gravity="center_horizontal" android:id="@id/manage_conference_call_button" android:background="@drawable/somc_large_white_btn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/conference_retrieve_button_height_size" android:minWidth="@dimen/conference_retrieve_button_width_size" android:text="@string/onscreenManageConferenceText" android:contentDescription="@string/onscreenManageConferenceText" android:textAlignment="center" android:paddingStart="@dimen/conference_retrieve_button_padding_horizontal" android:paddingEnd="@dimen/conference_retrieve_button_padding_horizontal" />
-</FrameLayout>

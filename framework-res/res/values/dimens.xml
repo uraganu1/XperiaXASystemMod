@@ -61,7 +61,7 @@
     <dimen name="search_view_preferred_width">320.0dip</dimen>
     <dimen name="alert_dialog_round_padding">27.0dip</dimen>
     <dimen name="alert_dialog_title_height">48.0dip</dimen>
-    <dimen name="alert_dialog_button_bar_height">46.0dip</dimen>
+    <dimen name="alert_dialog_button_bar_height">48.0dip</dimen>
     <dimen name="leanback_alert_dialog_vertical_margin">27.0dip</dimen>
     <dimen name="leanback_alert_dialog_horizontal_margin">54.0dip</dimen>
     <dimen name="action_bar_default_height">48.0dip</dimen>
@@ -250,7 +250,7 @@
     <dimen name="edit_text_inset_top_material">10.0dip</dimen>
     <dimen name="edit_text_inset_bottom_material">7.0dip</dimen>
     <dimen name="dialog_padding_material">24.0dip</dimen>
-    <dimen name="dialog_padding_top_material">18.0dip</dimen>
+    <dimen name="dialog_padding_top_material">12.0dip</dimen>
     <dimen name="select_dialog_padding_start_material">20.0dip</dimen>
     <dimen name="dialog_list_padding_vertical_material">8.0dip</dimen>
     <dimen name="seekbar_track_background_height_material">2.0dip</dimen>

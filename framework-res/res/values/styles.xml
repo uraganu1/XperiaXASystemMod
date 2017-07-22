@@ -1400,7 +1400,7 @@
         <item name="textAppearanceLargePopupMenu">@style/TextAppearance.Holo.Light.Widget.PopupMenu.Large</item>
         <item name="textAppearanceSmallPopupMenu">@style/TextAppearance.Holo.Light.Widget.PopupMenu.Small</item>
         <item name="listDividerAlertDialog">@drawable/list_divider_holo_light</item>
-        <item name="textColorAlertDialogListItem">@color/primary_text_holo_light</item>
+        <item name="textColorAlertDialogListItem">@color/primary_text_holo_dark</item>
         <item name="dialogTheme">@style/Theme.Holo.Light.Dialog</item>
         <item name="alertDialogTheme">@style/Theme.Holo.Light.Dialog.Alert</item>
         <item name="dividerVertical">?listDivider</item>
