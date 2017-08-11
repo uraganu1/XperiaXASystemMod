@@ -54,13 +54,17 @@
 
 .field private mFabSmallDiameter:I
 
-.field private mFloatingActionButton:Landroid/widget/ImageButton;
+.field mFloatingActionButton:Landroid/widget/ImageButton;
 
-.field private mFloatingActionButtonContainer:Landroid/view/View;
+.field mFloatingActionButtonAnimationShown:Z
 
-.field private mFloatingActionButtonController:Lcom/android/contacts/common/widget/FloatingActionButtonController;
+.field mFloatingActionButtonPressed:Z
 
-.field private mFloatingActionButtonVerticalOffset:I
+.field mFloatingActionButtonContainer:Landroid/view/View;
+
+.field mFloatingActionButtonController:Lcom/android/contacts/common/widget/FloatingActionButtonController;
+
+.field mFloatingActionButtonVerticalOffset:I
 
 .field private mHandler:Landroid/os/Handler;
 
@@ -2668,6 +2672,10 @@
 
     const/4 v7, 0x1
 
+    iput-boolean v8, p0, Lcom/android/incallui/CallCardFragment;->mFloatingActionButtonAnimationShown:Z
+
+    iput-boolean v8, p0, Lcom/android/incallui/CallCardFragment;->mFloatingActionButtonPressed:Z
+
     .line 256
     invoke-super {p0, p1, p2}, Lcom/android/incallui/BaseFragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
 
@@ -4066,7 +4074,7 @@
 .end method
 
 .method public setEndCallButtonEnabled(ZZ)V
-    .locals 3
+    .locals 6
     .param p1, "enabled"    # Z
     .param p2, "animate"    # Z
 
@@ -4087,6 +4095,10 @@
     move-result v0
 
     if-eq p1, v0, :cond_0
+
+    iget-boolean v0, p0, Lcom/android/incallui/CallCardFragment;->mFloatingActionButtonPressed:Z
+
+    if-nez v0, :cond_14
 
     .line 1510
     if-eqz p2, :cond_2
@@ -4110,6 +4122,51 @@
 
     .line 1507
     :cond_0
+    iget-boolean v0, p0, Lcom/android/incallui/CallCardFragment;->mFloatingActionButtonAnimationShown:Z
+
+    if-nez v0, :cond_14
+
+    const/4 v5, 0x1
+
+    iput-boolean v5, p0, Lcom/android/incallui/CallCardFragment;->mFloatingActionButtonAnimationShown:Z
+
+    move-object/from16 v0, p0
+
+    iget-object v0, v0, Lcom/android/incallui/CallCardFragment;->mFloatingActionButton:Landroid/widget/ImageButton;
+
+    move-object/from16 v4, v0
+
+    const/16 v5, 0x0
+
+    invoke-virtual/range {v4 .. v5}, Landroid/widget/ImageButton;->setVisibility(I)V
+
+    move-object/from16 v0, p0
+
+    invoke-virtual {v0}, Lcom/android/incallui/CallCardFragment;->getActivity()Landroid/app/Activity;
+
+    move-result-object v3
+
+    invoke-virtual {v3}, Landroid/app/Activity;->getApplicationContext()Landroid/content/Context;
+
+    move-result-object v4
+
+    const v5, 0x7f05000b
+
+    invoke-static/range {v4 .. v5}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
+
+    move-result-object v3
+
+    move-object/from16 v0, p0
+
+    iget-object v0, v0, Lcom/android/incallui/CallCardFragment;->mFloatingActionButtonContainer:Landroid/view/View;
+
+    move-object/from16 v4, v0
+
+    move-object/from16 v0, v4
+
+    invoke-virtual {v0, v3}, Landroid/view/View;->startAnimation(Landroid/view/animation/Animation;)V
+
+    :cond_14
     return-void
 
     .line 1514
