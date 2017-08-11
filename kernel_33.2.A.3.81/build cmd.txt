@@ -13,3 +13,10 @@ Step 2. cd kernel-3.18
 Step 3. mkdir out/
 Step 4. make O=out ARCH=arm64 tubads_defconfig
 Step 5. make -j8 O=out ARCH=arm64
+
+Build kernel with linaro toolchain:
+1. build single-sim
+Step1. cd kernel-3.18
+Step2. mkdir out/
+Step3. make O=out ARCH=arm64 tubass_defconfig CROSS_COMPILE=$PWD/../prebuilts/gcc/linux-x86/aarch64/gcc-linaro-5.4.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-
+Step4. make -j6 O=out ARCH=arm64 CROSS_COMPILE=$PWD/../prebuilts/gcc/linux-x86/aarch64/gcc-linaro-5.4.1-2017.05-x86_64_aarch64-linux-gnu/bin/aarch64-linux-gnu-
