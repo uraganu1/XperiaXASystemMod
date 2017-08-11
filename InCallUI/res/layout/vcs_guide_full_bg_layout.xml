@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/vcs_bg" android:background="#bb000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/vcs_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/vcs_guide_bg" android:scaleType="centerCrop" />
+    <TextView android:id="@id/vcs_guide_title1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="90.0dip" android:layout_marginTop="35.0dip" android:text="@string/vcs_guide_title1" android:layout_alignTop="@id/vcs_bg" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" style="@style/textShadowSummary" />
+    <TextView android:gravity="center" android:id="@id/vcs_guide_title2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="90.0dip" android:text="@string/vcs_guide_title2" android:layout_alignBottom="@id/vcs_bg" android:layout_alignParentBottom="true" style="@style/textShadowSummary" />
+    <Button android:gravity="center" android:id="@id/vcs_ok_btn" android:layout_marginRight="15.0dip" android:layout_marginBottom="15.0dip" android:layout_alignBottom="@id/vcs_bg" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" style="@style/bottom_ok_button" />
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="searchFoundCalllogs">
+        <item quantity="other">%d יומני שיחות</item>
+        <item quantity="one">יומן שיחות אחד</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d נמצאו</item>
+        <item quantity="one">1 נמצא</item>
+        <item quantity="two">נמצאו %d</item>
+        <item quantity="many">נמצאו %d</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d שניות</item>
+        <item quantity="one">שנייה אחת</item>
+        <item quantity="two">%d שניות</item>
+        <item quantity="many">%d שניות</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d דקות</item>
+        <item quantity="one">דקה אחת</item>
+        <item quantity="two">%d דקות</item>
+        <item quantity="many">%d דקות</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="other">%d שעות</item>
+        <item quantity="one">שעה אחת</item>
+        <item quantity="two">%d שעות</item>
+        <item quantity="many">%d שעות</item>
+    </plurals>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d aurkitu dira</item>
+        <item quantity="one">1 aurkitu da</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d segundo</item>
+        <item quantity="one">1 segundo</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d minutu</item>
+        <item quantity="one">1 minutu</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="other">%d ordu</item>
+        <item quantity="one">1 ordu</item>
+    </plurals>
+</resources>

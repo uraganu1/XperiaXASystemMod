@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="searchFoundCalllogs">
+        <item quantity="other">%d denníkov hovorov</item>
+        <item quantity="one">1 denník hovorov</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">Počet nájdených: %d</item>
+        <item quantity="one">1 nájdený</item>
+        <item quantity="few">Našli sa %d kontakty</item>
+        <item quantity="many">Našlo sa %d kontaktu</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d s</item>
+        <item quantity="one">1 s</item>
+        <item quantity="few">%d sekundy</item>
+        <item quantity="many">%d sekundy</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d min.</item>
+        <item quantity="one">1 min.</item>
+        <item quantity="few">%d minúty</item>
+        <item quantity="many">%d minúty</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="other">%d h</item>
+        <item quantity="one">1 hod.</item>
+        <item quantity="few">%d hodiny</item>
+        <item quantity="many">%d hodiny</item>
+    </plurals>
+</resources>
