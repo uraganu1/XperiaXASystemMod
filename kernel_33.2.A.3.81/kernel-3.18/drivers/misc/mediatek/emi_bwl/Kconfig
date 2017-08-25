@@ -1,5 +1,0 @@
-config MTK_EMI_BWL
-  bool "enable MTK_EMI_BWL"
-  default y
-  help
-    This enable MTK_EMI_BWL
