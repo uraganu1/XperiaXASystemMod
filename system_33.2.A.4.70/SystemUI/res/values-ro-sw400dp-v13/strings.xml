@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_settings_autosync">Sincronizare automată date</string>
+    <string name="status_bar_settings_mobile_data">Trafic date de telefonie mobilă</string>
+    <string name="status_bar_settings_settings">Comandă rapidă pentru Setări</string>
+</resources>

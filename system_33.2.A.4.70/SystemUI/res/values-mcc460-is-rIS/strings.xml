@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_disabled_wifi_failure">WLAN-tengingarvilla</string>
+    <string name="connected_via_wfa">Tengt í gegnum WLAN aðstoð</string>
+    <string name="status_bar_settings_wifi_button">WLAN</string>
+    <string name="accessibility_data_connection_wifi">WLAN</string>
+    <string name="accessibility_quick_settings_wifi_changed_off">Slökkt á WLAN.</string>
+    <string name="accessibility_quick_settings_wifi_changed_on">Kveikt á WLAN.</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">WLAN tengt</string>
+    <string name="quick_settings_wifi_label">WLAN</string>
+    <string name="quick_settings_wifi_off_label">Slökkt á WLAN</string>
+    <string name="quick_settings_wifi_detail_empty_text">Engin WLAN net í boði</string>
+    <string name="accessibility_quick_settings_detail">Flýtistillingar, %s.</string>
+</resources>

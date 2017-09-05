@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">%d экрана(ў) у Праглядзе</item>
+        <item quantity="one">1 экран у Праглядзе</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">Няправільны PIN-код SIM-карты, засталося %d спробы, перш чым вам неабходна будзе ўвесці PUK-код (код разблакіроўкі PIN) або звязацца з мабільным аператарам, каб разблакаваць прыладу.</item>
+        <item quantity="one">Няправільны PIN-код SIM-карты, засталося %d спробы, перш чым вам неабходна будзе ўвесці PUK-код (код разблакіроўкі PIN) або звязацца з мабільным аператарам, каб разблакаваць прыладу.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Няправільны SIM PUK-код, засталося %d спроб перад тым, як SIM-карта стане нядзейнай.</item>
+        <item quantity="one">Няправільны SIM PUK-код, засталася %d спроба перад тым, як SIM-карта стане нядзейнай.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">Прылада заставалася заблакіраванай %d гадзін. Пацвердзіце графічны ключ.</item>
+        <item quantity="one">Прылада заставалася заблакіраванай %d гадзіну. Пацвердзіце графічны ключ.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">Прылада заставалася заблакіраванай %d гадзін. Пацвердзіце PIN-код.</item>
+        <item quantity="one">Прылада заставалася заблакіраванай %d гадзіну. Пацвердзіце PIN-код.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">Прылада заставалася заблакіраванай %d гадзін. Пацвердзіце пароль.</item>
+        <item quantity="one">Прылада заставалася заблакіраванай %d гадзіну. Пацвердзіце пароль.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">Увядзіце PIN SIM-карты, у вас застаецца %d спроб(ы).</item>
+        <item quantity="one">Увядзіце PIN SIM-карты, у вас застаецца %d спроб(ы), пасля чаго для разблакавання прылады спатрэбіцца звярнуцца да аператара.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">SIM-карта выключана. У вас застаецца %d спроб(ы) да таго, як SIM-карта будзе канчаткова заблакавана. За падрабязнай інфармацыяй звяртайцеся да аператара.</item>
+        <item quantity="one">SIM-карта выключана. Каб працягнуць, увядзіце PUK-код. У вас застаецца %d спроба да таго, як SIM-карта будзе канчаткова заблакавана. За падрабязнай інфармацыяй звяртайцеся да аператара.</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_puk_enter_puk_hint_last_attempt_failed">
+        <item quantity="other">Ваш запіс не супадае з PUK-кодам. Увядзіце свой 8-значны PUK-код яшчэ раз. У вас засталося %d спроб.</item>
+        <item quantity="one">Ваш запіс не супадае з PUK-кодам. Увядзіце свой 8-значны PUK-код яшчэ раз. У вас засталося %d спроб.</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_sim_pin_instructions_last_attempt_failed">
+        <item quantity="other">Ваш запіс не супадае з ПІН-кодам SIM. Увядзіце свой ПІН-код з 4-8 знакаў яшчэ раз. У вас яшчэ%d спроб.</item>
+        <item quantity="one">Ваш запіс не супадае з ПІН-кодам SIM. Увядзіце свой ПІН-код з 4-8 знакаў яшчэ раз. У вас яшчэ %d спроб.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_disabled_wifi_failure">Kegagalan Sambungan WLAN</string>
+    <string name="connected_via_wfa">Disambungkan melalui Pembantu WLAN</string>
+    <string name="status_bar_settings_wifi_button">WLAN</string>
+    <string name="accessibility_data_connection_wifi">WLAN</string>
+    <string name="accessibility_quick_settings_wifi_changed_off">WLAN dimatikan.</string>
+    <string name="accessibility_quick_settings_wifi_changed_on">WLAN dihidupkan.</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">WLAN disambungkan</string>
+    <string name="quick_settings_wifi_label">WLAN</string>
+    <string name="quick_settings_wifi_off_label">WLAN Dimatikan</string>
+    <string name="quick_settings_wifi_detail_empty_text">Tiada rangkaian WLAN tersedia</string>
+    <string name="accessibility_quick_settings_detail">Tetapan Pantas, %s.</string>
+</resources>

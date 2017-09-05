@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">%d ecrãs na Visão geral</item>
+        <item quantity="one">1 ecrã na Visão geral</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">Código PIN do SIM incorreto. Tem mais %d tentativas antes de ter de introduzir o código PUK (código de desbloqueio do PIN) ou contacte o seu operador para desbloquear o dispositivo.</item>
+        <item quantity="one">Código PIN do SIM incorreto. Tem mais %d tentativa antes de ter de introduzir o código PUK (código de desbloqueio do PIN) ou contacte o seu operador para desbloquear o dispositivo.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Código PUK do SIM incorreto. Tem mais %d tentativas antes de o SIM ficar permanentemente inutilizável.</item>
+        <item quantity="one">Código PUK do SIM incorreto. Tem mais %d tentativa antes de o SIM ficar permanentemente inutilizável.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">O dispositivo esteve bloqueado durante %d horas. Confirme o trajeto.</item>
+        <item quantity="one">O dispositivo esteve bloqueado durante %d hora. Confirme o trajeto.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">O dispositivo esteve bloqueado durante %d horas. Confirme o PIN.</item>
+        <item quantity="one">O dispositivo esteve bloqueado durante %d hora. Confirme o PIN.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">O dispositivo esteve bloqueado durante %d horas. Confirme a palavra-passe.</item>
+        <item quantity="one">O dispositivo esteve bloqueado durante %d hora. Confirme a palavra-passe.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">Introduza o PIN do SIM. Tem mais %d tentativas.</item>
+        <item quantity="one">Introduza o PIN do SIM. Tem mais %d tentativa; senão, tem de contactar o seu operador para desbloquear o dispositivo.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">O SIM está desativado. Introduza o código PUK para continuar. Tem mais %d tentativas antes do SIM se tornar definitivamente inutilizável. Contacte o operador para obter detalhes.</item>
+        <item quantity="one">O SIM está desativado. Introduza o código PUK para continuar. Tem mais %d tentativa até o SIM se tornar definitivamente inutilizável. Contacte o operador para obter detalhes.</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_puk_enter_puk_hint_last_attempt_failed">
+        <item quantity="other">A introdução não corresponde ao código PUK. Introduza novamente o código PUK de 8 dígitos. Tem mais %d tentativas.</item>
+        <item quantity="one">A introdução não corresponde ao código PUK. Introduza novamente o código PUK de 8 dígitos. Tem mais %d tentativa.</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_sim_pin_instructions_last_attempt_failed">
+        <item quantity="other">A introdução não corresponde ao PIN do SIM. Introduza novamente o PIN de 4 a 8 dígitos. Tem mais %d tentativas.</item>
+        <item quantity="one">A introdução não corresponde ao PIN do SIM. Introduza novamente o PIN de 4 a 8 dígitos. Tem mais %d tentativa.</item>
+    </plurals>
+</resources>

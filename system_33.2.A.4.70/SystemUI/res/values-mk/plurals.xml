@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">%d екрани во Преглед</item>
+        <item quantity="one">1 екран во Преглед</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">Неточен PIN-код на SIM-картичката, имате уште %d обиди, а потоа мора да го внесете PUK-кодот (код за отклучување PIN) или да контактирате со мрежниот оператор за отклучување на уредот.</item>
+        <item quantity="one">Неточен PIN-код на SIM-картичката, имате уште %d обид, а потоа мора да го внесете PUK-кодот (код за отклучување PIN) или да контактирате со мрежниот оператор за отклучување на уредот.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Неточен PUK-код на SIM-картичката, имате уште %d обиди пред трајно да се блокира SIM-картичката.</item>
+        <item quantity="one">Неточен PUK-код на SIM-картичката, имате уште %d обид пред трајно да се блокира SIM-картичката.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">Уредот не е отклучен за %d часа. Потврдете ја шемата.</item>
+        <item quantity="one">Уредот не е отклучен за %d час. Потврдете ја шемата.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">Уредот не е отклучен за %d часа. Потврдете го ПИН-кодот.</item>
+        <item quantity="one">Уредот не е отклучен за %d час. Потврдете го ПИН-кодот.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">Уредот не е отклучен за %d часа. Потврдете ја лозинката.</item>
+        <item quantity="one">Уредот не е отклучен за %d час. Потврдете ја лозинката.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">Внесете PIN на SIM, имате %d преостанати обиди.</item>
+        <item quantity="one">Внесете PIN на SIM, имате %d преостанат обид пред да мора да контактирате со операторот за да го отклучи вашиот уред.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">SIM-картичката е оневозможена. Внесете го PUK-кодот за да продолжите. Имате %d преостанати обиди пред SIM-картичката да стане трајно неупотреблива. Контактирајте со операторот за детали.</item>
+        <item quantity="one">SIM-картичката е оневозможена. Внесете го PUK-кодот за да продолжите. Имате %d преостанат обид пред SIM-картичката да стане трајно неупотреблива. Контактирајте со операторот за детали.</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_puk_enter_puk_hint_last_attempt_failed">
+        <item quantity="other">Извинете, записот не се совпаѓа со PUK-кодот. Повторно внесете го PUK-кодот од 8 броја. Имате уште %d обиди.</item>
+        <item quantity="one">Извинете, записот не се совпаѓа со PUK-кодот. Повторно внесете го PUK-кодот од 8 броја. Имате уште %d обид.</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_sim_pin_instructions_last_attempt_failed">
+        <item quantity="other">Извинете, записот не се совпаѓа со PIN-кодот на SIM-картичката. Повторно внесете го PIN-кодот од 4-8 броја. Имате уште %d обиди.</item>
+        <item quantity="one">Извинете, записот не се совпаѓа со PIN-кодот на SIM-картичката. Повторно внесете го PIN-кодот од 4-8 броја. Имате уште %d обид.</item>
+    </plurals>
+</resources>

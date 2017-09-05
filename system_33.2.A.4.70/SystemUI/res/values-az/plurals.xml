@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">İcmalda %d ekran</item>
+        <item quantity="one">İcmalda 1 ekran</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">Yanlış SIM PIN kod, cihazınızı kiliddən açmaq üçün PUK kod (PIN kiliddən açma kodu) daxil etməzdən və ya xidmət provayderinizlə əlaqə saxlamazdan əvvəl %d cəhdiniz qalır.</item>
+        <item quantity="one">Yanlış SIM PIN kod, cihazınızı kiliddən açmaq üçün PUK kod (PIN kiliddən açma kodu) daxil etməzdən və ya xidmət provayderinizlə əlaqə saxlamazdan əvvəl %d cəhdiniz qalır.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Yanlış SIM PUK kod, SIM həmişəlik sıradan çıxmasına qədər %d cəhdiniz qalır.</item>
+        <item quantity="one">Yanlış SIM PUK kod, SIM həmişəlik sıradan çıxmasına qədər %d cəhdiniz qalır.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">Cihazın kilidi %d saat açılmayıb. Naxışı təsdiqləyin.</item>
+        <item quantity="one">Cihazın kilidi %d saat açılmayıb. Naxışı təsdiqləyin.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">Cihazın kilidi %d saat açılmayıb. PIN kodu təsdiqləyin.</item>
+        <item quantity="one">Cihazın kilidi %d saat açılmayıb. PIN kodu təsdiqləyin.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">Cihazın kilidi %d saat açılmayıb. Parolu təsdiqləyin.</item>
+        <item quantity="one">Cihazın kilidi %d saat açılmayıb. Parolu təsdiqləyin.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">SIM PIN daxil edin, %d cəhdiniz qalır.</item>
+        <item quantity="one">SIM PIN daxil edin, cihazı kiliddən açmaq üçün daşıyıcınızla əlaqə saxlamalı olmanızdan əvvəl %d cəhdiniz qalır.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">SIM indi qeyri-aktiv edilmişdir. Davam etmək üçün PUK kodunu daxil edin. SIM həmişəlik istifadə edilməyənədək %d cəhdiniz qalır. Ətraflı məlumat almaq üçün operatorunuzla əlaqə saxlayın.</item>
+        <item quantity="one">SIM indi qeyri-aktiv edilmişdir. Davam etmək üçün PUK kodunu daxil edin. SIM həmişəlik istifadə edilməyənədək %d cəhdiniz qalır. Ətraflı məlumat almaq üçün daşıyıcınızla əlaqə saxlayıns.</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_puk_enter_puk_hint_last_attempt_failed">
+        <item quantity="other">Daxil etdiyiniz PUK-a uyğun deyil. 8 rəqəmli PUK-u daxil edin. Sizin daha %d şansınız var.</item>
+        <item quantity="one">Daxil etdiyiniz PUK-a uyğun deyil. 8 rəqəmli PUK-u daxil edin. Sizin daha %d şansınız var.</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_sim_pin_instructions_last_attempt_failed">
+        <item quantity="other">Daxil etdiyiniz SIM PIN-ə uyğun deyil. 4-8 rəqəmli PIN-i daxil edin. Sizin daha %d şansınız var.</item>
+        <item quantity="one">Daxil etdiyiniz SIM PIN-ə uyğun deyil. 4-8 rəqəmli PIN-i daxil edin. Sizin daha %d şansınız var.</item>
+    </plurals>
+</resources>

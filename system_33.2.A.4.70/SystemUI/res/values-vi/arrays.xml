@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Đang quét…</item>
+        <item>Đang kết nối…</item>
+        <item>Đang xác thực…</item>
+        <item>Đang lấy địa chỉ IP…</item>
+        <item>Đã kết nối</item>
+        <item>Bị tạm ngưng</item>
+        <item>Đang ngắt kết nối…</item>
+        <item>Đã ngắt kết nối</item>
+        <item>Không thành công</item>
+        <item>Bị chặn</item>
+        <item>Tạm thời tránh kết nối kém</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Đang quét…</item>
+        <item>Đang kết nối tới %1$s</item>
+        <item>Đang xác thực với %1$s…</item>
+        <item>Đang lấy địa chỉ IP từ %1$s…</item>
+        <item>Đã kết nối tới %1$s</item>
+        <item>Bị tạm ngưng</item>
+        <item>Đăng ngắt kết nối khỏi %1$s…</item>
+        <item>Đã ngắt kết nối</item>
+        <item>Không thành công</item>
+        <item>Bị chặn</item>
+        <item>Tạm thời tránh kết nối kém</item>
+    </string-array>
+    <string-array name="telephony_animation_roaming_data_type_sim1">
+        <item>0</item>
+        <item>0</item>
+        <item>drawable/stat_sys_data_fully_connected_e_ani_roam</item>
+        <item>drawable/stat_sys_data_fully_connected_3g_ani_roam</item>
+        <item>drawable/stat_sys_data_fully_connected_1x_ani_roam</item>
+        <item>drawable/stat_sys_data_fully_connected_3g_ani_roam</item>
+        <item>drawable/stat_sys_data_fully_connected_3g_ani_roam</item>
+        <item>drawable/stat_sys_data_fully_connected_1x_ani_roam</item>
+        <item>drawable/stat_sys_data_fully_connected_h_ani_roam</item>
+        <item>drawable/stat_sys_data_fully_connected_h_ani_roam</item>
+        <item>drawable/stat_sys_data_fully_connected_h_ani_roam</item>
+        <item>0</item>
+        <item>drawable/stat_sys_data_fully_connected_3g_ani_roam</item>
+        <item>drawable/stat_sys_data_fully_connected_lte_ani_roam</item>
+        <item>drawable/stat_sys_data_fully_connected_3g_ani_roam</item>
+        <item>drawable/stat_sys_data_fully_connected_h_plus_ani_roam</item>
+        <item>drawable/stat_sys_data_fully_connected_g_ani_roam</item>
+        <item>drawable/stat_sys_data_fully_connected_3g_ani_roam</item>
+        <item>0</item>
+    </string-array>
+</resources>

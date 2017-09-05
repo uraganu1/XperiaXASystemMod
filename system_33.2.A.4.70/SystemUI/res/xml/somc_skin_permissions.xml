@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<overlay-resources>
+    <filter-group group="status-bar">
+        <filter type="type" value="color,bitmap,nine-patch,vector" />
+        <filter type="lightness" value="0.425" tolerance="0.425">
+            <filter type="type" value="color" />
+        </filter>
+        <filter type="size" maxWidth="1920dp" minWidth="1px" maxHeight="50dp" minHeight="1px">
+            <filter type="type" value="bitmap,nine-patch,vector" />
+        </filter>
+    </filter-group>
+    <filter-group group="status-bar-opaque">
+        <filter type="alpha" value="1">
+            <filter type="type" value="color" />
+        </filter>
+    </filter-group>
+    <overlay id="@drawable/somc_status_bar_background_translucent" filters="status-bar" />
+    <overlay id="@drawable/somc_status_bar_background_light" filters="status-bar,status-bar-opaque" />
+    <overlay id="@drawable/somc_status_bar_background_dark" filters="status-bar,status-bar-opaque" />
+    <overlay id="@drawable/somc_status_bar_background_immersive" filters="status-bar" />
+    <filter-group group="sysbar-bg">
+        <filter type="type" value="bitmap,nine-patch,color,vector" />
+        <filter type="size" maxWidth="1920dp" minWidth="1px" maxHeight="240dp" minHeight="1px">
+            <filter type="type" value="bitmap,nine-patch,vector" />
+        </filter>
+    </filter-group>
+    <filter-group group="sysbar-bg-land">
+        <filter type="type" value="bitmap,nine-patch,color,vector" />
+        <filter type="size" maxWidth="240dp" minWidth="1px" maxHeight="1920dp" minHeight="1px">
+            <filter type="type" value="bitmap,nine-patch,vector" />
+        </filter>
+    </filter-group>
+    <overlay id="@drawable/somc_navbar_background_immersive" filters="sysbar-bg" />
+    <overlay id="@drawable/somc_navbar_background_immersive_land" filters="sysbar-bg-land" />
+    <overlay id="@drawable/somc_navbar_background_translucent" filters="sysbar-bg" />
+    <overlay id="@drawable/somc_navbar_background_translucent_land" filters="sysbar-bg-land" />
+    <overlay id="@drawable/somc_navbar_background_light" filters="sysbar-bg" />
+    <overlay id="@drawable/somc_navbar_background_light_land" filters="sysbar-bg-land" />
+    <overlay id="@drawable/somc_navbar_background_dark" filters="sysbar-bg" />
+    <overlay id="@drawable/somc_navbar_background_dark_land" filters="sysbar-bg-land" />
+    <filter-group group="sysbar-key-port">
+        <filter type="type" value="bitmap,selector,vector" />
+        <filter type="size" maxWidth="108dp" minWidth="1px" maxHeight="50dp" minHeight="1px">
+            <filter type="type" value="bitmap,vector" />
+        </filter>
+    </filter-group>
+    <filter-group group="sysbar-key-land">
+        <filter type="type" value="bitmap,selector,vector" />
+        <filter type="size" maxWidth="50dp" minWidth="1px" maxHeight="108dp" minHeight="1px">
+            <filter type="type" value="bitmap,vector" />
+        </filter>
+    </filter-group>
+    <overlay id="@drawable/somc_navbar_back_btn" filters="sysbar-key-port" />
+    <overlay id="@drawable/somc_navbar_back_btn_dark" filters="sysbar-key-port" />
+    <overlay id="@drawable/somc_navbar_back_btn_light" filters="sysbar-key-port" />
+    <overlay id="@drawable/somc_navbar_back_btn_translucent" filters="sysbar-key-port" />
+    <overlay id="@drawable/somc_navbar_back_btn_immersive" filters="sysbar-key-port" />
+    <overlay id="@drawable/somc_navbar_back_btn_no_background" filters="sysbar-key-port" />
+    <overlay id="@drawable/somc_navbar_back_btn_land" filters="sysbar-key-land" />
+    <overlay id="@drawable/somc_navbar_back_btn_dark_land" filters="sysbar-key-land" />
+    <overlay id="@drawable/somc_navbar_back_btn_light_land" filters="sysbar-key-land" />
+    <overlay id="@drawable/somc_navbar_back_btn_translucent_land" filters="sysbar-key-land" />
+    <overlay id="@drawable/somc_navbar_back_btn_immersive_land" filters="sysbar-key-land" />
+    <overlay id="@drawable/somc_navbar_back_btn_no_background_land" filters="sysbar-key-land" />
+    <overlay id="@drawable/somc_navbar_back_ime_btn" filters="sysbar-key-port" />
+    <overlay id="@drawable/somc_navbar_back_ime_btn_dark" filters="sysbar-key-port" />
+    <overlay id="@drawable/somc_navbar_back_ime_btn_light" filters="sysbar-key-port" />
+    <overlay id="@drawable/somc_navbar_back_ime_btn_translucent" filters="sysbar-key-port" />
+    <overlay id="@drawable/somc_navbar_back_ime_btn_immersive" filters="sysbar-key-port" />
+    <overlay id="@drawable/somc_navbar_back_ime_btn_no_background" filters="sysbar-key-port" />
+    <overlay id="@drawable/somc_navbar_back_ime_btn_land" filters="sysbar-key-land" />
+    <overlay id="@drawable/somc_navbar_back_ime_btn_dark_land" filters="sysbar-key-land" />
+    <overlay id="@drawable/somc_navbar_back_ime_btn_light_land" filters="sysbar-key-land" />
+    <overlay id="@drawable/somc_navbar_back_ime_btn_translucent_land" filters="sysbar-key-land" />
+    <overlay id="@drawable/somc_navbar_back_ime_btn_immersive_land" filters="sysbar-key-land" />
+    <overlay id="@drawable/somc_navbar_back_ime_btn_no_background_land" filters="sysbar-key-land" />
+    <overlay id="@drawable/somc_navbar_home_btn" filters="sysbar-key-port" />
+    <overlay id="@drawable/somc_navbar_home_btn_dark" filters="sysbar-key-port" />
+    <overlay id="@drawable/somc_navbar_home_btn_light" filters="sysbar-key-port" />
+    <overlay id="@drawable/somc_navbar_home_btn_translucent" filters="sysbar-key-port" />
+    <overlay id="@drawable/somc_navbar_home_btn_immersive" filters="sysbar-key-port" />
+    <overlay id="@drawable/somc_navbar_home_btn_no_background" filters="sysbar-key-port" />
+    <overlay id="@drawable/somc_navbar_home_btn_land" filters="sysbar-key-land" />
+    <overlay id="@drawable/somc_navbar_home_btn_dark_land" filters="sysbar-key-land" />
+    <overlay id="@drawable/somc_navbar_home_btn_light_land" filters="sysbar-key-land" />
+    <overlay id="@drawable/somc_navbar_home_btn_translucent_land" filters="sysbar-key-land" />
+    <overlay id="@drawable/somc_navbar_home_btn_immersive_land" filters="sysbar-key-land" />
+    <overlay id="@drawable/somc_navbar_home_btn_no_background_land" filters="sysbar-key-land" />
+    <overlay id="@drawable/somc_navbar_recent_btn" filters="sysbar-key-port" />
+    <overlay id="@drawable/somc_navbar_recent_btn_dark" filters="sysbar-key-port" />
+    <overlay id="@drawable/somc_navbar_recent_btn_light" filters="sysbar-key-port" />
+    <overlay id="@drawable/somc_navbar_recent_btn_translucent" filters="sysbar-key-port" />
+    <overlay id="@drawable/somc_navbar_recent_btn_immersive" filters="sysbar-key-port" />
+    <overlay id="@drawable/somc_navbar_recent_btn_no_background" filters="sysbar-key-port" />
+    <overlay id="@drawable/somc_navbar_recent_btn_land" filters="sysbar-key-land" />
+    <overlay id="@drawable/somc_navbar_recent_btn_dark_land" filters="sysbar-key-land" />
+    <overlay id="@drawable/somc_navbar_recent_btn_light_land" filters="sysbar-key-land" />
+    <overlay id="@drawable/somc_navbar_recent_btn_translucent_land" filters="sysbar-key-land" />
+    <overlay id="@drawable/somc_navbar_recent_btn_immersive_land" filters="sysbar-key-land" />
+    <overlay id="@drawable/somc_navbar_recent_btn_no_background_land" filters="sysbar-key-land" />
+    <overlay id="@drawable/somc_navbar_menu_btn" filters="sysbar-key-port" />
+    <overlay id="@drawable/somc_navbar_menu_btn_dark" filters="sysbar-key-port" />
+    <overlay id="@drawable/somc_navbar_menu_btn_light" filters="sysbar-key-port" />
+    <overlay id="@drawable/somc_navbar_menu_btn_translucent" filters="sysbar-key-port" />
+    <overlay id="@drawable/somc_navbar_menu_btn_immersive" filters="sysbar-key-port" />
+    <overlay id="@drawable/somc_navbar_menu_btn_no_background" filters="sysbar-key-port" />
+    <overlay id="@drawable/somc_navbar_menu_btn_land" filters="sysbar-key-land" />
+    <overlay id="@drawable/somc_navbar_menu_btn_dark_land" filters="sysbar-key-land" />
+    <overlay id="@drawable/somc_navbar_menu_btn_light_land" filters="sysbar-key-land" />
+    <overlay id="@drawable/somc_navbar_menu_btn_translucent_land" filters="sysbar-key-land" />
+    <overlay id="@drawable/somc_navbar_menu_btn_immersive_land" filters="sysbar-key-land" />
+    <overlay id="@drawable/somc_navbar_menu_btn_no_background_land" filters="sysbar-key-land" />
+    <overlay id="@drawable/somc_navbar_ime_switcher_btn" filters="sysbar-key-port" />
+    <overlay id="@drawable/somc_navbar_ime_switcher_btn_dark" filters="sysbar-key-port" />
+    <overlay id="@drawable/somc_navbar_ime_switcher_btn_light" filters="sysbar-key-port" />
+    <overlay id="@drawable/somc_navbar_ime_switcher_btn_translucent" filters="sysbar-key-port" />
+    <overlay id="@drawable/somc_navbar_ime_switcher_btn_immersive" filters="sysbar-key-port" />
+    <overlay id="@drawable/somc_navbar_ime_switcher_btn_no_background" filters="sysbar-key-port" />
+    <overlay id="@drawable/somc_navbar_ime_switcher_btn_land" filters="sysbar-key-land" />
+    <overlay id="@drawable/somc_navbar_ime_switcher_btn_dark_land" filters="sysbar-key-land" />
+    <overlay id="@drawable/somc_navbar_ime_switcher_btn_light_land" filters="sysbar-key-land" />
+    <overlay id="@drawable/somc_navbar_ime_switcher_btn_translucent_land" filters="sysbar-key-land" />
+    <overlay id="@drawable/somc_navbar_ime_switcher_btn_immersive_land" filters="sysbar-key-land" />
+    <overlay id="@drawable/somc_navbar_ime_switcher_btn_no_background_land" filters="sysbar-key-land" />
+    <overlay id="@bool/somc_enableKeyButtonGlow" />
+    <overlay id="@bool/somc_volume_dialog_colorize_sliders" />
+    <filter-group group="lockscreen-color">
+        <filter type="type" value="color" />
+    </filter-group>
+    <overlay id="@color/somc_keyguard_theme_color_solid_foreground" filters="lockscreen-color" />
+    <overlay id="@color/somc_keyguard_theme_color_solid_foreground_inverse" filters="lockscreen-color" />
+    <overlay id="@color/somc_keyguard_theme_color_translucent_foreground" filters="lockscreen-color" />
+    <overlay id="@color/somc_keyguard_theme_color_faint_foreground" filters="lockscreen-color" />
+    <overlay id="@color/somc_keyguard_theme_color_ripple_color" filters="lockscreen-color" />
+    <overlay id="@color/somc_keyguard_theme_color_primary_text" filters="lockscreen-color" />
+    <overlay id="@color/somc_keyguard_theme_color_secondary_text" filters="lockscreen-color" />
+    <overlay id="@color/somc_keyguard_theme_color_pattern_regular" filters="lockscreen-color" />
+    <overlay id="@color/somc_keyguard_theme_color_pattern_error" filters="lockscreen-color" />
+    <overlay id="@color/somc_keyguard_theme_color_scrim" filters="lockscreen-color" />
+    <overlay id="@color/somc_keyguard_theme_color_clock_picker_back_plate" filters="lockscreen-color" />
+    <overlay id="@color/somc_keyguard_theme_color_analog_clock_seconds_hand" filters="lockscreen-color" />
+    <filter-group group="password-cursor">
+        <filter type="size" minWidth="1px" minHeight="1px" maxWidth="40dp" maxHeight="40dp" />
+        <filter type="type" value="bitmap,vector,nine-patch" />
+    </filter-group>
+    <overlay id="@drawable/somc_keyguard_theme_color_password_cursor" filters="password-cursor" />
+    <filter-group group="ninepatch-selector">
+        <filter type="type" value="selector">
+            <filter type="included" value="false" />
+        </filter>
+        <filter type="type" value="nine-patch">
+            <filter type="included" value="true" />
+        </filter>
+        <filter type="size" minWidth="3px" minHeight="3px" maxWidth="100dp" maxHeight="100dp" />
+    </filter-group>
+    <overlay id="@drawable/somc_keyguard_secure_button" filters="ninepatch-selector" />
+    <overlay id="@string/somc_themeable_analog_clock_plugin_enabled" />
+    <overlay id="@string/somc_keyguard_themeable_analog_clock_name" />
+    <filter-group group="clock_icon">
+        <filter type="size" minWidth="1px" minHeight="1px" maxWidth="40dp" maxHeight="40dp" />
+        <filter type="type" value="bitmap,vector" />
+    </filter-group>
+    <overlay id="@drawable/somc_themeable_analog_clock_icon" filters="clock_icon" />
+    <filter-group group="clock_hand">
+        <filter type="size" minWidth="1px" minHeight="2px" maxWidth="260dp" maxHeight="260dp" />
+        <filter type="type" value="bitmap,vector" />
+    </filter-group>
+    <filter-group group="clock_pivot">
+        <filter type="size" value="130dp" tolerance="130dp" />
+    </filter-group>
+    <overlay id="@drawable/somc_themeable_analog_clock_hour_hand" filters="clock_hand" />
+    <overlay id="@dimen/somc_themeable_analog_clock_hour_hand_pivot_x" filters="clock_pivot" />
+    <overlay id="@dimen/somc_themeable_analog_clock_hour_hand_pivot_y" filters="clock_pivot" />
+    <overlay id="@drawable/somc_themeable_analog_clock_minute_hand" filters="clock_hand" />
+    <overlay id="@dimen/somc_themeable_analog_clock_minute_hand_pivot_x" filters="clock_pivot" />
+    <overlay id="@dimen/somc_themeable_analog_clock_minute_hand_pivot_y" filters="clock_pivot" />
+    <overlay id="@drawable/somc_themeable_analog_clock_second_hand" filters="clock_hand" />
+    <overlay id="@dimen/somc_themeable_analog_clock_second_hand_pivot_x" filters="clock_pivot" />
+    <overlay id="@dimen/somc_themeable_analog_clock_second_hand_pivot_y" filters="clock_pivot" />
+    <filter-group group="clock_face">
+        <filter type="size" minWidth="1px" minHeight="1px" maxWidth="260dp" maxHeight="260dp" />
+        <filter type="type" value="bitmap,nine-patch,vector" />
+    </filter-group>
+    <overlay id="@drawable/somc_themeable_analog_clock_face" filters="clock_face" />
+    <overlay id="@bool/enable_inverted_keyguard_system_bars" />
+    <overlay id="@bool/somc_keyguard_statusbar_inversion" />
+    <overlay id="@bool/somc_keyguard_transparent_clock_enabled" />
+    <overlay id="@color/somc_keyguard_theme_color_clock_dim" filters="lockscreen-color" />
+    <overlay id="@color/somc_keyguard_theme_color_notification_background" filters="lockscreen-color" />
+</overlay-resources>

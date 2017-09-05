@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_disabled_wifi_failure">Falha de conexão WLAN</string>
+    <string name="connected_via_wfa">Conectado via assistente de WLAN</string>
+    <string name="status_bar_settings_wifi_button">WLAN</string>
+    <string name="accessibility_data_connection_wifi">WLAN</string>
+    <string name="accessibility_quick_settings_wifi_changed_off">O WLAN foi desativado.</string>
+    <string name="accessibility_quick_settings_wifi_changed_on">O WLAN foi ativado.</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">WLAN conectado</string>
+    <string name="quick_settings_wifi_label">WLAN</string>
+    <string name="quick_settings_wifi_off_label">WLAN desligado</string>
+    <string name="quick_settings_wifi_detail_empty_text">Nenhuma rede WLAN disponível</string>
+    <string name="accessibility_quick_settings_detail">Configurações rápidas, %s.</string>
+</resources>

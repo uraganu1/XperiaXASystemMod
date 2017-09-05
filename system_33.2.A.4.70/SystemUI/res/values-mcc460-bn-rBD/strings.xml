@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_disabled_wifi_failure">WLAN সংযোগের ব্যর্থতা</string>
+    <string name="connected_via_wfa">WLAN সহায়ক-এর মাধ্যমে সংযুক্ত হয়েছে</string>
+    <string name="status_bar_settings_wifi_button">WLAN</string>
+    <string name="accessibility_data_connection_wifi">WLAN</string>
+    <string name="accessibility_quick_settings_wifi_changed_off">WLAN বন্ধ হয়েছে।</string>
+    <string name="accessibility_quick_settings_wifi_changed_on">WLAN চালু হয়েছে।</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">WLAN সংযুক্ত হয়েছে</string>
+    <string name="quick_settings_wifi_label">WLAN</string>
+    <string name="quick_settings_wifi_off_label">WLAN বন্ধ</string>
+    <string name="quick_settings_wifi_detail_empty_text">কোনো WLAN নেটওয়ার্ক উপলব্ধ নেই</string>
+    <string name="accessibility_quick_settings_detail">দ্রুত সেটিংস, %s৷</string>
+</resources>

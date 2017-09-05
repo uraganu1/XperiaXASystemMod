@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="somc_keyguard_visible_phone_landscape">0</string>
+    <string name="somc_keyguard_visible_tablet_or_portrait">2</string>
+    <string name="toast_rotation_locked">Screen is now locked in landscape orientation.</string>
+</resources>

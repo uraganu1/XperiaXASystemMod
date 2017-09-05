@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">Ekrany w widoku przeglądu: %d</item>
+        <item quantity="one">1 ekran w widoku przeglądu</item>
+        <item quantity="few">%d ekrany w widoku przeglądu</item>
+        <item quantity="many">%d ekranów w widoku przeglądu</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">Nieprawidłowy kod PIN karty SIM. Liczba pozostałych prób: %d. Po ich wykorzystaniu należy wprowadzić kod PUK (kod odblokowujący kod PIN) lub skontaktować się z usługodawcą, aby odblokować urządzenie.</item>
+        <item quantity="one">Nieprawidłowy kod PIN karty SIM. Liczba pozostałych prób: %d. Po ich wykorzystaniu należy wprowadzić kod PUK (kod odblokowujący kod PIN) lub skontaktować się z usługodawcą, aby odblokować urządzenie.</item>
+        <item quantity="few">Nieprawidłowy kod PIN karty SIM. Masz jeszcze %d próby.</item>
+        <item quantity="many">Nieprawidłowy kod PIN karty SIM. Masz jeszcze %d prób.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Nieprawidłowy kod PUK karty SIM. Liczba pozostałych prób: %d. Po ich wykorzystaniu karta SIM zostanie trwale zablokowana.</item>
+        <item quantity="one">Nieprawidłowy kod PUK karty SIM. Liczba pozostałych prób: %d. Po ich wykorzystaniu karta SIM zostanie trwale zablokowana.</item>
+        <item quantity="few">Nieprawidłowy kod PUK karty SIM. Masz jeszcze %d próby, zanim karta SIM zostanie trwale zablokowana.</item>
+        <item quantity="many">Nieprawidłowy kod PUK karty SIM. Masz jeszcze %d prób, zanim karta SIM zostanie trwale zablokowana.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">Urządzenie nie było odblokowywane od %d godzin. Potwierdź wzór.</item>
+        <item quantity="one">Urządzenie nie było odblokowywane od %d godziny. Potwierdź wzór.</item>
+        <item quantity="few">Urządzenie nie zostało odblokowane od %d godzin. Potwierdź wzór.</item>
+        <item quantity="many">Urządzenie nie zostało odblokowane od %d godzin. Potwierdź wzór.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">Urządzenie nie było odblokowywane od %d godzin. Potwierdź kod PIN.</item>
+        <item quantity="one">Urządzenie nie było odblokowywane od %d godziny. Potwierdź kod PIN.</item>
+        <item quantity="few">Urządzenie nie zostało odblokowane od %d godzin. Potwierdź kod PIN.</item>
+        <item quantity="many">Urządzenie nie zostało odblokowane od %d godzin. Potwierdź kod PIN.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">Urządzenie nie było odblokowywane od %d godzin. Potwierdź hasło.</item>
+        <item quantity="one">Urządzenie nie było odblokowywane od %d godziny. Potwierdź hasło.</item>
+        <item quantity="few">Urządzenie nie zostało odblokowane od %d godzin. Potwierdź hasło.</item>
+        <item quantity="many">Urządzenie nie zostało odblokowane od %d godzin. Potwierdź hasło.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">Wprowadź kod PIN karty SIM. Liczba pozostałych prób: %d.</item>
+        <item quantity="one">Wprowadź kod PIN karty SIM. Liczba pozostałych prób: %d. Po ich wykorzystaniu trzeba będzie skontaktować się z operatorem, by odblokował Twoje urządzenie.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">Karta SIM jest teraz wyłączona. Wprowadź kod PUK, aby kontynuować. Liczba pozostałych prób: %d. Po ich wykorzystaniu karta SIM zostanie nieodwracalnie zablokowana. Aby uzyskać szczegółowe informacje, skontaktuj się z operatorem.</item>
+        <item quantity="one">Karta SIM jest teraz wyłączona. Wprowadź kod PUK, aby kontynuować. Liczba pozostałych prób: %d. Po ich wykorzystaniu karta SIM zostanie nieodwracalnie zablokowana. Aby uzyskać szczegółowe informacje, skontaktuj się z operatorem.</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_puk_enter_puk_hint_last_attempt_failed">
+        <item quantity="other">Wprowadzony kod PUK jest nieprawidłowy. Wprowadź ponownie kod PUK (8 cyfr). Pozostało prób: %d</item>
+        <item quantity="one">Wprowadzony kod PUK jest nieprawidłowy. Wprowadź ponownie kod PUK (8 cyfr). Pozostała %d próba.</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_sim_pin_instructions_last_attempt_failed">
+        <item quantity="other">Wprowadzony kod PIN karty SIM jest nieprawidłowy. Wprowadź ponownie kod PIN (od 4 do 8 cyfr). Pozostało prób: %d.</item>
+        <item quantity="one">Wprowadzony kod PIN karty SIM jest nieprawidłowy. Wprowadź ponownie kod PIN (od 4 do 8 cyfr). Pozostała %d próba.</item>
+    </plurals>
+</resources>

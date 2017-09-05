@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_settings_autorotate">Roter skærm automatisk</string>
+    <string name="status_bar_settings_autosync">Synkroniser data automatisk</string>
+</resources>

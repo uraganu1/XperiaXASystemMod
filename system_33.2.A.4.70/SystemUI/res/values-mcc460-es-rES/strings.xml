@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_security_wapi_psk">WLAN PSK</string>
+    <string name="wifi_disabled_wifi_failure">Error de conexión WLAN</string>
+    <string name="connected_via_wfa">Conectado a través de asistente WLAN</string>
+    <string name="accessibility_wifi_off">WLAN apagado.</string>
+    <string name="accessibility_no_wifi">WLAN desconectado.</string>
+    <string name="accessibility_wifi_one_bar">Una barra de WLAN.</string>
+    <string name="accessibility_wifi_two_bars">Dos barras de WLAN.</string>
+    <string name="accessibility_wifi_three_bars">Tres barras de WLAN.</string>
+    <string name="accessibility_wifi_signal_full">Señal de WLAN completa.</string>
+    <string name="quick_settings_wifi_scanning_label">WLAN: buscando</string>
+    <string name="quick_settings_wifi_connecting_label">WLAN: conectando</string>
+    <string name="toast_message_not_allow_turn_on_hotspot">El área de conexión WLAN no está disponible en modo avión.</string>
+    <string name="status_bar_settings_wifi_button">WLAN</string>
+    <string name="accessibility_data_connection_wifi">WLAN</string>
+    <string name="accessibility_quick_settings_wifi_changed_off">El WLAN se ha desactivado.</string>
+    <string name="accessibility_quick_settings_wifi_changed_on">El WLAN se ha activado.</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">WLAN conectado</string>
+    <string name="quick_settings_wifi_label">WLAN</string>
+    <string name="quick_settings_wifi_off_label">WLAN desconectado</string>
+    <string name="quick_settings_wifi_detail_empty_text">No hay ninguna red WLAN disponible</string>
+    <string name="quick_settings_hotspot_label">Zona WLAN</string>
+    <string name="accessibility_quick_settings_detail">Ajustes rápidos, %s.</string>
+    <string name="accessibility_status_bar_hotspot">Zona WLAN</string>
+    <string name="wifi_security_short_wapi_cert">WLAN CERT</string>
+    <string name="wifi_security_short_wapi_psk">WLAN PSK</string>
+    <string name="wifi_security_wapi_cert">WLAN CERT</string>
+</resources>

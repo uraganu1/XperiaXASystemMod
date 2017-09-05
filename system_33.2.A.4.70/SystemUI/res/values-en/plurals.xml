@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">Incorrect SIM PIN code. You have %d remaining attempts before you must enter your PUK code (PIN unlock code) or contact your service provider to unlock your device.</item>
+        <item quantity="one">Incorrect SIM PIN code. You have %d remaining attempt before you must enter your PUK code (PIN unlock code) or contact your service provider to unlock your device.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Incorrect SIM PUK code, you have %d attempts remaining before your SIM becomes permanently unusable.</item>
+        <item quantity="one">Incorrect SIM PUK code, you have %d attempt remaining before your SIM becomes permanently unusable.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">Enter SIM PIN, you have %d attempts remaining.</item>
+        <item quantity="one">Enter SIM PIN, you have %d attempt remaining before you must contact your network operator to unlock your device.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">SIM is now disabled. Enter PUK code to continue. You have %d attempts remaining before SIM becomes permanently unusable. Contact your network operator for details.</item>
+        <item quantity="one">SIM is now disabled. Enter PUK code to continue. You have %d attempt remaining before SIM becomes permanently unusable. Contact your network operator for details.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">%d ekrana u pregledu</item>
+        <item quantity="one">1 ekran u pregledu</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">Netačan SIM PIN kôd, preostalo vam je %d pokušaja, a nakon toga ćete morati da unesete PUK kôd (PIN kôd za otključavanje) ili da se obratite dobavljaču usluga da biste otključali uređaj.</item>
+        <item quantity="one">Netačan SIM PIN kôd, preostao vam je %d pokušaj, a nakon toga ćete morati da unesete PUK kôd (PIN kôd za otključavanje) ili da se obratite dobavljaču usluga da biste otključali uređaj.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Netačan SIM PUK kôd, preostalo vam je %d pokušaja pre nego što SIM postane trajno neupotrebljiv.</item>
+        <item quantity="one">Netačan SIM PUK kôd, preostao vam je %d pokušaj pre nego što SIM postane trajno neupotrebljiv.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">Unesite SIM PIN, imate %d preostalih pokušaja.</item>
+        <item quantity="one">Unesite SIM PIN, imate %d preostali pokušaj pre nego što budete morali da se obratite operateru da vam otključa uređaj.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">SIM je sada onemogućen. Unesite PUK kôd da biste nastavili. Imate %d preostalih pokušaja pre nego što SIM postane trajno neupotrebljiv. Obratite se operateru za detalje.</item>
+        <item quantity="one">SIM je sada onemogućen. Unesite PUK kôd da biste nastavili. Imate %d preostali pokušaj pre nego što SIM postane trajno neupotrebljiv. Obratite se operateru za detalje.</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_puk_enter_puk_hint_last_attempt_failed">
+        <item quantity="other">Žao nam je, vaš unos se ne podudara sa PUK kodom. Ponovo unesite svoj PUK kôd od 8 cifara. Imate još %d pokušaja.</item>
+        <item quantity="one">Žao nam je, vaš unos se ne podudara sa PUK kodom. Ponovo unesite svoj PUK kôd od 8 cifara. Imate još %d pokušaj.</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_sim_pin_instructions_last_attempt_failed">
+        <item quantity="other">Žao nam je, vaš unos se ne podudara sa SIM PIN kodom. Ponovo unesite svoj PIN od 4-8 cifara. Imate još %d pokušaja.</item>
+        <item quantity="one">Žao nam je, vaš unos se ne podudara sa SIM PIN kodom. Ponovo unesite svoj PIN od 4-8 cifara. Imate još %d pokušaj.</item>
+    </plurals>
+</resources>

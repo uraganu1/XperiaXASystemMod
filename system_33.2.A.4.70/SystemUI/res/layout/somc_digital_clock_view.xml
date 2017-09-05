@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sonymobile.keyguard.plugin.digitalclock.DigitalClock android:orientation="vertical" android:id="@id/somc_digital_clock_view_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/somc_digital_clock_container_margin_top"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:sonymobile="http://schemas.android.com/apk/res-auto">
+    <com.sonymobile.keyguard.SomcKeyguardClockScaleContainer android:id="@id/somc_keyguard_clockplugin_scale_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.sonymobile.keyguard.themedanimation.ClippingSourceTextClock android:textColor="@color/somc_keyguard_theme_color_digital_clock" android:id="@id/somc_digital_clock_view_clock" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/somc_digital_clock_text_margin_bottom" android:layout_centerHorizontal="true" android:format12Hour="@string/keyguard_widget_12_hours_format" android:format24Hour="@string/keyguard_widget_24_hours_format" sonymobile:dimmerColor="@color/somc_keyguard_theme_color_clock_dim" style="@style/somc_digital_clock_hours_minutes_text_style" />
+            <com.sonymobile.keyguard.themedanimation.ClippingSourceTextClock android:textColor="@color/somc_keyguard_theme_color_digital_clock" android:id="@id/somc_digital_clock_view_am_pm" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/somc_digital_clock_view_clock" android:layout_toEndOf="@id/somc_digital_clock_view_clock" sonymobile:dimmerColor="@color/somc_keyguard_theme_color_clock_dim" style="@style/somc_digital_clock_am_pm_text_style" />
+        </RelativeLayout>
+    </com.sonymobile.keyguard.SomcKeyguardClockScaleContainer>
+    <include layout="@layout/somc_keyguard_status_area" />
+</com.sonymobile.keyguard.plugin.digitalclock.DigitalClock>

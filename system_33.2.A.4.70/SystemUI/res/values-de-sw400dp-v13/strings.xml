@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_settings_autorotate">Bildschirm automatisch drehen</string>
+    <string name="status_bar_settings_autosync">Daten automatisch synchronisieren</string>
+    <string name="status_bar_settings_mobile_data">Mobile Datenübertragung</string>
+    <string name="status_bar_settings_settings">Verknüpfung mit Einstellungen</string>
+</resources>

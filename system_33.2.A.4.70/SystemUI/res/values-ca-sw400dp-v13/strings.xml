@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_settings_autorotate">Gira la pantalla automàticament</string>
+    <string name="status_bar_settings_autosync">Sincronitza dades automàticament</string>
+    <string name="status_bar_settings_mobile_data">Trànsit de dades mòbils</string>
+    <string name="status_bar_settings_settings">Drecera als Paràmetres</string>
+</resources>

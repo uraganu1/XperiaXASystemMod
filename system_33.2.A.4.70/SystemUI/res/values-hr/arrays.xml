@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Skeniranje...</item>
+        <item>Povezivanje…</item>
+        <item>Autentikacija…</item>
+        <item>Dohvaćanje IP adrese…</item>
+        <item>Povezan</item>
+        <item>Obustavljeno</item>
+        <item>Isključivanje…</item>
+        <item>Niste povezani</item>
+        <item>Neuspješno</item>
+        <item>Blokirano</item>
+        <item>Privremeno izbjegavanje loše veze</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Skeniranje...</item>
+        <item>Povezivanje na mrežu %1$s…</item>
+        <item>Autentikacija s mrežom %1$s…</item>
+        <item>Dohvaćanje IP adrese s mreže %1$s…</item>
+        <item>Povezano s mrežom %1$s</item>
+        <item>Obustavljeno</item>
+        <item>Isključivanje iz mreže %1$s…</item>
+        <item>Niste povezani</item>
+        <item>Neuspješno</item>
+        <item>Blokirano</item>
+        <item>Privremeno izbjegavanje loše veze</item>
+    </string-array>
+    <string-array name="telephony_animation_roaming_data_type_sim1">
+        <item>0</item>
+        <item>0</item>
+        <item>drawable/stat_sys_data_fully_connected_e_ani_roam</item>
+        <item>drawable/stat_sys_data_fully_connected_3g_ani_roam</item>
+        <item>drawable/stat_sys_data_fully_connected_1x_ani_roam</item>
+        <item>drawable/stat_sys_data_fully_connected_3g_ani_roam</item>
+        <item>drawable/stat_sys_data_fully_connected_3g_ani_roam</item>
+        <item>drawable/stat_sys_data_fully_connected_1x_ani_roam</item>
+        <item>drawable/stat_sys_data_fully_connected_h_ani_roam</item>
+        <item>drawable/stat_sys_data_fully_connected_h_ani_roam</item>
+        <item>drawable/stat_sys_data_fully_connected_h_ani_roam</item>
+        <item>0</item>
+        <item>drawable/stat_sys_data_fully_connected_3g_ani_roam</item>
+        <item>drawable/stat_sys_data_fully_connected_lte_ani_roam</item>
+        <item>drawable/stat_sys_data_fully_connected_3g_ani_roam</item>
+        <item>drawable/stat_sys_data_fully_connected_h_plus_ani_roam</item>
+        <item>drawable/stat_sys_data_fully_connected_g_ani_roam</item>
+        <item>drawable/stat_sys_data_fully_connected_3g_ani_roam</item>
+        <item>0</item>
+    </string-array>
+</resources>

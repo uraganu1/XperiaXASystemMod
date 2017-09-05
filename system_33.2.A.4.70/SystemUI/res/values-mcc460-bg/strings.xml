@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_security_wapi_psk">WLAN PSK</string>
+    <string name="wifi_disabled_wifi_failure">Неуспешна връзка с WLAN</string>
+    <string name="connected_via_wfa">Установена е връзка чрез помощника за WLAN</string>
+    <string name="accessibility_wifi_off">WLAN е изкл.</string>
+    <string name="accessibility_no_wifi">WLAN връзката е прекъсната.</string>
+    <string name="accessibility_wifi_one_bar">WLAN – една черта.</string>
+    <string name="accessibility_wifi_two_bars">WLAN – две черти.</string>
+    <string name="accessibility_wifi_three_bars">WLAN – три черти.</string>
+    <string name="accessibility_wifi_signal_full">Пълен WLAN сигнал.</string>
+    <string name="quick_settings_wifi_scanning_label">WLAN: сканиране</string>
+    <string name="quick_settings_wifi_connecting_label">WLAN: свързване</string>
+    <string name="toast_message_not_allow_turn_on_hotspot">WLAN точката за достъп не е налична в самолетен режим</string>
+    <string name="status_bar_settings_wifi_button">WLAN връзка</string>
+    <string name="accessibility_data_connection_wifi">WLAN</string>
+    <string name="accessibility_quick_settings_wifi_changed_off">WLAN връзката е изключена</string>
+    <string name="accessibility_quick_settings_wifi_changed_on">WLAN връзката е включена</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">Свързано е с WLAN мрежа</string>
+    <string name="quick_settings_wifi_label">WLAN</string>
+    <string name="quick_settings_wifi_off_label">WLAN е изключен</string>
+    <string name="quick_settings_wifi_detail_empty_text">Няма налични WLAN мрежи</string>
+    <string name="accessibility_quick_settings_detail">Бързи настройки (%s).</string>
+    <string name="wifi_security_short_wapi_cert">WLAN CERT</string>
+    <string name="wifi_security_short_wapi_psk">WLAN PSK</string>
+    <string name="wifi_security_wapi_cert">WLAN CERT</string>
+</resources>

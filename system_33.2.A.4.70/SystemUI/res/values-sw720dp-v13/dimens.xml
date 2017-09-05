@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="status_bar_recents_app_icon_max_width">64.0dip</dimen>
+    <dimen name="status_bar_recents_app_icon_max_height">64.0dip</dimen>
+    <dimen name="status_bar_recents_thumbnail_width">208.0dip</dimen>
+    <dimen name="status_bar_recents_thumbnail_height">130.0dip</dimen>
+    <dimen name="status_bar_recents_app_label_text_size">18.0dip</dimen>
+    <dimen name="status_bar_recents_app_description_text_size">18.0dip</dimen>
+    <dimen name="status_bar_recents_text_fading_edge_length">20.0dip</dimen>
+    <dimen name="status_bar_recents_scroll_fading_edge_length">10.0dip</dimen>
+    <dimen name="status_bar_recents_thumbnail_left_margin">28.0dip</dimen>
+    <dimen name="status_bar_recents_text_description_padding">8.0dip</dimen>
+    <dimen name="status_bar_recents_app_label_width">97.0dip</dimen>
+    <dimen name="status_bar_recents_app_label_left_margin">16.0dip</dimen>
+    <dimen name="status_bar_recents_app_icon_left_margin">0.0dip</dimen>
+    <dimen name="status_bar_recents_app_icon_top_margin">8.0dip</dimen>
+    <dimen name="status_bar_icon_padding">1.0dip</dimen>
+    <dimen name="recents_task_view_rounded_corners_radius">3.0dip</dimen>
+    <dimen name="keyguard_security_width">420.0dip</dimen>
+    <dimen name="keyguard_security_height">470.0dip</dimen>
+    <dimen name="widget_big_font_size">138.0dip</dimen>
+    <item type="dimen" name="somc_analog_clock_size">@dimen/somc_analog_clock_size_larger</item>
+    <item type="dimen" name="somc_analog_clock_date_text_size">@dimen/somc_analog_clock_date_text_size_larger</item>
+    <item type="dimen" name="somc_analog_clock_date_text_space">@dimen/somc_analog_clock_date_text_space_larger</item>
+    <item type="dimen" name="somc_analog_clock_ellipse_depth">@dimen/somc_analog_clock_ellipse_depth_larger</item>
+    <item type="dimen" name="somc_analog_clock_hour_hand_length">@dimen/somc_analog_clock_hour_hand_length_larger</item>
+    <item type="dimen" name="somc_analog_clock_hour_hand_thickness">@dimen/somc_analog_clock_hour_hand_thickness_larger</item>
+    <item type="dimen" name="somc_analog_clock_minute_hand_length">@dimen/somc_analog_clock_minute_hand_length_larger</item>
+    <item type="dimen" name="somc_analog_clock_minute_hand_thickness">@dimen/somc_analog_clock_minute_hand_thickness_larger</item>
+    <item type="dimen" name="somc_analog_clock_second_dot_diameter">@dimen/somc_analog_clock_second_dot_diameter_larger</item>
+    <item type="dimen" name="somc_analog_clock_minute_tick_length">@dimen/somc_analog_clock_minute_tick_length_larger</item>
+    <item type="dimen" name="somc_analog_clock_hour_tick_length">@dimen/somc_analog_clock_hour_tick_length_larger</item>
+    <item type="dimen" name="somc_analog_clock_tick_radius">@dimen/somc_analog_clock_tick_radius_larger</item>
+    <item type="dimen" name="somc_analog_clock_tick_width">@dimen/somc_analog_clock_tick_width_larger</item>
+    <item type="dimen" name="somc_analog_clock_center_size">@dimen/somc_analog_clock_center_size_larger</item>
+    <item type="dimen" name="somc_analog_clock_center_stroke_width">@dimen/somc_analog_clock_center_stroke_width_larger</item>
+    <dimen name="somc_digital_clock_ampm_padding_top">41.0dip</dimen>
+    <dimen name="somc_digital_clock_font_size">110.0dip</dimen>
+    <dimen name="somc_keyguard_clock_picker_clock_back_plate_width">390.0dip</dimen>
+    <dimen name="somc_keyguard_clock_picker_clock_back_plate_height">390.0dip</dimen>
+    <dimen name="somc_sony_clock_hour_digit_size">156.0dip</dimen>
+    <dimen name="somc_sony_clock_minute_digit_size">156.0dip</dimen>
+    <dimen name="sony_clock_hour_digit_bottom_margin">-32.0dip</dimen>
+    <dimen name="sony_clock_minute_digit_bottom_margin">-24.0dip</dimen>
+    <dimen name="notification_panel_min_height">770.0dip</dimen>
+    <dimen name="panel_float">56.0dip</dimen>
+    <dimen name="status_bar_recents_width">600.0dip</dimen>
+</resources>

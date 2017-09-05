@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.keyguard.KeyguardStatusView android:gravity="center|top" android:orientation="vertical" android:id="@id/keyguard_status_view" android:layout_width="fill_parent" android:layout_height="wrap_content" androidprv:layout_maxWidth="@dimen/keyguard_security_width" androidprv:layout_maxHeight="@dimen/keyguard_security_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:androidprv="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center|top" android:orientation="vertical" android:id="@id/keyguard_clock_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/somc_keyguard_digital_clock_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/somc_digital_clock_container_margin_top">
+            <com.sonymobile.keyguard.SomcKeyguardClockScaleContainer android:id="@id/somc_keyguard_clockvanilla_scale_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextClock android:textColor="@color/somc_keyguard_theme_color_digital_clock" android:id="@id/clock_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/somc_digital_clock_text_margin_bottom" android:layout_centerHorizontal="true" android:format12Hour="@string/keyguard_widget_12_hours_format" android:format24Hour="@string/keyguard_widget_24_hours_format" style="@style/somc_digital_clock_hours_minutes_text_style" />
+                    <TextClock android:textColor="@color/somc_keyguard_theme_color_digital_clock" android:id="@id/somc_digital_clock_am_pm" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/clock_view" android:layout_toEndOf="@id/clock_view" style="@style/somc_digital_clock_am_pm_text_style" />
+                </RelativeLayout>
+            </com.sonymobile.keyguard.SomcKeyguardClockScaleContainer>
+            <include layout="@layout/keyguard_status_area" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/widget_label_font_size" android:textColor="@color/somc_keyguard_theme_color_solid_foreground" android:ellipsize="marquee" android:layout_gravity="center_horizontal" android:id="@id/owner_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/date_owner_info_margin" android:singleLine="true" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" android:letterSpacing="0.05" />
+    </LinearLayout>
+</com.android.keyguard.KeyguardStatusView>

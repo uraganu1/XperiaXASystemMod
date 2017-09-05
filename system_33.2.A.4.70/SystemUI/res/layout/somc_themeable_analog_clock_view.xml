@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sonymobile.keyguard.plugin.analogclock.AnalogClockContainer android:layout_gravity="center_horizontal" android:id="@id/somc_keyguard_clockplugin_scale_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/somc_analog_clock_margin_top"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:androidprv="http://schemas.android.com/apk/res-auto" xmlns:sonymobile="http://schemas.android.com/apk/res-auto">
+    <com.sonymobile.keyguard.plugin.themeableanalogclock.ThemeableAnalogClock android:layout_gravity="center" android:id="@id/somc_themeable_analog_clock" android:layout_width="@dimen/somc_themeable_analog_clock_max_width" android:layout_height="@dimen/somc_themeable_analog_clock_max_height">
+        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/somc_themeable_analog_clock_face" android:contentDescription="@string/somc_keyguard_themeable_analog_clock_name" />
+        <com.sonymobile.keyguard.plugin.themeableanalogclock.ClockHand android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" sonymobile:handType="minutes">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/somc_themeable_analog_clock_minute_hand" android:contentDescription="@string/somc_keyguard_themeable_analog_clock_name" android:transformPivotX="@dimen/somc_themeable_analog_clock_minute_hand_pivot_x" android:transformPivotY="@dimen/somc_themeable_analog_clock_minute_hand_pivot_y" android:layerType="hardware" />
+        </com.sonymobile.keyguard.plugin.themeableanalogclock.ClockHand>
+        <com.sonymobile.keyguard.plugin.themeableanalogclock.ClockHand android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" sonymobile:handType="hours">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/somc_themeable_analog_clock_hour_hand" android:contentDescription="@string/somc_keyguard_themeable_analog_clock_name" android:transformPivotX="@dimen/somc_themeable_analog_clock_hour_hand_pivot_x" android:transformPivotY="@dimen/somc_themeable_analog_clock_hour_hand_pivot_y" android:layerType="hardware" />
+        </com.sonymobile.keyguard.plugin.themeableanalogclock.ClockHand>
+        <com.sonymobile.keyguard.plugin.themeableanalogclock.ClockHand android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" sonymobile:handType="seconds">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/somc_themeable_analog_clock_second_hand" android:contentDescription="@string/somc_keyguard_themeable_analog_clock_name" android:transformPivotX="@dimen/somc_themeable_analog_clock_second_hand_pivot_x" android:transformPivotY="@dimen/somc_themeable_analog_clock_second_hand_pivot_y" android:layerType="hardware" />
+        </com.sonymobile.keyguard.plugin.themeableanalogclock.ClockHand>
+    </com.sonymobile.keyguard.plugin.themeableanalogclock.ThemeableAnalogClock>
+</com.sonymobile.keyguard.plugin.analogclock.AnalogClockContainer>

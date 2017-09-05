@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">%d ekrane te Pamja e përgjithshme</item>
+        <item quantity="one">1 ekran te Pamja e përgjithshme</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">Kodi PIN i kartës SIM i pasaktë. Keni %d përpjekje të mbetura para se të duhet të futni kodin tuaj PUK (kodi i shkyçjes së PIN-it) ose kontaktoni me ofruesin e shërbimit për të shkyçur pajisjen tuaj.</item>
+        <item quantity="one">Kodi PIN i kartës SIM i pasaktë. Keni %d përpjekje të mbetur para se të duhet të futni kodin tuaj PUK (kodi i shkyçjes së PIN-it) ose kontaktoni me ofruesin e shërbimit për të shkyçur pajisjen tuaj.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Kodi PUK i kartës SIM i pasaktë. Keni %d përpjekje të mbetura para se karta SIM të bëhet përgjithmonë e papërdorshme.</item>
+        <item quantity="one">Kodi PUK i kartës SIM i pasaktë. Keni %d përpjekje të mbetur para se karta SIM të bëhet përgjithmonë e papërdorshme.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">Pajisja nuk është kyçur për %d orë. Konfirmoni modelin.</item>
+        <item quantity="one">Pajisja nuk është kyçur për %d orë. Konfirmoni modelin.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">Pajisja nuk është shkyçur për %d orë. Konfirmoni kodin PIN.</item>
+        <item quantity="one">Pajisja nuk është shkyçur për %d orë. Konfirmoni kodin PIN.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">Pajisja nuk është shkyçur për %d orë. Konfirmoni fjalëkalimin.</item>
+        <item quantity="one">Pajisja nuk është shkyçur për %d orë. Konfirmoni fjalëkalimin.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">Futni kodin PIN të kartës SIM. Keni %d përpjekje të mbetura.</item>
+        <item quantity="one">"Futni kodin PIN të kartës SIM, keni %d përpjekje të mbetur përpara se t'ju duhet të kontaktoni me bartësin për të shkyçur pajisjen."</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">Karta SIM është çaktivizuar tani. Futni kodin PUK për të vazhduar. Keni %d përpjekje të mbetura para se karta SIM të bëhet përfundimisht e papërdorshme. Kontaktoni me bartësin për hollësitë.</item>
+        <item quantity="one">Karta SIM është çaktivizuar tani. Futni kodin PUK për të vazhduar. Keni %d përpjekje të mbetur para se karta SIM të bëhet përfundimisht e papërdorshme. Kontaktoni me bartësin për hollësitë.</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_puk_enter_puk_hint_last_attempt_failed">
+        <item quantity="other">Na vjen keq, por futja juaj nuk përputhet me kodin PUK. Rifutni kodin PUK 8-shifror. Keni edhe %d shanse të tjera.</item>
+        <item quantity="one">Na vjen keq, por futja juaj nuk përputhet me kodin PUK. Rifutni kodin PUK 8-shifror. Keni edhe%d shans tjetër.</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_sim_pin_instructions_last_attempt_failed">
+        <item quantity="other">Na vjen keq, por futja juaj nuk përputhet me kodin PIN të kartës SIM. Rifutni kodin PIN me 4-8 shifra. Keni edhe %d shanse të tjera.</item>
+        <item quantity="one">Na vjen keq, por futja juaj nuk përputhet me kodin PIN të kartës SIM. Rifutni kodin PIN me 4-8 shifra. Keni edhe %d shans tjetër.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_disabled_wifi_failure">WLAN കണക്ഷൻ പരാജയം</string>
+    <string name="status_bar_settings_wifi_button">വൈഫൈ</string>
+    <string name="accessibility_data_connection_wifi">വൈഫൈ</string>
+    <string name="accessibility_quick_settings_wifi_changed_off">വൈഫൈ ഓഫാക്കി.</string>
+    <string name="accessibility_quick_settings_wifi_changed_on">വൈഫൈ ഓണാക്കി.</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">വൈഫൈ കണക്‌റ്റുചെയ്‌തു</string>
+    <string name="quick_settings_wifi_label">വൈഫൈ</string>
+    <string name="quick_settings_wifi_off_label">വൈഫൈ ഓഫുചെയ്യുക</string>
+    <string name="quick_settings_wifi_detail_empty_text">വൈഫൈ നെറ്റ്‌വർക്കുകളൊന്നും ലഭ്യമല്ല</string>
+    <string name="accessibility_quick_settings_detail">ദ്രുത ക്രമീകരണം, %s.</string>
+</resources>

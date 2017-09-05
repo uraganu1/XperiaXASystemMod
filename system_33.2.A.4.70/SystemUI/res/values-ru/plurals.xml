@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">Недавних приложений: %d</item>
+        <item quantity="one">Недавних приложений: 1</item>
+        <item quantity="few">Показано %d экрана</item>
+        <item quantity="many">Показано %d экранов</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">Неверный PIN-код SIM-карты. Осталось попыток: %d. Затем, чтобы разблокировать устройство, вам придется ввести PUK-код (PIN-код разблокировки) или обратиться к поставщику услуг.</item>
+        <item quantity="one">Неверный PIN-код SIM-карты. Осталась %d попытка. Затем, чтобы разблокировать устройство, вам придется ввести PUK-код (PIN-код разблокировки) или обратиться к поставщику услуг.</item>
+        <item quantity="few">Неверный PIN-код. Осталось %d попытки. После этого SIM-карта будет заблокирована и вам придется обратиться к оператору связи.</item>
+        <item quantity="many">Неверный PIN-код. Осталось %d попыток. После этого SIM-карта будет заблокирована и вам придется обратиться к оператору связи.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Неверный PUK-код SIM-карты. Осталось попыток: %d. Затем SIM-карта будет заблокирована навсегда.</item>
+        <item quantity="one">Неверный PUK-код SIM-карты. Осталась %d попытка. Затем SIM-карта будет заблокирована навсегда.</item>
+        <item quantity="few">Неверный PUK-код. Осталось %d попытки. После этого SIM-карта будет заблокирована навсегда.</item>
+        <item quantity="many">Неверный PUK-код. Осталось %d попыток. После этого SIM-карта будет заблокирована навсегда.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">Устройство не разблокировали %d ч. Введите графический ключ ещё раз.</item>
+        <item quantity="one">Устройство не разблокировали %d час. Введите графический ключ ещё раз.</item>
+        <item quantity="few">Устройство не разблокировали %d часа. Введите графический ключ ещё раз.</item>
+        <item quantity="many">Устройство не разблокировали %d часов. Введите графический ключ ещё раз.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">Устройство не разблокировали %d ч. Введите PIN-код ещё раз.</item>
+        <item quantity="one">Устройство не разблокировали %d час. Введите PIN-код ещё раз.</item>
+        <item quantity="few">Устройство не разблокировали %d часа. Введите PIN-код ещё раз.</item>
+        <item quantity="many">Устройство не разблокировали %d часов. Введите PIN-код ещё раз.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">Устройство не разблокировали %d ч. Введите пароль ещё раз.</item>
+        <item quantity="one">Устройство не разблокировали %d час. Введите пароль ещё раз.</item>
+        <item quantity="few">Устройство не разблокировали %d часа. Введите пароль ещё раз.</item>
+        <item quantity="many">Устройство не разблокировали %d часов. Введите пароль ещё раз.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">Введите PIN-код для SIM-карты, число оставшихся попыток: %d.</item>
+        <item quantity="one">Введите PIN-код для SIM-карты, число оставшихся попыток: %d. После этого для разблокировки устройства вы должны будете обратиться к своему оператору.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">SIM-карта отключена. Для продолжения введите PUK-код. Число оставшихся попыток: %d. После этого SIM-карта будет окончательно заблокирована. За дополнительной информацией обратитесь к оператору.</item>
+        <item quantity="one">SIM-карта отключена. Для продолжения введите PUK-код. Число оставшихся попыток: %d. После этого SIM-карта будет окончательно заблокирована. За дополнительной информацией обратитесь к оператору.</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_puk_enter_puk_hint_last_attempt_failed">
+        <item quantity="other">Введен неверный PUK-код. Введите повторно PUK-код длиной 8 цифр. Осталось попыток: %d.</item>
+        <item quantity="one">Введен неверный PUK-код. Введите повторно PUK-код длиной 8 цифр. Осталась %d попытка.</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_sim_pin_instructions_last_attempt_failed">
+        <item quantity="other">Введен неверный PIN-код SIM-карты. Введите повторно PIN-код длиной от 4 до 8 цифр. Осталось попыток: %d.</item>
+        <item quantity="one">Введен неверный PIN-код SIM-карты. Введите повторно PIN-код длиной от 4 до 8 цифр. Осталась %d попытка.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_disabled_wifi_failure">WLAN-ühenduse viga</string>
+    <string name="connected_via_wfa">Ühendatud WLAN-abi kaudu</string>
+    <string name="status_bar_settings_wifi_button">WLAN</string>
+    <string name="accessibility_data_connection_wifi">WLAN</string>
+    <string name="accessibility_quick_settings_wifi_changed_off">WLAN on välja lülitatud.</string>
+    <string name="accessibility_quick_settings_wifi_changed_on">WLAN on sisse lülitatud.</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">WLAN on ühendatud</string>
+    <string name="quick_settings_wifi_label">WLAN</string>
+    <string name="quick_settings_wifi_off_label">WLAN-ühendus on väljas</string>
+    <string name="quick_settings_wifi_detail_empty_text">WLAN-võrke pole saadaval</string>
+    <string name="accessibility_quick_settings_detail">Kiirseaded, %s.</string>
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">‏%d من الشاشات في العرض العام</item>
+        <item quantity="zero">‏ لا توجد أية شاشات (%d) في النظرة العامة</item>
+        <item quantity="one">شاشة واحدة في العرض العام</item>
+        <item quantity="two">‏شاشتان (%d) في النظرة العامة</item>
+        <item quantity="few">‏%d شاشات في النظرة العامة</item>
+        <item quantity="many">‏%d شاشة في النظرة العامة</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">‏رمز رقم التعريف الشخصي لبطاقة SIM غير صحيح، يتبقى لديك %d من المحاولات قبل أن يستلزم الأمر منك إدخال رمز PUK الخاص بك (رمز إلغاء قفل رقم التعريف الشخصي) أو الاتصال بموفر الخدمة لإلغاء قفل الجهاز.</item>
+        <item quantity="zero">‏رمز رقم التعريف الشخصي لبطاقة SIM غير صحيح، ولم تتبق لديك أية محاولات (%d).</item>
+        <item quantity="one">‏رمز رقم التعريف الشخصي لبطاقة SIM غير صحيح، ويتبقى لديك %d من المحاولات قبل أن يستلزم الأمر منك إدخال رمز PUK الخاص بك (رمز إلغاء قفل رقم التعريف الشخصي) أو الاتصال بموفر الخدمة لإلغاء قفل الجهاز.</item>
+        <item quantity="two">‏رمز رقم التعريف الشخصي لبطاقة SIM غير صحيح، ويتبقى لديك محاولتان (%d).</item>
+        <item quantity="few">‏رمز رقم التعريف الشخصي لبطاقة SIM غير صحيح، ويتبقى لديك %d محاولات.</item>
+        <item quantity="many">‏رمز رقم التعريف الشخصي لبطاقة SIM غير صحيح، ويتبقى لديك %d محاولة.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">‏رمز PUK لبطاقة SIM غير صالح، ويتبقى لديك %d من المحاولات، تصبح بعدها بطاقة SIM غير صالحة للاستخدام بشكل دائم.</item>
+        <item quantity="zero">‏رمز PUK لشريحة SIM غير صحيح، ولم تتبق لديك أية محاولات (%d) تصبح بعدها شريحة SIM غير صالحة للاستخدام بشكل دائم.</item>
+        <item quantity="one">‏رمز PUK لبطاقة SIM غير صالح، ويتبقى لديك %d من المحاولات، تصبح بعدها بطاقة SIM غير صالحة للاستخدام بشكل دائم.</item>
+        <item quantity="two">‏رمز PUK لشريحة SIM غير صحيح، ويتبقى لديك محاولتان (%d) تصبح بعدها شريحة SIM غير صالحة للاستخدام بشكل دائم.</item>
+        <item quantity="few">‏رمز PUK لشريحة SIM غير صحيح، ويتبقى لديك %d محاولات تصبح بعدها شريحة SIM غير صالحة للاستخدام بشكل دائم.</item>
+        <item quantity="many">‏رمز PUK لشريحة SIM غير صحيح، ويتبقى لديك %d محاولة تصبح بعدها شريحة SIM غير صالحة للاستخدام بشكل دائم.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">لم يتم إلغاء قفل الجهاز لمدة %d ساعات. الرجاء تأكيد النقش.</item>
+        <item quantity="zero">لم يتم إلغاء تأمين الجهاز لمدة %d من الساعات. تأكيد النقش.</item>
+        <item quantity="one">لم يتم إلغاء قفل الجهاز لمدة %d ساعة. الرجاء تأكيد النقش.</item>
+        <item quantity="two">لم يتم إلغاء تأمين الجهاز لمدة ساعتين (%d). تأكيد النقش.</item>
+        <item quantity="few">لم يتم إلغاء تأمين الجهاز لمدة %d ساعات. تأكيد النقش.</item>
+        <item quantity="many">لم يتم إلغاء تأمين الجهاز لمدة %d ساعة. تأكيد النقش.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">لم يتم إلغاء قفل الجهاز لمدة %d ساعات. الرجاء تأكيد رقم التعريف الشخصي (PIN).</item>
+        <item quantity="zero">لم يتم إلغاء تأمين الجهاز لمدة %d من الساعات. تأكيد رقم التعريف الشخصي.</item>
+        <item quantity="one">لم يتم إلغاء قفل الجهاز لمدة %d ساعة. الرجاء تأكيد رقم التعريف الشخصي (PIN).</item>
+        <item quantity="two">لم يتم إلغاء تأمين الجهاز لمدة ساعتين (%d). تأكيد رقم التعريف الشخصي.</item>
+        <item quantity="few">لم يتم إلغاء تأمين الجهاز لمدة %d ساعات. تأكيد رقم التعريف الشخصي.</item>
+        <item quantity="many">لم يتم إلغاء تأمين الجهاز لمدة %d ساعة. تأكيد رقم التعريف الشخصي.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">لم يتم إلغاء قفل الجهاز لمدة %d ساعات. الرجاء تأكيد كلمة المرور.</item>
+        <item quantity="zero">لم يتم إلغاء تأمين الجهاز لمدة %d من الساعات. تأكيد كلمة المرور.</item>
+        <item quantity="one">لم يتم إلغاء قفل الجهاز لمدة %d ساعة. الرجاء تأكيد كلمة المرور.</item>
+        <item quantity="two">لم يتم إلغاء تأمين الجهاز لمدة ساعتين (%d). تأكيد كلمة المرور.</item>
+        <item quantity="few">لم يتم إلغاء تأمين الجهاز لمدة %d ساعات. تأكيد كلمة المرور.</item>
+        <item quantity="many">لم يتم إلغاء تأمين الجهاز لمدة %d ساعة. تأكيد كلمة المرور.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">أدخل رمزPIN لبطاقة SIM، لديك %d محاولات متبقية.</item>
+        <item quantity="one">أدخل رمز PIN لبطاقة SIM، لديك %d محاولة متبقية قبل أن يتوجب عليك الاتصال بمشغل الخدمة لإلغاء قفل جهازك.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">بطاقة SIM معطلة الآن. أدخل رمز PUK للمتابعة. لديك %d محاولات متبقية قبل أن تصبح بطاقة SIM غير قابلة للاستخدام بشكل نهائي. اتصل بموفر الخدمة للاطلاع على التفاصيل.</item>
+        <item quantity="one">بطاقة SIM معطلة الآن. أدخل رمز PUK للمتابعة. لديك %d محاولة متبقية قبل أن تصبح بطاقة SIM غير قابلة للاستخدام بشكل نهائي. اتصل بموفر الخدمة للاطلاع على التفاصيل.</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_puk_enter_puk_hint_last_attempt_failed">
+        <item quantity="other">عذرًا، لا يتطابق الإدخال مع رمز PUK. يرجى إعادة إدخال رمز PUK مكون من 8 أرقام. لديك %d فرص أخرى.</item>
+        <item quantity="one">عذرًا، لا يتطابق الإدخال مع رمز PUK. يرجى إعادة إدخال رمز PUK مكون من 8 أرقام. لديك %d فرصة أخرى.</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_sim_pin_instructions_last_attempt_failed">
+        <item quantity="other">عذرًا، لا يتطابق الإدخال مع رقم PIN لـ SIM. يرجى إعادة إدخال PIN مكون من 4 إلى 8 أرقام. لديك %d فرص أخرى.</item>
+        <item quantity="one">عذرًا، لا يتطابق الإدخال مع رقم PIN لـ SIM. يرجى إعادة إدخال PIN مكون من 4-8 أرقام. لديك %d فرصة أخرى.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_fail_to_scan">Челтәрләр эзләп булмады</string>
+    <string name="wifi_security_none">Юк</string>
+    <string name="wifi_remembered">Сакланган</string>
+    <string name="wifi_disabled_generic">Сүндерелгән</string>
+    <string name="wifi_disabled_network_failure">IP конфигурациясе хатасы</string>
+    <string name="wifi_disabled_wifi_failure">WiFi челтәренә тоташу хатасы</string>
+    <string name="wifi_disabled_password_failure">Чынлык тикшерү хатасы</string>
+    <string name="wifi_not_in_range">Тота торган урында түгел</string>
+    <string name="wifi_no_internet">Интернетка керү мөмкинлеге табылмады, автомат рәвештә яңадан тоташып булмый.</string>
+    <string name="saved_network">%1$s саклады</string>
+    <string name="connected_via_wfa">Wi‑Fi ярдәмчесе аша тоташкан</string>
+    <string name="connected_via_passpoint">%1$s аша тоташкан</string>
+    <string name="available_via_passpoint">%1$s аша тоташу мөмкин</string>
+    <string name="wifi_connected_no_internet">Тоташкан, Интернет юк</string>
+    <string name="bluetooth_disconnected">Тоташу өзелгән</string>
+    <string name="bluetooth_disconnecting">Тоташуны өзү…</string>
+    <string name="bluetooth_connecting">Тоташу…</string>
+    <string name="bluetooth_connected">Тоташкан</string>
+    <string name="bluetooth_pairing">Парлау…</string>
+    <string name="bluetooth_connected_no_headset">Тоташкан (телефон юк)</string>
+    <string name="bluetooth_connected_no_a2dp">Тоташкан (медиа юк)</string>
+    <string name="bluetooth_connected_no_map">Тоташкан (хәбәрләргә кереп булмый)</string>
+    <string name="bluetooth_connected_no_headset_no_a2dp">Тоташкан (телефон яки медиа юк)</string>
+    <string name="bluetooth_profile_a2dp">Медиа аудиосы</string>
+    <string name="bluetooth_profile_headset">Шалтырату аудиосы</string>
+    <string name="bluetooth_profile_opp">Файл тапшыру</string>
+    <string name="bluetooth_profile_hid">Кертү җайланмасы</string>
+    <string name="bluetooth_profile_pan">Интернетка керү мөмкинлеге</string>
+    <string name="bluetooth_profile_pbap">Контакт уртаклашу</string>
+    <string name="bluetooth_profile_pbap_summary">Контакт уртаклашу өчен куллану</string>
+    <string name="bluetooth_profile_pan_nap">Интернет тоташуын уртаклашу</string>
+    <string name="bluetooth_profile_map">Хәбәрләргә керү мөмкинлеге</string>
+    <string name="bluetooth_profile_sap">SIM-картага керү мөмкинлеге</string>
+    <string name="bluetooth_a2dp_profile_summary_connected">Медиа аудиосына тоташкан</string>
+    <string name="bluetooth_headset_profile_summary_connected">Телефон аудиосына тоташкан</string>
+    <string name="bluetooth_opp_profile_summary_connected">Файл тапшыру серверына тоташкан</string>
+    <string name="bluetooth_map_profile_summary_connected">Картага тоташкан</string>
+    <string name="bluetooth_sap_profile_summary_connected">SAP кушымтасына тоташкан</string>
+    <string name="bluetooth_opp_profile_summary_not_connected">Файл тапшыру серверына тоташмаган</string>
+    <string name="bluetooth_hid_profile_summary_connected">Кертү җайланмасына тоташмаган</string>
+    <string name="bluetooth_pan_user_profile_summary_connected">Интернетка керү мөмкинлеге өчен җайланмага тоташкан</string>
+    <string name="bluetooth_pan_nap_profile_summary_connected">Локаль Интернет тоташуын җайланма белән уртаклашу</string>
+    <string name="bluetooth_pan_profile_summary_use_for">Интернетка керү мөмкинлеге өчен куллану</string>
+    <string name="bluetooth_map_profile_summary_use_for">Карта өчен куллану</string>
+    <string name="bluetooth_sap_profile_summary_use_for">SIM-картага керү өчен куллану</string>
+    <string name="bluetooth_a2dp_profile_summary_use_for">Медиа аудиосы өчен куллану</string>
+    <string name="bluetooth_headset_profile_summary_use_for">Телефон аудиосы өчен куллану</string>
+    <string name="bluetooth_opp_profile_summary_use_for">Файл тапшыру өчен куллану</string>
+    <string name="bluetooth_hid_profile_summary_use_for">Кертү өчен куллану</string>
+    <string name="bluetooth_pairing_accept">Парлау</string>
+    <string name="bluetooth_pairing_accept_all_caps">ПАРЛАУ</string>
+    <string name="bluetooth_pairing_decline">Баш тарту</string>
+    <string name="bluetooth_pairing_will_share_phonebook">Тоташкан вакытта парлау контактларыгызга һәм шалтырату журналына керү мөмкинлеге бирә.</string>
+    <string name="bluetooth_pairing_error_message">%1$s белән парлап булмады.</string>
+    <string name="bluetooth_pairing_pin_error_message">PIN-код яки үтү коды ялгыш булганга %1$s белән парлап булмады.</string>
+    <string name="bluetooth_pairing_device_down_error_message">%1$s белән элемтәгә кереп булмады.</string>
+    <string name="bluetooth_pairing_rejected_error_message">%1$s парлауны кире какты.</string>
+    <string name="accessibility_wifi_off">Wifi сүндерелгән.</string>
+    <string name="accessibility_no_wifi">Wifi тоташуы өзелгән.</string>
+    <string name="accessibility_wifi_one_bar">Wifi антеннасында бер сызык.</string>
+    <string name="accessibility_wifi_two_bars">Wifi антеннасында ике сызык.</string>
+    <string name="accessibility_wifi_three_bars">Wifi антеннасында өч сызык.</string>
+    <string name="accessibility_wifi_signal_full">Wifi сигналы тулы.</string>
+    <string name="somc_wifi_password_failure">Чынлык тикшерү хатасы. Яңадан кабатлау өчен кагылыгыз.</string>
+    <string name="wifi_auto_connect_off">Автомат рәвештә тоташу сүндерелгән, автомат рәвештә яңадан тоташмаячак.</string>
+    <string name="somc_qs_close">Ябарга</string>
+    <string name="somc_qs_hint">Тиз көйләүләрне үзгәртү өчен тамгага тиеп торыгыз</string>
+    <string name="somc_qs_title">Эшлекле тиз көйләүләр</string>
+    <string name="somc_qs_max_exceeds">Максималь тиз көйләүләр саны сайланды</string>
+    <string name="quick_settings_autosync_label">Авто синх. мәгълүматы</string>
+    <string name="quick_settings_data_traffic_label">Мобиль мәгълүмат</string>
+    <string name="quick_settings_screen_mirroring_label">Экранны көзгеләү</string>
+    <string name="quick_settings_throw_label">Throw</string>
+    <string name="quick_settings_roaming_label">Мәгълүмат роумингы</string>
+    <string name="quick_settings_wifi_scanning_label">Wi-Fi: Эзләү</string>
+    <string name="quick_settings_wifi_connecting_label">Wi-Fi: Тоташу</string>
+    <string name="status_bar_autosync_dialog_enable_title">Авто-синх. сүнд.?</string>
+    <string name="status_bar_autosync_dialog_enable_warning">"Үзегезнең хисап язмагызга челтәрдә ясаган бөтен үзгәрешләр дә автомат рәвештә телефоныгызга күчерәләчәк.
+
+Кайбер хисап язмалары сез телефонга ясаган бөтен үзгәрешләрне дә автомат рәвештә челтәргә күчереп алырга мөмкин. Сезнең Google™ хисап язмасы да шулай эшли.
+
+Һәрбер хисап язмасында нинди мәгълүмат төрен синхронлаштырырга икәнен сайлау өчен, Параметрлар > Хисап язмалары һәм синхронлашт. менюсына күчегез."</string>
+    <string name="status_bar_autosync_dialog_extended_enable_warning">"Үзегезнең хисап язмагызга челтәрдә ясаган бөтен үзгәрешләр дә автомат рәвештә җайланмагызга күчерәләчәк.
+
+Кайбер хисап язмалары сез җайланмага ясаган бөтен үзгәрешләрне дә автомат рәвештә челтәргә күчереп алырга мөмкин.
+
+Һәрбер хисап язмасында нинди мәгълүмат төрен синхронлаштырырга икәнен сайлау өчен, Параметрлар > Хисап язмалары һәм синхронлашт. менюсына күчегез.
+
+Җайланмагызны яңартканда мәгълүмат тапшыру хакы алынырга мөмкин. Чикләнмәгән мәгълүмат планы кулланырга киңәш ителә."</string>
+    <string name="status_bar_autosync_dialog_disable_title">Авто-синх сүнд.?</string>
+    <string name="status_bar_autosync_dialog_disable_warning">Авто-синх. сүндерү моб. мәг. hәм батарея куллану кечерәйте, ләкин хәр х. язм. кул белән синхр-га кирәк.</string>
+    <string name="toast_message_not_allow_turn_on_hotspot">Wi-Fi hotspot самолет режимында мөмкин түгел</string>
+    <string name="accessibility_desc_edit_quick_settings">Тиз көйләүләрне төзәтү</string>
+    <string name="quick_settings_edit_button">ҮЗГЕРТҮ</string>
+    <string name="quick_settings_show_guide">Тиз көйләүләрне шулай ук экранның өске өлешеннән үзәгенә таба шудырып та ача аласыз</string>
+    <string name="somc_keyguard_unlock_guide">Бикне ачтыру өчен сулга яки өскә таба шудыр.</string>
+    <string name="battery_stamina_mode_notification_title">Батарея - %d%% яки азрак</string>
+    <string name="battery_stamina_mode_notification_upper_desc">Батарея күпмегә җитәчәген карарга каг.</string>
+    <string name="battery_stamina_mode_notification_lower_desc">АВТ. РӘВЕШТӘ STAMINA КАБЫЗУ</string>
+    <string name="battery_stamina_mode_quick_settings_auto_title">Автомат рәвештә STAMINA эшләтү</string>
+    <string name="app_label">Системаның кулланучы интерфейсы</string>
+    <string name="status_bar_clear_all_button">Бетерү</string>
+    <string name="status_bar_recent_remove_item_title">Исемлектән бетерү</string>
+    <string name="status_bar_recent_inspect_item_title">Кушымта мәгълүматы</string>
+    <string name="status_bar_no_recent_apps">Соңгы кушымталар юк</string>
+    <string name="status_bar_accessibility_dismiss_recents">Соңгы кушымталардан баш тарту</string>
+    <string name="status_bar_no_notifications_title">Искәрмәләр юк</string>
+    <string name="status_bar_ongoing_events_title">Гамәлдә башкарылган</string>
+    <string name="status_bar_latest_events_title">Искәрмәләр</string>
+    <string name="battery_low_title">Батареясы түбән</string>
+    <string name="battery_low_percent_format">%s яки азрак калган</string>
+    <string name="battery_low_percent_format_saver_started">%s тан азрак калган. Энергия экономияләү кушылган.</string>
+    <string name="invalid_charger">"USB кргычы туры килми.
+Тәэмин ителгән коргычны гына кулланыгыз."</string>
+    <string name="invalid_charger_title">USB кргычы туры килми.</string>
+    <string name="invalid_charger_text">Комплекттагы кору җайл. гына кулл.</string>
+    <string name="battery_low_why">Параметрлар</string>
+    <string name="battery_saver_confirmation_title">Батарея саклагычын кабызыргамы?</string>
+    <string name="battery_saver_confirmation_ok">Кабызу</string>
+    <string name="battery_saver_start_action">Батарея саклагычын кабызу</string>
+    <string name="status_bar_settings_settings_button">Параметрлар</string>
+    <string name="status_bar_settings_wifi_button">Wi-Fi</string>
+    <string name="status_bar_settings_auto_rotation">Авто-әйләндерелүчән экран</string>
+    <string name="status_bar_settings_mute_label">Тавышын өзеп тору</string>
+    <string name="status_bar_settings_auto_brightness_label">АВТО</string>
+    <string name="status_bar_settings_notifications">Искәрмәләр</string>
+    <string name="bluetooth_tethered">Bluetooth белән бәйләнешкә керде</string>
+    <string name="status_bar_input_method_settings_configure_input_methods">Кертү ысулын урнаштыру</string>
+    <string name="status_bar_use_physical_keyboard">Физик төймәсар</string>
+    <string name="usb_device_permission_prompt">%1$s кушымтага USB җайланмасына керергә рөхсәт итәсезме?</string>
+    <string name="usb_accessory_permission_prompt">%1$s кушымтага USB аксессуарына керергә рөхсәт итәсезме?</string>
+    <string name="usb_device_confirm_prompt">"USB җайланма тотышылганда %1$s 'ны ачыргамы?"</string>
+    <string name="usb_accessory_confirm_prompt">"USB аксессуары тотышылганда %1$s 'ны ачыргамы?"</string>
+    <string name="usb_accessory_uri_prompt">Урнаштырылган кушымталарның берсе дә USB аксессуары белән эшләми. Бу аксессуар турында монда белем алыгыз: %1$s</string>
+    <string name="title_usb_accessory">USB аксессуары</string>
+    <string name="label_view">Күренеш</string>
+    <string name="always_use_device">Килешенгәнчә бу USB җайланмасы өчен куллану</string>
+    <string name="always_use_accessory">Килешенгәнчә бу USB аксессуары өчен куллану</string>
+    <string name="usb_debugging_title">USB хата түзәтүен рөхсәт итәргәме?</string>
+    <string name="usb_debugging_message">"Санакның RSA ачкычының бармак эзләре:
+%1$s"</string>
+    <string name="usb_debugging_always">Бу санактан һәр вакыт рөхсәт итү</string>
+    <string name="usb_debugging_secondary_user_title">USB аша төзәтү рөхсәт ителмәгән</string>
+    <string name="usb_debugging_secondary_user_message">Бу җайланмага хәзерге вакытта кергән кулланучы USB аша төзәтүне кабыза алмый. Бу үзлекне куллану өчен “%s” исемле төп кулланучыга күчегез.</string>
+    <string name="compat_mode_on">Экранны тутырганчы зурайту</string>
+    <string name="compat_mode_off">Экранны тутырганчы тарттырып сузу</string>
+    <string name="screenshot_saving_ticker">Скриншот саклана…</string>
+    <string name="screenshot_saving_title">Скриншот саклана…</string>
+    <string name="screenshot_saving_text">Скриншот сакланды.</string>
+    <string name="screenshot_saved_title">Скриншот төшерелде.</string>
+    <string name="screenshot_saved_text">Скриншотларны карау өчен тиегез.</string>
+    <string name="screenshot_failed_title">Скринш.төшереп булм.</string>
+    <string name="screenshot_failed_text">Эчтәлек сакланган булырга мөмкин яки хәтере тулы.</string>
+    <string name="usb_preference_title">USB файлны күчереп җибәрү параметрлары</string>
+    <string name="use_mtp_button_title">Медиа уйнаткычы итеп өлгертү (MTP)</string>
+    <string name="use_ptp_button_title">Камера итеп өлгертү (PTP)</string>
+    <string name="installer_cd_button_title">Mac өчен Android File Transfer кушымтасын урнаштыру</string>
+    <string name="accessibility_back">Артка</string>
+    <string name="accessibility_home">Алгы бит</string>
+    <string name="accessibility_menu">Сайлак</string>
+    <string name="accessibility_recent">Соңгы кушымталар төймәсе</string>
+    <string name="accessibility_search_light">Эзләү</string>
+    <string name="accessibility_camera_button">Камера</string>
+    <string name="accessibility_phone_button">Телефон</string>
+    <string name="accessibility_voice_assist_button">Тавыш ярдәме</string>
+    <string name="accessibility_unlock_button">Ачу</string>
+    <string name="accessibility_unlock_button_fingerprint">Бик ачтыру төймәсе, бармак эзе кертүне көтә</string>
+    <string name="accessibility_unlock_without_fingerprint">Бармак эзен кулланмыйча бик ачтыру</string>
+    <string name="unlock_label">ачу</string>
+    <string name="phone_label">телефонны ачу</string>
+    <string name="voice_assist_label">тавыш ярдәмен ачу</string>
+    <string name="camera_label">камера ачу</string>
+    <string name="recents_caption_resize">Яңа мәсьәлә макетын сайлау</string>
+    <string name="cancel">Баш тарту</string>
+    <string name="accessibility_compatibility_zoom_button">Кулайлы зурайту/кечерәйтү төймәсе.</string>
+    <string name="accessibility_compatibility_zoom_example">Экранны кечедән зурга үзгәртү.</string>
+    <string name="accessibility_bluetooth_connected">Bluetooth тоташылган.</string>
+    <string name="accessibility_bluetooth_disconnected">Bluetooth өзелгән.</string>
+    <string name="accessibility_no_battery">Батарейкасы юк.</string>
+    <string name="accessibility_battery_one_bar">Аккумуляторда бер генә өлеш.</string>
+    <string name="accessibility_battery_two_bars">Аккумуляторда ике өлеш.</string>
+    <string name="accessibility_battery_three_bars">Аккумуляторда өч өлеш.</string>
+    <string name="accessibility_battery_full">Аккумулятор тулы.</string>
+    <string name="accessibility_no_phone">Телефон сигналы юк.</string>
+    <string name="accessibility_phone_one_bar">Телефон сигналы бер өлештән тора.</string>
+    <string name="accessibility_phone_two_bars">Телефон сигналы ике өлештән тора.</string>
+    <string name="accessibility_phone_three_bars">Телефон сигналы өч өлештән тора.</string>
+    <string name="accessibility_phone_signal_full">Телефон сигналы тулы.</string>
+    <string name="accessibility_no_data">Мәгълүмат юк.</string>
+    <string name="accessibility_data_one_bar">Мәгълүмат сигналы бер өлештән тора.</string>
+    <string name="accessibility_data_two_bars">Мәгълүмат сигналы ике өлештән тора.</string>
+    <string name="accessibility_data_three_bars">Мәгълүмат сигналы өч өлештән тора.</string>
+    <string name="accessibility_data_signal_full">Мәгълүмат сигналы тулы.</string>
+    <string name="accessibility_wifi_name">%s тоташты</string>
+    <string name="accessibility_bluetooth_name">%s тоташты</string>
+    <string name="accessibility_no_wimax">WiMAX юк.</string>
+    <string name="accessibility_wimax_one_bar">WiMAX сигналы бер өлештән тора.</string>
+    <string name="accessibility_wimax_two_bars">WiMAX сигналы ике өлештән тора.</string>
+    <string name="accessibility_wimax_three_bars">WiMAX сигналы өч өлештән тора.</string>
+    <string name="accessibility_wimax_signal_full">WiMAX сигналы тулы.</string>
+    <string name="accessibility_ethernet_disconnected">"Ethernet'ка тоташу өзелгән."</string>
+    <string name="accessibility_ethernet_connected">Ethernet тоташтырылган.</string>
+    <string name="accessibility_no_signal">Сигнал юк.</string>
+    <string name="accessibility_not_connected">Тоташылмаган.</string>
+    <string name="accessibility_zero_bars">Сигнал өлешләре юк.</string>
+    <string name="accessibility_one_bar">Сигнал бер өлештән тора.</string>
+    <string name="accessibility_two_bars">Сигнал ике өлештән тора.</string>
+    <string name="accessibility_three_bars">Сигнал өч өлештән тора.</string>
+    <string name="accessibility_signal_full">Сигнал тулы.</string>
+    <string name="accessibility_desc_on">Кабызылган.</string>
+    <string name="accessibility_desc_off">Сүндерелгән.</string>
+    <string name="accessibility_desc_connected">Тоташылган.</string>
+    <string name="accessibility_desc_connecting">Тоташу.</string>
+    <string name="accessibility_data_connection_gprs">GPRS</string>
+    <string name="accessibility_data_connection_1x">1 X</string>
+    <string name="accessibility_data_connection_hspa">HSPA</string>
+    <string name="accessibility_data_connection_3g">3G</string>
+    <string name="accessibility_data_connection_3.5g">3.5G</string>
+    <string name="accessibility_data_connection_h_plus">HSPAP</string>
+    <string name="accessibility_data_connection_4g">4G</string>
+    <string name="accessibility_data_connection_4g_plus">4G+</string>
+    <string name="accessibility_data_connection_lte">LTE</string>
+    <string name="accessibility_data_connection_cdma">CDMA</string>
+    <string name="accessibility_data_connection_roaming">Роуминг</string>
+    <string name="accessibility_data_connection_edge">Edge</string>
+    <string name="accessibility_data_connection_wifi">Wi-Fi</string>
+    <string name="accessibility_no_sim">SIM юк.</string>
+    <string name="accessibility_bluetooth_tether">Bluetooth бәйләнешкә керә.</string>
+    <string name="accessibility_airplane_mode">Самолет режимы</string>
+    <string name="accessibility_no_sims">SIM карта юк.</string>
+    <string name="accessibility_carrier_network_change_mode">Оператор челтәрен үзгәртү.</string>
+    <string name="accessibility_battery_level">Аккумулятор корылышы %d процент.</string>
+    <string name="accessibility_settings_button">Система параметрлары.</string>
+    <string name="accessibility_notifications_button">Искәрмәләр.</string>
+    <string name="accessibility_remove_notification">Искәрмәләрне бетерү.</string>
+    <string name="accessibility_gps_enabled">GPS кабызылган.</string>
+    <string name="accessibility_gps_acquiring">GPS туплана.</string>
+    <string name="accessibility_tty_enabled">TeleTypewriter кабызылган.</string>
+    <string name="accessibility_ringer_vibrate">Яңгыравыкны тибрәлдерү.</string>
+    <string name="accessibility_ringer_silent">Яңгыравык тавышсыз.</string>
+    <string name="accessibility_recents_item_will_be_dismissed">%s кире кагу</string>
+    <string name="accessibility_recents_item_dismissed">"%s'дан баш тартылды."</string>
+    <string name="accessibility_recents_all_items_dismissed">Барлык соңгы кушымталар бетерелгән.</string>
+    <string name="accessibility_recents_item_launched">%s башлау</string>
+    <string name="accessibility_recents_task_header">%1$s %2$s</string>
+    <string name="accessibility_notification_dismissed">Искәрмәләрдән баш тартылды.</string>
+    <string name="accessibility_desc_notification_shade">Искәрмә күләгәсе.</string>
+    <string name="accessibility_desc_quick_settings">Тиз параметрлар.</string>
+    <string name="accessibility_desc_lock_screen">Экранны бикләү</string>
+    <string name="accessibility_desc_settings">Көйләүләр</string>
+    <string name="accessibility_desc_recent_apps">Соңгы кушымталар төймәсе</string>
+    <string name="accessibility_desc_close">Ябу</string>
+    <string name="accessibility_quick_settings_user">Кулланучы %s.</string>
+    <string name="accessibility_quick_settings_wifi">%1$s</string>
+    <string name="accessibility_quick_settings_wifi_changed_off">Wi-Fi сүнгән</string>
+    <string name="accessibility_quick_settings_wifi_changed_on">Wi-Fi кабызылган</string>
+    <string name="accessibility_quick_settings_mobile">Мобиль %1$s. %2$s. %3$s.</string>
+    <string name="accessibility_quick_settings_battery">Аккумулятор %s.</string>
+    <string name="accessibility_quick_settings_airplane_off">Очу рәвеше сүн</string>
+    <string name="accessibility_quick_settings_airplane_on">Очу рәвеше каб</string>
+    <string name="accessibility_quick_settings_airplane_changed_off">Очу рәвеше сүнгән</string>
+    <string name="accessibility_quick_settings_airplane_changed_on">Очу рәвеше кабызылган</string>
+    <string name="accessibility_quick_settings_dnd_priority_on">Борчымаска режимы кабызылган, өстенлек бирелгәннәр генә эшли.</string>
+    <string name="accessibility_quick_settings_dnd_none_on">Борчымаска режимы кабызылган, тынлык.</string>
+    <string name="accessibility_quick_settings_dnd_alarms_on">Борчымаска режимы кабызылган, уяткычлар гына эшли.</string>
+    <string name="accessibility_quick_settings_dnd_off">Борчымаска режимы сүндерелгән.</string>
+    <string name="accessibility_quick_settings_dnd_changed_off">Борчымаска режимы сүндерелгән.</string>
+    <string name="accessibility_quick_settings_dnd_changed_on">Борчымаска режимы кабызылган.</string>
+    <string name="accessibility_quick_settings_bluetooth_off">Bluetooth сүн</string>
+    <string name="accessibility_quick_settings_bluetooth_on">Bluetooth каб</string>
+    <string name="accessibility_quick_settings_bluetooth_connecting">Bluetooth тоташу</string>
+    <string name="accessibility_quick_settings_bluetooth_connected">Bluetooth тоташкан</string>
+    <string name="accessibility_quick_settings_bluetooth_changed_off">Bluetooth сүнгән</string>
+    <string name="accessibility_quick_settings_bluetooth_changed_on">Bluetooth кабызылган</string>
+    <string name="accessibility_quick_settings_location_off">Урнашу хисабы сүн</string>
+    <string name="accessibility_quick_settings_location_on">Урнашу хисабы каб</string>
+    <string name="accessibility_quick_settings_location_changed_off">Урнашу хисабы сүнгән</string>
+    <string name="accessibility_quick_settings_location_changed_on">Урнашу хисабы кабызылган</string>
+    <string name="accessibility_quick_settings_alarm">%s өчен кисәтү көйләү.</string>
+    <string name="accessibility_quick_settings_close">Аслыкны ябу.</string>
+    <string name="accessibility_quick_settings_more_time">Күбрәк вакыт.</string>
+    <string name="accessibility_quick_settings_less_time">Азрак вакыт.</string>
+    <string name="accessibility_quick_settings_flashlight_off">Фонарь сүн</string>
+    <string name="accessibility_quick_settings_flashlight_on">Фонарь каб</string>
+    <string name="accessibility_quick_settings_flashlight_changed_off">Фонарь сүнгән</string>
+    <string name="accessibility_quick_settings_flashlight_changed_on">Фонарь кабызылган</string>
+    <string name="accessibility_quick_settings_color_inversion_changed_off">Төсләр инверсиясе сүнгән</string>
+    <string name="accessibility_quick_settings_color_inversion_changed_on">Төсләр инверсиясе кабызылган</string>
+    <string name="accessibility_quick_settings_hotspot_changed_off">Мобиль керү ноктасы сүнгән</string>
+    <string name="accessibility_quick_settings_hotspot_changed_on">Мобиль керү ноктасы кабызылган</string>
+    <string name="accessibility_casting_turned_off">Экранны чагылдыру туктатылды</string>
+    <string name="accessibility_brightness">Экран яктылыгы</string>
+    <string name="data_usage_disabled_dialog_3g_title">2G-3G мәгълүмат туктатып торылган</string>
+    <string name="data_usage_disabled_dialog_4g_title">4G мәгълүмат туктатып торылган</string>
+    <string name="data_usage_disabled_dialog_mobile_title">Кәрәзле мәгълүмат туктатып торылган</string>
+    <string name="data_usage_disabled_dialog_title">Мобиль мәгълүмат сүнгән</string>
+    <string name="data_usage_disabled_dialog">"Мәгълүмат күләме чиккә җиткәнгә, җайланма бу периодтагы искә төшерүче мобиль мәгълүмат куллануны туктатып торды.
+
+Аны кабат эшләтеп җибәрсәгез операторларыгыздан өстәмә түләүләр килергә мөмкин."</string>
+    <string name="data_usage_disabled_dialog_enable">Кабат эшл. җиб.</string>
+    <string name="status_bar_settings_signal_meter_disconnected">"Интернет тоташмасы юк "</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">Wi-Fi тоташылган</string>
+    <string name="gps_notification_searching_text">"GPS'ның сигналын эзли"</string>
+    <string name="gps_notification_found_text">GPS көйләгән урнашу</string>
+    <string name="accessibility_location_active">Урнашу таләпе актив</string>
+    <string name="accessibility_clear_all">Барлык искәрмәләрне бетерү.</string>
+    <string name="status_bar_notification_inspect_item_title">Искәртү көйләүләре</string>
+    <string name="status_bar_notification_app_settings_title">%s көйләүләре</string>
+    <string name="accessibility_rotation_lock_off">Экран автоматик рәвештә әйләнәчәк.</string>
+    <string name="accessibility_rotation_lock_on_landscape">Табигать күренеше ориентациясендә экран бикле.</string>
+    <string name="accessibility_rotation_lock_on_portrait">Кеше рәсеме ориентациясендә экран бикле.</string>
+    <string name="accessibility_rotation_lock_off_changed">Экран хәзер үзе борылачак</string>
+    <string name="accessibility_rotation_lock_on_landscape_changed">Экран хәзер альбом юнәлешендә бикләнде</string>
+    <string name="accessibility_rotation_lock_on_portrait_changed">Экран хәзер китап юнәлешендә бикләнде</string>
+    <string name="dessert_case">Десертлар</string>
+    <string name="start_dreams">Көн уртасындагы төш</string>
+    <string name="ethernet_label">Ethernet</string>
+    <string name="quick_settings_dnd_label">Борчымаска</string>
+    <string name="quick_settings_dnd_priority_label">Өстенлек бирелгәннәр генә</string>
+    <string name="quick_settings_dnd_alarms_label">Уяткычлар гына</string>
+    <string name="quick_settings_dnd_none_label">Тынлык</string>
+    <string name="quick_settings_bluetooth_label">Bluetooth</string>
+    <string name="quick_settings_bluetooth_multiple_devices_label">Bluetooth (%d Җайланмалар)</string>
+    <string name="quick_settings_bluetooth_off_label">Bluetooth сүндерелгән</string>
+    <string name="quick_settings_bluetooth_detail_empty_text">Мөмкин парланган җайланмалар юк</string>
+    <string name="quick_settings_brightness_label">Яктылык</string>
+    <string name="quick_settings_rotation_unlocked_label">Авто әйләндерү</string>
+    <string name="quick_settings_rotation_locked_label">Әйләндерү бикле</string>
+    <string name="quick_settings_rotation_locked_portrait_label">Портрет</string>
+    <string name="quick_settings_rotation_locked_landscape_label">Пейзаж</string>
+    <string name="quick_settings_ime_label">Кертү ысулы</string>
+    <string name="quick_settings_location_label">Урнашу хезмәте кулланыла</string>
+    <string name="quick_settings_location_off_label">Урнашу сүндерелгән</string>
+    <string name="quick_settings_media_device_label">Медиа җайланма</string>
+    <string name="quick_settings_rssi_label">RSSI</string>
+    <string name="quick_settings_rssi_emergency_only">Каза шалтыратулар гына</string>
+    <string name="quick_settings_settings_label">Параметрлар</string>
+    <string name="quick_settings_time_label">Вакыт</string>
+    <string name="quick_settings_user_label">Мин</string>
+    <string name="quick_settings_user_title">Куллануче</string>
+    <string name="quick_settings_user_new_user">Яңа куллануче</string>
+    <string name="quick_settings_wifi_label">Wi-Fi</string>
+    <string name="quick_settings_wifi_not_connected">Тоташылмаган</string>
+    <string name="quick_settings_wifi_no_network">Челтәрләр юк</string>
+    <string name="quick_settings_wifi_off_label">Wi-Fi сүндерелгән</string>
+    <string name="quick_settings_wifi_detail_empty_text">Wi-Fi челтәрләре юк</string>
+    <string name="quick_settings_cast_title">Тапшыру</string>
+    <string name="quick_settings_casting">Читкә җибәрү</string>
+    <string name="quick_settings_cast_device_default_name">Исемсез җайланма</string>
+    <string name="quick_settings_cast_device_default_description">Читкә җибәру өчен эзер</string>
+    <string name="quick_settings_cast_detail_empty_text">Мөмкин җайланмалар юк</string>
+    <string name="quick_settings_brightness_dialog_title">Яктылык</string>
+    <string name="quick_settings_brightness_dialog_auto_brightness_label">АВТО</string>
+    <string name="quick_settings_inversion_label">Төсләрны кирә ясарга</string>
+    <string name="quick_settings_color_space_label">Төс дөресләү режимы</string>
+    <string name="quick_settings_more_settings">КҮБРӘК КӨЙЛӘҮЛӘР</string>
+    <string name="quick_settings_done">ӘЗЕР</string>
+    <string name="quick_settings_connected">Тоташылган</string>
+    <string name="quick_settings_connecting">Тоташу…</string>
+    <string name="quick_settings_tethering_label">Бәйләнү</string>
+    <string name="quick_settings_hotspot_label">Чыбыксыз элемтә тәмин ителгән урын</string>
+    <string name="quick_settings_notifications_label">Искертмеләр</string>
+    <string name="quick_settings_flashlight_label">Кабыну уты</string>
+    <string name="quick_settings_cellular_detail_title">Мобиль мәгълүмат</string>
+    <string name="quick_settings_cellular_detail_data_usage">Мәгълүматны куллану</string>
+    <string name="quick_settings_cellular_detail_remaining_data">Калган мәгълүмат</string>
+    <string name="quick_settings_cellular_detail_over_limit">Чик җитте - мәгълүмат куллану туктатылды</string>
+    <string name="quick_settings_cellular_detail_data_used">%s куллана</string>
+    <string name="quick_settings_cellular_detail_data_limit">%s лимиты</string>
+    <string name="quick_settings_cellular_detail_data_warning">%s кисәтү</string>
+    <string name="recents_empty_message">Соңгы кушымталар юк</string>
+    <string name="recents_app_info_button_label">Кушымта мәгълүматы</string>
+    <string name="recents_lock_to_app_button_label">кушымтага бәйләрге</string>
+    <string name="recents_search_bar_label">эзләү</string>
+    <string name="recents_launch_error_message">%s башлап булмый.</string>
+    <string name="recents_dismiss_all_message">Барлык кушымталарны бетерү</string>
+    <string name="recents_multistack_add_stack_dialog_split_horizontal">Горизонталь буленү</string>
+    <string name="recents_multistack_add_stack_dialog_split_vertical">Вертикаль буленү</string>
+    <string name="recents_multistack_add_stack_dialog_split_custom">Кулланучы сайлаган бүленү</string>
+    <string name="expanded_header_battery_charged">Батарея корыла</string>
+    <string name="expanded_header_battery_charging">Батареяны кору</string>
+    <string name="expanded_header_battery_charging_with_time">Тулы булганче %s</string>
+    <string name="expanded_header_battery_not_charging">Батарея корылмый</string>
+    <string name="ssl_ca_cert_warning">"Челтәр 
+күзәтелергә мөмкин"</string>
+    <string name="description_target_search">Эзләү</string>
+    <string name="description_direction_up">%s өчен өскә шудыртыгыз.</string>
+    <string name="description_direction_left">%s өчен сулга шудыртыгыз.</string>
+    <string name="zen_priority_introduction">Сезне үзегез сайлаган уяткычлар, искә төшерүчеләр, вакыйгалар һәм шалтыратучылар тавышларыннан тыш башка тавышлар һәм тибрәнүләр борчымаячак.</string>
+    <string name="zen_priority_customize_button">Үзеңчә көйләү</string>
+    <string name="zen_silence_introduction_voice">Бу БАРЛЫК тавышларны һәм тибрәнүләрне, шул исәптән, уяткыч, музыка, видео һәм уеннарныкын да, тыя. Телефоннан шалтырата алачаксыз.</string>
+    <string name="zen_silence_introduction">Бу БАРЛЫК тавышларны һәм тибрәнүләрне, шул исәптән, уяткыч, музыка, видео һәм уеннарныкын да, тыя.</string>
+    <string name="keyguard_more_overflow_text">+%d</string>
+    <string name="speed_bump_explanation">Азрак ашыгычлы искертмәләр - аста</string>
+    <string name="notification_tap_again">Ачу өчен тагын кагылыгыз</string>
+    <string name="keyguard_unlock">Биген ачтыру өчен бармакны өскә шудырыгыз</string>
+    <string name="phone_hint">Телефон өчен тамгадан шудырыгыз</string>
+    <string name="voice_hint">Тавыш ярдәме өчен тамгадан читкә шудырыгыз.</string>
+    <string name="camera_hint">Камера өчен тамгадан шудырыгыз</string>
+    <string name="interruption_level_none_with_warning">Тынлык. Экраннан уку чаралары да тавышсыз эшләячәк.</string>
+    <string name="interruption_level_none">Тынлык</string>
+    <string name="interruption_level_priority">Өстенл. генә</string>
+    <string name="interruption_level_alarms">Уяткычлар гына</string>
+    <string name="interruption_level_none_twoline">"Тынлык
+"</string>
+    <string name="interruption_level_priority_twoline">"Өстенлек
+бирелгәннәр генә"</string>
+    <string name="interruption_level_alarms_twoline">"Уяткычлар
+гына"</string>
+    <string name="keyguard_indication_charging_time">Батареяны кору (%s тулы булганче)</string>
+    <string name="accessibility_multi_user_switch_switcher">Кулланучыны алмаштыру</string>
+    <string name="accessibility_multi_user_switch_switcher_with_current">Кулланучыны алмаштыру, хәзерге кулланучы %s</string>
+    <string name="accessibility_multi_user_switch_inactive">Хәзерге кулланучы %s</string>
+    <string name="accessibility_multi_user_switch_quick_contact">Рәвешне күрсәтү</string>
+    <string name="user_add_user">Кулланучы өстәү</string>
+    <string name="user_new_user_name">Яңа кулланучы</string>
+    <string name="guest_nickname">Кунак</string>
+    <string name="guest_new_guest">Кунак өстәү</string>
+    <string name="guest_exit_guest">Кунакны бетерү</string>
+    <string name="guest_exit_guest_dialog_title">Кунакны бетерергәме?</string>
+    <string name="guest_exit_guest_dialog_message">Бу сессиядәге барлык кушымталар һәм мәгълүмат бетереләчәк</string>
+    <string name="guest_exit_guest_dialog_remove">Бетерү</string>
+    <string name="guest_wipe_session_title">Тагын кушак шикелле керергә рәхим итегез!</string>
+    <string name="guest_wipe_session_message">Сез сессияне дәвам итәргә телисезме?</string>
+    <string name="guest_wipe_session_wipe">Баштан уйнатырга</string>
+    <string name="guest_wipe_session_dontwipe">Әйе, телим</string>
+    <string name="guest_notification_title">Кунак кулланучы</string>
+    <string name="guest_notification_text">Куш., мәг. бетерү өчен кунак кулл. бетер.</string>
+    <string name="guest_notification_remove_action">КУНАК КУЛЛАНУЧЫНЫ БЕТЕРҮ</string>
+    <string name="user_add_user_title">Яңа кулланучыны өстәргәме?</string>
+    <string name="user_add_user_message_short">"Яңа кулланучыны өстәгәндә, шәхес үзенең урынын көйләргә тиеш.
+
+Һәр кулланучы барлык башка кулланучылар кушымталарын яңарта ала."</string>
+    <string name="battery_saver_notification_title">Батарея саклауче җибәрелгән</string>
+    <string name="battery_saver_notification_text">Мәгълүмат эшчәнлеген һәм күренешен киметә</string>
+    <string name="battery_saver_notification_action_text">Батарея саклагычын сүндерү</string>
+    <string name="notification_hidden_text">Эчтәлек яшерелгән</string>
+    <string name="media_projection_dialog_text">%s экранда булганны төшерүны башлый.</string>
+    <string name="media_projection_remember_text">Тагын күрсетмеске</string>
+    <string name="clear_all_notifications_text">Барысын чистарту</string>
+    <string name="media_projection_action_text">Хезәр башларга</string>
+    <string name="empty_shade_text">Белдерүләр юк</string>
+    <string name="device_owned_footer">Җайланма тикшерелә ала</string>
+    <string name="profile_owned_footer">Профиль күзәтелергә мөмкин</string>
+    <string name="vpn_footer">Элемтә күзәтелә ала</string>
+    <string name="monitoring_title_device_owned">Җайланманы күзәтү</string>
+    <string name="monitoring_title_profile_owned">Профиль күзәтелә</string>
+    <string name="monitoring_title">Элемтә күзәтүе</string>
+    <string name="disable_vpn">VPN сүндерү</string>
+    <string name="disconnect_vpn">VPN өзү</string>
+    <string name="monitoring_description_device_owned">"Бу җайланма белән %1$s идарә итә.
+
+Администраторыгыз көйләүләр, корпоратив керү мөмкинлеге, кушымталар, җайланма белән бәйле мәгълүматны һәм җайланмагызның урнашу мәгълүматын күзәтә һәм алар белән идарә итә ала. Тулырак мәгълүмат алу өчен администраторыгызга мөрәҗәгать итегез."</string>
+    <string name="monitoring_description_vpn">"Сез кушымтага VPN'га тоташырга рөхсәт бирдегез.
+
+Кушымта сезнең җайланма һәм челтәр эшчәнлеген, шул исәптән электрон почта, кушымталар һәм веб-сайтларны күзәтә ала."</string>
+    <string name="monitoring_description_vpn_device_owned">"Бу җайланма белән %1$s идарә итә.
+
+Администраторыгыз көйләүләр, корпоратив керү мөмкинлеге, кушымталар, җайланма белән бәйле мәгълүматны һәм җайланмагызның урнашу мәгълүматын күзәтә һәм алар белән идарә итә ала.
+
+Сез үзегезнең челтәр эшчәнлеген, шул исәптән электрон почта, кушымталар һәм веб-сайтларны күзәтә ала торган VPN'га тоташкан.
+
+Тулырак мәгълүмат алу өчен администраторыгызга мөрәҗәгать итегез."</string>
+    <string name="monitoring_description_vpn_profile_owned">"Сезнең эш профиле белән %1$sидарә итә.
+
+Администраторыгыз челтәр эшчәнлегегезне, шул исәптән электрон почта, кушымталар һәм веб-сайтларны күзәтә ала.
+
+Тулырак мәгълүмат алу өчен администраторыгызга мөрәҗәгать итегез.
+
+Сез шулай ук үзегезнең челтәр эшчәнлеген күзәтә ала торган VPN'га тоташкан."</string>
+    <string name="legacy_vpn_name">VPN</string>
+    <string name="monitoring_description_app">Сез %1$s кушымтасына тоташтыгыз. Ул сезнең челтәрдәге эшчәнлегегезне, шул исәптән электрон почталарыгызны, кушымталарыгызны һәм веб-сайтларыгызны да күзәтә ала.</string>
+    <string name="monitoring_description_app_personal">Сез %1$s кушымтасына тоташтыгыз. Ул сезнең челтәрдәге шәхси эшчәнлегегезне, шул исәптән электрон почталарыгызны, кушымталарыгызны һәм веб-сайтларыгызны да күзәтә ала.</string>
+    <string name="monitoring_description_app_work">"Эш профилегез белән %1$s идарә итә. Ул сезнең челтәрдәге эшчәнлегегезне, шул исәптән электрон почталарыгызны, кушымталарыгызны һәм веб-сайтларыгызны да күзәтә ала торган %2$s кушымтасына тоташкан.
+
+Өстәмә мәгълүмат алу өчен администраторыгызга мөрәҗәгать итегез."</string>
+    <string name="monitoring_description_app_personal_work">"Эш профилегез белән %1$s идарә итә. Ул сезнең челтәрдәге эшчәнлегегезне, шул исәптән электрон почталарыгызны, кушымталарыгызны һәм веб-сайтларыгызны да күзәтә ала торган %2$s кушымтасына тоташкан.
+
+Сез шулай ук челтәрдәге шәхси эшчәнлегегезне күзәтә ала торган %3$s кушымтасына да тоташкан."</string>
+    <string name="monitoring_description_vpn_app_device_owned">"Җайланмагыз белән %1$s идарә итә.
+
+Администраторыгыз көйләүләр, эш белән бәйле керү мөмкинлекләрен, кушымталар, җайланмагыз белән бәйле мәгълүмат һәм җайланмагызның урнашу урынын күзәтә һәм идарә итә ала.
+
+Сез челтәрдәге эшчәнлегегезне, шул исәптән электрон почталарыгызны, кушымталарыгызны һәм веб-сайтларыгызны да күзәтә ала торган %2$s кушымтасына тоташкан.
+
+Өстәмә мәгълүмат алу өчен администраторыгызга мөрәҗәгать итегез."</string>
+    <string name="keyguard_indication_trust_disabled">Җайланма кулдан ачканчыга кадәр бикләнгән булачак</string>
+    <string name="hidden_notifications_title">Белдерүләрне тизрәк алырга</string>
+    <string name="hidden_notifications_text">Ачу алдыннан аларны карау</string>
+    <string name="hidden_notifications_cancel">Юк, рәхмәт</string>
+    <string name="hidden_notifications_setup">Урнаштыру</string>
+    <string name="notification_expand_button_text">Барысын да күрү</string>
+    <string name="notification_collapse_button_text">Барысын да яшерү</string>
+    <string name="zen_mode_and_condition">%1$s. %2$s</string>
+    <string name="volume_zen_end_now">Хәзер тәмамлау</string>
+    <string name="accessibility_volume_expand">Киңәйтү</string>
+    <string name="accessibility_volume_collapse">Җыю</string>
+    <string name="screen_pinning_title">Экран беркетелгән</string>
+    <string name="screen_pinning_description">"Беркетү экранны бер күренештә бикли.
+Беркетү алынганчы сез керүче шалтыратуларны ала алмаячаксыз һәм сезнең урыныгызны таба алмаячаклар. Шулай ук кайбер кушымталар эшләмәскә яки искәртүләр дөрес күрсәтелмәскә мөмкин.
+Беркетүне алу өчен берьюлы ◁ (Артка төймәсенә) һәм □ (Соңгы кушымталар төймәсенә) тиегез һәм тотып торыгыз."</string>
+    <string name="screen_pinning_description_accessible">"Беркетү экранны бер күренештә бикли.
+Беркетү алынганчы сез керүче шалтыратуларны ала алмаячаксыз һәм сезнең урыныгызны таба алмаячаклар. Шулай ук кайбер кушымталар эшләмәскә яки искәртүләр дөрес күрсәтелмәскә мөмкин.
+Беркетүне алу өчен берьюлы Артка һәм Соңгы кушымталар төймәләренә тиегез һәм тотып торыгыз."</string>
+    <string name="screen_pinning_positive">Аңлашылды</string>
+    <string name="screen_pinning_negative">Юк, рәхмәт</string>
+    <string name="quick_settings_reset_confirmation_title">%1$s яшерергәме?</string>
+    <string name="quick_settings_reset_confirmation_message">Киләсе юлы көйләүләрдә кабызгач, ул яңадан чыгачак.</string>
+    <string name="quick_settings_reset_confirmation_button">Яшерү</string>
+    <string name="volumeui_prompt_message">%1$s күләмле диалог булырга тели.</string>
+    <string name="volumeui_prompt_allow">Рөхсәт итү</string>
+    <string name="volumeui_prompt_deny">Инкарь итү</string>
+    <string name="volumeui_notification_title">%1$s - күләмле диалог</string>
+    <string name="volumeui_notification_text">Оригиналны торгызу өчен тиегез.</string>
+    <string name="managed_profile_foreground_toast">Эш профилегезне кулланасыз</string>
+    <string name="system_ui_tuner">Система кулланучы интерфейсын көйләү чарасы</string>
+    <string name="show_battery_percentage">Куелган батарея процентларын күрсәтү</string>
+    <string name="show_battery_percentage_summary">Кору җиһазына тоташтырылмаган вакытта батарея күләме процентларын халәт панеле тамгасы эчендә күрсәтү</string>
+    <string name="quick_settings">Тиз көйләүләр</string>
+    <string name="status_bar">Халәт панеле</string>
+    <string name="demo_mode">Демо режим</string>
+    <string name="enable_demo_mode">Демо режимны кабызу</string>
+    <string name="show_demo_mode">Демо режимны күрсәтү</string>
+    <string name="status_bar_ethernet">Ethernet</string>
+    <string name="status_bar_alarm">Уяткыч</string>
+    <string name="status_bar_work">Эш профиле</string>
+    <string name="status_bar_airplane">Очу режимы</string>
+    <string name="add_tile">Плитка өстәү</string>
+    <string name="broadcast_tile">Күп адресатларга тапшыру плиткасы</string>
+    <string name="zen_alarm_warning_indef">Моны сүндермичә, киләсе %1$s уяткычын ишетмәячәксез</string>
+    <string name="zen_alarm_warning">Сез киләсе %1$s уяткычыгызны ишетмәячәксез</string>
+    <string name="alarm_template">%1$s вакытта</string>
+    <string name="alarm_template_far">%1$s вакытта</string>
+    <string name="accessibility_quick_settings_detail">Тиз көйләүләр, %s.</string>
+    <string name="accessibility_status_bar_hotspot">Элемтә ноктасы</string>
+    <string name="accessibility_managed_profile">Эш профиле</string>
+    <string name="tuner_warning_title">Кемгәдер күңелле, ә кемгәдер юк</string>
+    <string name="tuner_warning">Система кулланучы интерфейсын көйләү чарасы Android кулланучы интерфейсын көйләү өчен өстәмә мөмкинлекләр бирә. Киләсе продукт чыгарылышларында бу эксперименталь үзлекләр үзгәрә, бетерелә яки югала ала. Саклык белән дәвам итегез.</string>
+    <string name="tuner_persistent_warning">Киләсе продукт чыгарылышларында бу эксперименталь үзлекләр үзгәрә, бетерелә яки югала ала. Саклык белән дәвам итегез.</string>
+    <string name="got_it">Аңладым</string>
+    <string name="tuner_toast">Котлыйбыз! Система кулланучы интерфейсын көйләү чарасы Көйләүләргә өстәлде</string>
+    <string name="remove_from_settings">Көйләүләрдән бетерү</string>
+    <string name="remove_from_settings_prompt">Система кулланучы интерфейсын көйләү чарасын Көйләүләрдән бетерергә һәм аның барлык үзлекләрен кулланудан туктаргамы?</string>
+    <string name="somc_kg_ice_button_label_0">ICE мәгълүматы</string>
+    <string name="somc_kg_ice_button_label_1">ICE</string>
+    <string name="somc_keyguard_analog_clock_name">Уклы сәгать</string>
+    <string name="digital_clock_name">Санлы сәгать</string>
+    <string name="kg_panicbutton_toast_massage_txt">Кичектергесез шалтырату номерын җыю</string>
+    <string name="kg_somc_note">Искәрмә</string>
+    <string name="kg_somc_continue">Дәвам итү</string>
+    <string name="sony_clock_name">Sony сәгате</string>
+    <string name="app_name">Тыеп кую клавиатуралар</string>
+    <string name="keyguard_password_enter_pin_code">PIN код кертегез</string>
+    <string name="keyguard_password_enter_puk_code">PUK һәм яңа PIN код кертегез</string>
+    <string name="keyguard_password_enter_puk_prompt">PUK коды</string>
+    <string name="keyguard_password_enter_pin_prompt">Яңа PIN коды</string>
+    <string name="keyguard_password_entry_touch_hint"><font size="17">Серсүз кертү өчен тиегез</font></string>
+    <string name="keyguard_password_enter_password_code">Биген алу өчен серсүз кертегез</string>
+    <string name="keyguard_password_enter_pin_password_code">Биген алу өчен PIN кертегез</string>
+    <string name="keyguard_password_wrong_pin_code">PIN-код дөрес түгел.</string>
+    <string name="keyguard_charged">Электр тукландырылды</string>
+    <string name="keyguard_plugged_in">Батареяны кору</string>
+    <string name="keyguard_low_battery">Электр тукландыргычны тоташтырыгыз.</string>
+    <string name="keyguard_instructions_when_pattern_disabled">Биген алу өчен Сайлакка басыгыз.</string>
+    <string name="keyguard_network_locked_message">Челтәр бикле</string>
+    <string name="keyguard_perso_locked_message">SIM картаны оператор бикләгән</string>
+    <string name="keyguard_missing_sim_message_short">SIM картасы юк</string>
+    <string name="keyguard_missing_sim_message">Телефонда SIM карта юк</string>
+    <string name="keyguard_missing_sim_instructions">SIM картаны кертегез.</string>
+    <string name="keyguard_missing_sim_instructions_long">SIM карта юк яки укылмый. SIM картаны кертегез.</string>
+    <string name="keyguard_permanent_disabled_sim_message_short">SIM карта сүндерелгән</string>
+    <string name="keyguard_permanent_disabled_sim_instructions">"SIM картагыз бөтенләй сүнде.
+ Башка SIM карта артыннан хезмәтне тәэмин итүчегә мөрәҗәгать итегез."</string>
+    <string name="keyguard_sim_locked_message">SIM карта бикле.</string>
+    <string name="keyguard_sim_puk_locked_message">SIM карта PUK белән бикләнгән.</string>
+    <string name="keyguard_sim_unlock_progress_dialog_message">SIM картаның биген алына…</string>
+    <string name="keyguard_accessibility_pattern_unlock">Сүрәт өзегенең биген ачу.</string>
+    <string name="keyguard_accessibility_pin_unlock">PIN биген алу.</string>
+    <string name="keyguard_accessibility_password_unlock">Серсүз биген алу.</string>
+    <string name="keyguard_accessibility_pattern_area">Сүрәт өзегенең урыны.</string>
+    <string name="keyguard_accessibility_slide_area">Слайд урыны.</string>
+    <string name="keyguard_accessibility_pin_area">PIN-код өлкәсе</string>
+    <string name="keyguard_accessibility_sim_pin_area">SIM PIN-коды өлкәсе</string>
+    <string name="keyguard_accessibility_sim_puk_area">SIM PUK өлкәсе</string>
+    <string name="keyguard_accessibility_next_alarm">%1$s өчен киләсе уяткыч көйләве</string>
+    <string name="keyboardview_keycode_delete">Бетерү</string>
+    <string name="keyboardview_keycode_enter">Кертү</string>
+    <string name="kg_forgot_pattern_button_text">Сүрәт өзеген оныту</string>
+    <string name="kg_wrong_pattern">Сүрәт өзеге ялгыш</string>
+    <string name="kg_wrong_password">Серсүз ялгыш</string>
+    <string name="kg_wrong_pin">PIN-код ялгыш</string>
+    <string name="kg_too_many_failed_attempts_countdown">%d сек. соң омтылышны кабатлагыз.</string>
+    <string name="kg_pattern_instructions">Бикне ача торган сүрәт өзеген ясау</string>
+    <string name="kg_sim_pin_instructions">SIM PIN кертү</string>
+    <string name="kg_sim_pin_instructions_multi">\"%1$s\" өчен SIM PIN-кодын кертегез</string>
+    <string name="kg_pin_instructions">PIN кертү</string>
+    <string name="kg_password_instructions">Серсүз кертү</string>
+    <string name="kg_puk_enter_puk_hint">SIM сүндерелгән. Дәвам итү өчен PUK кодын кертегез. Нечкәлекләр артыннан карриерга мөрәҗәгать итегез.</string>
+    <string name="kg_puk_enter_puk_hint_multi">Хәзерге вакытта SIM \"%1$s\" сүндерелгән. Дәвам итү өчен PUK кодын кертегез. Өстәмә мәгълүмат өчен хезмәтләрне тәэмин итүче белән элемтәгә керегез.</string>
+    <string name="kg_puk_enter_pin_hint">Яңа PIN код кертү</string>
+    <string name="kg_enter_confirm_pin_hint">Яңа PIN кодны раслау</string>
+    <string name="kg_sim_unlock_progress_dialog_message">SIM картаның биген алына…</string>
+    <string name="kg_invalid_sim_pin_hint">4 - 8 санны PIN кертегез.</string>
+    <string name="kg_invalid_sim_puk_hint">PUK код 8 саннан торырга тиеш.</string>
+    <string name="kg_invalid_puk">Дөрес PUK кодын яңадан кертегез. Кабатланучан омтлылышлар SIM картаны бөтенләй эштән чыгарырга мөмкин.</string>
+    <string name="kg_invalid_confirm_pin_hint">PIN кодлары туры килми</string>
+    <string name="kg_login_too_many_attempts">Артык күп сүрәт өзеген ясау омтылышлар</string>
+    <string name="kg_too_many_failed_pin_attempts_dialog_message" formatted="false">"PIN-кодын %d тапкыр дөрес кертмәдегез. 
+
+%dсек. соң омтылышны кабатлагыз."</string>
+    <string name="kg_too_many_failed_password_attempts_dialog_message" formatted="false">"Серсүзне %d тапкыр дөрес кертмәдегез. 
+
+%dсек. соң омтылышны кабатлагыз."</string>
+    <string name="kg_too_many_failed_pattern_attempts_dialog_message" formatted="false">"Бикне ача торган сүрәт өзеген %d тапкыр дөрес ясамадыгыз. 
+
+%dсек. соң омтылышны кабатлагыз."</string>
+    <string name="kg_failed_attempts_almost_at_wipe" formatted="false">Телефонның биген %d тапкыр алып карадыгыз. Тагын %d уңышсыз омтылышлардан соң телефон заводның килешенгән халәтенә ташлатыла һәм барлык куланучы мәгълүматы югалачак.</string>
+    <string name="kg_failed_attempts_now_wiping">%d тапкыр ялгыш код керттегез. Телефон килешенгән халәтенә ташлатылачак.</string>
+    <string name="kg_failed_attempts_almost_at_erase_user" formatted="false">Сез телефоныгызның %d тапкыр биген ачтырырга тырыштыгыз. %d яки аннан күбрәк уңышсыз омтылыштан соң бу кулланучы бетереләчәк, бу барлык кулланучы мәгълүматын бетерәчәк.</string>
+    <string name="kg_failed_attempts_now_erasing_user">Сез телефоныгызның %d тапкыр биген ачтырырга тырыштыгыз. Бу кулланучы бетереләчәк, бу барлык кулланучы мәгълүматын бетерәчәк.</string>
+    <string name="kg_failed_attempts_almost_at_erase_profile" formatted="false">Сез телефоныгызның %d тапкыр биген ачтырырга тырыштыгыз. %d яки аннан күбрәк уңышсыз омтылыштан соң эш профиле бетереләчәк, бу барлык профиль мәгълүматын бетерәчәк.</string>
+    <string name="kg_failed_attempts_now_erasing_profile">Сез телефоныгызның %d тапкыр биген ачтырырга тырыштыгыз. Эш профиле бетереләчәк, бу барлык профиль мәгълүматын бетерәчәк.</string>
+    <string name="kg_failed_attempts_almost_at_login" formatted="false">"Биген ача торган сүрәт өзеген %d тапкыр дөрес ясамадыгыз. Тагын %d уңышсыз омтылышлардан соң телефонның биген электрон-почта хисап язмасы ярдәмендә алып булачак.
+
+ Омтылышны %dсек. соң кабатлагыз."</string>
+    <string name="kg_password_wrong_pin_code_pukked">SIM PIN коды ялгыш. PUK кодын кертегез яки күбрәк мәгълүмат алу өчен челтәрнең иясенә мөрәҗәгать итегез.</string>
+    <string name="kg_password_wrong_puk_code_dead">SIM сүндерелгән. Челтәр иясенә мөрәҗәгать итегез.</string>
+    <string name="kg_password_pin_failed">SIM PIN код үтмәде!</string>
+    <string name="kg_password_puk_failed">SIM PUK код үтмәде!</string>
+    <string name="kg_pin_accepted">Код үтте!</string>
+    <string name="keyguard_carrier_default">Хезмәт юк</string>
+    <string name="accessibility_ime_switch_button">Кертү ысулын кабызу төймәсе.</string>
+    <string name="airplane_mode">Очу режимы</string>
+    <string name="kg_prompt_reason_restart_pattern">Җайл-ны сүнд. кабызгач, рәсемле ачкыч кирәк.</string>
+    <string name="kg_prompt_reason_restart_pin">Җайланмагызны сүнд. кабызгач, PIN-код кирәк.</string>
+    <string name="kg_prompt_reason_restart_password">Җайланмагызны сүнд. кабызгач, серсүз кирәк.</string>
+    <string name="kg_prompt_reason_timeout_pattern">Өстәмә иминлек чарасы буларак рәсемле ачкыч таләп ителә</string>
+    <string name="kg_prompt_reason_timeout_pin">Өстәмә иминлек чарасы буларак PIN-код таләп ителә</string>
+    <string name="kg_prompt_reason_timeout_password">Өстәмә иминлек чарасы буларак серсүз таләп ителә</string>
+    <string name="kg_prompt_reason_switch_profiles_pattern">Профильләрегезне алыштырганда рәсемле ачкыч кирәк.</string>
+    <string name="kg_prompt_reason_switch_profiles_pin">Профильләрегезне алыштырганда PIN-код кирәк.</string>
+    <string name="kg_prompt_reason_switch_profiles_password">Профильләрегезне алыштырганда серсүз кирәк.</string>
+    <string name="fingerprint_not_recognized">Танып булмады</string>
+    <string name="somc_challenge_dialog_message">"Сез %1$d тапкыр ялгыш серсүз, PIN-код яки рәсемле ачкыч керттегез.
+Сезнең тагын%2$d омтылыш калды, аннары җайланмагыз башлангыч көйләүләренә кайтарылачак.
+
+Уңышлы дәвам итү өчен түбәндәгене кертегез:"</string>
+    <string name="somc_challenge_dialog_title">Бикне ачтырып булм.</string>
+    <string name="somc_keyguard_fingerprint_max_attempts_reached">Бармак эзләре функ-се бикл.</string>
+    <string name="somc_keyguard_fingerprint_nomatch">Тагын</string>
+    <string name="somc_keyguard_forgot_password_button">Серсүзне оныттым</string>
+    <string name="somc_keyguard_forgot_pattern_button">Сүрәт өзеген оныту</string>
+    <string name="somc_keyguard_forgot_pin_button">PIN-код онытылган</string>
+    <string name="somc_keyguard_invalid_input">Кулланучы исеме яки серсүз ялгыш</string>
+    <string name="somc_keyguard_login_instructions">Экранның биген ачтыру һәм экран бикләү ысулын үзгәртү өчен Google™ хисап язмасы белән керегез</string>
+    <string name="somc_keyguard_password_hint">Серсүз</string>
+    <string name="somc_keyguard_submit_button">Керү</string>
+    <string name="somc_keyguard_username_hint">Кулланучы исеме (эл. почта)</string>
+    <string name="dsds_keyguard_enter_sim_pin_txt">%s PIN-код кертү</string>
+    <string name="dsds_keyguard_enter_sim_puk_txt">%s PUK кертегез</string>
+    <string name="dsds_sim_disable_notification_tray_first_line_txt">%1$s өзелгән</string>
+    <string name="dsds_sim_disable_notification_tray_second_line_txt">%1$s активлату өчен кагыгыз</string>
+    <string name="keyguard_carrier_default_when_not_softbank_sim">Кертелгән SIM бу телефонда мөмкин түгел. Дөрес SIM картаны кертегез.</string>
+    <string name="kg_somc_verizon_enter_confirm_pin_hint">"PIN-кодын яңадан кертеп PIN'ның дөреслеген тикшерегез."</string>
+    <string name="kg_somc_verizon_invalid_confirm_pin_hint">Яңа SIM PIN язмаларыгыз туры килми. Яңадан 4-8 санлы SIM PIN кертегез.</string>
+    <string name="kg_somc_verizon_password_wrong_pin_code_pukked">"PIN'ны ачу омтылышыгыз SIM картаны бикләде. PUK кодын алып SIM картаның биген ачтыру өчен чыбыксыз хезмәт иясенә мөрәҗәгать итегез. PUK кодын кертеп SIM картаның биген ачтыру өчен Дәвам итү'гә басыгыз."</string>
+    <string name="kg_somc_verizon_password_wrong_puk_code_dead">10-че тапкыр PUK кодын ачтыру омтылышыгыз SIM картаны бөтенләй сүндерде. Башка SIM карта алу өчен чыбыксыз хезмәт иясенә мөрәҗәгать итегез.</string>
+    <string name="kg_somc_verizon_puk_enter_pin_hint">Яңа 4-8 санлы SIM PIN кодын кертегез.</string>
+    <string name="kg_somc_verizon_puk_enter_puk_hint">8-санлы SIM PUK кодын кертегез</string>
+    <string name="kg_somc_verizon_sim_pin_instructions">4-8 санлы SIM PIN кодын кертегез</string>
+    <string name="lockscreen_microphone_image_hint">Микрофон сурәте</string>
+    <string name="lockscreen_voice_unlock_error_hint">Үтү фразасы танылмады</string>
+    <string name="lockscreen_voice_unlock_or_short_unlock_hint">Биген ачтыру өчен үтү фразасын әйтегез яки себертегез</string>
+    <string name="lockscreen_accessibility_unlock_hint">Биген ачтыру өчен, бармакны артка яки алга шудырыгыз</string>
+    <string name="lockscreen_app_name">экран бикләү</string>
+    <string name="lockscreen_short_unlock_hint">биген ачтыру өчен бармак шудырыгыз</string>
+    <string name="lockscreen_unlock_hint">Биген ачтыру өчен, бармакны артка яки алга шудырыгыз</string>
+</resources>

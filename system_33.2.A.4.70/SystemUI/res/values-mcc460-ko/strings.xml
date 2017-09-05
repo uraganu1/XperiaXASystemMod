@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_security_wapi_psk">WLAN PSK</string>
+    <string name="wifi_disabled_wifi_failure">WLAN 연결 실패</string>
+    <string name="connected_via_wfa">WLAN 도우미를 통해 연결됨</string>
+    <string name="accessibility_wifi_off">WLAN가 꺼짐.</string>
+    <string name="accessibility_no_wifi">WLAN 연결 해제됨.</string>
+    <string name="accessibility_wifi_one_bar">WLAN 막대 1개.</string>
+    <string name="accessibility_wifi_two_bars">WLAN 막대 2개.</string>
+    <string name="accessibility_wifi_three_bars">WLAN 막대 3개.</string>
+    <string name="accessibility_wifi_signal_full">WLAN 신호 전체.</string>
+    <string name="quick_settings_wifi_scanning_label">WLAN: 검색 중</string>
+    <string name="quick_settings_wifi_connecting_label">WLAN: 연결 중</string>
+    <string name="toast_message_not_allow_turn_on_hotspot">비행 모드에서는 WLAN 핫스팟을 사용할 수 없음</string>
+    <string name="status_bar_settings_wifi_button">WLAN</string>
+    <string name="accessibility_data_connection_wifi">WLAN</string>
+    <string name="accessibility_quick_settings_wifi_changed_off">WLAN 꺼짐</string>
+    <string name="accessibility_quick_settings_wifi_changed_on">WLAN 켜짐</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">WLAN 연결됨</string>
+    <string name="quick_settings_wifi_label">WLAN</string>
+    <string name="quick_settings_wifi_off_label">WLAN 꺼짐</string>
+    <string name="quick_settings_wifi_detail_empty_text">사용 가능한 WLAN 네트워크 없음</string>
+    <string name="accessibility_quick_settings_detail">빠른 설정하기, %s</string>
+    <string name="wifi_security_short_wapi_cert">WLAN CERT</string>
+    <string name="wifi_security_short_wapi_psk">WLAN PSK</string>
+    <string name="wifi_security_wapi_cert">WLAN CERT</string>
+</resources>

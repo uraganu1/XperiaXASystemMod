@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_settings_autorotate">Ruota automaticamente schermo</string>
+    <string name="status_bar_settings_autosync">Sincronizza automaticamente dati</string>
+    <string name="status_bar_settings_settings">Collegamento a Impostazioni</string>
+</resources>

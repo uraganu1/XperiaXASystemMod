@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_settings_autorotate">Rotação automática da tela</string>
+    <string name="status_bar_settings_autosync">"Auto-sincronização de dados "</string>
+    <string name="status_bar_settings_mobile_data">Tráfego de dados móveis</string>
+    <string name="status_bar_settings_settings">Atalho para Configurações</string>
+</resources>

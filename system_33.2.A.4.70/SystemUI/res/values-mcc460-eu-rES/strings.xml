@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_disabled_wifi_failure">Ezin izan da konektatu WLAN sarera</string>
+    <string name="connected_via_wfa">WLAN laguntzailearen bidez konektatuta</string>
+    <string name="status_bar_settings_wifi_button">WLAN</string>
+    <string name="accessibility_data_connection_wifi">WLAN konexioa</string>
+    <string name="accessibility_quick_settings_wifi_changed_off">WLAN konexioa desaktibatu egin da.</string>
+    <string name="accessibility_quick_settings_wifi_changed_on">WLAN konexioa aktibatu egin da.</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">WLAN konektatuta</string>
+    <string name="quick_settings_wifi_label">WLAN konexioa</string>
+    <string name="quick_settings_wifi_off_label">WLAN konexioa desaktibatuta</string>
+    <string name="quick_settings_wifi_detail_empty_text">Ez dago WLAN sarerik erabilgarri</string>
+    <string name="accessibility_quick_settings_detail">Ezarpen bizkorrak: %s.</string>
+</resources>

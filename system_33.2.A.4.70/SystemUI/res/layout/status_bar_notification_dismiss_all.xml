@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sonymobile.systemui.statusbar.SomcDismissView android:visibility="gone" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="end" android:orientation="horizontal" android:id="@id/dismiss_text_group" android:background="@drawable/ripple_drawable" android:focusable="true" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/accessibility_clear_all" android:layout_marginEnd="@dimen/somc_notification_clear_all_text_h_margin_from_edge">
+        <com.android.systemui.statusbar.DismissViewButton android:id="@id/dismiss_text" android:layout_width="48.0dip" android:layout_height="48.0dip" />
+        <TextView android:textAppearance="@style/TextAppearance.StatusBar.Expanded.DismissAll" android:layout_gravity="center_vertical" android:id="@id/dismiss_real_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/status_bar_clear_all_button" android:textAllCaps="true" android:paddingStart="@dimen/somc_notification_clear_all_text_h_margin" android:paddingEnd="@dimen/somc_notification_clear_all_text_h_margin" android:layout_toEndOf="@id/dismiss_text" />
+    </LinearLayout>
+</com.sonymobile.systemui.statusbar.SomcDismissView>

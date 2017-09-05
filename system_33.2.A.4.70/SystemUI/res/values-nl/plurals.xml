@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">%d schermen in Overzicht</item>
+        <item quantity="one">1 scherm in Overzicht</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">Onjuiste pincode voor SIM-kaart. U heeft nog %d pogingen over voordat u uw PUK-code (pinontgrendelingscode) moet invoeren of neem contact op met uw provider om uw toestel te ontgrendelen.</item>
+        <item quantity="one">Onjuiste pincode voor SIM-kaart. U heeft nog %d poging over voordat u uw PUK-code (pinontgrendelingscode) moet invoeren of neem contact op met uw provider om uw toestel te ontgrendelen.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Onjuiste pukcode voor simkaart. U heeft nog %d pogingen over voordat de simkaart definitief onbruikbaar wordt.</item>
+        <item quantity="one">Onjuiste pukcode voor simkaart. U heeft nog %d poging over voordat de simkaart definitief onbruikbaar wordt.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">Apparaat is gedurende %d uur niet ontgrendeld. Bevestig patroon.</item>
+        <item quantity="one">Apparaat is gedurende %d uur niet ontgrendeld. Bevestig patroon.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">Apparaat is gedurende %d uur niet ontgrendeld. Bevestig PIN.</item>
+        <item quantity="one">Apparaat is gedurende %d uur niet ontgrendeld. Bevestig PIN.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">Apparaat is gedurende %d uur niet ontgrendeld. Bevestig wachtwoord.</item>
+        <item quantity="one">Apparaat is gedurende %d uur niet ontgrendeld. Bevestig wachtwoord.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">Voer de pincode van de simkaart in. U hebt %d resterende pogingen.</item>
+        <item quantity="one">Voer de pincode van de simkaart in. U hebt %d resterende pogingen. Hierna moet u contact opnemen met uw provider om uw apparaat te ontgrendelen.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">De simkaart is nu uitgeschakeld. Voer de PUK-code in om verder te gaan. U hebt %d resterende pogingen. Hierna wordt de simkaart definitief onbruikbaar. Neem voor informatie contact op met uw provider.</item>
+        <item quantity="one">De simkaart is nu uitgeschakeld. Voer de PUK-code in om verder te gaan. U hebt %d resterende pogingen. Hierna wordt de simkaart definitief onbruikbaar. Neem voor informatie contact op met uw provider.</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_puk_enter_puk_hint_last_attempt_failed">
+        <item quantity="other">De invoer komt niet overeen met de PUK-code. Voer de PUK-code van 8 cijfers opnieuw in. U hebt nog %d keuzes.</item>
+        <item quantity="one">De invoer komt niet overeen met de PUK-code voor de SIM-kaart. Voer de PUK-code van 8 cijfers opnieuw in. U hebt nog %d keuzes.</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_sim_pin_instructions_last_attempt_failed">
+        <item quantity="other">De invoer komt niet overeen met de pincode voor de SIM-kaart. Voer de pincode van 4 tot 8 cijfers opnieuw in. U hebt nog %d keuzes.</item>
+        <item quantity="one">De invoer komt niet overeen met de pincode voor de SIM-kaart. Voer de pincode van 4 tot 8 cijfers opnieuw in. U hebt nog %d keuzes.</item>
+    </plurals>
+</resources>

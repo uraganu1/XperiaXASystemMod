@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">%d képernyő az Áttekintés panelen</item>
+        <item quantity="one">1 képernyő az Áttekintés panelen</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">Helytelen a SIM PIN kód; még %d próbálkozása van, mielőtt meg kell adni a PUK kódot (a PIN-feloldó kódot), vagy az eszköz feloldásához fel kell vennie a kapcsolatot a szolgáltatójával.</item>
+        <item quantity="one">Helytelen a SIM PIN kód; még %d próbálkozása van, mielőtt meg kell adni a PUK kódot (a PIN-feloldó kódot), vagy az eszköz feloldásához fel kell vennie a kapcsolatot a szolgáltatójával.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Helytelen PUK kód a SIM kártyához; még %d próbálkozása van, mielőtt a SIM kártya végleg használhatatlan lesz.</item>
+        <item quantity="one">Helytelen PUK kód a SIM kártyához; még %d próbálkozása van, mielőtt a SIM kártya végleg használhatatlan lesz.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">A készülék %d óráig nem volt feloldva. Erősítse meg a mintát.</item>
+        <item quantity="one">A készülék %d óráig nem volt feloldva. Erősítse meg a mintát.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">A készülék %d óráig nem volt feloldva. Erősítse meg a PIN kódot.</item>
+        <item quantity="one">A készülék %d óráig nem volt feloldva. Erősítse meg a PIN kódot.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">A készülék %d óráig nem volt feloldva. Erősítse meg a jelszót.</item>
+        <item quantity="one">A készülék %d óráig nem volt feloldva. Erősítse meg a jelszót.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">Adja meg a SIM kártya PIN-kódját. Még %d kísérletet tehet.</item>
+        <item quantity="one">Adja meg a SIM kártya PIN-kódját. Még %d kísérletet tehet, mielőtt fel kellene vennie a kapcsolatot szolgáltatójával a készülék feloldásához.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">A SIM kártya le van tiltva. A folytatáshoz adja meg a PUK-kódot. Még %d kísérletet tehet, mielőtt a SIM kártya végleg használhatatlan lesz. Részletekért forduljon a szolgáltatójához.</item>
+        <item quantity="one">A SIM kártya le van tiltva. A folytatáshoz adja meg a PUK-kódot. Még %d kísérletet tehet, mielőtt a SIM kártya végleg használhatatlan lesz. Részletekért forduljon a szolgáltatójához.</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_puk_enter_puk_hint_last_attempt_failed">
+        <item quantity="other">Sajnáljuk, a megadott érték nem egyezik meg a PUK kóddal. Adja meg újból a 8 jegyű PUK kódot. További %d lehetősége maradt.</item>
+        <item quantity="one">Sajnáljuk, a megadott érték nem egyezik meg a PUK kóddal. Adja meg újból a 8 jegyű PUK kódot. További %d lehetősége maradt.</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_sim_pin_instructions_last_attempt_failed">
+        <item quantity="other">Sajnáljuk, a megadott érték nem egyezik meg a SIM kártya PIN kódjával. Adja meg újból a 4-8 jegyű PIN kódot. További %d lehetősége maradt.</item>
+        <item quantity="one">Sajnáljuk, a megadott érték nem egyezik meg a SIM kártya PIN kódjával. Adja meg újból a 4-8 jegyű PIN kódot. További %d lehetősége maradt.</item>
+    </plurals>
+</resources>

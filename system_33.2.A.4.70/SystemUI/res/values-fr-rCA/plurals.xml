@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">%d écrans dans Aperçu</item>
+        <item quantity="one">1 écran dans Aperçu</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">NIP de carte SIM incorrect. Il vous reste %d tentatives. Après cela, vous devrez saisir le CPD (code de déverrouillage du NIP) ou communiquer avec votre fournisseur de services pour déverrouiller votre appareil.</item>
+        <item quantity="one">NIP de carte SIM incorrect. Il vous reste %d tentative. Après cela, vous devrez saisir le CPD (code de déverrouillage du NIP) ou communiquer avec votre fournisseur de services pour déverrouiller votre appareil.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">CPD de la carte SIM incorrect. Il vous reste %d tentative(s) avant que votre carte SIM devienne définitivement inutilisable.</item>
+        <item quantity="one">CPD de la carte SIM incorrect. Il vous reste %d tentative(s) avant que votre carte SIM devienne définitivement inutilisable.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">"L'appareil n'a pas été déverrouillé depuis %d heures. Confirmez le schéma."</item>
+        <item quantity="one">"L'appareil n'a pas été déverrouillé depuis %d heure. Confirmez le schéma."</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">"L'appareil n'a pas été déverrouillé depuis %d heures. Confirmez le NIP."</item>
+        <item quantity="one">"L'appareil n'a pas été déverrouillé depuis %d heure. Confirmez le NIP."</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">"L'appareil n'a pas été déverrouillé depuis %d heures. Confirmez le mot de passe."</item>
+        <item quantity="one">"L'appareil n'a pas été déverrouillé depuis %d heure. Confirmez le mot de passe."</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">Entrer le NIP de la carte SIM. Il vous reste %d tentatives.</item>
+        <item quantity="one">Entrez le NIP de la carte SIM. Il vous reste %d tentatives avant de devoir communiquer avec votre fournisseur pour déverrouiller votre appareil.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">La carte SIM est désactivée. Entrez la clé CPD pour continuer. Il vous reste %d tentatives avant que la carte SIM ne devienne inutilisable de façon permanente. Communiquez avec votre fournisseur pour tous les détails.</item>
+        <item quantity="one">La carte SIM est désactivée. Entrez la clé CPD pour continuer. Il vous reste %d tentative avant que la carte SIM ne devienne inutilisable de façon permanente. Communiquez avec votre fournisseur pour tous les détails.</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_puk_enter_puk_hint_last_attempt_failed">
+        <item quantity="other">Désolé, votre entrée ne concorde pas avec le CPD. Veuillez entrer votre CPD à 8 chiffres à nouveau. Il vous reste %d tentative(s).</item>
+        <item quantity="one">Désolé, votre entrée ne concorde pas avec le CPD. Veuillez entrer votre CPD à 8 chiffres à nouveau. Il vous reste %d tentative(s).</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_sim_pin_instructions_last_attempt_failed">
+        <item quantity="other">Désolé, votre entrée ne concorde pas au NIP de la carte SIM. Veuillez entrer votre NIP de 4 à 8 chiffres à nouveau. Il vous reste %d tentative(s).</item>
+        <item quantity="one">Désolé, votre entrée ne concorde pas au NIP de la carte SIM. Il vous reste %d tentative(s).</item>
+    </plurals>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_disabled_wifi_failure">WLAN కనెక్షన్ వైఫల్యం</string>
+    <string name="connected_via_wfa">WLAN సహాయకం ద్వారా కనెక్ట్ చేయబడింది</string>
+    <string name="status_bar_settings_wifi_button">WLAN</string>
+    <string name="accessibility_data_connection_wifi">WLAN</string>
+    <string name="accessibility_quick_settings_wifi_changed_off">వైఫై ఆఫ్ చేయబడింది.</string>
+    <string name="accessibility_quick_settings_wifi_changed_on">వైఫై ఆన్ చేయబడింది.</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">WLAN కనెక్ట్ చేయబడింది</string>
+    <string name="quick_settings_wifi_label">WLAN</string>
+    <string name="quick_settings_wifi_off_label">WLAN ఆఫ్‌లో ఉంది</string>
+    <string name="quick_settings_wifi_detail_empty_text">WLAN నెట్‌వర్క్‌లు ఏవీ అందుబాటులో లేవు</string>
+    <string name="accessibility_quick_settings_detail">శీఘ్ర సెట్టింగ్‌లు, %s.</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_settings_autosync">Автосинхронизация данных</string>
+    <string name="status_bar_settings_mobile_data">Передача мобильных данных</string>
+    <string name="status_bar_settings_settings">Ярлык в меню \"Параметры\"</string>
+    <string name="status_bar_settings_mirroring">Дублирование экрана</string>
+</resources>

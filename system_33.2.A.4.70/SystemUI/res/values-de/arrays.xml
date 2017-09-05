@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="wifi_status">
+        <item></item>
+        <item>Scan läuft…</item>
+        <item>Verbindung wird hergestellt...</item>
+        <item>Authentifizierung...</item>
+        <item>IP-Adresse wird abgerufen...</item>
+        <item>Verbunden</item>
+        <item>Angehalten</item>
+        <item>Verbindung wird getrennt...</item>
+        <item>Nicht verbunden</item>
+        <item>Nicht erfolgreich</item>
+        <item>Blockiert</item>
+        <item>Schlechte Internetverbindung wird vorübergehend vermieden.</item>
+    </string-array>
+    <string-array name="wifi_status_with_ssid">
+        <item></item>
+        <item>Scan läuft…</item>
+        <item>Verbindung mit %1$s wird hergestellt...</item>
+        <item>Authentifizierung mit %1$s...</item>
+        <item>IP-Adresse wird von %1$s abgerufen...</item>
+        <item>Verbunden mit %1$s</item>
+        <item>Angehalten</item>
+        <item>Verbindung mit %1$s wird getrennt...</item>
+        <item>Nicht verbunden</item>
+        <item>Nicht erfolgreich</item>
+        <item>Blockiert</item>
+        <item>Schlechte Internetverbindung wird vorübergehend vermieden.</item>
+    </string-array>
+    <string-array name="telephony_animation_roaming_data_type_sim1">
+        <item>0</item>
+        <item>0</item>
+        <item>drawable/stat_sys_data_fully_connected_e_ani_roam</item>
+        <item>drawable/stat_sys_data_fully_connected_3g_ani_roam</item>
+        <item>drawable/stat_sys_data_fully_connected_1x_ani_roam</item>
+        <item>drawable/stat_sys_data_fully_connected_3g_ani_roam</item>
+        <item>drawable/stat_sys_data_fully_connected_3g_ani_roam</item>
+        <item>drawable/stat_sys_data_fully_connected_1x_ani_roam</item>
+        <item>drawable/stat_sys_data_fully_connected_h_ani_roam</item>
+        <item>drawable/stat_sys_data_fully_connected_h_ani_roam</item>
+        <item>drawable/stat_sys_data_fully_connected_h_ani_roam</item>
+        <item>0</item>
+        <item>drawable/stat_sys_data_fully_connected_3g_ani_roam</item>
+        <item>drawable/stat_sys_data_fully_connected_lte_ani_roam</item>
+        <item>drawable/stat_sys_data_fully_connected_3g_ani_roam</item>
+        <item>drawable/stat_sys_data_fully_connected_h_plus_ani_roam</item>
+        <item>drawable/stat_sys_data_fully_connected_g_ani_roam</item>
+        <item>drawable/stat_sys_data_fully_connected_3g_ani_roam</item>
+        <item>0</item>
+    </string-array>
+</resources>

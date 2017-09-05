@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">%d էկրան Համատեսքում</item>
+        <item quantity="one">1 էկրան Համատեսքում</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">SIM PIN կոդը սխալ է: Մնացել է %d փորձ, որից հետո սարքն ապակողպելու համար դուք պետք է մուտքագրեք PUK-ը (PIN-ի բացման կոդը) կամ դիմեք ծառայությունների մատակարարին:</item>
+        <item quantity="one">SIM PIN կոդը սխալ է: Մնացել է %d փորձ, որից հետո սարքն ապակողպելու համար դուք պետք է մուտքագրեք PUK-ը (PIN-ի բացման կոդը) կամ դիմեք ծառայությունների մատակարարին:</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">SIM PIN կոդը սխալ է: Մնացել է %d փորձ, որից հետո SIM քարտն օգտագործելու համար ոչ պիտանի կդառնա:</item>
+        <item quantity="one">SIM PIN կոդը սխալ է: Մնացել է %d փորձ, որից հետո SIM քարտն օգտագործելու համար ոչ պիտանի կդառնա:</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">Սարքը չի ապակողպվել %d ժամվա ընթացքում: Հաստատեք նախշը:</item>
+        <item quantity="one">Սարքը չի ապակողպվել %d ժամվա ընթացքում: Հաստատեք նախշը:</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">Սարքը չի ապակողպվել %d ժամվա ընթացքում: Հաստատեք PIN կոդը:</item>
+        <item quantity="one">Սարքը չի ապակողպվել %d ժամվա ընթացքում: Հաստատեք PIN կոդը:</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">Սարքը չի ապակողպվել %d ժամվա ընթացքում: Հաստատեք գաղտնաբառը:</item>
+        <item quantity="one">Սարքը չի ապակողպվել %d ժամվա ընթացքում: Հաստատեք գաղտնաբառը:</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">Մուտքագրեք SIM PIN-ը: Մնացել է %d փորձ:</item>
+        <item quantity="one">Մուտքագրեք SIM PIN-ը: Մնացել է %d փորձ, որից հետո պետք է դիմեք ձեր օպերատորին՝ սարքը բացելու համար:</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">SIM քարտը կասեցված է: Շարունակելու համար մուտքագրեք PUK կոդը: Մնացել է %d փորձ, որից հետո SIM-ը օգտագործման համար ոչ պիտանի կդառնա: Մանրամասները ճշտեք օպերատորից:</item>
+        <item quantity="one">SIM քարտը կասեցված է: Շարունակելու համար մուտքագրեք PUK կոդը: Մնացել է %d փորձ, որից հետո SIM-ը օգտագործման համար ոչ պիտանի կդառնա: Մանրամասները ճշտեք օպերատորից:</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_puk_enter_puk_hint_last_attempt_failed">
+        <item quantity="other">Ներեցեք, մուտքագրած արժեքը չի համապատասխանում ձեր PUK կոդին: Կրկին մուտքագրեք 8 թիվ պարունակող PUK կոդը: Մնացել է %d փորձ:</item>
+        <item quantity="one">Ներեցեք, մուտքագրած արժեքը չի համապատասխանում ձեր PUK կոդին: Կրկին մուտքագրեք 8 թիվ պարունակող PUK կոդը: Մնացել է %d փորձ:</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_sim_pin_instructions_last_attempt_failed">
+        <item quantity="other">Ներեցեք, մուտքագրած արժեքը չի համապատասխանում ձեր SIM PIN կոդին: Կրկին մուտքագրեք 4-8 թիվ պարունակող PIN կոդը: Մնացել է %d փորձ:</item>
+        <item quantity="one">Ներեցեք, մուտքագրած արժեքը չի համապատասխանում ձեր SIM PIN կոդին: Կրկին մուտքագրեք 4-8 թիվ պարունակող PIN կոդը: Մնացել է %d փորձ:</item>
+    </plurals>
+</resources>

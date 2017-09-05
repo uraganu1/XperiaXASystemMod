@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_security_wapi_psk">WLAN PSK</string>
+    <string name="wifi_disabled_wifi_failure">Lidhja WLAN dështoi</string>
+    <string name="connected_via_wfa">U lidh nëpërmjet asistentit të WLAN</string>
+    <string name="accessibility_wifi_off">WLAN joaktiv.</string>
+    <string name="accessibility_no_wifi">WLAN u shkëput.</string>
+    <string name="accessibility_wifi_one_bar">WLAN me një shirit.</string>
+    <string name="accessibility_wifi_two_bars">WLAN me dy shirita.</string>
+    <string name="accessibility_wifi_three_bars">WLAN me tre shirita.</string>
+    <string name="accessibility_wifi_signal_full">WLAN me sinjal të plotë.</string>
+    <string name="quick_settings_wifi_scanning_label">WLAN: duke skanuar</string>
+    <string name="quick_settings_wifi_connecting_label">WLAN: duke u lidhur</string>
+    <string name="toast_message_not_allow_turn_on_hotspot">Zona e internetit me valë WLAN e padisponueshme në regjimin në aeroplan</string>
+    <string name="status_bar_settings_wifi_button">WLAN</string>
+    <string name="accessibility_data_connection_wifi">WLAN</string>
+    <string name="accessibility_quick_settings_wifi_changed_off">WLAN u çaktivizua</string>
+    <string name="accessibility_quick_settings_wifi_changed_on">WLAN u aktivizua</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">WLAN u lidh</string>
+    <string name="quick_settings_wifi_label">WLAN</string>
+    <string name="quick_settings_wifi_off_label">WLAN joaktiv</string>
+    <string name="quick_settings_wifi_detail_empty_text">Nuk ka asnjë rrjet WLAN të disponueshëm</string>
+    <string name="accessibility_quick_settings_detail">Cilësimet e shpejta, %s.</string>
+    <string name="wifi_security_short_wapi_cert">WLAN CERT</string>
+    <string name="wifi_security_short_wapi_psk">WLAN PSK</string>
+    <string name="wifi_security_wapi_cert">WLAN CERT</string>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">%d ülevaatamisel kuva</item>
+        <item quantity="one">1 ülevaatamisel kuva</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">SIM-kaardi vale PIN-kood. Saate üritada veel %d korda, enne kui peate seadme avamiseks sisestama PUK-koodi (PIN-koodi avamiseks) või pöörduma teenusepakkuja poole.</item>
+        <item quantity="one">SIM-kaardi vale PIN-kood. Saate üritada veel %d korra, enne kui peate seadme avamiseks sisestama PUK-koodi (PIN-koodi avamiseks) või pöörduma teenusepakkuja poole.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">SIM-kaardi vale PUK-kood. Saate veel %d korda proovida enne, kui SIM-kaart muutub jäädavalt kasutamatuks.</item>
+        <item quantity="one">SIM-kaardi vale PUK-kood. Saate veel %d kord proovida enne, kui SIM-kaart muutub jäädavalt kasutamatuks.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">Seadet pole %d tunni jooksul avatud. Kinnita mustrit.</item>
+        <item quantity="one">Seadet pole %d tunni jooksul avatud. Kinnita mustrit.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">Seadet pole %d tunni jooksul avatud. Kinnita PIN-koodi.</item>
+        <item quantity="one">Seadet pole %d tunni jooksul avatud. Kinnita PIN-koodi.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">Seadet pole %d tunni jooksul avatud. Kinnita parooli.</item>
+        <item quantity="one">Seadet pole %d tunni jooksul avatud. Kinnita parooli.</item>
+    </plurals>
+</resources>

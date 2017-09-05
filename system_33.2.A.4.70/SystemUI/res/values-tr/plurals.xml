@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">Genel Bakışta %d ekran</item>
+        <item quantity="one">Genel Bakışta 1 ekran</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">Yanlış SIM PIN kodu. Cihazınızın kilidini açmak için PUK kodunuzu (PIN kilidini açma kodu) girmek veya servis sağlayıcınıza başvurmak zorunda kalmadan önce %d deneme hakkınız kaldı.</item>
+        <item quantity="one">Yanlış SIM PIN kodu. Cihazınızın kilidini açmak için PUK kodunuzu (PIN kilidini açma kodu) girmek veya servis sağlayıcınıza başvurmak zorunda kalmadan önce %d deneme hakkınız kaldı.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Yanlış SIM PUK kodu. SIM kalıcı olarak kullanılamaz hale gelmeden önce %d deneme hakkınız kaldı.</item>
+        <item quantity="one">Yanlış SIM PUK kodu. SIM kalıcı olarak kullanılamaz hale gelmeden önce %d deneme hakkınız kaldı.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">Cihaz kilidi %d saat boyunca açılmadı. Düzeni onaylayın.</item>
+        <item quantity="one">Cihaz kilidi %d saat boyunca açılmadı. Düzeni onaylayın.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">"Cihaz kilidi %d saat boyunca açılmadı. PIN'i onaylayın."</item>
+        <item quantity="one">"Cihaz kilidi %d saat boyunca açılmadı. PIN'i onaylayın."</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">Cihaz kilidi %d saat boyunca açılmadı. Parolayı onaylayın.</item>
+        <item quantity="one">Cihaz kilidi %d saat boyunca açılmadı. Parolayı onaylayın.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">SIM PIN kodunu girin, %d deneme hakkınız kaldı.</item>
+        <item quantity="one">SIM PIN kodunu girin; cihazınızın kilidini açmak için operatörünüz ile iletişim kurmadan önce %d deneme hakkınız kaldı.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">SIM şu anda devre dışı bırakıldı. Devam etmek için PUK kodunu girin. SIM kalıcı olarak devre dışı olmadan önce %d deneme hakkınız kaldı. Ayrıntılar için operatörünüze başvurun.</item>
+        <item quantity="one">SIM şu anda devre dışı bırakıldı. Devam etmek için PUK kodunu girin. SIM kalıcı olarak devre dışı olmadan önce %d deneme hakkınız kaldı. Ayrıntılar için operatörünüze başvurun.</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_puk_enter_puk_hint_last_attempt_failed">
+        <item quantity="other">Üzgünüz, girişiniz PUK kodu ile eşleşmiyor. Lütfen 8 haneli PUK kodunuzu yeniden girin. %d şansınız daha var.</item>
+        <item quantity="one">Üzgünüz, girişiniz PUK kodu ile eşleşmiyor. Lütfen 8 haneli PUK kodunuzu yeniden girin. %d şansınız daha var.</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_sim_pin_instructions_last_attempt_failed">
+        <item quantity="other">"Üzgünüz, girişiniz SIM PIN ile eşleşmiyor. Lütfen 4-8 haneli PIN'inizi yeniden girin. %d şansınız daha var."</item>
+        <item quantity="one">"Üzgünüz, girişiniz SIM PIN ile eşleşmiyor. Lütfen 4-8 haneli PIN'inizi girin. %d şansınız daha var."</item>
+    </plurals>
+</resources>

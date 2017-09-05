@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_security_wapi_psk">WLAN PSK</string>
+    <string name="wifi_disabled_wifi_failure">Kegagalan Sambungan WLAN</string>
+    <string name="connected_via_wfa">Disambungkan melalui Pembantu WLAN</string>
+    <string name="accessibility_wifi_off">WLAN mati.</string>
+    <string name="accessibility_no_wifi">WLAN terputus sambungan.</string>
+    <string name="accessibility_wifi_one_bar">WLAN satu bar.</string>
+    <string name="accessibility_wifi_two_bars">WLAN dua bar.</string>
+    <string name="accessibility_wifi_three_bars">WLAN tiga bar.</string>
+    <string name="accessibility_wifi_signal_full">Isyarat WLAN penuh.</string>
+    <string name="quick_settings_wifi_scanning_label">WLAN: Mengimbas</string>
+    <string name="quick_settings_wifi_connecting_label">WLAN: Menyambung</string>
+    <string name="toast_message_not_allow_turn_on_hotspot">Hotspot WLAN tidak tersedia dalam mod pesawat</string>
+    <string name="status_bar_settings_wifi_button">WLAN</string>
+    <string name="accessibility_data_connection_wifi">WLAN</string>
+    <string name="accessibility_quick_settings_wifi_changed_off">WLAN dimatikan</string>
+    <string name="accessibility_quick_settings_wifi_changed_on">WLAN dihidupkan</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">WLAN disambungkan</string>
+    <string name="quick_settings_wifi_label">WLAN</string>
+    <string name="quick_settings_wifi_off_label">WLAN Dimatikan</string>
+    <string name="quick_settings_wifi_detail_empty_text">Tiada rangkaian WLAN tersedia</string>
+    <string name="quick_settings_hotspot_label">Hotspot WLAN</string>
+    <string name="accessibility_quick_settings_detail">Tetapan Pantas, %s.</string>
+    <string name="wifi_security_short_wapi_cert">WLAN CERT</string>
+    <string name="wifi_security_short_wapi_psk">WLAN PSK</string>
+    <string name="wifi_security_wapi_cert">WLAN CERT</string>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_security_wapi_psk">WLAN PSK</string>
+    <string name="wifi_disabled_wifi_failure">„WLAN“ ryšio triktis</string>
+    <string name="connected_via_wfa">Prisijungta naudojant „WLAN“ pagelbiklį</string>
+    <string name="accessibility_wifi_off">„WLAN“ išjungtas.</string>
+    <string name="accessibility_no_wifi">„WLAN“ atjungtas.</string>
+    <string name="accessibility_wifi_one_bar">„WLAN“ – viena padala.</string>
+    <string name="accessibility_wifi_two_bars">„WLAN“ – dvi padalos.</string>
+    <string name="accessibility_wifi_three_bars">„WLAN“ – trys padalos.</string>
+    <string name="accessibility_wifi_signal_full">„WLAN“ – stiprus signalas.</string>
+    <string name="quick_settings_wifi_scanning_label">„WLAN“: nuskaitoma</string>
+    <string name="quick_settings_wifi_connecting_label">„WLAN“: prisijungiama</string>
+    <string name="toast_message_not_allow_turn_on_hotspot">„WLAN“ prieigos taškas nepasiekiamas skrydžio režimu</string>
+    <string name="status_bar_settings_wifi_button">WLAN</string>
+    <string name="accessibility_data_connection_wifi">WLAN</string>
+    <string name="accessibility_quick_settings_wifi_changed_off">„WLAN“ ryšys išjungtas</string>
+    <string name="accessibility_quick_settings_wifi_changed_on">„WLAN“ ryšys išjungtas</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">Prisij. prie „WLAN“</string>
+    <string name="quick_settings_wifi_label">WLAN</string>
+    <string name="quick_settings_wifi_off_label">„WLAN“ išjungtas</string>
+    <string name="quick_settings_wifi_detail_empty_text">Nėra pasiekiamų „WLAN“ tinklų</string>
+    <string name="accessibility_quick_settings_detail">Spartieji nustatymai, „%s“.</string>
+    <string name="wifi_security_short_wapi_cert">WLAN CERT</string>
+    <string name="wifi_security_short_wapi_psk">WLAN PSK</string>
+    <string name="wifi_security_wapi_cert">WLAN CERT</string>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">ਸਾਰ ਵਿੱਚ %d ਸਕ੍ਰੀਨਾਂ</item>
+        <item quantity="one">ਸਾਰ ਵਿੱਚ 1 ਸਕ੍ਰੀਨ</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">ਗਲਤ ਸਿਮ PIN ਕੋਡ, ਤੁਹਾਡੇ ਕੋਲ ਆਪਣੇ ਉਪਕਰਣ ਨੂੰ ਅਨਲੌਕ ਕਰਨ ਲਈ ਆਪਣਾ PUK ਕੋਡ (PIN ਅਨਲੌਕ ਕੋਡ) ਦੇਣ ਜਾਂ ਆਪਣੇ ਸੇਵਾ ਪ੍ਰਦਾਤਾ ਨਾਲ ਸੰਪਰਕ ਕਰਨਾ ਜ਼ਰੂਰੀ ਹੋਣ ਤੋਂ ਪਹਿਲਾਂ %d ਕੋਸ਼ਸ਼ਾਂ ਬਾਕੀ ਹਨ।</item>
+        <item quantity="one">ਗਲਤ ਸਿਮ PIN ਕੋਡ, ਤੁਹਾਡੇ ਕੋਲ ਆਪਣੇ ਉਪਕਰਣ ਨੂੰ ਅਨਲੌਕ ਕਰਨ ਲਈ ਆਪਣਾ PUK ਕੋਡ (PIN ਅਨਲੌਕ ਕੋਡ) ਦੇਣ ਜਾਂ ਆਪਣੇ ਸੇਵਾ ਪ੍ਰਦਾਤਾ ਨਾਲ ਸੰਪਰਕ ਕਰਨਾ ਜ਼ਰੂਰੀ ਹੋਣ ਤੋਂ ਪਹਿਲਾਂ %d ਕੋਸ਼ਸ਼ ਬਾਕੀ ਹੈ।</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">"ਗਲਤ ਸਿਮ PUK ਕੋਡ, ਸਿਮ ਦੇ ਪੱਕੇ ਤੌਰ 'ਤੇ ਨਾ-ਵਰਤੋਂਯੋਗ ਬਣਨ ਤੋਂ ਪਹਿਲਾਂ ਤੁਹਾਡੇ ਕੋਲ %d ਕੋਸ਼ਸ਼ਾਂ ਬਾਕੀ ਹਨ।"</item>
+        <item quantity="one">"ਗਲਤ ਸਿਮ PUK ਕੋਡ, ਸਿਮ ਦੇ ਪੱਕੇ ਤੌਰ 'ਤੇ ਨਾ-ਵਰਤੋਂਯੋਗ ਬਣਨ ਤੋਂ ਪਹਿਲਾਂ ਤੁਹਾਡੇ ਕੋਲ %d ਕੋਸ਼ਸ਼ਾਂ ਬਾਕੀ ਹਨ।"</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">ਉਪਕਰਣ ਨੂੰ %d ਘੰਟਿਆਂ ਤੱਕ ਅਨਲੌਕ ਨਹੀਂ ਕੀਤਾ ਗਿਆ ਹੈ। ਪੈਟਰਨ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ।</item>
+        <item quantity="one">ਉਪਕਰਣ ਨੂੰ %d ਘੰਟੇ ਤੱਕ ਅਨਲੌਕ ਨਹੀਂ ਕੀਤਾ ਗਿਆ ਹੈ। ਪੈਟਰਨ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ।</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">ਉਪਕਰਣ ਨੂੰ %d ਘੰਟਿਆਂ ਤੱਕ ਅਨਲੌਕ ਨਹੀਂ ਕੀਤਾ ਗਿਆ ਹੈ। PIN ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ।</item>
+        <item quantity="one">ਉਪਕਰਣ ਨੂੰ %d ਘੰਟੇ ਤੱਕ ਅਨਲੌਕ ਨਹੀਂ ਕੀਤਾ ਗਿਆ ਹੈ। PIN ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ।</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">ਉਪਕਰਣ ਨੂੰ %d ਘੰਟਿਆਂ ਤੱਕ ਅਨਲੌਕ ਨਹੀਂ ਕੀਤਾ ਗਿਆ ਹੈ। ਪਾਸਵਰਡ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ।</item>
+        <item quantity="one">ਉਪਕਰਣ ਨੂੰ %d ਘੰਟੇ ਤੱਕ ਅਨਲੌਕ ਨਹੀਂ ਕੀਤਾ ਗਿਆ ਹੈ। ਪਾਸਵਰਡ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ।</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">ਆਪਣਾ ਸਿਮ PIN ਦਰਜ ਕਰੋ, ਤੁਹਾਡੇ ਕੋਲ %d ਕੋਸ਼ਸ਼ਾਂ ਬਾਕੀ ਹਨ।</item>
+        <item quantity="one">ਆਪਣਾ ਸਿਮ PIN ਦਰਜ ਕਰੋ, ਆਪਣੇ ਉਪਕਰਣ ਨੂੰ ਅਨਲੌਕ ਕਰਨ ਲਈ ਆਪਣੇ ਕੈਰੀਅਰ ਨਾਲ ਸੰਪਰਕ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਤੁਹਾਡੇ ਕੋਲ %d ਕੋਸ਼ਸ਼ ਬਾਕੀ ਹੈ।</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">ਸਿਮ ਹੁਣ ਅਯੋਗ ਬਣਾਇਆ। ਜਾਰੀ ਰੱਖਣ ਲਈ PUK ਕੋਡ ਦਰਜ ਕਰੋ। ਸਿਮ ਦੇ ਪੱਕੇ ਤੌਰ ਉੱਤੇ ਨਾ-ਵਰਤੋਯੋਗ ਬਣਨ ਤੋਂ ਪਹਿਲਾਂ ਤੁਹਾਡੇ ਕੋਲ %d ਕੋਸ਼ਸ਼ਾਂ ਬਾਕੀ ਹਨ। ਵੇਰਵੇ ਲਈ ਕੈਰੀਅਰ ਨਾਲ ਸੰਪਰਕ ਕਰੋ।</item>
+        <item quantity="one">ਸਿਮ ਹੁਣ ਅਯੋਗ ਬਣਾਇਆ। ਜਾਰੀ ਰੱਖਣ ਲਈ PUK ਕੋਡ ਦਰਜ ਕਰੋ। ਸਿਮ ਦੇ ਪੱਕੇ ਤੌਰ ਉੱਤੇ ਨਾ-ਵਰਤੋਯੋਗ ਬਣਨ ਤੋਂ ਪਹਿਲਾਂ ਤੁਹਾਡੇ ਕੋਲ %d ਕੋਸ਼ਸ਼ ਬਾਕੀ ਹੈ। ਵੇਰਵੇ ਲਈ ਕੈਰੀਅਰ ਨਾਲ ਸੰਪਰਕ ਕਰੋ।</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_puk_enter_puk_hint_last_attempt_failed">
+        <item quantity="other">ਮੁਆਫ ਕਰਨਾ, ਤੁਹਾਡਾ ਇੰਦਰਾਜ PUK ਕੋਡ ਨਾਲ ਮੇਲ ਨਹੀਂ ਖਾਂਦਾ। ਕਿਰਪਾ ਕਰਕੇ ਆਪਣਾ 8-ਅੰਕਾਂ ਦਾ PUK ਕੋਡ ਮੁੜ ਦਰਜ ਕਰੋ। ਤੁਹਾਡੇ ਕੋਲ %d ਹੋਰ ਮੌਕੇ ਹਨ।</item>
+        <item quantity="one">ਮੁਆਫ ਕਰਨਾ, ਤੁਹਾਡਾ ਇੰਦਰਾਜ PUK ਕੋਡ ਨਾਲ ਮੇਲ ਨਹੀਂ ਖਾਂਦਾ। ਕਿਰਪਾ ਕਰਕੇ ਆਪਣਾ 8-ਅੰਕਾਂ ਦਾ ਸਿਮ PUK ਕੋਡ ਮੁੜ ਦਰਜ ਕਰੋ। ਤੁਹਾਡੇ ਕੋਲ %d ਹੋਰ ਮੌਕੇ ਹਨ।</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_sim_pin_instructions_last_attempt_failed">
+        <item quantity="other">ਮੁਆਫ ਕਰਨਾ, ਤੁਹਾਡਾ ਇੰਦਰਾਜ ਸਿਮ PIN ਨਾਲ ਮੇਲ ਨਹੀਂ ਖਾਂਦਾ। ਕਿਰਪਾ ਕਰਕੇ ਆਪਣਾ 4-8 ਅੰਕਾਂ ਦਾ PIN ਕੋਡ ਮੁੜ ਦਰਜ ਕਰੋ। ਤੁਹਾਡੇ ਕੋਲ %d ਹੋਰ ਮੌਕੇ ਹਨ।</item>
+        <item quantity="one">ਮੁਆਫ ਕਰਨਾ, ਤੁਹਾਡਾ ਇੰਦਰਾਜ ਸਿਮ PIN ਨਾਲ ਮੇਲ ਨਹੀਂ ਖਾਂਦਾ। ਕਿਰਪਾ ਕਰਕੇ ਆਪਣਾ 4-8 ਅੰਕਾਂ ਦਾ PIN ਕੋਡ ਮੁੜ ਦਰਜ ਕਰੋ। ਤੁਹਾਡੇ ਕੋਲ %d ਹੋਰ ਮੌਕੇ ਹਨ।</item>
+    </plurals>
+</resources>

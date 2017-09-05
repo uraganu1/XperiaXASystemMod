@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="navigation_key_outer_margin">30.0dip</dimen>
+    <dimen name="navigation_key_outer_margin_lights_out">70.0dip</dimen>
+</resources>

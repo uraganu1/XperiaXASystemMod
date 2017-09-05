@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_security_wapi_psk">WLAN PSK</string>
+    <string name="wifi_disabled_wifi_failure">Selhání připojení WLAN</string>
+    <string name="connected_via_wfa">Připojeno pomocí asistenta připojení WLAN</string>
+    <string name="accessibility_wifi_off">WLAN vypnuta</string>
+    <string name="accessibility_no_wifi">WLAN odpojena</string>
+    <string name="accessibility_wifi_one_bar">WLAN jedna čárka</string>
+    <string name="accessibility_wifi_two_bars">WLAN dvě čárky</string>
+    <string name="accessibility_wifi_three_bars">WLAN tři čárky</string>
+    <string name="accessibility_wifi_signal_full">WLAN plný signál</string>
+    <string name="quick_settings_wifi_scanning_label">WLAN: vyhledávání</string>
+    <string name="quick_settings_wifi_connecting_label">WLAN: připojování</string>
+    <string name="toast_message_not_allow_turn_on_hotspot">Přístupový bod WLAN není v režimu Letadlo k dispozici</string>
+    <string name="status_bar_settings_wifi_button">WLAN</string>
+    <string name="accessibility_data_connection_wifi">WLAN</string>
+    <string name="accessibility_quick_settings_wifi_changed_off">WLAN vypnuta</string>
+    <string name="accessibility_quick_settings_wifi_changed_on">WLAN zapnuta</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">WLAN: připojeno</string>
+    <string name="quick_settings_wifi_label">WLAN</string>
+    <string name="quick_settings_wifi_off_label">WLAN vypnuto</string>
+    <string name="quick_settings_wifi_detail_empty_text">Žádné sítě WLAN nejsou k dispozici</string>
+    <string name="accessibility_quick_settings_detail">Rychlé nastavení %s.</string>
+    <string name="wifi_security_short_wapi_cert">WLAN CERT</string>
+    <string name="wifi_security_short_wapi_psk">WLAN PSK</string>
+    <string name="wifi_security_wapi_cert">WLAN CERT</string>
+</resources>

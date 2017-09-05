@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_settings_autorotate">Автоматично повертати екран</string>
+    <string name="status_bar_settings_autosync">Автосинхронізація даних</string>
+    <string name="status_bar_settings_mobile_data">Трафік мобільних даних</string>
+    <string name="status_bar_settings_settings">Ярлик для меню «Установки»</string>
+    <string name="status_bar_settings_mirroring">Віддзеркалення екрана</string>
+</resources>

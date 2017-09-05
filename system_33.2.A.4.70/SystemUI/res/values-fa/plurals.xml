@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">‏%d صفحه در نمای کلی</item>
+        <item quantity="one">۱ صفحه در نمای کلی</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">کد پین سیم کارت اشتباه است، %d بار دیگر می‌توانید تلاش کنید و پس از آن برای گشودن قفل دستگاهتان باید کد PUK (کد بازگشایی قفل پین) را وارد کنید یا با ارائه دهنده خدمات تماس بگیرید.</item>
+        <item quantity="one">کد پین سیم کارت اشتباه است، %d بار دیگر می‌توانید تلاش کنید و پس از آن برای گشودن قفل دستگاهتان باید کد PUK (بازگشایی قفل پین) را وارد کنید یا با ارائه‌دهنده خدمات تماس بگیرید.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">‏کد PUK سیم کارت اشتباه است، %d بار دیگر می‌توانید تلاش کنید و پس از آن سیم کارت به طور دائم غیر قابل استفاده می‌شود.</item>
+        <item quantity="one">‏کد PUK سیم کارت اشتباه است، %d بار دیگر می‌توانید تلاش کنید و پس از آن سیم کارت به صورت دائم غیر قابل استفاده می‌شود.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">قفل دستگاه به مدت %d ساعت باز نشده است. الگو را تأیید کنید.</item>
+        <item quantity="one">قفل دستگاه به مدت %d ساعت باز نشده است. الگو را تأیید کنید.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">قفل دستگاه به مدت %d ساعت باز نشده است. پین را تأیید کنید.</item>
+        <item quantity="one">قفل دستگاه به مدت %d ساعت باز نشده است. پین را تأیید کنید.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">قفل دستگاه به مدت %d ساعت باز نشده است. گذرواژه را تأیید کنید.</item>
+        <item quantity="one">قفل دستگاه به مدت %d ساعت باز نشده است. گذرواژه را تأیید کنید.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">پین سیم‌کارت را وارد کنید، %d بار دیگر می‌توانید تلاش کنید.</item>
+        <item quantity="one">پین سیم کارت را وارد کنید، %d بار دیگر می‌توانید تلاش کنید و پس از آن باید برای قفل‌گشایی دستگاهتان با شبکه مخابراتی تماس بگیرید.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">سیم کارت اکنون غیرفعال است. برای ادامه کد PUK‌ را وارد کنید. %d بار دیگر می‌توانید تلاش کنید و پس از آن سیم کارت برای همیشه غیرقابل استفاده می‌شود. لطفاً برای اطلاعات کاملتر با شبکه مخابراتی تماس بگیرید.</item>
+        <item quantity="one">سیم کارت اکنون غیرفعال است. برای ادامه کد PUK‌ را وارد کنید. %d بار دیگر می‌توانید تلاش کنید و پس از آن سیم کارت برای همیشه غیرقابل استفاده می‌شود. لطفاً برای اطلاعات کاملتر با شبکه مخابراتی تماس بگیرید.</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_puk_enter_puk_hint_last_attempt_failed">
+        <item quantity="other">متأسفیم، ورودی با کد PUK سیم کارت مطابقت ندارد. لطفاً کد PUK ۸ رقمی را وارد کنید. %d بار دیگر می توانید تلاش کنید.</item>
+        <item quantity="one">متأسفیم، ورودی با کد PUK سیم کارت مطابقت ندارد. لطفاً کد PUK ۸ رقمی را وارد کنید. %d بار دیگر می توانید تلاش کنید.</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_sim_pin_instructions_last_attempt_failed">
+        <item quantity="other">متأسفیم، ورودی با پین کد سیم کارت مطابقت ندارد. لطفاً پین کد ۴ تا ۸ رقمی را وارد کنید. %d بار دیگر می توانید تلاش کنید.</item>
+        <item quantity="one">متأسفیم، ورودی با پین کد سیم کارت مطابقت ندارد. لطفاً پین کد ۴ تا ۸ رقمی را وارد کنید. %d بار دیگر می توانید تلاش کنید.</item>
+    </plurals>
+</resources>

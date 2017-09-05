@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">%d ülevaatamisel kuva</item>
+        <item quantity="one">1 ülevaatamisel kuva</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">SIM-kaardi vale PIN-kood. Saate üritada veel %d korda, enne kui peate seadme avamiseks sisestama PUK-koodi (PIN-koodi avamiseks) või pöörduma teenusepakkuja poole.</item>
+        <item quantity="one">SIM-kaardi vale PIN-kood. Saate üritada veel %d korra, enne kui peate seadme avamiseks sisestama PUK-koodi (PIN-koodi avamiseks) või pöörduma teenusepakkuja poole.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">SIM-kaardi vale PUK-kood. Saate veel %d korda proovida enne, kui SIM-kaart muutub jäädavalt kasutamatuks.</item>
+        <item quantity="one">SIM-kaardi vale PUK-kood. Saate veel %d kord proovida enne, kui SIM-kaart muutub jäädavalt kasutamatuks.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">Seadet pole %d tunni jooksul avatud. Kinnita mustrit.</item>
+        <item quantity="one">Seadet pole %d tunni jooksul avatud. Kinnita mustrit.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">Seadet pole %d tunni jooksul avatud. Kinnita PIN-koodi.</item>
+        <item quantity="one">Seadet pole %d tunni jooksul avatud. Kinnita PIN-koodi.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">Seadet pole %d tunni jooksul avatud. Kinnita parooli.</item>
+        <item quantity="one">Seadet pole %d tunni jooksul avatud. Kinnita parooli.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">Sisestage SIM-i PIN. Teil on jäänud %d katse(t).</item>
+        <item quantity="one">Sisestage SIM-i PIN. Teil on jäänud %d katse(t), kuni peate seadme avamiseks võtma ühendust oma operaatoriga.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">SIM on nüüd keelatud. Jätkamiseks sisestage PUK-kood. Teil on jäänud %d katse(t), kuni SIM muutub lõplikult kasutuskõlbmatuks. Lisateabe saamiseks võtke ühendust operaatoriga.</item>
+        <item quantity="one">SIM on nüüd keelatud. Jätkamiseks sisestage PUK-kood. Teil on jäänud %d katse(t), kuni SIM muutub lõplikult kasutuskõlbmatuks. Lisateabe saamiseks võtke ühendust operaatoriga.</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_puk_enter_puk_hint_last_attempt_failed">
+        <item quantity="other">Kahjuks ei vasta sisestus PUK-koodile. Sisestage 8-numbriline PUK-kood uuesti. Saate proovida veel %d korda.</item>
+        <item quantity="one">Kahjuks ei vasta sisestus PUK-koodile. Sisestage 8-numbriline PUK-kood uuesti. Saate proovida veel %d kord.</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_sim_pin_instructions_last_attempt_failed">
+        <item quantity="other">Kahjuks ei vasta sisestus SIM-kaardi PIN-koodile. Sisestage 4- kuni 8-numbriline PIN-kood uuesti. Saate proovida veel %d korda.</item>
+        <item quantity="one">Kahjuks ei vasta sisestus SIM-kaardi PIN-koodile. Sisestage 4- kuni 8-numbriline PIN-kood uuesti. Saate proovida veel %d kord.</item>
+    </plurals>
+</resources>

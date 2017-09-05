@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_settings_autorotate">Scherm automatisch draaien</string>
+    <string name="status_bar_settings_autosync">Gegevens automatisch synchroniseren</string>
+    <string name="status_bar_settings_settings">Snelkoppeling naar Instellingen</string>
+</resources>

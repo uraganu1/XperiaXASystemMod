@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_settings_autorotate">Tự động xoay màn hình</string>
+    <string name="status_bar_settings_autosync">Tự động đồng bộ hoá dữ liệu</string>
+    <string name="status_bar_settings_mobile_data">Lưu lượng dữ liệu di động</string>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_settings_autosync">Sjálfvirk samstilling gagna</string>
+    <string name="status_bar_settings_mobile_data">Umferð gagnatengingar</string>
+</resources>

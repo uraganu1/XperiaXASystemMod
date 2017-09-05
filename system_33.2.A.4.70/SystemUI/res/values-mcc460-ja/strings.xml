@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_security_wapi_psk">WLAN PSK</string>
+    <string name="wifi_disabled_wifi_failure">WLAN接続エラー</string>
+    <string name="connected_via_wfa">WLANアシスタント経由で接続</string>
+    <string name="accessibility_wifi_off">WLANはOFFです。</string>
+    <string name="accessibility_no_wifi">WLANが切断されました。</string>
+    <string name="accessibility_wifi_one_bar">WLAN電波: レベル1</string>
+    <string name="accessibility_wifi_two_bars">WLAN電波: レベル2</string>
+    <string name="accessibility_wifi_three_bars">WLAN電波: レベル3</string>
+    <string name="accessibility_wifi_signal_full">WLAN電波: フル</string>
+    <string name="quick_settings_wifi_scanning_label">WLAN: スキャン中</string>
+    <string name="quick_settings_wifi_connecting_label">WLAN: 接続中</string>
+    <string name="toast_message_not_allow_turn_on_hotspot">機内モードではWLANテザリングは利用できません</string>
+    <string name="status_bar_settings_wifi_button">WLAN</string>
+    <string name="accessibility_data_connection_wifi">WLAN</string>
+    <string name="accessibility_quick_settings_wifi_changed_off">WLANがOFFになりました</string>
+    <string name="accessibility_quick_settings_wifi_changed_on">WLANがONになりました</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">WLAN接続済み</string>
+    <string name="quick_settings_wifi_label">WLAN</string>
+    <string name="quick_settings_wifi_off_label">WLAN OFF</string>
+    <string name="quick_settings_wifi_detail_empty_text">WLANネットワークを利用できません</string>
+    <string name="accessibility_quick_settings_detail">クイック設定、%s。</string>
+    <string name="wifi_security_short_wapi_cert">WLAN CERT</string>
+    <string name="wifi_security_short_wapi_psk">WLAN PSK</string>
+    <string name="wifi_security_wapi_cert">WLAN CERT</string>
+</resources>

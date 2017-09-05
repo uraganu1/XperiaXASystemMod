@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_settings_autorotate">സ്വയം തിരിയല്‍ സ്ക്രീന്‍</string>
+    <string name="status_bar_settings_autosync">യാന്ത്രിക സമന്വയ ഡാറ്റ</string>
+    <string name="status_bar_settings_mobile_data">മൊബൈല്‍ ഡാറ്റ ട്രാഫിക്</string>
+    <string name="status_bar_settings_settings">ക്രമീകരണങ്ങളിലേക്ക് കുറുക്കുവഴികള്‍</string>
+</resources>

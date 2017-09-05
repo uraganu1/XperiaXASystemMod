@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_security_wapi_psk">WLAN PSK</string>
+    <string name="wifi_disabled_wifi_failure">WLAN కనెక్షన్ వైఫల్యం</string>
+    <string name="connected_via_wfa">WLAN సహాయకం ద్వారా కనెక్ట్ చేయబడింది</string>
+    <string name="accessibility_wifi_off">WLAN ఆఫ్‌లో ఉంది.</string>
+    <string name="accessibility_no_wifi">WLAN డిస్‌కనెక్ట్ చేయబడింది.</string>
+    <string name="accessibility_wifi_one_bar">WLAN ఒక బార్ ఉంది.</string>
+    <string name="accessibility_wifi_two_bars">WLAN రెండు బార్లు ఉన్నాయి.</string>
+    <string name="accessibility_wifi_three_bars">WLAN మూడు బార్లు ఉన్నాయి.</string>
+    <string name="accessibility_wifi_signal_full">WLAN సిగ్నల్ పూర్తిగా ఉంది.</string>
+    <string name="quick_settings_wifi_scanning_label">WLAN: స్కాన్ చేస్తోంది</string>
+    <string name="quick_settings_wifi_connecting_label">WLAN: కనెక్ట్ చేస్తోంది</string>
+    <string name="toast_message_not_allow_turn_on_hotspot">ఎయిర్ ప్లేన్ విధానములో WLAN hotspot అందుబాటులో లేదు</string>
+    <string name="status_bar_settings_wifi_button">WLAN</string>
+    <string name="accessibility_data_connection_wifi">WLAN</string>
+    <string name="accessibility_quick_settings_wifi_changed_off">WLAN ఆఫ్ అయ్యింది</string>
+    <string name="accessibility_quick_settings_wifi_changed_on">WLAN ఆన్ అయ్యింది</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">WLAN కనెక్ట్ చేయబడింది</string>
+    <string name="quick_settings_wifi_label">WLAN</string>
+    <string name="quick_settings_wifi_off_label">WLAN ఆఫ్</string>
+    <string name="quick_settings_wifi_detail_empty_text">WLAN నెట్‌వర్క్‌లు ఏవీ అందుబాటులో లేవు</string>
+    <string name="accessibility_quick_settings_detail">శీఘ్ర సెట్టింగ్‌లు, %s.</string>
+    <string name="wifi_security_short_wapi_cert">WLAN CERT</string>
+    <string name="wifi_security_short_wapi_psk">WLAN PSK</string>
+    <string name="wifi_security_wapi_cert">WLAN CERT</string>
+</resources>

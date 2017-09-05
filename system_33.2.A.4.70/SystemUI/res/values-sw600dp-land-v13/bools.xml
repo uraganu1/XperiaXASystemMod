@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="somc_qs_is_tablet">true</bool>
+    <bool name="somc_keyguard_use_default_clock">false</bool>
+</resources>

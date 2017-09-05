@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_disabled_wifi_failure">வைஃபை இணைப்பில் தோல்வி</string>
+    <string name="status_bar_settings_wifi_button">வைஃபை</string>
+    <string name="accessibility_data_connection_wifi">வைஃபை</string>
+    <string name="accessibility_quick_settings_wifi_changed_off">வைஃபை முடக்கப்பட்டது.</string>
+    <string name="accessibility_quick_settings_wifi_changed_on">வைஃபை இயக்கப்பட்டது.</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">வைஃபை இணைக்கப்பட்டது</string>
+    <string name="quick_settings_wifi_label">வைஃபை</string>
+    <string name="quick_settings_wifi_off_label">வைஃபையை முடக்கு</string>
+    <string name="quick_settings_wifi_detail_empty_text">வைஃபை நெட்வொர்க்குகள் இல்லை</string>
+    <string name="accessibility_quick_settings_detail">விரைவு அமைப்புகள், %s.</string>
+</resources>

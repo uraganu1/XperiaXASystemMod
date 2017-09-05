@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">%d個概覽模式中的螢幕</item>
+        <item quantity="one">1個概覽模式中的螢幕</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">SIM卡PIN碼不正確，您剩下%d次機會輸入。如果仍然輸入錯誤，您必須輸入PUK（PIN解鎖碼）或聯絡您的服務供應商以將裝置解鎖。</item>
+        <item quantity="one">SIM卡PIN碼不正確，您剩下%d次機會輸入。如果仍然輸入錯誤，您必須輸入PUK（PIN解鎖碼）或聯絡您的服務供應商以將裝置解鎖。</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">SIM卡PUK碼不正確，您剩下%d次機會輸入。如果仍然輸入錯誤，SIM將永久無法使用。</item>
+        <item quantity="one">SIM卡PUK碼不正確，您剩下%d次機會輸入。如果仍然輸入錯誤，SIM將永久無法使用。</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">裝置未解鎖已%d小時。請確認圖樣。</item>
+        <item quantity="one">裝置未解鎖已%d小時。請確認圖樣。</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">裝置未解鎖已%d小時。請確認PIN。</item>
+        <item quantity="one">裝置未解鎖已%d小時。請確認PIN。</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">裝置未解鎖已%d小時。請確認密碼。</item>
+        <item quantity="one">裝置未解鎖已%d小時。請確認密碼。</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">輸入SIM PIN，您有%d次剩餘嘗試次數。</item>
+        <item quantity="one">輸入SIM PIN，在您必須聯絡流動網絡供應商解鎖裝置前您有%d剩餘嘗試次數。</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">已停用SIM卡。請輸入PUK碼以繼續。在SIM卡永久無法使用前您有%d剩餘嘗試次數。請聯絡流動網絡供應商以取得詳細資料。</item>
+        <item quantity="one">已停用SIM卡。請輸入PUK碼以繼續。在SIM卡永久無法使用前您有%d剩餘嘗試次數。請聯絡流動網絡供應商以取得詳細資料。</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_puk_enter_puk_hint_last_attempt_failed">
+        <item quantity="other">抱歉，您的輸入不符合PUK碼。請重新入您的8位數PUK碼。您還有%d次機會。</item>
+        <item quantity="one">抱歉，您的輸入不符合PUK碼。請重新入您的8位數PUK碼。您還有次%d機會。</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_sim_pin_instructions_last_attempt_failed">
+        <item quantity="other">抱歉，您的輸入與SIM卡PIN碼不相符。請重新輸入您的4-8位數PIN碼。您還有%d次機會。</item>
+        <item quantity="one">抱歉，您的輸入不符合SIM卡PIN碼。請重新輸入您的4-8位數PIN碼。您還有%d次機會。</item>
+    </plurals>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_disabled_wifi_failure">WLAN ਕਨੈਕਸ਼ਨ ਅਸਫਲਤਾ</string>
+    <string name="connected_via_wfa">WLAN ਸਹਾਇਕ ਰਾਹੀਂ ਕਨੈਕਟ ਕੀਤਾ</string>
+    <string name="status_bar_settings_wifi_button">WLAN</string>
+    <string name="accessibility_data_connection_wifi">WLAN</string>
+    <string name="accessibility_quick_settings_wifi_changed_off">WLAN ਬੰਦ ਕੀਤਾ।</string>
+    <string name="accessibility_quick_settings_wifi_changed_on">WLAN ਚਾਲੂ ਕੀਤਾ।</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">WLAN ਕਨੈਕਟ ਕੀਤਾ</string>
+    <string name="quick_settings_wifi_label">WLAN</string>
+    <string name="quick_settings_wifi_off_label">WLAN ਬੰਦ</string>
+    <string name="quick_settings_wifi_detail_empty_text">ਕੋਈ WLAN ਨੈਟਵਰਕ ਉਪਲਬਧ ਨਹੀਂ</string>
+    <string name="accessibility_quick_settings_detail">ਤਤਕਾਲ ਸੈਟਿੰਗਾਂ, %s।</string>
+</resources>

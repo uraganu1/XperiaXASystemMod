@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_security_wapi_psk">WLAN PSK</string>
+    <string name="wifi_disabled_wifi_failure">WLAN-kapcsolati hiba</string>
+    <string name="connected_via_wfa">Csatlakozva WLAN-segéddel</string>
+    <string name="accessibility_wifi_off">A WLAN ki van kapcsolva.</string>
+    <string name="accessibility_no_wifi">A WLAN-kapcsolat megszakadt.</string>
+    <string name="accessibility_wifi_one_bar">A WLAN egy sáv.</string>
+    <string name="accessibility_wifi_two_bars">A WLAN két sáv.</string>
+    <string name="accessibility_wifi_three_bars">A WLAN három sáv.</string>
+    <string name="accessibility_wifi_signal_full">A WLAN-jel teljes.</string>
+    <string name="quick_settings_wifi_scanning_label">WLAN: Keresés</string>
+    <string name="quick_settings_wifi_connecting_label">WLAN: Kapcsolódás</string>
+    <string name="toast_message_not_allow_turn_on_hotspot">Repülőgépes módban nem érhető el WLAN csatlakozási pont</string>
+    <string name="status_bar_settings_wifi_button">WLAN</string>
+    <string name="accessibility_data_connection_wifi">WLAN</string>
+    <string name="accessibility_quick_settings_wifi_changed_off">WLAN kikapcsolva</string>
+    <string name="accessibility_quick_settings_wifi_changed_on">WLAN bekapcsolva</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">WLAN csatlakoztatva</string>
+    <string name="quick_settings_wifi_label">WLAN</string>
+    <string name="quick_settings_wifi_off_label">WLAN kikapcsolva</string>
+    <string name="quick_settings_wifi_detail_empty_text">Nincs elérhető WLAN-hálózat</string>
+    <string name="accessibility_quick_settings_detail">Gyorsbeállítások – %s.</string>
+    <string name="wifi_security_short_wapi_cert">WLAN CERT</string>
+    <string name="wifi_security_short_wapi_psk">WLAN PSK</string>
+    <string name="wifi_security_wapi_cert">WLAN CERT</string>
+</resources>

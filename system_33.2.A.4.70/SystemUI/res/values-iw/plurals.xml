@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">"‏%d מסכים ב'סקירה'"</item>
+        <item quantity="one">"מסך אחד ב'סקירה'"</item>
+        <item quantity="two">‏%d מסכים ב’סקירה‘</item>
+        <item quantity="many">‏%d מסכים ב’סקירה‘</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">קוד PIN שגוי של כרטיס ה-SIM. נותרו לך %d ניסיונות נוספים לפני שיהיה עליך להזין את קוד ה-PUK (קוד לביטול נעילת PIN) או ליצור קשר עם ספק השירות כדי לבטל את נעילת המכשיר.</item>
+        <item quantity="one">קוד PIN שגוי של כרטיס ה-SIM. נותרו לך %d ניסיונות נוספים לפני שיהיה עליך להזין את קוד ה-PUK (קוד לביטול נעילת PIN) או ליצור קשר עם ספק השירות כדי לבטל את נעילת המכשיר.</item>
+        <item quantity="two">‏קוד PIN שגוי של כרטיס SIM. נותרו לך %d ניסיונות.</item>
+        <item quantity="many">‏קוד PIN שגוי של כרטיס SIM. נותרו לך %d ניסיונות.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">‏קוד PUK שגוי של כרטיס ה-SIM. נותרו לך %d ניסיונות נוספים לפני שכרטיס ה-SIM יינעל לצמיתות.</item>
+        <item quantity="one">‏קוד PUK שגוי של כרטיס ה-SIM. נותר לך ניסיון %d נוסף לפני שכרטיס ה-SIM יינעל לצמיתות.</item>
+        <item quantity="two">‏קוד PUK שגוי של כרטיס SIM. נותרו לך %d ניסיונות לפני שכרטיס ה-SIM יינעל לצמיתות.</item>
+        <item quantity="many">‏קוד PUK שגוי של כרטיס SIM. נותרו לך %d ניסיונות לפני שכרטיס ה-SIM יינעל לצמיתות.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">נעילת ההתקן בוטלה למשך %d שעות. אשר את תבנית ביטול הנעילה.</item>
+        <item quantity="one">נעילת ההתקן בוטלה למשך %d שעה. אשר את תבנית ביטול הנעילה.</item>
+        <item quantity="two">נעילת המכשיר לא בוטלה במשך %d שעות. אשר את קו ביטול הנעילה.</item>
+        <item quantity="many">נעילת המכשיר לא בוטלה במשך %d שעות. אשר את קו ביטול הנעילה.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">נעילת ההתקן בוטלה למשך %d שעות. אשר את קוד ה-PIN.</item>
+        <item quantity="one">נעילת ההתקן בוטלה למשך %d שעה. אשר את קוד ה-PIN.</item>
+        <item quantity="two">‏נעילת המכשיר לא בוטלה במשך %d שעות. אשר את ה-PIN.</item>
+        <item quantity="many">‏נעילת המכשיר לא בוטלה במשך %d שעות. אשר את ה-PIN.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">נעילת ההתקן בוטלה למשך %d שעות. אשר את הסיסמה.</item>
+        <item quantity="one">נעילת ההתקן בוטלה למשך %d שעה. אשר את הסיסמה.</item>
+        <item quantity="two">נעילת המכשיר לא בוטלה במשך %d שעות. אשר את הסיסמה.</item>
+        <item quantity="many">נעילת המכשיר לא בוטלה במשך %d שעות. אשר את הסיסמה.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">הזן SIM PIN, נותרו לך %d ניסיונות.</item>
+        <item quantity="one">הזן SIM PIN, נותרו לך %d ניסיונות, לאחר מכן תצטרך לפנות לספק השירות.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">ה-SIM מושבת כעת. הזן קוד PUK כדי להמשיך. נותרו לך %d ניסיונות, ולאחר מכן ה-SIM יצא מכלל שימוש לצמיתות. לפרטים, פנה לספק השירות.</item>
+        <item quantity="one">ה-SIM מושבת כעת. הזן קוד PUK כדי להמשיך. נותרו לך %d ניסיונות, ולאחר מכן ה-SIM יצא מכלל שימוש לצמיתות. לפרטים, פנה לספק השירות.</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_puk_enter_puk_hint_last_attempt_failed">
+        <item quantity="other">מצטערים, הערך שהזנת אינו תואם לקוד ה-PUK. הזן מחדש את קוד ה-PUK בן 8 הספרות. יש לך עוד %d ניסיונות.</item>
+        <item quantity="one">מצטערים, הערך שהזנת אינו תואם לקוד ה-PUK. הזן מחדש את קוד ה-PUK בן 8 הספרות. יש לך עוד %d ניסיון.</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_sim_pin_instructions_last_attempt_failed">
+        <item quantity="other">מצטערים, הערך שהזנת אינו תואם לקוד ה-PIN של כרטיס ה-SIM. הזן מחדש את קוד ה-PIN בן 4-8 הספרות. יש לך עוד %d ניסיונות.</item>
+        <item quantity="one">מצטערים, הערך שהזנת אינו תואם לקוד ה-PIN של כרטיס ה-SIM. הזן מחדש את קוד ה-PIN בן 4-8 הספרות. יש לך עוד %d ניסיון.</item>
+    </plurals>
+</resources>

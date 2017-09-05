@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_security_wapi_psk">WLAN PSK</string>
+    <string name="wifi_disabled_wifi_failure">Eroare de conexiune WLAN</string>
+    <string name="connected_via_wfa">Conexiune realizată printr-un asistent WLAN</string>
+    <string name="accessibility_wifi_off">Semnal WLAN dezactivat.</string>
+    <string name="accessibility_no_wifi">Semnal WLAN deconectat.</string>
+    <string name="accessibility_wifi_one_bar">Semnal WLAN cu o bară.</string>
+    <string name="accessibility_wifi_two_bars">Semnal WLAN cu două bare.</string>
+    <string name="accessibility_wifi_three_bars">Semnal WLAN cu trei bare.</string>
+    <string name="accessibility_wifi_signal_full">Semnal WLAN integral.</string>
+    <string name="quick_settings_wifi_scanning_label">WLAN: se caută</string>
+    <string name="quick_settings_wifi_connecting_label">WLAN: se conectează</string>
+    <string name="toast_message_not_allow_turn_on_hotspot">Hotspotul WLAN nu este disponibil în modul pentru avion</string>
+    <string name="status_bar_settings_wifi_button">WLAN</string>
+    <string name="accessibility_data_connection_wifi">WLAN</string>
+    <string name="accessibility_quick_settings_wifi_changed_off">Funcţia WLAN s-a dezactivat</string>
+    <string name="accessibility_quick_settings_wifi_changed_on">Funcţia WLAN s-a activat</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">WLAN conectat</string>
+    <string name="quick_settings_wifi_label">WLAN</string>
+    <string name="quick_settings_wifi_off_label">WLAN deconectat</string>
+    <string name="quick_settings_wifi_detail_empty_text">Nicio reţea WLAN disponibilă</string>
+    <string name="accessibility_quick_settings_detail">Setări rapide, %s.</string>
+    <string name="wifi_security_short_wapi_cert">WLAN CERT</string>
+    <string name="wifi_security_short_wapi_psk">WLAN PSK</string>
+    <string name="wifi_security_wapi_cert">WLAN CERT</string>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">ओवरव्यू में %d स्क्रीन</item>
+        <item quantity="one">ओवरव्यू में 1 स्क्रीन</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">गलत सिम PIN कोड, आपके पास %d प्रयास शेष हैं, जिससे पहले आपको अपना डिवाइस अनलॉक करने के लिए अपना PUK कोड (PIN अनलॉक कोड) प्रविष्ट करना या अपने सेवा प्रदाता से संपर्क करना आवश्यक है।</item>
+        <item quantity="one">गलत सिम PIN कोड, आपके पास %d प्रयास शेष है, जिससे पहले आपको अपना डिवाइस अनलॉक करने के लिए अपना PUK कोड (PIN अनलॉक कोड) प्रविष्ट करना या अपने सेवा प्रदाता से संपर्क करना आवश्यक है।</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">गलत सिम PUK कोड, सिम के स्थायी रूप से अनुपयोगी हो जाने से पहले आपके पास %d प्रयत्न शेष हैं.</item>
+        <item quantity="one">गलत सिम PUK कोड, सिम के स्थायी रूप से अनुपयोगी हो जाने से पहले आपके पास %d प्रयत्न शेष हैं.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">डिवाइस %d घंटे से अनलॉक नहीं किया गया है. पैटर्न की पुष्टि करें.</item>
+        <item quantity="one">डिवाइस %d घंटे से अनलॉक नहीं किया गया है. पैटर्न की पुष्टि करें.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">डिवाइस %d घंटे से अनलॉक नहीं किया गया है. पिन की पुष्‍टि करें.</item>
+        <item quantity="one">डिवाइस %d घंटे से अनलॉक नहीं किया गया है. पिन की पुष्‍टि करें.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">डिवाइस %d घंटे से अनलॉक नहीं किया गया है. पासवर्ड की पुष्टि करें.</item>
+        <item quantity="one">डिवाइस %d घंटे से अनलॉक नहीं किया गया है. पासवर्ड की पुष्टि करें.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">सिम PIN प्रविष्ट करें, आपके पास %d प्रयत्न शेष हैं।</item>
+        <item quantity="one">सिम PIN प्रविष्ट करें, अपने डिवाइस को अनलॉक करने के लिए अपने वाहक से संपर्क करने से पहले आपके पास %d प्रयत्न शेष हैं।</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">सिम अब अक्षम है। जारी रखने के लिए PUK कोड प्रविष्ट करें। सिम के स्‍थायी रूप से अनुपयोगी होने से पहले आपके पास %d प्रयत्न शेष हैं। विवरण के लिए वाहक से संपर्क करें।</item>
+        <item quantity="one">सिम अब अक्षम है। जारी रखने के लिए PUK कोड प्रविष्ट करें। सिम के स्‍थायी रूप से अनुपयोगी होने से पहले आपके पास %d प्रयत्न शेष है। विवरण के लिए वाहक से संपर्क करें।</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_puk_enter_puk_hint_last_attempt_failed">
+        <item quantity="other">क्षमा करें, आपकी प्रविष्टि PUK कोड से मेल नहीं खाती है। कृपया अपना 8 अंकों वाला PUK कोड पुन: प्रविष्ट करें। आपके पास %d मौके हैं।</item>
+        <item quantity="one">क्षमा करें, आपकी प्रविष्टि PUK कोड से मेल नहीं खाती है। कृपया अपना 8 अंकों वाला PUK कोड पुन: प्रविष्ट करें। आपके पास %d मौके हैं।</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_sim_pin_instructions_last_attempt_failed">
+        <item quantity="other">क्षमा करें, आपकी प्रविष्टि सिम PIN से मेल नहीं खाती है। कृपया अपना 4-8 अंकों वाला PIN पुन: प्रविष्ट करें। आपके पास %d मौके हैं।</item>
+        <item quantity="one">क्षमा करें, आपकी प्रविष्टि सिम PIN से मेल नहीं खाती है। कृपया अपना 4-8 अंकों वाला PIN पुन: प्रविष्ट करें। आपके पास %d मौके हैं।</item>
+    </plurals>
+</resources>

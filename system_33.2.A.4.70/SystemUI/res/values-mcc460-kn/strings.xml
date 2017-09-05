@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_security_wapi_psk">WLAN PSK</string>
+    <string name="wifi_disabled_wifi_failure">WLAN ಸಂಪರ್ಕ ವಿಫಲತೆ</string>
+    <string name="connected_via_wfa">WLAN ಸಹಾಯಕದ ಮೂಲಕ ಸಂಪರ್ಕಿತಗೊಳಿಸಲಾಗಿದೆ</string>
+    <string name="accessibility_wifi_off">WLAN ಆಫ್..</string>
+    <string name="accessibility_no_wifi">WLAN ಸಂಪರ್ಕ ತೆಗೆಯಲಾಗಿದೆ.</string>
+    <string name="accessibility_wifi_one_bar">WLAN ಒಂದು ಬಾರ್.</string>
+    <string name="accessibility_wifi_two_bars">WLAN ಎರಡು ಬಾರ್‌ಗಳು.</string>
+    <string name="accessibility_wifi_three_bars">WLAN ಮೂರು ಬಾರ್‌ಗಳು.</string>
+    <string name="accessibility_wifi_signal_full">WLAN ಸಿಗ್ನಲ್ ಪೂರ್ಣವಾಗಿದೆ.</string>
+    <string name="quick_settings_wifi_scanning_label">WLAN: ಸ್ಕ್ಯಾನ್ ಮಾಡಲಾಗುತ್ತಿದೆ</string>
+    <string name="quick_settings_wifi_connecting_label">WLAN: ಸಂಪರ್ಕಗೊಳ್ಳು.</string>
+    <string name="toast_message_not_allow_turn_on_hotspot">ವಿಮಾನ ಮೋಡ್‌ನಲ್ಲಿ WLAN hotspot ಲಭ್ಯವಿಲ್ಲ</string>
+    <string name="status_bar_settings_wifi_button">WLAN</string>
+    <string name="accessibility_data_connection_wifi">WLAN</string>
+    <string name="accessibility_quick_settings_wifi_changed_off">WLAN ಆಫ್ ಮಾಡಲಾಗಿದೆ</string>
+    <string name="accessibility_quick_settings_wifi_changed_on">WLAN ಆನ್ ಮಾಡಲಾಗಿದೆ</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">WLAN ಸಂಪರ್ಕಿಸಿದೆ</string>
+    <string name="quick_settings_wifi_label">WLAN</string>
+    <string name="quick_settings_wifi_off_label">WLAN ಆಫ್</string>
+    <string name="quick_settings_wifi_detail_empty_text">ಯಾವುದೇ WLAN ನೆಟ್‌ವರ್ಕ್‌ಗಳು ಲಭ್ಯವಿಲ್ಲ</string>
+    <string name="accessibility_quick_settings_detail">ತ್ವರಿತ ಸೆಟ್ಟಿಂಗ್‍ಗಳು, %s.</string>
+    <string name="wifi_security_short_wapi_cert">WLAN CERT</string>
+    <string name="wifi_security_short_wapi_psk">WLAN PSK</string>
+    <string name="wifi_security_wapi_cert">WLAN CERT</string>
+</resources>

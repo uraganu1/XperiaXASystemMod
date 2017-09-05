@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">%d skjermer i oversikten</item>
+        <item quantity="one">1 skjerm i oversikten</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">Feil PIN-kode for SIM-kortet. Du har %d forsøk igjen før du må skrive inn PUK-koden (PIN-opplåsingskode) eller kontakte operatøren din for å låse opp enheten.</item>
+        <item quantity="one">Feil PIN-kode for SIM-kortet. Du har %d forsøk igjen før du må skrive inn PUK-koden (PIN-opplåsingskode) eller kontakte operatøren din for å låse opp enheten.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Feil PUK-kode for SIM-kortet. Du har %d forsøk igjen før SIM-kortet blir permanent ubrukelig.</item>
+        <item quantity="one">Feil PUK-kode for SIM-kortet. Du har %d forsøk igjen før SIM-kortet blir permanent ubrukelig.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">Enheten har ikke vært opplåst på %d timer. Bekreft mønster.</item>
+        <item quantity="one">Enheten har ikke vært opplåst på %d time. Bekreft mønster.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">Enheten har ikke vært opplåst på %d timer. Bekreft PIN-kode.</item>
+        <item quantity="one">Enheten har ikke vært opplåst på %d time. Bekreft PIN-kode.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">Enheten har ikke vært opplåst på %d timer. Bekreft passord.</item>
+        <item quantity="one">Enheten har ikke vært opplåst på %d time. Bekreft passord.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">Tast inn PIN-koden for SIM-kortet. Du har %d forsøk igjen.</item>
+        <item quantity="one">Tast inn PIN-koden for SIM-kortet. Du har %d forsøk igjen før du må kontakte operatøren for å låse opp enheten.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">SIM-kortet er nå deaktivert. Tast inn PUK-koden for å fortsette. Du har %d forsøk igjen før SIM-kortet låses permanent. Kontakt operatøren for detaljer.</item>
+        <item quantity="one">SIM-kortet er nå deaktivert. Tast inn PUK-koden for å fortsette. Du har %d forsøk igjen før SIM-kortet låses permanent. Kontakt operatøren for detaljer.</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_puk_enter_puk_hint_last_attempt_failed">
+        <item quantity="other">Det samsvarte ikke med PUK-koden. Skriv inn PUK-koden på 8 siffer på nytt. Du har %d sjanser til.</item>
+        <item quantity="one">Det samsvarte ikke med PUK-koden. Skriv inn PUK-koden på 8 siffer på nytt. Du har %d sjanser til.</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_sim_pin_instructions_last_attempt_failed">
+        <item quantity="other">Det samsvarte ikke med PIN-koden for SIM-kortet. Skriv inn PIN-koden på 4-8 siffer på nytt. Du har %d sjanser til.</item>
+        <item quantity="one">Det samsvarte ikke med PIN-koden for SIM-kortet. Skriv inn PIN-koden på 4-8 siffer på nytt. Du har %d sjanser til.</item>
+    </plurals>
+</resources>

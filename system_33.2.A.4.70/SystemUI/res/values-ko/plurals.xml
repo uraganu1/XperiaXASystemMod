@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">개요 화면 %d개</item>
+        <item quantity="one">개요 화면 1개</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">USIM PIN 코드가 잘못되었습니다. %d회 넘게 실패할 경우 PUK 코드(PIN 잠금 해제 코드)를 입력하거나 서비스 공급자에게 문의하여 장치를 잠금 해제해야 합니다.</item>
+        <item quantity="one">USIM PIN 코드가 잘못되었습니다. %d회 넘게 실패할 경우 PUK 코드(PIN 잠금 해제 코드)를 입력하거나 서비스 공급자에게 문의하여 장치를 잠금 해제해야 합니다.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">USIM PUK 코드가 잘못되었습니다. %d회 이상 실패할 경우 USIM을 영구적으로 사용할 수 없습니다.</item>
+        <item quantity="one">USIM PUK 코드가 잘못되었습니다. %d회 이상 실패할 경우 USIM을 영구적으로 사용할 수 없습니다.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">기기가 %d시간 동안 잠금 해제되지 않았습니다. 패턴을 확인하세요.</item>
+        <item quantity="one">기기가 %d시간 동안 잠금 해제되지 않았습니다. 패턴을 확인하세요.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">기기가 %d시간 동안 잠금 해제되지 않았습니다. PIN을 확인하세요.</item>
+        <item quantity="one">기기가 %d시간 동안 잠금 해제되지 않았습니다. PIN을 확인하세요.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">기기가 %d시간 동안 잠금 해제되지 않았습니다. 암호를 확인하세요.</item>
+        <item quantity="one">기기가 %d시간 동안 잠금 해제되지 않았습니다. 암호를 확인하세요.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">USIM PIN을 입력하세요. 남아 있는 입력 가능 횟수는 %d회입니다.</item>
+        <item quantity="one">USIM PIN을 입력하세요. 남아 있는 입력 가능 횟수 %d회를 초과하면 이동통신사에 문의하여 장치를 잠금 해제해야 합니다.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">USIM은 현재 사용하지 않도록 설정되어 있습니다. 계속하려면 PUK 코드를 입력하세요. 남아 있는 입력 가능 횟수(%d회)를 넘기면 USIM을 영구적으로 사용할 수 없게 됩니다. 자세한 내용은 이동통신사에 문의하세요.</item>
+        <item quantity="one">USIM은 현재 사용하지 않도록 설정되어 있습니다. 계속하려면 PUK 코드를 입력하세요. 남아 있는 입력 가능 횟수(%d회)를 넘기면 USIM을 영구적으로 사용할 수 없게 됩니다. 자세한 내용은 이동통신사에 문의하세요.</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_puk_enter_puk_hint_last_attempt_failed">
+        <item quantity="other">죄송합니다. 입력한 번호가 PUK 코드와 일치하지 않습니다. 8자리의 PUK 코드를 다시 입력하세요. %d회 남았습니다.</item>
+        <item quantity="one">죄송합니다. 입력한 번호가 PUK 코드와 일치하지 않습니다. 8자리의 PUK 코드를 다시 입력하세요. %d회 남았습니다.</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_sim_pin_instructions_last_attempt_failed">
+        <item quantity="other">죄송합니다. 입력한 번호가 USIM PIN과 일치하지 않습니다. 4-8자리의 PIN을 다시 입력하세요. %d회 남았습니다.</item>
+        <item quantity="one">죄송합니다. 입력한 번호가 USIM PIN과 일치하지 않습니다. 4-8자리의 PIN을 다시 입력하세요. %d회 남았습니다.</item>
+    </plurals>
+</resources>

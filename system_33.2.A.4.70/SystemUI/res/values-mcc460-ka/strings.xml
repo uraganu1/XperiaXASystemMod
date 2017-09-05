@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_security_wapi_psk">WLAN PSK</string>
+    <string name="wifi_disabled_wifi_failure">WLAN კავშირის შეფერხება</string>
+    <string name="connected_via_wfa">დაკავშირებულია WLAN თანაშემწით</string>
+    <string name="accessibility_wifi_off">WLAN გამორთულია.</string>
+    <string name="accessibility_no_wifi">WLAN გათიშულია.</string>
+    <string name="accessibility_wifi_one_bar">WLAN ერთ ზოლზეა.</string>
+    <string name="accessibility_wifi_two_bars">WLAN ორ ზოლზეა.</string>
+    <string name="accessibility_wifi_three_bars">WLAN სამ ზოლზეა.</string>
+    <string name="accessibility_wifi_signal_full">WLAN სიგნალი სრულია.</string>
+    <string name="quick_settings_wifi_scanning_label">WLAN: სკანირება</string>
+    <string name="quick_settings_wifi_connecting_label">WLAN: დაკავშირება</string>
+    <string name="toast_message_not_allow_turn_on_hotspot">WLAN წვდომის წერტილი მიუწვდომელია თვითფრინავის რეჟიმში</string>
+    <string name="status_bar_settings_wifi_button">WLAN</string>
+    <string name="accessibility_data_connection_wifi">WLAN</string>
+    <string name="accessibility_quick_settings_wifi_changed_off">WLAN გამორთულია</string>
+    <string name="accessibility_quick_settings_wifi_changed_on">WLAN ჩართულია</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">WLAN დაკავშირებულია</string>
+    <string name="quick_settings_wifi_label">WLAN</string>
+    <string name="quick_settings_wifi_off_label">WLAN გამორთულია</string>
+    <string name="quick_settings_wifi_detail_empty_text">WLAN ქსელები მიუწვდომელია</string>
+    <string name="accessibility_quick_settings_detail">სწრაფი პარამეტრები, %s.</string>
+    <string name="wifi_security_short_wapi_cert">WLAN-ის სერტიფიკატი (CERT)</string>
+    <string name="wifi_security_short_wapi_psk">WLAN PSK</string>
+    <string name="wifi_security_wapi_cert">WLAN-ის სერტიფიკატი (CERT)</string>
+</resources>

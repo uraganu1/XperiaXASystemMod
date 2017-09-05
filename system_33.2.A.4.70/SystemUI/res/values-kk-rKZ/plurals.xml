@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">Шолуда %d экран</item>
+        <item quantity="one">Шолуда 1 экран</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">Қате SIM PIN коды, сізде PUK кодын (PIN құлыпты ашу кодын) енгізу қажет болғанша немесе құрылғының құлпын ашу үшін қызмет көрсетушіге хабарласу алдында %d әрекет қалды.</item>
+        <item quantity="one">Қате SIM PIN коды, PUK кодын (PIN құлыпты ашу кодын) енгізу қажет болғанша немесе құрылғының құлпын ашу үшін қызмет көрсетушіге хабарласу алдында %d әрекет қалды.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Қате SIM PUK коды, SIM картасын біржола пайдалану мүмкін болмай қалуына дейін %d әрекет қалды.</item>
+        <item quantity="one">Қате SIM PUK коды, SIM картасын біржола пайдалану мүмкін болмай қалуына дейін %d әрекет қалды.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">Құрылғы құлпы %d сағат бойы ашылмады. Өрнекті растаңыз.</item>
+        <item quantity="one">Құрылғы құлпы %d сағат бойы ашылмады. Өрнекті растаңыз.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">Құрылғы құлпы %d сағат бойы ашылмады. PIN кодын растаңыз.</item>
+        <item quantity="one">Құрылғы құлпы %d сағат бойы ашылмады. PIN кодын растаңыз.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">Құрылғы құлпы %d сағат бойы ашылмады. Кілтсөзді растаңыз.</item>
+        <item quantity="one">Құрылғы құлпы %d сағат бойы ашылмады. Кілтсөзді растаңыз.</item>
+    </plurals>
+</resources>

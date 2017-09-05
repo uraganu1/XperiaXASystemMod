@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_disabled_wifi_failure">WLAN կապի ձախողում</string>
+    <string name="connected_via_wfa">Կապակցված է WLAN Օգնականի միջոցով</string>
+    <string name="status_bar_settings_wifi_button">WLAN</string>
+    <string name="accessibility_data_connection_wifi">WLAN</string>
+    <string name="accessibility_quick_settings_wifi_changed_off">WLAN-ն անջատվեց:</string>
+    <string name="accessibility_quick_settings_wifi_changed_on">WLAN-ը միացավ:</string>
+    <string name="accessibility_quick_settings_hotspot_changed_off">Շարժական կապի WLAN ցրիչն անջատվեց:</string>
+    <string name="accessibility_quick_settings_hotspot_changed_on">Շարժական կապի WLAN ցրիչը միացավ:</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">WLAN-ը միացված է</string>
+    <string name="quick_settings_wifi_label">WLAN</string>
+    <string name="quick_settings_wifi_off_label">WLAN-ը անջատված է</string>
+    <string name="quick_settings_wifi_detail_empty_text">Հասանելի WLAN ցանցեր չկան</string>
+    <string name="accessibility_quick_settings_detail">Արագ կարգավորումներ, %s:</string>
+</resources>

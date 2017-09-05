@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_settings_autorotate">Automatické otočenie obrazovky</string>
+    <string name="status_bar_settings_autosync">Automatická synchronizácia údajov</string>
+    <string name="status_bar_settings_wifi_hotspot">Prístupový bod siete Wi-Fi</string>
+</resources>

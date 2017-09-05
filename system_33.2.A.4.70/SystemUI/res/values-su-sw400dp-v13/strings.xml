@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="status_bar_settings_autosync">Singkronisasi data otomatis</string>
+    <string name="status_bar_settings_mobile_data">Patalimarga data seluler</string>
+    <string name="status_bar_settings_settings">Potong kompas ka Setelan</string>
+</resources>

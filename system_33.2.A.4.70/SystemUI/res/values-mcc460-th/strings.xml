@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_security_wapi_psk">WLAN PSK</string>
+    <string name="wifi_disabled_wifi_failure">การเชื่อมต่อ WLAN ล้มเหลว</string>
+    <string name="connected_via_wfa">เชื่อมต่อผ่านตัวช่วย WLAN อยู่</string>
+    <string name="accessibility_wifi_off">ปิด WLAN</string>
+    <string name="accessibility_no_wifi">ตัดการเชื่อมต่อ WLAN</string>
+    <string name="accessibility_wifi_one_bar">WLAN 1 ขีด</string>
+    <string name="accessibility_wifi_two_bars">WLAN 2 ขีด</string>
+    <string name="accessibility_wifi_three_bars">WLAN 3 ขีด</string>
+    <string name="accessibility_wifi_signal_full">สัญญาณ WLAN เต็ม</string>
+    <string name="quick_settings_wifi_scanning_label">WLAN: กำลังสแกน</string>
+    <string name="quick_settings_wifi_connecting_label">WLAN: กำลังเชื่อมต่อ</string>
+    <string name="toast_message_not_allow_turn_on_hotspot">ฮอตสปอต WLAN ใช้ไม่ได้ในโหมดใช้งาน บนเครื่องบิน</string>
+    <string name="status_bar_settings_wifi_button">WLAN</string>
+    <string name="accessibility_data_connection_wifi">WLAN</string>
+    <string name="accessibility_quick_settings_wifi_changed_off">ปิด WLAN แล้ว</string>
+    <string name="accessibility_quick_settings_wifi_changed_on">เปิด WLAN แล้ว</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">เชื่อมต่อ WLAN แล้ว</string>
+    <string name="quick_settings_wifi_label">WLAN</string>
+    <string name="quick_settings_wifi_off_label">ปิด WLAN</string>
+    <string name="quick_settings_wifi_detail_empty_text">ไม่มีเครือข่าย WLAN พร้อมใช้งาน</string>
+    <string name="accessibility_quick_settings_detail">การตั้งค่าด่วน %s</string>
+    <string name="wifi_security_short_wapi_cert">WLAN CERT</string>
+    <string name="wifi_security_short_wapi_psk">WLAN PSK</string>
+    <string name="wifi_security_wapi_cert">WLAN CERT</string>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="status_bar_accessibility_recent_apps">
+        <item quantity="other">Počet obrazoviek v prehľade: %d</item>
+        <item quantity="one">V prehľade je 1 obrazovka</item>
+        <item quantity="few">%d obrazovky v Prehľade</item>
+        <item quantity="many">%d obrazovky v Prehľade</item>
+    </plurals>
+    <plurals name="kg_password_wrong_pin_code">
+        <item quantity="other">Nesprávny kód PIN karty SIM. Keď miniete zostávajúce pokusy (%d), budete musieť zadať kód PUK (kód na odblokovanie kódu PIN) alebo o odblokovanie zariadenia požiadať poskytovateľa služieb.</item>
+        <item quantity="one">Nesprávny kód PIN karty SIM. Keď miniete zostávajúce pokusy (%d), budete musieť zadať kód PUK (kód na odblokovanie kódu PIN) alebo o odblokovanie zariadenia požiadať poskytovateľa služieb.</item>
+        <item quantity="few">Nesprávny kód PIN SIM karty. Zostávajú vám %d pokusy.</item>
+        <item quantity="many">Nesprávny kód PIN SIM karty. Zostáva vám %d pokusu.</item>
+    </plurals>
+    <plurals name="kg_password_wrong_puk_code">
+        <item quantity="other">Nesprávny kód PUK karty SIM. Počet zostávajúcich pokusov pred trvalým zablokovaním karty SIM: %d.</item>
+        <item quantity="one">Nesprávny kód PUK karty SIM. Zostáva vám %d pokus pred trvalým zablokovaným karty SIM.</item>
+        <item quantity="few">Nesprávny kód PUK SIM karty. Zostávajú vám %d pokusy, potom sa SIM karta natrvalo zablokuje.</item>
+        <item quantity="many">Nesprávny kód PUK SIM karty. Zostáva vám %d pokusu, potom sa SIM karta natrvalo zablokuje.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pattern">
+        <item quantity="other">Zariadenie nebolo odomknuté %d h. Potvrďte vzor.</item>
+        <item quantity="one">Zariadenie nebolo odomknuté %d hodinu. Potvrďte vzor.</item>
+        <item quantity="few">Zariadenie nebolo odomknuté %d hodiny. Potvrďte vzor.</item>
+        <item quantity="many">Zariadenie nebolo odomknuté %d hodiny. Potvrďte vzor.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_pin">
+        <item quantity="other">Zariadenie nebolo odomknuté %d h. Potvrďte kód PIN.</item>
+        <item quantity="one">Zariadenie nebolo odomknuté %d hodinu. Potvrďte kód PIN.</item>
+        <item quantity="few">Zariadenie nebolo odomknuté %d hodiny. Potvrďte kód PIN.</item>
+        <item quantity="many">Zariadenie nebolo odomknuté %d hodiny. Potvrďte kód PIN.</item>
+    </plurals>
+    <plurals name="kg_prompt_reason_time_password">
+        <item quantity="other">Zariadenie nebolo odomknuté %d h. Potvrďte heslo.</item>
+        <item quantity="one">Zariadenie nebolo odomknuté %d hodinu. Potvrďte heslo.</item>
+        <item quantity="few">Zariadenie nebolo odomknuté %d hodiny. Potvrďte heslo.</item>
+        <item quantity="many">Zariadenie nebolo odomknuté %d hodiny. Potvrďte heslo.</item>
+    </plurals>
+    <plurals name="kg_password_default_pin_message">
+        <item quantity="other">Zadajte kód PIN pre kartu SIM. Zostávajúce pokusy: %d.</item>
+        <item quantity="one">Zadajte kód PIN pre kartu SIM. Keď miniete zostávajúce pokusy (%d), budete musieť kontaktovať operátora, aby vám zariadenie odomkol.</item>
+    </plurals>
+    <plurals name="kg_password_default_puk_message">
+        <item quantity="other">Karta SIM je zablokovaná. Pokračujte zadaním kódu PUK. Keď miniete zostávajúce pokusy (%d), karta SIM sa zablokuje natrvalo. Podrobnejšie informácie vám poskytne operátor.</item>
+        <item quantity="one">Karta SIM je zablokovaná. Pokračujte zadaním kódu PUK. Keď miniete zostávajúce pokusy (%d), karta SIM sa zablokuje natrvalo. Podrobnejšie informácie vám poskytne operátor.</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_puk_enter_puk_hint_last_attempt_failed">
+        <item quantity="other">Ľutujeme, zadaný kód sa nezhoduje s kódom PUK. Znova zadajte 8-ciferný kód PUK. Môžete to skúsiť ešte %d-krát.</item>
+        <item quantity="one">Ľutujeme, zadaný kód sa nezhoduje s kódom PUK. Znova zadajte 8-ciferný kód PUK. Môžete to skúsiť už len %d-krát.</item>
+    </plurals>
+    <plurals name="kg_somc_verizon_sim_pin_instructions_last_attempt_failed">
+        <item quantity="other">Ľutujeme, zadaný kód sa nezhoduje s kódom PIN karty SIM. Znova zadajte kód PIN pozostávajúci zo 4 až 8 číslic. Môžete to skúsiť ešte %d-krát.</item>
+        <item quantity="one">Ľutujeme, zadaný kód sa nezhoduje s kódom PIN karty SIM. Znova zadajte kód PIN pozostávajúci zo 4 až 8 číslic. Môžete to skúsiť už len %d-krát.</item>
+    </plurals>
+</resources>

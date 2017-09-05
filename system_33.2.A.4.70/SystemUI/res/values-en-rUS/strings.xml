@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="saved_network">Saved by %1$s</string>
+    <string name="connected_via_wfa">Connected via Wi‑Fi assistant</string>
+    <string name="bluetooth_disconnecting">Disconnecting…</string>
+    <string name="bluetooth_connecting">Connecting…</string>
+    <string name="bluetooth_pairing">Pairing…</string>
+    <string name="bluetooth_opp_profile_summary_connected">Connected to file transfer server</string>
+    <string name="bluetooth_opp_profile_summary_not_connected">Not connected to file transfer server</string>
+    <string name="bluetooth_pairing_error_message">"Couldn't pair with %1$s."</string>
+    <string name="bluetooth_pairing_pin_error_message">"Couldn't pair with %1$s because of an incorrect PIN or passkey."</string>
+    <string name="bluetooth_pairing_device_down_error_message">"Can't communicate with %1$s."</string>
+    <string name="bluetooth_pairing_rejected_error_message">Pairing rejected by %1$s.</string>
+    <string name="wifi_auto_connect_off">"Auto-connect disabled, won't automatically reconnect."</string>
+    <string name="audio_profile">Audio profiles</string>
+    <string name="normal">General</string>
+    <string name="meeting">Meeting</string>
+    <string name="mute">Silent</string>
+    <string name="outdoor">Outdoor</string>
+    <string name="wfd_sink_summary">Discoverable by others</string>
+    <string name="mobile">Data connection</string>
+    <string name="data_usage">Data usage</string>
+    <string name="screen_pinning_description_physical_key">This keeps it in view until you unpin. Touch and hold Back key to unpin.</string>
+    <string name="somc_qs_hint">Touch and hold icons to rearrange Quick settings</string>
+    <string name="status_bar_autosync_dialog_enable_title">Turn on Auto-sync?</string>
+    <string name="status_bar_autosync_dialog_enable_warning">"Any changes you make to your accounts on the web will be automatically copied to your phone.
+
+Some accounts may also automatically copy any changes you make on the phone to the web. Your Google™ Account works this way.
+
+To choose what kinds of data you sync for each account, go to Settings > Accounts &amp; sync."</string>
+    <string name="status_bar_autosync_dialog_extended_enable_warning">"Any changes you make to your accounts on the web will be automatically copied to your device.
+
+Some accounts may also automatically copy any changes you make on the device to the web.
+
+To choose what kinds of data you sync for each account, go to Settings > Accounts &amp; sync.
+
+Data charges may apply when updating your device. An unlimited data plan is recommended."</string>
+    <string name="status_bar_autosync_dialog_disable_title">Turn off Auto-sync?</string>
+    <string name="quick_settings_show_guide">You can also open Quick settings by swiping down from the top to center of the screen</string>
+    <string name="battery_stamina_mode_notification_lower_desc">ENABLE AUTO START OF STAMINA</string>
+    <string name="battery_stamina_mode_quick_settings_auto_title">Auto start of STAMINA</string>
+    <string name="usb_device_permission_prompt">Allow the app %1$s to access the USB device?</string>
+    <string name="usb_accessory_permission_prompt">Allow the app %1$s to access the USB accessory?</string>
+    <string name="usb_accessory_uri_prompt">No installed apps work with this USB accessory. Learn more about this accessory at %1$s</string>
+    <string name="usb_debugging_message">"The computer's RSA key fingerprint is:
+%1$s"</string>
+    <string name="usb_debugging_secondary_user_message">"The user currently signed in to this device can't turn on USB debugging. To use this feature, switch to the primary user “%s”."</string>
+    <string name="screenshot_saving_ticker">Saving screenshot…</string>
+    <string name="screenshot_saving_title">Saving screenshot…</string>
+    <string name="screenshot_failed_title">"Couldn't capture screenshot"</string>
+    <string name="installer_cd_button_title">Install Android File Transfer app for Mac</string>
+    <string name="accessibility_recents_item_will_be_dismissed">Dismiss %s</string>
+    <string name="accessibility_recents_item_launched">Starting %s</string>
+    <string name="accessibility_recents_task_header">%1$s %2$s</string>
+    <string name="accessibility_quick_settings_dnd_priority_on">Do not disturb on, priority only.</string>
+    <string name="accessibility_quick_settings_dnd_off">Do not disturb off.</string>
+    <string name="accessibility_quick_settings_dnd_changed_off">Do not disturb turned off.</string>
+    <string name="accessibility_quick_settings_dnd_changed_on">Do not disturb turned on.</string>
+    <string name="accessibility_quick_settings_color_inversion_changed_off">Color inversion turned off</string>
+    <string name="accessibility_quick_settings_color_inversion_changed_on">Color inversion turned on</string>
+    <string name="data_usage_disabled_dialog_mobile_title">Cellular data is paused</string>
+    <string name="data_usage_disabled_dialog">"Because your set data limit was reached, the device has paused data usage for the remainder of this cycle.
+
+Resuming may lead to charges from your carrier."</string>
+    <string name="status_bar_settings_signal_meter_disconnected">No Internet connection</string>
+    <string name="status_bar_notification_app_settings_title">%s settings</string>
+    <string name="quick_settings_inversion_label">Invert colors</string>
+    <string name="quick_settings_color_space_label">Color correction mode</string>
+    <string name="quick_settings_cellular_detail_over_limit">Over limit</string>
+    <string name="quick_settings_cellular_detail_data_used">%s used</string>
+    <string name="quick_settings_cellular_detail_data_limit">%s limit</string>
+    <string name="quick_settings_cellular_detail_data_warning">%s warning</string>
+    <string name="recents_lock_to_app_button_label">screen pinning</string>
+    <string name="recents_launch_error_message">Could not start %s.</string>
+    <string name="recents_multistack_add_stack_dialog_split_custom">Split Custom</string>
+    <string name="expanded_header_battery_charging_with_time">%s until full</string>
+    <string name="description_direction_up">Slide up for %s.</string>
+    <string name="description_direction_left">Slide left for %s.</string>
+    <string name="zen_priority_introduction">You won’t be disturbed by sounds and vibrations, except from alarms, reminders, events, and callers you specify.</string>
+    <string name="zen_priority_customize_button">Customize</string>
+    <string name="zen_silence_introduction_voice">This blocks ALL sounds and vibrations, including from alarms, music, videos, and games. You’ll still be able to make phone calls.</string>
+    <string name="zen_silence_introduction">This blocks ALL sounds and vibrations, including from alarms, music, videos, and games.</string>
+    <string name="keyguard_more_overflow_text">+%d</string>
+    <string name="interruption_level_none_with_warning">Total silence. This will also silence screen readers.</string>
+    <string name="keyguard_indication_charging_time">Charging (%s until full)</string>
+    <string name="accessibility_multi_user_switch_switcher_with_current">Switch user, current user %s</string>
+    <string name="accessibility_multi_user_switch_inactive">Current user %s</string>
+    <string name="guest_wipe_session_wipe">Start over</string>
+    <string name="user_add_user_message_short">"When you add a new user, that person needs to set up their space.
+
+Any user can update apps for all other users."</string>
+    <string name="media_projection_dialog_text">"%s will start capturing everything that's displayed on your screen."</string>
+    <string name="monitoring_description_device_owned">"Your device is managed by %1$s.
+
+Your administrator can monitor and manage settings, corporate access, apps, data associated with your device, and your device's location information. For more information, contact your administrator."</string>
+    <string name="monitoring_description_vpn">"You gave an app permission to set up a VPN connection.
+
+This app can monitor your device and network activity, including emails, apps, and websites."</string>
+    <string name="monitoring_description_vpn_device_owned">"Your device is managed by %1$s.
+
+Your administrator can monitor and manage settings, corporate access, apps, data associated with your device, and your device's location information.
+
+You're connected to a VPN, which can monitor your network activity, including emails, apps, and websites.
+
+For more information, contact your administrator."</string>
+    <string name="monitoring_description_vpn_profile_owned">"Your work profile is managed by %1$s.
+
+Your administrator is capable of monitoring your network activity including emails, apps, and websites.
+
+For more information, contact your administrator.
+
+You're also connected to a VPN, which can monitor your network activity."</string>
+    <string name="monitoring_description_app">"You're connected to %1$s, which can monitor your network activity including emails, apps, and websites."</string>
+    <string name="monitoring_description_app_personal">"You're connected to %1$s, which can monitor your personal network activity, including emails, apps, and websites."</string>
+    <string name="monitoring_description_app_work">"Your work profile is managed by %1$s. It is connected to %2$s, which can monitor your work network activity, including emails, apps, and websites.
+
+For more information, contact your administrator."</string>
+    <string name="monitoring_description_app_personal_work">"Your work profile is managed by %1$s. It is connected to %2$s, which can monitor your work network activity, including emails, apps, and websites.
+
+You're also connected to %3$s, which can monitor your personal network activity."</string>
+    <string name="monitoring_description_vpn_app_device_owned">"Your device is managed by %1$s.
+
+Your administrator can monitor and manage settings, corporate access, apps, data associated with your device, and your device's location information.
+
+You're connected to %2$s, which can monitor your network activity, including emails, apps, and websites.
+
+For more information, contact your administrator."</string>
+    <string name="keyguard_indication_trust_disabled">Device will stay locked until you manually unlock</string>
+    <string name="hidden_notifications_cancel">No thanks</string>
+    <string name="hidden_notifications_setup">Set up</string>
+    <string name="zen_mode_and_condition">%1$s. %2$s</string>
+    <string name="screen_pinning_description">"Screen pinning locks the display in a single view.
+You cannot receive any incoming calls and a third party cannot search your location until you unpin. Also, some apps may not work or notifications may not appear properly.
+To unpin, touch and hold ◁ (Back key) and □ (Recent apps key) at the same time."</string>
+    <string name="screen_pinning_description_accessible">"Screen pinning locks the display in a single view.
+You cannot receive any incoming calls and a third party cannot search your location until you unpin. Also, some apps may not work or notifications may not appear properly.
+To unpin, touch and hold the Back key and Recent apps key at the same time."</string>
+    <string name="screen_pinning_negative">No thanks</string>
+    <string name="quick_settings_reset_confirmation_title">Hide %1$s?</string>
+    <string name="volumeui_prompt_message">%1$s wants to be the volume dialog.</string>
+    <string name="volumeui_notification_title">%1$s is the volume dialog</string>
+    <string name="zen_alarm_warning_indef">"You won't hear your next alarm %1$s unless you turn this off before then"</string>
+    <string name="alarm_template">at %1$s</string>
+    <string name="alarm_template_far">on %1$s</string>
+    <string name="accessibility_quick_settings_detail">Quick Settings, %s.</string>
+    <string name="tuner_warning">System UI Tuner gives you extra ways to tweak and customize the Android user interface. These experimental features may change, break, or disappear in future releases. Proceed with caution.</string>
+    <string name="tuner_persistent_warning">These experimental features may change, break, or disappear in future releases. Proceed with caution.</string>
+    <string name="got_it">Got it</string>
+    <string name="remove_from_settings">Remove from Settings</string>
+    <string name="remove_from_settings_prompt">Remove System UI Tuner from Settings and stop using all of its features?</string>
+    <string name="somc_keyguard_analog_clock_name">Analog clock</string>
+    <string name="digital_clock_name">Digital clock</string>
+    <string name="keyguard_missing_sim_message">No SIM card in phone</string>
+    <string name="keyguard_permanent_disabled_sim_instructions">"Your SIM card has been permanently disabled.
+Contact your service provider for another SIM card."</string>
+    <string name="keyguard_sim_unlock_progress_dialog_message">Unlocking SIM card…</string>
+    <string name="keyguard_accessibility_next_alarm">Next alarm set for %1$s</string>
+    <string name="kg_forgot_pattern_button_text">Forgot pattern</string>
+    <string name="kg_sim_pin_instructions_multi">Enter SIM PIN for \"%1$s\"</string>
+    <string name="kg_puk_enter_puk_hint">SIM is now disabled. Enter PUK code or contact your service provider for more information.</string>
+    <string name="kg_puk_enter_puk_hint_multi">SIM \"%1$s\" is now disabled. Enter PUK code to continue. Contact carrier for details.</string>
+    <string name="kg_sim_unlock_progress_dialog_message">Unlocking SIM card…</string>
+    <string name="kg_invalid_sim_pin_hint">Type a PIN that is 4 to 8 numbers.</string>
+    <string name="kg_invalid_sim_puk_hint">PUK code should be 8 numbers.</string>
+    <string name="kg_failed_attempts_almost_at_wipe" formatted="false">You have incorrectly attempted to unlock the phone %d times. After %d more unsuccessful attempts, this phone will be reset, which will delete all its data.</string>
+    <string name="kg_failed_attempts_now_wiping">You have incorrectly attempted to unlock the phone %d times. This phone will be reset, which will delete all its data.</string>
+    <string name="kg_failed_attempts_almost_at_erase_user" formatted="false">You have incorrectly attempted to unlock the phone %d times. After %d more unsuccessful attempts, this user will be removed, which will delete all user data.</string>
+    <string name="kg_failed_attempts_now_erasing_user">You have incorrectly attempted to unlock the phone %d times. This user will be removed, which will delete all user data.</string>
+    <string name="kg_failed_attempts_almost_at_erase_profile" formatted="false">You have incorrectly attempted to unlock the phone %d times. After %d more unsuccessful attempts, the work profile will be removed, which will delete all profile data.</string>
+    <string name="kg_failed_attempts_now_erasing_profile">You have incorrectly attempted to unlock the phone %d times. The work profile will be removed, which will delete all profile data.</string>
+    <string name="kg_password_wrong_pin_code_pukked">Incorrect SIM PIN code. Enter PUK code or contact your service provider for more information.</string>
+    <string name="kg_password_wrong_puk_code_dead">SIM is disabled. Please contact your service provider.</string>
+    <string name="fingerprint_not_recognized">Not recognized</string>
+    <string name="somc_challenge_dialog_message">"You have entered an incorrect password, PIN or pattern %1$d times.
+You have %2$d more attempts before the device will be factory reset.
+
+To safely continue, please enter the following:"</string>
+    <string name="somc_keyguard_forgot_password_button">Forgot password</string>
+    <string name="somc_keyguard_forgot_pattern_button">Forgot pattern</string>
+    <string name="somc_keyguard_forgot_pin_button">Forgot PIN</string>
+    <string name="kg_somc_verizon_password_wrong_pin_code_pukked">Your last attempt to enter a PIN has locked this SIM card. Please contact your wireless service provider to get your PUK code to unlock your SIM card. Press Continue to enter your PUK to unlock your SIM card.</string>
+    <string name="lockscreen_voice_unlock_error_hint">Did not recognize passphrase</string>
+</resources>

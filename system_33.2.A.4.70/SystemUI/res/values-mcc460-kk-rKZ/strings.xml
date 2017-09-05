@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_disabled_wifi_failure">WLAN байланысының қатесі</string>
+    <string name="connected_via_wfa">WLAN көмекшісі арқылы қосылу орындалды</string>
+    <string name="status_bar_settings_wifi_button">WLAN</string>
+    <string name="accessibility_data_connection_wifi">WLAN</string>
+    <string name="accessibility_quick_settings_wifi_changed_off">WLAN өшірілді.</string>
+    <string name="accessibility_quick_settings_wifi_changed_on">WLAN қосылды.</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">WLAN қосулы</string>
+    <string name="quick_settings_wifi_label">WLAN</string>
+    <string name="quick_settings_wifi_off_label">WLAN өшірулі</string>
+    <string name="quick_settings_wifi_detail_empty_text">Қолжетімді WLAN желілері жоқ</string>
+    <string name="accessibility_quick_settings_detail">Жылдам параметрлер, %s.</string>
+</resources>

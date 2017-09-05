@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_security_wapi_psk">WLAN PSK</string>
+    <string name="wifi_disabled_wifi_failure">Błąd połączenia WLAN</string>
+    <string name="connected_via_wfa">Połączono przez Asystenta WLAN</string>
+    <string name="accessibility_wifi_off">Łączność WLAN wyłączona.</string>
+    <string name="accessibility_no_wifi">Rozłączono z siecią WLAN.</string>
+    <string name="accessibility_wifi_one_bar">Jeden pasek łączności WLAN.</string>
+    <string name="accessibility_wifi_two_bars">Dwa paski łączności WLAN.</string>
+    <string name="accessibility_wifi_three_bars">Trzy paski łączności WLAN.</string>
+    <string name="accessibility_wifi_signal_full">Pełny sygnał łączności WLAN.</string>
+    <string name="quick_settings_wifi_scanning_label">WLAN: Wyszukiwanie</string>
+    <string name="quick_settings_wifi_connecting_label">WLAN: Łączenie</string>
+    <string name="toast_message_not_allow_turn_on_hotspot">Hotspot WLAN nie jest dostępny w trybie samolotowym</string>
+    <string name="status_bar_settings_wifi_button">WLAN</string>
+    <string name="accessibility_data_connection_wifi">WLAN</string>
+    <string name="accessibility_quick_settings_wifi_changed_off">Funkcja WLAN wyłączona</string>
+    <string name="accessibility_quick_settings_wifi_changed_on">Funkcja WLAN włączona</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid">WLAN: połączono</string>
+    <string name="quick_settings_wifi_label">WLAN</string>
+    <string name="quick_settings_wifi_off_label">Wyłącz WLAN</string>
+    <string name="quick_settings_wifi_detail_empty_text">Brak dostępnych sieci WLAN</string>
+    <string name="accessibility_quick_settings_detail">Szybkie ustawienia, %s.</string>
+    <string name="wifi_security_short_wapi_cert">WLAN CERT</string>
+    <string name="wifi_security_short_wapi_psk">WLAN PSK</string>
+    <string name="wifi_security_wapi_cert">WLAN CERT</string>
+</resources>
