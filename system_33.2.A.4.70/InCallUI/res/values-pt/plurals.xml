@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="searchFoundCalllogs">
+        <item quantity="other">%d registros de chamada</item>
+        <item quantity="one">1 registro de chamada</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d encontrados</item>
+        <item quantity="one">%d encontrados</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d segundos</item>
+        <item quantity="one">%d segundos</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d minutos</item>
+        <item quantity="one">%d minutos</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="other">%d horas</item>
+        <item quantity="one">%d horas</item>
+    </plurals>
+</resources>

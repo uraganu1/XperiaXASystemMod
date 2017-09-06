@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">%d கண்டறியப்பட்டது</item>
+        <item quantity="one">1 கண்டறியப்பட்டது</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d விநாடிகள்</item>
+        <item quantity="one">1 வினாடி</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d நிமிடங்கள்</item>
+        <item quantity="one">1 நிமிடம்</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="other">%d மணிநேரம்</item>
+        <item quantity="one">1 மணிநேரம்</item>
+    </plurals>
+</resources>

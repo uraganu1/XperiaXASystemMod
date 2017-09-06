@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_grid_layout_button_width">103.0dip</dimen>
+    <dimen name="button_grid_layout_button_height">50.0dip</dimen>
+    <dimen name="dialpad_additional_button_width">106.29999dip</dimen>
+    <dimen name="dialer_search_list_view_min_height">173.0dip</dimen>
+    <dimen name="dialer_search_list_view_max_height">396.0dip</dimen>
+    <dimen name="dialpad_divider_height">24.0dip</dimen>
+    <dimen name="dialpad_divider_width">1.0dip</dimen>
+    <dimen name="calllog_list_item_simname_text_size">9.0sp</dimen>
+    <dimen name="call_detail_simname_text_size">9.0sp</dimen>
+    <dimen name="dialpad_additional_button_height">65.0dip</dimen>
+</resources>

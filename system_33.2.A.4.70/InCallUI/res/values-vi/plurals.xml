@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="searchFoundCalllogs">
+        <item quantity="other">%d nhật ký c.gọi</item>
+        <item quantity="one">1 nhật ký c.gọi</item>
+    </plurals>
+    <plurals name="searchFoundContacts">
+        <item quantity="other">Đã tìm thấy %d người liên hệ</item>
+        <item quantity="one">Đã tìm thấy 1 người liên hệ</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d giây</item>
+        <item quantity="one">1 giây</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d phút</item>
+        <item quantity="one">1 phút</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="other">%d giờ</item>
+        <item quantity="one">1 giờ</item>
+    </plurals>
+</resources>
