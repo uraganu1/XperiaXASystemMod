@@ -1400,7 +1400,7 @@
         <item name="textAppearanceLargePopupMenu">@style/TextAppearance.Holo.Light.Widget.PopupMenu.Large</item>
         <item name="textAppearanceSmallPopupMenu">@style/TextAppearance.Holo.Light.Widget.PopupMenu.Small</item>
         <item name="listDividerAlertDialog">@drawable/list_divider_holo_light</item>
-        <item name="textColorAlertDialogListItem">@color/primary_text_holo_light</item>
+        <item name="textColorAlertDialogListItem">@color/primary_text_holo_dark</item>
         <item name="dialogTheme">@style/Theme.Holo.Light.Dialog</item>
         <item name="alertDialogTheme">@style/Theme.Holo.Light.Dialog.Alert</item>
         <item name="dividerVertical">?listDivider</item>
@@ -3182,10 +3182,10 @@
     </style>
     <style name="TextAppearance.Material.Notification" parent="@style/TextAppearance.Material">
         <item name="textSize">@dimen/notification_text_size</item>
-        <item name="textColor">@color/secondary_text_material_light</item>
+        <item name="textColor">@color/secondary_text_default_material_gray</item>
     </style>
     <style name="TextAppearance.Material.Notification.Emphasis" parent="@style/TextAppearance.Material.Notification">
-        <item name="textColor">#66000000</item>
+        <item name="textColor">#667f7f7f</item>
     </style>
     <style name="TextAppearance.Material.Notification.Info" parent="@style/TextAppearance.Material.Notification">
         <item name="textSize">@dimen/notification_subtext_size</item>
@@ -3198,7 +3198,7 @@
     </style>
     <style name="TextAppearance.Material.Notification.Title" parent="@style/TextAppearance.Material.Notification">
         <item name="textSize">@dimen/notification_title_text_size</item>
-        <item name="textColor">@color/primary_text_default_material_light</item>
+        <item name="textColor">@color/primary_text_default_material_gray</item>
     </style>
     <style name="TextAppearance.Material.SearchResult.Subtitle" parent="@style/TextAppearance.Material.Subhead" />
     <style name="TextAppearance.Material.SearchResult.Title" parent="@style/TextAppearance.Material.Title" />
