@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wfcRegErrorTitle">വൈഫൈ കോളിംഗ്</string>
+    <string name="wfcSpnFormat">%s</string>
+    <string name="wfcDataSpnFormat">%s</string>
+    <string name="wfc_mode_wifi_preferred_summary">വൈഫൈ തിരഞ്ഞെടുത്തിരിക്കുന്നു</string>
+    <string name="wfc_mode_wifi_only_summary">വൈഫൈ മാത്രം</string>
+    <string name="permdesc_accessFineLocation">ഗ്ലോബൽ പൊസിഷനിംഗ് സിസ്റ്റമോ (GPS) സെൽ ടവറുകളും WLAN-യും പോലുള്ള നെറ്റ്‌വർക്ക് ലൊക്കേഷൻ ഉറവിടങ്ങളോ ഉപയോഗിച്ച് നിങ്ങളുടെ കൃത്യമായ ലൊക്കേഷൻ നേടാൻ അപ്ലിക്കേഷനെ അനുവദിക്കുന്നു. അപ്ലിക്കേഷനുകൾ അവ ഉപയോഗിക്കാൻ നിങ്ങളുടെ ഉപകരണത്തിൽ ഈ ലൊക്കേഷൻ സേവനങ്ങൾ ഓൺ ചെയ്‌ത് ലഭ്യമാക്കേണ്ടതുണ്ട്. നിങ്ങൾ എവിടെയാണെന്ന് ഏകദേശം നിർണ്ണയിക്കാൻ അപ്ലിക്കേഷനുകൾ ഇത് ഉപയോഗിക്കാം, അവ കൂടുതൽ ബാറ്ററി പവർ ഉപയോഗിക്കാനിടയുണ്ട്.</string>
+    <string name="permdesc_accessCoarseLocation">നിങ്ങളുടെ ഏകദേശ ലൊക്കേഷൻ നേടാൻ അപ്ലിക്കേഷനുകളെ അനുവദിക്കുക. ഈ ലൊക്കേഷനെ സെൽ ടവറുകളും WLAN-യും പോലുള്ള നെറ്റ്‌വർക്ക് ലൊക്കേഷൻ ഉറവിടങ്ങൾ ഉപയോഗിച്ച് ലൊക്കേഷൻ സേവനങ്ങൾ അനുമാനിക്കുന്നു. അപ്ലിക്കേഷനുകൾ അവ ഉപയോഗിക്കാൻ നിങ്ങളുടെ ഉപകരണത്തിൽ ഈ ലൊക്കേഷൻ സേവനങ്ങൾ ഓൺ ചെയ്‌ത് ലഭ്യമാക്കേണ്ടതുണ്ട്. നിങ്ങൾ എവിടെയാണെന്ന് ഏകദേശം നിർണ്ണയിക്കാൻ അപ്ലിക്കേഷനുകൾ ഇത് ഉപയോഗിക്കാം.</string>
+    <string name="permlab_accessWifiState">വൈഫൈ കണക്ഷനുകൾ കാണുക</string>
+    <string name="permdesc_accessWifiState">വൈഫൈ പ്രവർത്തനക്ഷമമാണോ എന്നതും കണക്റ്റുചെയ്‌തിരിക്കുന്ന വൈഫൈ ഉപകരണങ്ങളുടെ പേരും പോലുള്ള, വൈഫൈ നെറ്റ്‌വർക്കിംഗിനെക്കുറിച്ചുള്ള വിവരം കാണാൻ അപ്ലിക്കേഷനെ അനുവദിക്കുന്നു.</string>
+    <string name="permlab_changeWifiState">വൈഫൈ കണക്റ്റുചെയ്യുക, അതിൽ നിന്നും വിച്ഛേദിക്കുക</string>
+    <string name="permdesc_changeWifiState">വൈഫൈ ആക്‌സസ്സ് പോയിന്റുകളിലേക്ക് കണക്റ്റുചെയ്യാനും അതിൽ നിന്ന് വിച്ഛേദിക്കാനും വൈഫൈ നെറ്റ്‌വർക്കുകൾക്കായി ഉപകരണ കോൺഫിഗറേഷൻ മാറ്റാനും അപ്ലിക്കേഷനെ അനുവദിക്കുന്നു.</string>
+    <string name="permlab_changeWifiMulticastState">വൈഫൈ മൾട്ടികാസ്‌റ്റ് റിസപ്‌ഷൻ അനുവദിക്കുക</string>
+    <string name="permdesc_changeWifiMulticastState">മൾട്ടികാസ്‌റ്റ് വിലാസങ്ങൾ ഉപയോഗിച്ച് നിങ്ങളുടെ ഫോണിലേക്ക് മാത്രമല്ലാതെ, ഒരു വൈഫൈ നെറ്റ്‌വർക്കിലെ എല്ലാ ഉപകരണങ്ങളിലേക്കും അയച്ച പായ്‌ക്കറ്റുകൾ നേടാൻ അപ്ലിക്കേഷനെ അനുവദിക്കുന്നു. ഇത് മൾട്ടികാസ്റ്റ് ഇതര മോഡിനേക്കാൾ അധികം പവർ ഉപയോഗിക്കുന്നു.</string>
+    <string name="wifi_available_sign_in">വൈഫൈ നെറ്റ്‌വർക്കിലേക്ക് സൈൻ ഇൻ ചെയ്യുക</string>
+    <string name="wifi_no_internet">WLAN-യിൽ ഇന്റർനെറ്റ് ആക്‌സസ് ഇല്ല.</string>
+    <string name="wifi_watchdog_network_disabled">WLAN-ലേക്ക് കണക്‌റ്റുചെയ്യാൻ കഴിഞ്ഞില്ല</string>
+    <string name="wifi_connect_alert_message">അപ്ലിക്കേഷൻ %1$s WLAN നെറ്റ്‌വർക്കിലേക്ക് കണക്‌റ്റുചെയ്യാൻ താൽപ്പര്യപ്പെടുന്നു %2$s</string>
+    <string name="wifi_p2p_dialog_title">വൈഫൈ ഡയറക്‌ട്</string>
+    <string name="wifi_p2p_turnon_message">വൈഫൈ ഡയറക്റ്റ് ആരംഭിക്കുക. ഇത് വൈഫൈ ക്ലയന്റ്/ഹോട്ട്‌സ്‌പോട്ട് ഓഫാക്കും.</string>
+    <string name="wifi_p2p_failed_message">വൈഫൈ ഡയറക്റ്റ് ആരംഭിക്കാനായില്ല.</string>
+    <string name="wifi_p2p_enabled_notification_title">വൈഫൈ ഡയറക്‌ട് ഓണാണ്</string>
+    <string name="wifi_p2p_frequency_conflict_message">%1$s എന്നതിലേക്ക് കണക്റ്റുചെയ്‌തിരിക്കുമ്പോൾ ഫോൺ WLAN-യിൽ നിന്ന് താൽക്കാലികമായി വിച്ഛേദിക്കും</string>
+    <string name="data_usage_wifi_limit_title">വൈഫൈ ഡാറ്റ പരിധിയിലെത്തി</string>
+    <string name="data_usage_wifi_limit_snoozed_title">വൈഫൈ ഡാറ്റ പരിധി കവിഞ്ഞു</string>
+</resources>

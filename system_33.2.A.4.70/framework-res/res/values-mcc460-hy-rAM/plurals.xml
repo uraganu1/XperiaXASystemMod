@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="wifi_available">
+        <item quantity="other">Հասանելի են WLAN ցանցեր</item>
+        <item quantity="one">Հասանելի են WLAN ցանցեր</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">Հասանելի են չպաշտպանված WLAN ցանցեր</item>
+        <item quantity="one">Հասանելի են չպաշտպանված WLAN ցանցեր</item>
+    </plurals>
+</resources>

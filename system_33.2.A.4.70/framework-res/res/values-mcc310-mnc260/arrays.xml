@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="wfcOperatorErrorCodes">
+        <item>100</item>
+        <item>2006</item>
+        <item>2007</item>
+        <item>1201</item>
+        <item>1202</item>
+        <item>1203</item>
+        <item>1041</item>
+        <item>1301</item>
+        <item>1401</item>
+        <item>1081</item>
+        <item>1082</item>
+        <item>1405</item>
+        <item>1406</item>
+        <item>1501</item>
+        <item>1101</item>
+        <item>1111</item>
+        <item>1504</item>
+        <item>1601</item>
+        <item>1602</item>
+        <item>1603</item>
+        <item>1604</item>
+        <item>1605</item>
+        <item>1701</item>
+        <item>1407</item>
+        <item>999</item>
+    </string-array>
+    <string-array name="wfcOperatorErrorAlertMessages">
+        <item>Wi-Fi calling off</item>
+        <item>No cellular network available. Connect to an available Wi-Fi Network to make calls.</item>
+        <item>String to be decided</item>
+        <item>Error02: DNS Error</item>
+        <item>Error03: DNS Error</item>
+        <item>Error04: DNS Error</item>
+        <item>Error041: DNS Error</item>
+        <item>Error05: Invalid SIM card</item>
+        <item>Error07: Unable to Connect</item>
+        <item>Error081: Unable to connect</item>
+        <item>Error082: Unable to Connect</item>
+        <item>Error08: Unable to Connect</item>
+        <item>REG91: Unable to Connect</item>
+        <item>Error010: Invalid Certificate</item>
+        <item>Error101: Invalid Certificate</item>
+        <item>Error111: Invalid Certificate</item>
+        <item>Error011: Invalid Certificate</item>
+        <item>Error403: Unknown user</item>
+        <item>Error403: Roaming not allowed</item>
+        <item>Error403: Mismatch identities</item>
+        <item>Error403: authentication scheme unsupported</item>
+        <item>Error403: handset is blacklisted</item>
+        <item>REG09: Missing 911 Address</item>
+        <item>REG99: Unable to Connect</item>
+        <item>REG99: Unable to Connect</item>
+    </string-array>
+    <string-array name="wfcOperatorErrorNotificationMessages">
+        <item>Wi-Fi calling off</item>
+        <item>No cellular network available. Connect to an available Wi-Fi Network to make calls.</item>
+        <item>String to be decided</item>
+        <item>Error02: DNS Error</item>
+        <item>Error03: DNS Error</item>
+        <item>Error04: DNS Error</item>
+        <item>Error041: DNS Error</item>
+        <item>Error05: Invalid SIM card</item>
+        <item>Error07: Unable to Connect</item>
+        <item>Error081: Unable to connect</item>
+        <item>Error082: Unable to Connect</item>
+        <item>Error08: Unable to Connect</item>
+        <item>REG91: Unable to Connect</item>
+        <item>Error010: Invalid Certificate</item>
+        <item>Error101: Invalid Certificate</item>
+        <item>Error111: Invalid Certificate</item>
+        <item>Error011: Invalid Certificate</item>
+        <item>Error403: Unknown user</item>
+        <item>Error403: Roaming not allowed</item>
+        <item>Error403: Mismatch identities</item>
+        <item>Error403: authentication scheme unsupported</item>
+        <item>Error403: handset is blacklisted</item>
+        <item>REG09: Missing 911 Address</item>
+        <item>REG99: Unable to Connect</item>
+        <item>REG99: Unable to Connect</item>
+    </string-array>
+</resources>

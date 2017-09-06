@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pinpuk_attempts">
+        <item quantity="other">You have %d remaining attempts before SIM is locked</item>
+        <item quantity="one">You have %d remaining attempt before SIM is locked</item>
+    </plurals>
+    <plurals name="zen_mode_duration_minutes_summary">
+        <item quantity="other">For %1$d minutes (until %2$s)</item>
+        <item quantity="one">For one minute (until %2$s)</item>
+    </plurals>
+    <plurals name="zen_mode_duration_minutes_summary_short">
+        <item quantity="other">For %1$d min (until %2$s)</item>
+        <item quantity="one">For 1 min (until %2$s)</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours_summary">
+        <item quantity="other">For %1$d hours (until %2$s)</item>
+        <item quantity="one">For one hour (until %2$s)</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours_summary_short">
+        <item quantity="other">For %1$d hr (until %2$s)</item>
+        <item quantity="one">For 1 hr (until %2$s)</item>
+    </plurals>
+    <plurals name="zen_mode_duration_minutes_short">
+        <item quantity="other">For %d min</item>
+        <item quantity="one">For 1 min</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours_short">
+        <item quantity="other">For %d hr</item>
+        <item quantity="one">For 1 hr</item>
+    </plurals>
+</resources>

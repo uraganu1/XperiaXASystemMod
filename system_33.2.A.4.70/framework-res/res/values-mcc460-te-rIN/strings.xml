@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wfcRegErrorTitle">WLAN కాలింగ్</string>
+    <string name="wfcSpnFormat">%s</string>
+    <string name="wfcDataSpnFormat">%s</string>
+    <string name="wfc_mode_wifi_preferred_summary">WLANకి ప్రాధాన్యత</string>
+    <string name="wfc_mode_wifi_only_summary">WLAN మాత్రమే</string>
+    <string name="permdesc_accessFineLocation">గ్లోబల్ పొజిషనింగ్ సిస్టమ్ (GPS) లేదా సెల్ టవర్‌లు మరియు WLAN వంటి నెట్‌వర్క్ స్థాన మూలాలను ఉపయోగించి మీ ఖచ్చితమైన స్థానాన్ని పొందడానికి అనువర్తనాన్ని అనుమతిస్తుంది. ఈ స్థాన సేవలను అనువర్తనం ఉపయోగించడానికి తప్పనిసరిగా ప్రారంభించబడి ఉండాలి మరియు మీ పరికరానికి అందుబాటులో ఉండాలి. అనువర్తనాలు మీరు ఉన్న ప్రాంతాన్ని కనుగొనడానికి దీన్ని ఉపయోగించవచ్చు మరియు అదనపు బ్యాటరీ శక్తిని వినియోగించవచ్చు.</string>
+    <string name="permdesc_accessCoarseLocation">మీ సామీప్య స్థానాన్ని పొందడానికి అనువర్తనాన్ని అనుమతిస్తుంది. సెల్ టవర్‌లు మరియు WLAN వంటి నెట్‌వర్క్ స్థాన మూలాలను ఉపయోగించి స్థాన సేవల ద్వారా ఈ స్థానం కనుగొనబడుతుంది. ఈ స్థాన సేవలను అనువర్తనం ఉపయోగించడానికి తప్పనిసరిగా ప్రారంభించబడి ఉండాలి మరియు మీ పరికరానికి అందుబాటులో ఉండాలి. అనువర్తనాలు మీరు ఉన్న ప్రాంతాన్ని సుమారుగా గుర్తించడానికి దీన్ని ఉపయోగించవచ్చు.</string>
+    <string name="permlab_accessWifiState">WLAN కనెక్షన్‌లను వీక్షించడం</string>
+    <string name="permdesc_accessWifiState">WLAN ప్రారంభించబడిందా, లేదా మరియు కనెక్ట్ చేయబడిన WLAN పరికరాల పేరు వంటి WLAN నెట్‌వర్కింగ్ గురించి సమాచారాన్ని వీక్షించడానికి అనువర్తనాన్ని అనుమతిస్తుంది.</string>
+    <string name="permlab_changeWifiState">WLANకి కనెక్ట్ చేయడం మరియు దాని నుండి డిస్‌కనెక్ట్ చేయడం</string>
+    <string name="permdesc_changeWifiState">WLAN ప్రాప్యత స్థానాలకు కనెక్ట్ చేయడానికి మరియు వాటి నుండి డిస్‌కనెక్ట్ చేయడానికి మరియు WLAN నెట్‌వర్క్‌ల కోసం పరికర కాన్ఫిగరేషన్‌కు మార్పులు చేయడానికి అనువర్తనాన్ని అనుమతిస్తుంది.</string>
+    <string name="permlab_changeWifiMulticastState">WLAN Multicast స్వీకరణను అనుమతించడం</string>
+    <string name="permdesc_changeWifiMulticastState">మల్టీక్యాస్ట్ చిరునామాలను ఉపయోగించి మీ ఫోన్‌కు మాత్రమే కాకుండా WLAN నెట్‌వర్క్‌లోని అన్ని పరికరాలకు పంపబడిన ప్యాకెట్‌లను స్వీకరించడానికి అనువర్తనాన్ని అనుమతిస్తుంది. మల్టీక్యాస్ట్ యేతర మోడ్ కంటే ఇది ఎక్కువ పవర్ ఉపయోగిస్తుంది.</string>
+    <string name="permdesc_accessWimaxState">WLAN ప్రారంభించబడిందా, లేదా మరియు కనెక్ట్ చేయబడిన WiMAX నెట్‌వర్క్‌ల గురించి సమాచారాన్ని కనుగొనడానికి అనువర్తనాన్ని అనుమతిస్తుంది.</string>
+    <string name="wifi_available_sign_in">WLAN నెట్‌వర్క్‌కి సైన్ ఇన్ చేయండి</string>
+    <string name="wifi_no_internet">WLANకి ఇంటర్నెట్ ప్రాప్యత లేదు</string>
+    <string name="wifi_watchdog_network_disabled">WLANకి కనెక్ట్ చేయడం సాధ్యపడలేదు</string>
+    <string name="wifi_connect_alert_message">%1$s అనువర్తనం %2$s WLAN నెట్‌వర్క్‌కు కనెక్ట్ చేయాలనుకుంటోంది</string>
+    <string name="wifi_p2p_dialog_title">WLAN Direct</string>
+    <string name="wifi_p2p_turnon_message">WLAN Directను ప్రారంభించండి. దీని వలన WLAN క్లయింట్/హాట్‌స్పాట్ ఆపివేయబడుతుంది.</string>
+    <string name="wifi_p2p_failed_message">WLAN Directను ప్రారంభించడం సాధ్యపడలేదు.</string>
+    <string name="wifi_p2p_enabled_notification_title">WLAN Direct ఆన్‌లో ఉంది</string>
+    <string name="wifi_p2p_frequency_conflict_message">ఫోన్ %1$sకి కనెక్ట్ అయినప్పుడు అది WLAN నుండి తాత్కాలికంగా డిస్‌కనెక్ట్ చేయబడుతుంది</string>
+    <string name="data_usage_wifi_limit_title">WLAN డేటా పరిమితిని చేరుకుంది</string>
+    <string name="data_usage_wifi_limit_snoozed_title">WLAN డేటా పరిమితి మించిపోయింది</string>
+</resources>

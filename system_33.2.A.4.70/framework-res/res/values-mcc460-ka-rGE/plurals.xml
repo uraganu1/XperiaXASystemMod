@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="wifi_available">
+        <item quantity="other">ხელმისაწვდომია WLAN ქსელები</item>
+        <item quantity="one">ხელმისაწვდომია WLAN ქსელი</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">ხელმისაწვდომია ღია WLAN ქსელები</item>
+        <item quantity="one">ხელმისაწვდომია ღია WLAN ქსელი</item>
+    </plurals>
+</resources>

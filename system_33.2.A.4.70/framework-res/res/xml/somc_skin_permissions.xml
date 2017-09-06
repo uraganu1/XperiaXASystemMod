@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="utf-8"?>
+<overlay-resources>
+    <filter-group group="color">
+        <filter type="type" value="color" />
+    </filter-group>
+    <filter-group group="action-bar">
+        <filter type="type" value="nine-patch,bitmap" />
+        <filter type="size" minWidth="1dp" maxWidth="360dp" minHeight="1dp" maxHeight="48dp" />
+    </filter-group>
+    <overlay id="@drawable/somc_actionbar_top_bg_dark" filters="action-bar" />
+    <overlay id="@drawable/somc_actionbar_middle_bg_dark" filters="action-bar" />
+    <overlay id="@drawable/somc_actionbar_bottom_bg_dark" filters="action-bar" />
+    <overlay id="@drawable/somc_actionbar_top_bg_light" filters="action-bar" />
+    <overlay id="@drawable/somc_actionbar_middle_bg_light" filters="action-bar" />
+    <overlay id="@drawable/somc_actionbar_bottom_bg_light" filters="action-bar" />
+    <overlay id="@drawable/somc_cab_bottom_bg_dark" filters="action-bar" />
+    <overlay id="@drawable/somc_cab_bottom_bg_light" filters="action-bar" />
+    <overlay id="@drawable/somc_cab_top_bg_dark" filters="action-bar" />
+    <overlay id="@drawable/somc_cab_top_bg_light" filters="action-bar" />
+    <filter-group group="button-selector">
+        <filter type="type" value="selector,animated-selector">
+            <filter type="included" value="false" />
+        </filter>
+        <filter type="type" value="nine-patch,bitmap">
+            <filter type="included" value="true" />
+        </filter>
+        <filter type="size" minWidth="20dp" maxWidth="48dp" minHeight="20dp" maxHeight="48dp">
+            <filter type="included" value="true" />
+        </filter>
+    </filter-group>
+    <overlay id="@drawable/somc_btn_selector_dark" filters="button-selector" />
+    <overlay id="@drawable/somc_btn_selector_light" filters="button-selector" />
+    <overlay id="@color/somc_color_btn_ripple_dark" filters="color" />
+    <overlay id="@color/somc_color_btn_ripple_light" filters="color" />
+    <overlay id="@color/somc_color_btn_dark" filters="color" />
+    <overlay id="@color/somc_color_btn_light" filters="color" />
+    <filter-group group="btn-elevation">
+        <filter type="size" value="3dp" tolerance="3dp" />
+    </filter-group>
+    <overlay id="@dimen/somc_dimension_btn_base_elevation" filters="btn-elevation" />
+    <overlay id="@dimen/somc_dimension_btn_press_elevation" filters="btn-elevation" />
+    <filter-group group="button">
+        <filter type="type" value="nine-patch,bitmap" />
+        <filter type="size" minWidth="20dp" maxWidth="48dp" minHeight="20dp" maxHeight="48dp" />
+    </filter-group>
+    <overlay id="@drawable/somc_btn_dark" filters="button" />
+    <overlay id="@drawable/somc_btn_normal_dark" filters="button" />
+    <overlay id="@drawable/somc_btn_pressed_dark" filters="button" />
+    <overlay id="@drawable/somc_btn_focused_dark" filters="button" />
+    <overlay id="@drawable/somc_btn_disabled_dark" filters="button" />
+    <overlay id="@drawable/somc_btn_disabled_focused_dark" filters="button" />
+    <overlay id="@drawable/somc_btn_light" filters="button" />
+    <overlay id="@drawable/somc_btn_normal_light" filters="button" />
+    <overlay id="@drawable/somc_btn_pressed_light" filters="button" />
+    <overlay id="@drawable/somc_btn_focused_light" filters="button" />
+    <overlay id="@drawable/somc_btn_disabled_light" filters="button" />
+    <overlay id="@drawable/somc_btn_disabled_focused_light" filters="button" />
+    <overlay id="@color/somc_text_color_button_dark" filters="color" />
+    <overlay id="@color/somc_text_color_button_light" filters="color" />
+    <filter-group group="checkbox-selector">
+        <filter type="type" value="selector,animated-selector">
+            <filter type="included" value="false" />
+        </filter>
+        <filter type="type" value="bitmap,vector">
+            <filter type="included" value="true" />
+        </filter>
+        <filter type="size" minWidth="26dp" maxWidth="32dp" minHeight="26dp" maxHeight="32dp">
+            <filter type="included" value="true" />
+        </filter>
+    </filter-group>
+    <overlay id="@drawable/somc_btn_check_dark" filters="checkbox-selector" />
+    <overlay id="@drawable/somc_btn_check_light" filters="checkbox-selector" />
+    <overlay id="@color/somc_color_checkbox_ripple_dark" filters="color" />
+    <overlay id="@color/somc_color_checkbox_ripple_light" filters="color" />
+    <filter-group group="radio-selector">
+        <filter type="type" value="selector,animated-selector">
+            <filter type="included" value="false" />
+        </filter>
+        <filter type="type" value="bitmap,vector">
+            <filter type="included" value="true" />
+        </filter>
+        <filter type="size" minWidth="26dp" maxWidth="32dp" minHeight="26dp" maxHeight="32dp">
+            <filter type="included" value="true" />
+        </filter>
+    </filter-group>
+    <overlay id="@drawable/somc_btn_radio_dark" filters="radio-selector" />
+    <overlay id="@drawable/somc_btn_radio_light" filters="radio-selector" />
+    <overlay id="@color/somc_color_radiobutton_ripple_dark" filters="color" />
+    <overlay id="@color/somc_color_radiobutton_ripple_light" filters="color" />
+    <filter-group group="toggle-selector">
+        <filter type="type" value="selector,animated-selector">
+            <filter type="included" value="false" />
+        </filter>
+        <filter type="type" value="nine-patch,bitmap">
+            <filter type="included" value="true" />
+        </filter>
+        <filter type="size" minWidth="12dp" maxWidth="48dp" minHeight="12dp" maxHeight="48dp">
+            <filter type="included" value="true" />
+        </filter>
+    </filter-group>
+    <overlay id="@drawable/somc_btn_toggle_selector_dark" filters="toggle-selector" />
+    <overlay id="@drawable/somc_btn_toggle_selector_light" filters="toggle-selector" />
+    <filter-group group="toggle">
+        <filter type="type" value="nine-patch" />
+        <filter type="size" minWidth="12dp" maxWidth="48dp" minHeight="12dp" maxHeight="48dp" />
+    </filter-group>
+    <overlay id="@color/somc_color_btn_toggle_dark" filters="color" />
+    <overlay id="@color/somc_color_btn_toggle_light" filters="color" />
+    <overlay id="@color/somc_color_btn_toggle_ripple_dark" filters="color" />
+    <overlay id="@color/somc_color_btn_toggle_ripple_light" filters="color" />
+    <overlay id="@drawable/somc_btn_toggle_off_normal_dark" filters="toggle" />
+    <overlay id="@drawable/somc_btn_toggle_off_pressed_dark" filters="toggle" />
+    <overlay id="@drawable/somc_btn_toggle_off_focused_dark" filters="toggle" />
+    <overlay id="@drawable/somc_btn_toggle_off_disabled_dark" filters="toggle" />
+    <overlay id="@drawable/somc_btn_toggle_off_disabled_focused_dark" filters="toggle" />
+    <overlay id="@drawable/somc_btn_toggle_on_normal_dark" filters="toggle" />
+    <overlay id="@drawable/somc_btn_toggle_on_pressed_dark" filters="toggle" />
+    <overlay id="@drawable/somc_btn_toggle_on_focused_dark" filters="toggle" />
+    <overlay id="@drawable/somc_btn_toggle_on_disabled_dark" filters="toggle" />
+    <overlay id="@drawable/somc_btn_toggle_on_disabled_focused_dark" filters="toggle" />
+    <overlay id="@drawable/somc_btn_toggle_off_normal_light" filters="toggle" />
+    <overlay id="@drawable/somc_btn_toggle_off_pressed_light" filters="toggle" />
+    <overlay id="@drawable/somc_btn_toggle_off_focused_light" filters="toggle" />
+    <overlay id="@drawable/somc_btn_toggle_off_disabled_light" filters="toggle" />
+    <overlay id="@drawable/somc_btn_toggle_off_disabled_focused_light" filters="toggle" />
+    <overlay id="@drawable/somc_btn_toggle_on_normal_light" filters="toggle" />
+    <overlay id="@drawable/somc_btn_toggle_on_pressed_light" filters="toggle" />
+    <overlay id="@drawable/somc_btn_toggle_on_focused_light" filters="toggle" />
+    <overlay id="@drawable/somc_btn_toggle_on_disabled_light" filters="toggle" />
+    <overlay id="@drawable/somc_btn_toggle_on_disabled_focused_light" filters="toggle" />
+    <filter-group group="switch-bg-selector">
+        <filter type="type" value="selector,animated-selector">
+            <filter type="included" value="false" />
+        </filter>
+        <filter type="type" value="bitmap,vector,nine-patch">
+            <filter type="included" value="true" />
+        </filter>
+        <filter type="size" minWidth="8dp" maxWidth="28dp" minHeight="8dp" maxHeight="32dp">
+            <filter type="included" value="true" />
+        </filter>
+    </filter-group>
+    <overlay id="@drawable/somc_switch_track_dark" filters="switch-bg-selector" />
+    <overlay id="@drawable/somc_switch_track_light" filters="switch-bg-selector" />
+    <filter-group group="switch-background">
+        <filter type="type" value="nine-patch" />
+        <filter type="size" minWidth="8dp" maxWidth="28dp" minHeight="8dp" maxHeight="32dp" />
+    </filter-group>
+    <overlay id="@drawable/somc_switch_bg_off_dark" filters="switch-background" />
+    <overlay id="@drawable/somc_switch_bg_off_disabled_dark" filters="switch-background" />
+    <overlay id="@drawable/somc_switch_bg_on_dark" filters="switch-background" />
+    <overlay id="@drawable/somc_switch_bg_on_disabled_dark" filters="switch-background" />
+    <overlay id="@drawable/somc_switch_bg_off_light" filters="switch-background" />
+    <overlay id="@drawable/somc_switch_bg_off_disabled_light" filters="switch-background" />
+    <overlay id="@drawable/somc_switch_bg_on_light" filters="switch-background" />
+    <overlay id="@drawable/somc_switch_bg_on_disabled_light" filters="switch-background" />
+    <filter-group group="switch-thumb-selector">
+        <filter type="type" value="selector,animated-selector">
+            <filter type="included" value="false" />
+        </filter>
+        <filter type="type" value="bitmap,vector,nine-patch">
+            <filter type="included" value="true" />
+        </filter>
+        <filter type="size" minWidth="26dp" maxWidth="32dp" minHeight="26dp" maxHeight="32dp">
+            <filter type="included" value="true" />
+        </filter>
+    </filter-group>
+    <overlay id="@drawable/somc_switch_thumb_dark" filters="switch-thumb-selector" />
+    <overlay id="@drawable/somc_switch_thumb_light" filters="switch-thumb-selector" />
+    <overlay id="@color/somc_color_switch_ripple_dark" filters="color" />
+    <overlay id="@color/somc_color_switch_ripple_light" filters="color" />
+    <overlay id="@color/somc_text_color_switch_disabled_dark" filters="color" />
+    <overlay id="@color/somc_text_color_switch_unchecked_dark" filters="color" />
+    <overlay id="@color/somc_text_color_switch_checked_dark" filters="color" />
+    <overlay id="@color/somc_text_color_switch_disabled_light" filters="color" />
+    <overlay id="@color/somc_text_color_switch_unchecked_light" filters="color" />
+    <overlay id="@color/somc_text_color_switch_checked_light" filters="color" />
+    <filter-group group="dropdown-btn-selector">
+        <filter type="type" value="selector,animated-selector">
+            <filter type="included" value="false" />
+        </filter>
+        <filter type="type" value="nine-patch,bitmap">
+            <filter type="included" value="true" />
+        </filter>
+        <filter type="size" minWidth="18dp" maxWidth="32dp" minHeight="24dp" maxHeight="32dp">
+            <filter type="included" value="true" />
+        </filter>
+    </filter-group>
+    <overlay id="@drawable/somc_btn_dropdown_selector_dark" filters="dropdown-btn-selector" />
+    <overlay id="@drawable/somc_btn_dropdown_selector_light" filters="dropdown-btn-selector" />
+    <filter-group group="dropdown-button">
+        <filter type="type" value="nine-patch" />
+        <filter type="size" minWidth="18dp" maxWidth="32dp" minHeight="24dp" maxHeight="32dp" />
+    </filter-group>
+    <filter-group group="curtain-menu">
+        <filter type="type" value="nine-patch" />
+        <filter type="size" minWidth="32dp" maxWidth="64dp" minHeight="16dp" maxHeight="40dp" />
+    </filter-group>
+    <overlay id="@drawable/somc_btn_dropdown_normal_dark" filters="dropdown-button" />
+    <overlay id="@drawable/somc_btn_dropdown_pressed_dark" filters="dropdown-button" />
+    <overlay id="@drawable/somc_btn_dropdown_focused_dark" filters="dropdown-button" />
+    <overlay id="@drawable/somc_btn_dropdown_disabled_dark" filters="dropdown-button" />
+    <overlay id="@drawable/somc_btn_dropdown_normal_light" filters="dropdown-button" />
+    <overlay id="@drawable/somc_btn_dropdown_pressed_light" filters="dropdown-button" />
+    <overlay id="@drawable/somc_btn_dropdown_focused_light" filters="dropdown-button" />
+    <overlay id="@drawable/somc_btn_dropdown_disabled_light" filters="dropdown-button" />
+    <overlay id="@drawable/somc_dropdown_panel_up_dark" filters="curtain-menu" />
+    <overlay id="@drawable/somc_dropdown_panel_down_dark" filters="curtain-menu" />
+    <overlay id="@drawable/somc_dropdown_panel_up_light" filters="curtain-menu" />
+    <overlay id="@drawable/somc_dropdown_panel_down_light" filters="curtain-menu" />
+    <overlay id="@color/somc_color_dropdown_panel_dark" filters="color" />
+    <overlay id="@color/somc_color_dropdown_panel_light" filters="color" />
+    <overlay id="@color/somc_color_btn_dropdown_ripple_dark" filters="color" />
+    <overlay id="@color/somc_color_btn_dropdown_ripple_light" filters="color" />
+    <filter-group group="dialog-panel">
+        <filter type="type" value="nine-patch" />
+        <filter type="size" minWidth="33dp" maxWidth="96dp" minHeight="33dp" maxHeight="80dp" />
+    </filter-group>
+    <overlay id="@drawable/somc_dialog_bg_dark" filters="dialog-panel" />
+    <overlay id="@drawable/somc_dialog_bg_light" filters="dialog-panel" />
+    <overlay id="@color/somc_color_dialog_full_dark" filters="color" />
+    <overlay id="@color/somc_color_dialog_full_light" filters="color" />
+    <filter-group group="toast">
+        <filter type="type" value="nine-patch" />
+        <filter type="size" minWidth="10dp" maxWidth="60dp" minHeight="10dp" maxHeight="44dp" />
+    </filter-group>
+    <overlay id="@drawable/somc_toast_dark" filters="toast" />
+    <overlay id="@drawable/somc_toast_light" filters="toast" />
+    <filter-group group="borderless-item-bg">
+        <filter type="type" value="ripple,nine-patch,bitmap" />
+        <filter type="size" minWidth="1px" maxWidth="10dp" minHeight="1px" maxHeight="10dp">
+            <filter type="type" value="nine-patch,bitmap" />
+        </filter>
+    </filter-group>
+    <overlay id="@color/somc_color_item_bg_borderless_ripple_dark" filters="color" />
+    <overlay id="@color/somc_color_item_bg_borderless_ripple_light" filters="color" />
+    <overlay id="@drawable/somc_item_bg_borderless_dark" filters="borderless-item-bg" />
+    <overlay id="@drawable/somc_item_bg_borderless_light" filters="borderless-item-bg" />
+    <filter-group group="generic-state">
+        <filter type="type" value="nine-patch,bitmap" />
+        <filter type="size" minWidth="1px" maxWidth="10dp" minHeight="1px" maxHeight="10dp" />
+    </filter-group>
+    <overlay id="@color/somc_color_item_bg_ripple_dark" filters="color" />
+    <overlay id="@color/somc_color_item_bg_ripple_light" filters="color" />
+    <overlay id="@drawable/somc_item_bg_pressed_dark" filters="generic-state" />
+    <overlay id="@drawable/somc_item_bg_focused_dark" filters="generic-state" />
+    <overlay id="@drawable/somc_item_bg_disabled_dark" filters="generic-state" />
+    <overlay id="@drawable/somc_item_bg_pressed_light" filters="generic-state" />
+    <overlay id="@drawable/somc_item_bg_focused_light" filters="generic-state" />
+    <overlay id="@drawable/somc_item_bg_disabled_light" filters="generic-state" />
+    <overlay id="@drawable/somc_activated_item_bg_dark" filters="generic-state" />
+    <overlay id="@drawable/somc_activated_item_bg_light" filters="generic-state" />
+    <filter-group group="panel-bg">
+        <filter type="type" value="bitmap,nine-patch" />
+        <filter type="size" minWidth="1px" maxWidth="200dp" minHeight="1px" maxHeight="200dp" />
+    </filter-group>
+    <overlay id="@drawable/somc_details_panel_bg_dark" filters="panel-bg" />
+    <overlay id="@drawable/somc_details_panel_bg_light" filters="panel-bg" />
+    <filter-group group="progress-bar">
+        <filter type="type" value="animation-list,animated-vector">
+            <filter type="included" value="false" />
+        </filter>
+        <filter type="type" value="nine-patch,bitmap,vector">
+            <filter type="included" value="true" />
+        </filter>
+    </filter-group>
+    <overlay id="@drawable/somc_progress_small_dark" filters="progress-bar">
+        <filter type="size" minWidth="8dp" maxWidth="16dp" minHeight="8dp" maxHeight="16dp">
+            <filter type="included" value="true" />
+        </filter>
+    </overlay>
+    <overlay id="@drawable/somc_progress_medium_dark" filters="progress-bar">
+        <filter type="size" minWidth="24dp" maxWidth="48dp" minHeight="24dp" maxHeight="48dp">
+            <filter type="included" value="true" />
+        </filter>
+    </overlay>
+    <overlay id="@drawable/somc_progress_large_dark" filters="progress-bar">
+        <filter type="size" minWidth="48dp" maxWidth="76dp" minHeight="48dp" maxHeight="76dp">
+            <filter type="included" value="true" />
+        </filter>
+    </overlay>
+    <overlay id="@drawable/somc_progress_small_light" filters="progress-bar">
+        <filter type="size" minWidth="8dp" maxWidth="16dp" minHeight="8dp" maxHeight="16dp">
+            <filter type="included" value="true" />
+        </filter>
+    </overlay>
+    <overlay id="@drawable/somc_progress_medium_light" filters="progress-bar">
+        <filter type="size" minWidth="24dp" maxWidth="48dp" minHeight="24dp" maxHeight="48dp">
+            <filter type="included" value="true" />
+        </filter>
+    </overlay>
+    <overlay id="@drawable/somc_progress_large_light" filters="progress-bar">
+        <filter type="size" minWidth="48dp" maxWidth="76dp" minHeight="48dp" maxHeight="76dp">
+            <filter type="included" value="true" />
+        </filter>
+    </overlay>
+    <filter-group group="fastscroll-label">
+        <filter type="type" value="nine-patch" />
+        <filter type="size" minWidth="1px" maxWidth="55dp" minHeight="1px" maxHeight="55dp" />
+    </filter-group>
+    <filter-group group="progress">
+        <filter type="type" value="nine-patch" />
+        <filter type="size" minWidth="1dp" maxWidth="23dp" minHeight="10dp" maxHeight="16dp" />
+    </filter-group>
+    <overlay id="@drawable/somc_progress_bar_bg_dark" filters="progress" />
+    <overlay id="@drawable/somc_progress_bar_secondary_dark" filters="progress" />
+    <overlay id="@drawable/somc_progress_bar_primary_dark" filters="progress" />
+    <overlay id="@drawable/somc_progress_bar_bg_light" filters="progress" />
+    <overlay id="@drawable/somc_progress_bar_secondary_light" filters="progress" />
+    <overlay id="@drawable/somc_progress_bar_primary_light" filters="progress" />
+    <filter-group group="seekbar-background">
+        <filter type="type" value="nine-patch" />
+        <filter type="size" minHeight="8dp" maxHeight="12dp" minWidth="5dp" maxWidth="20dp" />
+    </filter-group>
+    <filter-group group="seekbar-thumb">
+        <filter type="type" value="bitmap" />
+        <filter type="size" minHeight="20dp" maxHeight="32dp" minWidth="20dp" maxWidth="32dp" />
+    </filter-group>
+    <filter-group group="seekbar-thumb-selector">
+        <filter type="type" value="animated-selector,selector">
+            <filter type="included" value="false" />
+        </filter>
+        <filter type="type" value="bitmap">
+            <filter type="included" value="true" />
+        </filter>
+        <filter type="size" minWidth="20dp" maxWidth="32dp" minHeight="20dp" maxHeight="32dp">
+            <filter type="type" value="bitmap" />
+        </filter>
+    </filter-group>
+    <overlay id="@color/somc_color_seekbar_thumb_ripple_dark" filters="color" />
+    <overlay id="@color/somc_color_seekbar_thumb_ripple_light" filters="color" />
+    <overlay id="@drawable/somc_seekbar_bg_dark" filters="seekbar-background" />
+    <overlay id="@drawable/somc_seekbar_bg_disable_dark" filters="seekbar-background" />
+    <overlay id="@drawable/somc_seekbar_progress_secondary_dark" filters="seekbar-background" />
+    <overlay id="@drawable/somc_seekbar_progress_secondary_disabled_dark" filters="seekbar-background" />
+    <overlay id="@drawable/somc_seekbar_progress_primary_dark" filters="seekbar-background" />
+    <overlay id="@drawable/somc_seekbar_progress_primary_disabled_dark" filters="seekbar-background" />
+    <overlay id="@drawable/somc_seekbar_bg_light" filters="seekbar-background" />
+    <overlay id="@drawable/somc_seekbar_bg_disable_light" filters="seekbar-background" />
+    <overlay id="@drawable/somc_seekbar_progress_secondary_light" filters="seekbar-background" />
+    <overlay id="@drawable/somc_seekbar_progress_secondary_disabled_light" filters="seekbar-background" />
+    <overlay id="@drawable/somc_seekbar_progress_primary_light" filters="seekbar-background" />
+    <overlay id="@drawable/somc_seekbar_progress_primary_disabled_light" filters="seekbar-background" />
+    <overlay id="@drawable/somc_seekbar_thumb_selector_dark" filters="seekbar-thumb-selector" />
+    <overlay id="@drawable/somc_seekbar_thumb_selector_light" filters="seekbar-thumb-selector" />
+    <overlay id="@drawable/somc_seekbar_thumb_disabled_dark" filters="seekbar-thumb" />
+    <overlay id="@drawable/somc_seekbar_thumb_disabled_light" filters="seekbar-thumb" />
+    <overlay id="@drawable/somc_seekbar_thumb_from_pressed_0_dark" filters="seekbar-thumb" />
+    <overlay id="@drawable/somc_seekbar_thumb_to_pressed_0_dark" filters="seekbar-thumb" />
+    <overlay id="@drawable/somc_seekbar_thumb_from_pressed_0_light" filters="seekbar-thumb" />
+    <overlay id="@drawable/somc_seekbar_thumb_to_pressed_0_light" filters="seekbar-thumb" />
+    <overlay id="@drawable/somc_seekbar_thumb_from_pressed_1_dark" filters="seekbar-thumb" />
+    <overlay id="@drawable/somc_seekbar_thumb_to_pressed_1_dark" filters="seekbar-thumb" />
+    <overlay id="@drawable/somc_seekbar_thumb_from_pressed_1_light" filters="seekbar-thumb" />
+    <overlay id="@drawable/somc_seekbar_thumb_to_pressed_1_light" filters="seekbar-thumb" />
+    <overlay id="@drawable/somc_seekbar_thumb_from_pressed_2_dark" filters="seekbar-thumb" />
+    <overlay id="@drawable/somc_seekbar_thumb_to_pressed_2_dark" filters="seekbar-thumb" />
+    <overlay id="@drawable/somc_seekbar_thumb_from_pressed_2_light" filters="seekbar-thumb" />
+    <overlay id="@drawable/somc_seekbar_thumb_to_pressed_2_light" filters="seekbar-thumb" />
+    <overlay id="@drawable/somc_seekbar_thumb_from_pressed_3_dark" filters="seekbar-thumb" />
+    <overlay id="@drawable/somc_seekbar_thumb_to_pressed_3_dark" filters="seekbar-thumb" />
+    <overlay id="@drawable/somc_seekbar_thumb_from_pressed_3_light" filters="seekbar-thumb" />
+    <overlay id="@drawable/somc_seekbar_thumb_to_pressed_3_light" filters="seekbar-thumb" />
+    <overlay id="@drawable/somc_seekbar_thumb_from_pressed_4_dark" filters="seekbar-thumb" />
+    <overlay id="@drawable/somc_seekbar_thumb_to_pressed_4_dark" filters="seekbar-thumb" />
+    <overlay id="@drawable/somc_seekbar_thumb_from_pressed_4_light" filters="seekbar-thumb" />
+    <overlay id="@drawable/somc_seekbar_thumb_to_pressed_4_light" filters="seekbar-thumb" />
+    <overlay id="@drawable/somc_seekbar_thumb_from_pressed_5_dark" filters="seekbar-thumb" />
+    <overlay id="@drawable/somc_seekbar_thumb_to_pressed_5_dark" filters="seekbar-thumb" />
+    <overlay id="@drawable/somc_seekbar_thumb_from_pressed_5_light" filters="seekbar-thumb" />
+    <overlay id="@drawable/somc_seekbar_thumb_to_pressed_5_light" filters="seekbar-thumb" />
+    <filter-group group="rate-star-button">
+        <filter type="type" value="bitmap" />
+        <filter type="size" minWidth="26dp" maxWidth="32dp" minHeight="26dp" maxHeight="32dp" />
+    </filter-group>
+    <filter-group group="interactive-rate-bar">
+        <filter type="type" value="bitmap" />
+        <filter type="size" minWidth="42dp" maxWidth="50dp" minHeight="42dp" maxHeight="50dp" />
+    </filter-group>
+    <overlay id="@color/somc_color_star_ripple_dark" filters="color" />
+    <overlay id="@color/somc_color_star_ripple_light" filters="color" />
+    <overlay id="@color/somc_color_btn_star_off_dark" filters="color" />
+    <overlay id="@color/somc_color_btn_star_off_light" filters="color" />
+    <overlay id="@color/somc_color_btn_star_on_dark" filters="color" />
+    <overlay id="@color/somc_color_btn_star_on_light" filters="color" />
+    <overlay id="@drawable/somc_btn_star_off_normal_dark" filters="rate-star-button" />
+    <overlay id="@drawable/somc_btn_star_off_pressed_dark" filters="rate-star-button" />
+    <overlay id="@drawable/somc_btn_star_off_focused_dark" filters="rate-star-button" />
+    <overlay id="@drawable/somc_btn_star_off_disabled_dark" filters="rate-star-button" />
+    <overlay id="@drawable/somc_btn_star_off_disabled_focused_dark" filters="rate-star-button" />
+    <overlay id="@drawable/somc_btn_star_on_normal_dark" filters="rate-star-button" />
+    <overlay id="@drawable/somc_btn_star_on_pressed_dark" filters="rate-star-button" />
+    <overlay id="@drawable/somc_btn_star_on_focused_dark" filters="rate-star-button" />
+    <overlay id="@drawable/somc_btn_star_on_disabled_dark" filters="rate-star-button" />
+    <overlay id="@drawable/somc_btn_star_on_disabled_focused_dark" filters="rate-star-button" />
+    <overlay id="@drawable/somc_btn_star_off_normal_light" filters="rate-star-button" />
+    <overlay id="@drawable/somc_btn_star_off_pressed_light" filters="rate-star-button" />
+    <overlay id="@drawable/somc_btn_star_off_focused_light" filters="rate-star-button" />
+    <overlay id="@drawable/somc_btn_star_off_disabled_light" filters="rate-star-button" />
+    <overlay id="@drawable/somc_btn_star_off_disabled_focused_light" filters="rate-star-button" />
+    <overlay id="@drawable/somc_btn_star_on_normal_light" filters="rate-star-button" />
+    <overlay id="@drawable/somc_btn_star_on_pressed_light" filters="rate-star-button" />
+    <overlay id="@drawable/somc_btn_star_on_focused_light" filters="rate-star-button" />
+    <overlay id="@drawable/somc_btn_star_on_disabled_light" filters="rate-star-button" />
+    <overlay id="@drawable/somc_btn_star_on_disabled_focused_light" filters="rate-star-button" />
+    <overlay id="@drawable/somc_ratingbar_star_off_normal_dark" filters="interactive-rate-bar" />
+    <overlay id="@drawable/somc_ratingbar_star_off_pressed_dark" filters="interactive-rate-bar" />
+    <overlay id="@drawable/somc_ratingbar_star_off_focused_dark" filters="interactive-rate-bar" />
+    <overlay id="@drawable/somc_ratingbar_star_secondary_normal_dark" filters="interactive-rate-bar" />
+    <overlay id="@drawable/somc_ratingbar_star_secondary_pressed_dark" filters="interactive-rate-bar" />
+    <overlay id="@drawable/somc_ratingbar_star_secondary_focused_dark" filters="interactive-rate-bar" />
+    <overlay id="@drawable/somc_ratingbar_star_on_normal_dark" filters="interactive-rate-bar" />
+    <overlay id="@drawable/somc_ratingbar_star_on_pressed_dark" filters="interactive-rate-bar" />
+    <overlay id="@drawable/somc_ratingbar_star_on_focused_dark" filters="interactive-rate-bar" />
+    <overlay id="@drawable/somc_ratingbar_star_off_normal_light" filters="interactive-rate-bar" />
+    <overlay id="@drawable/somc_ratingbar_star_off_pressed_light" filters="interactive-rate-bar" />
+    <overlay id="@drawable/somc_ratingbar_star_off_focused_light" filters="interactive-rate-bar" />
+    <overlay id="@drawable/somc_ratingbar_star_secondary_normal_light" filters="interactive-rate-bar" />
+    <overlay id="@drawable/somc_ratingbar_star_secondary_pressed_light" filters="interactive-rate-bar" />
+    <overlay id="@drawable/somc_ratingbar_star_secondary_focused_light" filters="interactive-rate-bar" />
+    <overlay id="@drawable/somc_ratingbar_star_on_normal_light" filters="interactive-rate-bar" />
+    <overlay id="@drawable/somc_ratingbar_star_on_pressed_light" filters="interactive-rate-bar" />
+    <overlay id="@drawable/somc_ratingbar_star_on_focused_light" filters="interactive-rate-bar" />
+    <filter-group group="tab">
+        <filter type="type" value="nine-patch,bitmap" />
+        <filter type="size" minWidth="1dp" maxWidth="40dp" minHeight="1dp" maxHeight="40dp" />
+    </filter-group>
+    <overlay id="@color/somc_color_tab_unselected_dark" filters="color" />
+    <overlay id="@color/somc_color_tab_selected_dark" filters="color" />
+    <overlay id="@color/somc_color_tab_unselected_light" filters="color" />
+    <overlay id="@color/somc_color_tab_selected_light" filters="color" />
+    <overlay id="@drawable/somc_tab_unselected_dark" filters="tab" />
+    <overlay id="@drawable/somc_tab_unselected_pressed_dark" filters="tab" />
+    <overlay id="@drawable/somc_tab_unselected_focused_dark" filters="tab" />
+    <overlay id="@drawable/somc_tab_selected_dark" filters="tab" />
+    <overlay id="@drawable/somc_tab_selected_pressed_dark" filters="tab" />
+    <overlay id="@drawable/somc_tab_selected_focused_dark" filters="tab" />
+    <overlay id="@drawable/somc_tab_unselected_light" filters="tab" />
+    <overlay id="@drawable/somc_tab_unselected_pressed_light" filters="tab" />
+    <overlay id="@drawable/somc_tab_unselected_focused_light" filters="tab" />
+    <overlay id="@drawable/somc_tab_selected_light" filters="tab" />
+    <overlay id="@drawable/somc_tab_selected_pressed_light" filters="tab" />
+    <overlay id="@drawable/somc_tab_selected_focused_light" filters="tab" />
+    <overlay id="@color/somc_text_color_tab_selected_dark" filters="color" />
+    <overlay id="@color/somc_text_color_tab_unselected_dark" filters="color" />
+    <overlay id="@color/somc_text_color_tab_selected_light" filters="color" />
+    <overlay id="@color/somc_text_color_tab_unselected_light" filters="color" />
+    <overlay id="@color/somc_color_tab_ripple_dark" filters="color" />
+    <overlay id="@color/somc_color_tab_ripple_light" filters="color" />
+    <filter-group group="textfield">
+        <filter type="type" value="nine-patch" />
+        <filter type="size" minWidth="10dp" maxWidth="32dp" minHeight="10dp" maxHeight="32dp" />
+    </filter-group>
+    <overlay id="@drawable/somc_edittext_normal_dark" filters="textfield" />
+    <overlay id="@drawable/somc_edittext_activated_dark" filters="textfield" />
+    <overlay id="@drawable/somc_edittext_focused_dark" filters="textfield" />
+    <overlay id="@drawable/somc_edittext_disabled_dark" filters="textfield" />
+    <overlay id="@drawable/somc_edittext_disabled_focused_dark" filters="textfield" />
+    <overlay id="@drawable/somc_edittext_normal_light" filters="textfield" />
+    <overlay id="@drawable/somc_edittext_activated_light" filters="textfield" />
+    <overlay id="@drawable/somc_edittext_focused_light" filters="textfield" />
+    <overlay id="@drawable/somc_edittext_disabled_light" filters="textfield" />
+    <overlay id="@drawable/somc_edittext_disabled_focused_light" filters="textfield" />
+    <overlay id="@color/somc_text_color_edittext_dark" filters="color" />
+    <overlay id="@color/somc_text_color_edittext_light" filters="color" />
+    <overlay id="@color/somc_text_color_hint_dark" filters="color" />
+    <overlay id="@color/somc_text_color_hint_light" filters="color" />
+    <filter-group group="edittext_ripple_mask">
+        <filter type="type" value="bitmap,nine-patch,vector" />
+        <filter type="size" minWidth="10dp" maxWidth="32dp" minHeight="10dp" maxHeight="32dp" />
+    </filter-group>
+    <overlay id="@drawable/somc_edittext_ripple_mask_dark" filters="edittext_ripple_mask" />
+    <overlay id="@drawable/somc_edittext_ripple_mask_light" filters="edittext_ripple_mask" />
+    <overlay id="@color/somc_color_edittext_ripple_dark" filters="color" />
+    <overlay id="@color/somc_color_edittext_ripple_light" filters="color" />
+    <filter-group group="text-select-handle-side">
+        <filter type="type" value="bitmap,vector" />
+        <filter type="size" minWidth="40dp" maxWidth="40dp" minHeight="20dp" maxHeight="20dp" />
+    </filter-group>
+    <filter-group group="text-select-handle-middle">
+        <filter type="type" value="bitmap,vector" />
+        <filter type="size" minWidth="20dp" maxWidth="20dp" minHeight="24dp" maxHeight="24dp" />
+    </filter-group>
+    <overlay id="@color/somc_color_textselection_handle_dark" filters="color" />
+    <overlay id="@color/somc_color_textselection_handle_light" filters="color" />
+    <overlay id="@drawable/somc_textselection_handle_left_dark" filters="text-select-handle-side" />
+    <overlay id="@drawable/somc_textselection_handle_left_light" filters="text-select-handle-side" />
+    <overlay id="@drawable/somc_textselection_handle_right_dark" filters="text-select-handle-side" />
+    <overlay id="@drawable/somc_textselection_handle_right_light" filters="text-select-handle-side" />
+    <overlay id="@drawable/somc_textselection_handle_middle_dark" filters="text-select-handle-middle" />
+    <overlay id="@drawable/somc_textselection_handle_middle_light" filters="text-select-handle-middle" />
+    <filter-group group="text-input-cursor">
+        <filter type="type" value="nine-patch" />
+        <filter type="size" minWidth="2dp" maxWidth="5dp" minHeight="2dp" maxHeight="9dp" />
+    </filter-group>
+    <overlay id="@color/somc_color_textcursor_dark" filters="color" />
+    <overlay id="@color/somc_color_textcursor_light" filters="color" />
+    <overlay id="@drawable/somc_textcursor_dark" filters="text-input-cursor" />
+    <overlay id="@drawable/somc_textcursor_light" filters="text-input-cursor" />
+    <filter-group group="app-bg">
+        <filter type="type" value="bitmap,color,nine-patch" />
+        <filter type="size" maxWidth="1920px" minWidth="1px" maxHeight="1920px" minHeight="1px">
+            <filter type="type" value="bitmap,nine-patch" />
+        </filter>
+    </filter-group>
+    <overlay id="@drawable/somc_bg_dark" filters="app-bg" />
+    <overlay id="@drawable/somc_bg_light" filters="app-bg" />
+    <filter-group group="app-bg-v2">
+        <filter type="type" value="bitmap,color,nine-patch" />
+        <filter type="size" maxWidth="1280dp" minWidth="1px" maxHeight="1280dp" minHeight="1px">
+            <filter type="type" value="bitmap,nine-patch" />
+        </filter>
+    </filter-group>
+    <overlay id="@drawable/somc_bg_dark_v2" filters="app-bg-v2" />
+    <overlay id="@drawable/somc_bg_light_v2" filters="app-bg-v2" />
+    <overlay id="@color/somc_color_component_ripple_dark" filters="color" />
+    <overlay id="@color/somc_color_component_ripple_light" filters="color" />
+    <overlay id="@color/somc_color_compound_btn_ripple_dark" filters="color" />
+    <overlay id="@color/somc_color_compound_btn_ripple_light" filters="color" />
+    <overlay id="@color/somc_color_background_light" filters="color" />
+    <overlay id="@color/somc_color_btn_borderless_ripple_dark" filters="color" />
+    <overlay id="@color/somc_color_btn_borderless_ripple_light" filters="color" />
+    <overlay id="@color/somc_color_actionbar_btn_ripple_dark" filters="color" />
+    <overlay id="@color/somc_color_actionbar_btn_ripple_light" filters="color" />
+    <overlay id="@bool/somc_center_alert_dialog_buttons" />
+    <overlay id="@bool/somc_split_seekbar_bg" />
+    <overlay id="@bool/somc_switch_show_text" />
+    <overlay id="@drawable/somc_contact_picture">
+        <filter type="type" value="bitmap,vector" />
+        <filter type="size" minWidth="5dp" maxWidth="540dp" minHeight="5dp" maxHeight="540dp" />
+    </overlay>
+    <filter-group group="primary-color">
+        <filter type="type" value="color" />
+        <filter type="alpha" value="1.0" />
+    </filter-group>
+    <overlay id="@color/somc_color_dark_primary_dark" filters="primary-color" />
+    <overlay id="@color/somc_color_primary_dark" filters="primary-color" />
+    <overlay id="@color/somc_color_accent_dark" filters="color" />
+    <overlay id="@color/somc_color_dark_primary_light" filters="primary-color" />
+    <overlay id="@color/somc_color_primary_light" filters="primary-color" />
+    <overlay id="@color/somc_color_accent_light" filters="color" />
+</overlay-resources>

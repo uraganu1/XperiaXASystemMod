@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wfcRegErrorTitle">WLAN símtöl</string>
+    <string name="wfcSpnFormat">%s</string>
+    <string name="wfcDataSpnFormat">%s</string>
+    <string name="wfc_mode_wifi_preferred_summary">WLAN í forgangi</string>
+    <string name="wfc_mode_wifi_only_summary">WLAN eingöngu</string>
+    <string name="permdesc_accessFineLocation">Leyfir forriti að sjá nákvæma staðsetningu þína með hjálp GPS-kerfis eða staðsetningarbúnaðar sem byggir á netkerfum á borð við farsímasenda og WLAN. Það verður að vera kveikt á slíkri staðsetningarþjónustu og hún þarf að vera aðgengileg tækinu til að forritið geti notað hana. Forrit geta notað þjónustuna til að áætla staðsetningu þína og kunna að ganga hraðar á rafhlöðuna.</string>
+    <string name="permdesc_accessCoarseLocation">Leyfir forriti að sjá gróflega áætlaða staðsetningu þína. Sú staðsetning er sótt í staðsetningarbúnað sem byggir á netkerfum á borð við farsímasenda og WLAN. Það verður að vera kveikt á slíkri staðsetningarþjónustu og hún þarf að vera aðgengileg tækinu til að forritið geti notað hana. Forrit geta notað þjónustuna til að áætla staðsetningu þína gróflega.</string>
+    <string name="permlab_accessWifiState">skoða WLAN tengingar</string>
+    <string name="permdesc_accessWifiState">Leyfir forriti að skoða upplýsingar um WLAN net, svo sem hvort WLAN er virkt og heiti tengdra WLAN tækja.</string>
+    <string name="permlab_changeWifiState">tengjast og aftengja frá WLAN</string>
+    <string name="permdesc_changeWifiState">Leyfir forriti að tengjast og aftengjast WLAN aðgangsstöðum og gera breytingar á grunnstillingu tækisins fyrir WLAN net.</string>
+    <string name="permlab_changeWifiMulticastState">leyfa móttöku WLAN fjöldasendinga</string>
+    <string name="permdesc_changeWifiMulticastState">Leyfir forriti að taka á móti pökkum sem sendir eru til allra tækja innan þráðlauss nets með fjöldasendingum, ekki bara símans þíns. Það gengur hraðar á rafhlöðuna en stilling án fjöldasendinga.</string>
+    <string name="wifi_available_sign_in">Skrá inn á WLAN net</string>
+    <string name="wifi_no_internet">WLAN netið er ekki með tengingu við internetið</string>
+    <string name="wifi_watchdog_network_disabled">Ekki var hægt að tengjast WLAN</string>
+    <string name="wifi_connect_alert_message">Forritið %1$s vill tengjast WLAN netinu %2$s</string>
+    <string name="wifi_p2p_dialog_title">WLAN Direct</string>
+    <string name="wifi_p2p_turnon_message">Ræsa WLAN Direct. Þetta mun slökkva á WLAN biðlara/aðgangsstað.</string>
+    <string name="wifi_p2p_failed_message">Ekki var hægt að ræsa WLAN Direct.</string>
+    <string name="wifi_p2p_enabled_notification_title">Kveikt er á WLAN Direct</string>
+    <string name="wifi_p2p_frequency_conflict_message">Síminn mun tímabundið aftengjast WLAN á meðan hann er tengdur við %1$s</string>
+    <string name="data_usage_wifi_limit_title">Gagnahámarki WLAN náð</string>
+    <string name="data_usage_wifi_limit_snoozed_title">Gagnahámarki WLAN náð</string>
+</resources>

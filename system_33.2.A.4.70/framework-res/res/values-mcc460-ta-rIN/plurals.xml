@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="wifi_available">
+        <item quantity="other">வைஃபை நெட்வொர்க்குகள் உள்ளன</item>
+        <item quantity="one">வைஃபை நெட்வொர்க் உள்ளது</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">பொது வைஃபை நெட்வொர்க்குகள் உள்ளன</item>
+        <item quantity="one">பொது வைஃபை நெட்வொர்க் உள்ளது</item>
+    </plurals>
+</resources>

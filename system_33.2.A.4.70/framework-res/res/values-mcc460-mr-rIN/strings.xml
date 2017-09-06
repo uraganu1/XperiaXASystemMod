@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wfcRegErrorTitle">वाय-फाय कॉलिंग</string>
+    <string name="wfcSpnFormat">%s</string>
+    <string name="wfcDataSpnFormat">%s</string>
+    <string name="wfc_mode_wifi_preferred_summary">वाय-फाय प्राधान्यकृत</string>
+    <string name="wfc_mode_wifi_only_summary">केवळ वाय-फाय</string>
+    <string name="permdesc_accessFineLocation">सेल टॉवर आणि वाय-फाय सारखी समग्र स्थिती निर्धारण प्रणाली (GPS) किंवा नेटवर्क स्थान स्त्रोत वापरून आपले अचूक स्थान मिळवण्यासाठी अॅप ला अनुमती देते. अॅपला त्या वापरण्यासाठी या स्थान सेवा चालू असणे आणि आपल्या डिव्हाइसवर उपलब्ध असणे आवश्यक आहे. आपण कुठे आहात हे निर्धारित करण्यासाठी अॅप्स याचा वापर करू शकतात आणि अतिरिक्त बॅटरी उर्जा वापरली जाऊ शकते.</string>
+    <string name="permdesc_accessCoarseLocation">आपले अंदाजे स्थान देण्याची अॅप ला अनुमती देते. हे स्थान सेल टॉवर आणि वाय-फाय सारखे नेटवर्क स्थान स्त्रोत वापरून स्थान सेवांद्वारे मिळवले आहे. अॅपला त्या वापरण्यासाठी या स्थान सेवा चालू असणे आणि आपल्या डिव्हाइसवर उपलब्ध असणे आवश्यक आहे. अॅप्स हे आपण कुठे आहात याचा अंदाज लावण्यासाठी वापरू शकतात.</string>
+    <string name="permlab_accessWifiState">वाय-फाय कनेक्शन पहा</string>
+    <string name="permdesc_accessWifiState">वाय-फाय सक्षम केले आहे किंवा नाही आणि कनेक्ट केलेल्या वाय-फाय डिव्हाइसेसचे नाव यासारख्या, वाय-फाय नेटवर्किंग विषयीची माहिती पाहण्यासाठी अॅप ला अनुमती देते.</string>
+    <string name="permlab_changeWifiState">वाय-फाय वरून कनेक्ट करा आणि डिस्कनेक्ट करा</string>
+    <string name="permdesc_changeWifiState">वाय-फाय प्रवेश बिंदूंवर कनेक्ट करण्यासाठी आणि त्यावरून डिस्कनेक्ट करण्यासाठी आणि वाय-फाय नेटवर्कसाठी डिव्हाइस कॉन्फिगरेशनमध्ये बदल करण्यासाठी अॅप ला अनुमती देते.</string>
+    <string name="permlab_changeWifiMulticastState">वाय-फाय मल्‍टिकास्‍ट रिसेप्‍शनला अनुमती द्या</string>
+    <string name="permdesc_changeWifiMulticastState">मल्टिकास्ट पत्ते वापरून फक्त आपल्या फोनवर नाही, तर वाय-फाय नेटवर्कवरील सर्व डिव्हाइसेसवर पाठविलेले पॅकेट प्राप्त करण्यासाठी अॅप ला अनुमती देते. हे गैर-मल्टिकास्ट मोडपेक्षा अधिक उर्जा वापरते.</string>
+    <string name="wifi_available_sign_in">वाय-फाय नेटवर्कमध्‍ये साइन इन करा</string>
+    <string name="wifi_no_internet">वाय-फाय मध्‍ये इंटरनेट प्रवेश नाही</string>
+    <string name="wifi_watchdog_network_disabled">वाय-फाय ला कनेक्ट करू शकलो नाही</string>
+    <string name="wifi_connect_alert_message">%1$s अनुप्रयोग %2$s वायफाय नेटवर्कशी कनेक्ट करू इच्छित आहे</string>
+    <string name="wifi_p2p_dialog_title">वाय-फाय थेट</string>
+    <string name="wifi_p2p_turnon_message">वाय-फाय थेट प्रारंभ करा. हे वाय-फाय क्लायंट/हॉटस्पॉट बंद करेल.</string>
+    <string name="wifi_p2p_failed_message">वाय-फाय थेट प्रारंभ करू शकलो नाही.</string>
+    <string name="wifi_p2p_enabled_notification_title">वाय-फाय थेट चालू आहे</string>
+    <string name="wifi_p2p_frequency_conflict_message">%1$s वर फोन कनेक्ट केलेला असताना तो वाय-फाय वरून तात्पुरता डिस्कनेक्ट केला जाईल</string>
+    <string name="data_usage_wifi_limit_title">वाय-फाय डेटा मर्यादा गाठली</string>
+    <string name="data_usage_wifi_limit_snoozed_title">वाय-फाय डेटा मर्यादा ओलांडली</string>
+</resources>

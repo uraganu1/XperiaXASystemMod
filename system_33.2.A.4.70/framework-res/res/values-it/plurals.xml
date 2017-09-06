@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pinpuk_attempts">
+        <item quantity="other">Hai ancora %d tentativi a disposizione prima che la SIM venga bloccata</item>
+        <item quantity="one">Hai ancora %d tentativo a disposizione prima che la SIM venga bloccata</item>
+    </plurals>
+    <plurals name="last_num_days">
+        <item quantity="other">Ultimi %d giorni</item>
+        <item quantity="one">Ultimo %d giorno</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d secondi</item>
+        <item quantity="one">1 secondo</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d minuti</item>
+        <item quantity="one">1 minuto</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="other">%d ore</item>
+        <item quantity="one">1 ora</item>
+    </plurals>
+    <plurals name="wifi_available">
+        <item quantity="other">Reti Wi-Fi disponibili</item>
+        <item quantity="one">Rete Wi-Fi disponibile</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">Reti Wi-Fi aperte disponibili</item>
+        <item quantity="one">Rete Wi-Fi aperta disponibile</item>
+    </plurals>
+    <plurals name="matches_found">
+        <item quantity="other">%1$d di %2$d</item>
+        <item quantity="one">1 corrispondenza</item>
+    </plurals>
+    <plurals name="restr_pin_countdown">
+        <item quantity="other">Riprova tra %d secondi</item>
+        <item quantity="one">Riprova fra 1 secondo</item>
+    </plurals>
+    <plurals name="zen_mode_duration_minutes_summary">
+        <item quantity="other">Per %1$d minuti (fino alle ore %2$s)</item>
+        <item quantity="one">Per un minuto (fino alle ore %2$s)</item>
+    </plurals>
+    <plurals name="zen_mode_duration_minutes_summary_short">
+        <item quantity="other">Per %1$d min (fino alle %2$s)</item>
+        <item quantity="one">Per 1 min (fino alle %2$s)</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours_summary">
+        <item quantity="other">Per %1$d ore (fino alle ore %2$s)</item>
+        <item quantity="one">"Per un'ora (fino alle ore %2$s)"</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours_summary_short">
+        <item quantity="other">Per %1$d ora (fino alle %2$s)</item>
+        <item quantity="one">Per 1 ora (fino alle %2$s)</item>
+    </plurals>
+    <plurals name="zen_mode_duration_minutes">
+        <item quantity="other">Per %d minuti</item>
+        <item quantity="one">Per un minuto</item>
+    </plurals>
+    <plurals name="zen_mode_duration_minutes_short">
+        <item quantity="other">Per %d min</item>
+        <item quantity="one">Per 1 min</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours">
+        <item quantity="other">Per %d ore</item>
+        <item quantity="one">"Per un'ora"</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours_short">
+        <item quantity="other">Per %d ora</item>
+        <item quantity="one">Per 1 ora</item>
+    </plurals>
+    <plurals name="selected_count">
+        <item quantity="other">%1$d selezionati</item>
+        <item quantity="one">%1$d selezionato</item>
+    </plurals>
+</resources>

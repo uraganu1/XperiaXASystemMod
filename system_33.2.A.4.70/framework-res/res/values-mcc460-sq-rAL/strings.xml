@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wfcRegErrorTitle">Telefonatë me WLAN</string>
+    <string name="wfcSpnFormat">%s</string>
+    <string name="wfcDataSpnFormat">%s</string>
+    <string name="wfc_mode_wifi_preferred_summary">Preferohet WLAN</string>
+    <string name="wfc_mode_wifi_only_summary">Vetëm WLAN</string>
+    <string name="permdesc_accessFineLocation">Lejon aplikacionin të gjejë vendndodhjen tënde të saktë duke përdorur \"Sistemin global të pozicionimit\" (GPS) ose burime të vendndodhjes së rrjetit sikurse antena të operatorëve celularë apo lidhje WLAN. Këto shërbime vendndodhjeje duhet të aktivizohen dhe të ofrohen për pajisjen tënde, në mënyrë që të përdoren nga aplikacioni. Aplikacionet mund ta përdorin këtë për të përcaktuar vendndodhjen momentale, edhe pse ky funksion mund të kërkojë energji shtesë të baterisë.</string>
+    <string name="permdesc_accessCoarseLocation">Lejon aplikacionin të gjejë vendndodhjen tënde të përafërt. Përcaktimi i saj rrjedh nga shërbimet që përdorin burimet e vendndodhjes së rrjetit siç janë antenat e operatorëve celularë apo lidhje WLAN. Këto shërbime vendndodhjeje duhet të aktivizohen dhe të ofrohen për pajisjen tënde, në mënyrë që të përdoren nga aplikacioni. Aplikacionet mund ta përdorin këtë për të përcaktuar afërsisht se ku ndodhesh.</string>
+    <string name="permlab_accessWifiState">shiko lidhjet WLAN</string>
+    <string name="permdesc_accessWifiState">Lejon aplikacionin të shohë informacionin rreth rrjetit WLAN, nëse WLAN është i aktivizuar dhe emrin e pajisjeve të lidhura me WLAN.</string>
+    <string name="permlab_changeWifiState">lidhu ose shkëputu nga WLAN</string>
+    <string name="permdesc_changeWifiState">Lejon aplikacionin të lidhet me pikat e qasjes WLAN, të shkëputet prej tyre dhe të bëjë ndryshime në konfigurimin e pajisjes për rrjetet WLAN.</string>
+    <string name="permlab_changeWifiMulticastState">lejo marrjen e transmetimit të shumëfishtë WLAN</string>
+    <string name="permdesc_changeWifiMulticastState">Lejon aplikacionin të marrë paketa, të dërguara ndaj gjithë pajisjeve në një rrjet WLAN duke përdorur adresa me transmetim të shumëfishtë, jo vetëm të telefonit tënd. Ai konsumon më tepër energji se modaliteti \"jo me transmetim të shumëfishtë\".</string>
+    <string name="wifi_available_sign_in">Identifikohu në rrjetin WLAN</string>
+    <string name="wifi_no_internet">WLAN nuk ka qasje në internet</string>
+    <string name="wifi_watchdog_network_disabled">Nuk mund të lidhej me WLAN</string>
+    <string name="wifi_connect_alert_message">Aplikacioni %1$s do të lidhet me rrjetin WLAN %2$s</string>
+    <string name="wifi_p2p_dialog_title">WLAN Direkt</string>
+    <string name="wifi_p2p_turnon_message">Fillo \"WLAN Direkt\". Kjo do ta çaktivizojë klientin ose zonën e qasjes WLAN.</string>
+    <string name="wifi_p2p_failed_message">Nuk mundi të fillonte \"WLAN Direkt\".</string>
+    <string name="wifi_p2p_enabled_notification_title">\"WLAN Direkt\" është aktiv</string>
+    <string name="wifi_p2p_frequency_conflict_message">Telefoni do të shkëputet përkohësisht nga WLAN gjatë kohës së lidhjes me %1$s</string>
+    <string name="data_usage_wifi_limit_title">U arrit kufiri i të dhënave WLAN</string>
+    <string name="data_usage_wifi_limit_snoozed_title">Kufiri i të dhënave WLAN u tejkalua</string>
+</resources>

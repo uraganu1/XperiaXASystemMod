@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="wifi_available">
+        <item quantity="other">वाय-फाय नेटवर्क उपलब्ध</item>
+        <item quantity="one">वाय-फाय नेटवर्क उपलब्ध</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">खुले वाय-फाय नेटवर्क उपलब्ध</item>
+        <item quantity="one">खुले वाय-फाय नेटवर्क उपलब्ध</item>
+    </plurals>
+</resources>

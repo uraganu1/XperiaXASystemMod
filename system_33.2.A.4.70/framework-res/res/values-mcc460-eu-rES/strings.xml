@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wfcRegErrorTitle">WLAN bidezko deiak</string>
+    <string name="wfcSpnFormat">%s</string>
+    <string name="wfcDataSpnFormat">%s</string>
+    <string name="wfc_mode_wifi_preferred_summary">WLAN sarea hobesten da</string>
+    <string name="wfc_mode_wifi_only_summary">WLAN sarea soilik</string>
+    <string name="permdesc_accessFineLocation">GPSaren edo sarearen kokapenaren iturburuak (adibidez telefonia mugikorreko dorreak eta WLAN sarea) erabilita kokapen zehatza lortzeko baimena ematen die aplikazioei. Kokapen-zerbitzu horiek gailuan aktibatuta eta erabilgarri egon behar dute, aplikazioak erabil ditzan. Aplikazioek baimen hori erabil dezakete gutxi gorabehera non zauden jakiteko, eta bateria gehiago behar izan daiteke.</string>
+    <string name="permdesc_accessCoarseLocation">Zure gutxi gorabeherako kokapena lortzeko baimena ematen dio aplikazioari. Kokapena kokapen-zerbitzuetatik lortzen da sarearen kokapenaren iturburuak (adibidez, telefonia mugikorreko dorreak eta WLAN sarea) erabilita. Kokapen-zerbitzu horiek gailuan aktibatuta eta erabilgarri egon behar dute, aplikazioak erabil ditzan. Aplikazioek baimen hori erabil dezakete gutxi gorabehera non zauden jakiteko.</string>
+    <string name="permlab_accessWifiState">WLAN konexioak ikustea</string>
+    <string name="permdesc_accessWifiState">WLAN sareei buruzko informazioa ikusteko baimena ematen die aplikazioei, adibidez, WLAN konexioa aktibatuta dagoen eta konektatutako WLAN gailuen izenak zein diren.</string>
+    <string name="permlab_changeWifiState">WLANra konektatzea edo bertatik deskonektatzea</string>
+    <string name="permdesc_changeWifiState">WLAN sarbide-puntuetara konektatzeko edo haietatik deskonektatzeko baimena ematen die aplikazioei, baita WLAN sareen gailu-konfigurazioari aldaketak egitekoa ere.</string>
+    <string name="permlab_changeWifiMulticastState">Onartu WLAN Multicast harrera</string>
+    <string name="permdesc_changeWifiMulticastState">WLAN sarearen bidez gailu guztiei bidalitako paketeak jasotzeko baimena ematen die aplikazioei multidifusio-helbideak erabilita, ez telefonoa soilik. Multidifusiokoa ez den moduak baino bateria gehiago erabiltzen du.</string>
+    <string name="wifi_available_sign_in">Hasi saioa WLAN sarean</string>
+    <string name="wifi_no_internet">WLAN konexioa ezin da Internetera konektatu</string>
+    <string name="wifi_watchdog_network_disabled">Ezin izan da WLAN sarera konektatu</string>
+    <string name="wifi_connect_alert_message">%1$s aplikazioak %2$s WLAN sarera konektatu nahi du</string>
+    <string name="wifi_p2p_dialog_title">WLAN Direct</string>
+    <string name="wifi_p2p_turnon_message">Hasi WLAN Direct. WLAN bezeroa edo sare publikoa desaktibatuko da.</string>
+    <string name="wifi_p2p_failed_message">Ezin izan da WLAN Direct hasi.</string>
+    <string name="wifi_p2p_enabled_notification_title">WLAN Direct aktibatuta dago</string>
+    <string name="wifi_p2p_frequency_conflict_message">Telefonoa WLAN saretik deskonektatuko da %1$s gailura konektatuta dagoen bitartean</string>
+    <string name="data_usage_wifi_limit_title">WLAN datuen mugara iritsi zara</string>
+    <string name="data_usage_wifi_limit_snoozed_title">WLAN datuen muga gainditu da</string>
+</resources>

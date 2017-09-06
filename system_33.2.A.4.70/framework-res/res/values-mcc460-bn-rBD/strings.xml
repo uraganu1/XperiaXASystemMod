@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wfcRegErrorTitle">WLAN কলিং</string>
+    <string name="wfcSpnFormat">%s</string>
+    <string name="wfcDataSpnFormat">%s</string>
+    <string name="wfc_mode_wifi_preferred_summary">পছন্দের WLAN</string>
+    <string name="wfc_mode_wifi_only_summary">শুধুমাত্র WLAN</string>
+    <string name="permdesc_accessFineLocation">গ্লোবাল পজিশনিং সিস্টেম (GPS) অথবা সেল টাওয়ার ও WLAN এর মতো নেটওয়ার্কের অবস্থান উৎসগুলি ব্যবহার করে আপনার যথাযথ অবস্থান নির্ণয় করতে অ্যাপ্লিকেশানটিকে মঞ্জুর করে৷ এই অবস্থান নির্ণয়ের সাথে সম্পর্কিত পরিষেবাগুলিকে চালু করে রাখতে হবে এবং অ্যাপ্লিকেশানটি যাতে সেগুলি ব্যবহার করতে পারে সেজন্য সেগুলিকে আপনার ডিভাইসে উপলব্ধ করে রাখতে হবে৷ অ্যাপ্লিকেশানগুলি আপনার অবস্থান নির্ণয়ের কাজে এগুলির ব্যবহার করতে পারে, এবং এর জন্য অতিরিক্ত ব্যাটারি পাওয়ার লাগতে পারে৷</string>
+    <string name="permdesc_accessCoarseLocation">আপনার আনুমানিক অবস্থান নির্ণয় করতে অ্যাপ্লিকেশানটিকে অনুমোদিত করে৷ এই অবস্থান নির্ণয় সেল টাওয়ার ও WLAN এর মতো নেটওয়ার্কের অবস্থান উৎসগুলি ব্যবহার করে অবস্থান নির্ধারণের সাথে সম্পর্কিত পরিষেবাগুলি থেকে নেওয়া হয়ে থাকে৷ এই অবস্থান নির্ণয়ের সাথে সম্পর্কিত পরিষেবাগুলিকে চালু করে রাখতে হবে এবং অ্যাপ্লিকেশানটি যাতে সেগুলি ব্যবহার করতে পারে সেজন্য সেগুলিকে আপনার ডিভাইসে উপলব্ধ করে রাখতে হবে৷ অ্যাপ্লিকেশানগুলি আপনার আনুমানিক অবস্থান নির্ণয়ের কাজে এগুলির ব্যবহার করতে পারে৷</string>
+    <string name="permlab_accessWifiState">WLAN সংযোগগুলি দেখুন</string>
+    <string name="permdesc_accessWifiState">অ্যাপ্লিকেশানটিকে WLAN নেটওয়ার্কিং সম্পর্কিত তথ্য, যেমন WLAN সক্ষম করা আছে কিনা এবং সংযুক্ত WLAN ডিভাইসগুলির নাম দেখার অনুমতি প্রদান করে৷</string>
+    <string name="permlab_changeWifiState">WLAN এর সাথে সংযুক্ত হন বা সংযোগ বিচ্ছিন্ন করুন</string>
+    <string name="permdesc_changeWifiState">WLAN অ্যাক্সেস পয়েন্টের সাথে সংযোগ স্থাপন করতে বা সংযোগ বিচ্ছিন্ন করতে এবং WLAN নেটওয়ার্কগুলির জন্য ডিভাইস কনফিগারেশনে পরিবর্তন করতে অ্যাপ্লিকেশানটিকে মঞ্জুর করে৷</string>
+    <string name="permlab_changeWifiMulticastState">WLAN মাল্টিকাস্ট রিসেপশন মঞ্জুর করে</string>
+    <string name="permdesc_changeWifiMulticastState">একটি WLAN নেটওয়ার্কে মাল্টিকাস্ট ঠিকানাগুলি ব্যবহার করে শুধুমাত্র আপনার ফোনের পরিবর্তে সমস্ত ডিভাইসে পাঠানো প্যাকেটগুলি গ্রহণ করতে অ্যাপ্লিকেশানটিকে মঞ্জুর করে৷ এটি নন-মাল্টিকাস্ট মোডের তুলনায় বেশি পাওয়ার ব্যবহার করে৷</string>
+    <string name="wifi_available_sign_in">WLAN নেটওয়ার্কে সাইন ইন করুন</string>
+    <string name="wifi_no_internet">WLAN -তে কোনো ইন্টারনেট অ্যাক্সেস নেই</string>
+    <string name="wifi_watchdog_network_disabled">WLAN এর সাথে সংযোগ করা যায়নি</string>
+    <string name="wifi_connect_alert_message">অ্যাপ্লিকেশান %1$s WLAN নেটওয়ার্ক %2$s এর সাথে সংযোগ করতে চায়</string>
+    <string name="wifi_p2p_dialog_title">WLAN ডাইরেক্ট</string>
+    <string name="wifi_p2p_turnon_message">WLAN ডাইরেক্ট আরম্ভ করুন৷ এটি WLAN client/hotspot কে বন্ধ করবে৷</string>
+    <string name="wifi_p2p_failed_message">WLAN ডাইরেক্ট শুরু করা যায়নি৷</string>
+    <string name="wifi_p2p_enabled_notification_title">WLAN ডাইরেক্ট চালু রয়েছে</string>
+    <string name="wifi_p2p_frequency_conflict_message">ফোনটি যখন %1$s এ সংযুক্ত হবে তখন এটি WLAN থেকে সাময়িকভাবে সংযোগ বিচ্ছিন্ন হবে</string>
+    <string name="data_usage_wifi_limit_title">WLAN ডেটা সীমা ছাড়িয়েছে</string>
+    <string name="data_usage_wifi_limit_snoozed_title">WLAN ডেটার সীমা ছাড়িয়ে গেছে</string>
+</resources>

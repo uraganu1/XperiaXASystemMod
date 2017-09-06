@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap android:src="@drawable/btn_star_mtrl_alpha" android:tint="?colorAccent" android:alpha="@dimen/disabled_alpha_material_light"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

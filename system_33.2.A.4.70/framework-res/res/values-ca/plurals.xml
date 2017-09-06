@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pinpuk_attempts">
+        <item quantity="other">Us queden %d intents; si us equivoqueu, la SIM es bloquejarà.</item>
+        <item quantity="one">Us queda %d intent; si us equivoqueu, la SIM es bloquejarà.</item>
+    </plurals>
+    <plurals name="last_num_days">
+        <item quantity="other">Últims %d dies</item>
+        <item quantity="one">Últim %d dia</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d segons</item>
+        <item quantity="one">1 segon</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d minuts</item>
+        <item quantity="one">1 minut</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="other">%d hores</item>
+        <item quantity="one">1 hora</item>
+    </plurals>
+    <plurals name="wifi_available">
+        <item quantity="other">Xarxes Wi-Fi disponibles</item>
+        <item quantity="one">Xarxa Wi-Fi disponible</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">Xarxes Wi-Fi obertes disponibles</item>
+        <item quantity="one">Xarxa Wi-Fi oberta disponible</item>
+    </plurals>
+    <plurals name="matches_found">
+        <item quantity="other">%1$d de %2$d</item>
+        <item quantity="one">1 coincidència</item>
+    </plurals>
+    <plurals name="restr_pin_countdown">
+        <item quantity="other">"Torneu-ho a provar d'aquí %d segons"</item>
+        <item quantity="one">"Torneu-ho a provar d'aquí 1 segon"</item>
+    </plurals>
+    <plurals name="zen_mode_duration_minutes_summary">
+        <item quantity="other">Durant %1$d minuts (fins a les %2$s)</item>
+        <item quantity="one">Durant 1 minut (fins a les %2$s)</item>
+    </plurals>
+    <plurals name="zen_mode_duration_minutes_summary_short">
+        <item quantity="other">Durant %1$d min (fins a les %2$s)</item>
+        <item quantity="one">Durant 1 min (fins a les %2$s)</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours_summary">
+        <item quantity="other">Durant %1$d hores (fins a les %2$s)</item>
+        <item quantity="one">Durant 1 hora (fins a les %2$s)</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours_summary_short">
+        <item quantity="other">Durant %1$d h (fins a les %2$s)</item>
+        <item quantity="one">Durant 1 h (fins a les %2$s)</item>
+    </plurals>
+    <plurals name="zen_mode_duration_minutes">
+        <item quantity="other">Durant %d minuts</item>
+        <item quantity="one">Durant un minut</item>
+    </plurals>
+    <plurals name="zen_mode_duration_minutes_short">
+        <item quantity="other">Durant %d min</item>
+        <item quantity="one">Durant 1 min</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours">
+        <item quantity="other">Durant %d hores</item>
+        <item quantity="one">Durant una hora</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours_short">
+        <item quantity="other">Durant %d h</item>
+        <item quantity="one">Durant 1 h</item>
+    </plurals>
+    <plurals name="selected_count">
+        <item quantity="other">%1$d seleccionats</item>
+        <item quantity="one">%1$d seleccionats</item>
+    </plurals>
+</resources>

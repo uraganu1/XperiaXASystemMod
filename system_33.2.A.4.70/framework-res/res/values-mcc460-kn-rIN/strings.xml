@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wfcRegErrorTitle">WLAN ಕರೆ ಮಾಡುವಿಕೆ</string>
+    <string name="wfcSpnFormat">%s</string>
+    <string name="wfcDataSpnFormat">%s</string>
+    <string name="wfc_mode_wifi_preferred_summary">ವೈ-ಫೈಗೆ ಆದ್ಯತೆ ನೀಡಲಾಗಿದೆ</string>
+    <string name="wfc_mode_wifi_only_summary">WLAN ಮಾತ್ರ</string>
+    <string name="permdesc_accessFineLocation">ಗ್ಲೊಬಲ್ ಪೊಸಿಷನಿಂಗ್ ಸಿಸ್ಟಮ್ (GPS) ಅಥವಾ ಸೆಲ್ ಟವರ್‍‍ಗಳು ಮತ್ತು WLAN ನಂತಹ ನೆಟ್‍‍ವರ್ಕ್ ಸ್ಥಾನ ಮೂಲಗಳನ್ನು ಬಳಸಿಕೊಂಡು ನಿಮ್ಮ ನಿಖರವಾದ ಸ್ಥಾನವನ್ನು ಪಡೆಯಲು ಅಪ್ಲಿಕೇಶನ್‍‍ಗೆ ಅನುಮತಿಸುತ್ತದೆ. ಅಪ್ಲಿಕೇಶನ್‍‍ಗಾಗಿ ಅವುಗಳನ್ನು ಬಳಸಲು ಈ ಸ್ಥಾನ ಸೇವೆಗಳು ಆನ್ ಆಗಿರಬೇಕು ಮತ್ತು ನಿಮ್ಮ ಸಾಧನದಲ್ಲಿ ಲಭ್ಯವಿರಬೇಕು. ನೀವೆಲ್ಲಿರುವಿರಿ ಎಂಬುದನ್ನು ನಿರ್ಧರಿಸಲು ಅಪ್ಲಿಕೇಶನ್ ಇದನ್ನು ಬಳಸಬಹುದು ಮತ್ತು ಹೆಚ್ಚುವರಿ ಬ್ಯಾಟರಿ ಶಕ್ತಿಯನ್ನು ಬಳಸಬಹುದು.</string>
+    <string name="permdesc_accessCoarseLocation">ನಿಮ್ಮ ಅಂದಾಜು ಸ್ಥಳವನ್ನು ಪಡೆದುಕೊಳ್ಳಲು ಅಪ್ಲಿಕೇಶನ್‍‍ಗೆ ಅನುಮತಿಸುತ್ತದೆ. ಈ ಸ್ಥಳವನ್ನು ಸೆಲ್ ಟವರ್‍‍ಗಳು ಮತ್ತು WLAN ನಂತಹ ನೆಟ್‍‍ವರ್ಕ್ ಸ್ಥಾನದ ಮೂಲಗಳನ್ನು ಬಳಸಿಕೊಂಡು ಸ್ಥಳದ ಸೇವೆಗಳ ಮೂಲಕ ಪಡೆಯಲಾಗಿದೆ. ಅಪ್ಲಿಕೇಶನ್‍‍ಗಾಗಿ ಅವುಗಳನ್ನು ಬಳಸಲು ಈ ಸ್ಥಾನ ಸೇವೆಗಳನ್ನು ಆನ್ ಮಾಡಿರಬೇಕು ಮತ್ತು ನಿಮ್ಮ ಸಾಧನದಲ್ಲಿ ಲಭ್ಯವಿರಬೇಕು. ನೀವು ನಿಖರವಾಗಿ ಎಲ್ಲಿರುವಿರಿ ಎಂಬುದನ್ನು ನಿರ್ಧರಿಸಲು ಅಪ್ಲಿಕೇಶನ್‌ಗಳು ಇದನ್ನು ಬಳಸಬಹುದು.</string>
+    <string name="permlab_accessWifiState">WLAN ಸಂಪರ್ಕಗಳನ್ನು ವೀಕ್ಷಿಸಿ</string>
+    <string name="permdesc_accessWifiState">WLAN ಸಕ್ರಿಯಗೊಂಡಿದೆಯೇ ಮತ್ತು ಸಂಪರ್ಕಿಸಲಾದ WLAN ಸಾಧನಗಳ ಹೆಸರಿನ ಮಾಹಿತಿ ರೀತಿಯ, WLAN ನೆಟ್‍‍ವರ್ಕ್ ಕುರಿತು ಮಾಹಿತಿಯನ್ನು ವೀಕ್ಷಿಸಲು ಅಪ್ಲಿಕೇಶನ್‍‍ಗೆ ಅವಕಾಶ ನೀಡುತ್ತದೆ.</string>
+    <string name="permlab_changeWifiState">WLAN ನಿಂದ ಸಂಪರ್ಕಗೊಳಿಸಿ ಮತ್ತು ಸಂಪರ್ಕ ಕಡಿತಗೊಳಿಸಿ</string>
+    <string name="permdesc_changeWifiState">WLAN ಪ್ರವೇಶ ಕೇಂದ್ರಗಳಿಂದ ಸಂಪರ್ಕ ಹೊಂದಲು ಮತ್ತು ಸಂಪರ್ಕ ಕಡಿತಗೊಳಿಸಲು, ಹಾಗೆಯೇ WLAN ನೆಟ್‍‍ವರ್ಕ್‌ಗಳಿಗೆ ಸಾಧನದ ಕನ್ಫಿಗರೇಶನ್‍ ಬದಲಾಯಿಸಲು ಅಪ್ಲಿಕೇಶನ್‍‍ಗೆ ಅವಕಾಶ ಮಾಡಿಕೊಡುತ್ತದೆ.</string>
+    <string name="permlab_changeWifiMulticastState">WLAN ಮಲ್ಟಿಕ್ಯಾಸ್ಟ್ ಸ್ವೀಕಾರಕ್ಕೆ ಅನುಮತಿಸಿ</string>
+    <string name="permdesc_changeWifiMulticastState">ನಿಮ್ಮ ಫೋನ್ ಮಾತ್ರವಲ್ಲದೇ, ಮಲ್ಟಿಕಾಸ್ಟ್ ವಿಳಾಸಗಳನ್ನು ಬಳಸಿಕೊಂಡು WLAN ನೆಟ್‍‍ವರ್ಕ್‌ನಲ್ಲಿ ಎಲ್ಲಾ ಸಾಧನಗಳಿಗೆ ಕಳುಹಿಸಲಾಗಿರುವ ಪ್ಯಾಕೆಟ್‍‍ಗಳನ್ನು ಸ್ವೀಕರಿಸಲು ಅಪ್ಲಿಕೇಶನ್‍‍ಗೆ ಅವಕಾಶ ನೀಡುತ್ತದೆ. ಇದು ಮಲ್ಟಿಕ್ಯಾಸ್ಟ್ ಅಲ್ಲದ ಮೋಡ್ ಬಳಸುವ ಶಕ್ತಿಗಿಂತಲೂ ಹೆಚ್ಚಿನ ಶಕ್ತಿಯನ್ನು ಬಳಸುತ್ತದೆ.</string>
+    <string name="wifi_available_sign_in">WLAN ನೆಟ್‍ವರ್ಕ್‌ಗೆ ಸೈನ್ ಇನ್ ಮಾಡಿ</string>
+    <string name="wifi_no_internet">ವೈ-ಫೈ ಯಾವುದೇ ಇಂಟರ್ನೆಟ್ ಪ್ರವೇಶವನ್ನು ಹೊಂದಿಲ್ಲ</string>
+    <string name="wifi_watchdog_network_disabled">WLAN ಗೆ ಸಂಪರ್ಕಿಸಲು ಸಾಧ್ಯವಾಗುತ್ತಿಲ್ಲ</string>
+    <string name="wifi_connect_alert_message">%2$s ವೈಫೈ ನೆಟ್‌ವರ್ಕ್‌ಗೆ ಸಂಪರ್ಕಿಸಲು %1$s ಅಪ್ಲಿಕೇಶನ್‌ ಬಯಸುತ್ತದೆ</string>
+    <string name="wifi_p2p_dialog_title">WLAN ಡೈರೆಕ್ಟ್</string>
+    <string name="wifi_p2p_turnon_message">WLAN ಡೈರೆಕ್ಟ್ ಪ್ರಾರಂಭಿಸಿ. ಇದು WLAN ಕ್ಲೈಂಟ್‌/ಹಾಟ್‌ಸ್ಪಾಟ್ ಅನ್ನು ಆಫ್ ಮಾಡುತ್ತದೆ.</string>
+    <string name="wifi_p2p_failed_message">WLAN ಡೈರೆಕ್ಟ್ ಪ್ರಾರಂಭಿಸಲು ಸಾಧ್ಯವಾಗುತ್ತಿಲ್ಲ.</string>
+    <string name="wifi_p2p_enabled_notification_title">WLAN ಡೈರೆಕ್ಟ್ ಆನ್ ಆಗಿದೆ</string>
+    <string name="wifi_p2p_frequency_conflict_message">ಫೋನ್ %1$s ಗೆ ಸಂಪರ್ಕಗೊಂಡಿರುವಾಗ WLAN ನಿಂದ ಅದು ತಾತ್ಕಾಲಿಕವಾಗಿ ಸಂಪರ್ಕ ಕಡಿತಗೊಳ್ಳುತ್ತದೆ</string>
+    <string name="data_usage_wifi_limit_title">WLAN ಡೇಟಾ ಮಿತಿಯನ್ನು ತಲುಪಿದೆ</string>
+    <string name="data_usage_wifi_limit_snoozed_title">WLAN ಡೇಟಾ ಮಿತಿ ಮೀರಿದೆ</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset android:insetLeft="@dimen/button_inset_horizontal_material" android:insetRight="@dimen/button_inset_horizontal_material" android:insetTop="@dimen/button_inset_vertical_material" android:insetBottom="@dimen/button_inset_vertical_material"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <layer-list android:paddingMode="stack">
+        <item>
+            <shape android:tint="@color/somc_btn_toggle_bg_color_dark" android:shape="rectangle">
+                <corners android:topLeftRadius="@dimen/control_corner_material" android:topRightRadius="@dimen/control_corner_material" />
+                <solid android:color="@color/white" />
+                <padding android:left="@dimen/button_padding_horizontal_material" android:top="@dimen/button_padding_vertical_material" android:right="@dimen/button_padding_horizontal_material" android:bottom="@dimen/button_padding_vertical_material" />
+            </shape>
+        </item>
+        <item android:gravity="fill_horizontal|bottom|center">
+            <shape android:shape="rectangle">
+                <size android:height="2.0dip" />
+                <solid android:color="@color/somc_btn_toggle_indicator_bg_color_dark" />
+            </shape>
+        </item>
+    </layer-list>
+</inset>

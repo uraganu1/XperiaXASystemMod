@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wfcRegErrorTitle">დარეკვა WLAN-ს მეშვეობით</string>
+    <string name="wfcSpnFormat">%s WLAN ზარები</string>
+    <string name="wfcDataSpnFormat">%s WLAN ზარები</string>
+    <string name="wfc_mode_wifi_preferred_summary">სასურველია WLAN</string>
+    <string name="wfc_mode_wifi_only_summary">მხოლოდ WLAN</string>
+    <string name="permdesc_accessFineLocation">აძლევს პროგრამას უფლებას მოიპოვოს ზუსტი მდებარეობა გლობალური პოზიციონირების სისტემის (GPS) გამოყენებით ან ქსელის მდებარეობის წყაროს მიხედვით, როგორიცაა ქსელის ანძები და WLAN. მდებარეობის ეს სერვისები ჩართული უნდა იყოს და თქვენს მოწყობილობაზე პროგრამასთვის მისაწვდომი, რათა შეძლოს მათი გამოყენება. პროგრამებში შესაძლებელია მათი გამოყენება თქვენი მდებარეობის განსასაზღვრად და ამან ელემენტის დამატებითი ხარჯვა შეიძლება გამოიწვიოს.</string>
+    <string name="permdesc_accessCoarseLocation">პროგრამას შეეძლება გაიგოს თქვენი სავარაუდო მდებარეობა. ის გამოითვლება მდებარეობის სერვისის მიერ ქსელის მონაცემების - მობილური კავშირგაბმულობის ანძებისა და WLAN-ის მიხედვით. ეს სერვისები ჩართული უნდა იყოს თქვენს მოწყობილობაზე, ხოლო პროგრამებს უნდა ჰქონდეთ მათი გამოყენების უფლება. პროგრამები მათი მონაცემების მიხედვით სავარაუდო მდებარეობის გამოთვლას შეძლებენ.</string>
+    <string name="permlab_accessWifiState">WLAN კავშირების ნახვა</string>
+    <string name="permdesc_accessWifiState">პროგრამას შეეძლება WLAN ქსელის შესახებ ინფორმაციის ნახვა, მაგალითად, WLAN ჩართულია თუ არა, ასევე დაკავშირებული WLAN მოწყობილობის სახელის ნახვა.</string>
+    <string name="permlab_changeWifiState">WLAN-ისთან დაკავშირება ან კავშირის შეწყვეტა</string>
+    <string name="permdesc_changeWifiState">პროგრამას შეეძლება WLAN წვდომის წერტილებთან დაკავშირება და კავშირის გაწყვეტა და მოწყობილობის კონფიგურაციის შეცვლა WLAN ქსელებისთვის.</string>
+    <string name="permlab_changeWifiMulticastState">ნებართვა WLAN მრავალმისამართიან მიღებაზე</string>
+    <string name="permdesc_changeWifiMulticastState">აპს შეეძლება, მიიღოს WLAN ქსელში ყველა მოწყობილობაზე გაგზავნილი პაკეტები ჯგუფური მისამართების გამოყენებით. მოიხმარს მეტ ენერგიას, ვიდრე არამრავალმისამართიანი რეჟიმი.</string>
+    <string name="wifi_available_sign_in">WLAN ქსელთან დაკავშირება</string>
+    <string name="wifi_no_internet">WLAN-ს არ აქვს ინტერნ. წვდომა</string>
+    <string name="wifi_watchdog_network_disabled">WLAN-თან დაკავშირება ვერ მოხერხდა</string>
+    <string name="wifi_connect_alert_message">განაცხადს %1$s სურს დაუკავშირდეს WLAN ქსელს %2$s</string>
+    <string name="wifi_p2p_dialog_title">WLAN Direct</string>
+    <string name="wifi_p2p_turnon_message">ჩართეთ WLAN Direct. ეს გამოიწვევს WLAN კლიენტისა/წვდომის წერტილის გამორთვას.</string>
+    <string name="wifi_p2p_failed_message">ვერ მოხერხდა WLAN Direct-ის გაშვება.</string>
+    <string name="wifi_p2p_enabled_notification_title">WLAN Direct ჩართულია</string>
+    <string name="wifi_p2p_frequency_conflict_message">ტელეფონი დროებით გაითიშება WLAN-დან, სანამ მიერთებულია %1$s-ზე</string>
+    <string name="data_usage_wifi_limit_title">WLAN მონაცემების ლიმიტი მიღწეულია</string>
+    <string name="data_usage_wifi_limit_snoozed_title">WLAN მონაცემთა ლიმიტი გადაჭარბებულია</string>
+    <string name="policylab_disableWifi">WLAN წვდომის დეაქტივირება</string>
+    <string name="policydesc_disableWifi">მოწყობილობაზე WLAN კავშირების აკრძალვა</string>
+    <string name="wifi_disabled_notification_title">WLAN კავშირი შეზღუდულია</string>
+    <string name="wifi_disabled_notification_message">უსაფრთხოების პოლიტიკა ზღუდავს WLAN-ის გამოყენებას.</string>
+    <string name="ct_cplusw_notification_text">თქვენ დაუკავშირდით CT WLAN ქსელს. გთხოვთ დაუკავშირდეთ 10000 ან ადგილობრივ CT მაღაზიას ტარიფების შესახებ. გთხოვთ გამორთოთ დაკავშირება მაშინ, როდესაც არ განოიყენებთ მას.</string>
+    <string name="ct_cplusw_notification_title">China Telecom WLAN დაკავშ</string>
+    <string name="ct_cplusw_pppoe_connection_dialog_content">თქვენ იქნებით დაკავშირებული ჩინეთის ტელეკომის WLAN ქსელთან. საფასურის შესახებ დეტალებისთვის, გთხოვთ დაუკავშირდეთ ჩინეთის ტელეკომის მომხმარებლის მხარდაჭერის ცენტრს. გავაგრძელოთ?</string>
+    <string name="wifi_nonconcurrency_message">WLAN კლიენტის ჩართვა. ამის გამო WLAN Direct™-ი იქნება გამორთული.</string>
+    <string name="wifi_noncuncurrency_message">WLAN კლიენტის ჩართვა. ამის გამო WLAN Direct™-ი იქნება გამორთული.</string>
+    <string name="wifi_p2p_nonconcurrency_invite_message">არსებული WLAN კავშირი იქნება გამორთული</string>
+    <string name="wifi_p2p_nonconcurrency_message">WLAN Direct™-ის ჩართვა. ამის გამო WLAN დაკავშირება იქნება გამორთული.</string>
+    <string name="wifi_p2p_noncuncurrency_invite_message">ეს გამორთავს არსებულ WLAN დაკავშირებას.</string>
+    <string name="wifi_p2p_noncuncurrency_message">WLAN Direct™-ის ჩართვა. ამის გამო WLAN დაკავშირება იქნება გამორთული.</string>
+    <string name="tethered_notification_title_wifi">WLAN გამორთულია</string>
+</resources>

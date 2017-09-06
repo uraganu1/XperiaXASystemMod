@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pinpuk_attempts">
+        <item quantity="other">Preostalo vam je %d pokušaja pre zaključavanja SIM-a</item>
+        <item quantity="one">Preostao vam je %d pokušaj pre zaključavanja SIM-a</item>
+        <item quantity="few">Имате још %d покушаја пре него што се SIM картица закључа.</item>
+    </plurals>
+    <plurals name="last_num_days">
+        <item quantity="other">Poslednjih %d dana</item>
+        <item quantity="one">Poslednji %d dan</item>
+        <item quantity="few">Претходна %d дана</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">Sekundi: %d</item>
+        <item quantity="one">1 sekunda</item>
+        <item quantity="few">%d секунде</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d minuta</item>
+        <item quantity="one">1 minut</item>
+        <item quantity="few">%d минута</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="other">Sati: %d</item>
+        <item quantity="one">1 sat</item>
+        <item quantity="few">%d сата</item>
+    </plurals>
+    <plurals name="wifi_available">
+        <item quantity="other">Wi-Fi mreže su dostupne</item>
+        <item quantity="one">Wi-Fi mreža je dostupna</item>
+        <item quantity="few">Wi-Fi мреже су доступне</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">Otvorene Wi-Fi mreže su dostupne</item>
+        <item quantity="one">Otvorena Wi-Fi mreža je dostupna</item>
+        <item quantity="few">Отворене Wi-Fi мреже су доступне</item>
+    </plurals>
+    <plurals name="matches_found">
+        <item quantity="other">%1$d od %2$d</item>
+        <item quantity="one">1 podudaranje</item>
+        <item quantity="few">%1$d од %2$d</item>
+    </plurals>
+    <plurals name="restr_pin_countdown">
+        <item quantity="other">Pokušajte ponovo za %d sekundi</item>
+        <item quantity="one">Pokušajte ponovo za 1 sekund</item>
+        <item quantity="few">Покушајте поново за %d секунде</item>
+    </plurals>
+    <plurals name="zen_mode_duration_minutes_summary">
+        <item quantity="other">Za %1$d minuta (do %2$s)</item>
+        <item quantity="one">Za jedan minut (do %2$s)</item>
+        <item quantity="few">%1$d минута (до %2$s)</item>
+    </plurals>
+    <plurals name="zen_mode_duration_minutes_summary_short">
+        <item quantity="other">Za %1$d min (do %2$s)</item>
+        <item quantity="one">Za 1 min (do %2$s)</item>
+        <item quantity="few">За %1$d мин (до %2$s)</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours_summary">
+        <item quantity="other">Za %1$d sati (do %2$s)</item>
+        <item quantity="one">Za jedan sat (do %2$s)</item>
+        <item quantity="few">%1$d сата (до %2$s)</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours_summary_short">
+        <item quantity="other">Za %1$d čas (do %2$s)</item>
+        <item quantity="one">Za 1 čas (do %2$s)</item>
+        <item quantity="few">За %1$d с (до %2$s)</item>
+    </plurals>
+    <plurals name="zen_mode_duration_minutes">
+        <item quantity="other">%d мин</item>
+        <item quantity="one">Jedna minut</item>
+        <item quantity="few">%d минута</item>
+    </plurals>
+    <plurals name="zen_mode_duration_minutes_short">
+        <item quantity="other">Za %d min</item>
+        <item quantity="one">Za 1 min</item>
+        <item quantity="few">За %d мин</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours">
+        <item quantity="other">%d с</item>
+        <item quantity="one">Jedan sat</item>
+        <item quantity="few">%d сата</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours_short">
+        <item quantity="other">Za %d čas</item>
+        <item quantity="one">Za 1 čas</item>
+        <item quantity="few">За %d с</item>
+    </plurals>
+    <plurals name="selected_count">
+        <item quantity="other">%1$d izabranih</item>
+        <item quantity="one">%1$d izabranih</item>
+        <item quantity="few">Изабране су %1$d ставке</item>
+    </plurals>
+</resources>

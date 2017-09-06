@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="pinpuk_attempts">
+        <item quantity="other">%d saiakera geratzen zaizkizu SIMa blokeatu arte</item>
+        <item quantity="one">%d saiakera geratzen zaizu SIMa blokeatu arte</item>
+    </plurals>
+    <plurals name="last_num_days">
+        <item quantity="other">Azken %d egunak</item>
+        <item quantity="one">Azken %d eguna</item>
+    </plurals>
+    <plurals name="duration_seconds">
+        <item quantity="other">%d segundo</item>
+        <item quantity="one">1 segundo</item>
+    </plurals>
+    <plurals name="duration_minutes">
+        <item quantity="other">%d minutu</item>
+        <item quantity="one">1 minutu</item>
+    </plurals>
+    <plurals name="duration_hours">
+        <item quantity="other">%d ordu</item>
+        <item quantity="one">1 ordu</item>
+    </plurals>
+    <plurals name="wifi_available">
+        <item quantity="other">Wi-Fi sareak erabilgarri</item>
+        <item quantity="one">Wi-Fi sarea erabilgarri</item>
+    </plurals>
+    <plurals name="wifi_available_detailed">
+        <item quantity="other">Ireki erabilgarri dauden Wi-Fi sareak</item>
+        <item quantity="one">Ireki erabilgarri dagoen Wi-Fi sarea</item>
+    </plurals>
+    <plurals name="matches_found">
+        <item quantity="other">%1$d / %2$d</item>
+        <item quantity="one">1 emaitza</item>
+    </plurals>
+    <plurals name="restr_pin_countdown">
+        <item quantity="other">Saiatu berriro %d segundo barru</item>
+        <item quantity="one">Saiatu berriro 1 segundo barru</item>
+    </plurals>
+    <plurals name="zen_mode_duration_minutes_summary">
+        <item quantity="other">%1$d minutuz (%2$s arte)</item>
+        <item quantity="one">Minutu batez (%2$s arte)</item>
+    </plurals>
+    <plurals name="zen_mode_duration_minutes_summary_short">
+        <item quantity="other">%1$d min-utuz (n. arte: %2$s)</item>
+        <item quantity="one">1 min-utuz (noiz arte: %2$s)</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours_summary">
+        <item quantity="other">%1$d orduz (%2$s arte)</item>
+        <item quantity="one">Ordubetez (%2$s arte)</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours_summary_short">
+        <item quantity="other">%1$d h-duz (noiz arte: %2$s)</item>
+        <item quantity="one">1 h-duz (noiz arte: %2$s)</item>
+    </plurals>
+    <plurals name="zen_mode_duration_minutes">
+        <item quantity="other">%d minutuz</item>
+        <item quantity="one">Minutu batez</item>
+    </plurals>
+    <plurals name="zen_mode_duration_minutes_short">
+        <item quantity="other">%d min-utuz</item>
+        <item quantity="one">1 min-utuz</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours">
+        <item quantity="other">%d orduz</item>
+        <item quantity="one">Ordubetez</item>
+    </plurals>
+    <plurals name="zen_mode_duration_hours_short">
+        <item quantity="other">%d h-duz</item>
+        <item quantity="one">1 h-duz</item>
+    </plurals>
+    <plurals name="selected_count">
+        <item quantity="other">%1$d hautatuta</item>
+        <item quantity="one">%1$d hautatuta</item>
+    </plurals>
+</resources>
