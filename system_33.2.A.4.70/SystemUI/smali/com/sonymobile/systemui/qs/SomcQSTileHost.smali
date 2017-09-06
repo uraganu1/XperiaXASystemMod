@@ -30,7 +30,7 @@
     const/4 v5, 0x1
 
     .line 301
-    const/16 v0, 0x10
+    const/16 v0, 0x16
 
     new-array v14, v0, [Lcom/sonymobile/systemui/qs/SomcQSTileHost$Qs;
 
@@ -42,7 +42,7 @@
     const v2, 0x7f0c001e
 
     .line 304
-    const v3, 0x7f0200d1
+    const v3, 0x7f020285
 
     .line 305
     const v4, 0x7f0902d7
@@ -59,7 +59,7 @@
 
     const v2, 0x7f0c001f
 
-    const v3, 0x7f020078
+    const v3, 0x7f020286
 
     .line 307
     const v4, 0x7f09015e
@@ -77,7 +77,7 @@
     const v2, 0x7f0c0020
 
     .line 309
-    const v3, 0x7f02005c
+    const v3, 0x7f020287
 
     .line 310
     const v4, 0x7f090167
@@ -97,7 +97,7 @@
     const v2, 0x7f0c0021
 
     .line 312
-    const v3, 0x7f0200d5
+    const v3, 0x7f020284
 
     .line 313
     const v4, 0x7f09018b
@@ -117,7 +117,7 @@
     const v2, 0x7f0c0022
 
     .line 315
-    const v3, 0x7f0200dd
+    const v3, 0x7f020283
 
     .line 316
     const v4, 0x7f09016c
@@ -136,7 +136,7 @@
 
     const v2, 0x7f0c0023
 
-    const v3, 0x7f020071
+    const v3, 0x7f020288
 
     .line 318
     const v4, 0x7f09017b
@@ -317,7 +317,41 @@
 
     aput-object v7, v14, v0
 
+    .line 336
+    new-instance v0, Lcom/sonymobile/systemui/qs/SomcQSTileHost$Qs;
+
+    const-string/jumbo v1, "wifi"
+
+    const v2, 0x7f0c0051
+
+    const v3, 0x7f020289
+
+    const v4, 0x7f090176
+
+    invoke-direct/range {v0 .. v6}, Lcom/sonymobile/systemui/qs/SomcQSTileHost$Qs;-><init>(Ljava/lang/String;IIIZZ)V
+
+    const/16 v1, 0xe
+
+    aput-object v0, v14, v1
+
     .line 337
+    new-instance v0, Lcom/sonymobile/systemui/qs/SomcQSTileHost$Qs;
+
+    const-string/jumbo v1, "bt"
+
+    const v2, 0x7f0c0052
+
+    const v3, 0x7f02028a
+
+    const v4, 0x7f090162
+
+    invoke-direct/range {v0 .. v6}, Lcom/sonymobile/systemui/qs/SomcQSTileHost$Qs;-><init>(Ljava/lang/String;IIIZZ)V
+
+    const/16 v1, 0xf
+
+    aput-object v0, v14, v1
+
+    .line 338
     new-instance v0, Lcom/sonymobile/systemui/qs/SomcQSTileHost$Qs;
 
     const-string/jumbo v1, "throw"
@@ -332,7 +366,7 @@
     .line 337
     invoke-direct/range {v0 .. v6}, Lcom/sonymobile/systemui/qs/SomcQSTileHost$Qs;-><init>(Ljava/lang/String;IIIZZ)V
 
-    const/16 v1, 0xe
+    const/16 v1, 0x10
 
     aput-object v0, v14, v1
 
@@ -353,7 +387,71 @@
     .line 339
     invoke-direct/range {v0 .. v6}, Lcom/sonymobile/systemui/qs/SomcQSTileHost$Qs;-><init>(Ljava/lang/String;IIIZZ)V
 
-    const/16 v1, 0xf
+    const/16 v1, 0x11
+
+    aput-object v0, v14, v1
+
+    new-instance v0, Lcom/sonymobile/systemui/qs/SomcQSTileHost$Qs;
+
+    const-string/jumbo v1, "volume_panel"
+
+    const v2, 0x7f0c0053
+
+    const v3, 0x7f0202a2
+
+    const v4, 0x7f09037d
+
+    invoke-direct/range {v0 .. v6}, Lcom/sonymobile/systemui/qs/SomcQSTileHost$Qs;-><init>(Ljava/lang/String;IIIZZ)V
+
+    const/16 v1, 0x12
+
+    aput-object v0, v14, v1
+
+    new-instance v0, Lcom/sonymobile/systemui/qs/SomcQSTileHost$Qs;
+
+    const-string/jumbo v1, "audiofx"
+
+    const v2, 0x7f0c0054
+
+    const v3, 0x7f0202a6
+
+    const v4, 0x7f09037e
+
+    invoke-direct/range {v0 .. v6}, Lcom/sonymobile/systemui/qs/SomcQSTileHost$Qs;-><init>(Ljava/lang/String;IIIZZ)V
+
+    const/16 v1, 0x13
+
+    aput-object v0, v14, v1
+
+    new-instance v0, Lcom/sonymobile/systemui/qs/SomcQSTileHost$Qs;
+
+    const-string/jumbo v1, "sound"
+
+    const v2, 0x7f0c0055
+
+    const v3, 0x7f0202aa
+
+    const v4, 0x7f09037f
+
+    invoke-direct/range {v0 .. v6}, Lcom/sonymobile/systemui/qs/SomcQSTileHost$Qs;-><init>(Ljava/lang/String;IIIZZ)V
+
+    const/16 v1, 0x14
+
+    aput-object v0, v14, v1
+
+    new-instance v0, Lcom/sonymobile/systemui/qs/SomcQSTileHost$Qs;
+
+    const-string/jumbo v1, "screen_timeout"
+
+    const v2, 0x7f0c0056
+
+    const v3, 0x7f0202b1
+
+    const v4, 0x7f090383
+
+    invoke-direct/range {v0 .. v6}, Lcom/sonymobile/systemui/qs/SomcQSTileHost$Qs;-><init>(Ljava/lang/String;IIIZZ)V
+
+    const/16 v1, 0x15
 
     aput-object v0, v14, v1
 

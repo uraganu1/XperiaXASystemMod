@@ -714,6 +714,65 @@
     <public type="drawable" name="stat_sys_volte2" id="0x7f0201e8" />
     <public type="drawable" name="status_background" id="0x7f020206" />
     <public type="drawable" name="recents_task_shadow" id="0x7f020164" />
+    <public type="drawable" name="ic_location" id="0x7f020283" />
+    <public type="drawable" name="ic_flashlight" id="0x7f020284" />
+    <public type="drawable" name="ic_airplane" id="0x7f020285" />
+    <public type="drawable" name="ic_dnd_qs" id="0x7f020286" />
+    <public type="drawable" name="ic_rotation" id="0x7f020287" />
+    <public type="drawable" name="ic_cast" id="0x7f020288" />
+    <public type="drawable" name="ic_wifi" id="0x7f020289" />
+    <public type="drawable" name="ic_bluetooth" id="0x7f02028a" />
+    <public type="drawable" name="ic_qs_sync" id="0x7f02028b" />
+    <public type="drawable" name="ic_qs_sync_on_animation" id="0x7f02028c" />
+    <public type="drawable" name="ic_qs_sync_off_animation" id="0x7f02028d" />
+    <public type="drawable" name="ic_qs_bluetooth_on_animation" id="0x7f02028e" />
+    <public type="drawable" name="ic_qs_bluetooth_off_animation" id="0x7f02028f" />
+    <public type="drawable" name="ic_qs_lte" id="0x7f020290" />
+    <public type="drawable" name="ic_qs_lte_on_animation" id="0x7f020291" />
+    <public type="drawable" name="ic_qs_lte_off_animation" id="0x7f020292" />
+    <public type="drawable" name="ic_qs_nfc" id="0x7f020293" />
+    <public type="drawable" name="ic_qs_nfc_on_animation" id="0x7f020294" />
+    <public type="drawable" name="ic_qs_nfc_off_animation" id="0x7f020295" />
+    <public type="drawable" name="ic_qs_stamina" id="0x7f020296" />
+    <public type="drawable" name="ic_qs_stamina_on_animation" id="0x7f020297" />
+    <public type="drawable" name="ic_qs_stamina_off_animation" id="0x7f020298" />
+    <public type="drawable" name="ic_qs_stamina_auto_animation" id="0x7f020299" />
+    <public type="drawable" name="ic_qs_data_traffic" id="0x7f02029a" />
+    <public type="drawable" name="ic_qs_data_traffic_on_animation" id="0x7f02029b" />
+    <public type="drawable" name="ic_qs_data_traffic_off_animation" id="0x7f02029c" />
+    <public type="drawable" name="ic_qs_roaming" id="0x7f02029d" />
+    <public type="drawable" name="ic_qs_roaming_on_animation" id="0x7f02029e" />
+    <public type="drawable" name="ic_qs_roaming_off_animation" id="0x7f02029f" />
+    <public type="drawable" name="ic_qs_wifi_no_network_animation" id="0x7f0202a0" />
+    <public type="drawable" name="ic_qs_wifi_disabled_animation" id="0x7f0202a1" />
+    <public type="drawable" name="ic_volume_panel" id="0x7f0202a2" />
+    <public type="drawable" name="ic_qs_volume_panel" id="0x7f0202a3" />
+    <public type="drawable" name="ic_qs_volume_panel_animation_1" id="0x7f0202a4" />
+    <public type="drawable" name="ic_qs_volume_panel_animation_2" id="0x7f0202a5" />
+    <public type="drawable" name="ic_visualizer" id="0x7f0202a6" />
+    <public type="drawable" name="ic_qs_visualizer" id="0x7f0202a7" />
+    <public type="drawable" name="ic_qs_visualizer_animation_1" id="0x7f0202a8" />
+    <public type="drawable" name="ic_qs_visualizer_animation_2" id="0x7f0202a9" />
+    <public type="drawable" name="ic_ringer" id="0x7f0202aa" />
+    <public type="drawable" name="ic_qs_sound_to_ring" id="0x7f0202ab" />
+    <public type="drawable" name="ic_qs_sound_to_vibrate" id="0x7f0202ac" />
+    <public type="drawable" name="ic_qs_sound_to_silent" id="0x7f0202ad" />
+    <public type="drawable" name="ic_qs_sound_to_ring_animation" id="0x7f0202ae" />
+    <public type="drawable" name="ic_qs_sound_to_vibrate_animation" id="0x7f0202af" />
+    <public type="drawable" name="ic_qs_sound_to_silent_animation" id="0x7f0202b0" />
+    <public type="drawable" name="ic_screen_timeout" id="0x7f0202b1" />
+    <public type="drawable" name="ic_qs_screen_timeout_short" id="0x7f0202b2" />
+    <public type="drawable" name="ic_qs_screen_timeout_long" id="0x7f0202b3" />
+    <public type="drawable" name="ic_qs_screen_timeout_medium" id="0x7f0202b4" />
+    <public type="drawable" name="ic_qs_screen_timeout_short_animation_1" id="0x7f0202b5" />
+    <public type="drawable" name="ic_qs_screen_timeout_short_animation_2" id="0x7f0202b6" />
+    <public type="drawable" name="ic_qs_screen_timeout_medium_animation_1" id="0x7f0202b7" />
+    <public type="drawable" name="ic_qs_screen_timeout_medium_animation_2" id="0x7f0202b8" />
+    <public type="drawable" name="ic_qs_screen_timeout_long_animation_1" id="0x7f0202b9" />
+    <public type="drawable" name="ic_qs_screen_timeout_long_animation_2" id="0x7f0202ba" />
+    <public type="drawable" name="cobalt_header" id="0x7f0202bb" />
+    <public type="drawable" name="status_bar_toggle_brightness" id="0x7f0202bd" />
+    <public type="drawable" name="notification_material_low_priority_bg" id="0x7f0202be" />
     <public type="mipmap" name="ic_daydreams" id="0x7f030000" />
     <public type="mipmap" name="ic_launcher_dreams" id="0x7f030001" />
     <public type="layout" name="assist_orb" id="0x7f040000" />
@@ -1006,6 +1065,16 @@
     <public type="anim" name="wallpaper_recents_launch_from_launcher_exit" id="0x7f0500bb" />
     <public type="anim" name="zoom_in" id="0x7f0500bc" />
     <public type="anim" name="zoom_out" id="0x7f0500bd" />
+    <public type="anim" name="ic_qs_animation_rotate_right" id="0x7f0500be" />
+    <public type="anim" name="ic_qs_animation_rotate_left" id="0x7f0500bf" />
+    <public type="anim" name="ic_qs_animation_enlarge" id="0x7f0500c0" />
+    <public type="anim" name="ic_qs_animation_enlarge_x" id="0x7f0500c1" />
+    <public type="anim" name="ic_qs_animation_enlarge_y" id="0x7f0500c2" />
+    <public type="anim" name="ic_qs_animation_shrink" id="0x7f0500c3" />
+    <public type="anim" name="ic_qs_animation_shrink_x" id="0x7f0500c4" />
+    <public type="anim" name="ic_qs_animation_shrink_y" id="0x7f0500c5" />
+    <public type="anim" name="ic_qs_animation_root" id="0x7f0500c6" />
+    <public type="anim" name="ic_qs_animation_fade" id="0x7f0500c7" />
     <public type="interpolator" name="assist_disclosure_trace" id="0x7f060000" />
     <public type="interpolator" name="error_to_trustedstate_animation_interpolator_0" id="0x7f060001" />
     <public type="interpolator" name="error_to_trustedstate_animation_interpolator_1" id="0x7f060002" />
@@ -1978,6 +2047,13 @@
     <public type="string" name="wifi_security_short_wapi_cert" id="0x7f0902e6" />
     <public type="string" name="wifi_security_short_wapi_psk" id="0x7f0902e7" />
     <public type="string" name="wifi_security_wapi_cert" id="0x7f0902e8" />
+    <public type="string" name="quick_settings_volume_panel_label" id="0x7f09037d" />
+    <public type="string" name="quick_settings_visualizer_label" id="0x7f09037e" />
+    <public type="string" name="quick_settings_sound_label" id="0x7f09037f" />
+    <public type="string" name="quick_settings_sound_ring" id="0x7f090380" />
+    <public type="string" name="quick_settings_sound_vibrate" id="0x7f090381" />
+    <public type="string" name="quick_settings_sound_silent" id="0x7f090382" />
+    <public type="string" name="quick_settings_screen_timeout_label" id="0x7f090383" />
     <public type="dimen" name="appear_y_translation_start" id="0x7f0a0000" />
     <public type="dimen" name="disappear_y_translation" id="0x7f0a0001" />
     <public type="dimen" name="status_bar_recents_app_icon_max_width" id="0x7f0a0002" />
@@ -2578,6 +2654,12 @@
     <public type="bool" name="config_qsEnableThrow" id="0x7f0c002b" />
     <public type="bool" name="config_qsEnableVolte" id="0x7f0c002c" />
     <public type="bool" name="config_qsEnableLTE" id="0x7f0c002d" />
+    <public type="bool" name="config_qsEnableWifi" id="0x7f0c0051" />
+    <public type="bool" name="config_qsEnableBlueTooth" id="0x7f0c0052" />
+    <public type="bool" name="config_qsEnableVolumePanel" id="0x7f0c0053" />
+    <public type="bool" name="config_qsEnableVisualizerPanel" id="0x7f0c0054" />
+    <public type="bool" name="config_qsEnableSoundPanel" id="0x7f0c0055" />
+    <public type="bool" name="config_qsEnableScreenTimeout" id="0x7f0c0056" />
     <public type="bool" name="config_enableMobileComboIcon" id="0x7f0c002e" />
     <public type="bool" name="config_showRATIconAlways" id="0x7f0c002f" />
     <public type="bool" name="config_showCallBusyingIconForDsds" id="0x7f0c0030" />

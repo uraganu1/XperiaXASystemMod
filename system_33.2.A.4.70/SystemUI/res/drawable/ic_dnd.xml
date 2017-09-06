@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vector android:height="24.0dip" android:width="24.0dip" android:viewportWidth="48.0" android:viewportHeight="48.0"
+<vector android:height="48.0dip" android:width="48.0dip" android:viewportWidth="48.0" android:viewportHeight="48.0"
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <path android:fillColor="#ffffffff" android:pathData="M24.0,4.0C12.95,4.0 4.0,12.95 4.0,24.0s8.95,20.0 20.0,20.0 20.0,-8.95 20.0,-20.0S35.05,4.0 24.0,4.0zm10.0,22.0L14.0,26.0l0.0,-4.0l20.0,0.0l0.0,4.0z" />
+    <group android:name="ic_dnd" android:translateX="24" android:translateY="24">
+	<path android:fillColor="#ffffffff" android:pathData="M-11.682724 15.648934c0 0 -3.966672 -3.974332 -3.966672 -3.974332 0 0 11.6520964 -11.6746030326428 11.6520964 -11.6746030326428 0 0 -11.6520964 -11.6746019673572 -11.6520964 -11.6746019673572 0 0 3.966672 -3.974331 3.966672 -3.974331 0 0 11.65209439 11.674601 11.65209439 11.674601 0 0 11.65209361 -11.674601 11.65209361 -11.674601 0 0 4.026171 3.974331 4.026171 3.974331 0 0 -11.7115946 11.6746019673572 -11.7115946 11.6746019673572 0 0 11.6520946 11.6746030326428 11.6520946 11.6746030326428 0 0 -3.966671 3.974332 -3.966671 3.974332 0 0 -11.65209361 -11.674603 -11.65209361 -11.674603 0 0 -11.65209439 11.674603 -11.65209439 11.674603z" />
+    </group>
 </vector>

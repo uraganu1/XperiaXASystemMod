@@ -595,7 +595,7 @@
     if-nez v7, :cond_9
 
     .line 146
-    const v7, 0x7f0200c7
+    const v7, 0x7f0202a1
 
     invoke-static {v7}, Lcom/android/systemui/qs/QSTile$ResourceIcon;->get(I)Lcom/android/systemui/qs/QSTile$Icon;
 
@@ -940,7 +940,7 @@
 
     .prologue
     .line 66
-    const/4 v0, 0x1
+    const/4 v0, 0x0
 
     return v0
 .end method

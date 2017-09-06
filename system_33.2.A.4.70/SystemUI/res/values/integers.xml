@@ -10,8 +10,8 @@
     <integer name="navigation_bar_deadzone_hold">333</integer>
     <integer name="navigation_bar_deadzone_decay">333</integer>
     <integer name="config_recent_item_min_alpha">3</integer>
-    <integer name="quick_settings_num_columns">3</integer>
-    <integer name="quick_settings_max_rows">4</integer>
+    <integer name="quick_settings_num_columns">5</integer>
+    <integer name="quick_settings_max_rows">3</integer>
     <integer name="quick_settings_max_rows_keyguard">3</integer>
     <integer name="quick_settings_user_time_settings_tile_span">1</integer>
     <integer name="quick_settings_brightness_dialog_short_timeout">2000</integer>
@@ -53,7 +53,7 @@
     <integer name="volume_expand_animation_duration">300</integer>
     <integer name="standard_notification_panel_layout_gravity">0x00000031</integer>
     <integer name="notification_panel_layout_gravity">0x00000037</integer>
-    <integer name="config_maxToolItems">9</integer>
+    <integer name="config_maxToolItems">10</integer>
     <integer name="config_staminaWarningLevel">30</integer>
     <integer name="config_staminaCriticalLevel">15</integer>
     <integer name="keyTag">0x02000006</integer>
