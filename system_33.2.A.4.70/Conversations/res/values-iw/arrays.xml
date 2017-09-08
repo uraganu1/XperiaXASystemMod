@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>איפה את/ה?</item>
+        <item>מה את/ה עושה?</item>
+        <item>דחוף! השב בהקדם האפשרי.</item>
+        <item>אני בפגישה עכשיו.</item>
+        <item>הכל בסדר. אל דאגה.</item>
+        <item>אני בדרך הביתה.</item>
+        <item>אחזור אליך.</item>
+        <item>אני כבר מגיע/ה</item>
+        <item>תראה/תראי את זה!</item>
+    </string-array>
+</resources>

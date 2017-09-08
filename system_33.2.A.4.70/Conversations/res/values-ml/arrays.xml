@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>നിങ്ങള്‍ എവിടെയാണ്?</item>
+        <item>നിങ്ങള്‍ എന്ത് ചെയ്യാന്‍ പോ.?</item>
+        <item>അടിയന്തരം! ദ. എ. പ. എ. മറ.</item>
+        <item>ക്ഷമിക്കണം, ഞാന്‍ മീറ്റിംഗിലാ.</item>
+        <item>ഞാന്‍ നന്നായിരിക്കുന്നു. വ.</item>
+        <item>ഞാന്‍ വീട്ടിലേക്ക് മടങ്ങ. വഴ.</item>
+        <item>ഞാന്‍ നിങ്ങളെ തിരിച്ച് വിളി.</item>
+        <item>ഞാന്‍ അവിടെ എത്തിയിരിക.</item>
+        <item>ഇത് ഒന്നു പരിശോ. നോക്കൂ!</item>
+    </string-array>
+</resources>

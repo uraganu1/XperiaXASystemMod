@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>Haradasan?</item>
+        <item>Haraya yaxınsan?</item>
+        <item>Təcili! Müm qəd tez cav ver.</item>
+        <item>Üzr istəyirəm, indi görüşdəyəm.</item>
+        <item>Yaxşıyam. Narahat olma.</item>
+        <item>Evə qayıdıram.</item>
+        <item>Sənə zəng edəcəyəm.</item>
+        <item>Orda olacağam.</item>
+        <item>Buna bax!</item>
+    </string-array>
+</resources>

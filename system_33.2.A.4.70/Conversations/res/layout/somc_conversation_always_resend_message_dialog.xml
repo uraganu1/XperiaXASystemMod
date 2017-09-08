@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="@dimen/dialog_padding" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@android:style/TextAppearance.Medium" android:id="@id/resend_dialog_message_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dialog_small_padding" android:text="@string/conversations_strings_rcs_always_resend_as_xms_txt" />
+    <TextView android:textAppearance="@android:style/TextAppearance.Small" android:id="@id/resend_checkbox_change_later_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/conversations_strings_joyn_change_in_settings" />
+</LinearLayout>

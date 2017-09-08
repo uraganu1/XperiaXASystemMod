@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>Ти де?</item>
+        <item>Які плани?</item>
+        <item>Терміново подзвоніть мені!</item>
+        <item>Вибачте, я на нараді.</item>
+        <item>Я в порядку. Не хвилюйтесь.</item>
+        <item>Їду додому.</item>
+        <item>Передзвоню пізніше.</item>
+        <item>Зараз буду.</item>
+        <item>Оцініть!</item>
+    </string-array>
+</resources>

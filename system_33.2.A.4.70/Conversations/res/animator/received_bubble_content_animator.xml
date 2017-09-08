@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:ordering="sequentially"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <set android:ordering="together">
+        <objectAnimator android:duration="@integer/bubble_content_grow_duration" android:valueFrom="@dimen/animator_no_alpha" android:valueTo="@dimen/bubble_content_animator_enlarged_alpha" android:valueType="floatType" android:propertyName="alpha" />
+        <objectAnimator android:duration="@integer/bubble_content_grow_duration" android:valueFrom="@dimen/bubble_content_animator_normal_scale" android:valueTo="@dimen/bubble_content_animator_enlarged_scale" android:valueType="floatType" android:propertyName="scaleX" />
+        <objectAnimator android:duration="@integer/bubble_content_grow_duration" android:valueFrom="@dimen/bubble_content_animator_normal_scale" android:valueTo="@dimen/bubble_content_animator_enlarged_scale" android:valueType="floatType" android:propertyName="scaleY" />
+    </set>
+    <set android:ordering="together">
+        <objectAnimator android:duration="@integer/bubble_content_shrink_duration" android:valueFrom="@dimen/bubble_content_animator_enlarged_alpha" android:valueTo="@dimen/animator_full_alpha" android:valueType="floatType" android:propertyName="alpha" />
+        <objectAnimator android:duration="@integer/bubble_content_shrink_duration" android:valueFrom="@dimen/bubble_content_animator_enlarged_scale" android:valueTo="@dimen/bubble_content_animator_normal_scale" android:valueType="floatType" android:propertyName="scaleX" />
+        <objectAnimator android:duration="@integer/bubble_content_shrink_duration" android:valueFrom="@dimen/bubble_content_animator_enlarged_scale" android:valueTo="@dimen/bubble_content_animator_normal_scale" android:valueType="floatType" android:propertyName="scaleY" />
+    </set>
+</set>

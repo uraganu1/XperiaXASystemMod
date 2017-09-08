@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/somc_permission_title" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/PermissionTitleTextStyle" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="@dimen/alert_dialog_item_margin_top" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/somc_permission_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/PermissionDescTextStyle" />
+            <TextView android:id="@id/somc_permission_details" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/alert_dialog_item_margin_top" style="@style/PermissionDescTextStyle" />
+            <TextView android:id="@id/somc_permission_app_info_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/alert_dialog_item_margin_top" android:text="@string/conversations_strings_permission_app_info_dialog_detailed_description" style="@style/PermissionDescTextStyle" />
+        </LinearLayout>
+    </ScrollView>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/permission_dialog_button_layout_height" android:layout_marginTop="@dimen/alert_dialog_item_margin_top">
+        <Button android:id="@id/ok_btn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/permission_dialog_button_height" android:text="@android:string/ok" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/permission_dialog_margin_right" android:layout_alignParentEnd="true" style="@style/PermissionButtonStyle" />
+        <Button android:id="@id/continue_btn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/permission_dialog_button_height" android:text="@string/conversations_strings_permission_continue_button_text" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/permission_dialog_margin_right" android:layout_alignParentEnd="true" style="@style/PermissionButtonStyle" />
+        <Button android:id="@id/cancel_btn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/permission_dialog_button_height" android:text="@android:string/cancel" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/permission_dialog_margin_right" android:layout_toStartOf="@id/continue_btn" style="@style/PermissionButtonStyle" />
+    </RelativeLayout>
+</LinearLayout>

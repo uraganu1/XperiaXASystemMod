@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="@dimen/conversation_picker_listitem_height" android:paddingStart="@dimen/generic_big_margin" android:paddingEnd="@dimen/generic_big_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.sonyericsson.conversations.ui.ConversationContactBadge android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/conversation_contact_badge" android:clickable="true" android:addStatesFromChildren="true" android:layout_width="@dimen/quick_contact_box_conversation_list_width" android:layout_height="@dimen/quick_contact_box_conversation_list_height" android:layout_marginEnd="@dimen/conversation_picker_badge_end_margin" />
+    <LinearLayout android:layout_gravity="start|center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:ellipsize="end" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textDirection="anyRtl" style="@style/ConversationPickerItemTitle" />
+        <TextView android:ellipsize="end" android:id="@id/description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textDirection="anyRtl" style="@style/ConversationPickerItemSnippet" />
+    </LinearLayout>
+</LinearLayout>

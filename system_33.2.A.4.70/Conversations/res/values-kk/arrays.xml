@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>Қайдасың?</item>
+        <item>Не істейін деп жатырсың?</item>
+        <item>Шұғыл! Жедел түр. жауап бер.</item>
+        <item>Кешір, қазір жиналыстамын.</item>
+        <item>Жақсы сезінемін. Уайымдама.</item>
+        <item>Үйге бара жатырмын.</item>
+        <item>Қайтып келемін.</item>
+        <item>Тез қайтып келемін.</item>
+        <item>Мынаны тексеріңіз!</item>
+    </string-array>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/tooltip_anchor_above" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ImageView android:id="@id/tooltip_point_above" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/tooltip_point_top_margin" android:src="@drawable/joyn_tooltip_point" android:tint="?android:colorAccent" android:elevation="@dimen/tooltip_window_elevation" />
+    <FrameLayout android:id="@id/tooltip_window_text_layout" android:background="@drawable/tooltip_dialog_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/tooltip_window_right_margin" android:layout_marginEnd="@dimen/tooltip_window_left_margin" android:elevation="@dimen/tooltip_window_elevation">
+        <TextView android:gravity="center" android:id="@id/tooltip_window_text_message" android:padding="@dimen/tooltip_text_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TooltipDialogText" />
+    </FrameLayout>
+    <ImageView android:id="@id/tooltip_point_below" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/joyn_tooltip_point" android:tint="?android:colorAccent" android:rotation="180.0" android:elevation="@dimen/tooltip_window_elevation" />
+    <ImageView android:id="@id/tooltip_anchor_below" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:elevation="@dimen/tooltip_window_elevation" />
+</LinearLayout>

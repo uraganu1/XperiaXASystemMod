@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>Sampeyan ing endi?</item>
+        <item>Apa sing dipengini?</item>
+        <item>Penting banget! Cepet wales.</item>
+        <item>Nuwun sewu, aku rapat.</item>
+        <item>Aku sehat. Aja kuwatir.</item>
+        <item>Aku lagi perjalanan mulih.</item>
+        <item>Mengko dakhubungi maneh.</item>
+        <item>Aku mrana sedhela maneh.</item>
+        <item>Coba priksa!</item>
+    </string-array>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sonyericsson.conversations.messages.itemview.file.ContentFileMessageProgress android:orientation="vertical" android:clickable="true" android:longClickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/generic_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/file_transfer_progress" />
+</com.sonyericsson.conversations.messages.itemview.file.ContentFileMessageProgress>

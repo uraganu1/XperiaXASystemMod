@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>మీరు ఎక్కడ ఉన్నారు?</item>
+        <item>మీరు ఏమి చేస్తున్నారు?</item>
+        <item>త్వరగా! దయచేసి ASAP ప్రత్యుత్తరమివ.</item>
+        <item>క్షమిం., ఇప్పుడు సమావే.లో ఉన్నాను.</item>
+        <item>నేను బావున్నాను. బాధపడవద్దు.</item>
+        <item>నేను ఇంటికి వెళుతున్నాను.</item>
+        <item>నేను మళ్లీ కాల్ చేస్తాను.</item>
+        <item>నేను అక్కడికి వస్తాను.</item>
+        <item>దీనిని తనిఖీ చేయండి!</item>
+    </string-array>
+</resources>

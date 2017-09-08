@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.RecyclerView android:orientation="vertical" android:id="@id/gallery_recycler_view" android:padding="@dimen/gallery_image_padding" android:visibility="visible" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fadeScrollbars="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/empty_gallery" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center" android:id="@id/empty_gallery_img" android:layout_width="fill_parent" android:layout_height="@dimen/gallery_empty_icon_size" android:layout_marginTop="@dimen/gallery_empty_margin_top" android:src="@drawable/photo_gray" />
+        <TextView android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/gallery_empty_txt" android:textAlignment="center" />
+    </LinearLayout>
+    <ImageButton android:layout_gravity="end|bottom|center" android:id="@id/fab_open_gallery" android:background="@drawable/open_gallery_fab" android:visibility="visible" android:clickable="true" android:src="@drawable/gallery" android:tint="@android:color/white" android:contentDescription="@string/gallery_fab_description" style="@style/FloatingActionButton" />
+</FrameLayout>

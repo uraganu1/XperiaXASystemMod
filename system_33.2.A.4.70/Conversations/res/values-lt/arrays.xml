@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>Kur esi?</item>
+        <item>Ką ruošiesi veikti?</item>
+        <item>Skubu! Kuo greičiau atsakyk.</item>
+        <item>Atsiprašau, dabar susitikime.</item>
+        <item>Viskas gerai, nesijaudink.</item>
+        <item>Pakeliui namo.</item>
+        <item>Susisieksiu su tavimi.</item>
+        <item>Atvyksiu ten.</item>
+        <item>Įdomu!</item>
+    </string-array>
+</resources>

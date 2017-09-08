@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/group_chat_edit_subject" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip">
+        <EditText android:id="@id/chat_edit_subject" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/conversations_strings_rcs_subject_hint" android:scrollHorizontally="false" android:singleLine="true" android:inputType="textCapSentences" android:imeOptions="actionDone" />
+    </LinearLayout>
+    <TextView android:id="@id/header_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/conversations_strings_joyn_contacts" android:layout_below="@id/group_chat_edit_subject" android:textAllCaps="true" android:layout_marginStart="25.0dip" android:layout_marginEnd="25.0dip" />
+    <View android:id="@id/header_line" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_below="@id/header_text" android:layout_marginStart="15.0dip" android:layout_marginEnd="15.0dip" />
+    <ListView android:id="@id/contact_list" android:layout_width="fill_parent" android:layout_height="0.0px" android:layout_below="@id/header_line" android:layout_alignParentBottom="true" />
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/group_recipients_empty_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/conversations_strings_rcs_group_chat_no_recipients_txt" android:layout_centerInParent="true" android:textAllCaps="true" />
+</RelativeLayout>

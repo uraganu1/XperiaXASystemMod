@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ConversationsTheme.OnePageView" parent="@style/EditorialTheme.Dialog" />
+    <style name="BubbleText" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">@dimen/message_body_text_size</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/conversation_sent_message_text_color</item>
+        <item name="android:scrollbars">none</item>
+        <item name="android:fontFamily">roboto_regular</item>
+    </style>
+</resources>

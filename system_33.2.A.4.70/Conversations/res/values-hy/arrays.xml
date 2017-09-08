@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>Որտե՞ղ ես:</item>
+        <item>Ի՞նչ ես անում:</item>
+        <item>Շտապ: Պտսխ ինձ հնր շուտ:</item>
+        <item>Ներող., ես հնդպմն եմ:</item>
+        <item>Լավ եմ: Հանգիստ եղիր:</item>
+        <item>Ես տուն եմ վերադառնում:</item>
+        <item>Ես ձեզ կդառնամ:</item>
+        <item>Ես հենց հիմա կլինեմ:</item>
+        <item>Ստուգիր այս:</item>
+    </string-array>
+</resources>

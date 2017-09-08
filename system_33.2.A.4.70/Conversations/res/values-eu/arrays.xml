@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>Non zaude?</item>
+        <item>Zertan ari zara?</item>
+        <item>Erantzun ahalik eta azkarren.</item>
+        <item>Barkatu, bilera batean nago.</item>
+        <item>Ondo nago. Ez kezkatu.</item>
+        <item>Etxerako bidean naiz.</item>
+        <item>Laster erantzungo dizut.</item>
+        <item>Hantxe izango naiz.</item>
+        <item>Ikusi hau!</item>
+    </string-array>
+</resources>

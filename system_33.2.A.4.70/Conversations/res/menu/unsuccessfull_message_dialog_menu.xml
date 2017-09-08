@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/resend" android:visible="false" android:title="@string/conversations_strings_resend_joyn_message_button_txt" />
+    <item android:id="@id/resend_as_sms" android:visible="false" android:title="@string/conversations_strings_resend_sms_joyn_message_button_txt" />
+    <item android:id="@id/resend_as_mms" android:visible="false" android:title="@string/conversations_strings_resend_mms_joyn_message_button_txt" />
+    <item android:id="@id/delete" android:title="@string/gui_delete_txt" />
+</menu>

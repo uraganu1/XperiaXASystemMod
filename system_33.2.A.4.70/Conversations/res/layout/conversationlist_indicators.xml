@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/conversationlist_attachment_counter" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ImageView android:id="@id/conversationlist_attachment_indicator" android:visibility="gone" android:layout_width="@dimen/small_image_width" android:layout_height="@dimen/small_image_height" android:src="@drawable/conv_mms_attachment_indicator" />
+    <ImageView android:id="@id/conversationlist_failure_indicator" android:visibility="gone" android:layout_width="@dimen/small_image_width" android:layout_height="@dimen/small_image_height" android:src="@drawable/ic_inbox_error" />
+    <ImageView android:id="@id/conversationlist_mute_indicator" android:visibility="gone" android:layout_width="@dimen/small_image_width" android:layout_height="@dimen/small_image_height" android:src="@drawable/ic_mute_sml" />
+</LinearLayout>

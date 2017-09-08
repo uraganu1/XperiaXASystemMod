@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>Gdje se nalazite?</item>
+        <item>Što radite?</item>
+        <item>Hitno! Odgovorite što prije.</item>
+        <item>Nažalost, sad sam na sastanku.</item>
+        <item>Dobro sam. Ne brinite.</item>
+        <item>Na putu sam kući.</item>
+        <item>Javit ću vam se.</item>
+        <item>Stižem uskoro.</item>
+        <item>Pogledajte ovo!</item>
+    </string-array>
+</resources>

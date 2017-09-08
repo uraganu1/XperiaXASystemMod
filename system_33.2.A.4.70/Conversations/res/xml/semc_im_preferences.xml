@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:key="pref_key_category_rcs_settings" android:order="300">
+        <SwitchPreference android:key="pref_key_rcs_service_on_off" />
+        <SwitchPreference android:title="@string/conversations_strings_settings_rcs_read_notifications_txt" android:key="pref_key_rcs_send_read_notification" android:summary="@string/conversations_strings_settings_rcs_read_notifications_info_txt" android:dependency="pref_key_rcs_service_on_off" />
+        <com.sonyericsson.conversations.settings.DefaultValueEditTextPreference android:maxLength="25" android:title="@string/conversations_strings_settings_rcs_user_alias_title_txt" android:key="pref_key_rcs_user_alias" android:summary="@string/conversations_strings_settings_rcs_user_alias_info_txt" android:dependency="pref_key_rcs_service_on_off" android:dialogTitle="@string/conversations_strings_settings_rcs_user_alias_title_txt" android:inputType="textNoSuggestions" />
+        <SwitchPreference android:title="@string/conversations_strings_settings_rcs_ft_auto_accept_txt" android:key="pref_key_rcs_auto_accept_filetransfer" android:summary="@string/conversations_strings_settings_rcs_ft_auto_accept_info_txt" android:dependency="pref_key_rcs_service_on_off" android:showDefault="true" />
+        <SwitchPreference android:title="@string/conversations_strings_settings_rcs_ft_auto_accept_roaming_txt" android:key="pref_key_rcs_auto_accept_filetransfer_while_roaming" android:summary="@string/conversations_strings_settings_rcs_ft_auto_accept_roaming_info_txt" android:dependency="pref_key_rcs_auto_accept_filetransfer" android:showDefault="false" />
+        <ListPreference android:entries="@array/conversations_rcs_resize_options_strings" android:title="@string/conversations_strings_settings_rcs_resize_options_txt" android:key="pref_key_rcs_file_resize" android:dependency="pref_key_rcs_service_on_off" android:entryValues="@array/conversations_rcs_resize_options_values" />
+        <SwitchPreference android:title="@string/conversations_strings_settings_rcs_always_resend_as_xms" android:key="pref_key_rcs_undelivered_message" android:summary="@string/conversations_strings_settings_rcs_always_resend_as_xms_info_txt" android:dependency="pref_key_rcs_service_on_off" android:showDefault="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

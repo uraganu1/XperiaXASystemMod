@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/joyn_welcome_screen_chat_page_item_1_bottom_margin" android:text="@string/conversations_strings_welcome_screen_chat_messages_title" android:layout_marginStart="@dimen/joyn_welcome_screen_title_margin" android:layout_marginEnd="@dimen/joyn_welcome_screen_title_margin" style="@style/WelcomeScreenLargeText" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/joyn_welcome_screen_chat_page_item_2_bottom_margin" android:text="@string/conversations_strings_welcome_screen_chat_messages_short_description" android:layout_marginStart="@dimen/joyn_welcome_screen_text_margin" android:layout_marginEnd="@dimen/joyn_welcome_screen_text_margin" style="@style/WelcomeScreenMediumText" />
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/joyn_welcome_screen_chat_page_item_4_bottom_margin" android:src="@drawable/joyn_welcome_send" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/joyn_welcome_screen_chat_page_item_5_bottom_margin" android:text="@string/conversations_strings_welcome_screen_chat_messages_group_chat_description" android:layout_marginStart="@dimen/joyn_welcome_screen_text_margin" android:layout_marginEnd="@dimen/joyn_welcome_screen_text_margin" style="@style/WelcomeScreenMediumText" />
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/joyn_welcome_group" />
+</LinearLayout>

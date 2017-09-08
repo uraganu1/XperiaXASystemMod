@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sonyericsson.conversations.messages.itemview.file.ContentFileMessageReceived android:orientation="vertical" android:clickable="true" android:longClickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/generic_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentEnd="true" layout="@layout/file_transfer_body" />
+    </RelativeLayout>
+</com.sonyericsson.conversations.messages.itemview.file.ContentFileMessageReceived>

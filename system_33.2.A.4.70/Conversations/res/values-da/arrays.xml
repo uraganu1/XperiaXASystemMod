@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>Hvor er du?</item>
+        <item>Hvad laver du?</item>
+        <item>Haster! Vend tilb. hurtigst m.</item>
+        <item>Beklager, jeg er i møde lige nu.</item>
+        <item>Jeg er OK. Ingen bekymring</item>
+        <item>Jeg er på vej hjem.</item>
+        <item>Jeg vender tilbage til dig.</item>
+        <item>Jeg er der lige straks.</item>
+        <item>Tjek dette!</item>
+    </string-array>
+</resources>

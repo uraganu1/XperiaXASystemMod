@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="edit_container_bounce_distance">10</integer>
+    <integer name="edit_container_exit_distance">-150</integer>
+    <integer name="send_button_exit_distance">-30</integer>
+</resources>

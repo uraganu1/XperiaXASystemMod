@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/conversations_strings_settings_category_sim_settings" android:key="pref_key_category_sim_settings" android:order="205">
+        <com.sonyericsson.conversations.ui.HighlightablePreference android:title="@string/conversations_strings_settings_sim_messages_txt" android:key="pref_key_sim_messages" android:summary="@string/conversations_strings_settings_sim_messages_info_txt" />
+        <PreferenceScreen android:title="@string/conversations_strings_settings_wap_push_settings_title_txt" android:key="pref_key_wap_push_settings" android:summary="@string/conversations_strings_settings_wap_push_settings_info_txt">
+            <intent android:targetPackage="com.sonyericsson.wappush" android:action="com.sonyericsson.wappush.action.WAP_PUSH_SETTINGS" android:targetClass="com.sonyericsson.wappush.settings.SettingsActivity" />
+        </PreferenceScreen>
+        <com.sonyericsson.conversations.settings.DefaultValueEditTextPreference android:phoneNumber="true" android:title="@string/conversations_strings_settings_smsc_number_title_txt" android:key="pref_key_smsc_number" android:summary="@string/conversations_strings_settings_smsc_number_loading_info_txt" style="?android:preferenceInformationStyle" />
+    </PreferenceCategory>
+</PreferenceScreen>

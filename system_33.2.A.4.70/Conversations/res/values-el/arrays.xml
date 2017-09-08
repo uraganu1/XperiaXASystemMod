@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>Πού είσαι;</item>
+        <item>Τι κάνεις;</item>
+        <item>Επείγον! Απάντησέ μου άμεσα.</item>
+        <item>Δυστυχώς, είμαι σε συνάντηση.</item>
+        <item>Είμαι καλά. Μην ανησυχείς.</item>
+        <item>Επιστρέφω σπίτι.</item>
+        <item>Θα επικοινωνήσω μαζί σου.</item>
+        <item>Θα είμαι εκεί.</item>
+        <item>Για δες αυτό!</item>
+    </string-array>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/conv_new_group_chat_tinted" android:id="@id/menu_new_group_conversation" android:title="@string/conversations_strings_conversationlist_header_new_group_chat_txt" android:showAsAction="ifRoom" />
+    <item android:icon="@drawable/conv_actionbar_search" android:id="@id/menu_search" android:title="@string/conversations_strings_conversationlist_menu_search_txt" android:showAsAction="collapseActionView|ifRoom" android:actionViewClass="android.widget.SearchView" />
+    <item android:id="@id/menu_delete_conversations" android:title="@string/conversations_strings_conversationlist_menu_deleteconversations_txt" />
+    <item android:id="@id/menu_starred_message" android:title="@string/conversations_strings_conversationlist_menu_starredmessage_txt" />
+    <item android:id="@id/menu_settings" android:title="@string/conversations_strings_conversationlist_menu_settings_txt" />
+</menu>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="@dimen/pileview_item_thumbnail_radius_negative" android:top="@dimen/pileview_item_thumbnail_radius_negative" android:right="@dimen/pileview_item_thumbnail_radius_negative" android:bottom="@dimen/pileview_item_thumbnail_radius_negative">
+        <shape android:shape="rectangle">
+            <stroke android:width="@dimen/pileview_item_thumbnail_radius" android:color="@color/pile_view_background_color" />
+            <corners android:radius="@dimen/pileview_item_thumbnail_radius2x" />
+        </shape>
+    </item>
+</layer-list>

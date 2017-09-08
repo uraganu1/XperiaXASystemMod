@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="?android:selectableItemBackground" android:focusable="true" android:layout_width="fill_parent" android:layout_height="@dimen/generic_item_height" android:minHeight="@dimen/generic_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.sonyericsson.conversations.ui.ConversationContactBadge android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/conversation_contact_badge" android:visibility="gone" android:clickable="true" android:addStatesFromChildren="true" android:layout_width="@dimen/quick_contact_box_width" android:layout_height="@dimen/quick_contact_box_height" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/generic_margin_big" android:layout_marginEnd="@dimen/generic_right_margin">
+        <TextView android:ellipsize="end" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="?android:attr/textAppearanceListItem" />
+        <TextView android:textColor="?android:textColorSecondary" android:ellipsize="end" android:id="@id/subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="?android:attr/textAppearanceListItemSecondary" />
+    </LinearLayout>
+</LinearLayout>

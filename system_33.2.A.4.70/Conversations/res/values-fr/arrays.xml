@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>Tu es où ?</item>
+        <item>Tu fais quoi ?</item>
+        <item>Urgent ! Réponds-moi au + vite.</item>
+        <item>Je suis en réunion.</item>
+        <item>"Je vais bien. Ne t'inquiète pas."</item>
+        <item>Je rentre à la maison.</item>
+        <item>Je vais te rappeller.</item>
+        <item>"J'arrive dans quelques minutes."</item>
+        <item>Tu vas aimer !</item>
+    </string-array>
+</resources>

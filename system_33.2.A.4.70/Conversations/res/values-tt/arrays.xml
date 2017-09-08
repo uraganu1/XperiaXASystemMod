@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>Сез кайда?</item>
+        <item>Сез кайда кадәр?</item>
+        <item>Ашыгыч! Тиз жавап бирәг.</item>
+        <item>Гафу итегез. Очырашуда.</item>
+        <item>Минәм ботәнесе әйбәт.</item>
+        <item>Мин өй юлында.</item>
+        <item>Сезнең белән аралашырбыз.</item>
+        <item>Мин монда булам</item>
+        <item>Тикшерегез шушыны!</item>
+    </string-array>
+</resources>

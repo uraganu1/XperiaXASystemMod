@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:id="@id/inline_camera_framelayout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextureView android:id="@id/camera_texture" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <ImageButton android:layout_gravity="end|bottom|center" android:id="@id/camera_main_front_toggle" android:visibility="visible" android:clickable="true" android:layout_width="@dimen/inline_camera_icon_size" android:layout_height="@dimen/inline_camera_icon_size" android:src="@drawable/cam_core_main_front_toggle_icn" android:contentDescription="@string/inline_camera_switch_camera" style="@style/FloatingActionButton.Borderless" />
+    <ImageView android:layout_gravity="center" android:id="@id/preview_picture_select" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageButton android:id="@id/camera_center_btn" android:background="@drawable/inline_fab" android:clickable="true" android:layout_width="@dimen/inline_camera_fab_size" android:layout_height="@dimen/inline_camera_fab_size" android:layout_centerHorizontal="true" android:elevation="@dimen/inline_camera_large_button_elevation" style="@style/FloatingActionButton.Borderless" />
+        <ImageButton android:id="@id/decline_button" android:background="@drawable/inline_fab" android:visibility="visible" android:clickable="true" android:layout_width="@dimen/inline_camera_small_fab_size" android:layout_height="@dimen/inline_camera_small_fab_size" android:src="@drawable/ic_close" android:contentDescription="@string/inline_camera_decline_image" android:layout_toStartOf="@id/camera_center_btn" android:elevation="@dimen/inline_camera_button_elevation" android:backgroundTint="@color/conversation_camera_decline_color" style="@style/FloatingActionButton.Borderless" />
+    </RelativeLayout>
+    <ProgressBar android:layout_gravity="center" android:id="@id/start_camera_spinner" android:visibility="gone" android:layout_width="@dimen/inline_camera_progressbar_size" android:layout_height="@dimen/inline_camera_progressbar_size" android:indeterminate="true" />
+</FrameLayout>

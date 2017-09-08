@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="leak_canary_LeakCanary.Base" parent="@android:style/Theme" />
+    <style name="leak_canary_Theme.Transparent" parent="@android:style/Theme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="Theme.IAPTheme" parent="@android:style/Theme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="ConversationsTheme.OnePageView" parent="@style/EditorialTheme" />
+    <style name="ConversationsTheme.DraftPreview" parent="@style/EditorialTheme">
+        <item name="android:windowBackground">@color/conversation_background</item>
+    </style>
+    <style name="BubbleText" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">@dimen/message_body_text_size</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/mute_conversation_bar_semitransparent_white</item>
+        <item name="android:scrollbars">none</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="BubbleText.Warning" parent="@style/BubbleText">
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="BubbleText.Subject" parent="@style/BubbleText">
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="MessageTextInputField" parent="@style/BubbleText">
+        <item name="android:textColor">@color/conversation_input_field_text_color</item>
+        <item name="android:paddingTop">@dimen/composer_padding_vertical</item>
+        <item name="android:paddingBottom">@dimen/composer_padding_vertical</item>
+    </style>
+    <style name="MessageTextInputField.Subject" parent="@style/BubbleText.Subject">
+        <item name="android:textColor">@color/conversation_input_field_text_color</item>
+    </style>
+    <style name="PickerDialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="BubbleStyle" />
+    <style name="BubbleStyle.Incoming" parent="@style/BubbleStyle">
+        <item name="bubbleFileTransferActionButtonTextColor">@color/incoming_file_transfer_action_button_text_color</item>
+        <item name="bubbleFileTransferRow1TextColor">@color/incoming_file_transfer_row1_text_color</item>
+        <item name="bubbleFileTransferRow2TextColor">@color/incoming_file_transfer_row2_text_color</item>
+        <item name="bubbleFileTransferAttachmentTint">@color/incoming_file_transfer_attachment_tint</item>
+        <item name="bubbleFileTransferActionButtonCancelImage">@drawable/conv_file_cancel_button</item>
+        <item name="bubbleFileTransferActionButtonOpenImage">@drawable/conv_file_open_button</item>
+        <item name="bubbleFileTransferActionButtonPlayImage">@drawable/conv_file_play_button</item>
+    </style>
+    <style name="BubbleStyle.Outgoing" parent="@style/BubbleStyle">
+        <item name="bubbleFileTransferActionButtonTextColor">@color/outgoing_file_transfer_action_button_text_color</item>
+        <item name="bubbleFileTransferRow1TextColor">@color/outgoing_file_transfer_row1_text_color</item>
+        <item name="bubbleFileTransferRow2TextColor">@color/outgoing_file_transfer_row2_text_color</item>
+        <item name="bubbleFileTransferAttachmentTint">@color/outgoing_file_transfer_attachment_tint</item>
+        <item name="bubbleFileTransferActionButtonCancelImage">@drawable/conv_file_cancel_button</item>
+        <item name="bubbleFileTransferActionButtonOpenImage">@drawable/conv_file_open_button</item>
+        <item name="bubbleFileTransferActionButtonPlayImage">@drawable/conv_file_play_button</item>
+    </style>
+    <style name="Banner" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">@dimen/banner_text_size</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/conversation_recv_message_text_color</item>
+        <item name="android:scrollbars">none</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="Footer" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">@dimen/conversation_list_footer_text_size</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/conversations_list_footer_text_color</item>
+    </style>
+    <style name="Footer.ButtonTexts" parent="@style/Footer">
+        <item name="android:textSize">@dimen/conversation_list_footer_text_size</item>
+        <item name="android:textColor">?android:colorAccent</item>
+        <item name="android:background">@color/unread_conversation_background</item>
+    </style>
+    <style name="MuteNotificationBanner" parent="@style/Banner" />
+    <style name="DefaultAppBanner" parent="@style/MuteNotificationBanner" />
+    <style name="EditorialActionBarTheme" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:icon">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:elevation">@dimen/actionbar_elevation</item>
+    </style>
+    <style name="EditorialTheme.Translucent.ActionBar" parent="@style/EditorialTheme.Translucent" />
+    <style name="EditorialActionBarTransparent" parent="@android:style/Widget.Material.Light.ActionBar.Solid">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+    <style name="EditorialActionDropDownStyle">
+        <item name="android:background">@drawable/spinner_background_tinted</item>
+    </style>
+    <style name="EditorialActionPopupWindowStyle" parent="@android:style/Widget.DeviceDefault.Spinner">
+        <item name="android:elevation">0.0dip</item>
+    </style>
+    <style name="EditorialActionBarTitleText.Title" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Title" />
+    <style name="EditorialActionBarTitleText.Subtitle" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Subtitle" />
+    <style name="EditorialListViewStyle" parent="@android:style/Widget.Material.Light.ListView">
+        <item name="android:rowHeight">72.0dip</item>
+    </style>
+    <style name="TextAppearance.Editorial.ListItem.HeaderText" parent="@android:style/TextAppearance.Material.Body1">
+        <item name="android:textColor">@color/actionbar_text_color</item>
+    </style>
+    <style name="TextAppearance.Editorial.ListItem" parent="@android:style/TextAppearance.Material.Body2">
+        <item name="android:textColor">@color/conversations_list_read_text_color</item>
+    </style>
+    <style name="TextAppearance.Editorial.ListItemSecondary" parent="@android:style/TextAppearance.Material.Body1">
+        <item name="android:textColor">@color/conversations_list_read_text_color</item>
+    </style>
+    <style name="BubbleActionButtonStyle">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:background">?android:actionBarItemBackground</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+    <style name="WelcomeScreenText">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:lineSpacingMultiplier">@dimen/generic_line_spacing_multiplier</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+    <style name="WelcomeScreenLargeText" parent="@style/WelcomeScreenText">
+        <item name="android:textSize">@dimen/welcome_screen_large_text_size</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="WelcomeScreenMediumText" parent="@style/WelcomeScreenText">
+        <item name="android:textAppearance">@android:style/TextAppearance.Material.Subhead</item>
+    </style>
+    <style name="WelcomeScreenSmallText" parent="@style/WelcomeScreenText">
+        <item name="android:textAppearance">@android:style/TextAppearance.Material.Caption</item>
+        <item name="android:textSize">@dimen/welcome_screen_footer_text_size</item>
+    </style>
+    <style name="WelcomeScreenButtonText" parent="@style/WelcomeScreenText">
+        <item name="android:textAppearance">@android:style/TextAppearance.Material.Button</item>
+    </style>
+    <style name="WelcomeScreenButtonTheme" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:colorButtonNormal">?android:colorAccent</item>
+    </style>
+    <style name="WelcomeScreen" />
+    <style name="WelcomeScreen.LargeText" parent="@style/WelcomeScreen">
+        <item name="android:textAppearance">@android:style/TextAppearance.Material.Headline</item>
+    </style>
+    <style name="WelcomeScreen.MediumText" parent="@style/WelcomeScreen">
+        <item name="android:textAppearance">@android:style/TextAppearance.Material.Body1</item>
+    </style>
+    <style name="WelcomeScreen.Button" parent="@style/WelcomeScreen">
+        <item name="android:textAppearance">@android:style/TextAppearance.Material.Button</item>
+    </style>
+    <style name="TooltipDialogText" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize">@dimen/tooltip_window_text_size</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:scrollbars">none</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+    <style name="TooltipDialogTheme" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="DialogBody">
+        <item name="android:textSize">@dimen/dialog_body_text_size</item>
+        <item name="android:gravity">start|center</item>
+        <item name="android:layout_marginTop">@dimen/dialog_padding</item>
+        <item name="android:layout_marginStart">@dimen/dialog_padding</item>
+        <item name="android:layout_marginEnd">@dimen/dialog_padding</item>
+    </style>
+    <style name="DeliveryReportDialogRow" parent="@style/DialogBody">
+        <item name="android:layout_marginTop">@dimen/delivery_report_dialog_row_padding</item>
+    </style>
+    <style name="FloatingActionButton">
+        <item name="android:layout_width">@dimen/floating_button_size</item>
+        <item name="android:layout_height">@dimen/floating_button_size</item>
+        <item name="android:layout_margin">@dimen/floating_button_margin</item>
+        <item name="android:elevation">@dimen/floating_button_elevation</item>
+    </style>
+    <style name="PermissionButtonStyle" parent="@android:style/Widget.Material.Button.Borderless">
+        <item name="android:textAppearance">@android:style/TextAppearance.Material.Button</item>
+        <item name="android:textSize">@dimen/permission_dialog_button_text_size</item>
+        <item name="android:textColor">?android:colorPrimaryDark</item>
+        <item name="android:minWidth">@dimen/permission_dialog_button_min_width</item>
+    </style>
+    <style name="PermissionDescTextStyle" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:paddingStart">@dimen/alert_dialog_padding</item>
+        <item name="android:paddingEnd">@dimen/alert_dialog_padding</item>
+    </style>
+    <style name="PermissionTitleTextStyle" parent="@android:style/TextAppearance.Material.DialogWindowTitle">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:paddingTop">@dimen/alert_dialog_padding</item>
+        <item name="android:paddingStart">@dimen/alert_dialog_padding</item>
+        <item name="android:paddingEnd">@dimen/alert_dialog_padding</item>
+    </style>
+    <style name="Theme.Transparent" parent="@android:style/Theme.DeviceDefault.Light.DarkActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="FloatingActionButton.Borderless" parent="@android:style/Widget.Material.Light.Button.Borderless">
+        <item name="android:layout_margin">@dimen/floating_button_margin</item>
+    </style>
+    <style name="InlineAudioText" parent="@android:style/TextAppearance.Material.Subhead">
+        <item name="android:textColor">@color/conversation_inline_audio_text_color</item>
+    </style>
+    <style name="ConversationPickerBodyText" parent="@android:style/TextAppearance.Material.Body1">
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+    <style name="ConversationPickerItemSnippet" parent="@android:style/TextAppearance.Material.Small">
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+    <style name="ConversationPickerItemTitle" parent="@android:style/TextAppearance.Material.Medium">
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+    <style name="EditorialTheme" parent="@android:style/Theme.DeviceDefault.Light.DarkActionBar">
+        <item name="android:icon">@android:color/transparent</item>
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowActionBar">true</item>
+        <item name="android:actionDropDownStyle">@style/EditorialActionDropDownStyle</item>
+        <item name="android:actionBarSize">@dimen/conversation_actionbar_height</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:layoutDirection">locale</item>
+    </style>
+    <style name="EditorialTheme.ConversationList" parent="@style/EditorialTheme">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:listViewStyle">@style/EditorialListViewStyle</item>
+        <item name="android:popupMenuStyle">@android:style/Widget.Holo.Light.PopupMenu</item>
+        <item name="android:textAppearanceListItem">@style/TextAppearance.Editorial.ListItem</item>
+        <item name="android:textAppearanceListItemSecondary">@style/TextAppearance.Editorial.ListItemSecondary</item>
+    </style>
+    <style name="EditorialTheme.ActionBarInsideActivity" parent="@style/EditorialTheme">
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowActionBarOverlay">true</item>
+    </style>
+    <style name="EditorialTheme.Dialog" parent="@android:style/Theme.DeviceDefault.Light.Dialog.MinWidth">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:layoutDirection">locale</item>
+    </style>
+    <style name="EditorialTheme.TranslucentBars" parent="@style/EditorialTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:actionBarStyle">@style/EditorialActionBarTransparent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+    <style name="EditorialTheme.NoActionBar" parent="@style/EditorialTheme">
+        <item name="android:windowBackground">@color/conversation_background</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+    <style name="EditorialTheme.Translucent" parent="">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+    <style name="EditorialTheme.Fullscreen" parent="@android:style/Theme.NoTitleBar.Fullscreen" />
+    <style name="EditorialTheme.Settings" parent="@android:style/Theme.DeviceDefault.Settings">
+        <item name="android:colorBackground">@android:color/white</item>
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowActionBar">true</item>
+        <item name="android:actionBarSize">@dimen/conversation_actionbar_height</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:layoutDirection">locale</item>
+        <item name="android:actionBarTheme">@style/EditorialActionBarTheme</item>
+    </style>
+</resources>

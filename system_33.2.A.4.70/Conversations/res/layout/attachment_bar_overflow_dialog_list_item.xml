@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="?android:selectableItemBackground" android:padding="@dimen/generic_big_margin" android:layout_width="fill_parent" android:layout_height="@dimen/attachment_overflow_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/item_icon" android:clickable="false" android:layout_width="@dimen/attachment_overflow_icon_size" android:layout_height="@dimen/attachment_overflow_icon_size" android:tint="@color/attachment_picker_icon_tint" android:layout_marginStart="@dimen/generic_margin" android:layout_marginEnd="@dimen/generic_margin" />
+    <TextView android:textAppearance="@android:style/TextAppearance.Material.Subhead" android:layout_gravity="center_vertical" android:id="@id/item_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/generic_big_margin" android:paddingEnd="@dimen/generic_big_margin" />
+</LinearLayout>

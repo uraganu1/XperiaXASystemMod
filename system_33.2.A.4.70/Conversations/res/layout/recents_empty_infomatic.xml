@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/sticker_picker_welcome_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/sticker_infomatic_start_padding" android:paddingEnd="@dimen/generic_big_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/infomatic_big_image" android:paddingRight="@dimen/generic_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/welcome_sticker" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/info_bubble_arrow" android:tint="@color/conversation_background" android:layout_toRightOf="@id/infomatic_big_image" android:layout_centerVertical="true" />
+    <RelativeLayout android:id="@id/infomatic_bubble" android:background="@drawable/infomatic_bubble_ripple" android:padding="@dimen/generic_margin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/sticker_infomatic_bubble_offset" android:layout_toRightOf="@id/infomatic_big_image" android:layout_centerVertical="true" android:paddingStart="@dimen/generic_big_margin" android:paddingEnd="@dimen/generic_big_margin">
+        <TextView android:id="@id/infomatic_top_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/conversations_strings_stickers_get_more_bubble_text" android:layout_alignParentStart="true" style="@android:style/TextAppearance.Medium" />
+        <TextView android:id="@id/infomatic_bottom_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/infomatic_top_text" android:layout_alignParentStart="true" style="@android:style/TextAppearance.Medium" />
+    </RelativeLayout>
+</RelativeLayout>

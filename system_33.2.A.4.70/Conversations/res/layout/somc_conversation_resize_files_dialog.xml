@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/resize_dialog_content_scrollview" android:padding="@dimen/generic_big_margin" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioGroup android:orientation="vertical" android:id="@id/resize_dialog_radio_button_group" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/generic_margin">
+        <RadioButton android:id="@id/resize_dialog_radio_button_original" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" />
+        <RadioButton android:id="@id/resize_dialog_radio_button_resize" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <CheckBox android:id="@id/resize_dialog_checkbox_remember_this" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/generic_margin" android:text="@string/conversations_strings_joyn_do_not_show_again" />
+        <TextView android:textAppearance="@android:style/TextAppearance.Small" android:id="@id/resize_checkbox_change_later_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/generic_margin" />
+    </RadioGroup>
+</ScrollView>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sonyericsson.conversations.ui.ConversationDualSimSendButton android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/send_button_layout" android:background="?android:actionBarItemBackground" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/somc_sim_card_indicator" />
+    <ImageButton android:enabled="false" android:layout_gravity="end|center" android:id="@id/conversation_dual_sim_send_button" android:background="@android:color/transparent" android:clickable="false" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="@dimen/dual_sim_composer_button_size" />
+</com.sonyericsson.conversations.ui.ConversationDualSimSendButton>

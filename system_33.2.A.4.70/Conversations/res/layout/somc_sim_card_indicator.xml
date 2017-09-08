@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:id="@id/sim_card_container" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/sim_card_icon" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/send_button_sim_card_margin_height" android:layout_marginBottom="@dimen/send_button_sim_card_margin_height" />
+    <TextView android:textSize="@dimen/dual_sim_send_button_text_size_small" android:textColor="@color/dual_sim_card_icon_text_color" android:layout_gravity="center" android:id="@id/sim_card_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

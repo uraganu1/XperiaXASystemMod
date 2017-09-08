@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversations_strings_text_template_dialog_item_text">
+        <item>आप कहाँ हैं?</item>
+        <item>आप क्या कर रहे हैं?</item>
+        <item>अत्यावश्यक! कृ. मुझे यथाशीघ्र जवाब दें.</item>
+        <item>क्षमा कीजिए, मैं अभी किसी मीटिंग में हूँ.</item>
+        <item>मैं ठीक हूँ. चिंता मत कीजिए.</item>
+        <item>मैं घर के रास्ते में हूँ.</item>
+        <item>मैं आपके पास वापस आऊंगा.</item>
+        <item>मैं अभी वहाँ पहुंचता हूं.</item>
+        <item>इसे जाँचें!</item>
+    </string-array>
+</resources>
