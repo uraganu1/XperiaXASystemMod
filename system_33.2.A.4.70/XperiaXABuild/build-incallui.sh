@@ -13,4 +13,5 @@ cp -r certs-incallui/AndroidManifest.xml ../InCallUI/build/apk/
 apktool b ../InCallUI -o InCallUI.apk
 ~/Android/Sdk/platform-tools/adb push InCallUI.apk /system/priv-app/InCallUI/
 ~/Android/Sdk/platform-tools/adb shell chmod 644 /system/priv-app/InCallUI/InCallUI.apk
+~/Android/Sdk/platform-tools/adb shell rm -rf /system/priv-app/InCallUI/oat
 ~/Android/Sdk/platform-tools/adb shell sync
