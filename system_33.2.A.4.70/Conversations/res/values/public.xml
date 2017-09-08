@@ -178,6 +178,7 @@
     <public type="drawable" name="conversation_readmore_semitransparent_grey" id="0x7f020158" />
     <public type="drawable" name="conversation_readmore_transparent" id="0x7f020159" />
     <public type="drawable" name="common_ic_googleplayservices" id="0x7f02001c" />
+    <public type="drawable" name="ic_compose" id="0x7f0200bf" />
     <public type="drawable" name="bottom_sticker_attachments" id="0x7f020003" />
     <public type="drawable" name="bottom_sticker_store" id="0x7f020004" />
     <public type="drawable" name="cam_core_main_front_toggle_icn" id="0x7f020006" />
@@ -319,7 +320,6 @@
     <public type="drawable" name="ic_avatar_draft" id="0x7f0200b9" />
     <public type="drawable" name="ic_avatar_group" id="0x7f0200ba" />
     <public type="drawable" name="ic_chevron_left" id="0x7f0200bd" />
-    <public type="drawable" name="ic_compose" id="0x7f0200bf" />
     <public type="drawable" name="ic_download" id="0x7f0200c1" />
     <public type="drawable" name="ic_dsds_sim_large" id="0x7f0200c2" />
     <public type="drawable" name="ic_dsds_sim_small" id="0x7f0200c3" />
@@ -387,6 +387,7 @@
     <public type="drawable" name="wear_ic_markasread" id="0x7f02014c" />
     <public type="drawable" name="wear_ic_reply" id="0x7f02014d" />
     <public type="drawable" name="welcome_sticker" id="0x7f020151" />
+    <public type="drawable" name="ic_compose_blue" id="0x7f02015a" />
     <public type="drawable" name="tutorial_attachments" id="0x7f020144" />
     <public type="drawable" name="tutorial_store" id="0x7f020146" />
     <public type="layout" name="action_item_done" id="0x7f030000" />
