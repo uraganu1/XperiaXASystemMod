@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/digitsAndBackspace" android:background="@drawable/btn_dial_textfield_normal" android:descendantFocusability="afterDescendants" android:layout_width="fill_parent" android:layout_height="@dimen/twelve_key_dialer_digits_and_backspace_height" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/dialpad_input_components" />
+</LinearLayout>

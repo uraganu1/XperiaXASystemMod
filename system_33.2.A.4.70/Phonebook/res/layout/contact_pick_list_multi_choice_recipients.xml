@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SlidingDrawer android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/slidingdrawer" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:handle="@id/handle" android:content="@id/content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/handle" android:layout_width="fill_parent" android:layout_height="36.0dip" android:divider="@null" style="?android:attr/actionBarStyle">
+        <TextView android:layout_gravity="start|center" android:id="@id/recipient_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/contacts_pick_list_multi_choice_recipients_handle_text_margin_left" style="?android:attr/textAppearanceSmallInverse" />
+        <ImageButton android:layout_gravity="end|center" android:id="@id/btn_rlist" android:background="@drawable/spb_edit_contact_up_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.0" android:contentDescription="@string/spb_accessibility_show_selected_contacts_txt" android:layout_marginEnd="@dimen/contacts_pick_list_multi_choice_recipients_icon_margin_right" />
+    </LinearLayout>
+    <ListView android:scrollbarStyle="outsideOverlay" android:id="@id/content" android:background="@color/generic_secondary_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" android:paddingStart="@dimen/general_list_item_padding_start" android:paddingEnd="@dimen/general_list_item_padding_end" style="@style/Theme.Spb.PaperBackground" />
+</SlidingDrawer>

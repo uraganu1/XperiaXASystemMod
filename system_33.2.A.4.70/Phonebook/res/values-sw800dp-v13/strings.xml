@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialpad_label_2_txt">ABC</string>
+    <string name="dialpad_label_3_txt">DEF</string>
+    <string name="dialpad_label_4_txt">GHI</string>
+    <string name="dialpad_label_5_txt">JKL</string>
+    <string name="dialpad_label_6_txt">MNO</string>
+    <string name="dialpad_label_7_txt">PQRS</string>
+    <string name="dialpad_label_8_txt">TUV</string>
+    <string name="dialpad_label_9_txt">WXYZ</string>
+    <string name="dialpad_label_0_txt">+</string>
+    <string name="dialpad_search_label_1_txt" />
+    <string name="dialpad_search_label_2_txt" />
+    <string name="dialpad_search_label_3_txt" />
+    <string name="dialpad_search_label_4_txt" />
+    <string name="dialpad_search_label_5_txt" />
+    <string name="dialpad_search_label_6_txt" />
+    <string name="dialpad_search_label_7_txt" />
+    <string name="dialpad_search_label_8_txt" />
+    <string name="dialpad_search_label_9_txt" />
+    <string name="dialpad_search_label_0_txt" />
+    <string name="dialpad_search_label_star_txt" />
+    <string name="dialpad_search_label_pound_txt" />
+</resources>

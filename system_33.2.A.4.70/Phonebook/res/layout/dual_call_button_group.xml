@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/call_button1" android:contentDescription="@string/spb_accessibility_call_button1_txt" layout="@layout/dual_call_button" />
+    <include android:id="@id/call_button2" android:contentDescription="@string/spb_accessibility_call_button2_txt" layout="@layout/dual_call_button" />
+</LinearLayout>

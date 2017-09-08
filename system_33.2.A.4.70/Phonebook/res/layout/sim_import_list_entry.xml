@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/checklist_item_linear_layout_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/semclist_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/spb_plus_icon" android:layout_weight="0.0" android:layout_marginStart="@dimen/checklist_double_item_checklist_text_margin_left" />
+    <TextView android:gravity="center_vertical" android:id="@android:id/text1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/checklist_double_item_checklist_text_margin_left" style="@style/TextAppearance.Medium.Marquee" />
+</LinearLayout>

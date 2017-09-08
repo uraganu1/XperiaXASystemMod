@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/toolbar_parent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="@dimen/tab_elevation"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Toolbar android:id="@id/toolbar" android:background="?android:colorPrimary" android:layout_width="fill_parent" android:layout_height="?android:actionBarSize" android:contentInsetStart="0.0dip" android:contentInsetEnd="0.0dip" style="@style/ContactsToolbarStyle">
+        <com.android.contacts.list.ViewPagerTabStrip android:id="@id/contact_pick_tab_strip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <RelativeLayout android:id="@id/toolbar_search_panel" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <SearchView android:id="@id/search_box" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:inputType="textFilter|textAutoComplete" android:imeOptions="actionDone|flagNoExtractUi" android:iconifiedByDefault="true" android:queryHint="@string/spb_strings_contacts_search_box_search_txt" style="@android:style/Widget.Material.SearchView" />
+        </RelativeLayout>
+    </Toolbar>
+</LinearLayout>

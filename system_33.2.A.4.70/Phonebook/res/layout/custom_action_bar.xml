@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SearchView android:id="@id/search_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textFilter|textAutoComplete" android:iconifiedByDefault="false" android:queryHint="@string/searchHint" android:closeIcon="@drawable/ic_menu_close" android:searchIcon="@drawable/spb_contacts_search_contact_icn"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

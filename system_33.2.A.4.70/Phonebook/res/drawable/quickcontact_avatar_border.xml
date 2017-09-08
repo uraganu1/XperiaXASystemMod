@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="ring" android:thicknessRatio="2.0" android:useLevel="false" android:innerRadius="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke android:width="@dimen/quickcontact_avatar_stroke_width" android:color="@color/avater_border_color" />
+    <padding android:left="@dimen/quickcontact_avatar_stroke_padding" android:top="@dimen/quickcontact_avatar_stroke_padding" android:right="@dimen/quickcontact_avatar_stroke_padding" android:bottom="@dimen/quickcontact_avatar_stroke_padding" />
+</shape>

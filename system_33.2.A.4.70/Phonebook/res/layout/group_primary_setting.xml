@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@android:drawable/list_selector_background" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <CheckBox android:id="@id/setPrimary" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/make_primary" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/general_list_item_padding_start" android:layout_marginEnd="@dimen/general_list_item_padding_end" />
+        <ListView android:scrollbarAlwaysDrawVerticalTrack="true" android:scrollbarStyle="outsideOverlay" android:id="@android:id/list" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@null" android:layout_above="@id/setPrimary" android:layout_alignParentTop="true" android:paddingStart="@dimen/general_list_item_padding_start" android:paddingEnd="@dimen/general_list_item_padding_end" />
+    </RelativeLayout>
+</FrameLayout>

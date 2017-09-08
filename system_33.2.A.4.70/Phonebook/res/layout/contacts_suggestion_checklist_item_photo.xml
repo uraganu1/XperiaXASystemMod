@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/contacts_checklist_item_photo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/contacts_list_item_relative_layout_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:id="@id/list_item_info" android:background="?android:selectableItemBackground" android:focusable="false" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:layout_marginStart="@dimen/contacts_link_suggestions_item_layout_margin_left">
+        <QuickContactBadge android:id="@id/list_item_photo" android:layout_width="@dimen/contacts_list_item_photo_width" android:layout_height="@dimen/contacts_list_item_photo_height" android:scaleType="centerCrop" android:layout_marginEnd="@dimen/photo_margin_end" style="?android:attr/quickContactBadgeStyleSmallWindowMedium" />
+        <RelativeLayout android:id="@id/list_item_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/item_photo_editor_margin_left">
+            <TextView android:gravity="center_vertical" android:id="@id/list_item_name" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/TextAppearance.Medium.Marquee" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/list_item_sub_line" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/list_item_name" android:layout_alignStart="@id/list_item_name">
+                <ImageView android:id="@id/list_item_icn" android:visibility="gone" android:layout_width="@dimen/contacts_list_item_photo_list_item_icon_width" android:layout_height="@dimen/contacts_list_item_photo_list_item_icon_height" android:scaleType="centerInside" android:layout_marginEnd="@dimen/contacts_list_item_photo_list_item_icon_margin_right" />
+                <TextView android:textColor="?android:textColorSecondary" android:id="@id/list_item_data" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/TextAppearance.Small.Marquee" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <com.sonyericsson.android.socialphonebook.ui.widget.DontPressWithParentImageView android:gravity="center" android:id="@id/link_icon" android:background="?android:selectableItemBackground" android:focusable="true" android:layout_width="@dimen/contacts_list_item_relative_layout_height" android:layout_height="fill_parent" android:scaleType="center" />
+</LinearLayout>

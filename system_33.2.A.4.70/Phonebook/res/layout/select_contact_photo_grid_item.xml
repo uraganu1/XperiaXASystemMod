@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?android:selectableItemBackground" android:descendantFocusability="blocksDescendants" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/imageview" android:focusable="true" android:layout_width="@dimen/select_contact_photo_imageview_size" android:layout_height="@dimen/select_contact_photo_imageview_size" android:scaleType="centerCrop" android:importantForAccessibility="no" />
+</LinearLayout>

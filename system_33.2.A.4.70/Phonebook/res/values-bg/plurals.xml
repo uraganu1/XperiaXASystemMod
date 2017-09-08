@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="spb_strings_delete_deleting_failed_txt">
+        <item quantity="other">Изтриване на контакти</item>
+        <item quantity="one">Изтриване на контакта</item>
+    </plurals>
+    <plurals name="spb_strings_delete_multiple_delete_confirmation_txt">
+        <item quantity="other">Избраните контакти ще се изтрият</item>
+        <item quantity="one">Избраният контакт ще се изтрие</item>
+    </plurals>
+    <plurals name="spb_strings_delete_progress_deleting_contacts_txt">
+        <item quantity="other">Изтриване на контактите</item>
+        <item quantity="one">Изтриване на контакта</item>
+    </plurals>
+    <plurals name="spb_strings_delete_contact_deleted_txt">
+        <item quantity="other">Контактите са изтрити</item>
+        <item quantity="one">Контактът е изтрит</item>
+    </plurals>
+    <plurals name="favorite_contactsAddedToast">
+        <item quantity="other">Контактите са добавени към предпочитани</item>
+        <item quantity="one">Контактът е добавен към предпочитани</item>
+    </plurals>
+    <plurals name="gal_completed_fmt">
+        <item quantity="other">%1$d резултата от %2$s</item>
+        <item quantity="one">1 резултат от %2$s</item>
+    </plurals>
+    <plurals name="spb_strings_group_available_data_count">
+        <item quantity="other">%1$d от %2$d членове</item>
+        <item quantity="one">%1$d от %2$d член</item>
+    </plurals>
+    <plurals name="spb_strings_export_contacts_exported_txt">
+        <item quantity="other">Контактите са експортирани</item>
+        <item quantity="one">Контактът е експортиран</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">Съобщения гласовата поща (%1$d)</item>
+        <item quantity="one">Съобщение на гласовата поща</item>
+    </plurals>
+    <plurals name="ice_view_remove_contacts_from_ice_list_toast_info">
+        <item quantity="other">Контактите са изчистени от списъка с ICE контакти</item>
+        <item quantity="one">Контактът е изчистен от списъка с ICE контакти</item>
+    </plurals>
+</resources>

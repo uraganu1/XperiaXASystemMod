@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/spb_add_menu_icn" android:id="@id/add_group_member" android:title="@string/spb_strings_button_add_members" />
+    <item android:icon="@drawable/ic_create_24dp" android:id="@id/menu_edit_group" android:title="@string/spb_strings_edit_group" android:alphabeticShortcut="e" android:showAsAction="ifRoom" />
+    <item android:id="@id/menu_delete_group" android:title="@string/spb_strings_delete_group" />
+</menu>

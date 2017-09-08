@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="spb_strings_delete_deleting_failed_txt">
+        <item quantity="other">연락처 삭제</item>
+        <item quantity="one">연락처 삭제</item>
+    </plurals>
+    <plurals name="spb_strings_delete_multiple_delete_confirmation_txt">
+        <item quantity="other">선택한 연락처를 삭제합니다.</item>
+        <item quantity="one">선택한 연락처 삭제</item>
+    </plurals>
+    <plurals name="spb_strings_delete_progress_deleting_contacts_txt">
+        <item quantity="other">연락처 삭제 중</item>
+        <item quantity="one">연락처 삭제 중</item>
+    </plurals>
+    <plurals name="spb_strings_delete_contact_deleted_txt">
+        <item quantity="other">연락처가 삭제됨</item>
+        <item quantity="one">연락처 삭제됨</item>
+    </plurals>
+    <plurals name="favorite_contactsAddedToast">
+        <item quantity="other">연락처가 즐겨찾기에 추가됨</item>
+        <item quantity="one">연락처가 즐겨찾기에 추가됨</item>
+    </plurals>
+    <plurals name="gal_completed_fmt">
+        <item quantity="other">%2$s에서 검색된 %1$d개 결과</item>
+        <item quantity="one">%2$s에서 검색된 1개 결과</item>
+    </plurals>
+    <plurals name="spb_strings_group_available_data_count">
+        <item quantity="other">%1$d/%2$d명 구성원</item>
+        <item quantity="one">%1$d/%2$d명 구성원</item>
+    </plurals>
+    <plurals name="spb_strings_export_contacts_exported_txt">
+        <item quantity="other">연락처가 내보내기됨</item>
+        <item quantity="one">연락처가 내보내기됨</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">음성 메시지(%1$d)</item>
+        <item quantity="one">음성 메시지</item>
+    </plurals>
+    <plurals name="ice_view_remove_contacts_from_ice_list_toast_info">
+        <item quantity="other">연락처가 ICE 연락처 목록에서 삭제됨</item>
+        <item quantity="one">연락처가 ICE 연락처 목록에서 삭제됨</item>
+    </plurals>
+</resources>

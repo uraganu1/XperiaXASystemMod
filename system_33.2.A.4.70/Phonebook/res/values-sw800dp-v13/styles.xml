@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Dialpad.Digit" parent="@style/Dialpad">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:background">@drawable/dialpad_btn_background</item>
+        <item name="android:focusable">true</item>
+        <item name="android:soundEffectsEnabled">false</item>
+    </style>
+    <style name="Dialpad.DigitText" parent="@style/Dialpad">
+        <item name="android:textSize">@dimen/dialpad_digit_text_size</item>
+        <item name="android:textColor">?android:colorPrimary</item>
+        <item name="android:layout_marginBottom">@dimen/dialpad_digit_text_margin_bottom</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="EditorAccountDefaultTheme">
+        <item name="android:textAppearance">@android:style/TextAppearance.DeviceDefault.Medium</item>
+    </style>
+    <style name="ContactEditorTheme" parent="@style/EditorAccountDefaultTheme" />
+    <style name="ContactEditorGroupListTextStyle" parent="@android:style/TextAppearance.DeviceDefault.Medium" />
+    <style name="SearchBarTextStyle" parent="@style/BaseSearchBarTextStyle">
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="FavouriteOobTitle" parent="@style/TextAppearance.Large" />
+    <style name="FavouriteOobBodyText" parent="@style/TextAppearance.Medium" />
+    <style name="Theme.Spb.CallDetails" parent="@android:style/Theme.DeviceDefault.Light.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:layoutDirection">locale</item>
+    </style>
+    <style name="Theme.Spb.Bidi.ListDialog" parent="@android:style/Theme.DeviceDefault.Light.Dialog">
+        <item name="android:layoutDirection">locale</item>
+        <item name="listSeparatorBoxTextViewStyle">@style/ListSeparatorBoxTextViewStyle</item>
+    </style>
+    <style name="Theme.Spb.Translucent.ListDialog" parent="@android:style/Theme.DeviceDefault.Light.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:layoutDirection">locale</item>
+    </style>
+    <style name="Theme.Spb.AddEditTheme" parent="@style/Theme.Spb">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:actionMenuTextAppearance">@style/SemcActionBarMenuTextAppearance</item>
+    </style>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="spb_strings_delete_deleting_failed_txt">
+        <item quantity="other">刪除連絡人</item>
+        <item quantity="one">刪除連絡人</item>
+    </plurals>
+    <plurals name="spb_strings_delete_multiple_delete_confirmation_txt">
+        <item quantity="other">將刪除選取的連絡人</item>
+        <item quantity="one">將會刪除選取的連絡人</item>
+    </plurals>
+    <plurals name="spb_strings_delete_progress_deleting_contacts_txt">
+        <item quantity="other">正在刪除連絡人</item>
+        <item quantity="one">正在刪除連絡人</item>
+    </plurals>
+    <plurals name="spb_strings_delete_contact_deleted_txt">
+        <item quantity="other">連絡人已刪除</item>
+        <item quantity="one">連絡人已刪除</item>
+    </plurals>
+    <plurals name="favorite_contactsAddedToast">
+        <item quantity="other">已將連絡人新增至最愛</item>
+        <item quantity="one">已將連絡人新增至最愛</item>
+    </plurals>
+    <plurals name="gal_completed_fmt">
+        <item quantity="other">%1$d個來自%2$s的結果</item>
+        <item quantity="one">來自%2$s的1個結果</item>
+    </plurals>
+    <plurals name="spb_strings_group_available_data_count">
+        <item quantity="other">%1$d個成員(共%2$d個成員)</item>
+        <item quantity="one">%1$d個成員(共%2$d個成員)</item>
+    </plurals>
+    <plurals name="spb_strings_export_contacts_exported_txt">
+        <item quantity="other">通訊錄已匯出</item>
+        <item quantity="one">連絡人已匯出</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">語音信箱訊息(%1$d)</item>
+        <item quantity="one">語音信箱訊息</item>
+    </plurals>
+    <plurals name="ice_view_remove_contacts_from_ice_list_toast_info">
+        <item quantity="other">已從ICE連絡人清單中清除連絡人</item>
+        <item quantity="one">已從ICE連絡人清單中清除連絡人</item>
+    </plurals>
+</resources>

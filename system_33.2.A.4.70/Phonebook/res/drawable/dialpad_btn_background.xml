@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <selector>
+            <item android:state_focused="true" android:state_pressed="true" android:drawable="@drawable/dial_num_pressed_focused" />
+            <item android:state_pressed="true" android:drawable="@drawable/dial_num_pressed" />
+            <item android:state_focused="true" android:drawable="@drawable/dial_num_focused" />
+            <item android:drawable="@drawable/dial_num_normal" />
+        </selector>
+    </item>
+    <item>
+        <ripple android:color="@color/dial_pad_btn_ripple_color" />
+    </item>
+</layer-list>

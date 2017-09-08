@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="spb_strings_delete_deleting_failed_txt">
+        <item quantity="other">Kontakte löschen</item>
+        <item quantity="one">Kontakt löschen</item>
+    </plurals>
+    <plurals name="spb_strings_delete_multiple_delete_confirmation_txt">
+        <item quantity="other">Ausgewählte Kontakte werden gelöscht.</item>
+        <item quantity="one">Der ausgewählte Kontakt wird gelöscht.</item>
+    </plurals>
+    <plurals name="spb_strings_delete_progress_deleting_contacts_txt">
+        <item quantity="other">Kontakte werden gelöscht.</item>
+        <item quantity="one">Kontakt wird gelöscht.</item>
+    </plurals>
+    <plurals name="spb_strings_delete_contact_deleted_txt">
+        <item quantity="other">Kontakte wurden gelöscht.</item>
+        <item quantity="one">Der Kontakt wurde gelöscht.</item>
+    </plurals>
+    <plurals name="favorite_contactsAddedToast">
+        <item quantity="other">Kontakte zu Favoriten hinzugefügt</item>
+        <item quantity="one">Kontakt zu Favoriten hinzugefügt</item>
+    </plurals>
+    <plurals name="gal_completed_fmt">
+        <item quantity="other">%1$d Ergebnisse aus %2$s</item>
+        <item quantity="one">1 Ergebnis aus %2$s</item>
+    </plurals>
+    <plurals name="spb_strings_group_available_data_count">
+        <item quantity="other">%1$d von %2$d Mitglied/ern</item>
+        <item quantity="one">%1$d von %2$d Mitglied/ern</item>
+    </plurals>
+    <plurals name="spb_strings_export_contacts_exported_txt">
+        <item quantity="other">Kontakte wurden exportiert</item>
+        <item quantity="one">Kontakt exportiert</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">Mailbox-Nachrichten (%1$d)</item>
+        <item quantity="one">Voicemail-Nachrichten</item>
+    </plurals>
+    <plurals name="ice_view_remove_contacts_from_ice_list_toast_info">
+        <item quantity="other">Kontakte aus der Liste der ICE-Kontakte gelöscht</item>
+        <item quantity="one">Kontakt aus der Liste der ICE-Kontakte gelöscht</item>
+    </plurals>
+</resources>

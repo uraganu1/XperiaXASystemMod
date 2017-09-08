@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="showFilterPhones">Контакти з телефонів номерами</string>
+    <string name="spb_strings_help_text_of_input_text_for_email_txt">Введіть ім’я чи ел. адресу</string>
+</resources>

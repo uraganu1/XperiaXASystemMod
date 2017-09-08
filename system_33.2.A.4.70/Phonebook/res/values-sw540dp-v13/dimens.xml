@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="editor_type_label_width">150.0dip</dimen>
+    <dimen name="dialpad_height">321.0dip</dimen>
+    <dimen name="dialpad_input_long_text_size">45.0dip</dimen>
+    <dimen name="dialpad_call_text_size">21.0dip</dimen>
+    <dimen name="calllog_land_date_text_size">14.0sp</dimen>
+    <dimen name="call_log_empty_info_margin_top_bottom">24.0dip</dimen>
+    <dimen name="call_log_empty_info_padding_start_end">48.0dip</dimen>
+    <dimen name="alphabar_text_size">12.0dip</dimen>
+    <dimen name="twelve_key_dialer_width">540.0dip</dimen>
+    <dimen name="twelve_key_dialer_digits_and_backspace_height">75.0dip</dimen>
+    <dimen name="twelve_key_dialer_backspace_width">65.0dip</dimen>
+    <dimen name="contacts_list_item_photo_width">48.0dip</dimen>
+    <dimen name="contacts_list_item_photo_height">48.0dip</dimen>
+    <dimen name="contacts_list_item_relative_layout_height">72.0dip</dimen>
+    <dimen name="edit_contact_padding_start">16.0dip</dimen>
+    <dimen name="edit_contact_account_name_padding_start_end">19.0dip</dimen>
+    <dimen name="edit_contact_account_tab_indicator_min_width">80.0dip</dimen>
+    <dimen name="edit_contact_account_tab_indicator_min_height">60.0dip</dimen>
+    <dimen name="edit_contact_account_tab_icon_size">35.0dip</dimen>
+    <dimen name="edit_contact_edit_externally_margin">19.0dip</dimen>
+    <dimen name="fav_badge_size">200.0dip</dimen>
+    <dimen name="ice_contacts_list_item_photo_layout_width">52.0dip</dimen>
+    <dimen name="ice_contacts_list_item_photo_layout_height">52.0dip</dimen>
+    <dimen name="contacts_list_alphabet_bar_width">28.0dip</dimen>
+    <dimen name="twelve_key_dialer_padding">50.0dip</dimen>
+    <dimen name="contacts_list_item_relative_layout_padding_top">3.0dip</dimen>
+    <dimen name="contacts_list_item_relative_layout_padding_bottom">3.0dip</dimen>
+    <dimen name="contacts_list_item_relative_layout_padding_left">16.0dip</dimen>
+    <dimen name="contacts_list_item_relative_layout_padding_start">16.0dip</dimen>
+    <dimen name="contacts_list_index_letter_divider_margin_end">16.0dip</dimen>
+    <dimen name="contacts_list_item_photo_status_index_letter_width">48.0dip</dimen>
+    <dimen name="contacts_list_item_photo_status_index_letter_padding_end">18.0dip</dimen>
+</resources>

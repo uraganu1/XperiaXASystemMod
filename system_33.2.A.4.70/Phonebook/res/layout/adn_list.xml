@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/adnRoot" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:id="@id/progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/progress_margin_right" style="?android:attr/progressBarStyle" />
+        <TextView android:gravity="center" android:id="@android:id/empty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/simContacts_emptyLoading" style="@style/TextAppearance.Medium" />
+    </LinearLayout>
+</RelativeLayout>

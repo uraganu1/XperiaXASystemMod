@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/toolbar_parent" layout="@layout/contacts_activity_toolbar" />
+    <com.sonyericsson.android.socialphonebook.widget.ContactsViewPager android:id="@id/tab_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/toolbar_parent" />
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true">
+        <include android:id="@id/fab_tabs" android:visibility="gone" android:layout_width="@dimen/fab_size" android:layout_height="@dimen/fab_size" android:layout_marginBottom="@dimen/fab_vertical_margin" android:layout_marginStart="@dimen/fab_horizontal_margin" android:layout_marginEnd="@dimen/fab_horizontal_margin" layout="@layout/floating_action_button" />
+    </FrameLayout>
+</RelativeLayout>

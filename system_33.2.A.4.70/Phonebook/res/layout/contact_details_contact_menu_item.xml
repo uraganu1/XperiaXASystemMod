@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textAppearance="?android:textAppearanceLarge" android:textStyle="bold" android:id="@id/content_title" android:paddingTop="@dimen/contact_menu_title_padding_top" android:layout_width="fill_parent" android:layout_height="?android:listPreferredItemHeight" android:paddingStart="@dimen/contact_menu_item_margin_start_end" android:paddingEnd="@dimen/contact_menu_item_margin_start_end"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

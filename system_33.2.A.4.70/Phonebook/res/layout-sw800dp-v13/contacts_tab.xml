@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/list_card" android:background="@color/generic_primary_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/contact_list_fragment" android:background="@color/contact_all_list_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="@dimen/contact_list_margin_start" android:layout_marginEnd="@dimen/contact_list_margin_end" android:elevation="@dimen/contact_list_card_elevation" />
+</FrameLayout>

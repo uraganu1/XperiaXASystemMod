@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.sonyericsson.android.socialphonebook.DialpadEditText android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/digits" android:background="@android:color/transparent" android:nextFocusRight="@id/deleteButton" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cursorVisible="false" android:scrollHorizontally="true" android:singleLine="true" android:freezesText="true" android:textCursorDrawable="@drawable/dialpad_inputfield_cursor" android:layout_marginStart="@dimen/twelve_key_dialer_backspace_width" android:layout_marginEnd="@dimen/twelve_key_dialer_backspace_width" style="@style/Dialpad.EditText" />
+    <ImageButton android:id="@id/deleteButton" android:background="?android:selectableItemBackgroundBorderless" android:layout_width="@dimen/twelve_key_dialer_backspace_width" android:layout_height="@dimen/twelve_key_dialer_digits_and_backspace_height" android:src="@drawable/delete_phonenumber_btn" android:contentDescription="@string/spb_accessibility_backspace_txt" android:layout_alignParentEnd="true" style="@android:style/Widget.Button.Inset" />
+</RelativeLayout>

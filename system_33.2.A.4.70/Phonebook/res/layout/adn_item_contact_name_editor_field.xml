@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sonyericsson.android.socialphonebook.widget.PhoneticNameTransliterator android:textAppearance="?android:textAppearanceMedium" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="@dimen/item_generic_editor_edit_fields_height" android:imeOptions="actionNext" android:layout_marginStart="@dimen/general_edit_element_margin_left" android:layout_marginEnd="@dimen/general_edit_element_margin_right"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

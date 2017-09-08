@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="spb_strings_delete_deleting_failed_txt">
+        <item quantity="other">Trinti adresatus</item>
+        <item quantity="one">Trinti adresatą</item>
+    </plurals>
+    <plurals name="spb_strings_delete_multiple_delete_confirmation_txt">
+        <item quantity="other">Pasirinkti adresatai bus ištrinti</item>
+        <item quantity="one">Bus ištrinti pasirinkto adresato duomenys</item>
+    </plurals>
+    <plurals name="spb_strings_delete_progress_deleting_contacts_txt">
+        <item quantity="other">Trinami adresatai</item>
+        <item quantity="one">Trinamas adresatas</item>
+    </plurals>
+    <plurals name="spb_strings_delete_contact_deleted_txt">
+        <item quantity="other">Adresatai ištrinti</item>
+        <item quantity="one">Adresatas ištrintas</item>
+    </plurals>
+    <plurals name="favorite_contactsAddedToast">
+        <item quantity="other">Adresatai įtraukti į mėgstamiausius</item>
+        <item quantity="one">Adresatas įtrauktas į mėgstamiausius</item>
+    </plurals>
+    <plurals name="gal_completed_fmt">
+        <item quantity="other">%1$d rezult. iš %2$s</item>
+        <item quantity="one">1 rezultatas iš %2$s</item>
+    </plurals>
+    <plurals name="spb_strings_group_available_data_count">
+        <item quantity="other">%1$d iš %2$d narių</item>
+        <item quantity="one">%1$d narys iš %2$d</item>
+    </plurals>
+    <plurals name="spb_strings_export_contacts_exported_txt">
+        <item quantity="other">Adresatai eksportuoti</item>
+        <item quantity="one">Adresatas eksportuotas</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">Balso pašto žinutės (%1$d)</item>
+        <item quantity="one">Balso pašto žinutė</item>
+    </plurals>
+    <plurals name="ice_view_remove_contacts_from_ice_list_toast_info">
+        <item quantity="other">Adresatai išvalytas ICE adresatų sąraše</item>
+        <item quantity="one">Adresatas išvalytas ICE adresatų sąraše</item>
+    </plurals>
+</resources>

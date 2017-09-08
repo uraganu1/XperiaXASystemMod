@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spb_arrays_contacts_list_scroll_bar_characters_txt">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+        <item>\#</item>
+    </string-array>
+    <string-array name="spb_arrays_contacts_list_separator_characters_txt">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N,Ñ</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+        <item>\#</item>
+    </string-array>
+    <string-array name="spb_arrays_contacts_list_index_box_characters_txt">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
+        <item>\#</item>
+    </string-array>
+    <string-array name="spb_arrays_edit_option_list_add_image_txt">
+        <item>Carpeta de imágenes</item>
+        <item>Sacar nueva fotografía</item>
+    </string-array>
+    <string-array name="spb_arrays_edit_option_list_add_album_image_txt">
+        <item>Álbum</item>
+        <item>Sacar nueva fotografía</item>
+    </string-array>
+    <string-array name="otherLabels">
+        <item>Organización</item>
+        <item>Nota</item>
+    </string-array>
+</resources>

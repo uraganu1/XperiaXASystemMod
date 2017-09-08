@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/toolbar_parent" layout="@layout/phone_activity_toolbar" />
+    <FrameLayout android:id="@id/main_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/toolbar_parent">
+        <fragment android:id="@id/call_log_fragment" android:layout_width="fill_parent" android:layout_height="fill_parent" class="com.sonyericsson.android.socialphonebook.calllog.CallLogFragment" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerInParent="true">
+        <include android:id="@id/fab_tabs" android:layout_width="@dimen/fab_size" android:layout_height="@dimen/fab_size" android:layout_marginBottom="@dimen/fab_vertical_margin" android:layout_marginStart="@dimen/fab_horizontal_margin" android:layout_marginEnd="@dimen/fab_horizontal_margin" layout="@layout/floating_action_button" />
+    </FrameLayout>
+</RelativeLayout>

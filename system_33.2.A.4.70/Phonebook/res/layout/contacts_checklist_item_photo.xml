@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/contacts_checklist_item_photo" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center" android:id="@id/list_alphabet_item" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="@dimen/list_item_photo_status_index_letter_width" android:layout_height="wrap_content" android:minHeight="@dimen/picker_list_item_min_height" android:layout_marginStart="@dimen/contacts_list_header_letter_margin_start" style="?attr/listSeparatorBoxTextViewStyle"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/list_item" android:paddingTop="@dimen/contacts_list_item_relative_layout_padding_top" android:paddingBottom="@dimen/contacts_list_item_relative_layout_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/contacts_list_item_relative_layout_height" android:layout_weight="1.0" android:layout_marginStart="@dimen/picker_list_item_margin">
+            <QuickContactBadge android:id="@id/list_item_photo" android:layout_width="@dimen/contacts_list_item_photo_width" android:layout_height="@dimen/contacts_list_item_photo_height" android:scaleType="centerCrop" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/photo_margin_end" android:layout_alignParentStart="true" style="?android:attr/quickContactBadgeStyleSmallWindowMedium" />
+            <ImageView android:id="@id/im_presence_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+            <RelativeLayout android:id="@id/list_item_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:paddingStart="@dimen/list_item_generic_relative_padding" android:layout_toStartOf="@id/im_presence_icon" android:layout_toEndOf="@id/list_item_photo" android:layout_alignParentStart="true">
+                <TextView android:textColor="?android:textColorPrimary" android:gravity="center_vertical" android:id="@id/list_item_name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@android:style/TextAppearance.Material.Subhead" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/list_item_sub_line" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/list_item_name">
+                    <TextView android:textColor="?android:colorAccent" android:id="@id/list_item_label" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@android:style/TextAppearance.Material.Body1" />
+                    <TextView android:textColor="?android:textColorSecondary" android:id="@id/list_item_data" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/contacts_checklist_item_photo_list_item_data_margin_left" style="@style/TextAppearance.Small.Marquee" />
+                </LinearLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+        <CheckedTextView android:layout_gravity="end|center" android:id="@id/checklist_check" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checkMark="?android:listChoiceIndicatorMultiple" android:layout_weight="0.0" android:layout_marginStart="@dimen/contacts_checklist_item_photo_checklist_check_margin_left" android:layout_marginEnd="@dimen/contacts_checklist_item_photo_checklist_check_margin_right" />
+    </LinearLayout>
+    <ImageView android:gravity="fill_horizontal" android:id="@id/list_item_divider" android:background="?android:listDivider" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/contacts_list_head_bar_split_height" android:scaleType="fitXY" />
+</LinearLayout>

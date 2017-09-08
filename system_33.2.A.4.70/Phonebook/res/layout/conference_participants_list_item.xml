@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/general_list_item_padding_start" android:paddingEnd="@dimen/general_list_item_padding_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/conference_participant_list_item_holder" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/call_detail_list_item_min_height" android:paddingStart="@dimen/general_list_item_padding_start" android:paddingEnd="@dimen/general_list_item_padding_end">
+        <QuickContactBadge android:gravity="center" android:id="@id/icon" android:duplicateParentState="true" android:layout_width="@dimen/contacts_list_item_photo_width" android:layout_height="@dimen/contacts_list_item_photo_height" android:scaleType="centerCrop" android:contentDescription="@null" android:layout_marginEnd="@dimen/photo_margin_end" style="?android:attr/quickContactBadgeStyleSmallWindowMedium" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/information" android:duplicateParentState="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:id="@id/name" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/TextAppearance.Medium.Marquee" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/participants_list_item_second_row" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textColor="?android:colorAccent" android:id="@id/label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/call_detail_list_item_label_margin_end" style="@style/TextAppearance.Small.Marquee" />
+                <TextView android:textColor="?android:textColorSecondary" android:id="@id/number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textDirection="ltr" style="@style/TextAppearance.Small.Marquee" />
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/remove_participant" android:background="?android:selectableItemBackgroundBorderless" android:focusable="true" android:visibility="visible" android:clickable="true" android:layout_width="@dimen/detail_action_icon_width" android:layout_height="fill_parent" android:src="@drawable/ic_delete" android:scaleType="centerInside" android:importantForAccessibility="no" />
+    </LinearLayout>
+</LinearLayout>

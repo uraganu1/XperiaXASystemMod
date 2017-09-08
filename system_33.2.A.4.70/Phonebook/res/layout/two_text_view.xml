@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sonyericsson.android.socialphonebook.ui.widget.TwoTextView android:orientation="vertical" android:paddingTop="@dimen/contacts_list_item_relative_layout_padding_top" android:paddingBottom="@dimen/contacts_list_item_relative_layout_padding_bottom" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/contacts_list_item_relative_layout_padding_left"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:id="@id/major_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <TextView android:textAppearance="?android:textAppearanceSmall" android:textColor="?android:textColorSecondary" android:id="@id/minor_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</com.sonyericsson.android.socialphonebook.ui.widget.TwoTextView>

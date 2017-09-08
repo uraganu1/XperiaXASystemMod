@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="spb_strings_delete_deleting_failed_txt">
+        <item quantity="other">Pupus kontak</item>
+        <item quantity="one">Pupus kontak</item>
+    </plurals>
+    <plurals name="spb_strings_delete_multiple_delete_confirmation_txt">
+        <item quantity="other">Kontak nu dipilih bakal dipupuskeun</item>
+        <item quantity="one">Kontak nu dipilih bakal dipupus</item>
+    </plurals>
+    <plurals name="spb_strings_delete_progress_deleting_contacts_txt">
+        <item quantity="other">Mupus kontak</item>
+        <item quantity="one">Mupus kontak</item>
+    </plurals>
+    <plurals name="spb_strings_delete_contact_deleted_txt">
+        <item quantity="other">Kontak dipupuskeun</item>
+        <item quantity="one">Kontak dipupus</item>
+    </plurals>
+    <plurals name="favorite_contactsAddedToast">
+        <item quantity="other">Kontak ditambahkeun ka paporit</item>
+        <item quantity="one">Kontak ditambahkeun ka paporit</item>
+    </plurals>
+    <plurals name="gal_completed_fmt">
+        <item quantity="other">%1$d hasil ti %2$s</item>
+        <item quantity="one">1 hasil ti %2$s</item>
+    </plurals>
+    <plurals name="spb_strings_group_available_data_count">
+        <item quantity="other">%1$d ti %2$d anggota</item>
+        <item quantity="one">%1$d ti %2$d anggota</item>
+    </plurals>
+    <plurals name="spb_strings_export_contacts_exported_txt">
+        <item quantity="other">Kontak diekspor</item>
+        <item quantity="one">Kontak diekspor</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">Talatah surat sora (%1$d)</item>
+        <item quantity="one">Talatah suratsora</item>
+    </plurals>
+    <plurals name="ice_view_remove_contacts_from_ice_list_toast_info">
+        <item quantity="other">Kontak dipupus ti daptar kontak ICE</item>
+        <item quantity="one">Kontak dipupus ti daptar kontak ICE</item>
+    </plurals>
+</resources>

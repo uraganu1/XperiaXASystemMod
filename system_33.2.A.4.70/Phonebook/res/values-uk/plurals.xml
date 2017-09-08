@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="spb_strings_delete_deleting_failed_txt">
+        <item quantity="other">Видалення контактів</item>
+        <item quantity="one">Видалення контакту</item>
+    </plurals>
+    <plurals name="spb_strings_delete_multiple_delete_confirmation_txt">
+        <item quantity="other">Вибрані контакти буде видалено</item>
+        <item quantity="one">Вибраний контакт буде видалено</item>
+    </plurals>
+    <plurals name="spb_strings_delete_progress_deleting_contacts_txt">
+        <item quantity="other">Триває видалення контактів</item>
+        <item quantity="one">Триває видалення контакту</item>
+    </plurals>
+    <plurals name="spb_strings_delete_contact_deleted_txt">
+        <item quantity="other">Контакти видалено</item>
+        <item quantity="one">Контакт видалено</item>
+    </plurals>
+    <plurals name="favorite_contactsAddedToast">
+        <item quantity="other">Контакти додано до вибраних</item>
+        <item quantity="one">Контакт додано до вибраних</item>
+    </plurals>
+    <plurals name="gal_completed_fmt">
+        <item quantity="other">Результатів від %2$s: %1$d</item>
+        <item quantity="one">1 результат від %2$s</item>
+    </plurals>
+    <plurals name="spb_strings_group_available_data_count">
+        <item quantity="other">Учасників: %1$d з %2$d</item>
+        <item quantity="one">Учасників: %1$d з %2$d</item>
+    </plurals>
+    <plurals name="spb_strings_export_contacts_exported_txt">
+        <item quantity="other">Контакти експортовано</item>
+        <item quantity="one">Контакт експортовано</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">Повідомлення голос. пошти (%1$d)</item>
+        <item quantity="one">Повідомлення голосової пошти</item>
+    </plurals>
+    <plurals name="ice_view_remove_contacts_from_ice_list_toast_info">
+        <item quantity="other">Контакти видалено зі списку контактів ICE</item>
+        <item quantity="one">Контакт видалено зі списку контактів ICE</item>
+    </plurals>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/contacts_list_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:socialphonebook="http://schemas.android.com/apk/res/com.sonyericsson.android.socialphonebook">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include layout="@layout/search_panel" />
+            <com.sonyericsson.android.socialphonebook.widget.IndexedListView android:id="@id/alphabet_indexed_list" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <View android:layout_gravity="end|center|top" android:id="@id/list_right_padding_when_no_alphabet_bar" android:layout_width="@dimen/contacts_list_no_alphabet_bar_width" android:layout_height="fill_parent" android:layout_alignParentEnd="true" />
+                <com.sonyericsson.android.socialphonebook.widget.SpbListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="@dimen/contacts_pick_list_frame_layout_margin_left" android:layout_marginEnd="@dimen/contacts_list_alphabet_bar_width" />
+                <com.sonyericsson.android.socialphonebook.widget.AlphabetBar android:layout_gravity="end|center|top" android:id="@id/indexed_scroll_bar" android:paddingTop="@dimen/contacts_list_margin_top" android:paddingBottom="@dimen/contacts_list_margin_top" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/contacts_list_alphabet_bar_padding_left" android:paddingEnd="@dimen/contacts_list_alphabet_bar_padding_right" android:layout_toStartOf="@id/list_right_padding_when_no_alphabet_bar" android:layout_alignParentEnd="true" socialphonebook:barAlignLeft="false" socialphonebook:textColor="@color/indexed_bar_text_color" socialphonebook:textColorHighlight="?android:colorPrimary" socialphonebook:backColorHighlight="@color/indexed_bar_back_highlight_color" socialphonebook:textSize="@dimen/alphabar_text_size" />
+            </com.sonyericsson.android.socialphonebook.widget.IndexedListView>
+        </LinearLayout>
+        <TextView android:gravity="center" android:id="@id/emptyText" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/noContacts" style="@style/TextAppearance.Medium" />
+    </FrameLayout>
+</LinearLayout>

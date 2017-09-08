@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/sect_fields" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/raw_contact_sect_fields_margin_top" android:layout_marginBottom="@dimen/raw_contact_sect_fields_margin_bottom" android:layout_marginStart="@dimen/raw_contact_sect_fields_margin_start" />
+    <Button android:layout_gravity="start" android:id="@id/button_add_field" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/raw_contact_add_another_field_margin_bottom" android:text="@string/add_field" android:layout_marginStart="@dimen/raw_contact_add_another_field_margin_start" style="@style/ContactEditorTheme" />
+</merge>

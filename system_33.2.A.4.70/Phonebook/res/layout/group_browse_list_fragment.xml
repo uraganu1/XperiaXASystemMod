@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.sonyericsson.android.socialphonebook.widget.AutoScrollListView android:scrollbarStyle="outsideOverlay" android:id="@id/list" android:paddingBottom="@dimen/general_list_item_padding_bottom" android:fadingEdge="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="@android:color/transparent" android:divider="@null" android:choiceMode="singleChoice" style="@style/Theme.Spb.PaperBackground" />
+</RelativeLayout>

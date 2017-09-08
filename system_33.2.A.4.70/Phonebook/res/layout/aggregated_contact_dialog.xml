@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="@dimen/general_contact_dialog_padding_top_bottom" android:paddingBottom="@dimen/general_contact_dialog_padding_top_bottom" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/general_contact_dialog_padding_start_end" android:paddingEnd="@dimen/general_contact_dialog_padding_start_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/result_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/spb_strings_contact_linked_result_desc_txt" style="@style/TextAppearance.Medium" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/contact" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/aggregated_contact_dialog_contact_margin_top">
+        <ImageView android:id="@id/aggregated_contact_icon" android:layout_width="@dimen/contacts_list_item_photo_width" android:layout_height="@dimen/contacts_list_item_photo_height" android:scaleType="centerCrop" android:contentDescription="@null" style="?android:attr/quickContactBadgeStyleSmallWindowMedium" />
+        <TextView android:id="@id/txt_aggregated_contact_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/aggregated_contact_dialog_contact_name_margin_left" style="@style/TextAppearance.Medium" />
+    </LinearLayout>
+</LinearLayout>

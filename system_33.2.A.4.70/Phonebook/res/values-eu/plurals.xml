@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="spb_strings_delete_deleting_failed_txt">
+        <item quantity="other">Ezabatu kontaktuak</item>
+        <item quantity="one">Ezabatu kontaktua</item>
+    </plurals>
+    <plurals name="spb_strings_delete_multiple_delete_confirmation_txt">
+        <item quantity="other">Hautatutako kontaktuak ezabatuko dira</item>
+        <item quantity="one">Hautatutako kontaktua ezabatuko da</item>
+    </plurals>
+    <plurals name="spb_strings_delete_progress_deleting_contacts_txt">
+        <item quantity="other">Kontaktuak ezabatzen</item>
+        <item quantity="one">Kontaktua ezabatzen</item>
+    </plurals>
+    <plurals name="spb_strings_delete_contact_deleted_txt">
+        <item quantity="other">Kontaktuak ezabatu dira</item>
+        <item quantity="one">Kontaktua ezabatu da</item>
+    </plurals>
+    <plurals name="favorite_contactsAddedToast">
+        <item quantity="other">Kontaktuak gogokoetan gehitu dira</item>
+        <item quantity="one">Kontaktua gogokoetan gehitu da</item>
+    </plurals>
+    <plurals name="gal_completed_fmt">
+        <item quantity="other">%1$d%2$s domeinuko emaitzak</item>
+        <item quantity="one">Domeinu honetako 1 emaitza: %2$s</item>
+    </plurals>
+    <plurals name="spb_strings_group_available_data_count">
+        <item quantity="other">%1$d/%2$d kide</item>
+        <item quantity="one">%1$d/%2$d kide</item>
+    </plurals>
+    <plurals name="spb_strings_export_contacts_exported_txt">
+        <item quantity="other">Kontaktuak esportatu dira</item>
+        <item quantity="one">Kontaktua esportatu da</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">Erantzungailuko mezuak (%1$d)</item>
+        <item quantity="one">Erantzungailuko mezua</item>
+    </plurals>
+    <plurals name="ice_view_remove_contacts_from_ice_list_toast_info">
+        <item quantity="other">Kontaktuak ICE kontaktuen zerrendatik kendu dira</item>
+        <item quantity="one">Kontaktua ICE kontaktuen zerrendatik kendu da</item>
+    </plurals>
+</resources>

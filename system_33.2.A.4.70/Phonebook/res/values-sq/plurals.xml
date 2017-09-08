@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="spb_strings_delete_deleting_failed_txt">
+        <item quantity="other">Fshi kontaktet</item>
+        <item quantity="one">Fshi kontaktin</item>
+    </plurals>
+    <plurals name="spb_strings_delete_multiple_delete_confirmation_txt">
+        <item quantity="other">Kontaktet e përzgjedhura do të fshihen</item>
+        <item quantity="one">Kontakti i përzgjedhur do të fshihet</item>
+    </plurals>
+    <plurals name="spb_strings_delete_progress_deleting_contacts_txt">
+        <item quantity="other">Duke fshirë kontaktet</item>
+        <item quantity="one">Duke fshirë kontaktin</item>
+    </plurals>
+    <plurals name="spb_strings_delete_contact_deleted_txt">
+        <item quantity="other">Kontaktet u fshinë</item>
+        <item quantity="one">Kontakti u fshi</item>
+    </plurals>
+    <plurals name="favorite_contactsAddedToast">
+        <item quantity="other">Kontaktet u shtuan te të preferuarat</item>
+        <item quantity="one">Kontakti u shtua te të preferuarat</item>
+    </plurals>
+    <plurals name="gal_completed_fmt">
+        <item quantity="other">%1$d rezultate nga %2$s</item>
+        <item quantity="one">1 rezultat nga %2$s</item>
+    </plurals>
+    <plurals name="spb_strings_group_available_data_count">
+        <item quantity="other">%1$d nga %2$d anëtarë</item>
+        <item quantity="one">%1$d nga %2$d anëtar</item>
+    </plurals>
+    <plurals name="spb_strings_export_contacts_exported_txt">
+        <item quantity="other">Kontaktet u eksportuan</item>
+        <item quantity="one">Kontakti u eksportua</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">Mesazhet e postës zanore (%1$d)</item>
+        <item quantity="one">Mesazh i postës zanore</item>
+    </plurals>
+    <plurals name="ice_view_remove_contacts_from_ice_list_toast_info">
+        <item quantity="other">Kontaktet u pastruan nga lista e kontakteve ICE</item>
+        <item quantity="one">Kontakti u pastrua nga lista e kontakteve ICE</item>
+    </plurals>
+</resources>

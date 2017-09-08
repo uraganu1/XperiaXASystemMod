@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="spb_alphabet_bar_collapsible">true</bool>
+    <bool name="sorted_by_phonetic_name">true</bool>
+    <bool name="config_sort_order_user_changeable">false</bool>
+    <bool name="config_default_sort_order_primary">true</bool>
+    <bool name="config_display_order_user_changeable">false</bool>
+    <bool name="config_default_display_order_primary">true</bool>
+</resources>

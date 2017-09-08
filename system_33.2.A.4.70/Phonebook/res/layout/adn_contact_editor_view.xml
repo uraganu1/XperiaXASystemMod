@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sonyericsson.android.socialphonebook.ui.widget.AdnContactEditorView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/editor_account_header_with_dropdown" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/edit_photo" layout="@layout/item_photo_editor" />
+        <include android:id="@id/edit_name" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/adn_item_editor" />
+        <include android:id="@id/edit_adn_number" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/adn_item_editor" />
+        <include android:id="@id/edit_anr_number" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/adn_item_editor" />
+        <include android:id="@id/edit_email" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/adn_item_editor" />
+    </LinearLayout>
+</com.sonyericsson.android.socialphonebook.ui.widget.AdnContactEditorView>

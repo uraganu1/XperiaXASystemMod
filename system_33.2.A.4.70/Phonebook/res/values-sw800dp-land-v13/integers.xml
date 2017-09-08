@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="contact_tile_column_count">6</integer>
+    <integer name="editor_side_weight">2</integer>
+    <integer name="editor_content_weight">8</integer>
+</resources>

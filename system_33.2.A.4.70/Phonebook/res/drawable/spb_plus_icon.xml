@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap android:src="@drawable/spb_plus_icn" android:tint="@color/plus_icon_tint_color"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

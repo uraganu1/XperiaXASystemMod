@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:socialphonebook="http://schemas.android.com/apk/res/com.sonyericsson.android.socialphonebook">
+    <com.sonyericsson.android.socialphonebook.widget.IndexedListView android:id="@id/indexed_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="locale">
+        <com.sonyericsson.android.socialphonebook.widget.NumericBar android:layout_gravity="end|center|top" android:id="@id/indexed_scroll_bar" android:paddingTop="@dimen/speed_dial_list_padding_top_bottom" android:paddingBottom="@dimen/speed_dial_list_padding_top_bottom" android:layout_width="@dimen/speed_dial_list_numeric_bar_width" android:layout_height="fill_parent" android:layoutDirection="locale" android:paddingStart="@dimen/speed_dial_list_padding_start_end" android:paddingEnd="@dimen/speed_dial_list_padding_start_end" android:layout_alignParentEnd="true" socialphonebook:textColor="@color/indexed_bar_text_color" socialphonebook:textColorHighlight="?android:colorPrimary" socialphonebook:backColorHighlight="@color/indexed_bar_back_highlight_color" socialphonebook:textSize="@dimen/numeric_bar_text_size" />
+        <com.sonyericsson.android.socialphonebook.widget.SpbListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" android:paddingStart="@dimen/general_list_item_padding_start" android:paddingEnd="@dimen/general_list_item_padding_end" android:layout_toStartOf="@id/indexed_scroll_bar" />
+    </com.sonyericsson.android.socialphonebook.widget.IndexedListView>
+</FrameLayout>

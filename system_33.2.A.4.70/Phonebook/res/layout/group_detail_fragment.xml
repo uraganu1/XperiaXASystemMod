@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/group_detail" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center_vertical" android:id="@id/group_source_view_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ListView android:scrollbarStyle="outsideOverlay" android:id="@android:id/list" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" android:paddingStart="@dimen/general_list_item_padding_start" android:paddingEnd="@dimen/general_list_item_padding_end" style="@style/Theme.Spb.PaperBackground" />
+        <TextView android:gravity="center" android:id="@id/emptytext" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/noContacts" style="@style/TextAppearance.Medium" />
+    </FrameLayout>
+</LinearLayout>

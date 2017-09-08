@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="top" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="wrap_content" android:layout_height="wrap_content"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/alert_dialog_header_txt" android:paddingTop="@dimen/runtime_permission_alert_dialog_title_margin_bottom" android:paddingBottom="@dimen/runtime_permission_alert_dialog_body_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/TextAppearance.ContentText" />
+            <TextView android:id="@id/alert_dialog_body_txt" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/TextAppearance.ContentText" />
+            <TextView android:id="@id/alert_dialog_link_txt" android:paddingTop="@dimen/runtime_permission_alert_dialog_title_margin_bottom" android:paddingBottom="@dimen/runtime_permission_alert_dialog_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/TextAppearance.ContentText" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

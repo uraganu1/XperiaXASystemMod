@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="google_play_services_version">8298000</integer>
+    <integer name="speed_dial_max_number">9</integer>
+    <integer name="contacts_display_order">0</integer>
+    <integer name="contacts_sort_order">0</integer>
+    <integer name="animated_bar_max_scale">4</integer>
+    <integer name="config_export_file_min_index">1</integer>
+    <integer name="config_export_file_max_index">99999</integer>
+    <integer name="contact_tile_column_count">2</integer>
+    <integer name="quickcontact_title_lines">1</integer>
+    <integer name="quickcontact_extra_info_lines">3</integer>
+    <integer name="contact_list_space_layout_weight">0</integer>
+    <integer name="contact_list_card_layout_weight">81</integer>
+    <integer name="call_composer_image_button_weight">12</integer>
+    <integer name="call_composer_items_weight">3</integer>
+    <integer name="favorite_photos_preload_limit">15</integer>
+    <integer name="gaw_quick_contact_photo_size">1080</integer>
+</resources>

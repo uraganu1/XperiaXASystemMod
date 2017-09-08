@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="spb_strings_delete_deleting_failed_txt">
+        <item quantity="other">Busak kontak</item>
+        <item quantity="one">Busak kontak</item>
+    </plurals>
+    <plurals name="spb_strings_delete_multiple_delete_confirmation_txt">
+        <item quantity="other">Kontak sing dipilih bakal dibusak</item>
+        <item quantity="one">Kontak sing dipilih bakal dibusak</item>
+    </plurals>
+    <plurals name="spb_strings_delete_progress_deleting_contacts_txt">
+        <item quantity="other">Mbusak kontak</item>
+        <item quantity="one">Mbusak kontak</item>
+    </plurals>
+    <plurals name="spb_strings_delete_contact_deleted_txt">
+        <item quantity="other">Kontak dibusak</item>
+        <item quantity="one">Kontak dibusak</item>
+    </plurals>
+    <plurals name="favorite_contactsAddedToast">
+        <item quantity="other">Kontak ditambahake menyang favorit</item>
+        <item quantity="one">Kontak ditambahake menyang favorit</item>
+    </plurals>
+    <plurals name="gal_completed_fmt">
+        <item quantity="other">%1$d asil saka %2$s</item>
+        <item quantity="one">1 asil saka %2$s</item>
+    </plurals>
+    <plurals name="spb_strings_group_available_data_count">
+        <item quantity="other">%1$d saka %2$d anggota</item>
+        <item quantity="one">%1$d saka %2$d anggota</item>
+    </plurals>
+    <plurals name="spb_strings_export_contacts_exported_txt">
+        <item quantity="other">Kontak wis diekspor</item>
+        <item quantity="one">Kontak wis diekspor</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">Pesen layang swara (%1$d)</item>
+        <item quantity="one">Pesen surat swara</item>
+    </plurals>
+    <plurals name="ice_view_remove_contacts_from_ice_list_toast_info">
+        <item quantity="other">Kontak dibusak saka dhaptar kontak ICE</item>
+        <item quantity="one">Kontak dibusak saka dhaptar kontak ICE</item>
+    </plurals>
+</resources>

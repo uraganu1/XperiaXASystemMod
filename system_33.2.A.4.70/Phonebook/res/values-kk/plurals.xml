@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="spb_strings_delete_deleting_failed_txt">
+        <item quantity="other">Контактілерді жою</item>
+        <item quantity="one">Контактіні жою</item>
+    </plurals>
+    <plurals name="spb_strings_delete_multiple_delete_confirmation_txt">
+        <item quantity="other">Таңдалған контактілер жойылады</item>
+        <item quantity="one">Таңдалған контакт жойылады</item>
+    </plurals>
+    <plurals name="spb_strings_delete_progress_deleting_contacts_txt">
+        <item quantity="other">Контактілер жойылуда</item>
+        <item quantity="one">Контакт жойылуда</item>
+    </plurals>
+    <plurals name="spb_strings_delete_contact_deleted_txt">
+        <item quantity="other">Контактілер жойылды</item>
+        <item quantity="one">Контакт жойылды</item>
+    </plurals>
+    <plurals name="favorite_contactsAddedToast">
+        <item quantity="other">Контактілер таңдаулыларға қосылды</item>
+        <item quantity="one">Контакт таңдаулыларға қосылды</item>
+    </plurals>
+    <plurals name="gal_completed_fmt">
+        <item quantity="other">%2$s ішінен %1$d нәтиже</item>
+        <item quantity="one">%2$s ішінен 1 нәтиже</item>
+    </plurals>
+    <plurals name="spb_strings_group_available_data_count">
+        <item quantity="other">%2$d ішінен %1$d мүше</item>
+        <item quantity="one">%2$d ішінен %1$d мүше</item>
+    </plurals>
+    <plurals name="spb_strings_export_contacts_exported_txt">
+        <item quantity="other">Экспортталған контактілер</item>
+        <item quantity="one">Экспортталған контакт</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">Дауыстық пошта хабарлары (%1$d)</item>
+        <item quantity="one">Дауыс. пошта хабары</item>
+    </plurals>
+    <plurals name="ice_view_remove_contacts_from_ice_list_toast_info">
+        <item quantity="other">Контактілер ICE контактілер тізімінен тазаланды</item>
+        <item quantity="one">Контакт ICE контактілерінің тізімінен тазаланды</item>
+    </plurals>
+</resources>

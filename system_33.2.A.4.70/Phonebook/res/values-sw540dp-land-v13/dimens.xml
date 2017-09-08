@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dialpad_height">294.0dip</dimen>
+    <dimen name="twelve_key_dialer_width">450.0dip</dimen>
+    <dimen name="twelve_key_dialer_digits_and_backspace_height">75.0dip</dimen>
+    <dimen name="twelve_key_dialer_backspace_width">65.0dip</dimen>
+    <dimen name="twelve_key_dialer_padding">0.0dip</dimen>
+</resources>

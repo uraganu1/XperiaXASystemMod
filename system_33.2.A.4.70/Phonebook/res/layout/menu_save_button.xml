@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/save_menu_item" android:text="@string/menu_save" android:layout_alignParentEnd="true" style="@style/ContactsCreateEditActionBarStyle" />
+</merge>

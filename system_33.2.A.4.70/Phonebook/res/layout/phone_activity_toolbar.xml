@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/toolbar_parent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="@dimen/tab_elevation"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/phone_activity_toolbar_group" />
+    <fragment android:id="@id/top_contacts_list" android:layout_width="fill_parent" android:layout_height="@dimen/top_contacts_item_width_height" class="com.sonyericsson.android.socialphonebook.topcontacts.TopContactsListFragment" />
+    <View android:layout_gravity="bottom" android:background="@drawable/top_contacts_bottom_gradient" android:layout_width="fill_parent" android:layout_height="@dimen/phone_toolbar_padding_bottom" />
+</LinearLayout>

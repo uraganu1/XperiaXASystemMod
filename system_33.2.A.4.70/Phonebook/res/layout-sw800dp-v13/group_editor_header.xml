@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:focusable="false" android:descendantFocusability="afterDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/group_editor_header_margin_top" android:layout_marginBottom="@dimen/group_editor_header_margin_bottom" android:paddingStart="@dimen/group_editor_header_padding_left" android:paddingEnd="@dimen/group_editor_header_padding_right">
+        <include android:id="@id/group_image" layout="@layout/group_photo_editor" />
+        <EditText android:id="@id/group_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/general_edit_element_margin_top_bot" android:layout_marginBottom="@dimen/general_edit_element_margin_top_bot" android:singleLine="true" android:textAlignment="viewStart" android:layout_marginStart="@dimen/group_editor_header_group_label_margin_left" />
+    </LinearLayout>
+    <TextView android:gravity="start|center" android:id="@id/label" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/label_ringtone" style="@style/TextAppearance.Small" />
+    <TextView android:id="@id/data" android:focusable="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/general_edit_element_margin_top_bot" android:layout_marginBottom="@dimen/general_edit_element_margin_top_bot" android:text="@string/default_ringtone" style="?android:attr/spinnerStyle" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/group_editor_header_group_member_textview_wrapper_margin_top" android:layout_marginBottom="@dimen/group_editor_header_group_member_textview_wrapper_margin_bottom" android:paddingStart="@dimen/group_editor_header_padding_left" android:paddingEnd="@dimen/group_editor_header_padding_right">
+        <TextView android:layout_gravity="center_vertical" android:id="@id/group_member" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/spb_strings_members" android:textAllCaps="false" style="@style/TextAppearance.Medium.Marquee" />
+        <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:enabled="false" android:gravity="center" android:id="@id/add_members" android:focusable="false" android:layout_width="@dimen/group_editor_header_group_member_addmember_button_width" android:layout_height="@dimen/group_editor_header_group_member_addmember_button_height" android:text="@string/spb_strings_button_add_members" style="@style/TextAppearance.Small" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

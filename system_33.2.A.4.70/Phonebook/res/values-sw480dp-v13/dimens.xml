@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="editor_type_label_width">150.0dip</dimen>
+    <dimen name="dialpad_input_long_text_size">36.0dip</dimen>
+    <dimen name="dialpad_call_text_size">21.0dip</dimen>
+    <dimen name="calllog_land_date_text_size">14.0sp</dimen>
+    <dimen name="alphabar_text_size">16.0dip</dimen>
+    <dimen name="twelve_key_dialer_width">480.0dip</dimen>
+    <dimen name="twelve_key_dialer_digits_and_backspace_height">56.0dip</dimen>
+    <item type="dimen" name="twelve_key_dialer_backspace_width">@dimen/twelve_key_dialer_digits_and_backspace_height</item>
+    <dimen name="fab_call_top_margin">10.0dip</dimen>
+    <dimen name="contacts_list_alphabet_bar_width">32.0dip</dimen>
+    <dimen name="twelve_key_dialer_padding">60.0dip</dimen>
+</resources>

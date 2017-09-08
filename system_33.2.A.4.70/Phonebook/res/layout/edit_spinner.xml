@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/spinner_container"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Spinner android:id="@id/spinner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:spinnerMode="dropdown" android:paddingEnd="@dimen/editor_spinner_end_padding" />
+    <View android:id="@id/line" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="@dimen/raw_contact_edit_spinner_line_height" android:layout_marginTop="@dimen/editor_spinner_divider_margin_top" android:alpha="@dimen/raw_contact_edit_spinner_line_transparency" />
+</LinearLayout>

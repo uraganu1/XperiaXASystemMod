@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:id="@id/edit_group_image_wrapper" android:padding="@dimen/item_photo_editor_padding" android:layout_width="@dimen/action_bar_item_photo_editor_box_width" android:layout_height="@dimen/action_bar_item_photo_editor_box_height" android:layout_centerVertical="true" android:layout_marginStart="@dimen/item_photo_editor_margin_left" android:layout_alignParentStart="true">
+        <include android:id="@id/edit_group_image" layout="@layout/group_photo_editor" />
+    </LinearLayout>
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toEndOf="@id/edit_group_image_wrapper">
+        <TextView android:textColor="@android:color/white" android:ellipsize="marquee" android:gravity="start" android:id="@id/group_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_marginStart="@dimen/general_list_item_padding_start" android:layout_alignParentStart="true" style="@android:style/TextAppearance.DeviceDefault.Medium" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/group_title" android:layout_alignStart="@id/group_title">
+            <ImageView android:id="@id/account_icon" android:layout_width="@dimen/action_bar_account_icon_size" android:layout_height="@dimen/action_bar_account_icon_size" android:scaleType="centerInside" />
+            <TextView android:textColor="@android:color/white" android:ellipsize="marquee" android:gravity="top" android:id="@id/account_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_marginStart="@dimen/general_list_item_padding_start" style="@android:style/TextAppearance.DeviceDefault.Small" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

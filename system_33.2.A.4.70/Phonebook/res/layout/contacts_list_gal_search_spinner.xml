@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingTop="@dimen/contacts_list_item_relative_layout_padding_top" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:gravity="center" android:id="@id/spinner_progress_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateOnly="true" android:paddingEnd="@dimen/search_contact_item_photo_margin_end" style="?android:attr/progressBarStyle" />
+    <TextView android:gravity="center" android:id="@id/spinner_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/spb_contacts_list_gal_search_txt" />
+</LinearLayout>

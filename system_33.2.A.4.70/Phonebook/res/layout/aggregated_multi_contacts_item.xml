@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/contact" android:paddingTop="@dimen/aggregated_contact_dialog_contact_item_padding_top" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <QuickContactBadge android:id="@id/aggregated_contact_icon" android:layout_width="@dimen/contacts_list_item_photo_width" android:layout_height="@dimen/contacts_list_item_photo_height" android:scaleType="centerCrop" style="?android:attr/quickContactBadgeStyleSmallWindowMedium" />
+    <TextView android:id="@id/txt_aggregated_contact_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/aggregated_contact_dialog_contact_name_margin_left" style="@style/TextAppearance.Medium" />
+</LinearLayout>

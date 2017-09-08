@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spb_arrays_edit_option_list_add_image_txt">
+        <item>Gallery</item>
+        <item>Kuha ng bagong larawan</item>
+    </string-array>
+    <string-array name="spb_arrays_edit_option_list_add_album_image_txt">
+        <item>Album</item>
+        <item>Kuha ng bagong larawan</item>
+    </string-array>
+    <string-array name="otherLabels">
+        <item>Organisasyon</item>
+        <item>Tandaan</item>
+    </string-array>
+</resources>

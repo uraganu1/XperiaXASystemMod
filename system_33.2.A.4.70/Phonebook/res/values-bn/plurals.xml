@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="spb_strings_delete_deleting_failed_txt">
+        <item quantity="other">পরিচিতিগুলি মুছুন</item>
+        <item quantity="one">পরিচিতি মুছুন</item>
+    </plurals>
+    <plurals name="spb_strings_delete_multiple_delete_confirmation_txt">
+        <item quantity="other">নির্বাচিত পরিচিতি বিলোপ হয়ে যাবে</item>
+        <item quantity="one">নির্বাচিত পরিচিতি মোছা হবে</item>
+    </plurals>
+    <plurals name="spb_strings_delete_progress_deleting_contacts_txt">
+        <item quantity="other">পরিচিতিগুলি মোছা হচ্ছে</item>
+        <item quantity="one">পরিচিতি মোছা হচ্ছে</item>
+    </plurals>
+    <plurals name="spb_strings_delete_contact_deleted_txt">
+        <item quantity="other">পরিচিতি বিলোপ করা হয়েছে</item>
+        <item quantity="one">সম্পর্ক বিলোপ হয়েছে</item>
+    </plurals>
+    <plurals name="favorite_contactsAddedToast">
+        <item quantity="other">প্রিয়তে পরিচিতি যুক্ত করা হয়েছে</item>
+        <item quantity="one">প্রিয়তে পরিচিতি যুক্ত করা হয়েছে</item>
+    </plurals>
+    <plurals name="gal_completed_fmt">
+        <item quantity="other">%2$s থেকে %1$dটি ফলাফল</item>
+        <item quantity="one">%2$s থেকে 1টি ফলাফল</item>
+    </plurals>
+    <plurals name="spb_strings_group_available_data_count">
+        <item quantity="other">%2$d জন সদস্যের মধ্যে %1$d জন</item>
+        <item quantity="one">%2$d জন সদস্যের মধ্যে%1$d জন</item>
+    </plurals>
+    <plurals name="spb_strings_export_contacts_exported_txt">
+        <item quantity="other">পরিচিতিগুলি রপ্তানি করা হয়েছে</item>
+        <item quantity="one">পরিচিতিটি রপ্তানি করা হয়েছে</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">ভয়েসমেইল বার্তা (%1$d)</item>
+        <item quantity="one">ভয়েসমেল বার্তা</item>
+    </plurals>
+    <plurals name="ice_view_remove_contacts_from_ice_list_toast_info">
+        <item quantity="other">ICE পরিচিতিসমূহের তালিকা থেকে পরিচিতিসমূহ মুছে দিন</item>
+        <item quantity="one">ICE পরিচিতিসমূহের তালিকা থেকে পরিচিতি মুছে দিন</item>
+    </plurals>
+</resources>

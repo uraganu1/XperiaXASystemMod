@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spb_arrays_contacts_list_scroll_bar_characters_txt">
+        <item>أ</item>
+        <item>・</item>
+        <item>ث</item>
+        <item>・</item>
+        <item>خ</item>
+        <item>・</item>
+        <item>ر</item>
+        <item>・</item>
+        <item>ط</item>
+        <item>・</item>
+        <item>ك</item>
+        <item>・</item>
+        <item>ن</item>
+        <item>・</item>
+        <item>ي</item>
+        <item>\#</item>
+    </string-array>
+    <string-array name="spb_arrays_contacts_list_separator_characters_txt">
+        <item>أ,ا,إ</item>
+        <item>ب,ت</item>
+        <item>ث</item>
+        <item>ج,ح</item>
+        <item>خ</item>
+        <item>د,ذ</item>
+        <item>ر</item>
+        <item>ز,س,ش,ص,ض</item>
+        <item>ط</item>
+        <item>ظ,ع</item>
+        <item>غ</item>
+        <item>ف,ق,ك,ل,م</item>
+        <item>ن</item>
+        <item>ه,و</item>
+        <item>ي</item>
+        <item>\#</item>
+    </string-array>
+    <string-array name="spb_arrays_contacts_list_index_box_characters_txt">
+        <item>أ</item>
+        <item>أ</item>
+        <item>ث</item>
+        <item>ث</item>
+        <item>خ</item>
+        <item>خ</item>
+        <item>ر</item>
+        <item>ر</item>
+        <item>ط</item>
+        <item>ط</item>
+        <item>غ</item>
+        <item>غ</item>
+        <item>ن</item>
+        <item>ن</item>
+        <item>ي</item>
+        <item>\#</item>
+    </string-array>
+</resources>

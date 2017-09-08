@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Dialpad.Digit" parent="@style/Dialpad">
+        <item name="android:background">@drawable/dialpad_btn_background</item>
+        <item name="android:focusable">true</item>
+        <item name="android:soundEffectsEnabled">false</item>
+    </style>
+    <style name="Dialpad.DigitText" parent="@style/Dialpad">
+        <item name="android:textSize">@dimen/dialpad_digit_text_size</item>
+        <item name="android:textColor">?android:colorPrimary</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+    <style name="Dialpad.Label.Search" parent="@style/Dialpad.Label">
+        <item name="android:textSize">@dimen/dialpad_label_smartsearch_text_size</item>
+    </style>
+</resources>

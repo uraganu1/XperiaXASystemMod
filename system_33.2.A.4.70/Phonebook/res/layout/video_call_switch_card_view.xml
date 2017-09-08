@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:id="@id/container" android:background="?android:selectableItemBackground" android:paddingTop="@dimen/expanding_entry_card_item_padding_top" android:paddingBottom="@dimen/expanding_entry_card_item_padding_bottom" android:descendantFocusability="afterDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/expanding_entry_card_item_padding_start" android:paddingEnd="@dimen/expanding_entry_card_item_padding_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/expanding_entry_card_title_text_size" android:id="@id/video_call_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lte_video_call_switch" android:layout_alignParentStart="true" />
+    <Switch android:id="@id/video_call_switch" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true" />
+</RelativeLayout>

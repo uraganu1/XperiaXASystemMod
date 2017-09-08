@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@id/menu_call_log" android:visible="false">
+        <item android:id="@id/menu_conferences" android:visible="false" android:showAsAction="always" android:actionLayout="@layout/conferences_custom_action_item" />
+        <item android:icon="@drawable/contacts_phone_contacts" android:id="@id/menu_contacts" android:visible="true" android:title="@string/contactsListPickSearch" android:showAsAction="always" />
+        <item android:id="@id/menu_filter_voicemail" android:title="@string/calls_filter_voicemail" />
+        <item android:icon="@android:drawable/ic_menu_close_clear_cancel" android:id="@id/menu_delete_all" android:title="@string/recentCalls_deleteAll" />
+        <item android:id="@id/menu_filter_calllog" android:title="@string/spb_strings_filter_call_log_txt" />
+        <item android:id="@id/menu_call_setting" android:visible="true" android:title="@string/lte_menu_item_open_call_settings" />
+        <item android:id="@id/menu_answering_machine_settings" android:title="@string/call_log_settings_answering_machine_text" />
+        <item android:id="@id/menu_help" android:visible="false" android:title="@string/spb_strings_menu_item_help" android:showAsAction="never" />
+        <item android:id="@id/menu_send_feedback" android:title="@string/spb_strings_menu_send_feedback_txt" />
+    </group>
+</menu>

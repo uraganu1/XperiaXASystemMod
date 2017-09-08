@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/empty_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="?android:colorPrimary" android:id="@id/call_log_empty_header_recent_calls" android:paddingTop="@dimen/call_log_list_header_padding_top_bottom" android:paddingBottom="@dimen/call_log_list_header_padding_top_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/call_log_list_item_padding_start_end" android:paddingEnd="@dimen/call_log_list_item_padding_start_end" style="@android:style/TextAppearance.Material.Body2" />
+    <TextView android:gravity="center_horizontal" android:id="@id/call_log_empty" android:paddingTop="@dimen/call_log_list_empty_padding_top" android:focusableInTouchMode="false" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/recentCalls_empty" android:layout_marginStart="@dimen/call_log_list_empty_margin_start_end" android:layout_marginEnd="@dimen/call_log_list_empty_margin_start_end" style="@style/TextAppearance.Medium" />
+    <include layout="@layout/call_log_empty_initial_message" />
+</RelativeLayout>

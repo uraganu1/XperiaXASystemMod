@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/dialpad" android:paddingBottom="@dimen/fab_call_container_height" android:focusable="true" android:descendantFocusability="afterDescendants" android:layout_width="fill_parent" android:layout_height="@dimen/dialpad_height" android:baselineAligned="false" android:paddingStart="@dimen/dialer_padding" android:paddingEnd="@dimen/dialer_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:baselineAligned="false" android:layout_weight="15.0" android:layoutDirection="ltr">
+        <RelativeLayout android:id="@id/one" android:nextFocusUp="@id/digits" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:nextFocusForward="@id/fab_tabs" style="@style/Dialpad.Digit">
+            <TextView android:id="@id/oneNum" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lockscreen_strings_dialpad_1_txt" android:contentDescription="@string/spb_accessibility_one_and_voicemail_txt" style="@style/Dialpad.DigitText" />
+            <RelativeLayout android:layout_below="@id/oneNum" style="@style/DialpadLabelContainer">
+                <ImageView android:id="@id/voicemail_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/dialpad_voicemail_icn" android:tint="@color/dialpad_text_color" />
+                <TextView android:id="@id/oneSearchLabel" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialpad_search_label_1_txt" android:layout_toEndOf="@id/voicemail_icon" style="@style/Dialpad.Label.SmartSearchLabel" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/two" android:nextFocusUp="@id/digits" android:nextFocusDown="@id/five" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:nextFocusForward="@id/fab_tabs" style="@style/Dialpad.Digit">
+            <TextView android:id="@id/twoNum" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lockscreen_strings_dialpad_2_txt" style="@style/Dialpad.DigitText" />
+            <RelativeLayout android:layout_below="@id/twoNum" style="@style/DialpadLabelContainer">
+                <TextView android:id="@id/twoSearchLabel" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialpad_search_label_2_txt" android:layout_toEndOf="@id/twoLabel" style="@style/Dialpad.Label.SmartSearchLabel" />
+                <TextView android:id="@id/twoLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialpad_label_2_txt" style="@style/Dialpad.Label" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/three" android:nextFocusUp="@id/digits" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:nextFocusForward="@id/fab_tabs" style="@style/Dialpad.Digit">
+            <TextView android:id="@id/threeNum" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lockscreen_strings_dialpad_3_txt" style="@style/Dialpad.DigitText" />
+            <RelativeLayout android:layout_below="@id/threeNum" style="@style/DialpadLabelContainer">
+                <TextView android:id="@id/threeSearchLabel" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialpad_search_label_3_txt" android:layout_toEndOf="@id/threeLabel" style="@style/Dialpad.Label.SmartSearchLabel" />
+                <TextView android:id="@id/threeLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialpad_label_3_txt" style="@style/Dialpad.Label" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:baselineAligned="false" android:layout_weight="15.0" android:layoutDirection="ltr">
+        <RelativeLayout android:id="@id/four" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:nextFocusForward="@id/fab_tabs" style="@style/Dialpad.Digit">
+            <TextView android:id="@id/fourNum" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lockscreen_strings_dialpad_4_txt" style="@style/Dialpad.DigitText" />
+            <RelativeLayout android:layout_below="@id/fourNum" style="@style/DialpadLabelContainer">
+                <TextView android:id="@id/fourSearchLabel" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialpad_search_label_4_txt" android:layout_toEndOf="@id/fourLabel" style="@style/Dialpad.Label.SmartSearchLabel" />
+                <TextView android:id="@id/fourLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialpad_label_4_txt" style="@style/Dialpad.Label" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/five" android:nextFocusUp="@id/two" android:nextFocusDown="@id/eight" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:nextFocusForward="@id/fab_tabs" style="@style/Dialpad.Digit">
+            <TextView android:id="@id/fiveNum" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lockscreen_strings_dialpad_5_txt" style="@style/Dialpad.DigitText" />
+            <RelativeLayout android:layout_below="@id/fiveNum" style="@style/DialpadLabelContainer">
+                <TextView android:id="@id/fiveSearchLabel" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialpad_search_label_5_txt" android:layout_toEndOf="@id/fiveLabel" style="@style/Dialpad.Label.SmartSearchLabel" />
+                <TextView android:id="@id/fiveLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialpad_label_5_txt" style="@style/Dialpad.Label" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/six" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:nextFocusForward="@id/fab_tabs" style="@style/Dialpad.Digit">
+            <TextView android:id="@id/sixNum" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lockscreen_strings_dialpad_6_txt" style="@style/Dialpad.DigitText" />
+            <RelativeLayout android:layout_below="@id/sixNum" style="@style/DialpadLabelContainer">
+                <TextView android:id="@id/sixSearchLabel" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialpad_search_label_6_txt" android:layout_toEndOf="@id/sixLabel" style="@style/Dialpad.Label.SmartSearchLabel" />
+                <TextView android:id="@id/sixLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialpad_label_6_txt" style="@style/Dialpad.Label" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:baselineAligned="false" android:layout_weight="15.0" android:layoutDirection="ltr">
+        <RelativeLayout android:id="@id/seven" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:nextFocusForward="@id/fab_tabs" style="@style/Dialpad.Digit">
+            <TextView android:id="@id/sevenNum" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lockscreen_strings_dialpad_7_txt" style="@style/Dialpad.DigitText" />
+            <RelativeLayout android:layout_below="@id/sevenNum" style="@style/DialpadLabelContainer">
+                <TextView android:id="@id/sevenSearchLabel" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialpad_search_label_7_txt" android:layout_toEndOf="@id/sevenLabel" style="@style/Dialpad.Label.SmartSearchLabel" />
+                <TextView android:id="@id/sevenLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialpad_label_7_txt" style="@style/Dialpad.Label" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/eight" android:nextFocusUp="@id/five" android:nextFocusDown="@id/zero" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:nextFocusForward="@id/fab_tabs" style="@style/Dialpad.Digit">
+            <TextView android:id="@id/eightNum" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lockscreen_strings_dialpad_8_txt" style="@style/Dialpad.DigitText" />
+            <RelativeLayout android:layout_below="@id/eightNum" style="@style/DialpadLabelContainer">
+                <TextView android:id="@id/eightSearchLabel" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialpad_search_label_8_txt" android:layout_toEndOf="@id/eightLabel" style="@style/Dialpad.Label.SmartSearchLabel" />
+                <TextView android:id="@id/eightLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialpad_label_8_txt" style="@style/Dialpad.Label" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/nine" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:nextFocusForward="@id/fab_tabs" style="@style/Dialpad.Digit">
+            <TextView android:id="@id/nineNum" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lockscreen_strings_dialpad_9_txt" style="@style/Dialpad.DigitText" />
+            <RelativeLayout android:layout_below="@id/nineNum" style="@style/DialpadLabelContainer">
+                <TextView android:id="@id/nineSearchLabel" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialpad_search_label_9_txt" android:layout_toEndOf="@id/nineLabel" style="@style/Dialpad.Label.SmartSearchLabel" />
+                <TextView android:id="@id/nineLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialpad_label_9_txt" style="@style/Dialpad.Label" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:baselineAligned="false" android:layout_weight="17.0" android:layoutDirection="ltr">
+        <RelativeLayout android:id="@id/star" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:nextFocusForward="@id/fab_tabs" style="@style/Dialpad.Digit">
+            <TextView android:id="@id/starNum" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/general_dialpad_star_txt" android:layout_centerHorizontal="true" style="@style/Dialpad.DigitText.Star" />
+            <TextView android:id="@id/starSearchLabel" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialpad_search_label_star_txt" android:layout_below="@id/starNum" android:layout_centerHorizontal="true" style="@style/Dialpad.Label.SmartSearchLabel" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/zero" android:nextFocusUp="@id/eight" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:nextFocusForward="@id/fab_tabs" style="@style/Dialpad.Digit">
+            <TextView android:id="@id/zeroNum" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dialpad_zero_margin_bottom" android:text="@string/lockscreen_strings_dialpad_0_txt" style="@style/Dialpad.DigitText" />
+            <RelativeLayout android:layout_below="@id/zeroNum" style="@style/DialpadLabelContainer">
+                <TextView android:id="@id/zeroSearchLabel" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialpad_search_label_0_txt" android:layout_toEndOf="@id/zeroLabel" style="@style/Dialpad.Label.SmartSearchLabel" />
+                <TextView android:id="@id/zeroLabel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialpad_label_0_txt" android:includeFontPadding="false" style="@style/Dialpad.Label.Plus" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/pound" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:nextFocusForward="@id/fab_tabs" style="@style/Dialpad.Digit">
+            <TextView android:id="@id/poundNum" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/general_dialpad_hash_txt" android:layout_centerHorizontal="true" style="@style/Dialpad.DigitText.Pound" />
+            <TextView android:id="@id/poundSearchLabel" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dialpad_search_label_pound_txt" android:layout_below="@id/poundNum" android:layout_centerHorizontal="true" style="@style/Dialpad.Label.SmartSearchLabel" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckedTextView android:gravity="center_vertical" android:id="@android:id/text1" android:background="?android:selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checkMark="?android:listChoiceIndicatorMultiple" android:minHeight="?android:listPreferredItemHeightSmall" android:paddingStart="@dimen/general_contact_dialog_padding_start_end" android:paddingEnd="@dimen/general_contact_dialog_padding_start_end" style="@style/TextAppearance.Medium.Marquee"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

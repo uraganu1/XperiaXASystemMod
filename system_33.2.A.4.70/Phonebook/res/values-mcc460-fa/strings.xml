@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notification_wifi_calling">تماس ها از طریق WLAN انجام می شوند.</string>
+</resources>

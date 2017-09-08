@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/show_personal_info" android:title="@string/ice_view_menu_item_show_personal_information" android:checkable="true" android:showAsAction="collapseActionView" />
+    <item android:id="@id/edit_medical_info" android:title="@string/ice_view_menu_item_edit_medical_info" android:showAsAction="collapseActionView" />
+    <item android:id="@id/remove_ice_contacts" android:title="@string/ice_view_menu_item_remove_contacts_from_ice_list" android:showAsAction="collapseActionView" />
+    <item android:id="@id/ice_information" android:title="@string/ice_view_menu_item_information_about_ice" android:showAsAction="collapseActionView" />
+    <item android:id="@id/ice_settings" android:title="@string/spb_strings_gen_settings_txt" android:showAsAction="collapseActionView" />
+</menu>

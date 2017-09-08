@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="@dimen/group_browse_list_account_name_margin_top_bottom" android:paddingBottom="@dimen/group_browse_list_account_name_margin_top_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/list_item_generic_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/header_extra_top_padding" android:layout_width="fill_parent" android:layout_height="@dimen/general_list_horizontal_divider_height" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/account_icon" android:layout_width="@dimen/group_browse_list_account_header_icon_size" android:layout_height="@dimen/group_browse_list_account_header_icon_size" android:scaleType="centerInside" android:layout_marginEnd="@dimen/list_item_generic_margin" />
+        <TextView android:textColor="?android:colorPrimary" android:id="@id/account_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:textAlignment="viewStart" style="@android:style/TextAppearance.Material.Body2" />
+    </LinearLayout>
+</LinearLayout>

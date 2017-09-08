@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dialpad_height">164.0dip</dimen>
+    <dimen name="dialpad_star_text_margin_top">0.0dip</dimen>
+    <dimen name="dialpad_star_text_margin_bottom">0.0dip</dimen>
+    <dimen name="dialpad_pound_text_margin_top">0.0dip</dimen>
+    <dimen name="dialpad_digit_text_size">32.0dip</dimen>
+    <dimen name="dialpad_star_text_size">38.0dip</dimen>
+    <dimen name="dialpad_pound_text_size">24.0dip</dimen>
+    <dimen name="call_button_group_margin_bottom">7.0dip</dimen>
+    <dimen name="call_button_height">32.0dip</dimen>
+    <dimen name="call_log_list_empty_padding_top">50.0dip</dimen>
+    <dimen name="call_log_list_item_padding_top">2.0dip</dimen>
+    <dimen name="smart_search_list_margin_bottom">0.0dip</dimen>
+    <dimen name="smart_search_list_empty_padding_top">105.0dip</dimen>
+    <dimen name="twelve_key_dialer_width">285.0dip</dimen>
+    <dimen name="twelve_key_dialer_digits_and_backspace_height">43.0dip</dimen>
+    <item type="dimen" name="twelve_key_dialer_backspace_width">@dimen/twelve_key_dialer_digits_and_backspace_height</item>
+    <dimen name="select_contact_photo_imageview_size">105.0dip</dimen>
+    <dimen name="top_contacts_description_max_width">520.0dip</dimen>
+    <dimen name="search_bar_height">38.0dip</dimen>
+    <dimen name="search_bar_margin_top">9.0dip</dimen>
+    <dimen name="search_bar_margin_bottom">9.0dip</dimen>
+    <dimen name="fab_call_items_top_margin">10.0dip</dimen>
+    <dimen name="fab_call_items_bottom_margin">2.0dip</dimen>
+    <dimen name="fab_call_video_items_generic_margin">75.0dip</dimen>
+    <dimen name="conference_call_dialog_button_margin_end">8.0dip</dimen>
+    <item type="dimen" name="quickcontact_photo_ratio">0.7</item>
+    <dimen name="dialpad_label_smartsearch_text_size">8.0sp</dimen>
+    <dimen name="fab_call_bottom_margin">2.0dip</dimen>
+    <dimen name="call_log_search_bar_width">344.0dip</dimen>
+</resources>

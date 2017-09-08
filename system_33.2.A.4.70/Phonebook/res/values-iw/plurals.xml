@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="spb_strings_delete_deleting_failed_txt">
+        <item quantity="other">מחק אנשי קשר</item>
+        <item quantity="one">מחק איש קשר</item>
+    </plurals>
+    <plurals name="spb_strings_delete_multiple_delete_confirmation_txt">
+        <item quantity="other">אנשי הקשר שנבחרו יימחקו</item>
+        <item quantity="one">איש הקשר שנבחר יימחק</item>
+    </plurals>
+    <plurals name="spb_strings_delete_progress_deleting_contacts_txt">
+        <item quantity="other">מוחק אנשי קשר</item>
+        <item quantity="one">מוחק איש קשר</item>
+    </plurals>
+    <plurals name="spb_strings_delete_contact_deleted_txt">
+        <item quantity="other">אנשי קשר נמחקו</item>
+        <item quantity="one">איש קשר נמחק</item>
+    </plurals>
+    <plurals name="favorite_contactsAddedToast">
+        <item quantity="other">אנשי קשר נוספו למועדפים</item>
+        <item quantity="one">איש הקשר נוסף למועדפים</item>
+    </plurals>
+    <plurals name="gal_completed_fmt">
+        <item quantity="other">%1$d תוצאות מ-%2$s</item>
+        <item quantity="one">תוצאה אחת מ-%2$s</item>
+    </plurals>
+    <plurals name="spb_strings_group_available_data_count">
+        <item quantity="other">%1$d מתוך %2$d חברים</item>
+        <item quantity="one">‏%1$d מתוך %2$d חברים</item>
+    </plurals>
+    <plurals name="spb_strings_export_contacts_exported_txt">
+        <item quantity="other">אנשי קשר יוצאו</item>
+        <item quantity="one">איש קשר יוצא</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">הודעת דואר קולי (%1$d)</item>
+        <item quantity="one">הודעת תא קולי</item>
+    </plurals>
+    <plurals name="ice_view_remove_contacts_from_ice_list_toast_info">
+        <item quantity="other">אנשי קשר נוקו מרשימת אנשי הקשר של ICE</item>
+        <item quantity="one">איש הקשר נוקה מרשימת אנשי הקשר של ICE</item>
+    </plurals>
+</resources>

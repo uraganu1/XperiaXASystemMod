@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false">
+        <layer-list
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <item>
+                <shape android:shape="oval">
+                    <size android:height="@dimen/seek_bar_thumb_item1_oval_width" android:width="@dimen/seek_bar_thumb_item1_oval_height" />
+                    <solid android:color="@android:color/transparent" />
+                </shape>
+            </item>
+            <item android:left="@dimen/seek_bar_thumb_item2_oval_left" android:top="@dimen/seek_bar_thumb_item2_oval_top" android:right="@dimen/seek_bar_thumb_item2_oval_right" android:bottom="@dimen/seek_bar_thumb_item2_oval_bottom">
+                <shape android:shape="oval">
+                    <solid android:color="@android:color/transparent" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item>
+        <layer-list
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <item>
+                <shape android:shape="oval">
+                    <size android:height="@dimen/seek_bar_thumb_item1_oval_width" android:width="@dimen/seek_bar_thumb_item1_oval_height" />
+                    <solid android:color="@color/voicemail_playback_seek_bar_yet_out_oval" />
+                </shape>
+            </item>
+            <item android:left="@dimen/seek_bar_thumb_item2_oval_left" android:top="@dimen/seek_bar_thumb_item2_oval_top" android:right="@dimen/seek_bar_thumb_item2_oval_right" android:bottom="@dimen/seek_bar_thumb_item2_oval_bottom">
+                <shape android:shape="oval">
+                    <solid android:color="@color/voicemail_playback_seek_bar_already_played" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

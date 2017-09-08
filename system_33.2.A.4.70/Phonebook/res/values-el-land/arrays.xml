@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spb_arrays_contacts_list_scroll_bar_characters_txt">
+        <item>Α</item>
+        <item>・</item>
+        <item>Θ</item>
+        <item>・</item>
+        <item>Λ</item>
+        <item>・</item>
+        <item>Π</item>
+        <item>・</item>
+        <item>Υ</item>
+        <item>・</item>
+        <item>A</item>
+        <item>・</item>
+        <item>L</item>
+        <item>・</item>
+        <item>Z</item>
+        <item>\#</item>
+    </string-array>
+    <string-array name="spb_arrays_contacts_list_separator_characters_txt">
+        <item>Α</item>
+        <item>Β,Γ,Δ,Ε,Ζ,Η</item>
+        <item>Θ</item>
+        <item>Ι,Κ</item>
+        <item>Λ</item>
+        <item>Μ,Ν,Ξ,Ο</item>
+        <item>Π</item>
+        <item>Ρ,Σ,Τ</item>
+        <item>Υ</item>
+        <item>Φ,Χ,Ψ,Ω</item>
+        <item>A</item>
+        <item>B,C,D,E,F,G,H,I,J,K</item>
+        <item>L</item>
+        <item>M,N,O,P,Q,R,S,T,U,V,W,X,Y</item>
+        <item>Z</item>
+        <item>\#</item>
+    </string-array>
+    <string-array name="spb_arrays_contacts_list_index_box_characters_txt">
+        <item>Α</item>
+        <item>Α</item>
+        <item>Θ</item>
+        <item>Θ</item>
+        <item>Λ</item>
+        <item>Λ</item>
+        <item>Π</item>
+        <item>Π</item>
+        <item>Υ</item>
+        <item>Υ</item>
+        <item>A</item>
+        <item>A</item>
+        <item>L</item>
+        <item>L</item>
+        <item>Z</item>
+        <item>\#</item>
+    </string-array>
+</resources>

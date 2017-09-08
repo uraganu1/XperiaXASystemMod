@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/menu_link_contact" android:title="@string/spb_strings_gen_link_contact_txt" />
+    <item android:id="@id/menu_help" android:title="@string/menu_help" />
+    <item android:id="@id/menu_set_ringtone" android:title="@string/menu_set_ring_tone" android:showAsAction="never" />
+    <item android:id="@id/menu_send_to_voicemail" android:title="@string/menu_redirect_calls_to_vm" android:checkable="true" android:showAsAction="never" />
+</menu>

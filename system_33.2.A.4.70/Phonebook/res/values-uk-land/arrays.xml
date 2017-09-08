@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spb_arrays_contacts_list_scroll_bar_characters_txt">
+        <item>А</item>
+        <item>・</item>
+        <item>Д</item>
+        <item>・</item>
+        <item>І</item>
+        <item>・</item>
+        <item>О</item>
+        <item>・</item>
+        <item>У</item>
+        <item>・</item>
+        <item>Ь</item>
+        <item>A</item>
+        <item>・</item>
+        <item>M</item>
+        <item>・</item>
+        <item>Z</item>
+        <item>\#</item>
+    </string-array>
+    <string-array name="spb_arrays_contacts_list_separator_characters_txt">
+        <item>А</item>
+        <item>Б,В,Г,Ґ</item>
+        <item>Д</item>
+        <item>Е,Є,Ж,З,И</item>
+        <item>І</item>
+        <item>Ї,Й,К,Л,М,Н</item>
+        <item>О</item>
+        <item>П,Р,С,Т</item>
+        <item>У</item>
+        <item>Ф,Х,Ц,Ч,Ш,Щ,Ю,Я</item>
+        <item>Ь</item>
+        <item>A</item>
+        <item>B,C,D,E,F,G,H,I,J,K,L</item>
+        <item>M</item>
+        <item>N,O,P,Q,R,S,T,U,V,W,X,Y</item>
+        <item>Z</item>
+        <item>\#</item>
+    </string-array>
+    <string-array name="spb_arrays_contacts_list_index_box_characters_txt">
+        <item>А</item>
+        <item>А</item>
+        <item>Д</item>
+        <item>Д</item>
+        <item>І</item>
+        <item>І</item>
+        <item>О</item>
+        <item>О</item>
+        <item>У</item>
+        <item>У</item>
+        <item>Ь</item>
+        <item>A</item>
+        <item>A</item>
+        <item>M</item>
+        <item>M</item>
+        <item>Z</item>
+        <item>\#</item>
+    </string-array>
+</resources>

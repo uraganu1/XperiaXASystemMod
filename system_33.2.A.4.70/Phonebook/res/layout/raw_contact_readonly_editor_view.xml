@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.contacts.editor.RawContactReadOnlyEditorView android:orientation="vertical" android:paddingTop="@dimen/editor_padding_top" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/edit_contact_padding_start">
+        <include android:id="@id/edit_photo" layout="@layout/item_photo_editor" />
+        <TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="?android:textColorSecondary" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/read_only_name" android:layout_width="0.0dip" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="1.0" android:textIsSelectable="true" android:layout_marginEnd="@dimen/raw_contact_action_button_width" />
+    </LinearLayout>
+    <include layout="@layout/editor_account_header_with_dropdown" />
+    <include layout="@layout/raw_contact_readonly_editor_body" />
+</com.android.contacts.editor.RawContactReadOnlyEditorView>

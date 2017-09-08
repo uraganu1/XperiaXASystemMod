@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/raw_contact_edit_view_padding_top" android:paddingBottom="@dimen/raw_contact_edit_view_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/edit_contact_padding_start"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/edit_photo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/raw_contact_edit_photo_margin_end" layout="@layout/item_photo_editor" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/linked_contact_edit_name_selector_margin_end">
+        <Spinner android:id="@id/display_name_selector" android:paddingTop="@dimen/linked_contact_edit_name_selector_padding_top_bottom" android:paddingBottom="@dimen/linked_contact_edit_name_selector_padding_top_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:spinnerMode="dropdown" android:paddingStart="@dimen/linked_contact_edit_name_selector_padding_start" />
+    </LinearLayout>
+</LinearLayout>

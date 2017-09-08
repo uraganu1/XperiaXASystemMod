@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notification_wifi_calling">WLAN経由で通話を行います。</string>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="spb_strings_delete_deleting_failed_txt">
+        <item quantity="other">Διαγραφή επαφών</item>
+        <item quantity="one">Διαγραφή επαφής</item>
+    </plurals>
+    <plurals name="spb_strings_delete_multiple_delete_confirmation_txt">
+        <item quantity="other">Οι επιλεγμένες επαφές θα διαγραφούν</item>
+        <item quantity="one">Θα γίνει διαγραφή της επιλεγμένης επαφής</item>
+    </plurals>
+    <plurals name="spb_strings_delete_progress_deleting_contacts_txt">
+        <item quantity="other">Γίνεται διαγραφή επαφών</item>
+        <item quantity="one">Γίνεται διαγραφή επαφής</item>
+    </plurals>
+    <plurals name="spb_strings_delete_contact_deleted_txt">
+        <item quantity="other">Οι επαφές διαγράφηκαν</item>
+        <item quantity="one">Η επαφή διαγράφηκε</item>
+    </plurals>
+    <plurals name="favorite_contactsAddedToast">
+        <item quantity="other">Οι επαφές προστέθηκαν στα αγαπημένα</item>
+        <item quantity="one">Η επαφή προστέθηκε στα αγαπημένα</item>
+    </plurals>
+    <plurals name="gal_completed_fmt">
+        <item quantity="other">%1$d αποτελέσματα από %2$s</item>
+        <item quantity="one">1 αποτέλεσμα από %2$s</item>
+    </plurals>
+    <plurals name="spb_strings_group_available_data_count">
+        <item quantity="other">%1$d από %2$d μέλη</item>
+        <item quantity="one">%1$d από %2$d μέλος</item>
+    </plurals>
+    <plurals name="spb_strings_export_contacts_exported_txt">
+        <item quantity="other">Έγινε εξαγωγή επαφών</item>
+        <item quantity="one">Έγινε εξαγωγή της επαφής</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">Μηνύματα αυτ. τηλεφωνητή (%1$d)</item>
+        <item quantity="one">Μήνυμα αυτ. τηλεφωνητή</item>
+    </plurals>
+    <plurals name="ice_view_remove_contacts_from_ice_list_toast_info">
+        <item quantity="other">Οι επαφές διαγράφηκαν από τη λίστα των επαφών ICE</item>
+        <item quantity="one">Η επαφή διαγράφηκε από τη λίστα των επαφών ICE</item>
+    </plurals>
+</resources>

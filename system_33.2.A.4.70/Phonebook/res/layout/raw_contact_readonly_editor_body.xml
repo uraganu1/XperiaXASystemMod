@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/button_edit_externally" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/edit_contact_edit_externally_margin" android:layout_marginBottom="@dimen/edit_contact_edit_externally_margin" android:text="@string/edit_contact" android:layout_marginStart="@dimen/edit_contact_edit_externally_margin" />
+    <LinearLayout android:orientation="vertical" android:id="@id/sect_general" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/raw_contact_sect_fields_margin_top" android:layout_marginBottom="@dimen/raw_contact_sect_fields_margin_bottom" />
+</merge>

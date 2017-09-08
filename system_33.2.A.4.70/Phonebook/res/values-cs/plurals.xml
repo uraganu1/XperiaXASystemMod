@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="spb_strings_delete_deleting_failed_txt">
+        <item quantity="other">Odstranit kontakty</item>
+        <item quantity="one">Odstranit kontakt</item>
+    </plurals>
+    <plurals name="spb_strings_delete_multiple_delete_confirmation_txt">
+        <item quantity="other">Vybrané kontakty budou odstraněny</item>
+        <item quantity="one">Vybraný kontakt bude odstraněn</item>
+    </plurals>
+    <plurals name="spb_strings_delete_progress_deleting_contacts_txt">
+        <item quantity="other">Probíhá odstraňování kontaktů</item>
+        <item quantity="one">Probíhá odstraňování kontaktu</item>
+    </plurals>
+    <plurals name="spb_strings_delete_contact_deleted_txt">
+        <item quantity="other">Kontakty byly odstraněny</item>
+        <item quantity="one">Kontakt byl odstraněn.</item>
+    </plurals>
+    <plurals name="favorite_contactsAddedToast">
+        <item quantity="other">Kontakty byly přidány do oblíbených</item>
+        <item quantity="one">Kontakt byl přidán do oblíbených</item>
+    </plurals>
+    <plurals name="gal_completed_fmt">
+        <item quantity="other">Počet výsledků: %1$d z webu %2$s</item>
+        <item quantity="one">1 výsledek z webu %2$s</item>
+    </plurals>
+    <plurals name="spb_strings_group_available_data_count">
+        <item quantity="other">%1$d z %2$d členů</item>
+        <item quantity="one">%1$d z %2$d člena</item>
+    </plurals>
+    <plurals name="spb_strings_export_contacts_exported_txt">
+        <item quantity="other">Kontakty byly exportovány</item>
+        <item quantity="one">Kontakt byl exportován</item>
+    </plurals>
+    <plurals name="notification_voicemail_title">
+        <item quantity="other">Hlasové zprávy (%1$d)</item>
+        <item quantity="one">Hlasová zpráva</item>
+    </plurals>
+    <plurals name="ice_view_remove_contacts_from_ice_list_toast_info">
+        <item quantity="other">Kontakty byly odstraněny ze seznamu ICE</item>
+        <item quantity="one">Kontakt byl odstraněn ze seznamu ICE</item>
+    </plurals>
+</resources>

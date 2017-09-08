@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight" android:paddingStart="@dimen/general_contact_dialog_padding_start_end" android:paddingEnd="@dimen/general_contact_dialog_padding_start_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/account_icon" android:layout_width="@dimen/item_account_icon_size" android:layout_height="@dimen/item_account_icon_size" android:scaleType="fitCenter" android:layout_marginEnd="@dimen/photo_margin_end" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:id="@id/account_type" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textAlignment="viewStart" style="@style/TextAppearance.Medium.Marquee" />
+        <TextView android:textColor="?android:textColorSecondary" android:id="@id/account_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textAlignment="viewStart" style="@style/TextAppearance.Small.Marquee" />
+    </LinearLayout>
+</LinearLayout>

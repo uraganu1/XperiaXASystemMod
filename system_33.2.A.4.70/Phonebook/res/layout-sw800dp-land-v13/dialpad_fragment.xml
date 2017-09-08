@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@+layout/dialpad_toolbar" />
+    <RelativeLayout android:background="@color/generic_primary_background_color" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/smartsearch_fragment_container" android:background="?android:colorBackground" android:paddingBottom="@dimen/smart_search_padding_bottom" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="@dimen/dialer_tablet_margin" android:layout_marginEnd="@dimen/dialer_tablet_margin" android:elevation="@dimen/twelve_key_dialer_elevation" />
+        <FrameLayout android:id="@id/twelve_key_dialer_fragment_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/dialer_tablet_margin" android:layout_marginEnd="@dimen/dialer_tablet_margin" android:elevation="@dimen/twelve_key_dialer_elevation" />
+        <FrameLayout android:id="@id/call_button_container" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="@dimen/fab_call_container_height" android:layout_alignParentBottom="true" android:layout_centerInParent="true" android:elevation="@dimen/twelve_key_dialer_elevation">
+            <include android:layout_gravity="center" android:id="@id/fab_call" android:visibility="gone" android:layout_width="@dimen/fab_size" android:layout_height="@dimen/fab_size" layout="@layout/floating_call_button" />
+            <include android:id="@id/dual_call_button_group" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/call_button_height" layout="@layout/dual_call_button_group" />
+        </FrameLayout>
+    </RelativeLayout>
+</LinearLayout>

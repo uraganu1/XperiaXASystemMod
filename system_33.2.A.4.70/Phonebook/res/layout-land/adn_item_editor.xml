@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sonyericsson.android.socialphonebook.ui.widget.AdnEditorView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:gravity="start|center" android:id="@id/edit_title" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/general_edit_element_normal_margin_left" android:layout_marginEnd="@dimen/general_edit_element_normal_margin_left" />
+    <LinearLayout android:orientation="vertical" android:id="@id/editor_wrap" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/edit_title">
+        <LinearLayout android:orientation="vertical" android:id="@id/edit_fields" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:layout_marginEnd="0.0dip" />
+    </LinearLayout>
+</com.sonyericsson.android.socialphonebook.ui.widget.AdnEditorView>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="favorite_contactsAddedToast">
+        <item quantity="other">Contacts added to favorites</item>
+        <item quantity="one">Contact added to favorites</item>
+    </plurals>
+</resources>

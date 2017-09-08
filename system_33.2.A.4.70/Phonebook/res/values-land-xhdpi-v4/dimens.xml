@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="calllog_land_date_text_size">14.0sp</dimen>
+    <dimen name="twelve_key_dialer_width">285.0dip</dimen>
+    <dimen name="item_generic_editor_edit_label_margin_left">8.0dip</dimen>
+    <dimen name="item_generic_editor_edit_label_margin_right">8.0dip</dimen>
+    <item type="dimen" name="favorites_grid_margin">@dimen/favorites_pane_padding</item>
+    <dimen name="favorites_name_margin_start">10.0dip</dimen>
+    <dimen name="favorites_name_margin_end">10.0dip</dimen>
+</resources>

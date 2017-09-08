@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TwoLineListItem android:gravity="center_vertical" android:paddingTop="@dimen/general_contact_dialog_padding_top_bottom" android:paddingBottom="@dimen/general_contact_dialog_padding_top_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight" android:mode="twoLine" android:paddingStart="@dimen/general_contact_dialog_padding_start_end" android:paddingEnd="@dimen/general_contact_dialog_padding_start_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@android:id/text1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textAlignment="viewStart" style="@style/TextAppearance.Medium.Marquee" />
+    <TextView android:textColor="?android:textColorSecondary" android:id="@android:id/text2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@android:id/text1" android:textAlignment="viewStart" android:layout_alignStart="@android:id/text1" style="@style/TextAppearance.Small.Marquee" />
+</TwoLineListItem>

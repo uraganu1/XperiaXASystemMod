@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spb_arrays_contacts_list_scroll_bar_characters_txt">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>Š</item>
+        <item>Z</item>
+        <item>Ž</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>Õ</item>
+        <item>Ä</item>
+        <item>Ö</item>
+        <item>Ü</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>\#</item>
+    </string-array>
+    <string-array name="spb_arrays_contacts_list_separator_characters_txt">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>Š</item>
+        <item>Z</item>
+        <item>Ž</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>Õ</item>
+        <item>Ä</item>
+        <item>Ö</item>
+        <item>Ü</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>\#</item>
+    </string-array>
+    <string-array name="spb_arrays_contacts_list_index_box_characters_txt">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>Š</item>
+        <item>Z</item>
+        <item>Ž</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>Õ</item>
+        <item>Ä</item>
+        <item>Ö</item>
+        <item>Ü</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>\#</item>
+    </string-array>
+    <string-array name="spb_arrays_edit_option_list_add_image_txt">
+        <item>Galerii</item>
+        <item>Pildista uus</item>
+    </string-array>
+    <string-array name="spb_arrays_edit_option_list_add_album_image_txt">
+        <item>Album</item>
+        <item>Pildista uus</item>
+    </string-array>
+    <string-array name="otherLabels">
+        <item>Ettevõte</item>
+        <item>Märge</item>
+    </string-array>
+</resources>
