@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">অ্যাপ্লিকেশন সেটিং</string>
+    <string name="sonyericsson_settings_title">Xperia™</string>
+    <string name="permlab_settings">অ্যাকসেস সেটিং</string>
+    <string name="permdesc_settings">সেটিং অ্যাকসেস করার জন্য অ্যাপ্লিকেশনকে অনুমতি দিন।</string>
+    <string name="system_icon_settings_menu_title">পরিস্থিতি বার আইকন</string>
+    <string name="system_icon_settings_title">সিস্টেম আইকন</string>
+    <string name="system_icon_settings_description">যে সিস্টেম আইকনগুলিকে স্থিতি বারে ডিসপ্লে হবে সেগুলি নির্বাচন করুন</string>
+    <string name="system_icon_bluetooth_slot_title">Bluetooth</string>
+    <string name="system_icon_nfc_slot_title">NFC</string>
+    <string name="system_icon_super_stamina_slot_title">STAMINA</string>
+    <string name="system_icon_volume_slot_title">বিরক্ত করবেন না</string>
+    <string name="system_icon_wifi_slot_title">Wi-Fi</string>
+    <string name="system_icon_battery_slot_title">ব্যাটারি</string>
+    <string name="system_icon_alarm_clock_slot_title">অ্যালার্ম</string>
+    <string name="system_icon_clock_slot_title">টাইমার</string>
+    <string name="system_icon_battery_percent_view_title">ব্যাটারির পরিমাণ</string>
+    <string name="system_icon_location_slot_title">অবস্থান</string>
+    <string name="app_notifications_title">অ্যাপ বিজ্ঞপ্তিগুলি</string>
+    <string name="notification_most_recent_tab_title">অতি সাম্প্রতিক</string>
+    <string name="notification_downloaded_tab_title">ডাউনলোড করুন</string>
+    <string name="notification_all_apps_tab_title">সব</string>
+    <string name="app_notification_row_banned">অবরুদ্ধ</string>
+    <string name="app_notification_row_priority">গুরুত্ব</string>
+    <string name="app_notification_row_sensitive">সংবেদনশীল</string>
+</resources>

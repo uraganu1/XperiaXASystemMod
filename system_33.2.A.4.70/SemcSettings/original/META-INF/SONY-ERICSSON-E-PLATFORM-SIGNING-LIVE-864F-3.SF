@@ -1,0 +1,67 @@
+Signature-Version: 1.0
+Created-By: 1.0 (signatory)
+SHA1-Digest-Manifest: C91PHjIP/sHspMlTTGflmT3K6i0=
+
+Name: AndroidManifest.xml
+SHA1-Digest: re2nInnAZ0xTYUcJ7EFzWX5mV70=
+
+Name: res/drawable-xxhdpi-v4/ic_settings_alarm.png
+SHA1-Digest: p6htG2tT9wBWjPrwM1Lp4gynoT4=
+
+Name: res/drawable-xxhdpi-v4/ic_settings_battery_perc.png
+SHA1-Digest: TB60pSFgxlaFKj+7tsInnt0cKs0=
+
+Name: res/drawable-xxhdpi-v4/ic_settings_battery_perc_disabled.png
+SHA1-Digest: sss93x+w28ZCRK/vFhCvd/5HvFA=
+
+Name: res/drawable-xxhdpi-v4/ic_settings_batterystatus.png
+SHA1-Digest: pNZg+OnjcAFo1VRdTCMoEdFfI8g=
+
+Name: res/drawable-xxhdpi-v4/ic_settings_bluetooth.png
+SHA1-Digest: w76/hEHc5yWH2vS/6grbs9U4eto=
+
+Name: res/drawable-xxhdpi-v4/ic_settings_location.png
+SHA1-Digest: gZXnWh0MhgHnnTK9Eio0a/620vI=
+
+Name: res/drawable-xxhdpi-v4/ic_settings_silentmode.png
+SHA1-Digest: WKv4QUQ/7P8sRoCIOxHvrruyu9w=
+
+Name: res/drawable-xxhdpi-v4/ic_settings_stamina.png
+SHA1-Digest: 8dpJC4UCB+QruqtT35wa/+6QFXA=
+
+Name: res/drawable-xxhdpi-v4/ic_settings_stamina_disabled.png
+SHA1-Digest: y+8WmODOsnBpi91SSsKTy/ysCzs=
+
+Name: res/drawable-xxhdpi-v4/ic_settings_time.png
+SHA1-Digest: PoY6mWazRQCxlRT4E8AePEYEUjU=
+
+Name: res/drawable-xxhdpi-v4/ic_settings_wifi.png
+SHA1-Digest: e62Cw6KzbJUZY5sFFLyQEQaCEMg=
+
+Name: res/drawable/ic_settings_battery_percent.xml
+SHA1-Digest: PQeFC+zvzLoxcSpfHEBrJIs5B6o=
+
+Name: res/drawable/ic_settings_stamina_mode.xml
+SHA1-Digest: RuxQTed+gsCk23pBDuNMl0lMCCE=
+
+Name: res/layout/main.xml
+SHA1-Digest: F6gXPqQcFgw/Yc52lj47SOIKt7U=
+
+Name: res/layout/notification_list.xml
+SHA1-Digest: 94JBBMDK/kL1WZr2AdnjNL45Y2E=
+
+Name: res/layout/notification_listitem.xml
+SHA1-Digest: Om51PQTZWnxXPxTHZSV0EA4c6Is=
+
+Name: res/layout/notification_tab_host.xml
+SHA1-Digest: xElH9wmz2j8rdm2ymvSJjd9dXo8=
+
+Name: res/layout/system_icon_list.xml
+SHA1-Digest: c6nVWlR9RDhpXR196UUqqhFUy5A=
+
+Name: res/layout/system_icon_listitem.xml
+SHA1-Digest: HOZ13OkF3tUoYyemptGSrC/NF3k=
+
+Name: resources.arsc
+SHA1-Digest: OmJXOfKcxq34vO+ptbCuheZuE1A=
+

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nastavenie aplikácie</string>
+    <string name="sonyericsson_settings_title">Xperia™</string>
+    <string name="permlab_settings">prístup k nastaveniam</string>
+    <string name="permdesc_settings">Povoľuje aplikácii prístup k nastaveniam.</string>
+    <string name="system_icon_settings_menu_title">Ikony stavového riadka</string>
+    <string name="system_icon_settings_title">Systémové ikony</string>
+    <string name="system_icon_settings_description">Výber systémových ikon, ktoré sa majú zobrazovať v stavovom riadku</string>
+    <string name="system_icon_bluetooth_slot_title">Bluetooth</string>
+    <string name="system_icon_nfc_slot_title">NFC</string>
+    <string name="system_icon_super_stamina_slot_title">STAMINA</string>
+    <string name="system_icon_volume_slot_title">Nerušiť</string>
+    <string name="system_icon_wifi_slot_title">Wi-Fi</string>
+    <string name="system_icon_battery_slot_title">Batéria</string>
+    <string name="system_icon_alarm_clock_slot_title">Budík</string>
+    <string name="system_icon_clock_slot_title">Čas</string>
+    <string name="system_icon_battery_percent_view_title">Percentá batérie</string>
+    <string name="system_icon_location_slot_title">Poloha</string>
+    <string name="app_notifications_title">Upozornenia aplikácií</string>
+    <string name="notification_most_recent_tab_title">Najnovšie</string>
+    <string name="notification_downloaded_tab_title">Prevzaté</string>
+    <string name="notification_all_apps_tab_title">Všetko</string>
+    <string name="app_notification_row_banned">Blokované</string>
+    <string name="app_notification_row_priority">Priorita</string>
+    <string name="app_notification_row_sensitive">Citlivé</string>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="config_iconItemsString">
+        <item>bluetooth;ic_settings_bluetooth</item>
+        <item>volume;ic_settings_silentmode</item>
+        <item>wifi;ic_settings_wifi</item>
+        <item>battery;ic_settings_batterystatus</item>
+        <item>battery_percent;ic_settings_battery_percent</item>
+        <item>alarm_clock;ic_settings_alarm</item>
+        <item>clock;ic_settings_time</item>
+        <item>location;ic_settings_location</item>
+        <item>stamina;ic_settings_stamina_mode</item>
+    </string-array>
+    <string-array name="config_textItemsString">
+        <item>bluetooth;system_icon_bluetooth_slot_title</item>
+        <item>volume;system_icon_volume_slot_title</item>
+        <item>wifi;system_icon_wifi_slot_title</item>
+        <item>battery;system_icon_battery_slot_title</item>
+        <item>battery_percent;system_icon_battery_percent_view_title</item>
+        <item>alarm_clock;system_icon_alarm_clock_slot_title</item>
+        <item>clock;system_icon_clock_slot_title</item>
+        <item>location;system_icon_location_slot_title</item>
+        <item>stamina;system_icon_super_stamina_slot_title</item>
+    </string-array>
+    <string-array name="config_usedSystemIcons">
+        <item>alarm_clock</item>
+        <item>battery</item>
+        <item>battery_percent</item>
+        <item>bluetooth</item>
+        <item>clock</item>
+        <item>wifi</item>
+        <item>location</item>
+    </string-array>
+    <string-array name="config_restrictedUserSystemIcons">
+        <item>alarm_clock</item>
+        <item>battery</item>
+        <item>bluetooth</item>
+        <item>clock</item>
+        <item>wifi</item>
+        <item>location</item>
+    </string-array>
+</resources>

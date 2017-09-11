@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ആപ്ലിക്കേഷന്‍ ക്രമീക.</string>
+    <string name="sonyericsson_settings_title">Xperia™</string>
+    <string name="permlab_settings">പ്രവേശനം നേടല്‍ ക്.</string>
+    <string name="permdesc_settings">ക്രമീകരണങ്ങളിലേക്ക് പ്രവേശിക്കാന്‍ ആപ്ലിക്കേഷനെ.</string>
+    <string name="system_icon_settings_menu_title">സ്റ്റാറ്റസ് ബാർ ചിഹ്നങ്ങൾ</string>
+    <string name="system_icon_settings_title">സിസ്റ്റം ചിഹ്നങ്ങൾ</string>
+    <string name="system_icon_settings_description">സ്റ്റാറ്റസ് ബാറിൽ ഏതൊക്കെ ഐക്കണുകൾ പ്രദർശിപ്പിക്കണമെന്ന് തിരഞ്ഞെടുക്കുക</string>
+    <string name="system_icon_bluetooth_slot_title">Bluetooth</string>
+    <string name="system_icon_nfc_slot_title">NFC</string>
+    <string name="system_icon_super_stamina_slot_title">STAMINA</string>
+    <string name="system_icon_volume_slot_title">ശല്യപ്പെടുത്തരുത്</string>
+    <string name="system_icon_wifi_slot_title">Wi-Fi</string>
+    <string name="system_icon_battery_slot_title">ബാറ്ററി</string>
+    <string name="system_icon_alarm_clock_slot_title">അലാറം</string>
+    <string name="system_icon_clock_slot_title">സമയം</string>
+    <string name="system_icon_battery_percent_view_title">ബാറ്ററി ശതമാനം</string>
+    <string name="system_icon_location_slot_title">സ്ഥാനം</string>
+    <string name="app_notifications_title">അപ്ലിക്കേഷൻ അറിയിപ്പുകൾ</string>
+    <string name="notification_most_recent_tab_title">ഏറ്റവും സമകാലികം</string>
+    <string name="notification_downloaded_tab_title">ഡൗൺ. ചെ.</string>
+    <string name="notification_all_apps_tab_title">എല്ലാം</string>
+    <string name="app_notification_row_banned">തടഞ്ഞു</string>
+    <string name="app_notification_row_priority">മുന്‍‌ഗണന</string>
+    <string name="app_notification_row_sensitive">സെൻസി‌റ്റീവ്</string>
+</resources>

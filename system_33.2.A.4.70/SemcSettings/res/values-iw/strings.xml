@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">הגדרות יישום</string>
+    <string name="sonyericsson_settings_title">‏Xperia™‎</string>
+    <string name="permlab_settings">קבל גישה להגדרות</string>
+    <string name="permdesc_settings">אפשר ליישום לגשת להגדרות</string>
+    <string name="system_icon_settings_menu_title">סמלי שורת מצב</string>
+    <string name="system_icon_settings_title">סמלי מערכת</string>
+    <string name="system_icon_settings_description">בחר אילו סמלי מערכת יוצגו בשורת המצב</string>
+    <string name="system_icon_bluetooth_slot_title">‏Bluetooth</string>
+    <string name="system_icon_nfc_slot_title">NFC</string>
+    <string name="system_icon_super_stamina_slot_title">STAMINA</string>
+    <string name="system_icon_volume_slot_title">מצב לא להפריע</string>
+    <string name="system_icon_wifi_slot_title">Wi-Fi</string>
+    <string name="system_icon_battery_slot_title">סוללה</string>
+    <string name="system_icon_alarm_clock_slot_title">התראה</string>
+    <string name="system_icon_clock_slot_title">שעה</string>
+    <string name="system_icon_battery_percent_view_title">אחוז סוללה</string>
+    <string name="system_icon_location_slot_title">מיקום</string>
+    <string name="app_notifications_title">הודעות אפליקציה</string>
+    <string name="notification_most_recent_tab_title">אחרונים</string>
+    <string name="notification_downloaded_tab_title">הורדו</string>
+    <string name="notification_all_apps_tab_title">הכל</string>
+    <string name="app_notification_row_banned">חסום</string>
+    <string name="app_notification_row_priority">עדיפות</string>
+    <string name="app_notification_row_sensitive">רגיש</string>
+</resources>

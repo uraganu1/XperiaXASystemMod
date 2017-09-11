@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ApplicationSettings</string>
+    <string name="sonyericsson_settings_title">Xperia™</string>
+    <string name="permlab_settings">एक्सेस सेटिंग</string>
+    <string name="permdesc_settings">अनुप्रयोग को सेटिंग एक्सेस करने की अनुमति देता है.</string>
+    <string name="system_icon_settings_menu_title">स्टेटस बार आइकन</string>
+    <string name="system_icon_settings_title">सिस्टम आइकॉन</string>
+    <string name="system_icon_settings_description">स्टेटस बार में किन सिस्टम आइकॉन को डिस्प्ले करना है इसका चयन करें</string>
+    <string name="system_icon_bluetooth_slot_title">Bluetooth</string>
+    <string name="system_icon_nfc_slot_title">NFC</string>
+    <string name="system_icon_super_stamina_slot_title">STAMINA</string>
+    <string name="system_icon_volume_slot_title">परेशान न करें</string>
+    <string name="system_icon_wifi_slot_title">Wi-Fi</string>
+    <string name="system_icon_battery_slot_title">बैटरी</string>
+    <string name="system_icon_alarm_clock_slot_title">अलार्म</string>
+    <string name="system_icon_clock_slot_title">समय</string>
+    <string name="system_icon_battery_percent_view_title">बैटरी अनुपात</string>
+    <string name="system_icon_location_slot_title">स्थान</string>
+    <string name="app_notifications_title">ऐप्स सूचनाएं</string>
+    <string name="notification_most_recent_tab_title">नवीनतम</string>
+    <string name="notification_downloaded_tab_title">डाउनलोड किया गया</string>
+    <string name="notification_all_apps_tab_title">सभी</string>
+    <string name="app_notification_row_banned">अवरोधित</string>
+    <string name="app_notification_row_priority">प्राथमिकता</string>
+    <string name="app_notification_row_sensitive">संवेदनशील</string>
+</resources>

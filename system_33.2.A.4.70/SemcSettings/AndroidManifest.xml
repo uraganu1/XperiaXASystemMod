@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:sharedUserId="android.uid.system" package="com.sonyericsson.settings" platformBuildVersionCode="23" platformBuildVersionName="6.0.1">
+    <permission android:description="@string/permdesc_settings" android:label="@string/permlab_settings" android:name="com.sonyericsson.permission.SETTINGS" android:protectionLevel="signatureOrSystem"/>
+    <uses-permission android:name="com.sonyericsson.r2r.client.permission.START_R2R"/>
+    <uses-permission android:name="com.sonyericsson.permission.SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"/>
+    <uses-permission android:name="android.permission.STATUS_BAR"/>
+    <uses-permission android:name="com.sonymobile.permission.XSSM_PROVIDER"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS"/>
+    <uses-permission android:name="android.permission.BROADCAST_STICKY"/>
+    <application android:allowBackup="false" android:label="@string/app_name" android:supportsRtl="true" android:theme="@style/SEMCSettings">
+        <activity android:label="@string/system_icon_settings_title" android:name="com.sonymobile.settings.systemicon.SystemIconSettings">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="com.sonymobile.intent.action.SYSTEMICON_SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="com.sonymobile.settings.preference.TITLE" android:resource="@string/system_icon_settings_title"/>
+            <meta-data android:name="com.sonymobile.settings.preference.SUMMARY" android:resource="@string/system_icon_settings_description"/>
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.android.settings.Settings"/>
+        </activity>
+        <activity android:label="@string/app_notifications_title" android:name="com.sonymobile.settings.notifications.NotificationSettings">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="com.sonymobile.intent.action.NOTIFICATION_SETTINGS"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <meta-data android:name="com.sonymobile.settings.preference.TITLE" android:resource="@string/app_notifications_title"/>
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.android.settings.Settings"/>
+        </activity>
+        <receiver android:name="com.sonymobile.settings.SettingsPreBootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.PRE_BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

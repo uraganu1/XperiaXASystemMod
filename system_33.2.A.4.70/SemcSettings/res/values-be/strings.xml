@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Налады прыкладання</string>
+    <string name="sonyericsson_settings_title">Xperia™</string>
+    <string name="permlab_settings">доступ да параметраў</string>
+    <string name="permdesc_settings">Дазваляе прыкладанню атрымліваць доступ да параметраў.</string>
+    <string name="system_icon_settings_menu_title">Значкі радка стану</string>
+    <string name="system_icon_settings_title">Сістэмныя значкі</string>
+    <string name="system_icon_settings_description">Выберыце, якія сістэмныя значкі адлюстроўваць у радку стану</string>
+    <string name="system_icon_bluetooth_slot_title">Bluetooth</string>
+    <string name="system_icon_nfc_slot_title">NFC</string>
+    <string name="system_icon_super_stamina_slot_title">STAMINA</string>
+    <string name="system_icon_volume_slot_title">Не турбаваць</string>
+    <string name="system_icon_wifi_slot_title">Wi-Fi</string>
+    <string name="system_icon_battery_slot_title">Акумулятар</string>
+    <string name="system_icon_alarm_clock_slot_title">Будзільнік</string>
+    <string name="system_icon_clock_slot_title">Час</string>
+    <string name="system_icon_battery_percent_view_title">Працэнт зараду акумул.</string>
+    <string name="system_icon_location_slot_title">Месцазнаходжанне</string>
+    <string name="app_notifications_title">Апавяшчэнні прыкладання</string>
+    <string name="notification_most_recent_tab_title">Самыя нядаўнія</string>
+    <string name="notification_downloaded_tab_title">Спампаваныя</string>
+    <string name="notification_all_apps_tab_title">Усе</string>
+    <string name="app_notification_row_banned">Заблакавана</string>
+    <string name="app_notification_row_priority">Прыярытэт</string>
+    <string name="app_notification_row_sensitive">Адчувальны</string>
+</resources>

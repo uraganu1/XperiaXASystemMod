@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ApplicationSettings</string>
+    <string name="sonyericsson_settings_title">Xperia™</string>
+    <string name="permlab_settings">설정 접속</string>
+    <string name="permdesc_settings">응용프로그램이 설정에 접속할 수 있습니다.</string>
+    <string name="system_icon_settings_menu_title">상태 표시줄 아이콘</string>
+    <string name="system_icon_settings_title">시스템 아이콘</string>
+    <string name="system_icon_settings_description">상태 표시줄에 표시할 시스템 아이콘 선택</string>
+    <string name="system_icon_bluetooth_slot_title">블루투스</string>
+    <string name="system_icon_nfc_slot_title">NFC</string>
+    <string name="system_icon_super_stamina_slot_title">STAMINA</string>
+    <string name="system_icon_volume_slot_title">방해 금지</string>
+    <string name="system_icon_wifi_slot_title">Wi-Fi</string>
+    <string name="system_icon_battery_slot_title">배터리</string>
+    <string name="system_icon_alarm_clock_slot_title">알람</string>
+    <string name="system_icon_clock_slot_title">시간</string>
+    <string name="system_icon_battery_percent_view_title">배터리 백분율</string>
+    <string name="system_icon_location_slot_title">위치</string>
+    <string name="app_notifications_title">앱 알림</string>
+    <string name="notification_most_recent_tab_title">가장 최근</string>
+    <string name="notification_downloaded_tab_title">다운로드됨</string>
+    <string name="notification_all_apps_tab_title">모두</string>
+    <string name="app_notification_row_banned">차단됨</string>
+    <string name="app_notification_row_priority">우선순위</string>
+    <string name="app_notification_row_sensitive">중요</string>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ProgrammasIestatījumi</string>
+    <string name="sonyericsson_settings_title">Xperia™</string>
+    <string name="permlab_settings">piekļūt iestatījumiem</string>
+    <string name="permdesc_settings">Atļauj programmai piekļūt iestatījumiem.</string>
+    <string name="system_icon_settings_menu_title">Statusa joslas ikonas</string>
+    <string name="system_icon_settings_title">Sistēmas ikonas</string>
+    <string name="system_icon_settings_description">Atlasiet, kuras sistēmas ikonas rādīt statusa joslā</string>
+    <string name="system_icon_bluetooth_slot_title">Bluetooth</string>
+    <string name="system_icon_nfc_slot_title">NFC</string>
+    <string name="system_icon_super_stamina_slot_title">STAMINA</string>
+    <string name="system_icon_volume_slot_title">Režīms Netraucēt</string>
+    <string name="system_icon_wifi_slot_title">Wi-Fi</string>
+    <string name="system_icon_battery_slot_title">Akumulators</string>
+    <string name="system_icon_alarm_clock_slot_title">Modinātājs</string>
+    <string name="system_icon_clock_slot_title">Laiks</string>
+    <string name="system_icon_battery_percent_view_title">Akumulatora en. procenti</string>
+    <string name="system_icon_location_slot_title">Atrašanās vieta</string>
+    <string name="app_notifications_title">Lietotņu paziņojumi</string>
+    <string name="notification_most_recent_tab_title">Visjaunākās</string>
+    <string name="notification_downloaded_tab_title">Lejupielādētās</string>
+    <string name="notification_all_apps_tab_title">Visi</string>
+    <string name="app_notification_row_banned">Bloķēti</string>
+    <string name="app_notification_row_priority">Prioritāte</string>
+    <string name="app_notification_row_sensitive">Sensitīvi</string>
+</resources>

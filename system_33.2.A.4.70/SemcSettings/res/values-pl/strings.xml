@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ustawienia aplikacji</string>
+    <string name="sonyericsson_settings_title">Xperia™</string>
+    <string name="permlab_settings">dostęp do ustawień</string>
+    <string name="permdesc_settings">Umożliwia aplikacji dostęp do ustawień.</string>
+    <string name="system_icon_settings_menu_title">Ikony paska stanu</string>
+    <string name="system_icon_settings_title">Ikony systemowe</string>
+    <string name="system_icon_settings_description">Wybierz ikony systemowe do wyświetlania na pasku stanu.</string>
+    <string name="system_icon_bluetooth_slot_title">Bluetooth</string>
+    <string name="system_icon_nfc_slot_title">NFC</string>
+    <string name="system_icon_super_stamina_slot_title">STAMINA</string>
+    <string name="system_icon_volume_slot_title">Nie przeszkadzać</string>
+    <string name="system_icon_wifi_slot_title">Wi-Fi</string>
+    <string name="system_icon_battery_slot_title">Bateria</string>
+    <string name="system_icon_alarm_clock_slot_title">Alarm</string>
+    <string name="system_icon_clock_slot_title">Godzina</string>
+    <string name="system_icon_battery_percent_view_title">Poziom baterii</string>
+    <string name="system_icon_location_slot_title">Lokalizacja</string>
+    <string name="app_notifications_title">Powiadomienia aplikacji</string>
+    <string name="notification_most_recent_tab_title">Ostatnie</string>
+    <string name="notification_downloaded_tab_title">Pobrane</string>
+    <string name="notification_all_apps_tab_title">Wszystkie</string>
+    <string name="app_notification_row_banned">Zablokowane</string>
+    <string name="app_notification_row_priority">Priorytet</string>
+    <string name="app_notification_row_sensitive">Poufne</string>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="loading_container">false</item>
+    <item type="id" name="row_divider">false</item>
+    <item type="id" name="pager">false</item>
+    <item type="id" name="tabs">false</item>
+    <item type="id" name="divider">false</item>
+    <item type="id" name="system_icon">false</item>
+    <item type="id" name="title">false</item>
+    <item type="id" name="checkbox">false</item>
+</resources>

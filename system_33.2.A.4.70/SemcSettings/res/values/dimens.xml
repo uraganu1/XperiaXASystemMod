@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="notification_listitem_icon_margin">8.0dip</dimen>
+    <dimen name="notification_app_icon_size">64.0dip</dimen>
+    <dimen name="settings_side_margin">0.0dip</dimen>
+</resources>
