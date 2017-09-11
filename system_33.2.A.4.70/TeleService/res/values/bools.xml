@@ -43,7 +43,7 @@
     <bool name="enable_ss_over_ut_when_data_off">false</bool>
     <bool name="enable_ss_over_ut_only_when_ims_registered">true</bool>
     <bool name="data_connection_except_mms_show_icon_when_enabled">false</bool>
-    <bool name="data_connection_except_mms_show_icon_when_disabled">true</bool>
+    <bool name="data_connection_except_mms_show_icon_when_disabled">false</bool>
     <bool name="enable_sound_enhancement">true</bool>
     <bool name="slow_talk_default_value">false</bool>
     <bool name="disable_data_when_2g_only">false</bool>
