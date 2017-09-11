@@ -1,0 +1,15 @@
+Build kernel command:
+
+1. build single-sim
+Step 1. source ./env.sh
+Step 2. cd kernel-3.18
+Step 3. mkdir out/
+Step 4. make O=out ARCH=arm64 tubass_defconfig
+Step 5. make -j8 O=out ARCH=arm64
+
+2. build dual-sim
+Step 1. source ./env.sh
+Step 2. cd kernel-3.18
+Step 3. mkdir out/
+Step 4. make O=out ARCH=arm64 tubads_defconfig
+Step 5. make -j8 O=out ARCH=arm64
