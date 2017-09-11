@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_disabled_wifi_failure">WLAN Connection Failure</string>
+    <string name="accessibility_wifi_off">WLAN off.</string>
+    <string name="accessibility_no_wifi">WLAN disconnected.</string>
+    <string name="accessibility_wifi_one_bar">WLAN one bar.</string>
+    <string name="accessibility_wifi_two_bars">WLAN two bars.</string>
+    <string name="accessibility_wifi_three_bars">WLAN three bars.</string>
+    <string name="accessibility_wifi_signal_full">WLAN signal full.</string>
+    <string name="radio_controls_summary">Manage WLAN, Bluetooth, airplane mode, mobile networks, &amp; VPNs</string>
+    <string name="wifi_alert_lockdown_by_device_owner">%1$s manages your device and doesn’t allow modifying or deleting this WLAN network. For more information, contact your administrator.</string>
+    <string name="wifi_setup_wizard_title">Select WLAN network</string>
+    <string name="wifi_suspend_optimizations">WLAN optimization</string>
+    <string name="wifi_suspend_optimizations_summary">Minimize battery usage when WLAN is on</string>
+    <string name="wifi_empty_list_wifi_off">To see available networks, turn WLAN on.</string>
+    <string name="wifi_skipped_message">"WARNING: You may incur extra service provider data charges.
+
+Phone setup can require significant network activity."</string>
+    <string name="wifi_connect_failed_message">The phone was unable to connect to this WLAN network.</string>
+    <string name="wifi_calling_settings_title">WLAN calling</string>
+    <string name="wifi_calling_mode_dialog_title">WLAN calling mode</string>
+    <string name="wifi_calling_off_explanation">"Use WLAN calling to increase call quality in places where mobile network coverage is poor.
+ 
+Cost
+For information about charges of WLAN calling, please contact your service provider.
+ 
+Notes on WLAN calling
+To stay on WLAN calling, make sure to stay in the WLAN range."</string>
+    <string name="backup_data_summary">Back up app data, WLAN passwords, and other settings to Google™ servers</string>
+    <string name="backup_erase_dialog_message">Stop backing up your WLAN passwords, bookmarks, other settings, and app data, plus erase all copies on Google™ servers?</string>
+    <string name="fullbackup_data_summary">"Automatically back up device data (such as WLAN passwords and call history) and app data (such as settings and files stored by apps) remotely.
+
+When you turn on automatic backup, device and app data is periodically saved remotely. App data can be any data that an app has saved (based on developer settings), including potentially sensitive data such as contacts, messages, and photos."</string>
+    <string name="usm_descr">"Ultra STAMINA mode will extend battery lifetime significantly. It can be used when you can't charge your device for a long time.
+
+Note that Internet connection through WLAN and Mobile data will be disabled.
+
+Only a few basic functions, such as Phone and Messaging will be available. Tap \"More info\" for more details."</string>
+    <string name="battery_usm_desc">"Ultra STAMINA mode will extend battery lifetime significantly. Note that Internet connection through WLAN and Mobile data will be disabled.Your Home screen will be switched to Ultra STAMINA mode Home.
+
+Available apps in Ultra STAMINA mode"</string>
+    <string name="wifi_tether_settings_subtext">Set up &amp; manage portable WLAN hotspot</string>
+</resources>

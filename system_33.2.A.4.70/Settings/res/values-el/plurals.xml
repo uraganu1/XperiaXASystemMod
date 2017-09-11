@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">Απομένουν %1$d βήματα για να γίνετε προγραμματιστής.</item>
+        <item quantity="one">Απομένουν %1$d βήματα για να γίνετε προγραμματιστής.</item>
+    </plurals>
+    <plurals name="security_settings_fingerprint_preference_summary">
+        <item quantity="other">Ξεκλείδωμα δακτυλικού αποτυπώματος ενεργό</item>
+        <item quantity="one">Ξεκλείδωμα δακτυλικού αποτυπώματος ενεργό</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">Ο κωδικός πρόσβασης πρέπει να περιέχει τουλάχιστον %d γράμματα.</item>
+        <item quantity="one">Ο κωδικός πρόσβασης πρέπει να περιέχει τουλάχιστον 1 γράμμα.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">Ο κωδικός πρόσβασης πρέπει να περιέχει τουλάχιστον %d πεζά γράμματα.</item>
+        <item quantity="one">Ο κωδικός πρόσβασης πρέπει να περιέχει τουλάχιστον 1 πεζό γράμμα.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">Ο κωδικός πρόσβασης πρέπει να περιέχει τουλάχιστον %d κεφαλαία γράμματα.</item>
+        <item quantity="one">Ο κωδικός πρόσβασης πρέπει να περιέχει τουλάχιστον 1 κεφαλαίο γράμμα.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">Ο κωδικός πρόσβασης πρέπει να περιέχει τουλάχιστον %d αριθμητικά ψηφία.</item>
+        <item quantity="one">Ο κωδικός πρόσβασης πρέπει να περιέχει τουλάχιστον 1 αριθμητικό ψηφίο.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">Ο κωδικός πρόσβασης πρέπει να περιέχει τουλάχιστον %d ειδικά σύμβολα.</item>
+        <item quantity="one">Ο κωδικός πρόσβασης πρέπει να περιέχει τουλάχιστον 1 ειδικό σύμβολο.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">Ο κωδικός πρόσβασης πρέπει να περιέχει τουλάχιστον %d χαρακτήρες που δεν είναι γράμματα.</item>
+        <item quantity="one">Ο κωδικός πρόσβασης πρέπει να περιέχει τουλάχιστον 1 χαρακτήρα που δεν είναι γράμμα.</item>
+    </plurals>
+    <plurals name="wrong_pin_code">
+        <item quantity="other">Εσφαλμένος κωδικός PIN κάρτας SIM. Απομένουν %d προσπάθειες.</item>
+        <item quantity="one">Εσφαλμένος κωδικός PIN κάρτας SIM. Απομένει άλλη %d προσπάθεια. Στη συνέχεια, θα πρέπει να επικοινωνήσετε με τον πάροχο υπηρεσιών σας για να ξεκλειδώσετε τη συσκευή σας.</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">%d εφαρμογές μπορούν να διαβάσουν ειδοποιήσεις</item>
+        <item quantity="one">%d εφαρμογή μπορεί να διαβάσει ειδοποιήσεις</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_minute">
+        <item quantity="other">Αλλαγή σε ειδοποιήσεις μόνο για %1$d λεπτά (μέχρι τις %2$s)</item>
+        <item quantity="one">Αλλαγή σε ειδοποιήσεις για ένα λεπτό μόνο, μέχρι τις %2$s</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_hour">
+        <item quantity="other">Αλλαγή σε ειδοποιήσεις μόνο για %1$d ώρες, μέχρι τις %2$s</item>
+        <item quantity="one">Αλλαγή σε ειδοποιήσεις για μία ώρα μόνο, μέχρι τις %2$s</item>
+    </plurals>
+    <plurals name="permissions_summary">
+        <item quantity="other">Χορηγήθηκαν %d δικαιώματα</item>
+        <item quantity="one">Χορηγήθηκε %d δικαίωμα</item>
+    </plurals>
+    <plurals name="runtime_permissions_summary">
+        <item quantity="other">Χορηγήθηκαν %1$d από %2$d δικαιώματα</item>
+        <item quantity="one">Χορηγήθηκε %1$d από %2$d δικαίωμα</item>
+    </plurals>
+    <plurals name="runtime_permissions_additional_count">
+        <item quantity="other">%d πρόσθετα δικαιώματα</item>
+        <item quantity="one">%d πρόσθετο δικαίωμα</item>
+    </plurals>
+    <plurals name="domain_urls_apps_summary">
+        <item quantity="other">%d εφαρμογές μπορούν να ανοίξουν τους υποστηριζόμενους συνδέσμους τους</item>
+        <item quantity="zero">Καμία εφαρμογή δεν μπορεί να ανοίξει κανέναν υποστηριζόμενο σύνδεσμο</item>
+        <item quantity="one">Μία εφαρμογή μπορεί να ανοίξει τους υποστηριζόμενους συνδέσμους της</item>
+    </plurals>
+    <plurals name="high_power_count">
+        <item quantity="other">%d εφαρμογές επιτρέπεται να παραβλέψουν τη βελτιστοποίηση μπαταρίας</item>
+        <item quantity="one">1 εφαρμογή επιτρέπεται να παραβλέπει τη βελτιστοποίηση μπαταρίας</item>
+    </plurals>
+    <plurals name="memory_usage_apps_summary">
+        <item quantity="other">%1$d εφαρμογές χρησιμοποίησαν μνήμη τις τελευταίες %2$s</item>
+        <item quantity="one">1 εφαρμογή χρησιμοποίησε μνήμη τις τελευταίες %2$s</item>
+    </plurals>
+    <plurals name="remaining_time_format_days">
+        <item quantity="other">%d ημέρες</item>
+        <item quantity="one">%d ημέρα</item>
+    </plurals>
+    <plurals name="remaining_time_format_hours">
+        <item quantity="other">%d ώρες</item>
+        <item quantity="one">%d ώρα</item>
+    </plurals>
+    <plurals name="stamina_xssm_add_applications_descr">
+        <item quantity="other">%d εφαρμογές υπάρχουν στη λίστα</item>
+        <item quantity="one">%1$d εφαρμογή υπάρχει στη λίστα</item>
+    </plurals>
+    <plurals name="not_time_left_format_hours">
+        <item quantity="other">%d ώρες</item>
+        <item quantity="one">%d ώρα</item>
+    </plurals>
+    <plurals name="not_time_left_format_minutes">
+        <item quantity="other">%d λεπτά</item>
+        <item quantity="one">%d λεπτό</item>
+    </plurals>
+    <plurals name="xssm_settings_blacklist_summary_txt">
+        <item quantity="other">Επιλέχτηκαν %d εφαρμογές</item>
+        <item quantity="one">Επιλέχτηκε %d εφαρμογή</item>
+    </plurals>
+</resources>

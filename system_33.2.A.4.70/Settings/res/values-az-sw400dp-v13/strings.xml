@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="powersaver_feature_haptic">Toxunuş zamanı titrəmə qeyri-aktivdir</string>
+    <string name="powersaver_feature_sync">Avto-sinxronlaşdırma sönülüdür</string>
+    <string name="powersaver_feature_bravia">Mobile BRAVIA Engine söndür</string>
+    <string name="stamina_queue_background_data_title">Arxa fon məlumatını növbələyin</string>
+    <string name="stamina_xssm_add_applications_title">Gözləmə rejimində aktiv olan proqramlar</string>
+    <string name="wifi_tether_settings_text">Portativ Wi-Fi giriş nöqtəsi parametrləri</string>
+    <string name="auto_sync_text">Avtomatik sinxronlaşdırma</string>
+</resources>

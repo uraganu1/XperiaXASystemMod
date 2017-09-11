@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="app_ops_summaries">
+        <item>өңделмеген аймақ</item>
+        <item>өңделген аймақ</item>
+        <item>GPS</item>
+        <item>тербеліс</item>
+        <item>контактілерді оқу</item>
+        <item>контактілерді өзгерту</item>
+        <item>қоңыраулар тіркелімін оқу</item>
+        <item>қоңыраулар журналын өзгерту</item>
+        <item>күнтізбені оқу</item>
+        <item>күнтізбені өзгерту</item>
+        <item>WLAN желілерін іздеу</item>
+        <item>хабар</item>
+        <item>ұялы сканнер</item>
+        <item>қоңырау шалу</item>
+        <item>SMS оқу</item>
+        <item>SMS жазу</item>
+        <item>SMS алу</item>
+        <item>Төтенше SMS алу</item>
+        <item>MMS алу</item>
+        <item>WAP push хабарын алу</item>
+        <item>SMS жіберу</item>
+        <item>Орнатылған картадан SMS хабарын оқу</item>
+        <item>ICC SMS жазу</item>
+        <item>параметрлерді өзгерту</item>
+        <item>үстінен жазу</item>
+        <item>хабарларға кіру</item>
+        <item>Камера</item>
+        <item>аудио жазу</item>
+        <item>аудио ойнату</item>
+        <item>ақпарат алмастыру қорын оқу</item>
+        <item>ақпарат алмастыру қорын өзгерту</item>
+        <item>медиа түймелері</item>
+        <item>аудио көздеу</item>
+        <item>негізгі дыбыс</item>
+        <item>дыбыс қаттылығы</item>
+        <item>қоңырау шырылының қаттылығы</item>
+        <item>медиа дыбысының қаттылығы</item>
+        <item>дабыл дыбысының қаттылығы</item>
+        <item>хабар дыбысының қаттылығы</item>
+        <item>bluetooth дыбысының қаттылығы</item>
+        <item>ұйқы бермеу</item>
+        <item>аймақты бақылау</item>
+        <item>қуаты жоғары аймақты бақылау</item>
+        <item>пайдалану статистикасын алу</item>
+        <item>микрофон дыбысын өшіру/қосу</item>
+        <item>жоба тасушысы</item>
+        <item>VPN функциясын белсендіру</item>
+        <item>фон суретінде жазу</item>
+        <item>көмекші құрылым</item>
+        <item>көмекші скриншот</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices">
+        <item>WLAN ұсынылған</item>
+        <item>Ұялы байланыс ұсынылған</item>
+    </string-array>
+    <string-array name="wapi_psk_type">
+        <item>WLAN ASCII</item>
+        <item>WLAN hexadecimal</item>
+    </string-array>
+</resources>

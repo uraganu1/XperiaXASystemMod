@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="app_ops_summaries">
+        <item>přibližná poloha</item>
+        <item>přesná poloha</item>
+        <item>GPS</item>
+        <item>vibrace</item>
+        <item>čtení kontaktů</item>
+        <item>úprava kontaktů</item>
+        <item>čtení seznamu hovorů</item>
+        <item>úprava seznamu hovorů</item>
+        <item>čtení kalendáře</item>
+        <item>úprava kalendáře</item>
+        <item>vyhledání sítí WLAN</item>
+        <item>oznámení</item>
+        <item>vyhledání vysílače mobilní sítě</item>
+        <item>volání na telefon</item>
+        <item>čtení zpráv SMS</item>
+        <item>psaní zpráv SMS</item>
+        <item>příjem zpráv SMS</item>
+        <item>příjem nouzových SMS</item>
+        <item>příjem zpráv MMS</item>
+        <item>příjem zpráv WAP push</item>
+        <item>odesílání zpráv SMS</item>
+        <item>čtení ICC SMS</item>
+        <item>psaní ICC SMS</item>
+        <item>úprava nastavení</item>
+        <item>vykreslení navrch</item>
+        <item>přístup k oznámením</item>
+        <item>fotoaparát</item>
+        <item>nahrávání zvuku</item>
+        <item>přehrávání zvuku</item>
+        <item>číst obsah schránky</item>
+        <item>upravit obsah schránky</item>
+        <item>tlačítka médií</item>
+        <item>zaměření zvuku</item>
+        <item>hlavní hlasitost</item>
+        <item>hlasitost hlasu</item>
+        <item>hlasitost vyzvánění</item>
+        <item>hlasitost médií</item>
+        <item>hlasitost budíku</item>
+        <item>hlasitost oznámení</item>
+        <item>hlasitost Bluetooth</item>
+        <item>Zakázat režim spánku</item>
+        <item>sledovat polohu</item>
+        <item>sledování energeticky náročného určování polohy</item>
+        <item>načíst statistiky využití</item>
+        <item>vypnout nebo zapnout zvuk mikrofonu</item>
+        <item>Promítání médií</item>
+        <item>aktivace VPN</item>
+        <item>zápis tapety</item>
+        <item>struktura asistence</item>
+        <item>snímek obrazovky asistence</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices">
+        <item>Preferována síť WLAN</item>
+        <item>Preferována mobilní síť</item>
+    </string-array>
+    <string-array name="wapi_psk_type">
+        <item>WLAN ASCII</item>
+        <item>WLAN hexadecimal</item>
+    </string-array>
+</resources>

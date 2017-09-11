@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="powersaver_feature_haptic">Išjungti vibraciją palietus</string>
+    <string name="powersaver_feature_sync">Išjungti automatinį sinchronizavimą</string>
+    <string name="powersaver_feature_data">Mobiliųjų duomenų ryšys išjungtas</string>
+    <string name="powersaver_feature_gamma">Įjungtas nakties režimas</string>
+    <string name="powersaver_feature_bravia">Išjungti „Mobile BRAVIA Engine“</string>
+    <string name="stamina_xssm_add_applications_title">Budėjimo režimu aktyvios programos</string>
+    <string name="wifi_tether_settings_text">Perkeliamo „Wi-Fi“ viešosios interneto prieigos taško nustatymai</string>
+    <string name="auto_sync_text">Automatinis sinchronizavimas</string>
+</resources>

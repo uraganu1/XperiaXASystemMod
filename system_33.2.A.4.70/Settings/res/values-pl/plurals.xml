@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">Od zostania programistą dzieli Cię już tylko tyle kroków: %1$d.</item>
+        <item quantity="one">Od zostania programistą dzieli Cię już tylko %1$d krok.</item>
+        <item quantity="few">Od zostania programistą dzielą Cię już tylko %1$d kroki.</item>
+        <item quantity="many">Od zostania programistą dzieli Cię już tylko %1$d kroków.</item>
+    </plurals>
+    <plurals name="security_settings_fingerprint_preference_summary">
+        <item quantity="other">Odblokowywanie odciskiem palca włączone</item>
+        <item quantity="one">Odblokowywanie odciskiem palca włączone</item>
+        <item quantity="few">Ustawiono %1$d odciski palców</item>
+        <item quantity="many">Ustawiono %1$d odcisków palców</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">Hasło musi zawierać litery (co najmniej %d).</item>
+        <item quantity="one">Hasło musi zawierać co najmniej jedną literę.</item>
+        <item quantity="few">Hasło musi zawierać co najmniej %d litery.</item>
+        <item quantity="many">Hasło musi zawierać co najmniej %d liter.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">Hasło musi zawierać małe litery (co najmniej %d).</item>
+        <item quantity="one">Hasło musi zawierać co najmniej jedną małą literę.</item>
+        <item quantity="few">Hasło musi zawierać co najmniej %d małe litery.</item>
+        <item quantity="many">Hasło musi zawierać co najmniej %d małych liter.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">Hasło musi zawierać wielkie litery (co najmniej %d).</item>
+        <item quantity="one">Hasło musi zawierać co najmniej jedną wielką literę.</item>
+        <item quantity="few">Hasło musi zawierać co najmniej %d wielkie litery.</item>
+        <item quantity="many">Hasło musi zawierać co najmniej %d wielkich liter.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">Hasło musi zawierać cyfry (co najmniej %d).</item>
+        <item quantity="one">Hasło musi zawierać co najmniej jedną cyfrę.</item>
+        <item quantity="few">Hasło musi zawierać co najmniej %d cyfry.</item>
+        <item quantity="many">Hasło musi zawierać co najmniej %d cyfr.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">Hasło musi zawierać symbole specjalne (co najmniej %d).</item>
+        <item quantity="one">Hasło musi zawierać co najmniej jeden symbol specjalny.</item>
+        <item quantity="few">Hasło musi zawierać co najmniej %d symbole specjalne.</item>
+        <item quantity="many">Hasło musi zawierać co najmniej %d symboli specjalnych.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">Hasło musi zawierać znaki inne niż litery (co najmniej %d).</item>
+        <item quantity="one">Hasło musi zawierać co najmniej jeden znak niebędący literą.</item>
+        <item quantity="few">Hasło musi zawierać co najmniej %d znaki niebędące literą.</item>
+        <item quantity="many">Hasło musi zawierać co najmniej %d znaków niebędących literą.</item>
+    </plurals>
+    <plurals name="wrong_pin_code">
+        <item quantity="other">Nieprawidłowy kod PIN karty SIM. Liczba pozostałych prób: %d.</item>
+        <item quantity="one">Nieprawidłowy kod PIN karty SIM. Liczba pozostałych prób: %d. Po ich wykorzystaniu trzeba będzie skontaktować się z usługodawcą, by odblokował Twoje urządzenie.</item>
+        <item quantity="few">Nieprawidłowy kod PIN karty SIM. Masz jeszcze %d próby.</item>
+        <item quantity="many">Nieprawidłowy kod PIN karty SIM. Masz jeszcze %d prób.</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">Aplikacje, które mogą odczytywać powiadomienia: %d</item>
+        <item quantity="one">Aplikacje, które mogą odczytywać powiadomienia: %d</item>
+        <item quantity="few">%d aplikacje mogą odczytywać powiadomienia</item>
+        <item quantity="many">%d aplikacji może odczytywać powiadomienia</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_minute">
+        <item quantity="other">Zmień na tylko alarmy na %1$d min (do %2$s)</item>
+        <item quantity="one">Zmień na tylko alarmy na minutę do %2$s</item>
+        <item quantity="few">Zmień na same alarmy przez %1$d minuty, do %2$s</item>
+        <item quantity="many">Zmień na same alarmy przez %1$d minut, do %2$s</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_hour">
+        <item quantity="other">Zmień na tylko alarmy na %1$d godz. (do %2$s)</item>
+        <item quantity="one">Zmień na tylko alarmy na godzinę do %2$s</item>
+        <item quantity="few">Zmień na same alarmy przez %1$d godziny, do %2$s</item>
+        <item quantity="many">Zmień na same alarmy przez %1$d godzin, do %2$s</item>
+    </plurals>
+    <plurals name="permissions_summary">
+        <item quantity="other">Przyznane uprawnienia: %d</item>
+        <item quantity="one">Przyznane uprawnienia: %d</item>
+        <item quantity="few">Przyznano %d uprawnienia</item>
+        <item quantity="many">Przyznano %d uprawnień</item>
+    </plurals>
+    <plurals name="runtime_permissions_summary">
+        <item quantity="other">Przyznane uprawnienia: %1$d z %2$d</item>
+        <item quantity="one">Przyznane uprawnienia: %1$d z %2$d</item>
+        <item quantity="few">Przyznane uprawnienia: %1$d z %2$d</item>
+        <item quantity="many">Przyznane uprawnienia: %1$d z %2$d</item>
+    </plurals>
+    <plurals name="runtime_permissions_additional_count">
+        <item quantity="other">Dodatkowe uprawnienia: %d</item>
+        <item quantity="one">Dodatkowe uprawnienia: %d</item>
+        <item quantity="few">%d dodatkowe uprawnienia</item>
+        <item quantity="many">%d dodatkowych uprawnień</item>
+    </plurals>
+    <plurals name="domain_urls_apps_summary">
+        <item quantity="other">%d aplikacji może otwierać obsługiwane przez siebie linki</item>
+        <item quantity="zero">Żadna aplikacja nie może otworzyć żadnego obsługiwanego łącza</item>
+        <item quantity="one">Jedna aplikacja może otworzyć obsługiwane łącza</item>
+        <item quantity="few">%d aplikacje mogą otwierać obsługiwane przez siebie linki</item>
+        <item quantity="many">%d aplikacji może otwierać obsługiwane przez siebie linki</item>
+    </plurals>
+    <plurals name="high_power_count">
+        <item quantity="other">Liczba aplikacji, które mogą ignorować optymalizację baterii: %d</item>
+        <item quantity="one">Liczba aplikacji, które mogą ignorować optymalizację baterii: 1</item>
+        <item quantity="few">%d aplikacje mogą ignorować optymalizację baterii</item>
+        <item quantity="many">%d aplikacji może ignorować optymalizację baterii</item>
+    </plurals>
+    <plurals name="memory_usage_apps_summary">
+        <item quantity="other">Liczba aplikacji, które użyły pamięci przez ostatnie %2$s: %1$d</item>
+        <item quantity="one">Liczba aplikacji, które użyły pamięci przez ostatnie %2$s: 1</item>
+        <item quantity="few">%1$d aplikacje używały pamięci w ciągu ostatnich %2$s</item>
+        <item quantity="many">%1$d aplikacji używało pamięci w ciągu ostatnich %2$s</item>
+    </plurals>
+    <plurals name="remaining_time_format_days">
+        <item quantity="other">%d dni</item>
+        <item quantity="one">%d dzień</item>
+    </plurals>
+    <plurals name="remaining_time_format_hours">
+        <item quantity="other">%d godz.</item>
+        <item quantity="one">%d godzina</item>
+    </plurals>
+    <plurals name="stamina_xssm_add_applications_descr">
+        <item quantity="other">Liczba aplikacji na liście: %d</item>
+        <item quantity="one">Liczba aplikacji na liście: %1$d</item>
+    </plurals>
+    <plurals name="not_time_left_format_hours">
+        <item quantity="other">%d godz.</item>
+        <item quantity="one">%d godz.</item>
+    </plurals>
+    <plurals name="not_time_left_format_minutes">
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min.</item>
+    </plurals>
+    <plurals name="xssm_settings_blacklist_summary_txt">
+        <item quantity="other">Wybrane aplikacje: %d</item>
+        <item quantity="one">Wybrane aplikacje: %d</item>
+    </plurals>
+</resources>

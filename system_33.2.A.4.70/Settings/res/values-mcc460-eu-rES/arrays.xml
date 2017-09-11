@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="app_ops_summaries">
+        <item>gutxi gorabeherako kokapena</item>
+        <item>kokapen zehatza</item>
+        <item>GPS</item>
+        <item>dardara</item>
+        <item>irakurri kontaktuak</item>
+        <item>aldatu kontaktuak</item>
+        <item>irakurri deien erregistroa</item>
+        <item>aldatu deien erregistroa</item>
+        <item>irakurri egutegia</item>
+        <item>aldatu egutegia</item>
+        <item>WLAN sareak bilatzea</item>
+        <item>jakinarazpena</item>
+        <item>sare mugikorrak bilatzea</item>
+        <item>deitu telefonora</item>
+        <item>irakurri SMS mezuak</item>
+        <item>idatzi SMS mezuak</item>
+        <item>jaso SMS mezuak</item>
+        <item>jaso larrialdiko SMS mezuak</item>
+        <item>jaso MMS mezuak</item>
+        <item>jaso WAP push-jakinarazpenak</item>
+        <item>bidali SMS mezuak</item>
+        <item>irakurri ICC SMS mezuak</item>
+        <item>idatzi ICC SMS mezuak</item>
+        <item>aldatu ezarpenak</item>
+        <item>marraztu gainean</item>
+        <item>atzitu jakinarazpenak</item>
+        <item>kamera</item>
+        <item>grabatu audioa</item>
+        <item>erreproduzitu audioa</item>
+        <item>irakurri arbela</item>
+        <item>aldatu arbela</item>
+        <item>multimedia-botoiak</item>
+        <item>audio-fokatzea</item>
+        <item>bolumen nagusia</item>
+        <item>ahotsaren bolumena</item>
+        <item>tonuaren bolumena</item>
+        <item>multimedia-elementuen bolumena</item>
+        <item>alarmaren bolumena</item>
+        <item>jakinarazpenen bolumena</item>
+        <item>Bluetootharen bolumena</item>
+        <item>eduki aktibo</item>
+        <item>kontrolatu kokapena</item>
+        <item>egin potentzia handiko kokapen-kontrola</item>
+        <item>lortu erabilera-estatistikak</item>
+        <item>aktibatu edo desaktibatu mikrofonoa</item>
+        <item>proiektatu multimedia-edukia</item>
+        <item>aktibatu VPN konexioa</item>
+        <item>idatzi horma-paperean</item>
+        <item>lagundu egiturarekin</item>
+        <item>lagundu pantaila-argazkiarekin</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices">
+        <item>WLAN sarea hobetsia</item>
+        <item>Sare mugikorra hobetsia</item>
+    </string-array>
+</resources>

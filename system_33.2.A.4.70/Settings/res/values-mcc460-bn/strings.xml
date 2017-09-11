@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_security_wapi_psk">WLAN PSK</string>
+    <string name="wifi_disabled_wifi_failure">WLAN সংযোগের ব্যর্থতা</string>
+    <string name="connected_via_wfa">WLAN সহায়ক-এর মাধ্যমে সংযুক্ত হয়েছে</string>
+    <string name="accessibility_wifi_off">WLAN বন্ধ।</string>
+    <string name="accessibility_no_wifi">WLAN এর সংযোগ বিচ্ছিন্ন হয়েছে।</string>
+    <string name="accessibility_wifi_one_bar">WLAN একটি বার।</string>
+    <string name="accessibility_wifi_two_bars">WLAN দুটি বার।</string>
+    <string name="accessibility_wifi_three_bars">WLAN তিনটি বার।</string>
+    <string name="accessibility_wifi_signal_full">WLAN এর সিগন্যাল পূর্ণ।</string>
+    <string name="radio_controls_summary">WLAN, ব্লুটুথ, এয়ারপ্লেন মোড, মোবাইল নেটওয়ার্ক এবং VPNগুলি পরিচালনা করুন</string>
+    <string name="wifi_assistant_title">WLAN সহকারী</string>
+    <string name="wifi_alert_lockdown_by_device_owner">%1$s আপনার যন্ত্রটি পরিচালনা করে এবং এই WLAN নেটওয়ার্ক সংশোধন বা মোছার অনুমতি দেয় না। আরো তথ্যের জন্য, আপনার প্রশাসকের সাথে যোগাযোগ করুন।</string>
+    <string name="wifi_quick_toggle_title">WLAN</string>
+    <string name="wifi_quick_toggle_summary">WLAN চালু করুন</string>
+    <string name="wifi_settings">WLAN</string>
+    <string name="wifi_settings_category">WLAN সেটিংস</string>
+    <string name="wifi_settings_title">WLAN</string>
+    <string name="wifi_setup_wizard_title">WLAN নির্বাচন করুন</string>
+    <string name="wifi_select_network">WLAN নির্বাচন করুন</string>
+    <string name="wifi_poor_network_detection_summary">ভালো ইন্টারনেট সংযোগ না হওয়া পর্যন্ত কোনও WLAN নেটওয়ার্ক ব্যবহার করবেন না</string>
+    <string name="wifi_automatically_connect_title">উন্মুক্ত WLAN স্বয়ংক্রিয়ভাবে ব্যবহার করুন</string>
+    <string name="wifi_automatically_connect_summary">কোনো WLAN সহকারীকে স্বয়ংক্রিয়ভাবে উচ্চ মান হিসাবে নির্ধারিত উন্মুক্ত WLAN নেটওয়ার্কগুলিতে সংযোগ করতে দিন</string>
+    <string name="wifi_scan_notify_text">অবস্থানের যথার্থতা উন্নত করতে, সিস্টেম অ্যাপ্লিকেশান এবং পরিষেবাগুলি এখনও WLAN নেটওয়ার্কগুলির জন্য স্ক্যান করতে পারে৷ আপনি এটিকে LINK_BEGINস্ক্যানিং সেটিংসLINK_END এর মধ্যে পরিবর্তন করতে পারেন।</string>
+    <string name="wifi_setting_sleep_policy_title">নিদ্রার সময় WLAN চালু রাখুন</string>
+    <string name="wifi_setting_on_during_sleep_title">স্ক্রীন বন্ধ থাকলেও WLAN চালু</string>
+    <string name="wifi_suspend_optimizations">WLAN সামঞ্জস্যপূর্ণকরণ</string>
+    <string name="wifi_suspend_optimizations_summary">WLAN চালু থাকা অবস্থায় ব্যাটারির ব্যবহার কমান</string>
+    <string name="wifi_limit_optimizations_summary">WLAN দ্বারা ব্যাটারি ব্যবহার সীমিত করুন</string>
+    <string name="wifi_switch_away_when_unvalidated">WLAN ইন্টারনেটের অ্যাক্সেস হারালে সেলুলার ডেটাতে পাল্টান।</string>
+    <string name="wifi_access_points">WLAN নেটওয়ার্ক</string>
+    <string name="wifi_menu_p2p">WLAN Direct</string>
+    <string name="wifi_empty_list_wifi_off">উপলভ্য নেটওয়ার্কগুলি দেখতে WLAN চালু করুন৷</string>
+    <string name="wifi_empty_list_wifi_on">WLAN নেটওয়ার্ক সন্ধান করা হচ্ছে...</string>
+    <string name="wifi_empty_list_user_restricted">WLAN নেটওয়ার্ক পরিবর্তন করার জন্য আপনাকে অনুমতি দেওয়া হয়নি</string>
+    <string name="wifi_wps_setup_title">WLAN সুরক্ষিত সেটআপ</string>
+    <string name="wifi_wps_onstart_pbc">আপনার রাউটারে WLAN সুরক্ষিত সেটআপ বোতাম টিপুন। এটিকে \"WPS\" বলা হতে পারে বা এই চিহ্ন দ্বারা চিহ্নিত থাকতে পারে:</string>
+    <string name="wifi_wps_onstart_pin">আপনার WLAN রাউটারে %1$s PINটি প্রবিষ্ট করুন৷ সেটআপটি সম্পূর্ণ হতে দুই মিনিট পর্যন্ত সময় নিতে পারে৷</string>
+    <string name="wifi_wps_connected">%s WLAN নেটওয়ার্কে সংযুক্ত</string>
+    <string name="wifi_scan_always_turnon_message">"অবস্থানের যথার্থতা উন্নত করতে ও অন্য উদ্দেশ্যের জন্য, WLAN বন্ধ থাকা সত্ত্বেও %1$s নেটওয়ার্ক স্ক্যানিং চালু করতে চায়।
+
+যাতে স্ক্যান করতে চান সেই সব অ্যাপসের জন্য এটিকে অনুমোদন দেবেন?"</string>
+    <string name="wifi_skipped_message">"বিপদ সঙ্কেত: আপনাকে পরিষেবা প্রদানকারীর অতিরিক্ত ডেটা মাশুল দিতে হতে পারে।
+
+ফোন সেট আপের জন্য উল্লেখযোগ্য নেটওয়ার্ক সক্রিয়তা আবশ্যক।"</string>
+    <string name="wifi_and_mobile_skipped_message">"যদি আপনি WLAN এড়িয়ে যান:
+
+"<li>আপনার ফোনে কোনো ইন্টারনেট সংযোগ থাকবে না৷</li>"
+
+"<li>আপনি ইন্টারনেটে সংযোগ না করা পর্যন্ত সফ্টওয়্যার আপডেটগুলি পাবেন না৷</li>"
+
+"<li>এই সময়ে আপনি যন্ত্রের সুরক্ষা বৈশিষ্ট্যগুলি সক্রিয় করতে পারবেন না৷</li></string>
+    <string name="wifi_connect_failed_message">ফোন এই WLAN নেটওয়ার্কে সংযোগ করতে পারেনি।</string>
+    <string name="wifi_advanced_titlebar">WLAN সেটিংস</string>
+    <string name="wifi_setting_frequency_band_title">WLAN ফ্রিকোয়েন্সি ব্যান্ড</string>
+    <string name="wifi_advanced_settings_label">WLAN সেটিংস</string>
+    <string name="wifi_p2p_settings_title">WLAN Direct</string>
+    <string name="wifi_tether_checkbox_text">পোর্টেবল WLAN হটস্পট</string>
+    <string name="wifi_hotspot_checkbox_text">WLAN হটস্পট</string>
+    <string name="wifi_hotspot_checkbox_text_summary">WLAN নেটওয়ার্ক প্রদানের জন্য সেলুলার সংযোগ ব্যবহার করুন</string>
+    <string name="wifi_tether_failed_subtext">পোর্টেবল WLAN হটস্পট ত্রুটি</string>
+    <string name="wifi_tether_configure_ap_text">WLAN হটস্পট কনফিগার করুন</string>
+    <string name="wifi_hotspot_configure_ap_text">WLAN হটস্পট সেটআপ</string>
+    <string name="wifi_hotspot_configure_ap_text_summary">AndroidAP WPA2 PSK পোর্টেবল WLAN হটস্পট</string>
+    <string name="wifi_tether_configure_subtext">"%1$s স্থানান্তরযোগ্য WLAN হটস্পট।
+সুরক্ষা: %2$s"</string>
+    <string name="wifi_calling_settings_title">WLAN কলিং</string>
+    <string name="wifi_calling_mode_dialog_title">WLAN কলিং মোড</string>
+    <string name="wifi_calling_off_explanation">"মোবাইল নেটওয়ার্কের কভারেজ ভালো নেই এমন জায়গাগুলিতে কলের গুণমান বাড়াতে WLAN কলিং ব্যবহার করুন।
+ 
+খরচ
+WLAN কলিংয়ের চার্জের বিষয়ে আরো জানতে, অনুগ্রহ করে আপনার পরিষেবা প্রদানকারীর সঙ্গে যোগাযোগ করুন।
+ 
+WLAN কলিং বিষয়ে দ্রষ্টব্য
+WLAN কলিংয়ে থাকতে, WLAN রেঞ্জের মধ্যে থাকার বিষয়টি নিশ্চিত করুন।"</string>
+    <string name="status_wifi_mac_address">WLAN MAC ঠিকানা</string>
+    <string name="reset_network_desc">"এটি
+
+"<li>WLAN</li>"
+"<li>সেলুলার ডেটা</li>"
+"<li>Bluetooth</li> সহ সমস্ত নেটওয়ার্ক সেটিংস পুনরায় সেট করবে</string>
+    <string name="network_scorer_change_active_dialog_title">WLAN সহকারী পরিবর্তন করবেন?</string>
+    <string name="location_mode_high_accuracy_description">অবস্থান নির্ধারণ করতে GPS, WLAN, Bluetooth বা সেলুলার নেটওয়ার্ক ব্যবহার করুন</string>
+    <string name="location_mode_battery_saving_description">অবস্থান নির্ধারণ করতে WLAN, Bluetooth বা সেলুলার নেটওয়ার্ক ব্যবহার করুন</string>
+    <string name="location_scanning_wifi_always_scanning_title">WLAN স্ক্যানিং</string>
+    <string name="location_scanning_wifi_always_scanning_description">যে কোনো সময়ে WLAN নেটওয়ার্কগুলিকে সনাক্ত করার জন্য সিস্টেম অ্যাপ্লিকেশান এবং পরিষেবাগুলিকে অনুমতি দিয়ে অবস্থান উন্নত করুন।</string>
+    <string name="location_neighborhood_level_wifi">WLAN দ্বারা নির্ধারিত অবস্থান</string>
+    <string name="wifi_verbose_logging">WLAN ভারবোস লগিং সক্ষম করুন</string>
+    <string name="wifi_aggressive_handover">WLAN থেকে মোবাইল ডেটা তৎপর পরিবর্তন</string>
+    <string name="wifi_allow_scan_with_traffic">সর্বদা WLAN রোম স্ক্যানকে অনুমতি দিন</string>
+    <string name="wifi_verbose_logging_summary">WLAN লগিং স্তর বাড়ান, WLAN চয়নকারীতে SSID RSSI অনুযায়ী দেখান</string>
+    <string name="wifi_aggressive_handover_summary">সক্ষম করা থাকলে, নিম্নমানের WLAN সিগন্যালের ক্ষেত্রে, সেলুলার-এ ডেটা সংযোগ প্রদান করতে WLAN আরো বেশি শক্তিশালীভাবে কাজ করবে</string>
+    <string name="wifi_allow_scan_with_traffic_summary">ইন্টারফেসে উপস্থিত ডেটা ট্রাফিকের পরিমাণের উপরে ভিত্তি করে WLAN রোম স্ক্যানকে অনুমোদিত/অননুমোদিত করুন</string>
+    <string name="mobile_data_always_on_summary">WLAN সক্রিয় থাকার সময়েও (দ্রুত নেটওয়ার্কে পাল্টানোর জন্য) সর্বদা মোবাইল ডেটা সক্রিয় রাখুন।</string>
+    <string name="battery_stats_wifi_running_label">WLAN</string>
+    <string name="wifi_on_time">সময়ে WLAN</string>
+    <string name="bluetooth_on_time">সময়ে WLAN</string>
+    <string name="power_wifi">WLAN</string>
+    <string name="usage_type_wifi_running">WLANচলমান</string>
+    <string name="usage_type_data_wifi_send">WLAN প্যাকেটগু.প্রেরি.হ.</string>
+    <string name="usage_type_data_wifi_recv">WLAN প্যাকেটগু.গৃহী.হ.</string>
+    <string name="battery_action_wifi">WLAN সেটিং</string>
+    <string name="battery_desc_wifi">"WLAN'র দ্বারা খরচ হওয়া ব্যাটারি"</string>
+    <string name="battery_sugg_wifi">WLAN ব্যবহার না করলে বা উপলভ্য না থাকলে সেটিকে বন্ধ করে রাখুন</string>
+    <string name="gadget_toggle_wifi">WLAN সেটিং আপডেট করা হচ্ছে</string>
+    <string name="gadget_wifi">WLAN</string>
+    <string name="backup_data_summary">অ্যাপ্লিকেশন ডেটা, WLAN পাসওয়ার্ড, এবং অন্যান্য সেটিং Google™ সার্ভারে ব্যাক আপ নিয়ে রাখুন</string>
+    <string name="backup_erase_dialog_message">আপনার WLAN পাসওয়ার্ড, বুকমার্ক, অন্যান্য সেটিং, এবং অ্যাপ্লিকেশন ডেটার ব্যাক আপ নেওয়া থামানো সমেত Google™ সার্ভারে থাকা সমস্ত অনুলিপি মুছতে চান?</string>
+    <string name="fullbackup_erase_dialog_message">ডিভাইস ডেটা (যেমন WLAN এর পাসওয়ার্ড এবং কলের ইতিহাস) এবং অ্যাপ্লিকেশান ডেটা (যেমন অ্যাপ্লিকেশানগুলির দ্বারা সংরক্ষিত সেটিংস এবং ফাইলগুলি) এর ব্যাক আপ নেওয়া বন্ধ করবেন, তার সাথে Google ড্রাইভে সমস্ত প্রতিলিপি মুছবেন?</string>
+    <string name="fullbackup_data_summary">"দূরবর্তীভাবে ডিভাইস ডেটার (যেমন, WLAN এর পাসওয়ার্ডগুলি এবং কলের ইতিহাস) এবং অ্যাপ্লিকেশান ডেটার (যেমন অ্যাপ্লিকেশানগুলির দ্বারা সঞ্চিত সেটিংস এবং ফাইলগুলি)স্বয়ংক্রিয়ভাবে ব্যাক আপ নেওয়া হয়৷
+
+আপনি যখন স্বয়ংক্রিয় ব্যাক আপ চালু করুন তখন দূরবর্তীভাবে ডিভাইস এবং অ্যাপ্লিকেশানের ডেটা পর্যায়ক্রমে সংরক্ষিত হয়৷ অ্যাপ্লিকেশান ডেটা যেকোনো ডেটা হতে পারে যা অ্যাপ্লিকেশান সংরক্ষণ করে (বিকাশকারীর সেটিংস-এর উপর ভিত্তি করে), পরিচিতি, বার্তা এবং ফটোগুলির মত সম্ভাব্য সংবেদনশীল ডেটা অন্তর্ভুক্ত করে৷"</string>
+    <string name="wifi_setup_title">WLAN সেটআপ</string>
+    <string name="wifi_setup_title_editing_network">WLAN নেটওয়ার্কের সংযুক্ত করুন %s</string>
+    <string name="wifi_setup_title_connecting_network">WLAN নেটওয়ার্ক %sএর সাথে সংযোগ হচ্ছে…</string>
+    <string name="wifi_setup_title_connected_network">WLAN নেটওয়ার্ক %s এর সাথে সংযুক্ত</string>
+    <string name="wifi_setup_eap_not_supported">সেটআপের সময় আপনি কোনো EAP WLAN সংযোগ কনফিগার করতে পারবেন না৷ সেট আপের পরে আপনি তা সেটিংস > ওয়্যারলেস ও নেটওয়ার্কগুলিতে তা করতে পারেন৷</string>
+    <string name="wifi_setup_description_connected">সেট আপ চালিয়ে যেতে <b>পরবর্তী</b> স্পর্শ করুন৷একটি পৃথক WLAN নেটওয়ার্কে সংযোগ করতে <b>ফিরুন</b> স্পর্শ করুন৷</string>
+    <string name="data_usage_menu_show_wifi">WLAN দেখান</string>
+    <string name="data_usage_menu_hide_wifi">WLAN লুকান</string>
+    <string name="data_usage_disable_wifi_limit">WLAN ডেটা সীমা সেট করুন</string>
+    <string name="data_usage_tab_wifi">WLAN</string>
+    <string name="data_usage_restrict_background">আপনি ব্যাকগ্রাউন্ড মোবাইল ডেটা সীমাবদ্ধ করলে, আপনি কোন WLAN নেটওয়ার্কের সাথে সংযুক্ত না থাকলে কিছু অ্যাপ্লিকেশন এবং পরিষেবা কাজ করবে না৷</string>
+    <string name="data_usage_restrict_background_multiuser">"আপনি যদি পটভূমির সেলুলার ডেটা সীমিত করেন তাহলে আপনি WLAN এর সাথে সংযুক্ত না হওয়া পর্যন্ত কিছু অ্যাপ্লিকেশান ও পরিষেবা কাজ করবে না।
+
+এই সেটিংটি এই ফোনের সব ব্যবহারকারীকে প্রভাবিত করবে।"</string>
+    <string name="data_usage_metered_body">"\"যেসব WLAN নেটওয়ার্কগুলি মোবাইল হটস্পট সেগুলি নির্বাচন করুন৷ পটভূমিতে থাকলে অ্যাপ্লিকেশন এই নেটওয়ার্কগুলি ব্যবহার করা থেকে
+সীমাবদ্ধ হতে পারে৷\""</string>
+    <string name="data_usage_metered_wifi">মিটার করা WLAN নেটওয়ার্কগুলি</string>
+    <string name="data_usage_metered_wifi_disabled">মিটার করা নেটওয়ার্কগুলি নির্বাচন করতে, WLAN চালু করুন।</string>
+    <string name="user_add_user_message_long">"আপনি অতিরিক্ত ব্যবহারকারী তৈরি করে অন্যদের সাথে এই যন্ত্র ভাগ করতে পারেন। প্রতিটি ব্যবহারকারীদের কাছে তাদের নিজস্ব স্থান রয়েছে যা তারা অ্যাপ্লিকেশান, ওয়ালপেপার, এবং আরো অনেক কিছু দিয়ে কাস্টমাইজ করতে পারেন। ব্যবহারকারীরা WLAN এর মত যন্ত্র সেটিংস সামঞ্জস্য করতে পারবেন যার প্রভাব পড়বে সকলের উপর।
+
+আপনি যখন নতুন ব্যবহারকারী যুক্ত করবেন, সেই ব্যক্তিকে তাদের স্থান সেট আপ করতে হবে।
+
+অন্যান্য ব্যবহারকারীদের হয়ে যে কোনো ব্যবহারকারী অ্যাপ্লিকেশানগুলি আপডেট করতে পারবেন।"</string>
+    <string name="restriction_wifi_config_title">WLAN এবং মোবাইল</string>
+    <string name="restriction_wifi_config_summary">WLAN ও মোবাইল সেটিং সংশোধনের অনুমোদন দিন</string>
+    <string name="setup_wifi_nfc_tag">WLAN NFC ট্যাগ সেটআপ করুন</string>
+    <string name="l_dialog_message_hint">"STAMINA মোডে এগুলি অন্তর্ভুক্ত রয়েছে:
+
+• বর্ধিত স্ট্যান্ডবাই
+যখন পর্দা বন্ধ হয়ে যায় তখন সাময়িকভাবে WLAN অক্ষম করার মাধ্যমে শক্তি সঞ্চয় করে। বেশীরভাগ অ্যাপ্লিকেশনগুলি নিষ্ক্রিয় থাকে।
+পর্দা যখন চালু থাকে, তখন আপনার যন্ত্র স্বাভাবিকভাবে ক্রিয়া করে।
+বর্ধিত স্ট্যান্ডবাই সক্ষম থাকার সময়ে আপনি কিছু অ্যাপসকে সক্রিয় রাখতে চাইলে, স্ট্যান্ডবাইতে অ্যাপস সক্রিয় এই তালিকায় অ্যাপগুলি যুক্ত করতে পারেন।
+
+• দীর্ঘকালীন ব্যবহার
+হার্ডওয়্যারের কার্যসম্পাদনা সীমিত করে আপনার যন্ত্রটিকে ব্যবহার করার সময় শক্তি সঞ্চয় করুন।"</string>
+    <string name="powersaver_feature_wifi">WLAN বন্ধ</string>
+    <string name="stamina_xssm_summary">স্ক্রীন বন্ধ থাকা কালে মোবাইল ডেটা ও WLAN অক্ষম করে</string>
+    <string name="usm_descr">"Ultra STAMINA মোড উল্লেখযোগ্যভাবে ব্যাটারির আয়ুষ্কাল বাড়াবে। আপনি যখন দীর্ঘ সময় ধরে আপনার যন্ত্রটিকে চার্জ করবেন না তখন আপনি এটি ব্যবহার করতে পারেন।
+
+এতে কেবল কয়েকটি মৌলিক ক্রিয়া, যেমন ফোন ও বার্তা প্রেরণ উপলভ্য হবে। আরও বিশদ বিবরণের জন্য \"আরও তথ্য\"-তে আলতো চাপুন।
+
+মনে রাখবেন WLAN ও মোবাইল ডেটার মাধ্যমে ইন্টারনেট সংযোগ অক্ষম হবে।"</string>
+    <string name="battery_usm_desc">"Ultra STAMINA মোড উল্লেখযোগ্যভাবে ব্যাটারির আয়ুষ্কাল বাড়িয়ে দেয়। মনে রাখবেন WLAN এবং মোবাইল ডেটার মাধ্যমে ইন্টারনেট সংযোগ অক্ষম হয়ে যাবে। আপনার হোম স্ক্রীন স্যুইচ করে Ultra STAMINA মোডে চলে যাবে।
+
+Ultra STAMINA মোডে উপলভ্য অ্যাপসমূহ"</string>
+    <string name="somc_wifi_turned_on_info">WLAN চালু আছে। তালিকায় আপনার নেটওয়ার্ক নির্বাচন করুন।</string>
+    <string name="wifi_tethering_warning_txt">মিডিয়া স্থানান্তরণ, ফোন সফ্টওয়্যার আপডেট, ব্যাকআপ এবং পুনঃস্থাপনের মত চলমান যে কোন WLAN কার্যকলাপ বিঘ্নিত হবে।</string>
+    <string name="somc_backup_failed_no_wifi_summary">WLAN সংযোগের অপেক্ষা করা হচ্ছে</string>
+    <string name="wifi_hs2_strings_hotspot2_summary_txt">WLAN চালু থাকার সময়ে উপলভ্য Passpoint নেটওয়ার্কগুলির সঙ্গে স্বতঃ সংযোগ করুন।</string>
+    <string name="wifi_tether_settings_subtext">ছোট WLAN হটস্পট সেট আপ করুন এবং ব্যবস্থাপনা করুন</string>
+    <string name="wifi_tether_settings_text">ছোট WLAN হটস্পট সেটিং</string>
+    <string name="wifi_security_wapi_cert">WLAN CERT</string>
+    <string name="ct_wifi_connected_text">চিনা টেলিকম WLAN সংযুক্ত</string>
+    <string name="cw_network_priority">চিনা টেলিকম WLAN কে অগ্রাধিকার দ.</string>
+    <string name="cw_network_priority_summary">সংযোগে থাকা অন্য WLAN নেটওয়ার্কগুলির নিরিখে চিনা টেলিকম WLAN নেটওয়ার্কগুলিকে অগ্রাধিকার দেওয়া হবে</string>
+    <string name="data_traffic_disabled_text">ডেটা ট্র্যাফিক অক্ষম থাকার কারণে চিন টেলিকম WLAN নেটওয়ার্কে সংযোগ করা যায়নি৷ এখন ডেটা ট্র্যাফিক সক্ষম করবেন?</string>
+    <string name="install_wapi_certs">WLAN সার্টিফিকেটস সংস্থা. করুন</string>
+    <string name="location_based_wifi">জায়গা-ভিত্তিক WLAN</string>
+    <string name="operator_auto_connect_hotspot_description_txt">AT&amp;T WLAN হটস্পটে স্বতঃসংযোগ করুন</string>
+    <string name="operator_auto_connect_hotspot_txt">অপারেটর WLAN স্বতঃসংযোগ</string>
+    <string name="wifi_context_menu_change_wapi_certificate">WLAN সার্টিফিকেট পরিবর্তন করুন</string>
+    <string name="wifi_p2p_settings">WLAN Direct™ সেটিংস</string>
+    <string name="wifi_security_verbose_wapi_cert">WLAN CERT দ্বারা সুরক্ষিত করুন</string>
+    <string name="wifi_security_verbose_wapi_psk">WLAN PSK দ্বারা সুরক্ষিত করুন</string>
+    <string name="wifi_tether_explanation_dialog_text">"আপনি আপনার যন্ত্রটিকে মোবাইল হটস্পট হিসাবে ব্যবহার করতে পারেন। এটি অন্যান্য যন্ত্রকে (সর্বাধিক 10 টি) একটি WLAN নেটওয়ার্কের মাধ্যমে এর সঙ্গে সংযুক্ত হতে দেয়। সংযুক্ত যন্ত্রগুলি আপনার মোবাইলের নেটওয়ার্ক সংযোগের মাধ্যমে ইন্টারনেট অ্যাক্সেস করতে পারবে। মোবাইল হটস্পট মোবাইল ডেটা ব্যবহার করে এবং এর পরিণামে অতিরিক্ত অর্থ লাগে।
+
+মোবাইল হটস্পট আরো বেশি ব্যাটারি খরচ করে। ব্যাটারির আয়ুষ্কাল বাড়াতে যন্ত্রটিকে কোনো আউটলেটের সঙ্গে সংযুক্ত করুন।"</string>
+    <string name="wifi_wps_category_title">WLAN নেটওয়ার্ক স্থাপন করুন</string>
+    <string name="xssm_guidecontent_what_stamina40jp_txt">"STAMINA মোড যন্ত্র সেটিং সুবিন্যস্ত করার দ্বারা ব্যাটারির পাওয়ার সঞ্চয় করে। নিদ্রা মোডে থাকাকালীন আপনি কার্যকারিতা হ্রাসের মাধ্যমে অ্যাপ্লিকেশনগুলিকে রান করার জন্য চয়ন করতে পারেন। (এটি আপনাকে ব্যাটারির পাওয়ার সঞ্চয় করতে সহায়তা করে কারণ বেশীরভাগ অ্যাপস নিদ্রা মোডে থাকা সত্ত্বেও ব্যাটারি নিঃশেষ করা বজায় রাখে।)
+
+নির্বাচিত অ্যাপসের কার্যকারিতা নিষ্ক্রিয় হয়েছে::
+- WLAN
+- মোবাইল ডেটা
+- টাইমার
+
+নিদ্রা মোডে থাকাকালীন সমস্ত অ্যাপসের ঘোষণা আলো একই ফ্রিকোয়েন্সিতে একই রঙে ফ্ল্যাশ হয়।
+
+আপনি যন্ত্র নিয়ন্ত্রণ করার সময়ে STAMINA মোড নিষ্ক্রিয় হয়।"</string>
+    <string name="wifi_security_short_wapi_cert">WLAN CERT</string>
+    <string name="wifi_security_short_wapi_psk">WLAN PSK</string>
+    <string name="vzw_avoid_bad_connections_text">"আপনি যে WLAN নেটওয়ার্কে সংযোগ করেছেন তা ইন্টারনেটের সাথে সংযুক্ত হয় নি।
+
+যখন এরকম ঘটে তখন মোবাইল নেটওয়ার্কে স্বয়ংক্রিয়ভাবে পাল্টাতে, উন্নত WLAN সেটিংয়ের মধ্যে খারাপ WLAN সংযোগ এড়িয়ে চলুন চালু করুন।"</string>
+    <string name="vzw_avoid_bad_connections_title">কোনো WLAN ইন্টারনেট সংযোগ নেই</string>
+    <string name="vzw_wifi_avoid_bad_connections">WLAN এর খারাপ সংযোগ এড়ান</string>
+    <string name="vzw_wifi_avoid_bad_connections_summary">যখনই আপনি WLAN নেটওয়ার্কে সংযোগ করবেন তখন তাতে ইন্টারনেট সংযোগ না থাকলে মোবাইল নেটওয়ার্ক ব্যবহার করুন। (ডেটার ব্যবহার প্রযোজ্য হতে পারে।)</string>
+    <string name="vzw_wifi_password_error_dialog_txt">WLAN পাসওয়ার্ডটি স্বীকার করা হয়নি। অনুগ্রহ করে পাসওয়ার্ডটি পরীক্ষা করে নিয়ে আবার চেষ্টা করুন।</string>
+    <string name="vzw_wifi_setup_wizard_desc">আপনি যদি এখনই WLAN-এ সংযোগ করতে চান তাহলে একটি নেটওয়ার্ক নির্বাচন করুন।</string>
+    <string name="vzw_wifi_setup_wizard_title">WLAN সেট আপ করুন</string>
+</resources>

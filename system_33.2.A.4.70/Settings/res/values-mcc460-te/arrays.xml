@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="app_ops_summaries">
+        <item>స్థూల స్థానం</item>
+        <item>ఖచ్చితమైన స్థానం</item>
+        <item>GPS</item>
+        <item>వైబ్రేట్</item>
+        <item>పరిచయాలను చదవండి</item>
+        <item>పరిచయాలను సవరించండి</item>
+        <item>కాల్ లాగ్‌ను చదవండి</item>
+        <item>కాల్ లాగ్‌ను సవరించండి</item>
+        <item>క్యాలెండర్‌ను చదవండి</item>
+        <item>క్యాలెండర్‌ను సవరించండి</item>
+        <item>WLAN స్కాన్</item>
+        <item>నోటిఫికేషన్</item>
+        <item>సెల్ స్కాన్</item>
+        <item>ఫోన్‌కు కాల్ చేయండి</item>
+        <item>SMSను చదవండి</item>
+        <item>SMSను వ్రాయండి</item>
+        <item>SMSను స్వీకరించండి</item>
+        <item>అత్యవసర SMSను స్వీకరించండి</item>
+        <item>MMSను స్వీకరించండి</item>
+        <item>WAP పుష్‌ను స్వీకరించండి</item>
+        <item>SMSను పంపండి</item>
+        <item>ICC SMSను చదవండి</item>
+        <item>ICC SMSను వ్రాయండి</item>
+        <item>సెట్టింగ్‌లను సవరించండి</item>
+        <item>పైభాగంలో గీయండి</item>
+        <item>నోటిఫికేషన్‌లను ప్రాప్యత చేయండి</item>
+        <item>కెమెరా</item>
+        <item>ఆడియోను రికార్డ్ చేయండి</item>
+        <item>ఆడియో ప్లే చేయండి</item>
+        <item>క్లిప్‌బోర్డ్‌ను చదవండి</item>
+        <item>క్లిప్‌బోర్డ్‌ను సవరించండి</item>
+        <item>మీడియా బటన్‌లు</item>
+        <item>ఆడియో కేంద్రీకరణ</item>
+        <item>మాస్టర్ వాల్యూమ్</item>
+        <item>వాయిస్ వాల్యూమ్</item>
+        <item>రింగ్ వాల్యూమ్</item>
+        <item>మీడియా వాల్యూమ్</item>
+        <item>అలారం వాల్యూమ్</item>
+        <item>నోటిఫికేషన్ వాల్యూమ్</item>
+        <item>బ్లూటూత్ వాల్యూమ్</item>
+        <item>సక్రియంగా ఉంచండి</item>
+        <item>స్థానాన్ని పర్యవేక్షించండి</item>
+        <item>అధిక శక్తివంతమైన స్థానాన్ని పర్యవేక్షించండి</item>
+        <item>వినియోగ గణాంకాలను పొందండి</item>
+        <item>మైక్రోఫోన్‌ను మ్యూట్ చేయండి/అన్‌మ్యూట్ చేయండి</item>
+        <item>ప్రాజెక్ట్ మీడియా</item>
+        <item>VPNని సక్రియ పరచండి</item>
+        <item>వాల్‌పేపర్ వ్రాయండి</item>
+        <item>నిర్మాణానికి సహాయం</item>
+        <item>స్క్రీన్‌షాట్‌కు సహాయం</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices">
+        <item>WLANకి ప్రాధాన్యత</item>
+        <item>సెల్యులార్‌కి ప్రాధాన్యత</item>
+    </string-array>
+    <string-array name="wapi_psk_type">
+        <item>WLAN ASCII</item>
+        <item>WLAN hexadecimal</item>
+    </string-array>
+</resources>

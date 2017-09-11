@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <CheckBoxPreference android:title="@string/somc_phone_eu_roaming_preference_title" android:key="somc_phone_eu_roaming_key" android:summary="@string/somc_phone_eu_roaming_preference_summary" />
+    <ListPreference android:entries="@array/somc_phone_national_data_roaming_preference_array" android:title="@string/somc_phone_national_roaming_preference_title" android:key="somc_phone_data_roaming_mode_key" android:summary="%s" android:dialogTitle="@string/somc_phone_national_roaming_preference_title" android:negativeButtonText="@android:string/cancel" android:entryValues="@array/somc_phone_national_data_roaming_preference_values" />
+</PreferenceScreen>

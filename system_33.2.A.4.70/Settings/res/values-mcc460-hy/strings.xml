@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_security_wapi_psk">WLAN PSK</string>
+    <string name="wifi_disabled_wifi_failure">WLAN կապի ձախողում</string>
+    <string name="connected_via_wfa">Կապակցված է WLAN Օգնականի միջոցով</string>
+    <string name="accessibility_wifi_off">WLAN-ն անջատված է:</string>
+    <string name="accessibility_no_wifi">WLAN-ն անջատված է:</string>
+    <string name="accessibility_wifi_one_bar">WLAN մեկ գծիկ:</string>
+    <string name="accessibility_wifi_two_bars">WLAN երկու գծիկ:</string>
+    <string name="accessibility_wifi_three_bars">WLAN երեք գծիկ:</string>
+    <string name="accessibility_wifi_signal_full">WLAN ամբողջական ազդանշան:</string>
+    <string name="radio_controls_summary">Կառավարեք WLAN-ը, Bluetooth-ը, ինքնաթիռի ռեժիմը, շարժական ցանցերը և VPN-ները</string>
+    <string name="wifi_assistant_title">WLAN Օգնական</string>
+    <string name="wifi_alert_lockdown_by_device_owner">%1$s հավելվածը կառավարում է ձեր սարքը և չի թողնում փոփոխել կամ ջնջել այս WLAN ցանցը: Լրացուցիչ տեղեկություններ ստանալու համար դիմեք ադմինիստրատորին:</string>
+    <string name="wifi_quick_toggle_title">WLAN</string>
+    <string name="wifi_quick_toggle_summary">Միացնել WLAN</string>
+    <string name="wifi_settings">WLAN</string>
+    <string name="wifi_settings_category">WLAN կարգավորումներ</string>
+    <string name="wifi_settings_title">WLAN</string>
+    <string name="wifi_setup_wizard_title">Ընտրել WLAN</string>
+    <string name="wifi_select_network">Ընտրել WLAN</string>
+    <string name="wifi_poor_network_detection_summary">Չմիանալ WLAN ցանցին, եթե առկա չէ լավ Համացանցի կապակցում</string>
+    <string name="wifi_automatically_connect_title">Ինքնաշխատ օգտագործել բաց WLAN ցանցերը</string>
+    <string name="wifi_automatically_connect_summary">Թույլ տալ WLAN օգնականին ինքնաշխատորեն միանալ բաց ցանցերին, որոնց որակը գնահատվում է որպես բարձր</string>
+    <string name="wifi_scan_notify_text">Տեղադրության որոշման ճշգրտությունը բարելավելու նպատակով համակարգի հավելվածներն ու ծառայությունները կարող են շարունակել WLAN ցանցերի որոնումը: Այս ընտրանքը կարող եք փոխել LINK_BEGINորոնման կարգավորումներումLINK_END:</string>
+    <string name="wifi_setting_sleep_policy_title">Ննջելիս` WLAN-ը միաց</string>
+    <string name="wifi_setting_on_during_sleep_title">WLAN-ը՝ քնելու ռեժիմում</string>
+    <string name="wifi_suspend_optimizations">WLAN լավարկում</string>
+    <string name="wifi_suspend_optimizations_summary">Նվազացրեք մարտկոցի ծախսը WLAN-ը միացրած ժամանակ</string>
+    <string name="wifi_limit_optimizations_summary">Սահմանափակել մարտկոցի օգտագործումը WLAN-ի կողմից</string>
+    <string name="wifi_switch_away_when_unvalidated">Անցնել բջջային կապի, երբ WLAN ցանցն անջատվում է համացանցից:</string>
+    <string name="wifi_access_points">WLAN ցանցեր</string>
+    <string name="wifi_menu_p2p">WLAN Direct</string>
+    <string name="wifi_empty_list_wifi_off">Առկա ցանցերը տեսնելու համար միացրեք WLAN-ը:</string>
+    <string name="wifi_empty_list_wifi_on">Որոնում է WLAN ցանցեր…</string>
+    <string name="wifi_empty_list_user_restricted">Դուք չունեք WLAN ցանցը փոխելու թույլտվություն</string>
+    <string name="wifi_wps_setup_title">WLAN Պաշտպանված տեղակայում</string>
+    <string name="wifi_wps_onstart_pbc">Սեղմեք երթուղիչի «WLAN-ով պաշտպանված տեղակայում» կոճակը: Այն կարող է կոչվել «WPS» կամ նշված լինել այս նշանով՝</string>
+    <string name="wifi_wps_onstart_pin">Մուտքագրեք PIN %1$s-ը WLAN երթուղիչում: Տեղակայումը երկու րոպեի ընթացքում կավարտվի:</string>
+    <string name="wifi_wps_connected">Կապակցված է %s WLAN ցանցին</string>
+    <string name="wifi_scan_always_turnon_message">"Տեղորոշման ճշգրտության բարձրացման, ինչպես նաև այլ նպատակների համար %1$s-ը ցանկանում է միացնել ցանցի որոնման հնարավորությունը՝ նույնիսկ եթե WLAN-ն անջատված է:
+
+Թույլատրե՞լ դա բոլոր աշխատածրագրերի համար, որոնք ցանկանում են որոնել:"</string>
+    <string name="wifi_skipped_message">"ԶԳՈՒՇԱՑՈՒՄ. ծառայությունների մատակարարը կարող է տվյալների օգտագործման համար ձեզանից լրացուցիչ գումարներ գանձել:
+
+Հեռախոսի տեղակայումը կարող է ցանցային զգալի գործունեություն պահանջել:"</string>
+    <string name="wifi_and_mobile_skipped_message">"Եթե չկարգավորեք WLAN-ը.
+
+"<li>Հեռախոսը ինտերնետի միացում չի ունենա:</li>"
+
+"<li>Չեք կարողանա թարմացնել ծրագրաշարը մինչև չմիանաք ինտերնետին:</li>"
+
+"<li>Չեք կարողանա ակտիվացնել սարքի պաշտպանության յուրահատկությունները:</li></string>
+    <string name="wifi_connect_failed_message">Հեռախոսը չկարողացավ կապակցել այս WLAN ցանցին:</string>
+    <string name="wifi_advanced_titlebar">WLAN կարգավորումներ</string>
+    <string name="wifi_setting_frequency_band_title">WLAN հաճախականության շերտ</string>
+    <string name="wifi_advanced_settings_label">WLAN կարգավորումներ</string>
+    <string name="wifi_p2p_settings_title">WLAN Direct</string>
+    <string name="wifi_tether_checkbox_text">Շարժ WLAN մատչել տար</string>
+    <string name="wifi_hotspot_checkbox_text">WLAN թեժ կետ</string>
+    <string name="wifi_hotspot_checkbox_text_summary">Օգտագործել բջջային կապը՝ WLAN ցանց ապահովելու համար</string>
+    <string name="wifi_tether_failed_subtext">Շարժական WLAN մատչելիության տարածքի սխալ</string>
+    <string name="wifi_tether_configure_ap_text">Տեղակայել WLAN թեժ կետ</string>
+    <string name="wifi_hotspot_configure_ap_text">WLAN թեժ կետի կարգավորում</string>
+    <string name="wifi_hotspot_configure_ap_text_summary">AndroidAP WPA2 PSK շարժական WLAN թեժ կետ</string>
+    <string name="wifi_tether_configure_subtext">"%1$s շարժական WLAN մատչելիության տարածք:
+Անվտանգություն. %2$s"</string>
+    <string name="wifi_calling_settings_title">WLAN Զանգում</string>
+    <string name="wifi_calling_mode_dialog_title">WLAN-ի միջոցով զանգերի ռեժիմ</string>
+    <string name="wifi_calling_off_explanation">"Օգտագործեք WLAN կանչերը և բարձրացրեք կանչերի որակն այն վայրերում, որտեղ բջջային ցանցի ծածկույթը թույլ է:
+ 
+Արժեքը՝
+WLAN կանչերի սակագների վերաբերյալ տեղեկություններ ստանալու համար կապվեք ձեր ծառայությունների մատակարարի հետ:
+ 
+Նշումներ WLAN կանչերի վերաբերյալ
+Որպեսզի WLAN կանչերը չընդհատվեն, մնացեք WLAN ցանցի հասանելիության սահմաններում:"</string>
+    <string name="status_wifi_mac_address">WLAN MAC հասցե</string>
+    <string name="reset_network_desc">"Այս գործողության արդյունքում կվերակայվեն ցանցի բոլոր կարգավորումները, այդ թվում նաև՝
+
+"<li>WLAN-ի</li>"
+"<li>Բջջային կապի տվյալների</li>"
+"<li>Bluetooth-ի</li> կարգավորումները</string>
+    <string name="network_scorer_change_active_dialog_title">Փոխե՞լ WLAN օգնականին:</string>
+    <string name="location_mode_high_accuracy_description">Տեղադրությունը որոշելու համար օգտագործել GPS, WLAN, Bluetooth կամ բջջային ցանցեր</string>
+    <string name="location_mode_battery_saving_description">Տեղադրությունը որոշելու համար օգտագործել WLAN, Bluetooth կամ բջջային ցանցեր</string>
+    <string name="location_scanning_wifi_always_scanning_title">WLAN ցանցերի որոնում</string>
+    <string name="location_scanning_wifi_always_scanning_description">Բարելավեք տեղադրության որոնումը՝ թույլատրելով համակարգի հավելվածներին և ծառայություններին ցանկացած պահի հայտնաբերել WLAN ցանցերը:</string>
+    <string name="location_neighborhood_level_wifi">Տեղադրությունը սահմանված է WLAN-ի կողմից</string>
+    <string name="wifi_verbose_logging">Միացնել WLAN մանրամասն գրանցամատյանները</string>
+    <string name="wifi_aggressive_handover">WLAN-ից կտրուկ անցում բջջային տվյալների</string>
+    <string name="wifi_allow_scan_with_traffic">Միշտ թույլատրել WLAN ռոումինգի որոնումը</string>
+    <string name="wifi_verbose_logging_summary">Բարձրացնել մակարդակը, WLAN ընտրիչում ամեն մի SSID-ի համար ցույց տալ RSSI</string>
+    <string name="wifi_aggressive_handover_summary">Եթե այս գործառույթը միացված է, WLAN-ի թույլ ազդանշանի դեպքում WLAN ինտերնետից անցումը բջջային ինտերնետին ավելի կտրուկ կլինի</string>
+    <string name="wifi_allow_scan_with_traffic_summary">Թույլատրել/արգելել WLAN ռոումինգի որոնումը՝ կախված միջերեսում տվյալների երթևեկի ծավալից</string>
+    <string name="mobile_data_always_on_summary">Միշտ ակտիվացրած պահել բջջային տվյալները, նույնիսկ WLAN-ը միացրած ժամանակ (ցանցերի միջև արագ փոխարկման համար):</string>
+    <string name="battery_stats_wifi_running_label">WLAN</string>
+    <string name="wifi_on_time">WLAN-ը ժամանակի վրա</string>
+    <string name="bluetooth_on_time">WLAN-ը ժամանակի վրա</string>
+    <string name="power_wifi">WLAN</string>
+    <string name="usage_type_wifi_running">Աշխատ WLAN</string>
+    <string name="usage_type_data_wifi_send">Ուղրկ WLAN փաթեթներ</string>
+    <string name="usage_type_data_wifi_recv">Ստցվ WLAN փաթեթներ</string>
+    <string name="battery_action_wifi">WLAN կարգավորումներ</string>
+    <string name="battery_desc_wifi">Էներգիայի ծախսը WLAN-ի կողմից</string>
+    <string name="battery_sugg_wifi">Անջատել WLAN-ը, երբ այն չի գործածվում կամ մատչելի չէ</string>
+    <string name="gadget_toggle_wifi">WLAN կարգավորման արդիացում</string>
+    <string name="gadget_wifi">WLAN</string>
+    <string name="backup_data_summary">Պահուստավորել գործադիրի տվյալները, WLAN գաղտնաբառերը և այլ կարգավորումներ Google™-ի սպասարկիչներին</string>
+    <string name="backup_erase_dialog_message">Դադարեցնել WLAN գաղտնաբառերի, էջանիշերի, այլ կարգավորումների և գործադիրների տվյալների պահուստավորումը և ջնջել բոլոր պատճեները Google™-ի սպասարկիչներից:</string>
+    <string name="fullbackup_erase_dialog_message">Դադարեցնե՞լ սարքի տվյալների (WLAN-ի գաղտնաբառեր, զանգերի պատմություն և այլն) և հավելվածների տվյալների (հավելվածների պահած կարգավորումներ, ֆայլեր և այլ) պահուստավորումը և ջնջել բոլոր պատճենները Google Drive-ում:</string>
+    <string name="fullbackup_data_summary">"Սարքի տվյալների (WLAN-ի գաղտնաբառեր և զանգերի պատմություն), ինչպես նաև հավելվածների տվյալների (հավելվածների պահած կարգավորումներ, ֆայլեր և այլն) ինքնաշխատ հեռակա պահուստավորում:
+
+Ինքնաշխատ պահուստավորումը միացնելիս՝ սարքի և հավելվածների տվյալները պարբերաբար պահվում են հեռակա կարգով: Հավելվածների տվյալները դա նրանց պահած տվյալներն են (կախված մշակողի կարգավորումներից): Դրանց թվում կարող են լինել նաև կոնտակտներ, հաղորդագրություններ, լուսանկարներ և այլ կոնֆիդենցիալ տվյալներ:"</string>
+    <string name="wifi_setup_title">WLAN տեղակայում</string>
+    <string name="wifi_setup_title_editing_network">Միացում WLAN ցանցին %s</string>
+    <string name="wifi_setup_title_connecting_network">Կապակցում է %s WLAN ցանցին…</string>
+    <string name="wifi_setup_title_connected_network">Կապակցել %s WLAN ցանցին</string>
+    <string name="wifi_setup_eap_not_supported">Չեք կարող կազմաձևել EAP WLAN կապակցումը տեղակայման ընթացքում: Տեղակայումից հետո կարող եք դա անել Կարգավորումներ > Անլար և այլ ցանցերում:</string>
+    <string name="wifi_setup_description_connected">Հպեք <b>Հաջորդը</b>"՝ տեղակայումը շարունակելու համար:
+
+Հպեք "<b>Հետ</b>՝ մեկ այլ WLAN ցանցին միանալու համար:</string>
+    <string name="data_usage_menu_show_wifi">Ցույց տալ WLAN-ը</string>
+    <string name="data_usage_menu_hide_wifi">Թաքցնել WLAN-ը</string>
+    <string name="data_usage_disable_wifi_limit">Կայել WLAN տվյալների սահմանաչափը</string>
+    <string name="data_usage_tab_wifi">WLAN</string>
+    <string name="data_usage_restrict_background">Եթե սահմանափակեք խորքային բջջային տվյալները, որոշ գործադիրներ և ծառայություններ չեն աշխատի առանց WLAN ցանցի կապակցման:</string>
+    <string name="data_usage_restrict_background_multiuser">"Եթե սահմանափակեք ֆոնային բջջային տվյալները, ապա որոշ աշխատածրագրեր և ծառայություններ չեն աշխատի, մինչև չմիանաք WLAN-ին:
+
+Այս պարամետրը վերաբերում է հեռախոսի բոլոր օգտվողներին:"</string>
+    <string name="data_usage_metered_body">Ընտրել WLAN ցանցեր, որոնք բջջային մատչելիության տարածքներ են: Այս ցանցերի օգտագործումը կարող է սահմանափակ լինել խորքային գործադիրների համար: Նաև գործադիրները կարող են զգուշացնել այս ցանցերը մեծ ներբեռնումների համար օգտագործելուց առաջ:</string>
+    <string name="data_usage_metered_wifi">Տրաֆիկի հաշվառմամբ WLAN ցանցեր</string>
+    <string name="data_usage_metered_wifi_disabled">Տրաֆիկի հաշվառմամբ ցանցերն ընտրելու համար միացրեք WLAN-ը:</string>
+    <string name="user_add_user_message_long">"Ավելացնելով հավելյալ օգտվողներ՝ սարքը կարող եք համօգտագործել այլ մարդկանց հետ: Ամեն մի օգտվող կունենա իր սեփական տարածքը, որը կարող է հարմարեցնել ծրագրերով, պաստառով և այլ բաներով: Օգտվողները կարող են նաև կարգաբերել WLAN-ի և սարքի այլ կարգավորումները, որոնք առնչվում են բոլորին:
+
+Երբ նոր օգտվող եք ավելացնում, նա պետք է կարգավորի իր տարածքը:
+
+Ցանկացած օգտվող կարող է թարմացնել բոլոր օգտվողների աշխատածրագրերը:"</string>
+    <string name="restriction_wifi_config_title">WLAN և Շարժական</string>
+    <string name="restriction_wifi_config_summary">Թույլատրել WLAN և Շարժական պարամետրերի փոփոխումը</string>
+    <string name="setup_wifi_nfc_tag">Կարգավորել WLAN NFC պիտակը</string>
+    <string name="l_dialog_message_hint">"STAMINA ռեժիմը ներառում է՝
+
+• Երկարացված սպասման ռեժիմը
+Խնայում է լիցքը երբ էկրանն անջատված է՝ WLAN-ը ժամանակավորապես կասեցնելու միջոցով: Աշխատածրագրերից շատերն ապաակտիվանում են: 
+Էկրանը կրկին միացնելուց հետո ձեր սարքը շարունակում է աշխատել նորմալ ռեժիմում:
+Եթե ցանկանում եք, որպեսզի որոշ աշխատածրագրեր ակտիվ մնան Երկարացված սպասման ռեժիմում, հավելեք այդ աշխատածրագրերը Սպասման ռեժիմում ակտիվ աշխատածրագրերի ցուցակին:
+
+• Երկարացված օգտագործումը
+Խնայում է լիցքը սարքի օգտագործման ժամանակ՝ սարքաշարի աշխատանքը սահմանափակելու միջոցով:"</string>
+    <string name="powersaver_feature_wifi">Անջատել WLAN-ը</string>
+    <string name="stamina_xssm_summary">Անջատել բջջ. տվյ. և WLAN-ը, երբ էկրանն անջատ է</string>
+    <string name="usm_descr">"Ultra STAMINA ռեժիմը զգալիորեն երկարացնում է մարտկոցի աշխատանքի ժամկետը: Այն կարող է օգտագործվել այն դեպքում, երբ դուք երկար ժամանակ չեք կարող լիցքավորել ձեր սարքը:
+
+Մատչելի կլինեն միայն մի քանի հիմնական յուրահատկություններ, ինչպիսիք են Հեռախոսը և Հաղորդագրումը: Լրացուցիչ մանրամասների համար թակեք «Այլ տեղեկություններ» կոճակը:
+
+Խնդրում ենք հաշվի առնել, որ WLAN-ի և բջջային տվյալների միջոցով Ինտերնետի միացումը կասեցված է լինելու:"</string>
+    <string name="battery_usm_desc">"Ultra STAMINA ռեժիմը թույլ է տալիս զգալիորեն երկարացնել մարտկոցի աշխատանքի ժամկետը: Խնդրում ենք հաշվի առնել, որ WLAN-ի և բջջային տվյալների միջոցով Ինտերնետին միանալու հնարավորությունը կասեցվելու է: Ձեր Գլխավոր էկրանը վերածվելու է Ultra STAMINA ռեժիմի Գլխավոր էկրանի:
+
+Ultra STAMINA ռեժիմում մատչելի աշխատածրագրեր"</string>
+    <string name="somc_wifi_turned_on_info">WLAN-ը միացված է: Ցուցակից ընտրեք ձեր ցանցը:</string>
+    <string name="wifi_tethering_warning_txt">Բոլոր ընթացիկ WLAN գործողությունները (օրինակ՝ մեդիա փոխանցումը, հեռախոսի ծրագրաշարի արդիացումը, կրկնօրինակումը և վերականգնումը) կընդհատվեն:</string>
+    <string name="somc_backup_failed_no_wifi_summary">WLAN միացման սպասում</string>
+    <string name="wifi_hs2_strings_hotspot2_summary_txt">Ինքնաբերաբար միանալ մատչելի Passpoint ցանցերին, երբ WLAN-ը միացած է</string>
+    <string name="wifi_tether_settings_subtext">Կարգավորել և կառավարել շարժական WLAN մատչելիության կետ</string>
+    <string name="wifi_tether_settings_text">Շրժ WLAN մտչ տրծքի պրմտր</string>
+    <string name="wifi_security_wapi_cert">WLAN CERT</string>
+    <string name="ct_wifi_connected_text">China Telecom WLAN-ը մցվծ է</string>
+    <string name="cw_network_priority">Առջ տլ China Telecom WLAN-ին</string>
+    <string name="cw_network_priority_summary">Միացնելիս այլ WLAN ցանցերի նկատմամբ առաջնահերթությունը կտրվի China Telecom WLAN ցանցերին</string>
+    <string name="install_wapi_certs">Տեղադրել WLAN վկայագրեր</string>
+    <string name="location_based_wifi">Տեղադրության վրա հիմնված WLAN</string>
+    <string name="operator_auto_connect_hotspot_description_txt">Ինքնաշխատորեն միանալ AT&amp;T WLAN մատչելիության կետին</string>
+    <string name="operator_auto_connect_hotspot_txt">AT&amp;T WLAN ինքնամիացում</string>
+    <string name="wifi_context_menu_change_wapi_certificate">Փոխել WLAN վկայագիրը</string>
+    <string name="wifi_p2p_settings">WLAN Direct™-ի պարամետրեր</string>
+    <string name="wifi_security_verbose_wapi_cert">Ապահովված է WLAN CERT-ով</string>
+    <string name="wifi_security_verbose_wapi_psk">Ապահովված է WLAN PSK-ով</string>
+    <string name="wifi_tether_explanation_dialog_text">"Կարող եք օգտագործել ձեր սարքը որպես շարժական մատչելիության տարածք: Դա առավելագույնը 10 այլ սարքերին թույլ է տալիս միանալ ձեր սարքին WLAN ցանցի միջոցով: Կապակցված սարքերը կունենան ձեր բջջային ցանցի միացման միջոցով Ինտերնետ մուտք գործելու հնարավորություն: Շարժական մատչելիության տարածքն օգտագործում է բջջային տվյալները և կարող է լրացուցիչ վճարներ առաջացնել:
+
+Շարժական մատչելիության տարածքն ավելի արագ է սպառում մարտկոցի լիցքը: Մարտկոցի աշխատանքի ժամանակն ավելացնելու համար այն միացրեք հոսանքի վարդակին:"</string>
+    <string name="wifi_wps_category_title">Կարգավորել WLAN ցանցը</string>
+    <string name="xssm_guidecontent_what_stamina40jp_txt">"STAMINA ռեժիմը խնայում է մարտկոցի լիցքը՝ սարքի պարամետրերը կարգավորելու միջոցով: Կարող եք ընտրել աշխատածրագրերը, որոնք քնելու ռեժիմում ցանկանում եք գործարկել նվազեցված գործառնականությամբ: (Դա կօգնի խնայել մարտկոցի լիցքը, քանի որ աշխատածրագրերից շատերը շարունակում են ծախսել մարտկոցի լիցքը նույնիսկ քնելու ռեժիմի ժամանակ:)
+
+Ընտրված աշխատածրագրերի համար կասեցվում են հետևյալ գործառույթները:
+- WLAN
+- Բջջային տվյալներ
+- Ժամաչափ
+
+Բոլոր աշխատածրագրերի ծանուցման լույսը քնելու ռեժիմում թարթում է նույն գույնով և նույն հաճախականությամբ:
+
+STAMINA ռեժիմը ապաակտիվացվում է երբ դուք կառավարում եք սարքը:"</string>
+    <string name="wifi_security_short_wapi_cert">WLAN CERT</string>
+    <string name="wifi_security_short_wapi_psk">WLAN PSK</string>
+    <string name="vzw_avoid_bad_connections_text">"WLAN ցանցը, որին միացած եք, միացած չէ Ինտերնետին:
+
+Նման դեպքերում շարժական ցանցին ինքնաբերաբար անցնելու համար Ընդլայնված WLAN պարամետրերում ակտիվացրեք «Խուսափել թույլ WLAN միացումներից» ընտրանքը:"</string>
+    <string name="vzw_avoid_bad_connections_title">WLAN Ինտերնետ միացում չկա</string>
+    <string name="vzw_wifi_avoid_bad_connections">Խուսափել թույլ WLAN միացումներից</string>
+    <string name="vzw_wifi_avoid_bad_connections_summary">Օգտագործել շարժական ցանցն ամեն անգամ, երբ WLAN ցանցը, որին միացել եք, Ինտերնետի միացում չունի: (Տվյալների օգտգ համար կարող են վճրնր գնձվլ:)</string>
+    <string name="vzw_wifi_password_error_dialog_txt">WLAN գաղտնաբառը մերժվել է: Ստուգեք գաղտնաբառը և փորձեք նորից:</string>
+    <string name="vzw_wifi_setup_wizard_desc">Եթե ցանկանում եք միանալ WLAN-ին հիմա, ընտրեք ցանցը:</string>
+    <string name="vzw_wifi_setup_wizard_title">WLAN-ի տեղակայում</string>
+</resources>

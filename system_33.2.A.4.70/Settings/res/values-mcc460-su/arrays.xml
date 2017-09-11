@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="app_ops_summaries">
+        <item>lokasi kasar</item>
+        <item>lokasi lemes</item>
+        <item>GPS</item>
+        <item>geter</item>
+        <item>baca kontak</item>
+        <item>robah kontak</item>
+        <item>baca log telepon</item>
+        <item>robah log telepon</item>
+        <item>baca almenak</item>
+        <item>robah almenak</item>
+        <item>Seken WLAN</item>
+        <item>bewara</item>
+        <item>seken seluler</item>
+        <item>nelepon</item>
+        <item>tulis SMS</item>
+        <item>tulis SMS</item>
+        <item>nampa SMS</item>
+        <item>nampa SMS darurat</item>
+        <item>nampa MMS</item>
+        <item>nampa push WAP</item>
+        <item>kirim SMS</item>
+        <item>baca SMS ICC</item>
+        <item>tulis SMS ICC</item>
+        <item>robah setelan</item>
+        <item>gambar di luhur</item>
+        <item>bewara akses</item>
+        <item>kamera</item>
+        <item>rekam audio</item>
+        <item>puter audio</item>
+        <item>baca papan klip</item>
+        <item>robah papan klip</item>
+        <item>kenop media</item>
+        <item>Pokus audio</item>
+        <item>polumeu master</item>
+        <item>polumeu sora</item>
+        <item>polumeu ngirining</item>
+        <item>polumeu media</item>
+        <item>polumeu alarm</item>
+        <item>polumeu bewara</item>
+        <item>Polumeu Bluetooth</item>
+        <item>tetep ngalilir</item>
+        <item>lokasi mantau</item>
+        <item>mantau lokasi daya luhur</item>
+        <item>meunangkeun statistik pamakean</item>
+        <item>jempe/sadakeun mikropon</item>
+        <item>média proyék</item>
+        <item>aktipkeun VPN</item>
+        <item>tulis wallpaper</item>
+        <item>struktur bantosan</item>
+        <item>bantosan tewak layar</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices">
+        <item>Milih WLAN</item>
+        <item>Milih Sélulér</item>
+    </string-array>
+    <string-array name="wapi_psk_type">
+        <item>WLAN ASCII</item>
+        <item>WLAN hexadecimal</item>
+    </string-array>
+</resources>

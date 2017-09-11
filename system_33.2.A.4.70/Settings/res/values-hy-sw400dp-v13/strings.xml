@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="powersaver_feature_haptic">Անջատել Թրթռալ հպելիս գործառույթը</string>
+    <string name="powersaver_feature_sync">Անջատել ինքնահամաժամացումը</string>
+    <string name="powersaver_feature_data">Անջատել շարժական տվյալները</string>
+    <string name="powersaver_feature_gamma">Միացնել գիշերային ռեժիմը</string>
+    <string name="powersaver_feature_bravia">Mobile BRAVIA Engine` անջատած</string>
+    <string name="stamina_queue_background_data_title">Խորքի տվյալների հերթագրում</string>
+    <string name="stamina_xssm_add_applications_title">Սպասման ռեժիմում ակտիվ աշխատածրագրեր</string>
+    <string name="application_usage_title">Էներգիայի սպառումն աշխատածրագրի կողմից</string>
+    <string name="wifi_tether_settings_text">Շարժական Wi-Fi մտչ տարածքի պարամետրեր</string>
+    <string name="usb_direct_settings_hi_res_audio_title_txt">Բարձր տարլուծմամբ ձայն USB-ի միջոցով</string>
+    <string name="auto_sync_text">Ինքնահամաժամացում</string>
+</resources>

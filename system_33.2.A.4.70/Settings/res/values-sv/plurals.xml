@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">Du är nu %1$d steg från att bli utvecklare.</item>
+        <item quantity="one">Du är nu %1$d steg från att bli utvecklare.</item>
+    </plurals>
+    <plurals name="security_settings_fingerprint_preference_summary">
+        <item quantity="other">Fingeravtrycksupplåsning aktiverad</item>
+        <item quantity="one">Fingeravtrycksupplåsning aktiverad</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">Lösenord måste innehålla minst %d bokstäver.</item>
+        <item quantity="one">Lösenord måste innehålla minst en bokstav.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">Lösenord måste innehålla minst %d små bokstäver.</item>
+        <item quantity="one">Lösenordet måste innehålla minst en liten bokstav.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">Lösenord måste innehålla minst %d stora bokstäver.</item>
+        <item quantity="one">Lösenord måste innehålla minst en stor bokstav.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">Lösenord måste innehålla minst %d siffror.</item>
+        <item quantity="one">Lösenord måste innehålla minst en siffra.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">Lösenordet måste innehålla minst %d specialsymboler.</item>
+        <item quantity="one">Lösenord måste innehålla minst en specialsymbol.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">Lösenordet måste innehålla minst %d tecken som inte är bokstäver.</item>
+        <item quantity="one">Lösenordet måste innehålla minst ett tecken som inte är en bokstav.</item>
+    </plurals>
+    <plurals name="wrong_pin_code">
+        <item quantity="other">Du angav fel PIN-kod för SIM-kortet. Du har %d försök kvar.</item>
+        <item quantity="one">Du angav fel PIN-kod för SIM-kortet. %d försök återstår innan du måste kontakta operatören för att låsa upp enheten.</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">%d appar kan läsa aviseringar</item>
+        <item quantity="one">%d app kan läsa aviseringar</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_minute">
+        <item quantity="other">Ändra till endast alarm för %1$d minuter (till %2$s)</item>
+        <item quantity="one">Ändra till endast alarm för en minut tills %2$s</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_hour">
+        <item quantity="other">Ändra till endast alarm för %1$d timmar till %2$s</item>
+        <item quantity="one">Ändra till endast alarm för en timme till %2$s</item>
+    </plurals>
+    <plurals name="permissions_summary">
+        <item quantity="other">%d beviljade behörigheter</item>
+        <item quantity="one">%d beviljad behörighet</item>
+    </plurals>
+    <plurals name="runtime_permissions_summary">
+        <item quantity="other">%1$d av %2$d beviljade behörigheter</item>
+        <item quantity="one">%1$d av %2$d beviljad behörighet</item>
+    </plurals>
+    <plurals name="runtime_permissions_additional_count">
+        <item quantity="other">%d ytterligare behörigheter</item>
+        <item quantity="one">%d ytterligare behörighet</item>
+    </plurals>
+    <plurals name="domain_urls_apps_summary">
+        <item quantity="other">%d appar kan öppna länkar som stöds</item>
+        <item quantity="zero">Ingen app kan öppna länkar som stöds</item>
+        <item quantity="one">En app kan öppna länkar som stöds i appen</item>
+    </plurals>
+    <plurals name="high_power_count">
+        <item quantity="other">%d appar tillåts ignorera batterioptimering</item>
+        <item quantity="one">1 app tillåts ignorera batterioptimering</item>
+    </plurals>
+    <plurals name="memory_usage_apps_summary">
+        <item quantity="other">%1$d appar använde minnet under den senaste %2$s</item>
+        <item quantity="one">1 app använde minnet under den senaste %2$s</item>
+    </plurals>
+    <plurals name="remaining_time_format_days">
+        <item quantity="other">%d dagar</item>
+        <item quantity="one">%d dag</item>
+    </plurals>
+    <plurals name="remaining_time_format_hours">
+        <item quantity="other">%d timmar</item>
+        <item quantity="one">%d timme</item>
+    </plurals>
+    <plurals name="stamina_xssm_add_applications_descr">
+        <item quantity="other">%d appar i listan</item>
+        <item quantity="one">%1$d app i listan</item>
+    </plurals>
+    <plurals name="not_time_left_format_hours">
+        <item quantity="other">%d timmar</item>
+        <item quantity="one">%d timme</item>
+    </plurals>
+    <plurals name="not_time_left_format_minutes">
+        <item quantity="other">%d minuter</item>
+        <item quantity="one">%d minut</item>
+    </plurals>
+    <plurals name="xssm_settings_blacklist_summary_txt">
+        <item quantity="other">%d appar valda</item>
+        <item quantity="one">%d app vald</item>
+    </plurals>
+</resources>

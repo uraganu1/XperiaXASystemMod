@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <View android:background="?android:dividerHorizontal" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <LinearLayout android:layout_gravity="end" android:id="@id/tableRowForButtons" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" style="?android:attr/buttonBarStyle">
+        <Button android:id="@id/enableUsmButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/usm_enable" android:layout_weight="1.0" android:textAllCaps="true" style="?android:attr/buttonBarButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

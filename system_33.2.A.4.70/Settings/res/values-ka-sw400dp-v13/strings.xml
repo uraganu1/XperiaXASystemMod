@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="powersaver_feature_haptic">შეხებისას ვიბრაციის გამორთვა</string>
+    <string name="powersaver_feature_sync">ავტომატური სინქრონიზაციის გამორთვა</string>
+    <string name="powersaver_feature_data">მობილური მონაცემების გამორთვა</string>
+    <string name="powersaver_feature_gamma">ღამის რეჟიმის ჩართვა</string>
+    <string name="powersaver_feature_bravia">Mobile BRAVIA Engine-ის გამორთვა</string>
+    <string name="stamina_queue_background_data_title">ფონური მონაცემების რიგში ჩაყენება</string>
+    <string name="stamina_xssm_add_applications_title">აქტიური პროგრამები მოცდის რეჟიმში</string>
+    <string name="application_usage_title">პროგრამის მიერ ენერგიის მოხმარება</string>
+    <string name="wifi_tether_settings_text">მოძრავი Wi-Fi წვდომის ზონის პარამეტრები</string>
+    <string name="usb_direct_settings_hi_res_audio_title_txt">მაღალი გარჩევადობის აუდიო USB-ით</string>
+    <string name="auto_sync_text">ავტომატური სინქრონიზაცია</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:scrollbarStyle="outsideOverlay" android:layout_gravity="center_vertical" android:id="@id/list" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" style="@style/PreferenceFragmentListSinglePane" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?android:attr/buttonBarStyle">
+        <Button android:id="@id/cancel_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/unused_apps_manage_cancel_button" android:layout_weight="1.0" style="?android:attr/buttonBarButtonStyle" />
+        <Button android:id="@id/remove_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/unused_apps_manage_remove_button" android:layout_weight="1.0" style="?android:attr/buttonBarButtonStyle" />
+    </LinearLayout>
+</LinearLayout>

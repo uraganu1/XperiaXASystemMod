@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_poor_network_detection">Schlechte Verbindungen vermeiden</string>
+    <string name="powersaver_feature_haptic">Vibra-Feedback deaktiviert</string>
+    <string name="powersaver_feature_sync">Autosync ausgeschaltet</string>
+    <string name="powersaver_feature_data">Mobile Daten deaktiviert</string>
+    <string name="powersaver_feature_gamma">Nachtmodus aktiviert</string>
+    <string name="powersaver_feature_bravia">Mobile BRAVIA Engine deaktiviert</string>
+    <string name="stamina_queue_background_data_title">Hintergrunddaten in Warteschlange</string>
+    <string name="stamina_xssm_add_applications_title">Im Standby-Modus aktive Apps</string>
+    <string name="application_usage_title">Akkuverbrauch-Anwendung</string>
+    <string name="wifi_tether_settings_text">Einstellungen für den mobilen WLAN-Hotspot</string>
+    <string name="auto_sync_text">Autosync</string>
+</resources>

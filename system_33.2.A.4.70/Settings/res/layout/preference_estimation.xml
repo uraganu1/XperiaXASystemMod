@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="?android:listPreferredItemPaddingStart" android:paddingEnd="?android:listPreferredItemPaddingEnd"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/batteryLayout" android:background="?android:selectableItemBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="33.0dip" android:layout_marginBottom="24.0dip">
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/battery" android:layout_width="52.0dip" android:layout_height="85.0dip" />
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/batteryPlugged" android:layout_width="30.0dip" android:layout_height="50.0dip" android:layout_marginTop="22.0dip" android:src="@drawable/battery_charging_icn" />
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/batteryStamina" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginTop="33.0dip" android:src="@drawable/battery_stamina_on_icn" />
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/batteryUsm" android:layout_width="42.0dip" android:layout_height="28.0dip" android:layout_marginTop="33.0dip" android:src="@drawable/battery_usm_on_icn" />
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="18.0dip">
+            <TextView android:textSize="24.0dip" android:textStyle="bold" android:textColor="@color/somc_stamina_battery_default" android:id="@id/batteryPercent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sans-serif" />
+            <TextView android:textSize="25.0dip" android:textStyle="bold" android:textColor="@color/somc_stamina_battery_default" android:id="@id/batteryDuration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sans-serif" />
+            <TextView android:textSize="14.0dip" android:textColor="@color/somc_stamina_battery_default" android:id="@id/usageTxt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/battery_usage_sub" android:fontFamily="sans-serif-medium" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textSize="16.0sp" android:textColor="?android:textColorPrimary" android:id="@id/usmDescr" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" />
+</LinearLayout>

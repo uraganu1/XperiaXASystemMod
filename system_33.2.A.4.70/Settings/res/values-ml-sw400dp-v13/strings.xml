@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="powersaver_feature_sync">സ്വയ സമന്വയം ഓഫ്</string>
+    <string name="powersaver_feature_gamma">രാത്രി മോഡ് ഓണ്‍</string>
+    <string name="powersaver_feature_bravia">Mobile BRAVIA Engine ഓഫ്</string>
+    <string name="stamina_queue_background_data_title">പശ്ചാത്തല ഡാറ്റ ക്യൂവാക്കൂ</string>
+    <string name="stamina_xssm_add_applications_title">സ്റ്റാൻഡ്ബൈയിൽ സജീവമായ ആപ്ലിക്കേഷനുകൾ</string>
+    <string name="wifi_tether_settings_text">പോര്‍ട്ടബിള്‍ Wi-Fi ഹോട്സ്പോട്ട് ക്രമീകരണം</string>
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="app_ops_summaries">
+        <item>gróflega áætluð staðsetning</item>
+        <item>nákvæm staðsetning</item>
+        <item>GPS</item>
+        <item>titringur</item>
+        <item>lesa tengiliði</item>
+        <item>breyta tengiliðum</item>
+        <item>lesa símtalaskrá</item>
+        <item>breyta símtalaskrá</item>
+        <item>lesa dagatal</item>
+        <item>breyta dagatali</item>
+        <item>wi-fi leit</item>
+        <item>tilkynning</item>
+        <item>leit að símasambandi</item>
+        <item>hringja í síma</item>
+        <item>lesa SMS</item>
+        <item>skrifa SMS</item>
+        <item>taka á móti SMS</item>
+        <item>fá neyðartextaskilaboð</item>
+        <item>taka á móti MMS</item>
+        <item>fá WAP-sendingar</item>
+        <item>senda SMS</item>
+        <item>lesa ICC SMS</item>
+        <item>skrifa ICC SMS</item>
+        <item>breyta stillingum</item>
+        <item>teikna yfir</item>
+        <item>aðgangstilkynningar</item>
+        <item>myndavél</item>
+        <item>taka upp hljóð</item>
+        <item>spila hljóð</item>
+        <item>lesa klippiborð</item>
+        <item>breyta klippiborði</item>
+        <item>margmiðlunarhnappar</item>
+        <item>fókus hljóðs</item>
+        <item>meginhljóðstyrkur</item>
+        <item>hljóðstyrkur raddar</item>
+        <item>hljóðstyrkur hringingar</item>
+        <item>hljóðstyrkur margmiðlunarefnis</item>
+        <item>hljóðstyrkur vekjara</item>
+        <item>hljóðstyrkur tilkynninga</item>
+        <item>hljóðstyrkur bluetooth</item>
+        <item>ekki fara í biðstöðu</item>
+        <item>fylgjast með staðsetningu</item>
+        <item>fylgjast með staðsetningum með miklum styrk</item>
+        <item>fá talnagögn um notkun</item>
+        <item>kveikja/slökkva á hljóðnema</item>
+        <item>margmiðlunarefni verkefnis</item>
+        <item>virkja VPN</item>
+        <item>skrifa veggfóður</item>
+        <item>aðstoða við uppbyggingu</item>
+        <item>aðstoða við skjámynd</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices">
+        <item>WLAN í forgangi</item>
+        <item>Farsímakerfi í forgangi</item>
+    </string-array>
+</resources>

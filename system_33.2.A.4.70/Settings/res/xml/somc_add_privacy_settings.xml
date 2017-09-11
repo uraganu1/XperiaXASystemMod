@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.sonymobile.settings.preference.PreferenceCategory android:title="@string/somc_xperia_transfer_category_title" android:key="somc_transfer_category" settings:before="backup_category">
+        <com.sonymobile.settings.preference.IntentPreference settings:dependOnIsValidIntent="true" settings:hasMetaData="true">
+            <intent android:targetPackage="com.sonymobile.xperiatransfermobile" android:action="com.sonymobile.xperiatransfermobile.intent.action.LAUNCH" android:targetClass="com.sonymobile.xperiatransfermobile.ui.CompatibilityCheckerActivity" />
+        </com.sonymobile.settings.preference.IntentPreference>
+    </com.sonymobile.settings.preference.PreferenceCategory>
+</PreferenceScreen>

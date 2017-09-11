@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_disabled_wifi_failure">WLAN-tengingarvilla</string>
+    <string name="connected_via_wfa">Tengt í gegnum WLAN aðstoð</string>
+    <string name="radio_controls_summary">Stjórna WLAN, Bluetooth, flugstillingu, farsímakerfum og VPN-netum</string>
+    <string name="wifi_assistant_title">WLAN aðstoð</string>
+    <string name="wifi_alert_lockdown_by_device_owner">%1$s stjórnar tækinu og gefur ekki kost á að breyta eða eyða þessu WLAN neti. Hafðu samband við kerfisstjórann til að fá frekari upplýsingar.</string>
+    <string name="wifi_quick_toggle_title">WLAN</string>
+    <string name="wifi_quick_toggle_summary">Kveikja á WLAN</string>
+    <string name="wifi_settings">WLAN</string>
+    <string name="wifi_settings_category">Stillingar WLAN</string>
+    <string name="wifi_settings_title">WLAN</string>
+    <string name="wifi_setup_wizard_title">Veldu WLAN net</string>
+    <string name="wifi_select_network">Velja WLAN</string>
+    <string name="wifi_starting">Kveikir á WLAN…</string>
+    <string name="wifi_stopping">Slekkur á WLAN…</string>
+    <string name="wifi_poor_network_detection_summary">Ekki nota WLAN net nema nettengingin sé góð</string>
+    <string name="wifi_automatically_connect_title">Nota opin WLAN net sjálfkrafa</string>
+    <string name="wifi_automatically_connect_summary">Leyfa WLAN aðstoð að tengjast neti sjálfkrafa ef gæði þess eru mikil</string>
+    <string name="wifi_scan_notify_text">Til þess að auka staðsetningarnákvæmni geta kerfisforrit og þjónusta áfram fundið WLAN net. Hægt er að breyta þessu í LINK_BEGIN0leitarstillingumLINK_END.</string>
+    <string name="wifi_setting_sleep_policy_title">Hafa kveikt á WLAN í biðstöðu</string>
+    <string name="wifi_setting_on_during_sleep_title">Kveikt á WLAN í svefnstöðu</string>
+    <string name="wifi_suspend_optimizations">WLAN sparnaður</string>
+    <string name="wifi_suspend_optimizations_summary">Draga úr rafhlöðunotkun þegar kveikt er á WLAN</string>
+    <string name="wifi_limit_optimizations_summary">Takmarka rafhlöðunotkun WLAN</string>
+    <string name="wifi_switch_away_when_unvalidated">Skipta yfir í farsímagögn ef WLAN glatar nettengingunni.</string>
+    <string name="wifi_access_points">WLAN net</string>
+    <string name="wifi_menu_p2p">WLAN Direct</string>
+    <string name="wifi_empty_list_wifi_off">Kveiktu á WLAN til að sjá tiltæk net.</string>
+    <string name="wifi_empty_list_wifi_on">Leitar að WLAN netum…</string>
+    <string name="wifi_empty_list_user_restricted">Þú hefur ekki heimild til að breyta WLAN netinu.</string>
+    <string name="wifi_wps_setup_title">Varin WLAN uppsetning</string>
+    <string name="wifi_wps_onstart_pbc">Ýttu á hnappinn fyrir varða WLAN uppsetningu á beininum. Hann kann að vera merktur með „WPS“ eða þessu tákni:</string>
+    <string name="wifi_wps_onstart_pin">Sláðu inn PIN-númerið %1$s á WLAN beininum. Þessi uppsetning getur tekið allt að tvær mínútur.</string>
+    <string name="wifi_wps_connected">Tengt við WLAN netið %s</string>
+    <string name="wifi_scan_always_turnon_message">"%1$s vill geta leitað að neti, jafnvel þegar slökkt er á WLAN, m.a. til að gera ákvörðun staðsetningar nákvæmari.
+
+Leyfa þetta fyrir öll forrit sem vilja leita að neti?"</string>
+    <string name="wifi_skipped_message">VIÐVÖRUN: Ef þú notar ekki WLAN getur síminn aðeins sótt efni og uppfærslur með farsímagögnum. Tengdu símann við WLAN til að komast hjá mögulegum gagnakostnaði.</string>
+    <string name="wifi_and_mobile_skipped_message">"Ef þú sleppir WLAN:
+
+"<li>Síminn verður ónettengdur.</li>"
+
+"<li>Þú færð ekki hugbúnaðaruppfærslur fyrr en þú tengist netinu.</li>"
+
+"<li>Þú getur ekki virkjað öryggiseiginleika tækisins á þessari stundu.</li></string>
+    <string name="wifi_connect_failed_message">Síminn gat ekki tengst þessu WLAN neti.</string>
+    <string name="wifi_advanced_titlebar">Ítarlegar WLAN stillingar</string>
+    <string name="wifi_setting_frequency_band_title">WLAN tíðnisvið</string>
+    <string name="wifi_p2p_settings_title">WLAN Direct</string>
+    <string name="wifi_tether_checkbox_text">Heitur WLAN reitur</string>
+    <string name="wifi_hotspot_checkbox_text">Heitur WLAN reitur</string>
+    <string name="wifi_hotspot_checkbox_text_summary">Nota farsímakerfistengingu til að bjóða upp á WLAN net</string>
+    <string name="wifi_tether_failed_subtext">Villa með heitan WLAN reit</string>
+    <string name="wifi_tether_configure_ap_text">Setja upp heitan WLAN reit</string>
+    <string name="wifi_hotspot_configure_ap_text">Uppsetning heits WLAN reits</string>
+    <string name="wifi_hotspot_configure_ap_text_summary">AndroidAP WPA2 PSK þráðlaus heitur WLAN reitur</string>
+    <string name="wifi_tether_configure_subtext">%1$s %2$s heitur WLAN reitur</string>
+    <string name="wifi_calling_settings_title">WLAN símtöl</string>
+    <string name="wifi_calling_mode_dialog_title">WLAN símtöl</string>
+    <string name="wifi_calling_off_explanation">Þegar kveikt er á WLAN símtölum getur síminn beint símtölum um WLAN net eða kerfi símafyrirtækisins, eftir því hvað þú velur og hvor tengingin er betri. Kannaðu verðskrá og aðrar upplýsingar hjá símafyrirtækinu þínu áður en þú kveikir á þessu.</string>
+    <string name="status_wifi_mac_address">MAC-vistfang WLAN</string>
+    <string name="reset_network_desc">"Þetta endurstillir allar netstillingar, þar á meðal:
+
+"<li>WLAN</li>"
+"<li>Farsímagögn</li>"
+"<li>Bluetooth</li></string>
+    <string name="network_scorer_change_active_dialog_title">Skipta um WLAN aðstoð?</string>
+    <string name="location_mode_high_accuracy_description">Nota GPS, WLAN, Bluetooth eða farsímakerfi til að ákvarða staðsetningu</string>
+    <string name="location_mode_battery_saving_description">Nota WLAN, Bluetooth eða farsímakerfi til að ákvarða staðsetningu</string>
+    <string name="location_scanning_wifi_always_scanning_title">WLAN leit</string>
+    <string name="location_scanning_wifi_always_scanning_description">Bæta staðsetningu með því að leyfa kerfisforritum og þjónustu að finna WLAN net hvenær sem er.</string>
+    <string name="location_network_based">Staðsetning með WLAN og farsímakerfi</string>
+    <string name="location_neighborhood_level_wifi">WLAN ákvarðar staðsetningu</string>
+    <string name="wifi_verbose_logging">Kveikja á ítarlegri skráningu WLAN</string>
+    <string name="wifi_aggressive_handover">Ágeng yfirfærsla frá WLAN til símkerfis</string>
+    <string name="wifi_allow_scan_with_traffic">Leyfa alltaf reikileit með WLAN</string>
+    <string name="wifi_verbose_logging_summary">Auka skráningarstig WLAN, sýna RSSI fyrir hvert SSID í WLAN vali</string>
+    <string name="wifi_aggressive_handover_summary">Þegar þetta er virkt mun WLAN ganga harðar fram í að færa gagnatenginguna yfir til símkerfisins þegar WLAN merkið er lélegt</string>
+    <string name="wifi_allow_scan_with_traffic_summary">Leyfa/banna reikileit með WLAN á grunni þess hversu mikil gagnaumferð er fyrir hendi í viðmótinu</string>
+    <string name="mobile_data_always_on_summary">Hafa alltaf kveikt á farsímagögnum, líka þegar kveikt er á WLAN (til að skipta megi hratt milli kerfa).</string>
+    <string name="battery_stats_wifi_running_label">WLAN</string>
+    <string name="wifi_on_time">WLAN tími</string>
+    <string name="bluetooth_on_time">WLAN tími</string>
+    <string name="power_wifi">WLAN</string>
+    <string name="usage_type_wifi_running">Kveikt á WLAN</string>
+    <string name="usage_type_data_wifi_send">Sendir WLAN pakkar</string>
+    <string name="usage_type_data_wifi_recv">Mótteknir WLAN pakkar</string>
+    <string name="battery_action_wifi">WLAN stillingar</string>
+    <string name="battery_desc_wifi">Rafhlöðunotkun WLAN</string>
+    <string name="battery_sugg_wifi">Slökkva á WLAN þegar það er ekki í notkun eða ekki aðgengilegt</string>
+    <string name="gadget_toggle_wifi">Uppfærir WLAN stillingu</string>
+    <string name="gadget_wifi">WLAN</string>
+    <string name="backup_data_summary">Vista öryggisafrit af gögnum forrita, WLAN aðgangsorðum og öðrum stillingum á þjóna Google</string>
+    <string name="backup_erase_dialog_message">Hætta að taka öryggisafrit af WLAN aðgangsorðum, bókamerkjum, öðrum stillingum og gögnum forrita, og eyða öllum afritum af þjónum Google?</string>
+    <string name="fullbackup_erase_dialog_message">Viltu hætta að taka afrit af gögnum tækisins (s.s. WLAN aðgangsorðum og símtalaferli) og forritsgögnum (s.s. stillingum og skrám sem forrit vista) og eyða öllum afritum af Google Drive?</string>
+    <string name="fullbackup_data_summary">"Taktu sjálfkrafa afrit af gögnum tækisins (s.s. WLAN aðgangsorðum og símtalaferli) og forritsgögnum (s.s. stillingum og skrám sem forrit vista) og vistaðu á Google Drive.
+
+Þegar þú kveikir á sjálfvirkri afritun eru gögn tækisins og forrita reglulega vistuð fjartengt. Forritsgögn geta verið öll gögn sem forrit hefur vistað (fer eftir stillingum þróunaraðilans), þ.m.t. hugsanlega viðkvæm gögn á borð við tengiliði þína, skilaboð og myndir."</string>
+    <string name="wifi_setup_title">WLAN uppsetning</string>
+    <string name="wifi_setup_title_editing_network">Tengjast WLAN netinu %s</string>
+    <string name="wifi_setup_title_connecting_network">Tengist WLAN netinu %s…</string>
+    <string name="wifi_setup_title_connected_network">Tengt við WLAN netið %s</string>
+    <string name="wifi_setup_eap_not_supported">Ekki er hægt að stilla EAP WLAN tengingu í uppsetningu. Að uppsetningu lokinni er hægt að gera það undir Stillingar > Þráðlaust net og símkerfi.</string>
+    <string name="wifi_setup_description_connected">Veldu <b>Áfram</b>" til að halda uppsetningunni áfram.
+
+Veldu "<b>Til baka</b> til að tengjast öðru WLAN neti.</string>
+    <string name="data_usage_menu_show_wifi">Sýna WLAN</string>
+    <string name="data_usage_menu_hide_wifi">Fela WLAN</string>
+    <string name="data_usage_disable_wifi_limit">Stilla gagnahámark WLAN</string>
+    <string name="data_usage_tab_wifi">WLAN</string>
+    <string name="data_usage_restrict_background">Ef þú takmarkar bakgrunnsgögn í farsímakerfi virka sum forrit og þjónusta ekki nema þegar tengt er við WLAN.</string>
+    <string name="data_usage_restrict_background_multiuser">"Ef þú takmarkar bakgrunnsgögn í farsímakerfi virka sum forrit og þjónusta ekki nema þegar tengt er við WLAN.
+
+Þessi stilling hefur áhrif á alla notendur þessa síma."</string>
+    <string name="data_usage_metered_body">Net með mældri notkun eru meðhöndluð á sama hátt og farsímakerfi þegar bakgrunnsgögn eru takmörkuð. Forrit kunna að birta viðvörun áður en þau notast við slík net fyrir umfangsmikið niðurhal.</string>
+    <string name="data_usage_metered_wifi">WLAN net með mælda notkun</string>
+    <string name="data_usage_metered_wifi_disabled">Kveiktu á WLAN til að velja net með mældri notkun.</string>
+    <string name="user_add_user_message_long">"Þú getur búið til fleiri notendur til að deila þessu tæki með öðrum. Hver notandi hefur sitt eigið svæði sem viðkomandi getur sérsniðið með forritum, veggfóðri o.s.frv. Notendur geta einnig breytt þeim stillingum tækisins sem hafa áhrif á alla notendur, t.d. WLAN.
+
+Þegar þú bætir nýjum notanda við þarf sá notandi að setja upp svæðið sitt.
+
+Hvaða notandi sem er getur uppfært forrit fyrir alla aðra notendur."</string>
+    <string name="restriction_wifi_config_title">WLAN og farsímakerfi</string>
+    <string name="restriction_wifi_config_summary">Leyfa breytingar á stillingum WLAN og farsímakerfa</string>
+    <string name="setup_wifi_nfc_tag">Setja upp WLAN NFC-merki</string>
+</resources>

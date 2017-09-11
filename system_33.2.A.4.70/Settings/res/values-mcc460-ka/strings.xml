@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_security_wapi_psk">WLAN PSK</string>
+    <string name="wifi_disabled_wifi_failure">WLAN კავშირის შეფერხება</string>
+    <string name="connected_via_wfa">დაკავშირებულია WLAN თანაშემწით</string>
+    <string name="accessibility_wifi_off">WLAN გამორთულია.</string>
+    <string name="accessibility_no_wifi">WLAN გათიშულია.</string>
+    <string name="accessibility_wifi_one_bar">WLAN ერთ ზოლზეა.</string>
+    <string name="accessibility_wifi_two_bars">WLAN ორ ზოლზეა.</string>
+    <string name="accessibility_wifi_three_bars">WLAN სამ ზოლზეა.</string>
+    <string name="accessibility_wifi_signal_full">WLAN სიგნალი სრულია.</string>
+    <string name="radio_controls_summary">WLAN, Bluetooth, თვითმფრინავის რეჟიმის, მობილურ ქსელებთან კავშირის და VPN-ების მართვა</string>
+    <string name="wifi_assistant_title">WLAN ასისტენტი</string>
+    <string name="wifi_alert_lockdown_by_device_owner">%1$s მართავს თქვენს მოწყობილობას და არ იძლევა ამ WLAN ქსელის მოდიფიკაციის ან წაშლის უფლებას. დამატებითი ინფორმაციისთვის დაუკავშირდით თქვენს ადმინისტრატორს.</string>
+    <string name="wifi_quick_toggle_title">WLAN</string>
+    <string name="wifi_quick_toggle_summary">WLAN -ის ჩართვა</string>
+    <string name="wifi_settings">WLAN</string>
+    <string name="wifi_settings_category">WLAN პარამეტრები</string>
+    <string name="wifi_settings_title">WLAN</string>
+    <string name="wifi_setup_wizard_title">აირჩიეთ WLAN</string>
+    <string name="wifi_select_network">აირჩიეთ WLAN</string>
+    <string name="wifi_poor_network_detection_summary">არ გამოიყენო WLAN ქსელი, თუ მას არ აქვს კარგი ინტერნეტ-კავშირი</string>
+    <string name="wifi_automatically_connect_title">ავრომატურად გამოიყენეოს ღია WLAN</string>
+    <string name="wifi_automatically_connect_summary">მიეცით WLAN თანაშემწეს ავტომატურად დაუკავშირდეს ღია ქსელებს განისაზღვრება, როგორც მაღალი ხარისხის</string>
+    <string name="wifi_scan_notify_text">მდებარეობის სიზუსტის გასაუმჯობესებლად სისტემის აპები და სერვისები კვლავ შეძლებს WLAN ქსელების აღმოჩენას. ამის შეცვლა LINK_BEGINსკანირების პარამეტრებშიLINK_END შეგიძლიათ.</string>
+    <string name="wifi_setting_sleep_policy_title">ძილის რეჟ. დროს ჩართ. WLAN</string>
+    <string name="wifi_setting_on_during_sleep_title">WLAN ძილის რეჟიმში ჩართულია</string>
+    <string name="wifi_suspend_optimizations">WLAN-ის ოპტიმიზაცია</string>
+    <string name="wifi_suspend_optimizations_summary">შეამცირეთ კვების ელემენტის მოხმარება WLAN-ის მუშაობისას</string>
+    <string name="wifi_limit_optimizations_summary">ელემენტი გამოყენებულია WLAN-ის მიერ</string>
+    <string name="wifi_switch_away_when_unvalidated">მობილურ ინტერნეტზე გადასვლა, თუ WLAN ინტერნეტთან კავშირს დაკარგავს.</string>
+    <string name="wifi_access_points">WLAN ქსელები</string>
+    <string name="wifi_menu_p2p">WLAN Direct</string>
+    <string name="wifi_empty_list_wifi_off">ქსელების სანახავად ჩართეთ WLAN.</string>
+    <string name="wifi_empty_list_wifi_on">WLAN ქსელების ძიება…</string>
+    <string name="wifi_empty_list_user_restricted">თქვენ არ გაქვთ უფლება შეცვალოთ WLAN ქსელი</string>
+    <string name="wifi_wps_setup_title">WLAN ქსელის დაყენების დაცული სტანდარტი</string>
+    <string name="wifi_wps_onstart_pbc">როუტერზე დააჭირეთ ღილაკს „WLAN უსაფრთხო დაყენება“. მას ასევე შეიძლება ერქვას „WPS“ ან აღინიშნებოდეს შემდეგი სიმბოლოთი:</string>
+    <string name="wifi_wps_onstart_pin">შეიყვანეთ PIN კოდი%1$s WLAN როუტერზე. პარამეტრების დაყენებას შეიძლება დასჭირდეს ორ წუთამდე.</string>
+    <string name="wifi_wps_connected">დაკავშირებულია WLAN ქსელთან: %s</string>
+    <string name="wifi_scan_always_turnon_message">"მდებარეობის ზუსტი განსაზღვრის და სხვა ფუნქციების გასაუმჯობესებლად %1$s-ს სურს, გააქტიურდეს ქსელის მოძიება, მაშინაც კი, როცა გამორთულია WLAN.
+
+მიეცეს ამის უფლება ყველა პროგრამას?"</string>
+    <string name="wifi_skipped_message">"გაფრთხილება: სერვისის პროვაიდერმა შეიძლება დაგაკისროთ დამატებითი ხარჯები.
+
+ტელეფონის დაყენებას, შესაძლოა, დასჭირდეს მნიშვნელოვანი აქტივობა ქსელში."</string>
+    <string name="wifi_and_mobile_skipped_message">"თუ გამოტოვებთ WLAN-ს:
+
+"<li>ტელეფონი ინტერნეტთან კავშირს ვერ იქონიებს.</li>"
+
+"<li>ინტერნეტთან დაკავშირებამდე პროგრამულ განახლებებს ვერ მიიღებთ.</li>"
+
+"<li>ამ პერიოდში მოწყობილობის დაცვის ფუნქციებს ვერ გააქტიურებთ.</li></string>
+    <string name="wifi_connect_failed_message">ტელეფონის ჩართვა ამ WLAN ქსელში ვერ მოხერხდა.</string>
+    <string name="wifi_advanced_titlebar">WLAN პარამეტრები</string>
+    <string name="wifi_setting_frequency_band_title">WLAN სიხშირე</string>
+    <string name="wifi_advanced_settings_label">WLAN პარამეტრები</string>
+    <string name="wifi_p2p_settings_title">WLAN Direct</string>
+    <string name="wifi_tether_checkbox_text">მოძ WLAN წერტილი</string>
+    <string name="wifi_hotspot_checkbox_text">WLAN უსადენო ქსელი</string>
+    <string name="wifi_hotspot_checkbox_text_summary">გამოიყენეთ ფიჭური კავშირი WLAN ქსელის მისაწოდებლად</string>
+    <string name="wifi_tether_failed_subtext">მოძრავი WLAN წვდომის წერტილის შეცდომა</string>
+    <string name="wifi_tether_configure_ap_text">WLAN წვდომის ზონის კონფიგ.</string>
+    <string name="wifi_hotspot_configure_ap_text">WLAN უსადენო ქსელის დაყენება</string>
+    <string name="wifi_hotspot_configure_ap_text_summary">AndroidAP WPA2 PSK პორტაბელური WLAN უსადენო ქსელი</string>
+    <string name="wifi_tether_configure_subtext">"%1$sმოძრავი WLAN წვდომის წერტილი.
+დაცვა: %2$s"</string>
+    <string name="wifi_calling_settings_title">დარეკვა WLAN-ს მეშვეობით</string>
+    <string name="wifi_calling_mode_dialog_title">WLAN-თი დარეკვის რეჟიმი</string>
+    <string name="wifi_calling_off_explanation">"გამოიყენეთ WLAN ზარების ფუნქცია, ზარის ხარისხის გასაზრდელად სუსტი სიგნალის მქონე ქსელის დაფარვის ზონაში.
+ 
+ღირებულება
+დამატებითი ინფორმაციისთვის WLAN ზარების შესახებ დაუკავშირდით სერვისის ოპერატორს.
+ 
+შენიშვნები WLAN ზარების შესახებ
+WLAN ზარის გაგრძელებისთვის, დარჩით WLAN ზონაში."</string>
+    <string name="status_wifi_mac_address">WLAN MAC მისამართი</string>
+    <string name="reset_network_desc">"ამ მოქმედებით ქსელის ყველა პარამეტრი ჩამოიყრება, მათ შორის:
+
+"<li>WLAN</li>"
+"<li>ფიჭური მონაცემები</li>"
+"<li>Bluetooth</li></string>
+    <string name="network_scorer_change_active_dialog_title">შეიცვალოს WLAN ასისტენტი?</string>
+    <string name="location_mode_high_accuracy_description">GPS, WLAN, Bluetooth ან ფიჭური ქსელების გამოყენება მდებარეობის დასადგენად</string>
+    <string name="location_mode_battery_saving_description">WLAN, Bluetooth ან ფიჭური ქსელების გამოყენება მდებარეობის დასადგენად</string>
+    <string name="location_scanning_wifi_always_scanning_title">WLAN სკანირება</string>
+    <string name="location_scanning_wifi_always_scanning_description">გააუმჯობესეთ მდებარეობა ნებისმიერ დროს სისტემის აპებისა და სერვისებისთვის WLAN ქსელების აღმოჩენის უფლების მიცემით.</string>
+    <string name="location_neighborhood_level_wifi">WLAN-ს მიერ დადგენილი მდებარეობა</string>
+    <string name="wifi_verbose_logging">WLAN-ს დაწვრილებითი აღრიცხვის ჩართვა</string>
+    <string name="wifi_aggressive_handover">WLAN-დან მობილურ მონაცემებზე პროაქტიური გადართვა</string>
+    <string name="wifi_allow_scan_with_traffic">WLAN Roam სკანირების მუდამ დაშვება</string>
+    <string name="wifi_verbose_logging_summary">WLAN-ს აღრიცხვის დონის გაზრდა, WLAN ამომრჩეველში ყოველ SSID RSSI-ზე ჩვენება</string>
+    <string name="wifi_aggressive_handover_summary">თუ ჩართულია, WLAN სიგნალის შესუსტების შემთხვევაში WLAN უფრო აქტიურად შეეცდება გადაიყვანოს ინტერნეტ-კავშირი მობილურ ინტერნეტზე</string>
+    <string name="wifi_allow_scan_with_traffic_summary">WLAN Roam სკანირების დაშვება/აკრძალვა, ინტერფეისზე არსებული მონაცემთა ტრაფიკზე დაფუძნებით</string>
+    <string name="mobile_data_always_on_summary">მობილური მოწყობილობის მონაცემები ყოველთვის აქტიური დარჩეს, მაშინაც კი, როდესაც WLAN აქტიურია (ქსელის სწრაფი გადართვისთვის).</string>
+    <string name="battery_stats_wifi_running_label">WLAN</string>
+    <string name="wifi_on_time">WLAN-ს ჩართვის დრო</string>
+    <string name="bluetooth_on_time">WLAN-ს ჩართვის დრო</string>
+    <string name="power_wifi">WLAN</string>
+    <string name="usage_type_wifi_running">WLAN ჩართულია</string>
+    <string name="usage_type_data_wifi_send">გაგზ. WLAN პაკეტები</string>
+    <string name="usage_type_data_wifi_recv">მიღ. WLAN პაკეტები</string>
+    <string name="battery_action_wifi">WLAN პარამეტრები</string>
+    <string name="battery_desc_wifi">კვების ელემენტი გამოყენებულია WLAN-ის მიერ</string>
+    <string name="battery_sugg_wifi">გათიშეთ WLAN როდესაც მას არ იყენებთ ან როდესაც ის ხელმისაწვდომი არაა</string>
+    <string name="gadget_toggle_wifi">WLAN პარამეტრების განახლება</string>
+    <string name="gadget_wifi">WLAN</string>
+    <string name="backup_data_summary">Google™ სერვერებზე პროგრამების მონაცემების, WLAN პაროლების და სხვა პარამეტრების შენახვა</string>
+    <string name="backup_erase_dialog_message">გსურთ თქვენი WLAN პაროლების, სანიშნეების, სხვა პარამეტრებისა და პროგრამების მონაცემების და Google™-ის სერვერებიდან ყველა ასლის წაშლა?</string>
+    <string name="fullbackup_erase_dialog_message">გსურთ, შეწყდეს მოწყობილობის მონაცემთა (მათ შორის, WLAN პაროლებისა და ზარების ისტორიის) და აპების მონაცემთა (მათ შორის, აპების მიერ შენახული პარამეტრებისა და ფაილების) დამარქაფება და, ამასთანავე, Google Drive-იდან ყველა ასლი წაიშალოს?</string>
+    <string name="fullbackup_data_summary">"მოწყობილობის მონაცემებისთვის (როგორიცაა WLAN პაროლები და საუბრის ისტორია) და აპების მონაცემებისთვის (როგორიცაა აპების მიერ შენახული პარამეტრები და ფაილები) სარეზერვო ასლების ავტომატურად შექმნა განცალკევებით.
+
+როდესაც ჩართავთ სარეზერვო ასლების ავტომატურად შექმნას, მოწყობილობისა და აპების მონაცემები პერიოდულად ცალკე შეინახება. აპის მონაცემები შეიძლება იყოს აპის მიერ შენახული ნებისმიერი მონაცემი (დეველოპერის პარამეტრებზე დაყრდნობით), მათ შორის პოტენციურად სენსიტიური მონაცემები, როგორიცაა კონტაქტები, შეტყობინებები და ფოტოები."</string>
+    <string name="wifi_setup_title">WLAN-ს დაყენება</string>
+    <string name="wifi_setup_title_editing_network">დაკავშირება WLAN ქსელთან %s</string>
+    <string name="wifi_setup_title_connecting_network">დაკავშირება WLAN ქსელთან %s…</string>
+    <string name="wifi_setup_title_connected_network">დაკავშირებულია WLAN ქსელთან: %s</string>
+    <string name="wifi_setup_eap_not_supported">დაყენებისას შეუძლებელია EAP დაცვის მქონე WLAN ქსელთან კავშირის კონფიგურირება. დაყენების შემდეგ ეს შეგიძლიათ განახორციელოთ სექციაში „პარამეტრები > უსადენო ქსელები“.</string>
+    <string name="wifi_setup_description_connected">შეეხეთ <b>შემდეგს</b>" პარამეტრების დაყენების გასაგრძელებლად.
+
+შეეხეთ ღილაკს "<b>უკან</b> სხვა WLAN ქსელთან დასაკავშირებლად.</string>
+    <string name="data_usage_menu_show_wifi">WLAN ჩვენ.</string>
+    <string name="data_usage_menu_hide_wifi">WLAN-ს დამალვა</string>
+    <string name="data_usage_disable_wifi_limit">WLAN მონაცემთა ლიმიტის დაყენება</string>
+    <string name="data_usage_tab_wifi">WLAN</string>
+    <string name="data_usage_restrict_background">თუ უკანა ფონის მობილურ მონაცემებს შეზღუდავთ, ზოგიერთი პროგრამა და მოწყობილობა ვერ იმუშავებს, თუ არ მიუერთდებით WLAN ქსელს.</string>
+    <string name="data_usage_restrict_background_multiuser">"თუ ფონურ ფიჭურ მონაცემებს შეზღუდავთ, ზოგიერთი აპი და სერვისი არ იმუშავებს, სანამ არ დაუკავშირდებით WLAN-ს.
+
+ეს პარამეტრები გავრცელდება ტელეფონის ყველა მომხმარებელზე."</string>
+    <string name="data_usage_metered_body">აირჩიეთ WLAN ქსელების მობილური წვდომის წერტილები. შესაძლოა, პროგრამებისთვის დაწესებული იყოს მათი გამოყენების შეზღუდვა ფონურ რეჟიმში მუშაობისას. ასევე, დიდი მოცულობის მონაცემის ჩამოტვირთვისთვის მათ გამოყენებამდე, პროგრამებმა შეიძლება გამოიტანოს შესაბამისი გაფრთხილება.</string>
+    <string name="data_usage_metered_wifi">ლიმიტირებული WLAN ქსელები</string>
+    <string name="data_usage_metered_wifi_disabled">ლიმიტირებული ქსელების ასარჩევად, ჩართეთ WLAN.</string>
+    <string name="user_add_user_message_long">"დამატებითი მომხმარებლების შექმნით, შეგიძლიათ ეს მოწყობილობა სხვებს გაუზიაროთ. თითოეულ მომხმარებელს თავისი სივრცე აქვს, რომლის პერსონალიზაცია მას შეუძლია საკუთარი აპებით, ფონით და ა.შ. მომხმარებლებს აგრეთვე შეუძლიათ მოწყობილობის ისეთი პარამეტრების მორგება, როგორიცაა WLAN, რაც ყველაზე გავრცელდება.
+
+ახალი მომხმარებლის დამატების შემდეგ, აღნიშნულმა მომხმარებელმა საკუთარი სივრცე უნდა დააყენოს.
+
+ნებისმიერ მომხმარებელს შეუძლია აპების განახლება დანარჩენი მომხმარებლებისთვის."</string>
+    <string name="restriction_wifi_config_title">WLAN და მობილური</string>
+    <string name="restriction_wifi_config_summary">ნებართვის მიცემა WLAN და მობილურის პარამეტრების შეცვლაზე</string>
+    <string name="setup_wifi_nfc_tag">WLAN NFC თეგის დაყენება</string>
+    <string name="l_dialog_message_hint">"STAMINA რეჟიმი მოიცავს შემდეგს:
+
+• გაფართოებული ლოდინის რეჟიმი
+ზოგავს ენერგიას, როცა ეკრანი გამორთულია, WLAN-ს დროებით გათიშვის გზით. პროგრამების უმეტესი ნაწილი არააქტიური იქნება.
+როდესაც ეკრანი ჩაირთვება, მოწყობილობა ნორმალურად იმუშავებს.
+თუ გსურთ ზოგიერთი პროგრამა აქტიური დარჩეს გაფართოებულ ლოდინის რეჟიმში, დაამატეთ ეს პროგრამები ლოდინის რეჟიმში აქტიური პროგრამების სიაში.
+
+• გაფართოებული გამოყენება
+ზოგავს ენერგიას, როდესაც მოწყობილობა გამოიყენება, აპარატურის სიმძლავრის შემცირების გზით."</string>
+    <string name="powersaver_feature_wifi">WLAN გამორთულია</string>
+    <string name="stamina_xssm_summary">თიშავს მობილურ მონაცემებს და WLAN–ს როდესაც ეკრანი გამორთულია</string>
+    <string name="usm_descr">"Ultra STAMINA რეჟიმი მნიშვნელოვნად ახანგრძლივებს კვების ელემენტის მუშაობის დროს. მისი გამოყენება შეიძლება, როდესაც ხანგრძლივი დროის განმავლობაში ვერ დატენით მოწყობილობას.
+
+ხელმისაწვდომი იქნება მხოლოდ ძირითადი ფუნქციები, როგორიცაა ტელეფონი და მიმოწერა. დამატებითი დეტალებისთვის შეეხეთ ღილაკს ”დამატებითი ინფორმაცია”.
+
+გაითვალისწინეთ, რომ ინტერნეტ-კავშირი WLAN-ით და მობილური მონაცემები გამორთული იქნება."</string>
+    <string name="battery_usm_desc">"Ultra STAMINA მნიშვნელოვნად გაზრდის კვლების ელემენტის ხანგრძლივობას. გაითვალისწინეთ, რომ კავშირი ინტერნეტთან WLAN-ის და მობილური მონაცემების გამოყენებით გაითიშება. საწყისი ეკრანი გადაირთვება Ultra STAMINA რეჟიმის საწყის ეკრანზე.
+
+Ultra STAMINA რეჟიმში ხელმისაწვდომი პროგრამები"</string>
+    <string name="somc_wifi_turned_on_info">WLAN ჩართულია. აირჩიეთ ქსელი სიაში.</string>
+    <string name="wifi_tethering_warning_txt">ნებისმიერი მიმდინარე WLAN ოპერაცია, როგორიცაა მედიის გადაცემა, ტელეფონის პროგრამული უზრუნველყოფის განახლება, დარეზერვება და აღდგენა, შეწყდება.</string>
+    <string name="somc_backup_failed_no_wifi_summary">ელოდება WLAN კავშირს</string>
+    <string name="wifi_hs2_strings_hotspot2_summary_txt">ხელმისაწ. Passpoint ქსელებთან ავტომ. დაკავშირება, როცა WLAN ჩართულია</string>
+    <string name="wifi_tether_settings_subtext">მოძ WLAN წვდ წერტ დაყ და მართვა</string>
+    <string name="wifi_tether_settings_text">მოძ WLAN ზონის პარამეტრ</string>
+    <string name="wifi_security_wapi_cert">WLAN-ის სერტიფიკატი (CERT)</string>
+    <string name="ct_wifi_connected_text">China Telecom WLAN დაკავშ</string>
+    <string name="cw_network_priority">China Telecom WLAN პრიორ</string>
+    <string name="cw_network_priority_summary">ჩინეთის ტელეკომის WLAN ქსელებს მიენიჭებათ უპირატესობა/პრიორიტეტი სხვა WLAN ქსელებზე</string>
+    <string name="install_wapi_certs">WLAN-სერ. ინსტ.</string>
+    <string name="location_based_wifi">მდებ განსაზღ WLAN</string>
+    <string name="operator_auto_connect_hotspot_description_txt">ავტომატურად დაკავშირება AT&amp;T WLAN hotspot-თან (ცხელ წერტილთან)</string>
+    <string name="operator_auto_connect_hotspot_txt">AT&amp;T WLAN ავტოდაკავ</string>
+    <string name="wifi_context_menu_change_wapi_certificate">შეცვალეთ WLAN-ის სერტიფიატი</string>
+    <string name="wifi_p2p_settings">WLAN Direct™-ის პარამეტრები</string>
+    <string name="wifi_security_verbose_wapi_cert">დაცულია WLAN სერტ</string>
+    <string name="wifi_security_verbose_wapi_psk">დაცულია WLAN PSK-ით</string>
+    <string name="wifi_tether_explanation_dialog_text">"შეგიძლიათ გამოიყენოთ მოწყობილობა, როგორც მობილური წვდომის ზონა. ეს სხვა მოწყობილობებს (10-მდე) საშუალებას მისცემს, დაუკავშირდნენ წვდომის ზონას WLAN ქსელით. დაკავშირებული მოწყობილობები მიიღებენ წვდომას ინტერნეტზე მობილური ქსელის კავშირის მეშვეობით. მობილური ზონა იყენებს მობილურ მონაცემებს, რამაც შეიძლება გამოიწვიოს დამატებითი ხარჯები.
+
+მობილური წვდომის ზონა კვების ელემენტის მეტ ენერგიას იყენებს. კვების ელემენტის ხანგრძლივობის გასაზრდელად ჩართეთ მოწყობილობა დენის წყაროში."</string>
+    <string name="wifi_wps_category_title">დაამონტაჟეთ/დააყენეთ WLAN-ს ქსელი</string>
+    <string name="xssm_guidecontent_what_stamina40jp_txt">"STAMINA რეჟიმი ზოგავს კვების ელემენტის ენერგიას მოწყობილობის პარამეტრების რეგულირების გზით. შეგიძლიათ აირჩიოთ პროგრამები, რომლებიც იმუშავებენ შემცირებული ფუნქციონალობით ძილის რეჟიმში. (ამით დაზოგავთ კვების ელემენტის ენერგიას, რადგან პროგრამების უმეტესობა ცლის კვების ელემენტს ძილის რეჟიმშიც კი.)
+
+არჩეული პროგრამებისთვის გამორთული ფუნქციები:
+- WLAN
+- მობილური მონაცემები
+- ტაიმერი
+
+ყველა პროგრამის შეტყობინების ინდიკატორი განაგრძობს ციმციმს იმავე სიხშირითა და ფერით ძილის რეჟიმში.
+
+STAMINA რეჟიმი დეაქტივირებულია, სანამ მართავთ მოწყობილობას."</string>
+    <string name="wifi_security_short_wapi_cert">WLAN-ის სერტიფიკატი (CERT)</string>
+    <string name="wifi_security_short_wapi_psk">WLAN PSK</string>
+    <string name="vzw_avoid_bad_connections_text">"WLAN ქსელი, რომელშიც ჩართული ხართ, არ არის დაკავშირებული ინტერნეტთან.
+
+იმისათვის, რომ ასეთ შემთხვევაში ავტომატურად გადაერთოთ მობილურ ქსელზე, ჩართეთ პარამეტრი „ცუდი ხარისხის WLAN კავშირების აკრძალვა“ WLAN-ს გაფართოებულ პარამეტრებში."</string>
+    <string name="vzw_avoid_bad_connections_title">WLAN კავშირი ინტერნეტთან არ არის</string>
+    <string name="vzw_wifi_avoid_bad_connections">ცუდი WLAN კავშირების აკრძალვა</string>
+    <string name="vzw_wifi_avoid_bad_connections_summary">მობ. ქსელის გამოყენება, თუ WLAN ქსელი არ არის დაკავშირებული ინტერნეტთან. (შესაძლოა, მოქმედებდეს მონაცემების გამოყენების ტარიფი.)</string>
+    <string name="vzw_wifi_password_error_dialog_txt">WLAN პაროლი უარყოფილია. შეამოწმეთ პაროლი და ხელახლა სცადეთ.</string>
+    <string name="vzw_wifi_setup_wizard_desc">აირჩიეთ ქსელი, თუ გსურთ WLAN-თან დაკავშირება ახლა.</string>
+    <string name="vzw_wifi_setup_wizard_title">WLAN-ს დაყენება</string>
+</resources>

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_security_wapi_psk">WLAN PSK</string>
+    <string name="wifi_disabled_wifi_failure">Sambungan WLAN Gagal</string>
+    <string name="connected_via_wfa">Nyambung liwat asistén WLAN</string>
+    <string name="accessibility_wifi_off">WLAN pareum.</string>
+    <string name="accessibility_no_wifi">WLAN dipegatkeun.</string>
+    <string name="accessibility_wifi_one_bar">WLAN sabatang.</string>
+    <string name="accessibility_wifi_two_bars">WLAN dua batang.</string>
+    <string name="accessibility_wifi_three_bars">WLAN tilu batang.</string>
+    <string name="accessibility_wifi_signal_full">Sinyal WLAN pinuh.</string>
+    <string name="radio_controls_summary">Atur WLAN, Bluetooth, modeu pesawat, jaringan mobile, &amp; VPN</string>
+    <string name="wifi_assistant_title">Asisten WLAN</string>
+    <string name="wifi_alert_lockdown_by_device_owner">%1$s ngatur alat anjeun jeung henteu idinan ngarobah atawa mupus jaringan WLAN ieu. Keur inpormasi lengkep, kontak administrator anjeun.</string>
+    <string name="wifi_quick_toggle_title">WLAN</string>
+    <string name="wifi_quick_toggle_summary">Hurungkeun WLAN</string>
+    <string name="wifi_settings">WLAN</string>
+    <string name="wifi_settings_category">Setelan WLAN</string>
+    <string name="wifi_settings_title">WLAN</string>
+    <string name="wifi_setup_wizard_title">Pilih WLAN</string>
+    <string name="wifi_select_network">Pilih WLAN</string>
+    <string name="wifi_poor_network_detection_summary">Ulah pake jaringan WLAN kajaba boga sambungan internet nu alus</string>
+    <string name="wifi_automatically_connect_title">Pake WLAN kabuka otomatis</string>
+    <string name="wifi_automatically_connect_summary">Idinan asisten WLANi otomatis nyambung pikeun muka jaringan nu ditangtukeun ka kualitas luhur</string>
+    <string name="wifi_scan_notify_text">Keur ningkatkeun kaakuratan lokasi, aplikasi sistem jeung ladén masih bisa détéksi jaringan WLAN. Anjeun bisa robah ieu dina LINK_BEGINsetélan sekénLINK_END.</string>
+    <string name="wifi_setting_sleep_policy_title">Aktipkeun terus WLAN keur sare</string>
+    <string name="wifi_setting_on_during_sleep_title">WLAN aktip salila sare</string>
+    <string name="wifi_suspend_optimizations">Optimalkeun WLAN</string>
+    <string name="wifi_suspend_optimizations_summary">Minimalkeun pamakean batre lamun WLAN hurung</string>
+    <string name="wifi_limit_optimizations_summary">Wates batre nu dipake ku WLAN</string>
+    <string name="wifi_switch_away_when_unvalidated">Pindah ka data sélulér lamun WLAN leungit aksés Internet.</string>
+    <string name="wifi_access_points">Jaringan WLAN</string>
+    <string name="wifi_menu_p2p">WLAN Direct</string>
+    <string name="wifi_empty_list_wifi_off">Jang nempo jaringan nu sadia, aktipkeun WLAN.</string>
+    <string name="wifi_empty_list_wifi_on">Neangan jaringan WLAN...</string>
+    <string name="wifi_empty_list_user_restricted">Anjeun teu boga idin jang ngarobah jaringan WLAN</string>
+    <string name="wifi_wps_setup_title">Panyetelan Ditangtayungan ku WLAN</string>
+    <string name="wifi_wps_onstart_pbc">Pencet kenop WLAN Protected Setup di router anjeun. Eta bisa wae disebut \"WPS\" atawa ditandaan ku simbol ieu:</string>
+    <string name="wifi_wps_onstart_pin">Asupkeun PIN %1$s ka router WLAN. Panyetelan bisa meakkeun waktu dua menit nepikeun rengse.</string>
+    <string name="wifi_wps_connected">Nyambung ka jaringan WLAN %s</string>
+    <string name="wifi_scan_always_turnon_message">"Jang ningkatkeun akurasi lokasi jeung tujuan nu sejen, %1$s hayang ngaktipkeun nyeken jaringan, oge upami WLAN nonaktip.
+
+Idinan ieu jang kabeh aplikasi nu hayang nyeken?"</string>
+    <string name="wifi_skipped_message">"ATI-ATI: Anjeun manawi keuna ongkos tambahan propaider laden.
+
+Setelan telepon bisa perlu aktipitas nu signifikan"</string>
+    <string name="wifi_and_mobile_skipped_message">"Lamun anjeun ngaliwatan WLAN:
+
+"<li>Telepon anjeun moal boga sambungan Internét.</li>"
+
+"<li>Anjeun moal nampa apdét software nepi ka anjeun nyambung ka Internét.</li>"
+
+"<li>Anjeun teu bisa aktipkeun fitur ngajagi alat ayeuna.</li></string>
+    <string name="wifi_connect_failed_message">Telepon teu bisa sambung ka jaringan WLAN ieu.</string>
+    <string name="wifi_advanced_titlebar">Setelan WLAN</string>
+    <string name="wifi_setting_frequency_band_title">Pita frekuensi WLAN</string>
+    <string name="wifi_advanced_settings_label">Setelan WLAN</string>
+    <string name="wifi_p2p_settings_title">WLAN Direct</string>
+    <string name="wifi_tether_checkbox_text">Hotspot WLAN portabel</string>
+    <string name="wifi_hotspot_checkbox_text">Hotspot WLAN</string>
+    <string name="wifi_hotspot_checkbox_text_summary">Pake sambunga seluler jang nyadiakeun jaringan WLAN</string>
+    <string name="wifi_tether_failed_subtext">Misalah hotspot WLAN portabel</string>
+    <string name="wifi_tether_configure_ap_text">Konpigurasikeun hotspot WLAN</string>
+    <string name="wifi_hotspot_configure_ap_text">Nyetel hotspot WLAN</string>
+    <string name="wifi_hotspot_configure_ap_text_summary">AndroidAP WPA2 PSK portabel hotspot WLAN</string>
+    <string name="wifi_tether_configure_subtext">%1$s Kaamanan hotspot WLAN portabel: %2$s</string>
+    <string name="wifi_calling_settings_title">Telepon WLAN</string>
+    <string name="wifi_calling_mode_dialog_title">Modeu nelepon WLAN</string>
+    <string name="wifi_calling_off_explanation">"Paké telepon WLAN keur ningkatkeun kualitas telepon di tempat anu wewengkon jaringan sélulér butut.
+ 
+Béaya
+Pikeun inpo ngeunaan béaya telepon WLAN mangga kontak propaider ladén anjeun.
+ 
+Catetan ngeunaan telepon WLAN
+Keur tetep dina telepon WLAN pastikeun anjeun tetep dina lingkup WLAN."</string>
+    <string name="status_wifi_mac_address">Alamat MAC WLAN</string>
+    <string name="reset_network_desc">"Ieu bakal ngarését sadaya setélan jaringan, kalebet:
+
+"<li>WLAN</li>"
+"<li>Data sélulér</li>"
+"<li>Bluetooth</li></string>
+    <string name="network_scorer_change_active_dialog_title">Robah asisten WLAN?</string>
+    <string name="location_mode_high_accuracy_description">Paké GPS, WLAN, Bluetooth, atawa jaringan sélulér keur nangtukeun lokasi</string>
+    <string name="location_mode_battery_saving_description">Paké WLAN, Bluetooth, atawa jaringan selulér jang nangtukeun lokasi</string>
+    <string name="location_scanning_wifi_always_scanning_title">Sekén WLAN</string>
+    <string name="location_scanning_wifi_always_scanning_description">Tingkatkeun lokasi ku ngidinan aplikasi sistem jeung ladén pikeun didétéksi ku jaringan WLAN iraha waé.</string>
+    <string name="location_neighborhood_level_wifi">Lokasi ditangtukeun ku WLAN</string>
+    <string name="wifi_verbose_logging">Aktipkeun Nga-log Verbose WLAN</string>
+    <string name="wifi_aggressive_handover">Ngalihkeun WLAN Agresip ka data Seluler</string>
+    <string name="wifi_allow_scan_with_traffic">Tetep izinan Nyeken Roaming WLAN</string>
+    <string name="wifi_verbose_logging_summary">Ningkatkeun tingkat log WLAN, pinton unggal SSID RSSI dina Panyokot WLAN</string>
+    <string name="wifi_aggressive_handover_summary">Upami diaktipkeun, WLAN bakal leuwih agresip dina nanganan liwat sambungan data ka Seluler, upami sinyal WLAN lemah.</string>
+    <string name="wifi_allow_scan_with_traffic_summary">Idinan/Larang Nyeken Roaming WLAN dumasar ka jumlah patalimarga data nu aya dina interface</string>
+    <string name="mobile_data_always_on_summary">Terus jaga data sélulér aktip, sanajan nalika WLAN aktip (keur pindah jaringan gancang).</string>
+    <string name="battery_stats_wifi_running_label">WLAN</string>
+    <string name="wifi_on_time">Waktu aktip WLAN</string>
+    <string name="bluetooth_on_time">Waktu aktip WLAN</string>
+    <string name="power_wifi">WLAN</string>
+    <string name="usage_type_wifi_running">WLAN hurung</string>
+    <string name="usage_type_data_wifi_send">Paket WLAN dikirim</string>
+    <string name="usage_type_data_wifi_recv">Paket WLAN ditampa</string>
+    <string name="battery_action_wifi">Setelan WLAN</string>
+    <string name="battery_desc_wifi">Batre dipake ku WLAN</string>
+    <string name="battery_sugg_wifi">Pareuman WLAN lamun keur teu dipake atawa lamun keur teu sadia</string>
+    <string name="gadget_toggle_wifi">Ngapdet setelan WLAN</string>
+    <string name="gadget_wifi">WLAN</string>
+    <string name="backup_data_summary">Nyieun cadangan data aplikasi, kecap akses WLAN, jeung setelan lain ka pangladen Google™</string>
+    <string name="backup_erase_dialog_message">Eureunkeun nyieun cadangan kecap akses WLAN, tetengger, setelan sejen, jeung data aplikasi, terus pupus oge kabeh tironan di pangladen Google™?</string>
+    <string name="fullbackup_erase_dialog_message">Eureun jieun cadangan data alat (siga kecap aksés WLAN jeung daptar telepon) jeung data aplikasi (siga setélan jeung payil anu disimpen ku aplikasi), ditambah pupus sadaya tironan dina Google Drive?</string>
+    <string name="fullbackup_data_summary">"Otomatis jieun cadangan data alat (siga kecap aksés WLAN jeung daptar telepon) jeung data aplikasi (siga setélan jeung payil anu disimpen ku aplikasi) ti jauh.
+
+Nalika anjeun aktipkeun cadangan otomatis, alat jeung data aplikasi sacara rutin disimpen ti jauh. Data aplikasi bisa data naon waé anu disimpen ku aplikasi (dumasarkeun setélan dévéloper), kalebet data sénsitip anu poténsial saperti kontak, talatah, jeung poto."</string>
+    <string name="wifi_setup_title">Setelan WLAN</string>
+    <string name="wifi_setup_title_editing_network">Sambungkeun ka jaringan WLAN %s</string>
+    <string name="wifi_setup_title_connecting_network">Nyambung ka jaringan WLAN %s…</string>
+    <string name="wifi_setup_title_connected_network">Disambungkeun ka jaringan WLAN %s</string>
+    <string name="wifi_setup_eap_not_supported">Anjeun teu bisa ngonpigurasikeun sambungan EAP WLAN dina setelan. Saenggeus nyetel, anjeun bisa ngonpigurasikeun di Setelan > Nirkabel &amp; jaringan.</string>
+    <string name="wifi_setup_description_connected">Rampa <b>Saenggeusna</b>" jang neruskeun make pangaturan.
+
+Rampa "<b>Mulang</b> jang nyambung ka jaringan WLAN nu sejen.</string>
+    <string name="data_usage_menu_show_wifi">Pinton WLAN</string>
+    <string name="data_usage_menu_hide_wifi">Sumputkeun WLAN</string>
+    <string name="data_usage_disable_wifi_limit">Setel wates data WLAN</string>
+    <string name="data_usage_tab_wifi">WLAN</string>
+    <string name="data_usage_restrict_background">Lamun anjeun ngawates data seluler latar, sabaraha aplikasi jeung ladenan moal bisa dilampahkeun kacuali anjeun nyambung ka jaringan WLAN.</string>
+    <string name="data_usage_restrict_background_multiuser">"Lamun anjeun ngawates latar tukang data sélulér, sababaraha aplikasi jeung ladénan moal jalan sateuacan anjeun nyambung ka WLAN.
+
+Setélan ieu pangaruh kabéh nu maké dina telepon ieu."</string>
+    <string name="data_usage_metered_body">Pilih jaringan WLAN anu hotspot seluler. Aplikasi bisa dibatesan ti make jaringan ieu lamun keur aya di latar tukang. Aplikasi bisa oge ngingetkeun samemeh make jaringan ieu jang undeuran gede.</string>
+    <string name="data_usage_metered_wifi">Jaringan WLAN nu diitung</string>
+    <string name="data_usage_metered_wifi_disabled">jang milih jaringan nu diitung, aktipkeun WLAN.</string>
+    <string name="user_add_user_message_long">"Anjeun bisa bagi alat ieu jeung jelema nu séjén ku cara jieun nu maké tambahan. Tiap nu maké boga rohang sorangan, nu tiasa nyaluyukeun jeung aplikasi, wallpaper, jeung sajabana. Nu maké ogé tiasa nyaluyukeun setélan sapertos WLAN nu mangaruhan unggal jelema.
+
+Lamun anjeun nambah nu maké anyar, jelema éta perlu nyetél rohang manéhna.
+
+Unggal nu maké tiasa ngapdét aplikasi jang kabéh nu maké."</string>
+    <string name="restriction_wifi_config_title">WLAN sareng Seluler</string>
+    <string name="restriction_wifi_config_summary">Idinan ngarobah setelan WLAN jeung Seluler</string>
+    <string name="setup_wifi_nfc_tag">Nyetel Tag NFC WLAN</string>
+    <string name="l_dialog_message_hint">"Modeu STAMINA kaasup:
+
+• Sayaga manjangan
+Hemat daya upami layar pareum ku saheulaanan nganonaktipkeun WLAN. Sabagean aplikasi bakal nonaktip.
+Upami layar hurung, alat anjeun bakal ngapungsi normal.
+Lamun anjeun hayang tetep sababaraha aplikasi aktip salila sayaga Manjangan aktip, tambah aplikasi ka daptar Aplikasi aktip dina sayaga.
+
+• Pamakean manjangan
+Hemat daya salila alat anjeun dipake ku cara ngawates kinerja hardware."</string>
+    <string name="powersaver_feature_wifi">WLAN pareum</string>
+    <string name="stamina_xssm_summary">Nonaktip data seluler jeung WLAN waktos layar pareum</string>
+    <string name="usm_descr">"Modeu Ultra STAMINA bakal manjangan dangka waktu batre ku cara signifikan. Ieu tiasa dipake upami anjeun teu tiasa ngeusi batre alat anjeun dina waktu lila.
+
+Saukur sababaraha pungsi dasar, sapertos Telepon jeung Talatah bakal sadia. Ketok \"Inpo salengkepna\" jang wincik leuwih loba.
+
+Catet yen koneksi Internet liwat WLAN jeung data Seluler bakal dinonaktipkeun."</string>
+    <string name="battery_usm_desc">"Modeu Ultra STAMINA bakal lumayan nambahan dangka waktu batré. Catetan yén konéksi Internét ngalangkungan WLAN jeung data Sélulér bakal dipareuman. Layar Utama anjeun bakal diganti kana layar utama modeu Ultra STAMINA.
+
+Aplikasi anu sadia dina modeu Ultra STAMINA"</string>
+    <string name="somc_wifi_turned_on_info">WLAN diaktipkeun. Pilih jaringan anjeun dina daptar.</string>
+    <string name="wifi_tethering_warning_txt">Unggal operasi WLAN nu lumangsung sapertos transper media, apdet software telepon, nyieun cadangan jeung ngabalikkeun bakal kaganggu.</string>
+    <string name="somc_backup_failed_no_wifi_summary">Ngadagoan sambungan WLAN</string>
+    <string name="wifi_hs2_strings_hotspot2_summary_txt">Sambung otomatis ka jaringan Passpoint nu sadia upami WLAN aktip</string>
+    <string name="wifi_tether_settings_subtext">Setel &amp; atur hotspot WLAN portabel</string>
+    <string name="wifi_tether_settings_text">Setelan hotspot WLAN portabel</string>
+    <string name="wifi_security_wapi_cert">WLAN SERT</string>
+    <string name="ct_wifi_connected_text">WLAN China Telecom nyambung</string>
+    <string name="cw_network_priority">"Prioritask'n WLAN China Telecom"</string>
+    <string name="cw_network_priority_summary">Jaringan WLAN China Telecom bakal diprioritaskeun ti koneksi jaringan nu sejen</string>
+    <string name="data_traffic_disabled_text">Teu bisa nyambung ka jaringan WLAN China Telecom kusabab patalimarga data dinonaktipkeun. Aktipkeun patalimarga data ayeuna?</string>
+    <string name="install_wapi_certs">Pasang sertipikat WLAN</string>
+    <string name="location_based_wifi">WLAN dumasar lokasi</string>
+    <string name="operator_auto_connect_hotspot_description_txt">Nyambung otomatis ka hotspot AT&amp;T WLAN</string>
+    <string name="operator_auto_connect_hotspot_txt">Samb otmts Opt WLAN</string>
+    <string name="wifi_context_menu_change_wapi_certificate">Robih Sertipikat WLAN</string>
+    <string name="wifi_p2p_settings">Setelan WLAN Direct™</string>
+    <string name="wifi_security_verbose_wapi_cert">Ditangtayungan ku WLAN SERT</string>
+    <string name="wifi_security_verbose_wapi_psk">Ditangtayungan ku WLAN PSK</string>
+    <string name="wifi_tether_explanation_dialog_text">"Anjeun tiasa make alat sabage Hotspot Seluler. Ieu ngidinan alat nu sejen (panglobana 10) jang nyambungkeun liwat jaringan WLAN. Alat nu nyambung bakal boga akses ka Internet liwat sambungan jaringan seluler anjeun. Hotspot Seluler make data seluler jeung bisa kena beaya tambahan.
+
+Hostpot Seluler make batere leuwih boros. Sambung alat ka colokan jang hemat batere."</string>
+    <string name="wifi_wps_category_title">Setel jaringan WLAN</string>
+    <string name="xssm_guidecontent_what_stamina40jp_txt">"Modeu STAMINA hemat daya batre ku cara nyaluyukeun setelan alat. Anjeun tiasa milih aplikasi jang jalan jeung pungsionalitas nu dikurangan salila modeu sare. (ieu mantuan anjeun hemat daya batre kusabab sabagean aplikasi ngabeakkeun batre sanajan salila modeu sare.)
+
+Pungsi dinonaktipkeun jang aplikasi pilihan:
+- WLAN
+- Data seluler
+- Pangatur waktu
+
+Lampu bewara jang kabeh aplikasi ngiceup dina warna nu sarua jeung frekwensi nu sarua salila modeu sare.
+
+Modeu STAMINA diaktipkeun salila anjeun ngadalikeun alat."</string>
+    <string name="wifi_security_short_wapi_cert">WLAN SERT</string>
+    <string name="wifi_security_short_wapi_psk">WLAN PSK</string>
+    <string name="vzw_avoid_bad_connections_text">"Sambungan WLAN anjeun nu anjeun sambungkeun teu tiasa nyambung ka Internet.
+
+Pikeun otomatis pindah ka jaringan seluler upami ieu kajadian, aktipkeun Cegah sambungan WLAN goreng dina Setelan WLAN Maher."</string>
+    <string name="vzw_avoid_bad_connections_title">Taya sambungan Internet WLAN</string>
+    <string name="vzw_wifi_avoid_bad_connections">Cegah sambungan WLAN goreng</string>
+    <string name="vzw_wifi_avoid_bad_connections_summary">Pake jaringan seluler iraha wae sambungan WLAN anjeun nu nyambung teu boga sambungan Internet. (Pamakean data manawi lumaku).</string>
+    <string name="vzw_wifi_password_error_dialog_txt">Kecap akses WLAN teu ditarima. Pariksa kecap akses jeung coba deui.</string>
+    <string name="vzw_wifi_setup_wizard_desc">Pilih jaringan lamun anjeun hayang nyambung ka WLAN ayeuna.</string>
+    <string name="vzw_wifi_setup_wizard_title">Nyetel WLAN</string>
+</resources>

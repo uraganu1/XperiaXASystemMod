@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="powersaver_feature_haptic">Vypnúť vibrovanie pri dotyku</string>
+    <string name="powersaver_feature_sync">Vypnúť automatickú synchronizáciu</string>
+    <string name="powersaver_feature_data">Vypnúť mobilné dátové pripojenie</string>
+    <string name="powersaver_feature_bravia">Vypnúť nástroj Mobile BRAVIA Engine</string>
+    <string name="powersaver_feature_xreality">Nástroj X-Reality vypnutý</string>
+    <string name="stamina_queue_background_data_title">Zaradiť dáta na pozadí do frontu</string>
+    <string name="stamina_xssm_add_applications_title">Aplikácie aktívne aj v pohotovostnom režime</string>
+    <string name="wifi_tether_settings_text">Nastavenia prenosného prístupového bodu pre Wi-Fi</string>
+    <string name="usb_direct_settings_hi_res_audio_title_txt">Zvuk s vysokým rozlíšením cez USB</string>
+    <string name="auto_sync_text">Automatická synchronizácia</string>
+</resources>

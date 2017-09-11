@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_disabled_wifi_failure">Falha de conexão WLAN</string>
+    <string name="connected_via_wfa">Conectado via assistente de WLAN</string>
+    <string name="radio_controls_summary">Gerenciar WLAN, Bluetooth, modo avião, redes celulares e VPNs</string>
+    <string name="wifi_assistant_title">Assistente de WLAN</string>
+    <string name="wifi_alert_lockdown_by_device_owner">O app %1$s gerencia seu dispositivo e não permite a modificação ou exclusão desta rede WLAN. Para receber mais informações, entre em contato com seu administrador.</string>
+    <string name="wifi_quick_toggle_title">WLAN</string>
+    <string name="wifi_quick_toggle_summary">Ativar o WLAN</string>
+    <string name="wifi_settings">WLAN</string>
+    <string name="wifi_settings_category">Configurações de WLAN</string>
+    <string name="wifi_settings_title">WLAN</string>
+    <string name="wifi_setup_wizard_title">Selecionar rede WLAN</string>
+    <string name="wifi_select_network">Selecionar WLAN</string>
+    <string name="wifi_starting">Ativando WLAN...</string>
+    <string name="wifi_stopping">Desativando WLAN...</string>
+    <string name="wifi_poor_network_detection_summary">Não usar uma rede WLAN a menos que tenha uma boa conexão com a Internet</string>
+    <string name="wifi_automatically_connect_summary">Deixar um assistente WLAN conectar-se automaticamente a redes abertas de alta qualidade</string>
+    <string name="wifi_scan_notify_text">Para aumentar a precisão da localização, apps e serviços do sistema ainda conseguem procurar redes WLAN. É possível alterar isso nas LINK_BEGINconfigurações de verificaçãoLINK_END.</string>
+    <string name="wifi_setting_sleep_policy_title">Manter WLAN durante inatividade</string>
+    <string name="wifi_setting_on_during_sleep_title">WLAN ativ. durante suspensão</string>
+    <string name="wifi_suspend_optimizations">Otimização de WLAN</string>
+    <string name="wifi_suspend_optimizations_summary">Minimizar o uso da bateria quando o WLAN estiver ligado</string>
+    <string name="wifi_limit_optimizations_summary">Lim. de bat. usado pelo WLAN</string>
+    <string name="wifi_switch_away_when_unvalidated">Alternar para dados de celular se o WLAN perder o acesso à Internet.</string>
+    <string name="wifi_access_points">Redes WLAN</string>
+    <string name="wifi_menu_p2p">WLAN Direct</string>
+    <string name="wifi_empty_list_wifi_off">Para ver as redes disponíveis, ative o WLAN.</string>
+    <string name="wifi_empty_list_wifi_on">Procurando redes WLAN...</string>
+    <string name="wifi_empty_list_user_restricted">Você não tem permissão para alterar a rede WLAN.</string>
+    <string name="wifi_wps_setup_title">Configuração protegida do WLAN</string>
+    <string name="wifi_wps_onstart_pbc">Pressione o botão \"WLAN Protected Setup\" do roteador. Ele também pode ser chamado de \"WPS\" ou ser marcado com este símbolo:</string>
+    <string name="wifi_wps_onstart_pin">Insira o PIN %1$s em seu roteador WLAN. A configuração pode levar até dois minutos.</string>
+    <string name="wifi_wps_connected">Conectado à rede WLAN %s</string>
+    <string name="wifi_scan_always_turnon_message">"Para aumentar a precisão da localização e outras finalidades, %1$s quer ativar a verificação de rede, mesmo que o WLAN esteja desligado.
+
+Permitir isto para todos os apps que quiserem verificar?"</string>
+    <string name="wifi_skipped_message">AVISO: se você ignorar a configuração de WLAN, o smartphone usará somente dados da rede celular para fazer os downloads iniciais e as atualizações. Para evitar possíveis cobranças de dados, conecte-se ao WLAN.</string>
+    <string name="wifi_and_mobile_skipped_message">"Se você ignorar o WLAN:
+
+"<li>Seu smartphone não terá conexão com a Internet.</li>"
+
+"<li>Você não receberá atualizações de software enquanto não se conectar à Internet.</li>"
+
+"<li>Não será possível ativar recursos de proteção de dispositivos no momento.</li></string>
+    <string name="wifi_connect_failed_message">O telefone não foi capaz de conectar à rede WLAN.</string>
+    <string name="wifi_advanced_titlebar">WLAN avançado</string>
+    <string name="wifi_setting_frequency_band_title">Banda de frequência WLAN</string>
+    <string name="wifi_p2p_settings_title">WLAN Direct</string>
+    <string name="wifi_tether_checkbox_text">Ponto de acesso WLAN portátil</string>
+    <string name="wifi_hotspot_checkbox_text">Ponto de acesso WLAN</string>
+    <string name="wifi_hotspot_checkbox_text_summary">Use con. de rede cel. p/ fornecer WLAN</string>
+    <string name="wifi_tether_failed_subtext">Erro de ponto de acesso WLAN portátil</string>
+    <string name="wifi_tether_configure_ap_text">Configurar ponto de acesso WLAN</string>
+    <string name="wifi_hotspot_configure_ap_text">Config. ponto de acesso WLAN</string>
+    <string name="wifi_hotspot_configure_ap_text_summary">Pt ac. WLAN portátil AndroidAP WPA2 PSK</string>
+    <string name="wifi_tether_configure_subtext">Ponto de acesso WLAN portátil %1$s %2$s</string>
+    <string name="wifi_calling_settings_title">Chamadas por WLAN</string>
+    <string name="wifi_calling_mode_dialog_title">Modo de chamada por WLAN</string>
+    <string name="wifi_calling_off_explanation">Quando a chamada por WLAN está ativada, seu smartphone pode enviar chamadas por redes WLAN ou pela rede da sua operadora, dependendo da sua preferência e de qual sinal está mais forte. Antes de ativar esse recurso, verifique as taxas e outros detalhes com sua operadora.</string>
+    <string name="status_wifi_mac_address">Endereço MAC da rede WLAN</string>
+    <string name="reset_network_desc">"Isso redefinirá todas as configurações de rede, incluindo:
+
+"<li>WLAN</li>"
+"<li>dados da rede celular</li>"
+"<li>Bluetooth</li></string>
+    <string name="network_scorer_change_active_dialog_title">Alterar o Assistente de WLAN?</string>
+    <string name="location_mode_high_accuracy_description">Usar GPS, WLAN, Bluetooth ou redes celulares para determinar a localização</string>
+    <string name="location_mode_battery_saving_description">Usar WLAN, Bluetooth ou redes celulares para determinar a localização</string>
+    <string name="location_scanning_wifi_always_scanning_title">Verificação de WLAN</string>
+    <string name="location_scanning_wifi_always_scanning_description">Melhore a localização permitindo que apps e serviços do sistema detectem redes WLAN a qualquer momento.</string>
+    <string name="location_network_based">Localiz. por WLAN e rede cel.</string>
+    <string name="location_neighborhood_level_wifi">Localização determinada por WLAN</string>
+    <string name="wifi_verbose_logging">Ativar registro extenso de WLAN</string>
+    <string name="wifi_aggressive_handover">Transf. agressiva de WLAN para celular</string>
+    <string name="wifi_allow_scan_with_traffic">Sempre permitir verif. de roaming de WLAN</string>
+    <string name="wifi_verbose_logging_summary">Aumentar o nível de registro do WLAN; mostrar conforme o RSSI de SSID na Seleção de WLAN</string>
+    <string name="wifi_aggressive_handover_summary">Quando ativada, o WLAN será mais agressivo em transferir a conexão de dados para celular, quando o sinal de WLAN estiver fraco</string>
+    <string name="wifi_allow_scan_with_traffic_summary">Permitir/proibir verificações de roaming de WLAN com base no volume do tráfego de dados presente na interface</string>
+    <string name="mobile_data_always_on_summary">Sempre manter dados móveis ativos, mesmo quando o WLAN estiver ativado (para troca rápida de rede).</string>
+    <string name="battery_stats_wifi_running_label">WLAN</string>
+    <string name="wifi_on_time">Tempo de ativação da rede WLAN</string>
+    <string name="bluetooth_on_time">Tempo de ativação da rede WLAN</string>
+    <string name="power_wifi">WLAN</string>
+    <string name="usage_type_wifi_running">WLAN em execução</string>
+    <string name="usage_type_data_wifi_send">Pacotes WLAN enviados</string>
+    <string name="usage_type_data_wifi_recv">Pacotes WLAN recebidos</string>
+    <string name="battery_action_wifi">Configurações de WLAN</string>
+    <string name="battery_desc_wifi">Bateria usada por WLAN</string>
+    <string name="battery_sugg_wifi">Desativar WLAN quando não estiver em uso ou disponível</string>
+    <string name="gadget_toggle_wifi">Atualizando configuração de WLAN</string>
+    <string name="gadget_wifi">WLAN</string>
+    <string name="backup_data_summary">Fazer backup de dados de apps, senhas de redes WLAN e outras configurações nos servidores do Google</string>
+    <string name="backup_erase_dialog_message">Interromper o backup de suas senhas de redes WLAN, favoritos, outras configurações e dados de apps e apagar todas as cópias nos servidores do Google?</string>
+    <string name="fullbackup_erase_dialog_message">Interromper o backup dos dados do dispositivo (como senhas de WLAN e histórico de chamadas) e dos dados de apps (como configurações e arquivos armazenados por apps) e limpar todas as cópias no Google Drive?</string>
+    <string name="fullbackup_data_summary">"Fazer backup automático de dados do dispositivo (como senhas de WLAN e histórico de chamadas) e dados de apps (como configurações e arquivos armazenados por apps) remotamente.
+
+Quando você ativa o backup automático, os dados do dispositivo e de apps são salvos periodicamente de modo remoto. Dados de apps podem ser quaisquer dados que um app tenha salvo (com base nas configurações de desenvolvedores), incluindo dados potencialmente confidenciais, como contatos, mensagens e fotos."</string>
+    <string name="wifi_setup_title">Configuração de WLAN</string>
+    <string name="wifi_setup_title_editing_network">Conectar-se à rede WLAN %s</string>
+    <string name="wifi_setup_title_connecting_network">Conectando-se à rede WLAN %s…</string>
+    <string name="wifi_setup_title_connected_network">Conectado à rede WLAN %s</string>
+    <string name="wifi_setup_eap_not_supported">Não é possível configurar uma conexão WLAN EAP durante a configuração. É possível fazer isso em seguida, na opção \"Configurações\" > \"Sem fio e redes\".</string>
+    <string name="wifi_setup_description_connected">Toque em <b>Próximo</b>" para continuar a configuração.
+
+Toque em "<b>Voltar</b> para conectar-se a outra rede WLAN.</string>
+    <string name="data_usage_menu_show_wifi">Mostrar WLAN</string>
+    <string name="data_usage_menu_hide_wifi">Ocultar WLAN</string>
+    <string name="data_usage_disable_wifi_limit">Limitar dados de WLAN</string>
+    <string name="data_usage_tab_wifi">WLAN</string>
+    <string name="data_usage_restrict_background">Ao restringir os dados de redes celulares em segundo plano, alguns apps e serviços só funcionarão se você estiver conectado ao WLAN.</string>
+    <string name="data_usage_restrict_background_multiuser">"Ao restringir os dados de redes celulares em segundo plano, alguns apps e serviços só funcionarão se você estiver conectado ao WLAN.
+
+Esta configuração afeta todos os usuários do smartphone."</string>
+    <string name="data_usage_metered_body">Redes limitadas são tratadas como celular quando os dados em segundo plano forem restritos. Apps podem avisar antes de usar essas redes para downloads grandes.</string>
+    <string name="data_usage_metered_wifi">Redes WLAN limitadas</string>
+    <string name="data_usage_metered_wifi_disabled">Para selecionar redes limitadas, ative o WLAN.</string>
+    <string name="user_add_user_message_long">"É possível compartilhar esse dispositivo com outras pessoas criando usuários adicionais. Cada usuário tem seu próprio espaço, que pode ser personalizado com apps, planos de fundo etc. Os usuários também podem ajustar as configurações do dispositivo, como WLAN, que afetam a todos.
+
+Quando você adiciona um novo usuário, essa pessoa precisa configurar o próprio espaço.
+
+Qualquer usuário pode atualizar apps para os demais usuários."</string>
+    <string name="restriction_wifi_config_title">WLAN e redes móveis</string>
+    <string name="restriction_wifi_config_summary">Permitir modificação das configurações de WLAN e redes móveis</string>
+    <string name="setup_wifi_nfc_tag">Configurar etiqueta NFC WLAN</string>
+</resources>

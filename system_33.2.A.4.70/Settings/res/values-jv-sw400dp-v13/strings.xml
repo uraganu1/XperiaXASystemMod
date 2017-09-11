@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="powersaver_feature_haptic">Kedher yen dttl mati</string>
+    <string name="powersaver_feature_gamma">Mode bengi aktif</string>
+    <string name="powersaver_feature_bravia">Mobile BRAVIA Engine mati</string>
+</resources>

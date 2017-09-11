@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="powersaver_feature_wifi">Выключить Wi-Fi</string>
+    <string name="powersaver_feature_haptic">Выключить виброотклик</string>
+    <string name="powersaver_feature_bt">Выключить Bluetooth</string>
+    <string name="powersaver_feature_gps">Выключить GPS</string>
+    <string name="powersaver_feature_sync">Выключить автосинхронизацию</string>
+    <string name="powersaver_feature_data">Выключить мобильные данные</string>
+    <string name="powersaver_feature_gamma">Включить ночной режим</string>
+    <string name="powersaver_feature_bravia">Выключить Mobile BRAVIA Engine</string>
+    <string name="powersaver_feature_xreality">Выключить X-Reality</string>
+    <string name="stamina_queue_background_data_title">Поставить фоновые данные в очередь</string>
+    <string name="stamina_xssm_add_applications_title">Приложения, активные в режиме ожидания</string>
+    <string name="application_usage_title">Потребление энергии приложением</string>
+    <string name="wifi_tether_settings_text">Параметры портативной точки доступа Wi-Fi</string>
+</resources>

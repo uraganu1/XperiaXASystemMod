@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="powersaver_feature_haptic">Isključeno vibriranje na dodir</string>
+    <string name="powersaver_feature_sync">Isključena automatska sinkronizacija</string>
+    <string name="powersaver_feature_data">Isključen je mobilni prijenos podataka</string>
+    <string name="powersaver_feature_gamma">Uključen je noćni način</string>
+    <string name="powersaver_feature_bravia">Isključivanje modula Mobile BRAVIA Engine</string>
+    <string name="stamina_queue_background_data_title">Pozadinske podatke stavi u red čekanja</string>
+    <string name="stamina_xssm_add_applications_title">Aktivne aplikacije u stanju čekanja</string>
+    <string name="wifi_tether_settings_text">Postavke prijenosne Wi-Fi pristupne točke</string>
+    <string name="usb_direct_settings_hi_res_audio_title_txt">Zvuk visoke razlučivost putem USB-a</string>
+    <string name="auto_sync_text">Automatska sinkronizacija</string>
+</resources>

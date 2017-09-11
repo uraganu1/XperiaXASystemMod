@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="powersaver_feature_haptic">Slökkt á titringi við snertingu</string>
+    <string name="powersaver_feature_sync">Slökkt á sjálfvirkri samstillingu</string>
+    <string name="powersaver_feature_bravia">Slökkt á Mobile BRAVIA Engine</string>
+    <string name="wifi_tether_settings_text">Stillingar færanlegs heits Wi-Fi reits</string>
+</resources>

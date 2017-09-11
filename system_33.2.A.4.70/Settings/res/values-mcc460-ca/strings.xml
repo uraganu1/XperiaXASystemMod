@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_security_wapi_psk">PSK de WLAN</string>
+    <string name="wifi_disabled_wifi_failure">Error de connexió WLAN</string>
+    <string name="connected_via_wfa">"Connectat mitjançant l'assistent de WLAN"</string>
+    <string name="accessibility_wifi_off">WLAN desactivada.</string>
+    <string name="accessibility_no_wifi">WLAN desconnectada.</string>
+    <string name="accessibility_wifi_one_bar">WLAN una barra.</string>
+    <string name="accessibility_wifi_two_bars">WLAN dos barres.</string>
+    <string name="accessibility_wifi_three_bars">WLAN tres barres.</string>
+    <string name="accessibility_wifi_signal_full">WLAN senyal complet.</string>
+    <string name="radio_controls_summary">"Gestiona la connexió WLAN, el Bluetooth, el mode d'avió, les xarxes mòbils i les VPN"</string>
+    <string name="wifi_assistant_title">Assistent de WLAN</string>
+    <string name="wifi_alert_lockdown_by_device_owner">"%1$s gestiona el dispositiu i no permet que es modifiqui o se suprimeixi aquesta xarxa WLAN. Per obtenir més informació, contacta amb l'administrador."</string>
+    <string name="wifi_quick_toggle_title">WLAN</string>
+    <string name="wifi_quick_toggle_summary">Activeu la connexió WLAN</string>
+    <string name="wifi_settings">WLAN</string>
+    <string name="wifi_settings_category">Paràmetres de WLAN</string>
+    <string name="wifi_settings_title">WLAN</string>
+    <string name="wifi_setup_wizard_title">Seleccioneu la WLAN</string>
+    <string name="wifi_select_network">Selecciona la WLAN</string>
+    <string name="wifi_poor_network_detection_summary">No feu servir una xarxa WLAN tret que tingui una bona connexió a Internet</string>
+    <string name="wifi_automatically_connect_title">Utilitza automàticament xarxes WLAN obertes</string>
+    <string name="wifi_automatically_connect_summary">Permet que un assistent de WLAN es connecti automàticament a les xarxes obertes considerades de bona qualitat</string>
+    <string name="wifi_scan_notify_text">Per millorar la precisió de la ubicació, les aplicacions i els serveis del sistema poden continuar cercant xarxes WLAN. Pots canviar aquesta opció a la LINK_BEGINconfiguració de cercaLINK_END.</string>
+    <string name="wifi_setting_sleep_policy_title">Mantén la WLAN activa en repòs</string>
+    <string name="wifi_setting_on_during_sleep_title">WLAN activa en repòs</string>
+    <string name="wifi_suspend_optimizations">Optimització de la WLAN</string>
+    <string name="wifi_suspend_optimizations_summary">"Minimitza l'ús de la bateria amb WLAN activada"</string>
+    <string name="wifi_limit_optimizations_summary">Límit bateria usada per WLAN</string>
+    <string name="wifi_switch_away_when_unvalidated">"Utilitza les dades mòbils si la WLAN perd l'accés a Internet"</string>
+    <string name="wifi_access_points">Xarxes WLAN</string>
+    <string name="wifi_menu_p2p">WLAN Direct</string>
+    <string name="wifi_empty_list_wifi_off">Per veure les xarxes disponibles, activeu WLAN.</string>
+    <string name="wifi_empty_list_wifi_on">"S'estan cercant xarxes WLAN..."</string>
+    <string name="wifi_empty_list_user_restricted">No tens permís per canviar la xarxa WLAN.</string>
+    <string name="wifi_wps_setup_title">Configuració protegida de WLAN</string>
+    <string name="wifi_wps_onstart_pbc">"Premeu el botó Configuració protegida de WLAN de l'encaminador. Pot ser que s'anomeni \"WPS\" o que estigui identificat amb aquest símbol:"</string>
+    <string name="wifi_wps_onstart_pin">"Introduïu el PIN%1$s a l'encaminador WLAN. La configuració pot trigar fins a dos minuts a completar-se."</string>
+    <string name="wifi_wps_connected">"S'ha connectat a la xarxa WLAN %s"</string>
+    <string name="wifi_scan_always_turnon_message">"Per millorar la precisió de la ubicació i per a altres finalitats, %1$s vol activar la cerca de xarxes tot i que la connexió WLAN estigui desactivada.
+
+Vols permetre-ho per a totes les aplicacions que vulguin cercar xarxes?"</string>
+    <string name="wifi_skipped_message">"AVÍS: és possible que el proveïdor de serveis apliqui càrrecs per dades addicionals.
+
+La configuració del telèfon pot necessitar una gran quantitat d'activitat de xarxa."</string>
+    <string name="wifi_and_mobile_skipped_message">"Si ometeu la WLAN:
+
+"<li>El telèfon no tindrà connexió a Internet.</li>"
+
+"<li>No rebreu actualitzacions de programari fins que no us connecteu a Internet.</li>"
+
+"<li>No podreu activar ara les funcions de protecció del dispositiu.</li></string>
+    <string name="wifi_connect_failed_message">El telèfon no ha pogut connectar amb aquesta xarxa WLAN.</string>
+    <string name="wifi_advanced_titlebar">Paràmetres WLAN</string>
+    <string name="wifi_setting_frequency_band_title">Banda de freqüència de WLAN</string>
+    <string name="wifi_advanced_settings_label">Paràmetres WLAN</string>
+    <string name="wifi_p2p_settings_title">WLAN Direct</string>
+    <string name="wifi_tether_checkbox_text">Punt de connexió WLAN portàtil</string>
+    <string name="wifi_hotspot_checkbox_text">Zona WLAN</string>
+    <string name="wifi_hotspot_checkbox_text_summary">Utilitza la connexió mòbil per a WLAN.</string>
+    <string name="wifi_tether_failed_subtext">Error de punt de connexió WLAN portàtil</string>
+    <string name="wifi_tether_configure_ap_text">Configura el punt de connexió WLAN</string>
+    <string name="wifi_hotspot_configure_ap_text">Configuració de la zona WLAN</string>
+    <string name="wifi_hotspot_configure_ap_text_summary">Zona WLAN portàtil PSK AndroidAP WPA2</string>
+    <string name="wifi_tether_configure_subtext">"Punt de connexió WLAN portàtil %1$s.
+Seguretat: %2$s"</string>
+    <string name="wifi_calling_settings_title">Trucades per WLAN</string>
+    <string name="wifi_calling_mode_dialog_title">Mode de trucades per WLAN</string>
+    <string name="wifi_calling_off_explanation">"Utilitzeu la trucada WLAN per augmentar la qualitat de la trucada en llocs amb poca cobertura de la xarxa mòbil.
+ 
+Cost
+Per obtenir informació sobre els càrrecs de la trucada WLAN, poseu-vos en contacte amb el proveïdor de serveis.
+ 
+Notes sobre la trucada WLAN
+Per romandre a la trucada WLAN, assegureu-vos que estigueu dins l'abast de WLAN."</string>
+    <string name="status_wifi_mac_address">Adreça MAC de WLAN</string>
+    <string name="reset_network_desc">"Es restablirà tota la configuració de la xarxa, també:
+
+"<li>WLAN</li>"
+"<li>Dades mòbils</li>"
+"<li>Bluetooth</li></string>
+    <string name="network_scorer_change_active_dialog_title">"Vols canviar l'assistent de WLAN?"</string>
+    <string name="location_mode_high_accuracy_description">Utilitza el GPS, la WLAN, el Bluetooth o les xarxes mòbils per determinar la ubicació</string>
+    <string name="location_mode_battery_saving_description">Utilitzeu la WLAN, el Bluetooth o les xarxes mòbils per determinar la ubicació</string>
+    <string name="location_scanning_wifi_always_scanning_title">Cerca de WLAN</string>
+    <string name="location_scanning_wifi_always_scanning_description">Millora la ubicació permetent que les aplicacions i els serveis del sistema detectin les xarxes WLAN en qualsevol moment.</string>
+    <string name="location_neighborhood_level_wifi">Ubicació determinada per WLAN</string>
+    <string name="wifi_verbose_logging">Activa el registre detallat de la WLAN</string>
+    <string name="wifi_aggressive_handover">Traspàs agressiu de WLAN a dades mòbils</string>
+    <string name="wifi_allow_scan_with_traffic">"Permet sempre les anàlisis d'itinerància de la WLAN"</string>
+    <string name="wifi_verbose_logging_summary">"Augmenta nivell de registre WLAN i mostra'l per SSID RSSI al Selector de WLAN."</string>
+    <string name="wifi_aggressive_handover_summary">"Si s'activa, la WLAN serà més agressiva per traspassar la connexió de dades al mode mòbil quan la senyal de WLAN sigui feble."</string>
+    <string name="wifi_allow_scan_with_traffic_summary">Permet/No permetis la detecció de xarxes WLAN en itinerància en funció de la quantitat de trànsit de dades que hi hagi a la interfície.</string>
+    <string name="mobile_data_always_on_summary">Mantén les dades mòbils sempre actives, fins i tot quan la WLAN està activada (per canviar de xarxa ràpidament).</string>
+    <string name="battery_stats_wifi_running_label">WLAN</string>
+    <string name="wifi_on_time">WLAN en hora</string>
+    <string name="bluetooth_on_time">WLAN en hora</string>
+    <string name="power_wifi">WLAN</string>
+    <string name="usage_type_wifi_running">Ús de WLAN</string>
+    <string name="usage_type_data_wifi_send">Paq. dades WLAN enviats</string>
+    <string name="usage_type_data_wifi_recv">Paq. dades WLAN rebuts</string>
+    <string name="battery_action_wifi">Paràmetres de WLAN</string>
+    <string name="battery_desc_wifi">Bateria utilitzada per WLAN</string>
+    <string name="battery_sugg_wifi">"Desactiveu la connexió WLAN quan no l'utilitzeu o quan no estigui disponible"</string>
+    <string name="gadget_toggle_wifi">Actualització del paràmetre de la connexió WLAN</string>
+    <string name="gadget_wifi">WLAN</string>
+    <string name="backup_data_summary">"Fes una còpia de seguretat de les dades de les aplicacions, de les contrasenyes de WLAN i d'altres paràmetres als servidors de Google™"</string>
+    <string name="backup_erase_dialog_message">"Voleu deixar de fer còpies de seguretat de les contrasenyes de WLAN, de les adreces d'interès, d'altres paràmetres i de les dades d'aplicacions i esborrar totes les còpies que n'hi hagi als servidors de Google™?"</string>
+    <string name="fullbackup_erase_dialog_message">"Vols deixar de crear còpies de seguretat de les dades del dispositiu (com ara les contrasenyes de WLAN o l'historial de trucades) i de les aplicacions (com ara les configuracions i els fitxers que desin) i, a més, esborrar totes les còpies de Google Drive?"</string>
+    <string name="fullbackup_data_summary">"Crea còpies de seguretat automàtiques de les dades del dispositiu (com ara les contrasenyes de la WLAN o l'historial de trucades) i de les aplicacions (com ara les configuracions i els fitxers que desin) de manera remota.
+
+Quan activis les còpies de seguretat automàtiques, les dades dels dispositius i de les aplicacions s'emmagatzemaran periòdicament de manera remota. Les dades de les aplicacions poden ser qualsevol tipus de dades que hagi desat una aplicació (en funció de la configuració del desenvolupador), incloses les dades potencialment confidencials, com ara contactes, missatges i fotos."</string>
+    <string name="wifi_setup_title">Configuració de WLAN</string>
+    <string name="wifi_setup_title_editing_network">Connexió a la xarxa WLAN %s</string>
+    <string name="wifi_setup_title_connecting_network">"S'està connectant a la xarxa WLAN %s…"</string>
+    <string name="wifi_setup_title_connected_network">Connectat a la xarxa WLAN %s</string>
+    <string name="wifi_setup_eap_not_supported">No podeu configurar una connexió WLAN EAP. Després de la configuració, podeu portar a terme aquesta acció a Paràmetres > Sense fil i xarxes.</string>
+    <string name="wifi_setup_description_connected">Toqueu <b>Següent</b>" per continuar amb la configuració.
+
+Toqueu "<b>Enrere</b> per connectar-vos a una altra xarxa WLAN.</string>
+    <string name="data_usage_menu_show_wifi">"Mostra l'ús de la WLAN"</string>
+    <string name="data_usage_menu_hide_wifi">Amaga la WLAN</string>
+    <string name="data_usage_disable_wifi_limit">Defineix un límit de dades WLAN</string>
+    <string name="data_usage_tab_wifi">WLAN</string>
+    <string name="data_usage_restrict_background">Si restringiu les dades mòbils de referència, hi ha aplicacions i serveis que no funcionaran si no esteu connectat a una xarxa WLAN.</string>
+    <string name="data_usage_restrict_background_multiuser">"Si restringiu les dades mòbils en segon pla, hi ha aplicacions i serveis que no funcionaran sense connexió WLAN.
+
+Aquesta configuració afecta tots els usuaris d'aquest telèfon."</string>
+    <string name="data_usage_metered_body">"Selecciona les xarxes WLAN que siguin zones de connexió mòbil. Pot ser que algunes aplicacions tinguin restringit l'ús d'aquestes xarxes quan funcionen en segon pla. Pot ser que les aplicacions també avisin abans d'utilitzar aquestes xarxes per a baixades grans."</string>
+    <string name="data_usage_metered_wifi">Xarxes WLAN limitades</string>
+    <string name="data_usage_metered_wifi_disabled">Per seleccionar xarxes limitades, activeu la WLAN.</string>
+    <string name="user_add_user_message_long">"Podeu compartir aquest dispositiu amb altres usuaris creant usuaris addicionals. Cada usuari té el seu propi espai, que pot personalitzar amb aplicacions i fons de pantalla, entre d'altres. Els usuaris també poden ajustar opcions de configuració del dispositiu, com ara la WLAN, que afecten els altres usuaris.
+
+Quan afegiu un usuari nou, aquesta persona haurà de configurar el seu espai.
+
+Qualsevol usuari pot actualitzar les aplicacions de la resta."</string>
+    <string name="restriction_wifi_config_title">WLAN i mòbil</string>
+    <string name="restriction_wifi_config_summary">Permet la modificació de la configuració WLAN i mòbil</string>
+    <string name="setup_wifi_nfc_tag">"Configura l'etiqueta de NFC per a WLAN"</string>
+    <string name="l_dialog_message_hint">"El mode STAMINA inclou:
+
+• Mode d'espera ampliat
+Estalvia energia quan la pantalla està apagada, inhabilitant temporalment la WLAN. La majoria d'aplicacions estaran inactives.
+Quan la pantalla estigui encesa, el dispositiu funcionarà amb normalitat.
+Si voleu mantenir algunes aplicacions actives mentre el mode d'espera ampliat està activat, afegiu les aplicacions a la llista d'aplicacions actives en mode d'espera.
+
+• Ús ampliat
+Estalvia energia quan el dispositiu s'està utilitzant, mitjançant la restricció del rendiment del maquinari."</string>
+    <string name="powersaver_feature_wifi">WLAN desactivada</string>
+    <string name="stamina_xssm_summary">Inhabilita les dades mòbils i la WLAN quan la pantalla està apagada</string>
+    <string name="usm_descr">"El mode Ultra STAMINA allargarà de manera significativa la durada de la bateria. Es pot fer servir quan no pugueu carregar el dispositiu durant molta estona.
+
+Només es mantindran disponibles algunes funcions bàsiques, com el telèfon i la missatgeria. Puntegeu \"Més info\" per obtenir més detalls.
+
+La connexió a Internet per WLAN i les dades mòbils s'inhabilitaran."</string>
+    <string name="battery_usm_desc">"El mode Ultra STAMINA ampliarà la vida útil de la bateria de forma significativa. Tingueu en compte que la connexió a Internet per WLAN i dades mòbils s'inhabilitarà. La pantalla inicial canviarà a la pantalla inicial del mode Ultra STAMINA.
+
+Aplicacions disponibles en mode Ultra STAMINA"</string>
+    <string name="somc_wifi_turned_on_info">La WLAN està activada. Seleccioneu la xarxa a la llista.</string>
+    <string name="wifi_tethering_warning_txt">"Qualsevol operació WLAN que estigui en marxa, com ara la transferència de fitxers multimèdia, actualitzacions de programari del telèfon, còpies de seguretat i restauracions, s'interromprà."</string>
+    <string name="somc_backup_failed_no_wifi_summary">"S'està esperant la connexió WLAN"</string>
+    <string name="wifi_hs2_strings_hotspot2_summary_txt">Connexió automàtica a les xarxes Passpoint disponibles quan el WLAN està activat</string>
+    <string name="wifi_tether_settings_subtext">"Configureu i gestioneu punt de connexió WLAN portàtil "</string>
+    <string name="wifi_tether_settings_text">Paràm. punt connexió WLAN portàtil</string>
+    <string name="wifi_security_wapi_cert">CERT de WLAN</string>
+    <string name="ct_wifi_connected_text">WLAN China Telecom connectat</string>
+    <string name="cw_network_priority">Prioritzeu WLAN China Telecom</string>
+    <string name="cw_network_priority_summary">Les xarxes WLAN de China Telecom tindran prioritat per sobre de les altres xarxes WLAN en la connexió</string>
+    <string name="data_traffic_disabled_text">"No s'ha pogut connectar a les xarxes WLAN de China Telecom perquè el trànsit de dades està inhabilitat. Voleu habilitar el trànsit de dades ara?"</string>
+    <string name="install_wapi_certs">Instal·la els certificats WLAN</string>
+    <string name="location_based_wifi">WLAN basada en ubicació</string>
+    <string name="operator_auto_connect_hotspot_description_txt">"Connexió automàtica al punt de connexió WLAN de l'operador"</string>
+    <string name="operator_auto_connect_hotspot_txt">Conn. aut. a WLAN oper.</string>
+    <string name="wifi_context_menu_change_wapi_certificate">Canvia el certificat WLAN</string>
+    <string name="wifi_p2p_settings">Paràmetres de WLAN Direct™</string>
+    <string name="wifi_security_verbose_wapi_cert">Protegit amb CERT de WLAN</string>
+    <string name="wifi_security_verbose_wapi_psk">Protegit amb PSK de WLAN</string>
+    <string name="wifi_tether_explanation_dialog_text">"Podeu utilitzar el vostre dispositiu com a punt de connexió mòbil. Això permet que altres dispositius (màxim 10) s'hi connectin mitjançant una xarxa WLAN. Els dispositius connectats tindran accés a Internet mitjançant la vostra connexió de xarxa mòbil. El punt de connexió mòbil utiltiza dades mòbils i pot comportar càrrecs addicionals.
+
+El punt de connexió mòbil consumeix més bateria. Connecteu el dispositiu a una presa de corrent per allargar la durada de la bateria."</string>
+    <string name="wifi_wps_category_title">Configuració de xarxa WLAN</string>
+    <string name="xssm_guidecontent_what_stamina40jp_txt">"El mode STAMINA estalvia bateria ajustant els paràmetres del dispositiu. Podeu escollir aplicacions perquè s'executin amb funcionalitat reduïda durant el mode repòs (això ajuda a estalviar bateria perquè la majoria de les aplicacions continuen consumint bateria fins i tot durante el mode repòs.)
+
+Funcions desactivades per a les aplicacions selecccionades:
+- WLAN
+- Dades mòbils
+- Temporitzador
+
+La llum de notificació centelleja per a totes les aplicacions en el mateix color i a la mateixa freqüència durant el mode repòs.
+
+El mode STAMINA es desactiva quan l'usuari està controlant el dispositiu."</string>
+    <string name="wifi_security_short_wapi_cert">CERT de WLAN</string>
+    <string name="wifi_security_short_wapi_psk">PSK de WLAN</string>
+    <string name="vzw_avoid_bad_connections_text">"La xarxa WLAN a què esteu connectat no està connectada a Internet.
+
+Per canviar automàticament a la xarxa mòbil, activeu Evita connexions WLAN incorrectes a Paràmetres WLAN avançats."</string>
+    <string name="vzw_avoid_bad_connections_title">Cap connexió a Internet per WLAN</string>
+    <string name="vzw_wifi_avoid_bad_connections">Evita connexions WLAN incorrectes</string>
+    <string name="vzw_wifi_avoid_bad_connections_summary">"Utilitzeu la xarxa mòbil quan la xarxa WLAN a què esteu connectat no tingui connexió a Internet. (Es carregarà l'ús de dades)."</string>
+    <string name="vzw_wifi_password_error_dialog_txt">"La contrasenya WLAN no s'ha acceptat. Comproveu la contrasenya i torneu-ho a provar."</string>
+    <string name="vzw_wifi_setup_wizard_desc">Si ara us voleu connectar a la WLAN, seleccioneu una xarxa.</string>
+    <string name="vzw_wifi_setup_wizard_title">Configureu la WLAN</string>
+</resources>

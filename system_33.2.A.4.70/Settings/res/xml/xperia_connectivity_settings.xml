@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/device_connection"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <PreferenceCategory android:title="@string/device_connection_features_for_speaker_tv_txt" android:key="speaker_tv_category">
+        <com.sonymobile.settings.preference.IntentPreference android:key="throw_settings" settings:dependOnIsValidIntent="true" settings:hasMetaData="true">
+            <intent android:targetPackage="com.sonymobile.playanywhere" android:targetClass="com.sonymobile.playanywhere.settings.ThrowSettingActivity" />
+        </com.sonymobile.settings.preference.IntentPreference>
+        <com.sonymobile.settings.preference.IntentPreference android:key="screen_mirroring_settings" settings:dependOnIsValidIntent="true" settings:hasMetaData="true">
+            <intent android:targetPackage="com.sonymobile.tvout.wifidisplay" android:targetClass="com.sonymobile.tvout.wifidisplay.WfdStarterActivity" />
+        </com.sonymobile.settings.preference.IntentPreference>
+        <com.sonymobile.settings.preference.IntentPreference android:title="@string/wifi_display_settings_title" android:key="wifi_display" android:summary="@string/wifi_display_settings_summary" android:fragment="com.android.settings.wfd.WifiDisplaySettings" settings:dependOnResource="@bool/config_addCastScreen" />
+        <com.sonymobile.settings.preference.IntentPreference android:key="media_server_settings" settings:dependOnIsValidIntent="true" settings:hasMetaData="true">
+            <intent android:targetPackage="com.sonymobile.dlna" android:targetClass="com.sonyericsson.dlna.server.DMSMainActivity" />
+        </com.sonymobile.settings.preference.IntentPreference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/device_connection_features_for_game_controller_txt" android:key="game_controller_category">
+        <com.sonymobile.settings.preference.IntentPreference android:key="playstation_connectivity" settings:dependOnIsValidIntent="true" settings:hasMetaData="true">
+            <intent android:targetPackage="com.sonymobile.dualshockmanager" android:targetClass="com.sonymobile.dualshockmanager.MenuListActivity" />
+        </com.sonymobile.settings.preference.IntentPreference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/device_connection_features_for_pc_txt" android:key="pc_category">
+        <com.sonymobile.settings.preference.IntentPreference android:key="seamless_tethering" settings:dependOnIsValidIntent="true" settings:dependOnIsOwnerOnly="true" settings:hasMetaData="true">
+            <intent android:targetPackage="com.sonymobile.seamlesstether" android:targetClass="com.sonymobile.seamlesstether.SeamlessTetheringActivity" />
+        </com.sonymobile.settings.preference.IntentPreference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/device_connection_features_for_car_txt" android:key="car_category">
+        <com.sonymobile.settings.preference.IntentPreference android:key="start_mirrorlink" settings:dependOnIsValidIntent="true" settings:hasMetaData="true">
+            <intent android:targetPackage="com.sonymobile.mirrorlink.manualswitch" android:targetClass="com.sonymobile.mirrorlink.manualswitch.MirrorLinkManualSwitch" />
+        </com.sonymobile.settings.preference.IntentPreference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/device_connection_features_for_usb_txt" android:key="usb_category">
+        <com.sonymobile.settings.preference.IntentPreference android:key="usb_settings" settings:dependOnIsValidIntent="true" settings:hasMetaData="true">
+            <intent android:targetPackage="com.sonyericsson.usbux" android:targetClass="com.sonyericsson.usbux.settings.ConnectivitySettingsActivity" />
+        </com.sonymobile.settings.preference.IntentPreference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/device_connection_features_for_accessories_txt" android:key="accessories_category">
+        <com.sonymobile.settings.preference.IntentPreference android:key="smart_connect" settings:dependOnIsValidIntent="true" settings:hasMetaData="true">
+            <intent android:targetPackage="com.sonyericsson.extras.liveware" android:targetClass="com.sonyericsson.extras.liveware.ui.PreferenceLaunchActivity" />
+        </com.sonymobile.settings.preference.IntentPreference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/settings_header_printing_txt" android:key="printing_category">
+        <Preference android:title="@string/print_settings" android:key="printing" android:fragment="com.android.settings.print.PrintSettingsFragment" settings:keywords="@string/settings_keywords_printing_txt" />
+    </PreferenceCategory>
+</PreferenceScreen>

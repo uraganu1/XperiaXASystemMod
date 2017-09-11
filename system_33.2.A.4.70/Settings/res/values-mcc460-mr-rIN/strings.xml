@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_disabled_wifi_failure">WLAN कनेक्शन अयशस्वी</string>
+    <string name="connected_via_wfa">WLAN सहाय्यक द्वारे कनेक्ट केले</string>
+    <string name="radio_controls_summary">वाय-फाय, ब्लूटुथ, विमान मोड, सेल्युलर नेटवर्क आणि VPN व्यवस्थापित करा</string>
+    <string name="wifi_alert_lockdown_by_device_owner">%1$s आपले डिव्‍हाइस व्यवस्थापित करतो आणि या वाय-फाय नेटवर्कला सुधारित करण्‍याची किंवा हटविण्‍याची अनुमती देत नाही. अधिक माहितीसाठी, आपल्‍या प्रशासकाशी संपर्क साधा.</string>
+    <string name="wifi_quick_toggle_title">वाय-फाय</string>
+    <string name="wifi_quick_toggle_summary">वाय-फाय चालू करा</string>
+    <string name="wifi_settings">वाय-फाय</string>
+    <string name="wifi_settings_category">वाय-फाय सेटिंग्ज</string>
+    <string name="wifi_settings_title">वाय-फाय</string>
+    <string name="wifi_setup_wizard_title">वाय-फाय नेटवर्क निवडा</string>
+    <string name="wifi_poor_network_detection_summary">वाय-फाय नेटवर्कचे चांगले इंटरनेट कनेक्शन नसल्यास त्याचा वापर करु नका</string>
+    <string name="wifi_setting_sleep_policy_title">निष्क्रिय असताना वाय-फाय चालू ठेवा</string>
+    <string name="wifi_suspend_optimizations">वाय-फाय ऑप्टिमायझेशन</string>
+    <string name="wifi_suspend_optimizations_summary">वाय-फाय चालू असताना बॅटरी वापर कमी करा</string>
+    <string name="wifi_access_points">वाय-फाय नेटवर्क</string>
+    <string name="wifi_menu_p2p">वाय-फाय थेट</string>
+    <string name="wifi_empty_list_wifi_off">उपलब्ध नेटवर्क पाहण्यासाठी, वाय-फाय चालू करा.</string>
+    <string name="wifi_empty_list_wifi_on">वाय-फाय नेटवर्क शोधत आहे…</string>
+    <string name="wifi_empty_list_user_restricted">आपल्याला वाय-फाय नेटवर्क बदलण्याची परवानगी नाही.</string>
+    <string name="wifi_wps_setup_title">वाय-फाय संरक्षित सेटअप</string>
+    <string name="wifi_wps_onstart_pin">आपल्या वाय-फाय राउटरवर पिन %1$s प्रविष्ट करा. सेटअप पूर्ण होण्यास दोन मिनिटांपर्यंत लागू शकतात.</string>
+    <string name="wifi_wps_connected">वाय-फाय नेटवर्क %s शी कनेक्ट झाले</string>
+    <string name="wifi_scan_always_turnon_message">"स्थान अचूकता सुधारण्यासाठी आणि इतर हेतूंसाठी, %1$s ला नेटवर्क स्कॅनिंग चालू करण्याची आवश्यकता आहे, वाय-फाय बंद असताना देखील.
+
+स्कॅन करू इच्छित सर्व अॅप्सना अनुमती द्यायची?"</string>
+    <string name="wifi_skipped_message">चेतावणी: आपण वाय-फाय वगळल्‍यास, आपला फोन केवळ सुरुवातीच्या डाउनलोडसाठी किंवा अद्यतनांसाठी सेल्‍युलर डेटाचा वापर करेल. संभाव्य असलेले डेटा शुल्क टाळण्‍यासाठी वाय-फाय शी कनेक्‍ट करा.</string>
+    <string name="wifi_connect_failed_message">फोन या वाय-फाय नेटवर्कशी कनेक्ट करण्यात अक्षम होता.</string>
+    <string name="wifi_advanced_titlebar">प्रगत वाय-फाय</string>
+    <string name="wifi_setting_frequency_band_title">वाय-फाय फ्रिक्वेन्सी बॅन्ड</string>
+    <string name="wifi_p2p_settings_title">वाय-फाय थेट</string>
+    <string name="wifi_tether_checkbox_text">पोर्टेबल वाय-फाय हॉटस्पॉट</string>
+    <string name="wifi_tether_failed_subtext">पोर्टेबल वाय-फाय हॉटस्पॉट त्रुटी</string>
+    <string name="wifi_tether_configure_ap_text">वाय-फाय हॉटस्पॉट सेट करा</string>
+    <string name="wifi_tether_configure_subtext">%1$s %2$s पोर्टेबल वाय-फाय हॉटस्पॉट</string>
+    <string name="wifi_calling_settings_title">वाय-फाय कॉलिंग</string>
+    <string name="wifi_calling_mode_dialog_title">वाय-फाय कॉलिंग मोड</string>
+    <string name="wifi_calling_off_explanation">वाय-फाय कॉलिंग चालू असताना, आपला फोन आपल्या प्राधान्यावर आणि कोणता सिग्नल मजबूत आहे याच्या आधारावर, वाय-फाय नेटवर्क किंवा आपल्या वाहकाच्या नेटवर्कद्वारे कॉल मार्गस्थ करू शकतो. हे वैशिष्ट्य चालू करण्यापूर्वी, फी आणि इतर तपशीलांच्या संबंधात आपल्या वाहकास विचारा.</string>
+    <string name="status_wifi_mac_address">वाय-फाय MAC पत्ता</string>
+    <string name="location_neighborhood_level_wifi">वाय-फाय द्वारे निर्धारित केलेले स्थान</string>
+    <string name="wifi_aggressive_handover">वाय-फायवरून सेल्‍युलरवर बळपूर्वक जाणे</string>
+    <string name="battery_stats_wifi_running_label">वाय-फाय</string>
+    <string name="wifi_on_time">वाय-फाय चालू केल्याची वेळ</string>
+    <string name="bluetooth_on_time">वाय-फाय चालू केल्याची वेळ</string>
+    <string name="power_wifi">वाय-फाय</string>
+    <string name="usage_type_wifi_running">वाय-फाय चालत आहे</string>
+    <string name="battery_action_wifi">वाय-फाय सेटिंग्ज</string>
+    <string name="battery_desc_wifi">वाय-फाय द्वारे वापरलेली बॅटरी</string>
+    <string name="battery_sugg_wifi">जेव्हा वाय-फाय वापरत नसाल किंवा ते उपलब्ध नसेल तेव्हा ते बंद करा</string>
+    <string name="gadget_toggle_wifi">वाय-फाय सेटिंग अद्ययावत करीत आहे</string>
+    <string name="gadget_wifi">वाय-फाय</string>
+    <string name="backup_data_summary">Google सर्व्हरमध्ये अॅप डेटा, वाय-फाय संकेतशब्द आणि इतर सेटिंग्जचा बॅक अप घ्या</string>
+    <string name="backup_erase_dialog_message">Google सर्व्हरवरील आपल्या वाय-फाय संकेतशब्द, बुकमार्क, इतर सेटिंग्ज आणि अॅप डेटाचा बॅक अप घेणे थांबवायचे तसेच सर्व प्रतिलिपी मिटवायच्या?</string>
+    <string name="fullbackup_erase_dialog_message">डिव्हाइस डेटाचा (जसे की वाय-फाय संकेतशब्द आणि कॉल इतिहास) आणि (अॅप्सद्वारे संचयित केलेल्या सेटिंग्ज आणि फायली यासारख्या) अॅप डेटाचा बॅकअप घेणे थांबवा, तसेच Google ड्राइव्हवरील सर्व प्रती मिटवायच्या?</string>
+    <string name="fullbackup_data_summary">"स्वयंचलितपणे डिव्‍हाइस डेटाचा (जसे की वाय-फाय संकेतशब्द आणि कॉल इतिहास) आणि अ‍ॅप डेटाचा (जसे की अ‍ॅप्‍स द्वारे संचयित केलेल्या सेटिंग्ज आणि फायली) दूरस्‍थपणे बॅकअप घ्‍या.
+
+आपण स्वयंचलित बॅकअप चालू करता तेव्‍हा, डिव्‍हाइस आणि अ‍ॅप डेटा मधूनमधून दूरस्‍थपणे जतन केला जातो. अ‍ॅप डेटा हा संपर्क, संदेश आणि फोटो यासारख्‍या संभाव्य संवेदनशील डेटासह अ‍ॅपने जतन केलेला कोणताही डेटा असू शकतो (विकासकाच्या सेटिंग्जवर आधारित)."</string>
+    <string name="wifi_setup_title">वाय-फाय सेटअप</string>
+    <string name="wifi_setup_title_editing_network">वाय-फाय नेटवर्क %s शी कनेक्ट करा</string>
+    <string name="wifi_setup_title_connecting_network">वाय-फाय नेटवर्क %s शी कनेक्ट करीत आहे...</string>
+    <string name="wifi_setup_title_connected_network">वाय-फाय नेटवर्क %s शी कनेक्ट झाले</string>
+    <string name="wifi_setup_eap_not_supported">आपण सेटअप दरम्यान EAP वाय-फाय कनेक्शन कॉन्फिगर करु शकत नाही, आपण ते सेटिंग्ज > वायरलेस &amp; नेटवर्क मध्ये करु शकता.</string>
+    <string name="wifi_setup_description_connected">सेटअप सुरू ठेवण्यासाठी <b>पुढील</b>" ला स्पर्श करा.
+
+एका भिन्न वाय-फाय नेटवर्कशी कनेक्ट करण्यासाठी "<b>मागे</b> ला स्पर्श करा.</string>
+    <string name="data_usage_disable_wifi_limit">वाय-फाय डेटा मर्यादा सेट करा</string>
+    <string name="data_usage_tab_wifi">वाय-फाय</string>
+    <string name="data_usage_restrict_background">आपण पार्श्वभूमी सेल्युलर डेटा प्रतिबंधित केल्यास, आपण वाय-फाय कनेक्ट केल्याशिवाय काही अॅप्स आणि सेवा कार्य करणार नाहीत.</string>
+    <string name="data_usage_metered_body">पार्श्वभूमी डेटा प्रतिबंधित असतो तेव्‍हा मीटर केलेले नेटवर्क सेल्‍युलर प्रमाणे हाताळले जातात. मोठ्‍या डाउनलोडसाठी ही नेटवर्क वापरण्‍यापूर्वी अ‍ॅप्‍स चेतावणी देऊ शकतात.</string>
+    <string name="setup_wifi_nfc_tag">वाय-फाय NFC टॅग सेट अप</string>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="app_ops_summaries">
+        <item>приближна локација</item>
+        <item>точна локација</item>
+        <item>ГПС</item>
+        <item>вибрирaj</item>
+        <item>прочитај контакти</item>
+        <item>измени контакти</item>
+        <item>прочитај евиденција на повици</item>
+        <item>измени дневник на повици</item>
+        <item>прочитај календар</item>
+        <item>измени календар</item>
+        <item>Скенирање WLAN</item>
+        <item>известување</item>
+        <item>Скенирање мобилен</item>
+        <item>повикај телефонски број</item>
+        <item>прочитај СМС порака</item>
+        <item>напиши СМС порака</item>
+        <item>прими СМС порака</item>
+        <item>прими СМС пораки за итни случаи</item>
+        <item>прими ММС порака</item>
+        <item>прими рекламни пораки на WAP</item>
+        <item>испрати СМС порака</item>
+        <item>прочитај СМС порака на ICC</item>
+        <item>напиши СМС порака на ICC</item>
+        <item>измени подесувања</item>
+        <item>цртај на врвот</item>
+        <item>пристапи кон известувања</item>
+        <item>фотоапарат</item>
+        <item>снимај аудио</item>
+        <item>репродуцирај аудио</item>
+        <item>прочитај табла со исечоци</item>
+        <item>измени табла со исечоци</item>
+        <item>копчиња на медиуми</item>
+        <item>аудио фокус</item>
+        <item>основна јачина на звук</item>
+        <item>јачина на звук на глас</item>
+        <item>јачина на звук на ѕвонење</item>
+        <item>јачина на звук на медиуми</item>
+        <item>јачина на звук на аларм</item>
+        <item>јачина на звук на известување</item>
+        <item>јачина на звук на Bluetooth</item>
+        <item>остани активен</item>
+        <item>следи локација</item>
+        <item>следи локација од големо значење</item>
+        <item>добиј статистики за користење</item>
+        <item>вклучи/исклучи звук на микрофон</item>
+        <item>проектирај медиуми</item>
+        <item>активирај VPN</item>
+        <item>напиши заднина</item>
+        <item>помош за структурата</item>
+        <item>помош за сликата на екранот</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices">
+        <item>Се претпочита WLAN</item>
+        <item>Се претпочита мобилна</item>
+    </string-array>
+    <string-array name="wapi_psk_type">
+        <item>WLAN ASCII</item>
+        <item>WLAN hexadecimal</item>
+    </string-array>
+</resources>

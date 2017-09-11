@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="app_ops_summaries">
+        <item>przybliżona lokalizacja</item>
+        <item>dokładna lokalizacja</item>
+        <item>GPS</item>
+        <item>wibracje</item>
+        <item>odczytywanie kontaktów</item>
+        <item>modyfikowanie kontaktów</item>
+        <item>odczytywanie rejestru połączeń</item>
+        <item>modyfikowanie rejestru połączeń</item>
+        <item>odczytywanie kalendarza</item>
+        <item>modyfikowanie kalendarza</item>
+        <item>skanowanie WLAN</item>
+        <item>powiadomienie</item>
+        <item>skanowanie bts</item>
+        <item>połączenia telefoniczne</item>
+        <item>odczytywanie SMS-ów</item>
+        <item>zapisywanie SMS-ów</item>
+        <item>odbieranie SMS-ów</item>
+        <item>odbieranie SMS-ów alarmowych</item>
+        <item>odbieranie MMS-ów</item>
+        <item>odbieranie wiadomości WAP push</item>
+        <item>wysyłanie SMS-ów</item>
+        <item>odczytywanie SMS-ów ICC</item>
+        <item>zapisywanie SMS-ów ICC</item>
+        <item>modyfikowanie ustawień</item>
+        <item>rysuj na górze</item>
+        <item>dostęp do powiadomień</item>
+        <item>kamera</item>
+        <item>nagraj dźwięk</item>
+        <item>odtwórz dźwięk</item>
+        <item>czytaj schowek</item>
+        <item>modyfikuj schowek</item>
+        <item>przyciski multimediów</item>
+        <item>aktywność audio</item>
+        <item>głośność główna</item>
+        <item>głośność mowy</item>
+        <item>głośność dzwonka</item>
+        <item>głośność multimediów</item>
+        <item>głośność alarmu</item>
+        <item>głośność powiadomień</item>
+        <item>głośność Bluetooth</item>
+        <item>utrzymanie aktywności</item>
+        <item>monitorowanie lokalizacji</item>
+        <item>monitor wysoki zasilanie lokalizacja</item>
+        <item>pobierz statystyki użycia</item>
+        <item>wycisz mikrofon/wyłącz wyciszenie</item>
+        <item>wyświetlanie multimediów</item>
+        <item>aktywowanie VPN</item>
+        <item>zapis tapety</item>
+        <item>wsparcie struktury</item>
+        <item>wsparcie robienia zrzutów ekranu</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices">
+        <item>Preferuj sieć WLAN</item>
+        <item>Preferuj sieć komórkową</item>
+    </string-array>
+    <string-array name="wapi_psk_type">
+        <item>WLAN ASCII</item>
+        <item>WLAN hexadecimal</item>
+    </string-array>
+</resources>

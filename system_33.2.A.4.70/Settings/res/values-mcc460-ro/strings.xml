@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_security_wapi_psk">WLAN PSK</string>
+    <string name="wifi_disabled_wifi_failure">Eroare de conexiune WLAN</string>
+    <string name="connected_via_wfa">Conexiune realizată printr-un asistent WLAN</string>
+    <string name="accessibility_wifi_off">Semnal WLAN dezactivat.</string>
+    <string name="accessibility_no_wifi">Semnal WLAN deconectat.</string>
+    <string name="accessibility_wifi_one_bar">Semnal WLAN cu o bară.</string>
+    <string name="accessibility_wifi_two_bars">Semnal WLAN cu două bare.</string>
+    <string name="accessibility_wifi_three_bars">Semnal WLAN cu trei bare.</string>
+    <string name="accessibility_wifi_signal_full">Semnal WLAN integral.</string>
+    <string name="radio_controls_summary">Gestionaţi reţelele WLAN, funcţia Bluetooth, modul Avion, reţelele mobile şi VPN</string>
+    <string name="wifi_assistant_title">Asistent WLAN</string>
+    <string name="wifi_alert_lockdown_by_device_owner">%1$s vă gestionează dispozitivul și nu permite modificarea sau ștergerea acestei rețele WLAN. Pentru mai multe informații, contactați-vă administratorul.</string>
+    <string name="wifi_quick_toggle_title">WLAN</string>
+    <string name="wifi_quick_toggle_summary">Activaţi WI-FI</string>
+    <string name="wifi_settings">WLAN</string>
+    <string name="wifi_settings_category">Setări WLAN</string>
+    <string name="wifi_settings_title">WLAN</string>
+    <string name="wifi_setup_wizard_title">Selectaţi o reţea WLAN</string>
+    <string name="wifi_select_network">Selectați o rețea WLAN</string>
+    <string name="wifi_poor_network_detection_summary">Nu utilizaţi o reţea WLAN, cu excepţia cazului în care aceasta are o conexiune la Internet adecvată</string>
+    <string name="wifi_automatically_connect_title">Folosiți automat rețelele WLAN deschise</string>
+    <string name="wifi_automatically_connect_summary">Permiteți ca un asistent WLAN să conecteze automat dispozitivul la rețele de calitate deschise</string>
+    <string name="wifi_scan_notify_text">Pentru a îmbunătăți precizia localizării, aplicațiile și serviciile de sistem pot totuși să caute rețelele WLAN. Puteți să schimbați acest aspect din LINK_BEGINsetările de scanareLINK_END.</string>
+    <string name="wifi_setting_sleep_policy_title">Menţine WLAN activ in repaus</string>
+    <string name="wifi_setting_on_during_sleep_title">WLAN pornit în modul inactiv</string>
+    <string name="wifi_suspend_optimizations">Optimizare WLAN</string>
+    <string name="wifi_suspend_optimizations_summary">Reduceţi la minimum utilizarea bateriei când reţeaua WLAN este pornită</string>
+    <string name="wifi_limit_optimizations_summary">Limit. baterie util. de WLAN</string>
+    <string name="wifi_switch_away_when_unvalidated">Comutați la datele mobile dacă rețeaua WLAN pierde accesul la internet.</string>
+    <string name="wifi_access_points">Reţele WLAN</string>
+    <string name="wifi_menu_p2p">WLAN Direct</string>
+    <string name="wifi_empty_list_wifi_off">Pt. a vedea reţelele disponibile, activaţi WLAN.</string>
+    <string name="wifi_empty_list_wifi_on">Se caută reţele WLAN…</string>
+    <string name="wifi_empty_list_user_restricted">Nu aveţi permisiunea să schimbaţi reţeaua WLAN</string>
+    <string name="wifi_wps_setup_title">Configurare protejată WLAN</string>
+    <string name="wifi_wps_onstart_pbc">Apăsaţi pe butonul Configurare protejată WLAN de pe router. Se poate numi „WPS” sau poate fi marcat cu acest simbol:</string>
+    <string name="wifi_wps_onstart_pin">Introduceţi codul PIN %1$s pe routerul WLAN. Finalizarea configurării poate dura până la două minute.</string>
+    <string name="wifi_wps_connected">Conectat la reţeaua WLAN %s</string>
+    <string name="wifi_scan_always_turnon_message">"Pentru a îmbunătăţi precizia localizării, precum şi pentru alte scopuri, %1$s doreşte să activeze căutarea reţelelor, chiar şi atunci când funcţia WLAN este dezactivată.
+
+Permiteţi acest lucru tuturor aplicaţiilor care doresc să caute reţele?"</string>
+    <string name="wifi_skipped_message">"AVERTISMENT: furnizorul de servicii vă poate percepe taxe suplimentare pentru transmiterea de date.
+
+Configurarea telefonului poate presupune o activitate semnificativă în reţea."</string>
+    <string name="wifi_and_mobile_skipped_message">"Dacă nu folosiţi WLAN:
+
+"<li>telefonul nu va avea o conexiune la internet.</li>"
+
+"<li>nu veţi primi actualizările de software decât după ce vă conectaţi la internet.</li>"
+
+"<li>nu puteţi activa acum funcţiile de protecţie a dispozitivului.</li></string>
+    <string name="wifi_connect_failed_message">Telefonul nu s-a putut conecta la această reţea WLAN.</string>
+    <string name="wifi_advanced_titlebar">Setări WLAN</string>
+    <string name="wifi_setting_frequency_band_title">Banda de frecvenţă WLAN</string>
+    <string name="wifi_advanced_settings_label">Setări WLAN</string>
+    <string name="wifi_p2p_settings_title">WLAN Direct</string>
+    <string name="wifi_tether_checkbox_text">Hotspot WLAN portabil</string>
+    <string name="wifi_hotspot_checkbox_text">Hotspot WLAN</string>
+    <string name="wifi_hotspot_checkbox_text_summary">Utiliz. conex. mobilă pt. a furniza rețea WLAN</string>
+    <string name="wifi_tether_failed_subtext">Eroare privind hotspot WLAN portabil</string>
+    <string name="wifi_tether_configure_ap_text">Configurare hotspot WLAN</string>
+    <string name="wifi_hotspot_configure_ap_text">Configurare hotspot WLAN</string>
+    <string name="wifi_hotspot_configure_ap_text_summary">Hotspot portabil WLAN AndroidAP WPA2 PSK</string>
+    <string name="wifi_tether_configure_subtext">"Hotspot WLAN portabil %1$s.
+Securitate: %2$s"</string>
+    <string name="wifi_calling_settings_title">Apelare prin WLAN</string>
+    <string name="wifi_calling_mode_dialog_title">Modul Apelare prin WLAN</string>
+    <string name="wifi_calling_off_explanation">"Utilizaţi apelarea WLAN pentru a creşte calitatea apelurilor în locurile în care acoperirea reţelei de telefonie mobilă este slabă.
+ 
+Costuri
+Pentru informaţii despre tarifele apelării WLAN, contactaţi furnizorul de servicii.
+ 
+Note privind apelarea WLAN
+Pentru a menţine apelarea WLAN, asiguraţi-vă că sunteţi în raza WLAN."</string>
+    <string name="status_wifi_mac_address">Adresă MAC WLAN</string>
+    <string name="reset_network_desc">"Astfel, toate setările pentru rețea vor fi reinițializate, inclusiv:
+
+"<li>WLAN</li>"
+"<li>Date mobile</li>"
+"<li>Bluetooth</li></string>
+    <string name="network_scorer_change_active_dialog_title">Schimbați asistentul WLAN?</string>
+    <string name="location_mode_high_accuracy_description">Utilizaţi GPS, WLAN, Bluetooth sau reţelele de telefonie mobilă pentru determinarea locaţiei</string>
+    <string name="location_mode_battery_saving_description">Utilizaţi WLAN, Bluetooth sau reţelele de telefonie mobilă pentru determinarea locaţiei</string>
+    <string name="location_scanning_wifi_always_scanning_title">Căutare rețele WLAN</string>
+    <string name="location_scanning_wifi_always_scanning_description">Îmbunătățiți localizarea permițând aplicațiilor și serviciilor de sistem să detecteze rețelele WLAN oricând.</string>
+    <string name="location_neighborhood_level_wifi">Locaţie stabilită prin WLAN</string>
+    <string name="wifi_verbose_logging">Act. înr. prin WLAN a vol. mari de date</string>
+    <string name="wifi_aggressive_handover">Înlocuire agresivă reţea WLAN cu reţea de date de telefonie mobilă</string>
+    <string name="wifi_allow_scan_with_traffic">Se permite întotdeauna scanarea traficului WLAN</string>
+    <string name="wifi_verbose_logging_summary">Măriți niv. de înr. prin WLAN, afișați în fcț. de SSID RSSI în Selectorul WLAN</string>
+    <string name="wifi_aggressive_handover_summary">Când este activată, funcția WLAN va fi mai agresivă la predarea conexiunii de date către mobil când semnalul WLAN este slab</string>
+    <string name="wifi_allow_scan_with_traffic_summary">Permiteți/Nu permiteți scanarea traficului WLAN în funcție de traficul de date din interfață</string>
+    <string name="mobile_data_always_on_summary">Păstrați întotdeauna conexiunea de date mobile activată, chiar și atunci când funcția WLAN este activată (pentru comutarea rapidă între rețele).</string>
+    <string name="battery_stats_wifi_running_label">WLAN</string>
+    <string name="wifi_on_time">WLAN la timp</string>
+    <string name="bluetooth_on_time">WLAN la timp</string>
+    <string name="power_wifi">WLAN</string>
+    <string name="usage_type_wifi_running">Funcţionare WLAN</string>
+    <string name="usage_type_data_wifi_send">Pachete WLAN trimise</string>
+    <string name="usage_type_data_wifi_recv">Pachete WLAN primite</string>
+    <string name="battery_action_wifi">Setări WLAN</string>
+    <string name="battery_desc_wifi">Baterie utilizată de WLAN</string>
+    <string name="battery_sugg_wifi">Dezactivaţi reţeaua WLAN atunci când nu o utilizaţi sau când nu este disponibilă</string>
+    <string name="gadget_toggle_wifi">Se actualizează setarea pentru WLAN</string>
+    <string name="gadget_wifi">WLAN</string>
+    <string name="backup_data_summary">Creaţi copii de rezervă pentru datele aplicaţiilor, parolele WLAN şi pentru alte setări pe serverele Google™</string>
+    <string name="backup_erase_dialog_message">Opriţi crearea unei copii de rezervă pentru parole WLAN, marcaje, alte setări şi datele aplicaţiilor şi ştergeţi toate copiile de pe serverele Google™?</string>
+    <string name="fullbackup_erase_dialog_message">Doriți să nu li se mai facă backup datelor de pe dispozitiv (de exemplu, parolele WLAN și istoricul apelurilor) și datelor din aplicații (de exemplu, setările și fișierele stocate de aplicații) și să ștergeți toate copiile din Google Drive?</string>
+    <string name="fullbackup_data_summary">"Faceți backup automat la datele dispozitivului (de exemplu, parolele WLAN și istoricul apelurilor) și la datele aplicațiilor (de exemplu, setările și fișierele stocate de aplicații) de la distanță.
+
+Când activați backupul automat, datele dispozitivului și ale aplicațiilor sunt salvate periodic de la distanță. Datele unei aplicații pot fi orice date pe care le-a salvat aplicația (în funcție de setările dezvoltatorului), inclusiv date posibil sensibile, cum a fi persoanele de contact, mesajele și fotografiile."</string>
+    <string name="wifi_setup_title">Configurare WLAN</string>
+    <string name="wifi_setup_title_editing_network">Conectare la reţeaua WLAN %s</string>
+    <string name="wifi_setup_title_connecting_network">Se conectează la reţeaua WLAN %s…</string>
+    <string name="wifi_setup_title_connected_network">Conectat la reţeaua WLAN %s</string>
+    <string name="wifi_setup_eap_not_supported">Nu puteţi configura o conexiune WLAN EAP în timpul configurării. După instalare, puteţi face acest lucru în Setări > Wireless şi reţele.</string>
+    <string name="wifi_setup_description_connected">Atingeţi <b>Următorul</b>" pentru a continua configurarea.
+
+Atingeţi "<b>Înapoi</b> pentru a vă conecta la o altă reţea WLAN.</string>
+    <string name="data_usage_menu_show_wifi">Afişare WLAN</string>
+    <string name="data_usage_menu_hide_wifi">Ascundere WLAN</string>
+    <string name="data_usage_disable_wifi_limit">Setaţi limita de date WLAN</string>
+    <string name="data_usage_tab_wifi">WLAN</string>
+    <string name="data_usage_restrict_background">Dacă limitaţi datele mobile de fundal, unele aplicaţii şi servicii nu vor funcţiona decât dacă sunteţi conectat(ă) la o reţea WLAN.</string>
+    <string name="data_usage_restrict_background_multiuser">"Dacă limitaţi transferul de date mobile în fundal, unele aplicaţii şi servicii nu vor funcţiona decât dacă v-aţi conectat la o reţea WLAN.
+
+Această setare afectează toţi utilizatorii acestui telefon."</string>
+    <string name="data_usage_metered_body">Selectaţi reţelele WLAN care sunt hotspoturi mobile. Utilizarea acestor reţele de către aplicaţii poate fi restricţionată când ele se află în fundal. De asemenea, aplicaţiile pot emite o avertizare înainte de a utiliza aceste reţele pentru descărcări mari.</string>
+    <string name="data_usage_metered_wifi">Reţele WLAN contorizate</string>
+    <string name="data_usage_metered_wifi_disabled">Pentru a selecta reţele contorizate, activaţi WLAN.</string>
+    <string name="user_add_user_message_long">"Puteţi să permiteţi accesul la acest dispozitiv altor persoane creând utilizatori suplimentari. Fiecare utilizator are propriul spaţiu, pe care îl poate personaliza cu aplicaţii, imagini de fundal etc. De asemenea, utilizatorii pot ajusta setările dispozitivului, cum ar fi setările pentru WLAN, care îi afectează pe toţi ceilalţi utilizatori.
+
+După ce creaţi un utilizator nou, acesta trebuie să-şi configureze spaţiul.
+
+Oricare dintre utilizatori poate actualiza aplicaţiile pentru toţi ceilalţi utilizatori."</string>
+    <string name="restriction_wifi_config_title">WLAN şi telefonie mobilă</string>
+    <string name="restriction_wifi_config_summary">Permiteţi modificarea setărilor pentru WLAN şi telefonie mobilă</string>
+    <string name="setup_wifi_nfc_tag">Configurarea etichetei NFC pentru WLAN</string>
+    <string name="l_dialog_message_hint">"Modul STAMINA include:
+
+• Regim de aşteptare extins
+Se economiseşte energie când ecranul este stins dezactivându-se temporar funcţia WLAN. Cele mai multe aplicaţii vor fi inactive.
+Când ecranul este stins, dispozitivul va funcţiona normal.
+Dacă doriţi ca unele aplicaţii să rămână active în timp ce modul Regim de aşteptare extins este activat, adăugaţi-le la lista Aplicaţii active în regim de aşteptare.
+
+• Utilizare extinsă
+Se economiseşte energie când dispozitivul este utilizat restricţionând performanţele hardware."</string>
+    <string name="powersaver_feature_wifi">Dezactivare WLAN</string>
+    <string name="stamina_xssm_summary">Dezactivează datele de telefonie mobilă şi WLAN atunci când ecranul este dezactivat</string>
+    <string name="usm_descr">"Modul Ultra STAMINA va extinde semnificativ durata de funcţionare a bateriei. Acesta poate fi utilizat când nu aveţi posibilitatea să vă încărcaţi dispozitivul un timp îndelungat.
+
+Vor fi disponibile numai câteva funcţii de bază, cum ar fi Telefon şi Mesagerie. Pentru mai multe detalii, atingeţi uşor „Mai multe informaţii”.
+
+Reţineţi că se vor dezactiva conexiunile la Internet prin WLAN şi de date pentru dispozitive mobile."</string>
+    <string name="battery_usm_desc">"Modul Ultra STAMINA va prelungi semnificativ durata bateriei. Reţineţi că vor fi dezactivate conexiunile de Internet prin WLAN şi cele de date de telefonie mobilă. Ecranul principal va fi comutat la pagina de pornire a modului Ultra STAMINA.
+
+Aplicaţii disponibile în modul Ultra STAMINA"</string>
+    <string name="somc_wifi_turned_on_info">Funcţia WLAN este activată. Selectaţi reţeaua din listă.</string>
+    <string name="wifi_tethering_warning_txt">Orice operaţie WLAN în desfăşurare, precum transfer de conţinut media, actualizare a software-ului telefonului, creare a unei copii de rezervă şi restaurare, va fi întreruptă.</string>
+    <string name="somc_backup_failed_no_wifi_summary">Se aşteaptă conexiunea WLAN</string>
+    <string name="wifi_hs2_strings_hotspot2_summary_txt">Conectare automată la reţelele Passpoint disponibile când funcţia WLAN este activată</string>
+    <string name="wifi_tether_settings_subtext">Configurare şi gestionare hotspot WLAN portabil</string>
+    <string name="wifi_tether_settings_text">Setări hotspot WLAN portabil</string>
+    <string name="wifi_security_wapi_cert">WLAN CERT</string>
+    <string name="ct_wifi_connected_text">China Telecom WLAN conectată</string>
+    <string name="cw_network_priority">Prioritate China Telecom WLAN</string>
+    <string name="cw_network_priority_summary">Reţelele China Telecom WLAN vor avea prioritate faţă de alte reţele WLAN conectate</string>
+    <string name="data_traffic_disabled_text">Imposibil de conectat la reţelele China Telecom WLAN deoarece traficul de date este dezactivat. Activaţi acum traficul de date?</string>
+    <string name="install_wapi_certs">Instalare certificate WLAN</string>
+    <string name="location_based_wifi">WLAN în funcţie de locaţie</string>
+    <string name="operator_auto_connect_hotspot_description_txt">Se conectează automat la hotspotul WLAN AT&amp;T</string>
+    <string name="operator_auto_connect_hotspot_txt">Con. aut. la WLAN AT&amp;T</string>
+    <string name="wifi_context_menu_change_wapi_certificate">Modificare certificat WLAN</string>
+    <string name="wifi_p2p_settings">Setări WLAN Direct™</string>
+    <string name="wifi_security_verbose_wapi_cert">Securizată cu WLAN CERT</string>
+    <string name="wifi_security_verbose_wapi_psk">Securizată cu WLAN PSK</string>
+    <string name="wifi_tether_explanation_dialog_text">"Puteţi să vă utilizaţi dispozitivul ca hotspot mobil. Acest lucru le permite altor dispozitive (maximum 10) să se conecteze la dispozitivul dvs. printr-o reţea WLAN. Dispozitivele conectate vor avea acces la Internet prin intermediul conexiunii la reţeaua de telefonie mobilă. Hotspotul mobil utilizează date de telefonie mobilă, fapt care poate atrage taxe suplimentare.
+
+Hotspotul mobil consumă excesiv bateria. Conectaţi dispozitivul la o priză electrică pentru a prelungi durata de funcţionare a bateriei."</string>
+    <string name="wifi_wps_category_title">Configurare reţea WLAN</string>
+    <string name="xssm_guidecontent_what_stamina40jp_txt">"Modul STAMINA economiseşte energia bateriei reglând setările dispozitivului. Puteţi decide ca aplicaţiile să ruleze cu funcţionalitate redusă în timpul modului de repaus. (Acest lucru vă ajută să economisiţi energia bateriei deoarece majoritatea aplicaţiilor epuizează în continuare bateria, chiar şi în timpul modului de repaus.)
+
+Funcţii dezactivate pentru aplicaţiile selectate:
+- WLAN
+- date de telefonie mobilă
+- temporizator
+
+Lumina de notificare pentru toate aplicaţiile este intermitentă, având aceeaşi culoare şi aceeaşi frecvenţă în timpul modului de repaus.
+
+Modul STAMINA este dezactivat în timp ce comandaţi dispozitivul."</string>
+    <string name="wifi_security_short_wapi_cert">WLAN CERT</string>
+    <string name="wifi_security_short_wapi_psk">WLAN PSK</string>
+    <string name="vzw_avoid_bad_connections_text">"Reţeaua WLAN la care sunteţi conectat nu este conectată la Internet.
+
+Pentru a se comuta automat la reţeaua de telefonie mobilă în această situaţie, activaţi opţiunea Evitare conexiuni WLAN incorecte în Setări WLAN avansate."</string>
+    <string name="vzw_avoid_bad_connections_title">Nicio conexiune WLAN la Internet</string>
+    <string name="vzw_wifi_avoid_bad_connections">Evitare conexiuni WLAN incorecte</string>
+    <string name="vzw_wifi_avoid_bad_connections_summary">Se utilizează reţeaua de telefonie mobilă ori de câte ori reţeaua WLAN la care sunteţi conectat nu are conexiune la Internet. (Se pot aplica tarife pentru utilizare de date.)</string>
+    <string name="vzw_wifi_password_error_dialog_txt">Parola WLAN nu a fost acceptată. Verificaţi parola şi încercaţi din nou.</string>
+    <string name="vzw_wifi_setup_wizard_desc">Selectaţi o reţea dacă doriţi să vă conectaţi acum la WLAN.</string>
+    <string name="vzw_wifi_setup_wizard_title">Configurare WLAN</string>
+</resources>

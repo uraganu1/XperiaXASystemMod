@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">Mai aveți de parcurs %1$d pași pentru a deveni dezvoltator.</item>
+        <item quantity="one">Mai aveți de parcurs %1$d pas pentru a deveni dezvoltator.</item>
+        <item quantity="few">Mai aveți %1$d pași pentru a deveni dezvoltator.</item>
+    </plurals>
+    <plurals name="security_settings_fingerprint_preference_summary">
+        <item quantity="other">S-a activat deblocarea prin amprentă</item>
+        <item quantity="one">S-a activat deblocarea prin amprentă</item>
+        <item quantity="few">%1$d amprente configurate</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">Parola trebuie să conţină cel puţin %d litere.</item>
+        <item quantity="one">Parola trebuie să conţină cel puţin 1 literă.</item>
+        <item quantity="few">Parola trebuie să conțină cel puțin %d litere.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">Parola trebuie să conţină cel puţin %d minuscule.</item>
+        <item quantity="one">Parola trebuie să conţină cel puţin 1 minusculă.</item>
+        <item quantity="few">Parola trebuie să conțină cel puțin %d minuscule.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">Parola trebuie să conţină cel puţin %d majuscule.</item>
+        <item quantity="one">Parola trebuie să conţină cel puţin 1 majusculă.</item>
+        <item quantity="few">Parola trebuie să conțină cel puțin %d majuscule.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">Parola trebuie să conţină cel puţin %d cifre.</item>
+        <item quantity="one">Parola trebuie să conţină cel puţin 1 cifră.</item>
+        <item quantity="few">Parola trebuie să conțină cel puțin %d cifre.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">Parola trebuie să conţină cel puţin %d simboluri speciale.</item>
+        <item quantity="one">Parola trebuie să conţină cel puţin 1 simbol special.</item>
+        <item quantity="few">Parola trebuie să conțină cel puțin %d simboluri speciale.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">Parola trebuie să conţină cel puţin %d caractere care să nu fie litere.</item>
+        <item quantity="one">Parola trebuie să conţină cel puţin 1 caracter care să nu fie o literă.</item>
+        <item quantity="few">Parola trebuie să conțină cel puțin %d caractere care să nu fie litere.</item>
+    </plurals>
+    <plurals name="wrong_pin_code">
+        <item quantity="other">Codul PIN pentru cartela SIM este incorect. Mai aveţi %d încercări.</item>
+        <item quantity="one">Codul PIN pentru cartela SIM este incorect. Mai aveţi %d încercare, după care va trebui să contactaţi furnizorul de servicii pentru a vă debloca dispozitivul.</item>
+        <item quantity="few">Codul PIN pentru cardul SIM este incorect. V-au mai rămas %d încercări.</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">%d aplicaţii pot citi notificările</item>
+        <item quantity="one">%d aplicaţie poate citi notificările</item>
+        <item quantity="few">%d aplicații pot citi notificările</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_minute">
+        <item quantity="other">Schimbați la „Numai alarme” pentru %1$d de minute (până la %2$s)</item>
+        <item quantity="one">Schimbare la alarme numai pentru un minut până la %2$s</item>
+        <item quantity="few">Schimbați la „Numai alarme” pentru %1$d minute (până la %2$s)</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_hour">
+        <item quantity="other">Schimbați la „Numai alarme” pentru %1$d de ore, până la %2$s</item>
+        <item quantity="one">Schimbare la alarme numai pentru o oră până la %2$s</item>
+        <item quantity="few">Schimbați la „Numai alarme” pentru %1$d ore, până la %2$s</item>
+    </plurals>
+    <plurals name="permissions_summary">
+        <item quantity="other">%d de permisiuni acordate</item>
+        <item quantity="one">%d permisiune acordată</item>
+        <item quantity="few">%d permisiuni acordate</item>
+    </plurals>
+    <plurals name="runtime_permissions_summary">
+        <item quantity="other">%1$d din %2$d de permisiuni acordate</item>
+        <item quantity="one">%1$d din %2$d permisiuni acordate</item>
+        <item quantity="few">%1$d din %2$d permisiuni acordate</item>
+    </plurals>
+    <plurals name="runtime_permissions_additional_count">
+        <item quantity="other">%d de permisiuni suplimentare</item>
+        <item quantity="one">%d permisiune suplimentară</item>
+        <item quantity="few">%d permisiuni suplimentare</item>
+    </plurals>
+    <plurals name="domain_urls_apps_summary">
+        <item quantity="other">%d aplicaţii pot deschide linkurile lor acceptate</item>
+        <item quantity="zero">Nicio aplicaţie nu poate deschide niciun link acceptat</item>
+        <item quantity="one">O singură aplicaţie poate deschide linkurile sale acceptate</item>
+        <item quantity="few">%d aplicații pot deschide linkurile acceptate</item>
+    </plurals>
+    <plurals name="high_power_count">
+        <item quantity="other">%d de aplicații au permisiunea să ignore optimizarea bateriei</item>
+        <item quantity="one">1 aplicaţie permisă să ignore optimizarea bateriei</item>
+        <item quantity="few">%d aplicații au permisiunea să ignore optimizarea bateriei</item>
+    </plurals>
+    <plurals name="memory_usage_apps_summary">
+        <item quantity="other">%1$d de aplicații au folosit memoria în ultimele %2$s</item>
+        <item quantity="one">1 aplicaţie a utilizat memorie în ultimele %2$s</item>
+        <item quantity="few">%1$d aplicații au folosit memoria în ultimele %2$s</item>
+    </plurals>
+    <plurals name="remaining_time_format_days">
+        <item quantity="other">%d (de) zile</item>
+        <item quantity="one">%d zi</item>
+    </plurals>
+    <plurals name="remaining_time_format_hours">
+        <item quantity="other">%d (de) ore</item>
+        <item quantity="one">%d oră</item>
+    </plurals>
+    <plurals name="stamina_xssm_add_applications_descr">
+        <item quantity="other">%d aplicaţii momentan în listă</item>
+        <item quantity="one">%1$d aplicaţie momentan în listă</item>
+    </plurals>
+    <plurals name="not_time_left_format_hours">
+        <item quantity="other">%d ore</item>
+        <item quantity="one">%d oră</item>
+    </plurals>
+    <plurals name="not_time_left_format_minutes">
+        <item quantity="other">%d minute</item>
+        <item quantity="one">%d minut</item>
+    </plurals>
+    <plurals name="xssm_settings_blacklist_summary_txt">
+        <item quantity="other">%d aplicaţii selectate</item>
+        <item quantity="one">%d aplicaţie selectată</item>
+    </plurals>
+</resources>

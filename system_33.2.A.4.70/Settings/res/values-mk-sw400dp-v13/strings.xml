@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="powersaver_feature_haptic">Исклучи вибрации при допир</string>
+    <string name="powersaver_feature_sync">Исклучи автоматска синхронизација</string>
+    <string name="powersaver_feature_data">Исклучи мобилни податоци</string>
+    <string name="powersaver_feature_bravia">Исклучи Mobile BRAVIA Engine</string>
+    <string name="stamina_queue_background_data_title">Стави ги заднинските податоци во низа</string>
+    <string name="stamina_xssm_add_applications_title">Активни апликации во мирување</string>
+    <string name="application_usage_title">Апликации што трошат енергија</string>
+    <string name="wifi_tether_settings_text">Поставки за преносливо Wi-Fi „жешко“ место</string>
+    <string name="usb_direct_settings_hi_res_audio_title_txt">Аудио со висока резолуција преку USB</string>
+    <string name="auto_sync_text">Автоматска синхронизација</string>
+</resources>

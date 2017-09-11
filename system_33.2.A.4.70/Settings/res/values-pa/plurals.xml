@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">ਤੁਸੀਂ ਡਿਵੈਲਪਰ ਬਣਨ ਤੋਂ ਹੁਣ %1$d ਕਦਮ ਦੂਰ ਹੋ।</item>
+        <item quantity="one">ਤੁਸੀਂ ਡਿਵੈਲਪਰ ਬਣਨ ਤੋਂ ਹੁਣ %1$d ਕਦਮ ਦੂਰ ਹੋ</item>
+    </plurals>
+    <plurals name="security_settings_fingerprint_preference_summary">
+        <item quantity="other">ਫਿੰਗਰਪ੍ਰਿੰਟ ਅਨਲੌਕਿੰਗ ਚਾਲੂ ਕੀਤਾ</item>
+        <item quantity="one">ਫਿੰਗਰਪ੍ਰਿੰਟ ਅਨਲੌਕਿੰਗ ਚਾਲੂ ਕੀਤਾ</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">ਪਾਸਵਰਡ ਵਿੱਚ ਘੱਟੋ-ਘੱਟ %d ਵਰਨ ਸ਼ਾਮਲ ਹੋਣੇ ਚਾਹੀਦੇ ਹਨ</item>
+        <item quantity="one">ਪਾਸਵਰਡ ਵਿੱਚ ਘੱਟੋ-ਘੱਟ 1 ਵਰਨ ਸ਼ਾਮਲ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">ਪਾਸਵਰਡ ਵਿੱਚ ਘੱਟੋ-ਘੱਟ %d ਛੋਟੇ ਆਕਾਰ ਦੇ ਵਰਨ ਸ਼ਾਮਲ ਹੋਣੇ ਚਾਹੀਦੇ ਹਨ</item>
+        <item quantity="one">ਪਾਸਵਰਡ ਵਿੱਚ ਘੱਟੋ-ਘੱਟ 1 ਛੋਟੇ ਆਕਾਰ ਦਾ ਵਰਨ ਸ਼ਾਮਲ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">ਪਾਸਵਰਡ ਵਿੱਚ ਘੱਟੋ-ਘੱਟ %d ਵੱਡੇ ਆਕਾਰ ਦਾ ਵਰਨ ਸ਼ਾਮਲ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ।</item>
+        <item quantity="one">ਪਾਸਵਰਡ ਵਿੱਚ ਘੱਟੋ-ਘੱਟ 1 ਵੱਡੇ ਆਕਾਰ ਦਾ ਵਰਨ ਸ਼ਾਮਲ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ।</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">ਪਾਸਵਰਡ ਵਿੱਚ ਘੱਟੋ-ਘੱਟ %d ਸੰਖਿਅਕ ਅੰਕ ਸ਼ਾਮਲ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ</item>
+        <item quantity="one">ਪਾਸਵਰਡ ਵਿੱਚ ਘੱਟੋ-ਘੱਟ 1 ਸੰਖਿਅਕ ਅੰਕ ਸ਼ਾਮਲ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">ਪਾਸਵਰਡ ਵਿੱਚ ਘੱਟੋ-ਘੱਟ %d ਖਾਸ ਪ੍ਰਤੀਕ ਸ਼ਾਮਲ ਹੋਣੇ ਚਾਹੀਦੇ ਹਨ</item>
+        <item quantity="one">ਪਾਸਵਰਡ ਵਿੱਚ ਘੱਟੋ-ਘੱਟ 1 ਖਾਸ ਪ੍ਰਤੀਕ ਸ਼ਾਮਲ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">ਪਾਸਵਰਡ ਵਿੱਚ ਘੱਟੋ-ਘੱਟ %d ਗੈਰ-ਵਰਨ ਅੱਖਰ ਸ਼ਾਮਲ ਹੋਣੇ ਚਾਹੀਦੇ ਹਨ</item>
+        <item quantity="one">ਪਾਸਵਰਡ ਵਿੱਚ ਘੱਟੋ-ਘੱਟ 1 ਗੈਰ-ਵਰਨ ਅੱਖਰ ਸ਼ਾਮਲ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ</item>
+    </plurals>
+    <plurals name="wrong_pin_code">
+        <item quantity="other">ਗਲਤ ਸਿਮ PIN ਕੋਡ ਹੈ, ਤੁਹਾਡੇ ਕੋਲ %d ਕੋਸ਼ਸ਼ਾਂ ਬਾਕੀ ਬਚੀਆਂ ਹਨ।</item>
+        <item quantity="one">ਗਲਤ ਸਿਮ PIN ਕੋਡ, ਤੁਹਾਡੇ ਕੋਲ ਆਪਣੇ ਉਪਕਰਣ ਨੂੰ ਅਨਲੌਕ ਕਰਨ ਲਈ ਆਪਣੇ ਸੇਵਾ ਪ੍ਰਦਾਤਾ ਨਾਲ ਜ਼ਰੂਰੀ ਰੂਪ ਵਿੱਚ ਸੰਪਰਕ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ %d ਕੋਸ਼ਸ਼ਾਂ ਬਾਕੀ ਹਨ।</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">%d ਐਪਸ ਸੂਚਨਾਵਾਂ ਪੜ੍ਹ ਸਕਦੇ ਹਨ</item>
+        <item quantity="one">%d ਐਪ ਸੂਚਨਾਵਾਂ ਪੜ੍ਹ ਸਕਦਾ ਹੈ</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_minute">
+        <item quantity="other">"ਸਿਰਫ %1$d ਮਿੰਟਾਂ ਲਈ ਅਲਾਰਮ 'ਤੇ ਬਦਲੋ (%2$s ਤੱਕ)"</item>
+        <item quantity="one">"%2$s ਤੱਕ ਸਿਰਫ ਇੱਕ ਮਿੰਟ ਲਈ ਅਲਾਰਮ 'ਤੇ ਬਦਲੋ"</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_hour">
+        <item quantity="other">"%2$s ਤੱਕ ਸਿਰਫ %1$d ਘੰਟੇ ਲਈ ਅਲਾਰਮ 'ਤੇ ਬਦਲੋ"</item>
+        <item quantity="one">"%2$s ਤੱਕ ਸਿਰਫ ਇੱਕ ਘੰਟੇ ਲਈ ਅਲਾਰਮ 'ਤੇ ਬਦਲੋ"</item>
+    </plurals>
+    <plurals name="permissions_summary">
+        <item quantity="other">%d ਇਜਾਜ਼ਤਾਂ ਦਿੱਤੀਆਂ ਗਈਆਂ</item>
+        <item quantity="one">%d ਇਜਾਜ਼ਤ ਦਿੱਤੀ ਗਈ</item>
+    </plurals>
+    <plurals name="runtime_permissions_summary">
+        <item quantity="other">"%1$d 'ਚੋਂ %2$d ਇਜਾਜ਼ਤਾਂ ਦਿੱਤੀਆਂ ਗਈਆਂ"</item>
+        <item quantity="one">"%1$d 'ਚੋਂ %2$d ਇਜਾਜ਼ਤ ਦਿੱਤੀ ਗਈ"</item>
+    </plurals>
+    <plurals name="runtime_permissions_additional_count">
+        <item quantity="other">%d ਵਾਧੂ ਇਜਾਜ਼ਤਾਂ</item>
+        <item quantity="one">%d ਵਾਧੂ ਇਜਾਜ਼ਤ</item>
+    </plurals>
+    <plurals name="domain_urls_apps_summary">
+        <item quantity="other">%d ਐਪਸ ਇਨ੍ਹਾਂ ਦੇ ਸਮਰਥਿਤ ਲਿੰਕਾਂ ਨੂੰ ਖੋਲ੍ਹ ਸਕਦੇ ਹਨ</item>
+        <item quantity="zero">ਕੋਈ ਐਪ ਕਿਸੇ ਸਮਰਥਿਤ ਲਿੰਕ ਨੂੰ ਨਹੀਂ ਖੋਲ੍ਹ ਸਕਦਾ</item>
+        <item quantity="one">ਇੱਕ ਐਪ ਇਸਦੇ ਸਮਰਥਿਤ ਲਿੰਕਾਂ ਨੂੰ ਖੋਲ੍ਹ ਸਕਦਾ ਹੈ</item>
+    </plurals>
+    <plurals name="high_power_count">
+        <item quantity="other">%d ਐਪਸ ਨੇ ਬੈਟਰੀ ਅਨੁਕੂਲਨ ਅਣਡਿੱਠ ਕਰਨ ਦੀ ਇਜਾਜ਼ਤ ਦਿੱਤੀ</item>
+        <item quantity="one">1 ਐਪ ਨੇ ਬੈਟਰੀ ਅਨੁਕੂਲਨ ਅਣਡਿੱਠ ਕਰਨ ਦੀ ਇਜਾਜ਼ਤ ਦਿੱਤੀ</item>
+    </plurals>
+    <plurals name="memory_usage_apps_summary">
+        <item quantity="other">%1$d ਐਪਸ ਨੇ ਪਿਛਲੇ %2$s ਵਿੱਚ ਮੈਮਰੀ ਵਰਤੀ</item>
+        <item quantity="one">1 ਐਪ ਨੇ ਪਿਛਲੇ %2$s ਵਿੱਚ ਮੈਮਰੀ ਵਰਤੀ</item>
+    </plurals>
+    <plurals name="remaining_time_format_days">
+        <item quantity="other">%d ਦਿਨ</item>
+        <item quantity="one">%d ਦਿਨ</item>
+    </plurals>
+    <plurals name="remaining_time_format_hours">
+        <item quantity="other">%d ਘੰਟੇ</item>
+        <item quantity="one">%d ਘੰਟਾ</item>
+    </plurals>
+    <plurals name="stamina_xssm_add_applications_descr">
+        <item quantity="other">%d ਐਪਸ ਹੁਣ ਸੂਚੀ ਵਿੱਚ ਹਨ</item>
+        <item quantity="one">%1$d ਐਪ ਹੁਣ ਸੂਚੀ ਵਿੱਚ ਹੈ</item>
+    </plurals>
+    <plurals name="xssm_settings_blacklist_summary_txt">
+        <item quantity="other">%d ਐਪਸ ਚੁਣੇ ਹਨ</item>
+        <item quantity="one">%d ਐਪ ਚੁਣਿਆ ਹੈ</item>
+    </plurals>
+</resources>

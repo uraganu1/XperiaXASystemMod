@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="app_ops_summaries">
+        <item>приблизне місцезнаходження</item>
+        <item>точне місцезнаходження</item>
+        <item>GPS</item>
+        <item>вібросигнал</item>
+        <item>читати контакти</item>
+        <item>змінювати контакти</item>
+        <item>читати журнал викликів</item>
+        <item>змінювати журнал дзвінків</item>
+        <item>переглядати календар</item>
+        <item>змінювати календар</item>
+        <item>сканування WLAN</item>
+        <item>сповіщення</item>
+        <item>пошук мобільних мереж</item>
+        <item>телефонувати</item>
+        <item>читати SMS</item>
+        <item>писати SMS</item>
+        <item>отримувати SMS</item>
+        <item>отримувати екстрені SMS</item>
+        <item>отримувати MMS</item>
+        <item>отримувати WAP Push</item>
+        <item>надсилати SMS</item>
+        <item>читати ICC SMS</item>
+        <item>писати ICC SMS</item>
+        <item>змінювати налаштування</item>
+        <item>відображати зверху</item>
+        <item>отримувати доступ до сповіщень</item>
+        <item>камера</item>
+        <item>записувати аудіо</item>
+        <item>відтворювати аудіо</item>
+        <item>читати буфер обміну</item>
+        <item>змінювати буфер обміну</item>
+        <item>кнопки медіа</item>
+        <item>активізація звуку</item>
+        <item>загальна гучність</item>
+        <item>гучність голосу</item>
+        <item>гучність дзвінка</item>
+        <item>гучність медіа</item>
+        <item>гучність сигналу</item>
+        <item>гучність сповіщення</item>
+        <item>гучність Bluetooth</item>
+        <item>залишати активним</item>
+        <item>відстежувати місцезнаходження</item>
+        <item>відстежувати енергозатратні місцезнаходження</item>
+        <item>отримати статистику використання</item>
+        <item>вимкнути або ввімкнути мікрофон</item>
+        <item>транслювати вміст</item>
+        <item>активувати VPN</item>
+        <item>записувати шпалери</item>
+        <item>допомагати (структура)</item>
+        <item>допомагати (знімок екрана)</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices">
+        <item>WLAN за умовчанням</item>
+        <item>Мобільна мережа за умовчанням</item>
+    </string-array>
+    <string-array name="wapi_psk_type">
+        <item>WLAN ASCII</item>
+        <item>WLAN hexadecimal</item>
+    </string-array>
+</resources>

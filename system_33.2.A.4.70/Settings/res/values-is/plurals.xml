@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">Nú ertu %1$d skrefum frá því að vera þróunaraðili.</item>
+        <item quantity="one">Nú ertu %1$d skrefi frá því að vera þróunaraðili.</item>
+    </plurals>
+    <plurals name="security_settings_fingerprint_preference_summary">
+        <item quantity="other">Kveikt á fingrafaraopnun</item>
+        <item quantity="one">Kveikt á fingrafaraopnun</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">Aðgangsorð verða að innihalda að lágmarki %d bókstafi.</item>
+        <item quantity="one">Aðgangsorð verða að innihalda að lágmarki einn bókstaf.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">Aðgangsorðið verður að innihalda minnst %d lágstafi.</item>
+        <item quantity="one">Aðgangsorðið verður að innihalda minnst einn lágstaf.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">Aðgangsorðið verður að innihalda minnst %d hástafi.</item>
+        <item quantity="one">Aðgangsorðið verður að innihalda minnst einn hástaf.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">Aðgangsorðið verður að innihalda minnst %d tölustafi.</item>
+        <item quantity="one">Aðgangsorð verða að innihalda að lágmarki einn tölustaf.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">Aðgangsorðið verður að innihalda minnst %d sérstafi.</item>
+        <item quantity="one">Aðgangsorðið verður að innihalda minnst einn sérstaf.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">Aðgangsorðið verður að innihalda minnst %d staftákn sem ekki eru bókstafir.</item>
+        <item quantity="one">Aðgangsorðið verður að innihalda minnst eitt staftákn sem ekki er bókstafur.</item>
+    </plurals>
+    <plurals name="wrong_pin_code">
+        <item quantity="other">Rangt PIN-númer SIM-korts. Þú átt %d tilraunir eftir.</item>
+        <item quantity="one">Rangt PIN-númer SIM-korts. Þú átt %d tilraun eftir áður en þú verður að hafa samband við símafyrirtækið til að taka tækið úr lás.</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">%d forrit geta lesið tilkynningar</item>
+        <item quantity="one">%d forrit getur lesið tilkynningar</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_minute">
+        <item quantity="other">Breyta í vekjara eingöngu í %1$d mínútur (til %2$s)</item>
+        <item quantity="one">Breyta í vekjara eingöngu í eina mínútu til %2$s</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_hour">
+        <item quantity="other">Breyta í vekjara eingöngu í %1$d klukkustundir til %2$s</item>
+        <item quantity="one">Breyta í vekjara eingöngu í eina klukkustund til %2$s</item>
+    </plurals>
+    <plurals name="permissions_summary">
+        <item quantity="other">%d heimildir veittar</item>
+        <item quantity="one">%d heimild veitt</item>
+    </plurals>
+    <plurals name="runtime_permissions_summary">
+        <item quantity="other">%1$d heimildir af %2$d veittar</item>
+        <item quantity="one">%1$d heimild af %2$d veitt</item>
+    </plurals>
+    <plurals name="runtime_permissions_additional_count">
+        <item quantity="other">%d viðbótarheimildir</item>
+        <item quantity="one">%d viðbótarheimild</item>
+    </plurals>
+    <plurals name="domain_urls_apps_summary">
+        <item quantity="other">%d forrit geta opnað studda tengla sína</item>
+        <item quantity="zero">Ekkert forrit getur opnað neinn studdan tengil</item>
+        <item quantity="one">Eitt forrit getur opnað studda tengla sína</item>
+    </plurals>
+    <plurals name="high_power_count">
+        <item quantity="other">%d forritum leyft að hunsa rafhlöðusparnað</item>
+        <item quantity="one">1 forriti leyft að hunsa rafhlöðusparnað</item>
+    </plurals>
+    <plurals name="memory_usage_apps_summary">
+        <item quantity="other">%1$d forrit notuðu minni undanfarnar %2$s</item>
+        <item quantity="one">1 forrit notaði minni undanfarnar %2$s</item>
+    </plurals>
+    <plurals name="remaining_time_format_days">
+        <item quantity="other">%d dagar</item>
+        <item quantity="one">%d dagur</item>
+    </plurals>
+    <plurals name="remaining_time_format_hours">
+        <item quantity="other">%d klst.</item>
+        <item quantity="one">%d klst.</item>
+    </plurals>
+    <plurals name="stamina_xssm_add_applications_descr">
+        <item quantity="other">%d forrit eru á lista</item>
+        <item quantity="one">%1$d forrit er á lista</item>
+    </plurals>
+    <plurals name="not_time_left_format_hours">
+        <item quantity="other">%d klst.</item>
+        <item quantity="one">%d klst.</item>
+    </plurals>
+    <plurals name="not_time_left_format_minutes">
+        <item quantity="other">%d mínútur</item>
+        <item quantity="one">%d mínúta</item>
+    </plurals>
+    <plurals name="xssm_settings_blacklist_summary_txt">
+        <item quantity="other">%d forrit valin</item>
+        <item quantity="one">%d forrit valið</item>
+    </plurals>
+</resources>

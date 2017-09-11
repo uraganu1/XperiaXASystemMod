@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="app_ops_summaries">
+        <item>Ungefährer Standort</item>
+        <item>Genauer Standort</item>
+        <item>GPS</item>
+        <item>Vibration</item>
+        <item>Kontakte lesen</item>
+        <item>Kontakte ändern</item>
+        <item>Anrufliste lesen</item>
+        <item>Anrufliste ändern</item>
+        <item>Kalender lesen</item>
+        <item>Kalender ändern</item>
+        <item>WLAN-Scan</item>
+        <item>Benachrichtigung</item>
+        <item>Mobilfunknetz-Scan</item>
+        <item>Telefonieren</item>
+        <item>SMS lesen</item>
+        <item>SMS schreiben</item>
+        <item>SMS empfangen</item>
+        <item>Notfall-SMS empfangen</item>
+        <item>MMS empfangen</item>
+        <item>WAP-Push-Nachricht empfangen</item>
+        <item>SMS senden</item>
+        <item>ICC-SMS lesen</item>
+        <item>ICC-SMS schreiben</item>
+        <item>Einstellungen ändern</item>
+        <item>An oberste Position ziehen</item>
+        <item>Auf Benachrichtigungen zugreifen</item>
+        <item>Kamera</item>
+        <item>Audio aufnehmen</item>
+        <item>Audio wiedergeben</item>
+        <item>Zwischenablage lesen</item>
+        <item>Zwischenablage ändern</item>
+        <item>Medienschaltflächen</item>
+        <item>Audiofokus</item>
+        <item>Gesamtlautstärke</item>
+        <item>Sprachlautstärke</item>
+        <item>Klingeltonlautstärke</item>
+        <item>Medienlautstärke</item>
+        <item>Weckerlautstärke</item>
+        <item>Benachrichtigungslautstärke</item>
+        <item>Bluetooth-Lautstärke</item>
+        <item>aktiv lassen</item>
+        <item>Standort beobachten</item>
+        <item>Orte mit hohem Stromverbrauch überwachen</item>
+        <item>Nutzungsstatistiken abrufen</item>
+        <item>Mikrofon aus- oder einschalten</item>
+        <item>Medien projizieren</item>
+        <item>VPN aktivieren</item>
+        <item>Hintergrund schreiben</item>
+        <item>Strukturassistent</item>
+        <item>Screenshotassistent</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices">
+        <item>WLAN bevorzugt</item>
+        <item>Mobilfunk bevorzugt</item>
+    </string-array>
+    <string-array name="wapi_psk_type">
+        <item>WLAN ASCII</item>
+        <item>WLAN hexadecimal</item>
+    </string-array>
+</resources>

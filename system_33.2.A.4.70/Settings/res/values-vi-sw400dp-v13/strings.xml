@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="powersaver_feature_bravia">Tắt Mobile BRAVIA Engine</string>
+    <string name="stamina_xssm_add_applications_title">Các ứng dụng hoạt động ở chế độ chờ</string>
+    <string name="application_usage_title">Mức tiêu hao năng lượng của ứng dụng</string>
+    <string name="wifi_tether_settings_text">Cài đặt điểm phát sóng Wi-Fi di động</string>
+    <string name="usb_direct_settings_hi_res_audio_title_txt">Âm thanh phân giải cao qua USB</string>
+</resources>

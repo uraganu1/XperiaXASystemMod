@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="app_ops_summaries">
+        <item>приблизительное местоположение</item>
+        <item>точное местоположение</item>
+        <item>GPS</item>
+        <item>вибросигнал</item>
+        <item>считывать данные контактов</item>
+        <item>изменение контактов</item>
+        <item>просмотр списка вызовов</item>
+        <item>изменение журнала вызовов</item>
+        <item>считывать данные календаря</item>
+        <item>изменение календаря</item>
+        <item>поиск WLAN</item>
+        <item>уведомление</item>
+        <item>поиск мобильных сетей</item>
+        <item>позвонить</item>
+        <item>чтение SMS</item>
+        <item>создание SMS</item>
+        <item>Получение SMS</item>
+        <item>получение экстренных SMS</item>
+        <item>получение MMS</item>
+        <item>получение сообщений WAP PUSH</item>
+        <item>отправка SMS</item>
+        <item>чтение SMS со смарт-карты</item>
+        <item>запись SMS на смарт-карту</item>
+        <item>изменение настроек</item>
+        <item>отображать поверх других элементов</item>
+        <item>Доступ к уведомлениям</item>
+        <item>камера</item>
+        <item>записать аудио</item>
+        <item>воспроизвести аудио</item>
+        <item>считать из буфера обмена</item>
+        <item>изменить буфер обмена</item>
+        <item>кнопки мультимедиа</item>
+        <item>аудиофокус</item>
+        <item>общая громкость</item>
+        <item>громкость голоса</item>
+        <item>громкость звонка</item>
+        <item>громкость мультимедиа</item>
+        <item>громкость будильника</item>
+        <item>громкость уведомлений</item>
+        <item>громкость Bluetooth-устройств</item>
+        <item>не отключать</item>
+        <item>Отслеживать местоположение</item>
+        <item>контролировать использование энергии при определении местоположения</item>
+        <item>посмотреть статистику использования</item>
+        <item>включить/отключить микрофон</item>
+        <item>трансляция контента</item>
+        <item>активация VPN</item>
+        <item>сохранение обоев</item>
+        <item>вспомогательная структура</item>
+        <item>вспомогательный скриншот</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices">
+        <item>Приоритет у WLAN</item>
+        <item>Приоритет у моб. сети</item>
+    </string-array>
+    <string-array name="wapi_psk_type">
+        <item>WLAN ASCII</item>
+        <item>WLAN hexadecimal</item>
+    </string-array>
+</resources>

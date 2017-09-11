@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="app_ops_summaries">
+        <item>hozzávetőleges helymeghatározás</item>
+        <item>pontos helymeghatározás</item>
+        <item>GPS</item>
+        <item>rezgés</item>
+        <item>névjegyek olvasása</item>
+        <item>névjegyek módosítása</item>
+        <item>hívásnapló olvasása</item>
+        <item>hívásnapló módosítása</item>
+        <item>naptár olvasása</item>
+        <item>naptár módosítása</item>
+        <item>WLAN hálózat keresése</item>
+        <item>értesítés</item>
+        <item>hálózatkeresés</item>
+        <item>telefonálás</item>
+        <item>SMS olvasása</item>
+        <item>SMS írása</item>
+        <item>SMS fogadása</item>
+        <item>sürgősségi SMS fogadása</item>
+        <item>MMS fogadása</item>
+        <item>WAP push fogadása</item>
+        <item>SMS küldése</item>
+        <item>ICC SMS olvasása</item>
+        <item>ICC SMS írása</item>
+        <item>beállítások módosítása</item>
+        <item>megjelenítés felül</item>
+        <item>Hozzáférési értesítések</item>
+        <item>kamera</item>
+        <item>hanganyag rögzítése</item>
+        <item>hanganyag lejátszása</item>
+        <item>vágólap olvasása</item>
+        <item>vágólap módosítása</item>
+        <item>médiagombok</item>
+        <item>audiofókusz</item>
+        <item>hangerő-szabályozó</item>
+        <item>beszéd hangereje</item>
+        <item>csengés hangereje</item>
+        <item>média hangereje</item>
+        <item>ébresztés hangereje</item>
+        <item>értesítés hangereje</item>
+        <item>bluetooth hangereje</item>
+        <item>ébren tartás</item>
+        <item>hely figyelése</item>
+        <item>magas energiaszintű helyek figyelése</item>
+        <item>használati statisztikák lekérése</item>
+        <item>mikrofon némítása és a némítás feloldása</item>
+        <item>médiatartalom kivetítése</item>
+        <item>VPN aktiválása</item>
+        <item>háttérkép írása</item>
+        <item>segédlet a szerkezethez</item>
+        <item>segédlet a képernyőképhez</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices">
+        <item>WLAN előnyben részesítve</item>
+        <item>Mobiladat-kapcsolat előnyben részesítve</item>
+    </string-array>
+    <string-array name="wapi_psk_type">
+        <item>WLAN ASCII</item>
+        <item>WLAN hexadecimal</item>
+    </string-array>
+</resources>

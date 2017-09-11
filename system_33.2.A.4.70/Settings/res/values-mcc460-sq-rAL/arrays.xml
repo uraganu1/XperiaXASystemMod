@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="app_ops_summaries">
+        <item>vendndodhja e përafërt</item>
+        <item>vendndodhja e saktë</item>
+        <item>GPS</item>
+        <item>dridhje</item>
+        <item>lexo kontaktet</item>
+        <item>modifiko kontaktet</item>
+        <item>lexo ditarin e telefonatave</item>
+        <item>modifiko ditarin e telefonatave</item>
+        <item>lexo kalendarin</item>
+        <item>modifiko kalendarin</item>
+        <item>skanimi për WLAN</item>
+        <item>njoftimi</item>
+        <item>skanimi i rrjetit celular</item>
+        <item>telefono telefonin</item>
+        <item>lexo SMS-të</item>
+        <item>shkruaj SMS</item>
+        <item>prano SMS</item>
+        <item>merr SMS emergjence</item>
+        <item>merr MMS</item>
+        <item>prano \"WAP push\"</item>
+        <item>dërgo SMS</item>
+        <item>lexo ICC SMS-të</item>
+        <item>shkruaj ICC SMS</item>
+        <item>modifiko cilësimet</item>
+        <item>vizato sipër</item>
+        <item>qasju njoftimeve</item>
+        <item>kamera</item>
+        <item>regjistro audio</item>
+        <item>luaj audio</item>
+        <item>lexo memorien e fragmenteve</item>
+        <item>modifiko memorien e fragmenteve</item>
+        <item>butonat e medias</item>
+        <item>përqendrimi i audios</item>
+        <item>kontrollo volumin</item>
+        <item>volumi i zërit</item>
+        <item>volumi i ziles</item>
+        <item>volumi i klipit \"media\"</item>
+        <item>volumi i alarmit</item>
+        <item>volumi i njoftimit</item>
+        <item>Volumi i \"Bluetooth-it\"</item>
+        <item>mbaje të zgjuar</item>
+        <item>monitoro vendndodhjen</item>
+        <item>monitoro vendndodhjen e energjisë së lartë</item>
+        <item>merr statistikat e përdorimit</item>
+        <item>çaktivizo/aktivizo mikrofonin</item>
+        <item>projekto media</item>
+        <item>aktivizo rrjetin VPN</item>
+        <item>shkruaj në imazhin e sfondit</item>
+        <item>ndihmo strukturën</item>
+        <item>ndihmo pamjen e ekranit</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices">
+        <item>Preferohet WLAN</item>
+        <item>Preferohen të dhënat celulare</item>
+    </string-array>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="powersaver_feature_gamma">夜间模式开启</string>
+    <string name="powersaver_feature_bravia">Mobile BRAVIA Engine关闭</string>
+    <string name="wifi_tether_settings_text">便携式WLAN热点设定</string>
+    <string name="usb_direct_settings_hi_res_audio_title_txt">通过USB播放高分辨率音频</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="powersaver_feature_haptic">టచ్ చేయడం ద్వారా వైబ్రేట్ అవడం ఆఫ్</string>
+    <string name="powersaver_feature_sync">స్వీయ సమకాలీకరణ ఆఫ్</string>
+    <string name="powersaver_feature_gamma">రాత్రి మోడ్ ఆన్</string>
+    <string name="powersaver_feature_bravia">Mobile BRAVIA Engine ఆఫ్</string>
+    <string name="stamina_xssm_add_applications_title">స్టాండ్‌బైలో సక్రియంలో ఉన్న అప్లికేషన్‌లు</string>
+    <string name="application_usage_title">అప్లికేషన్ విద్యుత్ వినియోగం</string>
+    <string name="auto_sync_text">స్వయంచాలక-సింక్</string>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="app_ops_summaries">
+        <item>karkea sijainti</item>
+        <item>tarkka sijainti</item>
+        <item>GPS</item>
+        <item>värinä</item>
+        <item>lue yhteystietoja</item>
+        <item>muokkaa yhteystietoja</item>
+        <item>lue puhelulokia</item>
+        <item>muokkaa puhelulokia</item>
+        <item>lue kalenteria</item>
+        <item>muokkaa kalenteria</item>
+        <item>WLAN-haku</item>
+        <item>ilmoitus</item>
+        <item>soluhaku</item>
+        <item>soita numeroon</item>
+        <item>lue tekstiviestejä</item>
+        <item>kirjoita tekstiviestejä</item>
+        <item>vastaanota tekstiviestejä</item>
+        <item>vastaanota hätätekstiviestejä</item>
+        <item>vastaanota multimediaviestejä</item>
+        <item>vastaanota WAP push -viestejä</item>
+        <item>lähetä tekstiviestejä</item>
+        <item>lue ICC-tekstiviestejä</item>
+        <item>kirjoita ICC-tekstiviestejä</item>
+        <item>muokkaa asetuksia</item>
+        <item>piirrä päälle</item>
+        <item>käytä ilmoituksia</item>
+        <item>kamera</item>
+        <item>tallenna ääntä</item>
+        <item>toista ääntä</item>
+        <item>lue leikepöytä</item>
+        <item>muokkaa leikepöytää</item>
+        <item>mediapainikkeet</item>
+        <item>äänen painopiste</item>
+        <item>pää-äänenvoimakkuus</item>
+        <item>puheäänen voimakkuus</item>
+        <item>soittoäänen voimakkuus</item>
+        <item>median äänenvoimakkuus</item>
+        <item>hälytyksen äänenvoimakkuus</item>
+        <item>ilmoituksen äänenvoimakkuus</item>
+        <item>bluetooth-äänenvoimakkuus</item>
+        <item>ei virransäästötilaa</item>
+        <item>sijainnin seuranta</item>
+        <item>seuraa suuritehoista sijaintia</item>
+        <item>hae käyttötilastot</item>
+        <item>mykistä mikrofoni / poista mykistys</item>
+        <item>lähetä media</item>
+        <item>aktivoi VPN</item>
+        <item>kirjoita taustakuva</item>
+        <item>apurakenne</item>
+        <item>apukuvakaappaus</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices">
+        <item>WLAN ensisijainen</item>
+        <item>Matkapuhelinverkko ensisijainen</item>
+    </string-array>
+    <string-array name="wapi_psk_type">
+        <item>WLAN ASCII</item>
+        <item>WLAN hexadecimal</item>
+    </string-array>
+</resources>

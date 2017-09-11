@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="app_ops_summaries">
+        <item>tinatayang lokasyon</item>
+        <item>eksaktong lokasyon</item>
+        <item>GPS</item>
+        <item>mag-vibrate</item>
+        <item>magbasa ng mga contact</item>
+        <item>baguhin ang mga contact</item>
+        <item>basahin ang log ng tawag</item>
+        <item>baguhin ang log ng tawag</item>
+        <item>magbasa ng kalendaryo</item>
+        <item>baguhin ang kalendaryo</item>
+        <item>pag-scan ng WLAN</item>
+        <item>notification</item>
+        <item>pag-scan ng cell</item>
+        <item>tumawag sa telepono</item>
+        <item>magbasa ng SMS</item>
+        <item>sumulat ng SMS</item>
+        <item>tumanggap ng SMS</item>
+        <item>tumanggap ng pang-emergency na SMS</item>
+        <item>tumanggap ng MMS</item>
+        <item>tumanggap ng WAP push</item>
+        <item>magpadala ng SMS</item>
+        <item>magbasa ng ICC SMS</item>
+        <item>sumulat ng ICC SMS</item>
+        <item>baguhin ang mga setting</item>
+        <item>gumuhit sa tuktok</item>
+        <item>i-access ang mga notification</item>
+        <item>camera</item>
+        <item>i-record ang audio</item>
+        <item>i-play ang audio</item>
+        <item>basahin ang clipboard</item>
+        <item>baguhin ang clipboard</item>
+        <item>mga button ng media</item>
+        <item>focus ng audio</item>
+        <item>master na volume</item>
+        <item>volume ng boses</item>
+        <item>volume ng ring</item>
+        <item>volume ng media</item>
+        <item>volume ng alarma</item>
+        <item>volume ng notification</item>
+        <item>volume ng bluetooth</item>
+        <item>panatilihing bukas</item>
+        <item>subaybayan ang lokasyon</item>
+        <item>subaybayan ang lokasyon na gumagamit ng maraming power</item>
+        <item>kumuha ng stats sa paggamit</item>
+        <item>i-mute/i-unmute ang mikropono</item>
+        <item>i-project ang media</item>
+        <item>i-activate ang VPN</item>
+        <item>magsulat ng wallpaper</item>
+        <item>structure ng tulong</item>
+        <item>screenshot ng tulong</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices">
+        <item>Mas gusto ang WLAN</item>
+        <item>Mas gusto ang cellular</item>
+    </string-array>
+    <string-array name="wapi_psk_type">
+        <item>WLAN ASCII</item>
+        <item>WLAN hexadecimal</item>
+    </string-array>
+</resources>

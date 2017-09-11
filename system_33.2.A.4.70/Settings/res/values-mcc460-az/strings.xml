@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_security_wapi_psk">WLAN PSK</string>
+    <string name="wifi_disabled_wifi_failure">WLAN Bağlantı Uğursuzluğu</string>
+    <string name="connected_via_wfa">WLAN köməkçisi vasitəsilə qoşulub</string>
+    <string name="accessibility_wifi_off">WLAN sönüb.</string>
+    <string name="accessibility_no_wifi">WLAN bağlantısı kəsilib.</string>
+    <string name="accessibility_wifi_one_bar">WLAN siqnalı bir zolaqdır.</string>
+    <string name="accessibility_wifi_two_bars">WLAN siqnalı iki zolaqdır.</string>
+    <string name="accessibility_wifi_three_bars">WLAN siqnalı üç zolaqdır.</string>
+    <string name="accessibility_wifi_signal_full">WLAN siqnalı tamdır.</string>
+    <string name="radio_controls_summary">WLAN, Bluetooth, Uçuş rejimi, mobil şəbəkələr və VPN-ləri idarə edin</string>
+    <string name="wifi_assistant_title">WLAN Köməkçisi</string>
+    <string name="wifi_alert_lockdown_by_device_owner">%1$s cihazınızı idarə edir və bu WLAN şəbəkəsini dəyişdirmək və silməyə icazə vermir. Ətraflı məlumat üçün admisitratorunuz ilə əlaqə saxlayın.</string>
+    <string name="wifi_quick_toggle_title">WLAN</string>
+    <string name="wifi_quick_toggle_summary">WLAN-ı işə sal</string>
+    <string name="wifi_settings">WLAN</string>
+    <string name="wifi_settings_category">WLAN Parametrləri</string>
+    <string name="wifi_settings_title">WLAN</string>
+    <string name="wifi_setup_wizard_title">WLAN seç</string>
+    <string name="wifi_select_network">WLAN seç</string>
+    <string name="wifi_poor_network_detection_summary">Yaxşı internet bağlantısı olanadək WLAN şəbəkəsindən istifadə etməyin</string>
+    <string name="wifi_automatically_connect_title">Avtomatik açıq WLAN istifadə edin</string>
+    <string name="wifi_automatically_connect_summary">WLAN köməkçisinin yüksək keyfiyyətli kimi təyin edilən açıq şəbəkələrə avtomatik qoşulmasına icazə ver</string>
+    <string name="wifi_scan_notify_text">Yerləşmə dəqiqliyini təkmilləşdirmək üçün sistem tətbiq və xidmətləri hələ də WLAN şəbəkələrini skan edə bilər. Bu funksiyanı LINK_BEGINskan ayarlarındanLINK_END dəyişə bilərsiniz.</string>
+    <string name="wifi_setting_sleep_policy_title">Yuxu zamanı WLAN-ı açıq saxlayın</string>
+    <string name="wifi_setting_on_during_sleep_title">Yuxu zamanı WLAN yanılı</string>
+    <string name="wifi_suspend_optimizations">WLAN optimallaşdırılması</string>
+    <string name="wifi_suspend_optimizations_summary">WLAN aktiv olan zaman batareya istifadəsini minimuma endir</string>
+    <string name="wifi_limit_optimizations_summary">WLAN ilə istifadə edilən batareyanı məhdudlaşdır</string>
+    <string name="wifi_switch_away_when_unvalidated">WLAN İnternet bağlantısını itirsə, mobil dataya keçin.</string>
+    <string name="wifi_access_points">WLAN şəbəkələri</string>
+    <string name="wifi_menu_p2p">WLAN Direct</string>
+    <string name="wifi_empty_list_wifi_off">Mövcud şəbəkələri görmək üçün WLAN aç.</string>
+    <string name="wifi_empty_list_wifi_on">WLAN şəbəkə axtarılır…</string>
+    <string name="wifi_empty_list_user_restricted">Sizin WLAN şəbəkəsini dəyişməyə icazəniz yoxdur</string>
+    <string name="wifi_wps_setup_title">WLAN Qorunan Quraşdırma</string>
+    <string name="wifi_wps_onstart_pbc">Ruterinizdə WLAN Qorunan Quraşdırma düyməsini basın. Onun adı \"WPS\" ola bilər və ya bu simvol ilə işarələnə bilər:</string>
+    <string name="wifi_wps_onstart_pin">WLAN marşrutunuza %1$s PIN daxil edin. Quraşdırmanı tamamlanmaq üçün iki dəqiqə vaxt ala bilər.</string>
+    <string name="wifi_wps_connected">%s WLAN şəbəkəsinə qoşulub</string>
+    <string name="wifi_scan_always_turnon_message">"Yerləşmə dəqiqliyini təkmilləşdirmək və digər məqsədlər üçün WLAN qapalı olsa da belə %1$s proqram şəbəkə skanını yandırmaq istəyir.
+
+Skan etmək istəyən bütün proqramlara icazə verilsin?"</string>
+    <string name="wifi_skipped_message">"XƏBƏRDARLIQ: Sizdən xidmət təminatçısının məlumat rüsumları tutula bilər.
+
+Telefon quraşdırması zəruri şəbəkə aktivliyi tələb edə bilər."</string>
+    <string name="wifi_and_mobile_skipped_message">"WLAN şəbəkəsini ötürsəniz:
+
+"<li>Telefonunuzda internet bağlantısı olmayacaq.</li>"
+
+"<li>İnternetə qoşulana kimi, proqram təminatı güncəlləşmələri almayacaqsınız.</li>"
+
+"<li>Bu zaman cihaz qoruması funksiyalarını aktiv edə bilməzsiniz.</li></string>
+    <string name="wifi_connect_failed_message">Telefon bu WLAN şəbəkəsinə qoşula bilmirdi.</string>
+    <string name="wifi_advanced_titlebar">WLAN parametrləri</string>
+    <string name="wifi_setting_frequency_band_title">WLAN tezlik diapazonu</string>
+    <string name="wifi_advanced_settings_label">WLAN parametrləri</string>
+    <string name="wifi_p2p_settings_title">WLAN Direct</string>
+    <string name="wifi_tether_checkbox_text">Portativ WLAN qaynar nöqtəsi</string>
+    <string name="wifi_hotspot_checkbox_text">WLAN qaynar nöqtəsi</string>
+    <string name="wifi_hotspot_checkbox_text_summary">WLAN şəbəkəsini təmin etmək üçün şəbəkə bağlantısından istifadə et</string>
+    <string name="wifi_tether_failed_subtext">Daşınan WLAN qaynar nöqtə xətası</string>
+    <string name="wifi_tether_configure_ap_text">WLAN qynr nqtsn knfqrsy et</string>
+    <string name="wifi_hotspot_configure_ap_text">WLAN qaynar nöqtəsinin qurulması</string>
+    <string name="wifi_hotspot_configure_ap_text_summary">AndroidAP WPA2 PSK daşınan WLAN qaynar nöqtəsi</string>
+    <string name="wifi_tether_configure_subtext">"%1$s daşınan WLAN qaynar nöqtəsi.
+Təhlükəsizlik: %2$s"</string>
+    <string name="wifi_calling_settings_title">WLAN zəngi</string>
+    <string name="wifi_calling_mode_dialog_title">WLAN çağrı rejimi</string>
+    <string name="wifi_calling_off_explanation">"Mobil şəbəkənin əhatə dairəsinin zəif olduğu yerlərdə zəngin keyfiyyətini artırmaq üçün WLAN zəngindən istifadə edin.
+ 
+Qiymət
+WLAN zənginin tarifləri haqqında məlumat üçün zəhmət olmasa, xidmət provayderiniz ilə əlaqə saxlayın.
+ 
+WLAN zəngi ilə bağlı qeydlər
+WLAN zənginin davam etməsi üçün WLAN əhatə dairəsində qaldığınıza əmin olun."</string>
+    <string name="status_wifi_mac_address">WLAN MAC ünvanı</string>
+    <string name="reset_network_desc">"
+
+"<li>WLAN</li>"
+"<li>Cellular data</li>"
+"<li>Bluetooth</li> daxil olmaqla bütün şəbəkə ayarlarınızı siləcək</string>
+    <string name="network_scorer_change_active_dialog_title">WLAN köməkçisi dəyişdirilsin?</string>
+    <string name="location_mode_high_accuracy_description">Məkanı aşkarlamaq üçün GPS, WLAN, Bluetooth və ya mobil şəbəkədən istifadə edin</string>
+    <string name="location_mode_battery_saving_description">Məkanı aşkarlamaq üçün WLAN, Bluetooth və ya mobil şəbəkədən istifadə edin</string>
+    <string name="location_scanning_wifi_always_scanning_title">WLAN skan edilir</string>
+    <string name="location_scanning_wifi_always_scanning_description">Sistem tətbiq və xidmətlərinə WLAN şəbəkələrini hər zaman aşkar etməyə icazə verməklə məkanı təkmilləşdirin.</string>
+    <string name="location_neighborhood_level_wifi">WLAN ilə müəyyən olunmuş yer</string>
+    <string name="wifi_verbose_logging">WLAN Verbose Girişini aktivləşdir</string>
+    <string name="wifi_aggressive_handover">Aqressiv WLAN - Mobil tarif keçiricisi</string>
+    <string name="wifi_allow_scan_with_traffic">Həmişə WLAN Roaming Axtarışına icazə ver</string>
+    <string name="wifi_verbose_logging_summary">WLAN daxilolma səviyyəsini artır, hər SSID RSSI üçün WLAN Seçicidə göstər</string>
+    <string name="wifi_aggressive_handover_summary">Aktiv edildikdə Şəbəkəyə qoşulma zamanı WLAN daha aqressiv olacaq (WLAN siqnalı zəif olduqda)</string>
+    <string name="wifi_allow_scan_with_traffic_summary">İnterfeysdə olan tarif trafikindən asılı olaraq WLAN Roaminq Axtarışına icazə ver/vermə</string>
+    <string name="mobile_data_always_on_summary">Hətta WLAN aktiv olanda da mobil datanı həmişə aktiv saxlayın (sürətli şəbəkək keçidi üçün).</string>
+    <string name="battery_stats_wifi_running_label">WLAN</string>
+    <string name="wifi_on_time">WLAN vaxtında</string>
+    <string name="bluetooth_on_time">WLAN vaxtında</string>
+    <string name="power_wifi">WLAN</string>
+    <string name="usage_type_wifi_running">WLAN işlənir</string>
+    <string name="usage_type_data_wifi_send">WLAN paketlər göndərildi</string>
+    <string name="usage_type_data_wifi_recv">WLAN paketlər qəbul edildi</string>
+    <string name="battery_action_wifi">WLAN Parametrləri</string>
+    <string name="battery_desc_wifi">WLAN tərəfindən işlənən enerji</string>
+    <string name="battery_sugg_wifi">İstifadə edilməyən zaman və ya əhatədən xaricdə olan zaman WLAN söndürün</string>
+    <string name="gadget_toggle_wifi">WLAN parametri yenilənir</string>
+    <string name="gadget_wifi">WLAN</string>
+    <string name="backup_data_summary">Proqram məlumatı, WLAN parolları və digər Parametrləri Google™ serverlərinə rezerv kopyalayın</string>
+    <string name="backup_erase_dialog_message">WLAN parollarının, əlfəcinlərin, proqram məlumatsının və digər Parametrlərin rezerv olunması dayandırılsın və bütün kopyalar Google™ serverlərində silinsinmi?</string>
+    <string name="fullbackup_erase_dialog_message">Cihaz datası (WLAN parolları və zəng tarixçəsi) və tətbiq datasının (tətbiqlər tərəfindən saxlanılan ayar və fayllar) yedəklənməsi və Google Diskdə bütün nüsxələr silinsin?</string>
+    <string name="fullbackup_data_summary">"Cihaz datası (WLAN parolları və zəng tarixçəsi) və tətbiq datasını (tətbiqlər tərəfindən saxlanılan ayar və fayllar) uzaqdan avtomatik yedəkləyin.
+
+Avtomatik yedəkləməni aktiv etdikdə, cihaz və tətbiq datası dövri olaraq uzaqdan saxlanılacaq. Tətbiq datası tətbiqin yadda saxladığı (developer ayarlarından asılı olaraq) istənilən data ola bilər, buta kontant, mesaj və fotolar kimi həssas data da daxildir."</string>
+    <string name="wifi_setup_title">WLAN quraşdırma</string>
+    <string name="wifi_setup_title_editing_network">%s WLAN şəbəkəsinə qoşulun</string>
+    <string name="wifi_setup_title_connecting_network">%s WLAN şəbəkəsinə qoşulur…</string>
+    <string name="wifi_setup_title_connected_network">%s WLAN şəbəkəsinə qoşulub</string>
+    <string name="wifi_setup_eap_not_supported">Ayarlama zamanı EAP WLAN bağlantı konfiqurasiya edə bilməzsiniz. Ayarlamadan sonra Siz Parametrlər > Simsiz və şəbəkələrdə bunu edə bilərsiniz.</string>
+    <string name="wifi_setup_description_connected">Quraşdrımanı davam etdirmək üçün <b>Sonrakı</b>" düyməsinə toxunun.
+
+Digər WLAN şəbəkəsinə qoşulmaq üçün "<b>Geri</b> düyməsinə toxunun.</string>
+    <string name="data_usage_menu_show_wifi">WLAN-ı göstər</string>
+    <string name="data_usage_menu_hide_wifi">WLAN-ı gizlət</string>
+    <string name="data_usage_disable_wifi_limit">WLAN məlumat limiti qurun</string>
+    <string name="data_usage_tab_wifi">WLAN</string>
+    <string name="data_usage_restrict_background">Fon mobil məlumatnı məhdudlaşdırsanız, bəzi proqramlar və xidmətlər WLAN şəbəkəsinə qoşulmayana kimi işləməyəcəklər.</string>
+    <string name="data_usage_restrict_background_multiuser">"Arxa fon mobil datanı məhdudlaşdırdığınız təqdirdə, bəzi tətbiqlər və xidmətlər WLAN'ya qoşulana qədər işləməyəcək.
+
+Bu ayar bu telefondakı bütün istifadəçilərə təsir edir."</string>
+    <string name="data_usage_metered_body">Mobil qaynar nöqtələr olan WLAN şəbəkələri seçin. proqramlar fon rejimində olduqda bu şəbəkələrdən istifadə məhdudlaşdırıla bilər. Həmçinin, böyükhəcmli yükləmələr üçün bu şəbəkələr istifadə edilməmişdən əvvəl proqramlar tərəfindən xəbərdarlıq oluna bilər.</string>
+    <string name="data_usage_metered_wifi">Ölçülmüş WLAN şəbəkələri</string>
+    <string name="data_usage_metered_wifi_disabled">Ölçülmüş şəbəkələri seçmək üçün WLAN-ı yandırın.</string>
+    <string name="user_add_user_message_long">"Siz əlavə istifadəçilər yaratmaqla bu cihazı digər istifadəçilərlə paylaşa bilərsiniz. Hər istifadəçinin öz yaddaş yeri var, buranı onlar tətbiqlər, divar kağızları və s. ilə fərdiləşdirə bilər. İstifadəçilər, həmçinin, hər kəsə təsir edən WLAN kimi cihaz ayarlarını nizamlaya bilər.
+
+Yeni istifadəçi əlavə etdikdə, həmin istifadəçi öz yaddaşını ayarlamalıdı.
+
+İstənilən istifadəçi bütün digər istifadəçilər üçün tətbiqləri güncəlləşdirə bilər."</string>
+    <string name="restriction_wifi_config_title">WLAN və Mobil</string>
+    <string name="restriction_wifi_config_summary">WLAN modifikasiyasına və Mobil Parametrləra icazə verin</string>
+    <string name="setup_wifi_nfc_tag">WLAN NFC Teqi qur</string>
+    <string name="l_dialog_message_hint">"STAMINA rejiminə daxildir:
+
+• Uzun müddət gözləmə
+Ekran sönülü olduqda WLAN şəbəkəsini müvəqqəti söndürərək enerjiyə qənaət edir. Əksər proqramlar qeyri-aktiv olacaq.
+Ekran yandıqda cihazınız normal işləyəcək.
+Uzun müddət gözləmə aktiv olduqda bəzi proqramları aktiv saxlamaq istəyirsinizsə, proqramları Gözləmə rejimində aktiv proqramlar siyahısına əlavə edin.
+
+• Uzun müddət istifadə
+Cihaz istifadə olunarkən avadanlıq fəaliyyətini məhdudlaşdıraraq enerjiyə qənaət edir."</string>
+    <string name="powersaver_feature_wifi">WLAN qeyri-aktivdir</string>
+    <string name="stamina_xssm_summary">Ekran söndürülmüş olanda mobil tarifi və WLAN söndürür</string>
+    <string name="usm_descr">"Ultra STAMINA rejimi batareyanın işləmə dövrünü mühüm şəkildə artıracaq. O, cihazınızı uzun müddət yükləyə bilmədiyinizdə istifadə edilə bilər.
+
+Yalnız Telefon və Mesajlaşma kimi bir neçə sadə funksiya mövcud olacaq. Daha ətraflı məlumat almaq üçün \"Daha çox məlumat\" vurun.
+
+Nəzərə alın ki, WLAN və Mobil tarif vasitəsilə internet bağlantısı qeyri-aktiv ediləcəkdir."</string>
+    <string name="battery_usm_desc">"Ultra STAMINA rejimi batareya ömrünü xeyli uzadır. Nəzərə alın ki, WLAN və Mobil tarif vasitəsilə olan internet bağlantısı qeyri-aktiv ediləcək. Əsas ekranınız Ultra STAMINA rejimi Əsas ekranı ilə əvəzlənəcək.
+
+Ultra STAMINA rejimində mövcud olan proqramlar"</string>
+    <string name="somc_wifi_turned_on_info">WLAN yandırılıb. Siyahıda şəbəkənizi seçin.</string>
+    <string name="wifi_tethering_warning_txt">Media ötürməsi, telefon proqramı yeniləməsi, ehtiyat nüsxə çıxarma və bərpa etmə kimi davam edən WLAN əməliyyatları dayandırılacaq.</string>
+    <string name="somc_backup_failed_no_wifi_summary">WLAN bağlantısını gözləyir</string>
+    <string name="wifi_hs2_strings_hotspot2_summary_txt">WLAN yanılı olduqda mövcud Passpoint şəbəkələrinə avtomatik qoşulun</string>
+    <string name="wifi_tether_settings_subtext">Portativ WLAN qaynar nöqtəsini qur və idarə et</string>
+    <string name="wifi_tether_settings_text">Portativ WLAN qaynar nöqtəsi param</string>
+    <string name="wifi_security_wapi_cert">WLAN CERT</string>
+    <string name="ct_wifi_connected_text">China Telecom WLAN qoşulub</string>
+    <string name="cw_network_priority">China Telecom WLAN-ı prior</string>
+    <string name="cw_network_priority_summary">China Telecom WLAN şəbəkələri bağlantıda digər WLAN şəbəkələri ilə prioritetləşdiriləcəkdir</string>
+    <string name="install_wapi_certs">WLAN sertifikatlarını quraşdır</string>
+    <string name="location_based_wifi">Yer əsaslı WLAN</string>
+    <string name="operator_auto_connect_hotspot_description_txt">AT&amp;T WLAN qaynar nöqtəsinə avtomatik qoşul</string>
+    <string name="operator_auto_connect_hotspot_txt">AT&amp;T WLAN avto qoş</string>
+    <string name="wifi_context_menu_change_wapi_certificate">WLAN Sertifikatını dəyişdir</string>
+    <string name="wifi_p2p_settings">WLAN Direct™ parametrləri</string>
+    <string name="wifi_security_verbose_wapi_cert">WLAN CERT ilə qorunur</string>
+    <string name="wifi_security_verbose_wapi_psk">WLAN PSK ilə qorunur</string>
+    <string name="wifi_tether_explanation_dialog_text">"Siz cihazdan Mobil Qaynar Nöqtə kimi istifadə edə bilərsiniz. Bu digər cihazlara (maksimum 10) WLAN şəbəkəsi ilə ona qoşulmaq imkanı verir. Qoşulan cihazlar sizin cihaz mobil şəbəkə bağlantıları ilə internetə çıxacaq. Mobil Qaynar Nöqtə mobil məlumatdan istifadə edəcək və əlavə xərclərlə nəticələnə bilər.
+
+Mobil Qaynar Nöqtə daha çox batareya sərf edir. Batareyanın ömrünü çoxaltmaq üçün cihazı çıxışa qoşun."</string>
+    <string name="wifi_wps_category_title">WLAN şəbəkəsini qur</string>
+    <string name="xssm_guidecontent_what_stamina40jp_txt">"STAMINA rejimi cihaz parametrlərini tənzimləməklə batareya enerjisinə qənaət edir. Siz yuxu rejimində az funksionallıqla işləyən proqramlar seçə bilərsiniz. (Bir çox proqramların yuxu rejimində də batareyanı boşaltmağa davam etməsi səbəbindən bu, batareya enerjisinə qənaət etməyə kömək edir.)
+
+Seçilən proqramlar üçün söndürülmüş funksiyalar:
+- WLAN
+- Mobil tarif
+- Taymer
+
+Yuxu rejimində bütün proqramlar üçün bildiriş işığı eyni tezliklə və eyni rəngdə yanıb-sönür.
+
+STAMINA rejimi cihazınızı yoxladığınız zaman qeyri-aktiv edilir."</string>
+    <string name="wifi_security_short_wapi_cert">WLAN CERT</string>
+    <string name="wifi_security_short_wapi_psk">WLAN PSK</string>
+    <string name="vzw_avoid_bad_connections_text">"Qoşulduğunuz WLAN şəbəkəsi İnternetə qoşulmayıb.
+
+Belə halda avtomatik mobil şəbəkəyə keçmək üçün Təkmil WLAN Parametrlərində Qeyri-aktiv WLAN qoşulmalarını ləğv et funksiyasını işə salın."</string>
+    <string name="vzw_avoid_bad_connections_title">WLAN İnternet qoşulması yoxdur</string>
+    <string name="vzw_wifi_avoid_bad_connections">Qeyri-aktiv WLAN qoşulmalarını ləğv et</string>
+    <string name="vzw_wifi_avoid_bad_connections_summary">Qoşulduğunuz WLAN şəbəkəsi İnternetə qoşulmadıqda mobil şəbəkə istifadə edin. (Məlumat istifadə xərci tətbiq edilə bilər.)</string>
+    <string name="vzw_wifi_password_error_dialog_txt">WLAN parolu qəbul edilmədi. Parolu yoxlayın və yenidən cəhd edin.</string>
+    <string name="vzw_wifi_setup_wizard_desc">İndi WLAN-a qoşulmaq istəyirsinizsə, şəbəkə seçin.</string>
+    <string name="vzw_wifi_setup_wizard_title">WLAN-ı Qurun</string>
+</resources>

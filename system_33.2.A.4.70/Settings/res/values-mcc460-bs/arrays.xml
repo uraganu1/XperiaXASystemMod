@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="app_ops_summaries">
+        <item>gruba lokacija</item>
+        <item>precizna lokacija</item>
+        <item>GPS</item>
+        <item>vibracija</item>
+        <item>čitaj kontakte</item>
+        <item>modificiraj kontakte</item>
+        <item>pročitaj registar poziva</item>
+        <item>modificiraj registar poziva</item>
+        <item>pročitaj kalendar</item>
+        <item>modificiraj kalendar</item>
+        <item>traženje WLAN mreže</item>
+        <item>obavještenje</item>
+        <item>skeniranje ćelije</item>
+        <item>pozovi telefon</item>
+        <item>pročitaj SMS</item>
+        <item>piši SMS</item>
+        <item>primanje SMS poruka</item>
+        <item>primanje hitnih SMS poruka</item>
+        <item>primanje MMS poruka</item>
+        <item>primanje WAP push poruka</item>
+        <item>pošalji SMS</item>
+        <item>pročitaj ICC SMS</item>
+        <item>piši ICC SMS</item>
+        <item>modificiraj postavke</item>
+        <item>crtaj preko</item>
+        <item>pristupi obavještenjima</item>
+        <item>kamera</item>
+        <item>snimanje zvuka</item>
+        <item>reproduciraj audio</item>
+        <item>pročitaj međuspremnik</item>
+        <item>modificiraj međuspremnik</item>
+        <item>dugmad za medije</item>
+        <item>audio fokus</item>
+        <item>opća jačina zvuka</item>
+        <item>jačina zvuka glasa</item>
+        <item>jačina zvuka zvonjave</item>
+        <item>jačina zvuka medija</item>
+        <item>jačina zvuka alarma</item>
+        <item>jačina zvuka obavještenja</item>
+        <item>jačina zvuka za bluetooth</item>
+        <item>drži aktivnim</item>
+        <item>prati lokaciju</item>
+        <item>prati lokaciju visokog napona</item>
+        <item>preuzmi statističke podatke</item>
+        <item>uklj./isklj. ton mikrofona</item>
+        <item>projiciraj medije</item>
+        <item>aktiviraj VPN</item>
+        <item>zapiši pozadinu</item>
+        <item>pomoćna struktura</item>
+        <item>pomoćni snimak ekrana</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices">
+        <item>WLAN preferiran</item>
+        <item>Mobitel preferiran</item>
+    </string-array>
+    <string-array name="wapi_psk_type">
+        <item>WLAN ASCII</item>
+        <item>WLAN hexadecimal</item>
+    </string-array>
+</resources>

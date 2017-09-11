@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="powersaver_feature_sync">स्वयं-समक्रमण बंद</string>
+    <string name="powersaver_feature_data">मोबाईल डेटा बंद</string>
+    <string name="powersaver_feature_gamma">रात्र मोड सुरु</string>
+    <string name="powersaver_feature_bravia">Mobile BRAVIA Engine बंद</string>
+    <string name="stamina_queue_background_data_title">पार्श्वभूमी डेटा रांग</string>
+    <string name="stamina_xssm_add_applications_title">राखीवमध्ये सक्रिय असणारे अनुप्रयोग</string>
+    <string name="wifi_tether_settings_text">पोर्टेबल Wi-Fi सोय-स्थळ सेटिंग्ज</string>
+</resources>

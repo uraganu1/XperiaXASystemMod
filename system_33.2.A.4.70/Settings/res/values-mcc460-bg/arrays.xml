@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="app_ops_summaries">
+        <item>местоположение с ниска точност</item>
+        <item>местоположение с висока точност</item>
+        <item>GPS</item>
+        <item>вибриране</item>
+        <item>четене на контактите</item>
+        <item>промяна на контактите</item>
+        <item>четене на списъка с обажданията</item>
+        <item>промяна на регистъра на обажданията</item>
+        <item>четене на календара</item>
+        <item>промяна на календара</item>
+        <item>сканиране за WLAN</item>
+        <item>известие</item>
+        <item>сканиране за сигнал</item>
+        <item>обаждане по телефона</item>
+        <item>четене на SMS</item>
+        <item>запис на SMS</item>
+        <item>получаване на SMS</item>
+        <item>получаване на спешен SMS</item>
+        <item>получаване на MMS</item>
+        <item>получаване на насочено WAP съобщение</item>
+        <item>изпращане на SMS</item>
+        <item>четене на ICC SMS</item>
+        <item>запис на ICC SMS</item>
+        <item>промяна на настройките</item>
+        <item>рисуване върху елемент</item>
+        <item>достъп до известията</item>
+        <item>камера</item>
+        <item>запис на звук</item>
+        <item>възпроизвеждане на звук</item>
+        <item>четене на буферната памет</item>
+        <item>промяна на буферната памет</item>
+        <item>бутони за мултимедия</item>
+        <item>фокусиране на звука</item>
+        <item>основна сила на звука</item>
+        <item>сила на звука за глас</item>
+        <item>сила на звука при звънене</item>
+        <item>сила на звука за мултимедия</item>
+        <item>сила на звука на будилника</item>
+        <item>сила на звука за известия</item>
+        <item>сила на звука за Bluetooth</item>
+        <item>оставяне в будно състояние</item>
+        <item>наблюдение на местоположението</item>
+        <item>наблюдение на заявките за местоположение, изразходващи много енергия</item>
+        <item>получаване на статистически данни за употребата</item>
+        <item>заглушаване/включване на микрофона</item>
+        <item>прожектиране на мултимедийно съдържание</item>
+        <item>активиране на VPN</item>
+        <item>запис на тапет</item>
+        <item>структура за помощ</item>
+        <item>екранна снимка за помощ</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices">
+        <item>Предпочита се WLAN</item>
+        <item>Предпочита се клетъчна мрежа</item>
+    </string-array>
+    <string-array name="wapi_psk_type">
+        <item>WLAN ASCII</item>
+        <item>WLAN hexadecimal</item>
+    </string-array>
+</resources>

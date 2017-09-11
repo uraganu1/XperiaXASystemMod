@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="app_ops_summaries">
+        <item>ਕੋਰਸ ਨਿਰਧਾਰਿਤ ਸਥਾਨ</item>
+        <item>ਸਹੀ ਨਿਰਧਾਰਿਤ ਸਥਾਨ</item>
+        <item>GPS</item>
+        <item>ਵਾਈਬ੍ਰੇਟ</item>
+        <item>ਸੰਪਰਕ ਪੜ੍ਹੋ</item>
+        <item>ਸੰਪਰਕ ਸੰਸ਼ੋਧਿਤ ਕਰੋ</item>
+        <item>ਕਾਲ ਲੌਗ ਪੜ੍ਹੋ</item>
+        <item>ਕਾਲ ਲੌਗ ਸੰਸ਼ੋਧਿਤ ਕਰੋ</item>
+        <item>ਕੈਲੰਡਰ ਪੜ੍ਹੋ</item>
+        <item>ਕੈਲੰਡਰ ਸੰਸ਼ੋਧਿਤ ਕਰੋੇ</item>
+        <item>wi-fi ਸਕੈਨ</item>
+        <item>ਸੂਚਨਾ</item>
+        <item>ਸੈਲ ਸਕੈਨ</item>
+        <item>ਫੋਨ ਤੇ ਕਾਲ ਕਰੋ</item>
+        <item>SMS ਪੜ੍ਹੋ</item>
+        <item>SMS ਲਿਖੋ</item>
+        <item>SMS ਪ੍ਰਾਪਤ ਕਰੋ</item>
+        <item>ਐਮਰਜੈਂਸੀ SMS ਪ੍ਰਾਪਤ ਕਰੋ</item>
+        <item>MMS ਪ੍ਰਾਪਤ ਕਰੋ</item>
+        <item>WAP ਪੁਸ਼ ਪ੍ਰਾਪਤ ਕਰੋ</item>
+        <item>SMS ਭੇਜੋ</item>
+        <item>ICC SMS ਪੜ੍ਹੋ</item>
+        <item>ICC SMS ਲਿਖੋ</item>
+        <item>ਸੈਟਿੰਗਾਂ ਬਦਲੋ</item>
+        <item>ਟੌਪ ਤੇ ਡ੍ਰਾ ਕਰੋ</item>
+        <item>ਪਹੁੰਚ ਸੂਚਨਾਵਾਂ</item>
+        <item>ਕੈਮਰਾ</item>
+        <item>ਔਡੀਓ ਰਿਕਾਰਡ ਕਰੋ</item>
+        <item>ਔਡੀਓ ਪਲੇ ਕਰੋ</item>
+        <item>ਕਲਿਪਬੋਰਡ ਪੜ੍ਹੋ</item>
+        <item>ਕਲਿਪਬੋਰਡ ਬਦਲੋ</item>
+        <item>ਮੀਡੀਆ ਬਟਨ</item>
+        <item>ਔਡੀਓ ਫੋਕਸ</item>
+        <item>ਮਾਸਟਰ ਵੌਲਯੂਮ</item>
+        <item>ਅਵਾਜ਼ ਵੋਲਯੂਮ</item>
+        <item>ਰਿੰਗ ਵੌਲਯੂਮ</item>
+        <item>ਮੀਡੀਆ ਵੌਲਯੂਮ</item>
+        <item>ਅਲਾਰਮ ਵੌਲਯੂਮ</item>
+        <item>ਸੂਚਨਾ ਵੌਲਯੂਮ</item>
+        <item>bluetooth ਵੌਲਯੂਮ</item>
+        <item>ਸਕਿਰਿਆ ਰੱਖੋ</item>
+        <item>ਨਿਰਧਾਰਿਤ ਸਥਾਨ ਦਾ ਨਿਰੀਖਣ ਕਰੋ</item>
+        <item>ਉੱਚ ਪਾਵਰ ਨਿਰਧਾਰਿਤ ਸਥਾਨ ਦਾ ਨਿਰੀਖਣ ਕਰੋ</item>
+        <item>ਵਰਤੋਂ ਸਟੈਟਸ ਪ੍ਰਾਪਤ ਕਰੋ</item>
+        <item>ਮਾਈਕ੍ਰੋਫੋਨ ਨੂੰ ਮਿਊਟ/ਅਨਮਿਊਟ ਕਰੋ</item>
+        <item>ਪ੍ਰੋਜੈਕਟ ਮੀਡੀਆ</item>
+        <item>VPN ਨੂੰ ਸਕਿਰਿਆ ਬਣਾਓ</item>
+        <item>ਵਾਲਪੇਪਰ ਲਿਖੋ</item>
+        <item>ਅਸਿਸਟ ਸਟ੍ਰਕਚਰ</item>
+        <item>ਅਸਿਸਟ ਸਕ੍ਰੀਨਸ਼ੌਟ</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices">
+        <item>ਤਰਜੀਹੀ WLAN</item>
+        <item>ਤਰਜੀਹੀ ਸੈਲਿਊਲਰ</item>
+    </string-array>
+</resources>

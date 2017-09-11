@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="app_ops_summaries">
+        <item>groba lokacija</item>
+        <item>natančna lokacija</item>
+        <item>GPS</item>
+        <item>vibriranje</item>
+        <item>branje stikov</item>
+        <item>spreminjanje stikov</item>
+        <item>branje dnevnika klicev</item>
+        <item>spreminjanje dnevnika klicev</item>
+        <item>branje koledarja</item>
+        <item>spreminjanje koledarja</item>
+        <item>iskanje omrežij WLAN</item>
+        <item>obvestilo</item>
+        <item>iskanje celic mobilnega omrežja</item>
+        <item>klicanje telefonske številke</item>
+        <item>branje sporočil SMS</item>
+        <item>pisanje sporočil SMS</item>
+        <item>prejemanje sporočil SMS</item>
+        <item>prejemanje sporočil SMS v sili</item>
+        <item>prejemanje sporočil MMS</item>
+        <item>prejemanje potisnih sporočil WAP</item>
+        <item>pošiljanje sporočil SMS</item>
+        <item>branje sporočil SMS na kartici SIM</item>
+        <item>pisanje sporočil SMS na kartici SIM</item>
+        <item>spreminjanje nastavitev</item>
+        <item>vlečenje na vrh</item>
+        <item>dostop do obvestil</item>
+        <item>fotoaparat</item>
+        <item>snemanje zvoka</item>
+        <item>predvajanje zvoka</item>
+        <item>preberi odložišče</item>
+        <item>spremeni odložišče</item>
+        <item>gumbi za predstavnosti</item>
+        <item>fokus zvoka</item>
+        <item>glavna glasnost</item>
+        <item>glasnost glasu</item>
+        <item>glasnost zvonjenja</item>
+        <item>glasnost predstavnosti</item>
+        <item>glasnost alarma</item>
+        <item>glasnost obvestila</item>
+        <item>glasnost za Bluetooth</item>
+        <item>ohrani odklenjen zaslon</item>
+        <item>spremljanje lokacije</item>
+        <item>nadzor natančno določene lokacije</item>
+        <item>pridobivanje statističnih podatkov o uporabi</item>
+        <item>izklop/vklop mikrofona</item>
+        <item>predstavnost projektov</item>
+        <item>aktiviranje omrežja VPN</item>
+        <item>ozadje pisanja</item>
+        <item>struktura pomoči</item>
+        <item>posnetek zaslona pomoči</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices">
+        <item>Prednostno – WLAN</item>
+        <item>Prednostno – mobilno omrežje</item>
+    </string-array>
+    <string-array name="wapi_psk_type">
+        <item>WLAN ASCII</item>
+        <item>WLAN hexadecimal</item>
+    </string-array>
+</resources>

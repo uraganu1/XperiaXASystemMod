@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    <com.sonymobile.settings.preference.PreferenceCategory android:title="@string/settings_header_sound_quality_txt" android:key="quality_category" settings:before="first" />
+    <com.sonymobile.settings.preference.IntentPreference android:key="audiosettings" settings:after="quality_category" settings:hasMetaData="true">
+        <intent android:targetPackage="com.sonyericsson.soundenhancement" android:action="android.intent.action.MAIN" android:targetClass="com.sonyericsson.soundenhancement.AudioEffectMenuForAudioActivity">
+            <extra android:name="android.media.extra.PACKAGE_NAME" android:value="com.android.settings" />
+            <extra android:name="com.sonyericsson.soundenhancement.EXTRA_START_TYPE" android:value="START_FOR_AUDIO" />
+        </intent>
+    </com.sonymobile.settings.preference.IntentPreference>
+    <com.sonymobile.settings.preference.IntentPreference android:key="accessorysettings" settings:after="quality_category" settings:hasMetaData="true">
+        <intent android:targetPackage="com.sonyericsson.soundenhancement" android:action="android.intent.action.MAIN" android:targetClass="com.sonyericsson.soundenhancement.AudioEffectMenuForAccessoryActivity">
+            <extra android:name="android.media.extra.PACKAGE_NAME" android:value="com.android.settings" />
+            <extra android:name="com.sonyericsson.soundenhancement.EXTRA_START_TYPE" android:value="START_FOR_ACCESSORY" />
+        </intent>
+    </com.sonymobile.settings.preference.IntentPreference>
+    <com.sonymobile.settings.preference.PreferenceCategory android:title="@string/settings_header_volume_txt" android:key="volume_category" settings:before="sound" />
+    <com.sonymobile.settings.preference.RemovePreference settings:targetParentKey="sound" settings:targetKey="media_volume" />
+    <com.sonymobile.settings.preference.VolumeSeekBarPreference android:icon="@android:drawable/ic_audio_media" android:title="@string/media_volume_option_title" android:key="media_volume" settings:before="sound" settings:muteIcon="@android:drawable/ic_audio_media_mute" settings:audiostream="music" />
+    <com.sonymobile.settings.preference.RemovePreference settings:targetParentKey="sound" settings:targetKey="alarm_volume" />
+    <com.sonymobile.settings.preference.VolumeSeekBarPreference android:icon="@android:drawable/ic_audio_alarm" android:title="@string/alarm_volume_option_title" android:key="alarm_volume" settings:before="sound" settings:muteIcon="@android:drawable/ic_audio_alarm_mute" settings:audiostream="alarm" />
+    <com.sonymobile.settings.preference.RemovePreference settings:targetParentKey="sound" settings:targetKey="ring_volume" />
+    <com.sonymobile.settings.preference.VolumeSeekBarPreference android:icon="@android:drawable/ic_audio_ring_notif" android:title="@string/ring_volume_option_title" android:key="ring_volume" settings:before="sound" settings:dependOnVoiceCapability="available" settings:muteIcon="@android:drawable/ic_audio_ring_notif_mute" settings:audiostream="ring" />
+    <com.sonymobile.settings.preference.RemovePreference settings:targetParentKey="sound" settings:targetKey="notification_volume" />
+    <com.sonymobile.settings.preference.VolumeSeekBarPreference android:icon="@android:drawable/ic_audio_ring_notif" android:title="@string/notification_volume_option_title" android:key="notification_volume" settings:before="sound" settings:dependOnVoiceCapability="unavailable" settings:muteIcon="@android:drawable/ic_audio_ring_notif_mute" settings:audiostream="notification" />
+    <com.sonymobile.settings.preference.RemovePreference settings:targetParentKey="sound" settings:targetKey="vibrate_when_ringing" />
+    <com.sonymobile.settings.preference.SwitchPreference android:title="@string/vibrate_when_ringing_title" android:key="vibrate_when_ringing" settings:before="sound" settings:dependOnVoiceCapability="available" settings:valueOfSettingsSystem="vibrate_when_ringing" />
+    <com.sonymobile.settings.preference.RemovePreference settings:targetParentKey="sound" settings:targetKey="increasing_ringtone" />
+    <com.sonymobile.settings.preference.SwitchPreference android:title="@string/increasing_ringtone_title" android:key="increasing_ringtone" settings:before="sound" settings:dependOnVoiceCapability="available" settings:valueOfSettingsSystem="increasing_ringtone" />
+    <com.sonymobile.settings.preference.RemovePreference settings:dependOnIsValidIntent="true" settings:targetParentKey="notification" settings:targetKey="app_notifications">
+        <intent android:targetPackage="com.sonyericsson.settings" android:targetClass="com.sonymobile.settings.notifications.NotificationSettings" />
+    </com.sonymobile.settings.preference.RemovePreference>
+    <com.sonymobile.settings.preference.RemovePreference settings:targetParentKey="sound" settings:targetKey="wifi_display" />
+    <com.sonymobile.settings.preference.IntentPreference android:key="somc_app_notifications" settings:dependOnIsValidIntent="true" settings:after="somc.lockscreen.keep_notifications" settings:hasMetaData="true">
+        <intent android:targetPackage="com.sonyericsson.settings" android:targetClass="com.sonymobile.settings.notifications.NotificationSettings" />
+    </com.sonymobile.settings.preference.IntentPreference>
+    <com.sonymobile.settings.preference.RemovePreference settings:targetParentKey="sound" settings:targetKey="zen_mode" />
+    <com.sonymobile.settings.preference.PreferenceScreen android:title="@string/zen_mode_settings_title" android:key="zen_mode" android:fragment="com.android.settings.notification.ZenModeSettings" settings:keywords="@string/keywords_sounds_and_notifications_interruptions" settings:after="app_notifications" />
+</PreferenceScreen>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_disabled_wifi_failure">Erro na conexión wifi</string>
+    <string name="radio_controls_summary">Xestiona a wifi, o Bluetooth, o modo avión, redes de telefonía móbil e VPN</string>
+    <string name="wifi_alert_lockdown_by_device_owner">%1$s xestiona o teu dispositivo e non permite a modificación ou eliminación desta rede wifi. Para obter máis información, ponte en contacto co teu administrador.</string>
+    <string name="wifi_quick_toggle_title">WLAN</string>
+    <string name="wifi_quick_toggle_summary">Activar a wifi</string>
+    <string name="wifi_settings">WLAN</string>
+    <string name="wifi_settings_category">Configuración da wifi</string>
+    <string name="wifi_settings_title">WLAN</string>
+    <string name="wifi_setup_wizard_title">Seleccionar rede wifi</string>
+    <string name="wifi_poor_network_detection_summary">Non utilizar unha rede wifi se non ten unha boa conexión a Internet</string>
+    <string name="wifi_setting_sleep_policy_title">Manter a wifi activada durante o modo de suspensión</string>
+    <string name="wifi_setting_on_during_sleep_title">WLAN activada na suspensión</string>
+    <string name="wifi_suspend_optimizations">Optimización da wifi</string>
+    <string name="wifi_suspend_optimizations_summary">Minimizar o uso da batería cando a wifi está activada</string>
+    <string name="wifi_access_points">Redes wifi</string>
+    <string name="wifi_menu_p2p">WLAN Direct</string>
+    <string name="wifi_empty_list_wifi_off">Para ver as redes dispoñibles, activa a wifi.</string>
+    <string name="wifi_empty_list_wifi_on">Buscando redes wifi...</string>
+    <string name="wifi_empty_list_user_restricted">Non tes permiso para cambiar a rede wifi.</string>
+    <string name="wifi_wps_setup_title">Configuración protexida de wifi</string>
+    <string name="wifi_wps_onstart_pin">Introduce o PIN %1$s no teu router wifi. A configuración pode tardar ata dous minutos en completarse.</string>
+    <string name="wifi_wps_connected">Conectado coa rede wifi %s</string>
+    <string name="wifi_scan_always_turnon_message">"Para mellorar a precisión da localización e para outros fins, %1$s quere activar a busca de redes, aínda que a wifi estea desactivada.
+
+Queres permitilo para todas as aplicacións que queren buscar redes?"</string>
+    <string name="wifi_skipped_message">ADVERTENCIA: Se omites a conexión wifi, o teléfono só utilizará datos móbiles para facer descargas e actualizacións iniciais. Para evitar posibles cargos de datos, conéctate a unha rede wifi.</string>
+    <string name="wifi_connect_failed_message">O teléfono non foi capaz de conectarse a esta rede wifi.</string>
+    <string name="wifi_advanced_titlebar">WLAN avanzada</string>
+    <string name="wifi_setting_frequency_band_title">Banda de frecuencia da wifi</string>
+    <string name="wifi_p2p_settings_title">WLAN Direct</string>
+    <string name="wifi_tether_checkbox_text">Zona interactiva wifi portátil</string>
+    <string name="wifi_tether_failed_subtext">Erro na zona interactiva wifi portátil</string>
+    <string name="wifi_tether_configure_ap_text">Configurar zona interactiva wifi</string>
+    <string name="wifi_tether_configure_subtext">Zona interactiva wifi portátil %2$s %1$s</string>
+    <string name="wifi_calling_settings_title">Chamadas por wifi</string>
+    <string name="wifi_calling_mode_dialog_title">Modo de chamadas wifi</string>
+    <string name="wifi_calling_off_explanation">Cando están activadas as chamadas wifi, o teu teléfono pode enviar as túas chamadas a través de redes wifi ou da rede do teu operador, dependendo das túas preferencias e de cal teña o sinal máis forte. Antes de activar esta función, consulta co teu operador as tarifas e outra información.</string>
+    <string name="status_wifi_mac_address">Enderezo MAC da wifi</string>
+    <string name="reset_network_desc">"Esta acción restablecerá toda a configuración da rede, incluído:
+
+"<li>WLAN</li>"
+"<li>Datos móbiles</li>"
+"<li>Bluetooth</li></string>
+    <string name="location_neighborhood_level_wifi">Localización determinada por wifi</string>
+    <string name="wifi_aggressive_handover">Entrega agresiva de wifi a móbil</string>
+    <string name="battery_stats_wifi_running_label">wifi</string>
+    <string name="wifi_on_time">Tempo de conexión wifi</string>
+    <string name="bluetooth_on_time">Tempo de conexión wifi</string>
+    <string name="power_wifi">WLAN</string>
+    <string name="usage_type_wifi_running">WLAN en funcionamento</string>
+    <string name="battery_action_wifi">Configuración da wifi</string>
+    <string name="battery_desc_wifi">Batería utilizada pola wifi</string>
+    <string name="battery_sugg_wifi">Desactiva a wifi cando non a utilices ou cando non estea dispoñible</string>
+    <string name="gadget_toggle_wifi">Actualizando configuración da wi</string>
+    <string name="gadget_wifi">WLAN</string>
+    <string name="backup_data_summary">Crea unha copia de seguranza dos datos da aplicación, dos contrasinais da wifi e doutras configuracións en servidores de Google</string>
+    <string name="backup_erase_dialog_message">Queres deixar de crear copias de seguranza dos contrasinais das túas wifi, dos favoritos, doutras configuracións e dos datos das aplicacións e borrar todas as copias presentes nos servidores de Google?</string>
+    <string name="fullbackup_erase_dialog_message">Queres deixar de crear copias de seguranza dos datos do dispositivo, como os contrasinais wifi e o historial de chamadas, e dos datos das aplicacións, como a configuración e os ficheiros almacenados polas aplicacións, e borrar todas as copias presentes en Google Drive?</string>
+    <string name="fullbackup_data_summary">"Crea automaticamente copias de seguranza dos datos do dispositivo de forma remota, como os contrasinais wifi e o historial de chamadas, e dos datos das aplicacións, como a configuración e os ficheiros almacenados polas aplicacións.
+
+Ao activar a copia de seguranza automática, os datos do dispositivo e das aplicacións gárdanse periodicamente de forma remota. Os datos das aplicacións poden ser os datos que gardou unha aplicación segundo a configuración do programador, incluídos os datos potencialmente sensibles, como os contactos, as mensaxes e as fotos."</string>
+    <string name="wifi_setup_title">Configuración da wifi</string>
+    <string name="wifi_setup_title_editing_network">Conectar á rede wifi %s</string>
+    <string name="wifi_setup_title_connecting_network">Conectando coa rede wifi %s…</string>
+    <string name="wifi_setup_title_connected_network">Conectado á rede wifi %s</string>
+    <string name="wifi_setup_eap_not_supported">Non se pode configurar unha conexión wifi EAP durante a configuración. Unha vez finalizada a configuración, podes facelo en Configuración > Sen fíos e redes.</string>
+    <string name="wifi_setup_description_connected">Toca <b>Seguinte</b>" para continuar coa configuración.
+
+Toca "<b>Atrás</b> para conectarte a unha rede wifi diferente.</string>
+    <string name="data_usage_disable_wifi_limit">Limitar datos wifi</string>
+    <string name="data_usage_tab_wifi">WLAN</string>
+    <string name="data_usage_restrict_background">Se restrinxes os datos móbiles en segundo plano, algunhas aplicacións e servizos non funcionarán, se non estás conectado a unha wifi.</string>
+    <string name="data_usage_metered_body">As redes de pago por consumo trátanse como redes móbiles cando os datos en segundo plano están restrinxidos. É posible que as aplicacións mostren unha advertencia antes de usar estas redes para realizar descargas grandes.</string>
+    <string name="restriction_wifi_config_title">WLAN e móbil</string>
+    <string name="setup_wifi_nfc_tag">Configurar etiqueta NFC wifi</string>
+</resources>

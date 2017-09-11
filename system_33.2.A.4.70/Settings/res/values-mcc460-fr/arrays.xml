@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="app_ops_summaries">
+        <item>position approximative</item>
+        <item>position précise</item>
+        <item>GPS</item>
+        <item>vibreur</item>
+        <item>accéder aux contacts</item>
+        <item>modifier les contacts</item>
+        <item>"lire le journal d'appels"</item>
+        <item>"modifier le journal d'appels"</item>
+        <item>"accéder à l'agenda"</item>
+        <item>"modifier l'agenda"</item>
+        <item>recherche du WLAN</item>
+        <item>notification</item>
+        <item>détection du réseau mobile</item>
+        <item>appeler</item>
+        <item>lire les SMS</item>
+        <item>écrire des SMS</item>
+        <item>recevoir des SMS</item>
+        <item>"recevoir des SMS d'urgence"</item>
+        <item>recevoir des MMS</item>
+        <item>recevoir des messages push WAP</item>
+        <item>envoyer des SMS</item>
+        <item>lire les SMS ICC</item>
+        <item>écrire des SMS ICC</item>
+        <item>modifier les paramètres</item>
+        <item>dessiner par dessus</item>
+        <item>accéder aux notifications</item>
+        <item>caméra</item>
+        <item>enregistrer fichier audio</item>
+        <item>lire le fichier audio</item>
+        <item>lire le Presse-papiers</item>
+        <item>modifier le Presse-papiers</item>
+        <item>boutons pour contenus multimédias</item>
+        <item>priorité audio</item>
+        <item>volume général</item>
+        <item>volume de la voix</item>
+        <item>volume des sonneries</item>
+        <item>volume des contenus multimédias</item>
+        <item>volume des alarmes</item>
+        <item>volume des notifications</item>
+        <item>volume Bluetooth</item>
+        <item>maintenir activé</item>
+        <item>suivre la position</item>
+        <item>"surveiller les requêtes de localisation qui nécessitent une quantité d'énergie importante"</item>
+        <item>"obtenir des statistiques d'utilisation"</item>
+        <item>activer/désactiver le micro</item>
+        <item>projeter des contenus multimédias</item>
+        <item>activer le VPN</item>
+        <item>"modifier le fond d'écran"</item>
+        <item>soutien structurel</item>
+        <item>"aide à la capture d'écran"</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices">
+        <item>WLAN préféré</item>
+        <item>Mobile préféré</item>
+    </string-array>
+    <string-array name="wapi_psk_type">
+        <item>WLAN ASCII</item>
+        <item>WLAN hexadecimal</item>
+    </string-array>
+</resources>

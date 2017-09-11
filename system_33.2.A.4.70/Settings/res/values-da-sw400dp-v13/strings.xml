@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="powersaver_feature_sync">Automatisk synkronisering fra</string>
+    <string name="powersaver_feature_bravia">Slå Mobile BRAVIA Engine fra</string>
+    <string name="wifi_tether_settings_text">Indstillinger for bærbart Wi-Fi-hotspot</string>
+</resources>

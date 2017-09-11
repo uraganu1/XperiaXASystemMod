@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="app_ops_summaries">
+        <item>localização aproximada</item>
+        <item>localização precisa</item>
+        <item>GPS</item>
+        <item>vibração</item>
+        <item>ler contatos</item>
+        <item>modificar contatos</item>
+        <item>ler registro de chamadas</item>
+        <item>modificar registro de chamadas</item>
+        <item>ler agenda</item>
+        <item>modificar agenda</item>
+        <item>verificação de WLAN</item>
+        <item>notificação</item>
+        <item>verificação de celular</item>
+        <item>chamar telefone</item>
+        <item>ler SMS</item>
+        <item>gravar SMS</item>
+        <item>receber SMS</item>
+        <item>receber SMS de emergência</item>
+        <item>receber MMS</item>
+        <item>receber WAP push</item>
+        <item>enviar SMS</item>
+        <item>ler SMS ICC</item>
+        <item>gravar SMS ICC</item>
+        <item>modificar configurações</item>
+        <item>sobrepor</item>
+        <item>acessar notificações</item>
+        <item>câmera</item>
+        <item>gravar áudio</item>
+        <item>reproduzir áudio</item>
+        <item>ler a área de transferência</item>
+        <item>modificar a área de transferência</item>
+        <item>botões de mídia</item>
+        <item>foco de áudio</item>
+        <item>volume mestre</item>
+        <item>volume da voz</item>
+        <item>volume do toque</item>
+        <item>volume da mídia</item>
+        <item>volume do alarme</item>
+        <item>volume da notificação</item>
+        <item>volume do Bluetooth</item>
+        <item>permanecer ativo</item>
+        <item>monitorar local</item>
+        <item>monitorar local de alta potência</item>
+        <item>obter estatísticas de uso</item>
+        <item>ativar/desativar o som do microfone</item>
+        <item>projeção de mídia</item>
+        <item>ativar VPN</item>
+        <item>escrever plano de fundo</item>
+        <item>estrutura de assistência</item>
+        <item>captura de tela de assistência</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices">
+        <item>WLAN preferido</item>
+        <item>Celular preferido</item>
+    </string-array>
+</resources>

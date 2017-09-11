@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="app_ops_summaries">
+        <item>ਸਧਾਰਨ ਸਥਾਨ</item>
+        <item>ਸੂਖਮ ਸਥਾਨ</item>
+        <item>GPS</item>
+        <item>ਕੰਪਨਕਾਰੀ ਚੋਕੱਸ</item>
+        <item>ਸੰਪਰਕ ਪੜ੍ਹੋ</item>
+        <item>ਸੰਪਰਕ ਸੰਸ਼ੋਧਿਤ ਕਰੋ</item>
+        <item>ਕਾਲ ਲੌਗ ਪੜ੍ਹਨਾ</item>
+        <item>ਕਾਲ ਵੇਰਵਾ ਸੰਸ਼ੋਧਿਤ ਕਰੋ</item>
+        <item>ਕੈਲੰਡਰ ਪੜ੍ਹਨਾ</item>
+        <item>ਕੈਲੰਡਰ ਸੋਧਣਾ</item>
+        <item>WLAN ਸਕੈਨ</item>
+        <item>ਸੂਚਨਾ</item>
+        <item>ਸੈੱਲ ਸਕੈਨ</item>
+        <item>ਫ਼ੋਨ ਕਾਲ</item>
+        <item>SMS ਪੜ੍ਹਨਾ</item>
+        <item>SMS ਲਿਖਣਾ</item>
+        <item>SMS ਪ੍ਰਾਪਤ ਕਰਨਾ</item>
+        <item>ਇਮਰਜੈਂਸੀ SMS ਪ੍ਰਾਪਤ ਕਰਨਾ</item>
+        <item>MMS ਪ੍ਰਾਪਤ ਕਰਨਾ</item>
+        <item>WAP ਪੁਸ਼ ਪ੍ਰਾਪਤ ਕਰੋ</item>
+        <item>SMS ਭੇਜਣਾ</item>
+        <item>ICC SMS ਪੜ੍ਹਨਾ</item>
+        <item>ICC SMS ਲਿਖਣਾ</item>
+        <item>ਸੈਟਿੰਗ ਸੋਧੋ</item>
+        <item>ਉੱਪਰ ਬਣਾਉ</item>
+        <item>ਸੂਚਨਾ ਪਹੁੰਚ</item>
+        <item>ਕੈਮਰਾ</item>
+        <item>ਆਡੀਓ ਰਿਕਾਰਡ ਕਰਨਾ</item>
+        <item>ਆਡੀਓ ਚਲਾਉਣਾ</item>
+        <item>ਕਲਿੱਪਬੋਰਡ ਪੜ੍ਹੋ</item>
+        <item>ਕਲਿੱਪਬੋਰਡ ਸੋਧੋ</item>
+        <item>ਮੀਡੀਆ ਬਟਨ</item>
+        <item>ਆਡੀਓ ਫੋਕਸ</item>
+        <item>ਮਾਸਟਰ ਆਵਾਜ਼</item>
+        <item>ਵੋਆਇਸ ਆਵਾਜ਼</item>
+        <item>ਘੰਟੀ ਵਜਾਉਣ ਆਵਾਜ਼</item>
+        <item>ਮੀਡੀਆ ਆਵਾਜ਼</item>
+        <item>ਅਲਾਰਮ ਆਵਾਜ਼</item>
+        <item>ਸੂਚਨਾ ਆਵਾਜ਼</item>
+        <item>bluetooth ਆਵਾਜ਼</item>
+        <item>ਸਚੇਤ ਰੱਖੋ</item>
+        <item>ਸਥਾਨ ਨਿਗਰਾਨੀ</item>
+        <item>ਉੱਚ ਪਾਵਰ ਸਥਾਨ ਦੀ ਨਿਗਰਾਨੀ ਕਰੋ</item>
+        <item>ਉਪਯੋਗ ਅੰਕੜੇ ਪ੍ਰਾਪਤ ਕਰੋ</item>
+        <item>ਮਾਈਕ੍ਰੋਫ਼ੋਨ ਮੂਕ/ਆਵਾਜ਼ ਚਾਲੂ ਕਰਨਾ</item>
+        <item>ਪ੍ਰੋਜੈਕਟ ਮੀਡੀਆ</item>
+        <item>VPN ਚਾਲੂ ਕਰੋ</item>
+        <item>ਵਾਲਪੇਪਰ ਲਿਖੋ</item>
+        <item>ਢਾਂਚਾ ਸਹਾਇਤਾ</item>
+        <item>ਸਕ੍ਰੀਨਸ਼ਾਟ ਸਹਾਇਤਾ</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices">
+        <item>WLAN ਨੂੰ ਤਰਜੀਹ</item>
+        <item>ਸੈਲੂਲਰ ਨੂੰ ਤਰਜੀਹ</item>
+    </string-array>
+    <string-array name="wapi_psk_type">
+        <item>WLAN ASCII</item>
+        <item>WLAN ਹੈਕਸਾਡੈਸੀਮਲ</item>
+    </string-array>
+</resources>

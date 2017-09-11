@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="powersaver_feature_haptic">Värinä kosketuksesta poissa käytöstä</string>
+    <string name="powersaver_feature_sync">Ei automaattista synkronointia</string>
+    <string name="powersaver_feature_data">Mobiilidata poissa käytöstä</string>
+    <string name="powersaver_feature_bravia">Mobile BRAVIA Engine poissa käytöstä</string>
+    <string name="stamina_xssm_add_applications_title">Valmiustilassa aktiiviset sovellukset</string>
+    <string name="wifi_tether_settings_text">Siirrettävän Wi-Fi-WLAN-alueen asetukset</string>
+    <string name="auto_sync_text">Automaattinen synkronointi</string>
+</resources>

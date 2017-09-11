@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_disabled_wifi_failure">WLAN കണക്ഷൻ പരാജയം</string>
+    <string name="radio_controls_summary">വൈഫൈ, ബ്ലൂടൂത്ത്, ഫ്ലൈറ്റ് മോഡ്, സെല്ലുലാർ നെറ്റ്‌വർക്കുകൾ, VPN-കൾ എന്നിവ നിയന്ത്രിക്കുക</string>
+    <string name="wifi_alert_lockdown_by_device_owner">നിങ്ങളുടെ ഉപകരണത്തെ %1$s നിയന്ത്രിക്കുന്നു, വൈഫൈ നെറ്റ്‌വർക്ക് പരിഷ്‌ക്കരിക്കാനും ഇല്ലാതാക്കാനും ഇത് അനുവദിക്കുന്നില്ല. കൂടുതൽ വിവരങ്ങൾക്ക്, നിങ്ങളുടെ അഡ്‌മിനിസ്‌ട്രേറ്ററെ ബന്ധപ്പെടുക.</string>
+    <string name="wifi_quick_toggle_title">വൈഫൈ</string>
+    <string name="wifi_quick_toggle_summary">വൈഫൈ ഓണാക്കുക</string>
+    <string name="wifi_settings">വൈഫൈ</string>
+    <string name="wifi_settings_category">വൈഫൈ ക്രമീകരണങ്ങൾ</string>
+    <string name="wifi_settings_title">വൈഫൈ</string>
+    <string name="wifi_setup_wizard_title">വൈഫൈ നെറ്റ്‌വർക്ക് തിരഞ്ഞെടുക്കുക</string>
+    <string name="wifi_poor_network_detection_summary">മികച്ച ഇന്റർനെറ്റ് കണക്ഷൻ ഉണ്ടാകുന്നതുവരെ വൈഫൈ നെറ്റ്‌വർക്ക് ഉപയോഗിക്കരുത്</string>
+    <string name="wifi_setting_sleep_policy_title">സ്ലീപ്പിലും വൈഫൈ ഓണാക്കിനിർത്തൂ</string>
+    <string name="wifi_suspend_optimizations">വൈഫൈ ഒപ്റ്റിമൈസുചെയ്യൽ</string>
+    <string name="wifi_suspend_optimizations_summary">വൈഫൈ ഓണായിരിക്കുമ്പോൾ ബാറ്ററി ഉപഭോഗം കുറയ്‌ക്കുക</string>
+    <string name="wifi_switch_away_when_unvalidated">WLAN-ക്ക് ഇന്റർനെറ്റ് ആക്സസ് നഷ്ടപ്പെട്ടാൽ, സെല്ലുലാർ ഡാറ്റയിലേക്ക് മാറുക.</string>
+    <string name="wifi_access_points">വൈഫൈ നെറ്റ്‌വർക്കുകൾ</string>
+    <string name="wifi_menu_p2p">വൈഫൈ ഡയറക്‌ട്</string>
+    <string name="wifi_empty_list_wifi_off">ലഭ്യമായ നെറ്റ്‌വർക്കുകൾ കാണാൻ വൈഫൈ ഓണാക്കുക.</string>
+    <string name="wifi_empty_list_wifi_on">വൈഫൈ നെറ്റ്‌വർക്കുകൾക്കായി തിരയുന്നു…</string>
+    <string name="wifi_empty_list_user_restricted">വൈഫൈ നെറ്റ്‌വർക്ക് മാറ്റുന്നതിന് നിങ്ങൾക്ക് അനുമതിയില്ല.</string>
+    <string name="wifi_wps_setup_title">വൈഫൈ പരിരക്ഷിത സജ്ജീകരണം</string>
+    <string name="wifi_wps_onstart_pin">നിങ്ങളുടെ വൈഫൈ റൂട്ടറിൽ പിൻ %1$s നൽകുക. ഈ സജ്ജീകരണം പൂർത്തിയാക്കാൻ രണ്ട് മിനിറ്റ് വരെയെടുക്കാം.</string>
+    <string name="wifi_wps_connected">വൈഫൈ നെറ്റ്‌വർക്കിൽ %s കണക്റ്റുചെയ്യുന്നു</string>
+    <string name="wifi_scan_always_turnon_message">"ലൊക്കേഷൻ കൃത്യത മെച്ചപ്പെടുത്തുന്നതിനും മറ്റ് ആവശ്യകതകൾക്കായും, വൈഫൈ ഓഫായിരിക്കുമ്പോൾപ്പോലും നെറ്റ്‌വർക്ക് സ്‌കാൻ ചെയ്യാൻ %1$s താൽപ്പര്യപ്പെടുന്നു.
+
+സ്‌കാൻ ചെയ്യാൻ താൽപ്പര്യപ്പെടുന്ന എല്ലാ അപ്ലിക്കേഷനുകൾക്കായും ഇത് അനുവദിക്കണോ?"</string>
+    <string name="wifi_skipped_message">മുന്നറിയിപ്പ്: WLAN ഒഴിവാക്കുകയാണെങ്കിൽ, നിങ്ങളുടെ ഫോൺ പ്രാരംഭ ഡൗൺലോഡുകൾക്കും അപ്‌ഡേറ്റുകൾക്കും സെല്ലുലാർ ഡാറ്റ മാത്രം ഉപയോഗിക്കും. സാധ്യമായ ഡാറ്റ നിരക്കുകൾ ഒഴിവാക്കുന്നതിന് WLAN-മായി കണക്‌റ്റുചെയ്യുക.</string>
+    <string name="wifi_connect_failed_message">ഫോൺ ഈ വൈഫൈ നെറ്റ്‌വർക്കിൽ കണക്റ്റുചെയ്യാനായില്ല.</string>
+    <string name="wifi_advanced_titlebar">വിപുലമായ വൈഫൈ</string>
+    <string name="wifi_setting_frequency_band_title">വൈഫൈ ആവൃത്തി ബാൻഡ്</string>
+    <string name="wifi_p2p_settings_title">വൈഫൈ ഡയറക്‌ട്</string>
+    <string name="wifi_tether_checkbox_text">പോർട്ടബിൾ വൈഫൈ ഹോട്ട്‌സ്പോട്ട്</string>
+    <string name="wifi_tether_failed_subtext">പോർട്ടബിൾ വൈഫൈ ഹോട്ട്‌സ്പോട്ട് പിശക്</string>
+    <string name="wifi_tether_configure_ap_text">വൈഫൈ ഹോട്ട്‌സ്പോട്ട് സജ്ജീകരിക്കുക</string>
+    <string name="wifi_tether_configure_subtext">%1$s %2$s പോർട്ടബിൾ വൈഫൈ ഹോട്ട്‌സ്പോട്ട്</string>
+    <string name="wifi_calling_settings_title">വൈഫൈ കോളിംഗ്</string>
+    <string name="wifi_calling_mode_dialog_title">വൈഫൈ കോളിംഗ് മോഡ്</string>
+    <string name="wifi_calling_off_explanation">വൈഫൈ കോളിംഗ് ഓണായിരിക്കുമ്പോൾ, നിങ്ങളുടെ മുൻഗണനയും ഏത് സിഗ്നലാണ് ശക്തമെന്നതും അടിസ്ഥാനമാക്കി ഫോണിന് വൈഫൈ നെറ്റ്‌വർക്കോ കാരിയർ നെറ്റ്‌വർക്കോ വഴി കോളുകൾ റൂട്ട് ചെയ്യാനാകും. ഈ ഫീച്ചർ ഓണാക്കുന്നതിനുമുമ്പ്, നിരക്കുകളും മറ്റ് വിശദാംശങ്ങളും അറിയുന്നതിന് നിങ്ങളുടെ കാരിയറെ ബന്ധപ്പെടുക.</string>
+    <string name="status_wifi_mac_address">വൈഫൈ MAC വിലാസം</string>
+    <string name="reset_network_desc">"ഇത് ഇവയുൾപ്പെടെ എല്ലാ നെറ്റ്‌വർക്ക് ക്രമീകരണവും റീസെറ്റുചെയ്യും:
+
+"<li>WLAN</li>"
+"<li>സെല്ലുലാർ ഡാറ്റ</li>"
+"<li>Bluetooth</li></string>
+    <string name="location_neighborhood_level_wifi">വൈഫൈ നിർണ്ണയിച്ച ലൊക്കേഷൻ</string>
+    <string name="wifi_aggressive_handover">സെല്ലുലാർ ഹാൻഡ്ഓവറിലേക്ക് വൈഫൈ അഗ്രസ്സീവാക്കുക</string>
+    <string name="battery_stats_wifi_running_label">വൈഫൈ</string>
+    <string name="wifi_on_time">വൈഫൈ ഓൺ ടൈം</string>
+    <string name="bluetooth_on_time">വൈഫൈ ഓൺ ടൈം</string>
+    <string name="power_wifi">വൈഫൈ</string>
+    <string name="usage_type_wifi_running">വൈഫൈ പ്രവർത്തിക്കുന്നു</string>
+    <string name="battery_action_wifi">വൈഫൈ ക്രമീകരണങ്ങൾ</string>
+    <string name="battery_desc_wifi">WLAN-യുടെ ബാറ്ററി ഉപഭോഗം</string>
+    <string name="battery_sugg_wifi">വൈഫൈ ഉപയോഗിക്കാതിരിക്കുമ്പോഴോ ലഭ്യമല്ലെങ്കിലോ അത് ഓഫാക്കുക</string>
+    <string name="gadget_toggle_wifi">വൈഫൈ ക്രമീകരണം അപ്‌ഡേറ്റുചെയ്യുന്നു</string>
+    <string name="gadget_wifi">വൈഫൈ</string>
+    <string name="backup_data_summary">അപ്ലിക്കേഷൻ ഡാറ്റ, വൈഫൈ പാസ്‌വേഡുകൾ, മറ്റ് ക്രമീകരണങ്ങൾ എന്നിവ Google സെർവറുകളിൽ ബാക്കപ്പുചെയ്യുക</string>
+    <string name="backup_erase_dialog_message">Google സെർവറുകളിൽ നിങ്ങളുടെ വൈഫൈ പാസ്‌വേഡുകൾ, ബുക്ക്‌മാർക്കുകൾ, മറ്റ് ക്രമീകരണങ്ങൾ, അപ്ലിക്കേഷൻ ഡാറ്റ എന്നിവ ബാക്കപ്പുചെയ്യുന്നത് അവസാനിപ്പിക്കുകയും അതിലെ എല്ലാ പകർപ്പുകളും മായ്‌ക്കുകയും ചെയ്യണോ?</string>
+    <string name="fullbackup_erase_dialog_message">ഉപകരണ വിവരവും (വൈഫൈ പാസ്‌വേഡുകളും കോൾ ചരിത്രവും) ആപ്പ് വിവരവും (ആപ്പ്‌സ് സംഭരിച്ച ക്രമീകരണവും പോലുള്ളവ) ബാക്കപ്പുചെയ്യുന്നത് നിർത്തുകയും Google ഡ്രൈവിലെ എല്ലാ പകർപ്പുകളും മായ്‌ക്കുകയും ചെയ്യണോ?</string>
+    <string name="fullbackup_data_summary">"ഉപകരണ വിവരവും (വൈഫൈ പാസ്‌വേഡുകളും കോൾ ചരിത്രവും പോലുള്ളവ) ആപ്പ് വിവരവും (ക്രമീകരണവും ആപ്പ്‌സ് സംഭരിച്ച ഫയലുകളും പോലുള്ളവ) വിദൂരമായി സ്വയമേവ ബാക്കപ്പെടുക്കുന്നു.
+
+നിങ്ങൾ സ്വയമേയുള്ള ബാക്കപ്പ് ഓണാക്കുമ്പോൾ, ഉപകരണ, ആപ്പ് വിവരം ഇടയ്‌ക്കിടെ വിദൂരമായി സംരക്ഷിക്കും. ആപ്പ് വിവരം എന്നത് കോൺടാക്റ്റുകൾ, സന്ദേശങ്ങൾ, ഫോട്ടോകൾ എന്നിവ പോലുള്ള രഹസ്യസ്വഭാവമുള്ളവ ഉൾപ്പെടെ ആപ്പ് സംരക്ഷിച്ചിട്ടുള്ള ഏതൊരു വിവരവും (ഡവലപ്പർ ക്രമീകരണം അടിസ്ഥാനമാക്കി) ആകാം."</string>
+    <string name="wifi_setup_title">വൈഫൈ സജ്ജീകരണം</string>
+    <string name="wifi_setup_title_editing_network">വൈഫൈ നെറ്റ്‌വർക്കിൽ %s കണക്റ്റുചെയ്യുക</string>
+    <string name="wifi_setup_title_connecting_network">വൈഫൈ നെറ്റ്‌വർക്കിൽ %s കണക്റ്റുചെയ്യുന്നു…</string>
+    <string name="wifi_setup_title_connected_network">വൈഫൈ നെറ്റ്‌വർക്കിൽ %s കണക്റ്റുചെയ്‌തു</string>
+    <string name="wifi_setup_eap_not_supported">സജ്ജീകരണത്തിനിടെ നിങ്ങൾക്ക് ഒരു EAP വൈഫൈ കണക്ഷൻ കോൺഫിഗർ ചെയ്യാനാകില്ല. സജ്ജീകരണത്തിനുശേഷം, നിങ്ങൾക്ക് ഇത് ക്രമീകരണങ്ങൾ > വയർലെസ് &amp; നെറ്റ്‌വർക്കുകൾ എന്നതിൽ ചെയ്യാനാകും.</string>
+    <string name="wifi_setup_description_connected">സജ്ജീകരണം തുടരാൻ <b>അടുത്തത്</b>" സ്‌പർശിക്കുക.
+
+മറ്റൊരു വൈഫൈ നെറ്റ്‌വർക്കിൽ കണക്റ്റുചെയ്യാൻ "<b>മടങ്ങുക</b> സ്‌പർശിക്കുക.</string>
+    <string name="data_usage_disable_wifi_limit">വൈഫൈ ഡാറ്റ പരിധി സജ്ജീകരിക്കുക</string>
+    <string name="data_usage_tab_wifi">വൈഫൈ</string>
+    <string name="data_usage_restrict_background">പശ്ചാത്തല സെല്ലുലാർ ഡാറ്റ പരിമിതപ്പെടുത്തുകയാണെങ്കിൽ, നിങ്ങൾ ഒരു വൈഫൈ യിൽ കണക്റ്റുചെയ്യുന്നതുവരെ ചില അപ്ലിക്കേഷനുകളും സേവനങ്ങളും പ്രവർത്തിക്കില്ല.</string>
+    <string name="data_usage_metered_body">പശ്ചാത്തല ഡാറ്റയെ നിയന്ത്രിക്കുമ്പോൾ, കണക്കാക്കിയ നെറ്റ്‌വർക്കുകൾ സെല്ലുലാർ പോലെ പരിഗണിക്കപ്പെടുന്നു. വലിയ ഡൗൺലോഡുകൾക്കായി ഈ നെറ്റ്‌വർക്കുകൾ ഉപയോഗിക്കുന്നതിന് മുമ്പ് അപ്ലിക്കേഷൻ മുന്നറിയിപ്പ് നൽകാനിടയുണ്ട്.</string>
+    <string name="restriction_wifi_config_title">WLAN-യും മൊബൈലും</string>
+    <string name="restriction_wifi_config_summary">WLAN-യുടെയും മൊബൈൽ ക്രമീകരണങ്ങളുടെയും പരിഷ്‌ക്കരണം അനുവദിക്കുക</string>
+    <string name="setup_wifi_nfc_tag">വൈഫൈ NFC ടാഗ് സജ്ജമാക്കുക</string>
+</resources>

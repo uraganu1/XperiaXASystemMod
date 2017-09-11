@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">%1$d sammu veel ja olete arendaja.</item>
+        <item quantity="one">%1$d sammu veel ja olete arendaja.</item>
+    </plurals>
+    <plurals name="security_settings_fingerprint_preference_summary">
+        <item quantity="other">Sõrmejäljega lukust avamine on aktiveeritud</item>
+        <item quantity="one">Sõrmejäljega lukust avamine on aktiveeritud</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">Parool peab sisaldama vähemalt %d tähte.</item>
+        <item quantity="one">Parool peab sisaldama vähemalt üht tähte.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">Parool peab sisaldama vähemalt %d väiketähte.</item>
+        <item quantity="one">Parool peab sisaldama vähemalt üht väiketähte.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">Parool peab sisaldama vähemalt %d suurtähte.</item>
+        <item quantity="one">Parool peab sisaldama vähemalt üht suurtähte.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">Parool peab sisaldama vähemalt %d numbrit.</item>
+        <item quantity="one">Parool peab sisaldama vähemalt üht numbrit.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">Parool peab sisaldama vähemalt %d erisümbolit.</item>
+        <item quantity="one">Parool peab sisaldama vähemalt üht erisümbolit.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">Parool peab sisaldama vähemalt %d mittetähelist märki.</item>
+        <item quantity="one">Parool peab sisaldama vähemalt üht mittetähelist märki.</item>
+    </plurals>
+    <plurals name="wrong_pin_code">
+        <item quantity="other">SIM-kaardi vale PIN-kood. Saate proovida veel %d korda.</item>
+        <item quantity="one">SIM-kaardi vale PIN-kood. Saate proovida veel %d kord enne, kui peate seadme avamiseks teenusepakkuja poole pöörduma.</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">%d rakendust saavad märguandeid lugeda</item>
+        <item quantity="one">%d rakendus saab märguandeid lugeda</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_minute">
+        <item quantity="other">Muuda valikule Ainult alarmid %1$d minutiks (kuni kella %2$s)</item>
+        <item quantity="one">Muuda valikule Ainult alarmid üheks minutiks kuni kella %2$s</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_hour">
+        <item quantity="other">Muuda valikule Ainult alarmid %1$d tunniks kuni kella %2$s</item>
+        <item quantity="one">Muuda valikule Ainult alarmid üheks tunniks kuni kella %2$s</item>
+    </plurals>
+    <plurals name="permissions_summary">
+        <item quantity="other">Antud on %d luba</item>
+        <item quantity="one">Antud on %d luba</item>
+    </plurals>
+    <plurals name="runtime_permissions_summary">
+        <item quantity="other">Antud on %1$d luba %2$d-st</item>
+        <item quantity="one">Antud on %1$d luba %2$d-st</item>
+    </plurals>
+    <plurals name="runtime_permissions_additional_count">
+        <item quantity="other">%d täiendavat luba</item>
+        <item quantity="one">%d täiendav luba</item>
+    </plurals>
+    <plurals name="domain_urls_apps_summary">
+        <item quantity="other">%d rakendust saab avada oma toetatud linke</item>
+        <item quantity="zero">Ükski rakendus ei saa ühtki toetatud linki avada</item>
+        <item quantity="one">Üks rakendus saab avada oma toetatud linke</item>
+    </plurals>
+    <plurals name="high_power_count">
+        <item quantity="other">Aku optimeerimise eiramine on lubatud %d rakendusel</item>
+        <item quantity="one">Aku optimeerimise eiramine on lubatud 1 rakendusel</item>
+    </plurals>
+    <plurals name="memory_usage_apps_summary">
+        <item quantity="other">Viimase %2$s tunni jooksul kasutasid mälu %1$d rakendust</item>
+        <item quantity="one">Viimase %2$s tunni jooksul kasutas mälu 1 rakendus</item>
+    </plurals>
+    <plurals name="remaining_time_format_days">
+        <item quantity="other">%d päeva</item>
+        <item quantity="one">%d päev</item>
+    </plurals>
+    <plurals name="remaining_time_format_hours">
+        <item quantity="other">%d tundi</item>
+        <item quantity="one">%d tund</item>
+    </plurals>
+    <plurals name="stamina_xssm_add_applications_descr">
+        <item quantity="other">Loendis on %d rakendust</item>
+        <item quantity="one">Loendis on %1$d rakendus</item>
+    </plurals>
+    <plurals name="not_time_left_format_hours">
+        <item quantity="other">%d tundi</item>
+        <item quantity="one">%d tund</item>
+    </plurals>
+    <plurals name="not_time_left_format_minutes">
+        <item quantity="other">%d minutit</item>
+        <item quantity="one">%d minut</item>
+    </plurals>
+    <plurals name="xssm_settings_blacklist_summary_txt">
+        <item quantity="other">%d rakendus valitud</item>
+        <item quantity="one">%d rakendus valitud</item>
+    </plurals>
+</resources>

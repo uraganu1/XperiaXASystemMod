@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_security_wapi_psk">‏WLAN PSK</string>
+    <string name="wifi_disabled_wifi_failure">‏أخفق اتصال WLAN</string>
+    <string name="connected_via_wfa">‏تم التوصيل عبر مساعد WLAN</string>
+    <string name="accessibility_wifi_off">بطاقة WLAN لا تعمل.</string>
+    <string name="accessibility_no_wifi">تم فصل WLAN.</string>
+    <string name="accessibility_wifi_one_bar">إشارة WLAN بقوة شرطة واحدة.</string>
+    <string name="accessibility_wifi_two_bars">إشارة WLAN بقوة شرطتين.</string>
+    <string name="accessibility_wifi_three_bars">إشارة WLAN بقوة ثلاث شرطات.</string>
+    <string name="accessibility_wifi_signal_full">إشارة WLAN مكتملة.</string>
+    <string name="radio_controls_summary">إدارة WLAN وBluetooth ووضع الطائرة وشبكات النقال والشبكات الظاهرية الخاصة (VPN)</string>
+    <string name="wifi_assistant_title">‏تطبيق مساعد WLAN</string>
+    <string name="wifi_alert_lockdown_by_device_owner">‏يدير %1$s جهازك ولا يسمح بتعديل شبكة WLAN هذه أو حذفها. للمزيد من المعلومات، اتصل بالمشرف.</string>
+    <string name="wifi_quick_toggle_title">‏WLAN</string>
+    <string name="wifi_quick_toggle_summary">تشغيل WLAN</string>
+    <string name="wifi_settings">‏WLAN</string>
+    <string name="wifi_settings_category">إعدادات WLAN</string>
+    <string name="wifi_settings_title">‏WLAN</string>
+    <string name="wifi_setup_wizard_title">تحديد WLAN</string>
+    <string name="wifi_select_network">‏تحديد WLAN</string>
+    <string name="wifi_poor_network_detection_summary">عدم استخدام شبكات WLAN ما لم يكن لها اتصال إنترنت جيد</string>
+    <string name="wifi_automatically_connect_title">‏استخدام شبكات WLAN المفتوحة تلقائيًا</string>
+    <string name="wifi_automatically_connect_summary">‏السماح لمساعد WLAN بالاتصال بالشبكات المفتوحة التي تم تحديد جودتها العالية</string>
+    <string name="wifi_scan_notify_text">‏لتحسين دقة الموقع، سيظل بإمكان تطبيقات وخدمات النظام البحث عن شبكات WLAN. ويمكنك تغيير ذلك من خلال LINK_BEGINإعدادات البحثLINK_END.</string>
+    <string name="wifi_setting_sleep_policy_title">متابعة تشغيل WLAN أثناء السكون</string>
+    <string name="wifi_setting_on_during_sleep_title">‏تشغيل WLAN أثناء وضع السكون</string>
+    <string name="wifi_suspend_optimizations">تحسين WLAN</string>
+    <string name="wifi_suspend_optimizations_summary">تقليل استخدام البطارية إلى الحد الأدنى عند تشغيل WLAN</string>
+    <string name="wifi_limit_optimizations_summary">‏تقييد طاقة البطارية لاتصال WLAN</string>
+    <string name="wifi_switch_away_when_unvalidated">‏التبديل إلى بيانات الجوّال في حالة انقطاع اتصال شبكة WLAN بالإنترنت.</string>
+    <string name="wifi_access_points">شبكات WLAN</string>
+    <string name="wifi_menu_p2p">‏WLAN Direct</string>
+    <string name="wifi_empty_list_wifi_off">لمشاهدة الشبكات المتوفرة، قم بتشغيل WLAN.</string>
+    <string name="wifi_empty_list_wifi_on">جارٍ البحث عن شبكات WLAN...</string>
+    <string name="wifi_empty_list_user_restricted">ليس لديك إذن لتغيير شبكة WLAN</string>
+    <string name="wifi_wps_setup_title">إعداد WLAN المحمي</string>
+    <string name="wifi_wps_onstart_pbc">‏اضغط على زر الإعداد المحمي لشبكة WLAN على جهاز التوجيه والذي قد يكون اسمه \"WPS\" أو يحمل هذا الرمز:</string>
+    <string name="wifi_wps_onstart_pin">أدخل رقم التعريف الشخصي %1$s في موجّه WLAN. يمكن أن يستغرق إكمال الإعداد فترة تصل إلى دقيقتين.</string>
+    <string name="wifi_wps_connected">تم الاتصال بشبكة WLAN %s</string>
+    <string name="wifi_scan_always_turnon_message">"لتحسين مستوى دقة تحديد الموقع ولأغراض أخرى، يحتاج %1$s إلى تشغيل البحث عن الشبكات، حتى مع إيقاف WLAN.
+
+هل تريد السماح بذلك لجميع التطبيقات التي تحتاج إلى فحص؟"</string>
+    <string name="wifi_skipped_message">"تحذير: ربما يحصّل مزود الخدمة رسومًا إضافية منك.
+
+قد يحتاج إعداد الهاتف إلى نشاط كبير بالشبكة."</string>
+    <string name="wifi_and_mobile_skipped_message">"‏عند تخطي اتصال WLAN:
+
+"<li>لن يتوفر اتصال بالإنترنت لهاتفك.</li>"
+
+"<li>لن تستلم تحديثات للبرامج إلا بعد الاتصال بالإنترنت.</li>"
+
+"<li>يتعذر تنشيط ميزات حماية الجهاز في الوقت الحالي.</li></string>
+    <string name="wifi_connect_failed_message">لم يتمكن الهاتف من الاتصال بشبكة WLAN هذه.</string>
+    <string name="wifi_advanced_titlebar">إعدادات WLAN</string>
+    <string name="wifi_setting_frequency_band_title">نطاق تردد WLAN</string>
+    <string name="wifi_advanced_settings_label">إعدادات WLAN</string>
+    <string name="wifi_p2p_settings_title">‏WLAN Direct</string>
+    <string name="wifi_tether_checkbox_text">نقطة اتصال بشبكة WLAN محمولة</string>
+    <string name="wifi_hotspot_checkbox_text">‏نقطة اتصال WLAN</string>
+    <string name="wifi_hotspot_checkbox_text_summary">‏استخدام اتصال الجوّال لتوفير شبكة WLAN</string>
+    <string name="wifi_tether_failed_subtext">خطأ في نقطة اتصال شبكة WLAN المحمولة</string>
+    <string name="wifi_tether_configure_ap_text">تهيئة نقطة اتصال WLAN</string>
+    <string name="wifi_hotspot_configure_ap_text">‏إعداد نقطة اتصال WLAN</string>
+    <string name="wifi_hotspot_configure_ap_text_summary">نقطة اتصال WLAN المتنقلة عبر AndroidAP WPA2 PSK</string>
+    <string name="wifi_tether_configure_subtext">"‏%1$s نقطة اتصال WLAN محمولة.
+الأمان: %2$s"</string>
+    <string name="wifi_calling_settings_title">‏الاتصال عبر WLAN</string>
+    <string name="wifi_calling_mode_dialog_title">‏وضع الاتصال عبر WLAN</string>
+    <string name="wifi_calling_off_explanation">"استخدم اتصال WLAN لزيادة جودة الصوت في الأماكن التي تكون فيها تغطية شبكة الجوال ضعيفة.
+ 
+التكلفة
+للحصول على معلومات حول رسوم اتصال WLAN، يرجى الاتصال بموفر الخدمة.
+ 
+ملاحظات حول اتصال WLAN
+للبقاء متصلاً باتصال WLAN، تأكد من وجودك في نطاق WLAN."</string>
+    <string name="status_wifi_mac_address">عنوان MAC لشبكة WLAN</string>
+    <string name="reset_network_desc">"‏سيؤدي هذا إلى إعادة تعيين كل إعدادات الشبكة، بما في ذلك:
+
+"<li>WLAN</li>"
+"<li>بيانات الجوّال</li>"
+"<li>البلوتوث</li></string>
+    <string name="network_scorer_change_active_dialog_title">‏هل تريد تغيير تطبيق مساعد WLAN؟</string>
+    <string name="location_mode_high_accuracy_description">‏استخدام نظام تحديد المواقع العالمي (GPS) وشبكات WLAN, Bluetooth وشبكات الجوّال لتحديد الموقع</string>
+    <string name="location_mode_battery_saving_description">‏استخدام شبكات WLAN, Bluetooth وشبكات الجوّال لتحديد الموقع</string>
+    <string name="location_scanning_wifi_always_scanning_title">‏البحث عن WLAN</string>
+    <string name="location_scanning_wifi_always_scanning_description">‏يمكنك تحسين دقة الموقع من خلال السماح لتطبيقات وخدمات النظام باكتشاف شبكات WLAN في أي وقت.</string>
+    <string name="location_neighborhood_level_wifi">الموقع الذي تم تحديده بواسطة WLAN</string>
+    <string name="wifi_verbose_logging">‏تمكين تسجيل WLAN Verbose</string>
+    <string name="wifi_aggressive_handover">‏تسليم WLAN دقيق إلى بيانات الجوال</string>
+    <string name="wifi_allow_scan_with_traffic">‏السماح دائمًا بعمليات فحص WLAN للتجوال</string>
+    <string name="wifi_verbose_logging_summary">‏زيادة مستوى تسجيل WLAN، وعرض لكل SSID RSSI في منتقي WLAN</string>
+    <string name="wifi_aggressive_handover_summary">‏عند تمكينه، سيكون WLAN أكثر حدة في تسليم اتصال البيانات إلى الشبكة الخلوية، وذلك عندما تكون إشارة WLAN منخفضة</string>
+    <string name="wifi_allow_scan_with_traffic_summary">‏السماح/عدم السماح بعمليات فحص WLAN للتجوال بناءً على حجم حركة البيانات في الواجهة</string>
+    <string name="mobile_data_always_on_summary">‏اجعل بيانات الجوّال نشطة دائمًا، حتى عندما يكون اتصال WLAN نشطًا (لتبديل الشبكة بسرعة).</string>
+    <string name="battery_stats_wifi_running_label">‏WLAN</string>
+    <string name="wifi_on_time">وقت تشغيل WLAN</string>
+    <string name="bluetooth_on_time">وقت تشغيل WLAN</string>
+    <string name="power_wifi">‏WLAN</string>
+    <string name="usage_type_wifi_running">‏WLAN قيد التشغيل</string>
+    <string name="usage_type_data_wifi_send">‏حزم بيانات WLAN المرسلة</string>
+    <string name="usage_type_data_wifi_recv">‏حزم بيانات WLAN المستلمة</string>
+    <string name="battery_action_wifi">إعدادات WLAN</string>
+    <string name="battery_desc_wifi">البطارية المستخدمة بواسطة WLAN</string>
+    <string name="battery_sugg_wifi">إيقاف WLAN عند عدم استخدامها أو عندما لا تكون متوفرة</string>
+    <string name="gadget_toggle_wifi">تحديث إعداد WLAN</string>
+    <string name="gadget_wifi">‏WLAN</string>
+    <string name="backup_data_summary">نسخ احتياطي لبيانات التطبيق وكلمات مرور WLAN والإعدادات الأخرى إلى خوادم Google™‎</string>
+    <string name="backup_erase_dialog_message">هل تريد إيقاف النسخ الاحتياطي لكلمات مرور WLAN والعلامات المرجعية والإعدادات الأخرى وبيانات التطبيق، بالإضافة لمسح كل النسخ على خوادم Google™‎؟</string>
+    <string name="fullbackup_erase_dialog_message">‏هل تريد إيقاف الاحتفاظ بنسخة احتياطية من بيانات الجهاز (مثل كلمات مرور WLAN وسجل المكالمات) وبيانات التطبيقات (مثل الإعدادات والملفات التي تخزنها التطبيقات) بالإضافة إلى محو بيانات جميع النسخ الموجودة على Google Drive؟</string>
+    <string name="fullbackup_data_summary">"‏بإمكانك الاحتفاظ تلقائيًا بنسخة احتياطية من بيانات الجهاز (مثل كلمات مرور WLAN وسجل المكالمات) وبيانات التطبيقات (مثل الإعدادات والملفات التي تخزنها التطبيقات) عن بُعد.
+
+عند تشغيل الاحتفاظ التلقائي بنسخة احتياطية، يتم بشكل دوري حفظ بيانات الجهاز وبيانات التطبيقات عن بُعد. ويمكن أن تكون بيانات التطبيقات أية بيانات تم حفظها في التطبيق (استنادًا إلى إعدادات مطور التطبيق) بما في ذلك البيانات المحتمل أن تكون حساسة مثل جهات الاتصال والرسائل والصور."</string>
+    <string name="wifi_setup_title">إعداد WLAN</string>
+    <string name="wifi_setup_title_editing_network">الاتصال بشبكة WLAN %s</string>
+    <string name="wifi_setup_title_connecting_network">جارٍ الاتصال بشبكة WLAN %s…</string>
+    <string name="wifi_setup_title_connected_network">جارٍ الاتصال بشبكة WLAN %s</string>
+    <string name="wifi_setup_eap_not_supported">لا يمكنك تهيئة اتصال EAP WLAN أثناء الإعداد. وبعد الإعداد، يمكنك إجراء ذلك في الإعدادات > الاتصال اللاسلكي والشبكات.</string>
+    <string name="wifi_setup_description_connected">المس <b>التالي</b>" لمتابعة الإعداد.
+
+المس "<b>رجوع</b> للاتصال بشبكة WLAN مختلفة.</string>
+    <string name="data_usage_menu_show_wifi">‏إظهار بيانات WLAN</string>
+    <string name="data_usage_menu_hide_wifi">‏إخفاء WLAN</string>
+    <string name="data_usage_disable_wifi_limit">تعيين حد بيانات WLAN</string>
+    <string name="data_usage_tab_wifi">‏WLAN</string>
+    <string name="data_usage_restrict_background">إذا تم تقييد بيانات النقال في الخلفية، فإن بعض التطبيقات والخدمات لن تعمل ما لم يتم الاتصال بشبكة WLAN.</string>
+    <string name="data_usage_restrict_background_multiuser">"‏في حالة تقييد بيانات الجوّال الخلفية، لن تعمل بعض التطبيقات والخدمات ما لم تكن متصلاً بشبكة WLAN.‏
+
+ويؤثر هذا الإعداد في كل المستخدمين على هذا الهاتف."</string>
+    <string name="data_usage_metered_body">حدد شبكات WLAN التي تعد نقاط جوال فعالة. يمكن تقييد استخدام التطبيقات لهذه الشبكات عندما تكون في الخلفية. وقد تصدر التطبيقات تحذيرًا أيضًا قبل استخدام هذه الشبكات للتنزيلات الكبيرة.</string>
+    <string name="data_usage_metered_wifi">‏شبكات WLAN الخاضعة للقياس</string>
+    <string name="data_usage_metered_wifi_disabled">‏لتحديد شبكات خاضعة للقياس، قم بتشغيل WLAN.</string>
+    <string name="user_add_user_message_long">"‏يمكنك مشاركة هذا الجهاز مع الآخرين من خلال إنشاء حسابات لمستخدمين إضافيين. وسيحصل كل مستخدم على مساحته الخاصة التي يمكنه تخصيصها بتطبيقاته وخلفياته التي يريدها وغيرها. كما يمكن للمستخدمين أيضًا ضبط إعدادات الجهاز مثل WLAN والتي تؤثر في جميع المستخدمين.
+
+عند إضافة مستخدم جديد، يجب عليه إعداد مساحته.
+
+يمكن لأي مستخدم تحديث التطبيقات لجميع المستخدمين الآخرين."</string>
+    <string name="restriction_wifi_config_title">WLAN والجوال</string>
+    <string name="restriction_wifi_config_summary">السماح بتعديل إعدادات WLAN والجوال</string>
+    <string name="setup_wifi_nfc_tag">‏إعداد علامة NFC عبر WLAN</string>
+    <string name="l_dialog_message_hint">"يتضمن وضع STAMINA:
+
+• الاستعداد الممتد
+يوفر الطاقة عند إيقاف تشغيل الشاشة من خلال تعطيل WLAN مؤقتًا. ستكون معظم التطبيقات غير نشطة.
+عند تشغيل الشاشة، سيعمل الجهاز بشكل طبيعي.
+إذا كنت ترغب في أن تظل بعض التطبيقات نشطة أثناء الاستعداد الممتد، فعليك إضافة التطبيقات إلى قائمة \"التطبيقات النشطة أثناء الاستعداد\".
+
+• الاستخدام الممتد
+يوفر الطاقة عندما يكون الجهاز قيد الاستخدام عن طريق تقييد مستوى أداء مكونات الأجهزة."</string>
+    <string name="powersaver_feature_wifi">إيقاف تشغيل WLAN</string>
+    <string name="stamina_xssm_summary">تعطيل بيانات النقال وWLAN في حالة إيقاف تشغيل الشاشة</string>
+    <string name="usm_descr">"سيطيل وضع Ultra STAMINA عمر البطارية بشكل كبير. ويمكن استخدامه عندما لا تتمكن من شحن جهازك لمدة طويلة.
+
+ستتوفر بعض الوظائف الأساسية فقط، مثل \"الهاتف\" و\"المراسلة\". انقر فوق \"مزيد من المعلومات\" لمزيد من التفاصيل.
+
+لاحظ أنه سيتم تعطيل الاتصال بالإنترنت عبر شبكة WLAN وشبكة الهواتف المحمولة."</string>
+    <string name="battery_usm_desc">"سيزيد وضع Ultra STAMINA من عمر البطارية بقدر ملحوظ. لاحظ أن الاتصال بالإنترنت عبر WLAN وبيانات الهاتف الجوال سيتم تعطيله. كما سيتم تبديل الشاشة الرئيسية إلى شاشة وضع Ultra STAMINA الرئيسية.
+
+التطبيقات المتوفرة في وضع Ultra STAMINA"</string>
+    <string name="somc_wifi_turned_on_info">تم تشغيل WLAN. حدد شبكتك في القائمة.</string>
+    <string name="wifi_tethering_warning_txt">ستتم مقاطعة أية عمليات تتم عبر WLAN مثل نقل الوسائط أو تحديث برنامج الهاتف أو النسخ الاحتياطي والاسترجاع.</string>
+    <string name="somc_backup_failed_no_wifi_summary">في انتظار اتصال WLAN</string>
+    <string name="wifi_hs2_strings_hotspot2_summary_txt">الاتصال التلقائي بشبكات Passpoint المتوفرة عند تشغيل WLAN</string>
+    <string name="wifi_tether_settings_subtext">إعداد منطقة شبكة WLAN اللاسلكية المحمولة وإدارتها</string>
+    <string name="wifi_tether_settings_text">إعدادات نقطة اتصال WLAN محمولة</string>
+    <string name="wifi_security_wapi_cert">‏WLAN CERT</string>
+    <string name="ct_wifi_connected_text">شبكة China Telecom WLAN متصلة</string>
+    <string name="cw_network_priority">الأولوية لشبكة China Telecom WLAN</string>
+    <string name="cw_network_priority_summary">سيتم منح الأولوية لشبكات WLAN الخاصة بشركة China Telecom عن شبكات WLAN الأخرى عند الاتصال</string>
+    <string name="data_traffic_disabled_text">تعذر الاتصال بشبكات WLAN الخاصة بشركة China Telecom نظرًا لتعطيل مرور البيانات. تمكين مرور البيانات الآن؟</string>
+    <string name="install_wapi_certs">تثبيت شهادات WLAN</string>
+    <string name="location_based_wifi">تقنية WLAN قائمة على الموقع</string>
+    <string name="operator_auto_connect_hotspot_description_txt">اتصال تلقائي بنقطة اتصال بشبكة WLAN لـ AT&amp;T</string>
+    <string name="operator_auto_connect_hotspot_txt">اتص تلقائي بـ AT&amp;T WLAN</string>
+    <string name="wifi_context_menu_change_wapi_certificate">تغيير شهادة WLAN</string>
+    <string name="wifi_p2p_settings">إعدادات WLAN Direct™‎</string>
+    <string name="wifi_security_verbose_wapi_cert">مؤمن باستخدام WLAN CERT</string>
+    <string name="wifi_security_verbose_wapi_psk">مؤمن باستخدام WLAN PSK</string>
+    <string name="wifi_tether_explanation_dialog_text">"يمكنك استخدام جهازك كنقطة اتصال شبكة نقال. سيتيح هذا للأجهزة الأخرى (بحد أقصى 10 أجهزة) الاتصال به عبر شبكة WLAN. سيكون للأجهزة المتصلة إمكانية الوصول إلى الإنترنت عبر اتصال شبكة النقال. تستخدم نقطة اتصال شبكة النقال بيانات النقال ويمكن أن تؤدي إلى فرض تكاليف إضافية.
+
+تستهلك نقطة اتصال شبكة النقال المزيد من طاقة البطارية. صل الجهاز بمأخذ لإطالة عمر البطارية."</string>
+    <string name="wifi_wps_category_title">إعداد شبكة WLAN</string>
+    <string name="xssm_guidecontent_what_stamina40jp_txt">"يوفر وضع STAMINA طاقة البطارية بضبط إعدادات الجهاز. يمكنك اختيار التطبيقات المراد تشغيلها بوظائف منخفضة أثناء وضع السكون. (يساعد هذا في توفير طاقة البطارية لأن معظم التطبيقات تستمر في استنزاف طاقة البطارية أثناء وضع السكون.)
+
+الوظائف المعطلة للتطبيقات المحددة:
+- WLAN
+- بيانات النقل
+- المؤقت
+
+يومض ضوء الإشعار لجميع التطبيقات بنفس اللون وبنفس التردد أثناء وضع السكون.
+
+تم إلغاء تنشيط وضع STAMINA أثناء قيامك بالتحكم في الجهاز."</string>
+    <string name="wifi_security_short_wapi_cert">‏WLAN CERT</string>
+    <string name="wifi_security_short_wapi_psk">‏WLAN PSK</string>
+    <string name="vzw_avoid_bad_connections_text">"شبكة WLAN التي اتصلت بها غير متصلة بالإنترنت.
+
+للتبديل تلقائيًا إلى شبكة النقال عند حدوث هذا الأمر، قم بتمكين \"تجنب اتصالات WLAN السيئة\" ضمن إعدادات WLAN المتقدمة."</string>
+    <string name="vzw_avoid_bad_connections_title">لا يوجد اتصال إنترنت عبر WLAN</string>
+    <string name="vzw_wifi_avoid_bad_connections">تجنب اتصالات WLAN السيئة</string>
+    <string name="vzw_wifi_avoid_bad_connections_summary">استخدم شبكة النقال متى كانت شبكة WLAN التي اتصلت بها غير متصلة بالإنترنت. (قد ينطبق استخدام البيانات.)</string>
+    <string name="vzw_wifi_password_error_dialog_txt">لم يتم قبول كلمة مرور WLAN. يرجى التحقق من كلمة المرور وإعادة المحاولة.</string>
+    <string name="vzw_wifi_setup_wizard_desc">حدد شبكة إذا كنت تريد التوصيل بشبكة WLAN الآن.</string>
+    <string name="vzw_wifi_setup_wizard_title">إعداد WLAN</string>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="app_ops_summaries">
+        <item>posizione approssimativa</item>
+        <item>posizione precisa</item>
+        <item>GPS</item>
+        <item>vibrazione</item>
+        <item>lettura contatti</item>
+        <item>modifica contatti</item>
+        <item>lettura del registro chiamate</item>
+        <item>modifica registro chiamate</item>
+        <item>lettura calendario</item>
+        <item>modifica del calendario</item>
+        <item>scansiona WLAN</item>
+        <item>notifica</item>
+        <item>scansione cell</item>
+        <item>chiamate telefono</item>
+        <item>lettura SMS</item>
+        <item>scrittura SMS</item>
+        <item>ricezione SMS</item>
+        <item>ricezione SMS di emergenza</item>
+        <item>ricezione MMS</item>
+        <item>ricezione push WAP</item>
+        <item>invio SMS</item>
+        <item>lettura SMS ICC</item>
+        <item>scrittura SMS ICC</item>
+        <item>modifica delle impostazioni</item>
+        <item>traccia in alto</item>
+        <item>accesso a notifiche</item>
+        <item>fotocamera</item>
+        <item>registrazione audio</item>
+        <item>riproduzione audio</item>
+        <item>lettura degli appunti</item>
+        <item>modifica degli appunti</item>
+        <item>pulsanti contenuti multimediali</item>
+        <item>focus audio</item>
+        <item>volume principale</item>
+        <item>volume voce</item>
+        <item>volume suoneria</item>
+        <item>volume contenuti multimediali</item>
+        <item>volume sveglia</item>
+        <item>volume notifiche</item>
+        <item>volume bluetooth</item>
+        <item>mantieni attivo</item>
+        <item>monitora posizione</item>
+        <item>monitora localizzazione a consumo elevato</item>
+        <item>"ricevi statistiche sull'utilizzo"</item>
+        <item>attiva/disattiva microfono</item>
+        <item>contenuti multimediali dei progetti</item>
+        <item>attiva VPN</item>
+        <item>scrivi sfondo</item>
+        <item>struttura assistenza</item>
+        <item>screenshot assistenza</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices">
+        <item>Reta preferita: WLAN</item>
+        <item>Rete preferita: cellulare</item>
+    </string-array>
+    <string-array name="wapi_psk_type">
+        <item>WLAN ASCII</item>
+        <item>WLAN hexadecimal</item>
+    </string-array>
+</resources>

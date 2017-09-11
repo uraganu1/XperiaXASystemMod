@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="app_ops_summaries">
+        <item>približna lokacija</item>
+        <item>precizna lokacija</item>
+        <item>GPS</item>
+        <item>vibriranje</item>
+        <item>čitanje kontakata</item>
+        <item>izmjena kontakata</item>
+        <item>čitanje zapisnika poziva</item>
+        <item>izmjena zapisnika poziva</item>
+        <item>čitanje kalendara</item>
+        <item>izmjena kalendara</item>
+        <item>skeniranje WLANja</item>
+        <item>obavijest</item>
+        <item>skeniranje ćelije</item>
+        <item>poziv na telefon</item>
+        <item>čitanje SMS-a</item>
+        <item>pisanje SMS-a</item>
+        <item>primanje SMS-a</item>
+        <item>primanje SMS-a u nuždi</item>
+        <item>primanje MMS-a</item>
+        <item>primanje WAP obavijesti</item>
+        <item>slanje SMS-a</item>
+        <item>čitanje ICC SMS-a</item>
+        <item>pisanje ICC SMS-a</item>
+        <item>izmjena postavki</item>
+        <item>povlačenje na vrh</item>
+        <item>pristup obavijestima</item>
+        <item>kamera</item>
+        <item>snimanje zvuka</item>
+        <item>reprodukcija audiozapisa</item>
+        <item>čitaj međuspremnik</item>
+        <item>izmijeni međuspremnik</item>
+        <item>medijski gumbi</item>
+        <item>audiofokus</item>
+        <item>glavna glasnoća</item>
+        <item>glasnoća glasa</item>
+        <item>glasnoća zvona</item>
+        <item>glasnoća medija</item>
+        <item>glasnoća alarma</item>
+        <item>glasnoća obavijesti</item>
+        <item>glasnoća Bluetootha</item>
+        <item>zadrži u aktivnom stanju</item>
+        <item>praćenje lokacije</item>
+        <item>praćenje lokacije s visokom potrošnjom energije</item>
+        <item>dohvaćanje statistike o upotrebi</item>
+        <item>isključivanje/uključivanje mikrofona</item>
+        <item>projiciranje medija</item>
+        <item>aktiviraj VPN</item>
+        <item>pozadinska slika za pisanje</item>
+        <item>pomoćna struktura</item>
+        <item>pomoćna snimka zaslona</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices">
+        <item>Prednost ima WLAN mreža</item>
+        <item>Prednost ima mobilna mreža</item>
+    </string-array>
+    <string-array name="wapi_psk_type">
+        <item>WLAN ASCII</item>
+        <item>WLAN hexadecimal</item>
+    </string-array>
+</resources>

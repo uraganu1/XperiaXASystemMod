@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="powersaver_feature_haptic">Värin puudutamisel väljas</string>
+    <string name="powersaver_feature_sync">Automaatsünkroonimine väljas</string>
+    <string name="powersaver_feature_data">Mobiilandmeside väljas</string>
+    <string name="powersaver_feature_gamma">Öörežiim väljas</string>
+    <string name="powersaver_feature_bravia">Mobile BRAVIA Engine väljas</string>
+    <string name="stamina_xssm_add_applications_title">Ooterežiimis aktiveeritud rakendused</string>
+    <string name="wifi_tether_settings_text">Teisaldatava Wi-Fi-pääsupunkti seaded</string>
+    <string name="auto_sync_text">Automaatne sünkroonimine</string>
+</resources>

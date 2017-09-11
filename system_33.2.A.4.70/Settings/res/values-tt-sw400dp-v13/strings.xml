@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="powersaver_feature_haptic">Тигендә тибрәнүны сүндерү</string>
+    <string name="powersaver_feature_sync">Автоматик синхронлаштыруны сүндерү</string>
+    <string name="powersaver_feature_data">Мобиль мәгълумат сүндерү</string>
+    <string name="powersaver_feature_gamma">Төн режимын эшләтү</string>
+    <string name="powersaver_feature_bravia">Mobile BRAVIA Engine сүндерү</string>
+    <string name="stamina_queue_background_data_title">Чиратның фоны мәгълуматы</string>
+    <string name="stamina_xssm_add_applications_title">Әзерлек халәттә кушымталар актив</string>
+    <string name="application_usage_title">Кушымтаның энергия алуы</string>
+    <string name="wifi_tether_settings_text">Портатив Wi-Fi керү нокта параметрлар</string>
+    <string name="usb_direct_settings_hi_res_audio_title_txt">Hi-Res аудио - USB</string>
+    <string name="auto_sync_text">Авто синхронлаштыру</string>
+</resources>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">Još %1$d koraka i postat ćete razvojni programer .</item>
+        <item quantity="one">Još %1$d korak i postat ćete razvojni programer.</item>
+        <item quantity="few">Još %1$d koraka i postat ćete razvojni programer.</item>
+    </plurals>
+    <plurals name="security_settings_fingerprint_preference_summary">
+        <item quantity="other">Aktivirano otključavanje otiskom prsta</item>
+        <item quantity="one">Aktivirano otključavanje otiskom prsta</item>
+        <item quantity="few">%1$d otiska prsta postavljena</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">Zaporka mora sadržavati barem ovoliko slova: %d.</item>
+        <item quantity="one">Zaporka mora sadržavati barem jedno slovo.</item>
+        <item quantity="few">Zaporka mora sadržavati barem %d slova.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">Zaporka mora sadržavati barem ovoliko malih slova: %d.</item>
+        <item quantity="one">Zaporka mora sadržavati barem jedno malo slovo.</item>
+        <item quantity="few">Zaporka mora sadržavati barem %d mala slova.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">Zaporka mora sadržavati barem ovoliko velikih slova: %d.</item>
+        <item quantity="one">Zaporka mora sadržavati barem jedno veliko slovo.</item>
+        <item quantity="few">Zaporka mora sadržavati barem %d velika slova.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">Zaporka mora sadržavati barem ovoliko brojčanih znamenki: %d.</item>
+        <item quantity="one">Zaporka mora sadržavati barem jednu brojčanu znamenku.</item>
+        <item quantity="few">Zaporka mora sadržavati barem %d znamenke.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">Zaporka mora sadržavati barem ovoliko posebnih znakova: %d.</item>
+        <item quantity="one">Zaporka mora sadržavati barem jedan posebni simbol.</item>
+        <item quantity="few">Zaporka mora sadržavati barem %d posebna simbola.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">Zaporka mora sadržavati barem ovoliko znakova koji nisu slova: %d.</item>
+        <item quantity="one">Zaporka mora sadržavati barem jedan znak koji nije slovo.</item>
+        <item quantity="few">Zaporka mora sadržavati barem %d znaka koji nisu slova.</item>
+    </plurals>
+    <plurals name="wrong_pin_code">
+        <item quantity="other">Netočan PIN kod SIM kartice. Preostao je još sljedeći broj pokušaja: %d.</item>
+        <item quantity="one">Netočan PIN kod SIM kartice. Preostao je još sljedeći broj pokušaja: %d. Nakon toga morat ćete se obratiti davatelju usluga da vam otključa uređaj.</item>
+        <item quantity="few">Netočan PIN kôd SIM kartice; imate još %d pokušaja.</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">Ovoliko aplikacija može čitati obavijesti: %d</item>
+        <item quantity="one">%d aplikacija može čitati obavijesti</item>
+        <item quantity="few">%d aplikacije mogu čitati obavijesti</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_minute">
+        <item quantity="other">Promijeni na alarme samo na %1$d min (do %2$s)</item>
+        <item quantity="one">Promijeni na \"Samo alarmi\" u trajanju od jedne minute do %2$s</item>
+        <item quantity="few">Promijeni na \"Samo alarmi\" u trajanju od %1$d minute (do %2$s)</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_hour">
+        <item quantity="other">Promijeni na alarme samo na %1$d h do %2$s</item>
+        <item quantity="one">Promijeni na \"Samo alarmi\" u trajanju od jedan sata do %2$s</item>
+        <item quantity="few">Promijeni na \"Samo alarmi\" u trajanju od %1$d sata do %2$s</item>
+    </plurals>
+    <plurals name="permissions_summary">
+        <item quantity="other">Danih dozvola: %d</item>
+        <item quantity="one">%d dopuštenje odobreno</item>
+        <item quantity="few">%d dopuštenja odobrena</item>
+    </plurals>
+    <plurals name="runtime_permissions_summary">
+        <item quantity="other">Danih dozvola: %1$d od %2$d</item>
+        <item quantity="one">%1$d od %2$d dopuštenja odobreno</item>
+        <item quantity="few">%1$d od %2$d dopuštenja odobreno</item>
+    </plurals>
+    <plurals name="runtime_permissions_additional_count">
+        <item quantity="other">Dodatnih dozvola: %d</item>
+        <item quantity="one">%d dodatno dopuštenje</item>
+        <item quantity="few">%d dodatna dopuštenja</item>
+    </plurals>
+    <plurals name="domain_urls_apps_summary">
+        <item quantity="other">%d aplikacija može otvoriti podržane veze</item>
+        <item quantity="zero">Nijedna aplikacija ne može otvoriti nijednu podržanu poveznicu</item>
+        <item quantity="one">Jedna aplikacija može otvoriti svoje podržane poveznice</item>
+        <item quantity="few">%d aplikacije mogu otvoriti podržane veze</item>
+    </plurals>
+    <plurals name="high_power_count">
+        <item quantity="other">Aplikacija kojima je dopušteno zanemariti optimizaciju baterije: %d</item>
+        <item quantity="one">1 aplikacija ima dopuštenje za zanemarivanje optimizacije baterije</item>
+        <item quantity="few">%d aplikacije imaju dopuštenje za zanemarivanje optimizacije baterije.</item>
+    </plurals>
+    <plurals name="memory_usage_apps_summary">
+        <item quantity="other">U zadnjih %2$s memoriju je koristilo ovoliko aplikacija: %1$d</item>
+        <item quantity="one">1 aplikacija upotrebljavala je memoriju unatrag %2$s</item>
+        <item quantity="few">%1$d aplikacije upotrebljavale su memoriju unatrag %2$s</item>
+    </plurals>
+    <plurals name="remaining_time_format_days">
+        <item quantity="other">%d d</item>
+        <item quantity="one">%ddan</item>
+    </plurals>
+    <plurals name="remaining_time_format_hours">
+        <item quantity="other">%d h</item>
+        <item quantity="one">%d sat</item>
+    </plurals>
+    <plurals name="stamina_xssm_add_applications_descr">
+        <item quantity="other">Aplikacija trenutno na popisu: %d</item>
+        <item quantity="one">%1$d aplikacija trenutno na popisu</item>
+    </plurals>
+    <plurals name="not_time_left_format_hours">
+        <item quantity="other">%d h</item>
+        <item quantity="one">%d h</item>
+    </plurals>
+    <plurals name="not_time_left_format_minutes">
+        <item quantity="other">%d min</item>
+        <item quantity="one">%d min</item>
+    </plurals>
+    <plurals name="xssm_settings_blacklist_summary_txt">
+        <item quantity="other">Odabrano aplikacija: %d</item>
+        <item quantity="one">Odabrana %d aplikacija</item>
+    </plurals>
+</resources>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="show_dev_countdown">
+        <item quantity="other">Agora estás a %1$d pasos de converterte en programador.</item>
+        <item quantity="one">Agora estás a %1$d paso de converterte en programador.</item>
+    </plurals>
+    <plurals name="security_settings_fingerprint_preference_summary">
+        <item quantity="other">Desbloqueo por impresión dixital activado</item>
+        <item quantity="one">Desbloqueo por impresión dixital activado</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_letters">
+        <item quantity="other">O contrasinal debe conter polo menos %d letras.</item>
+        <item quantity="one">O contrasinal debe conter polo menos 1 letra.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_lowercase">
+        <item quantity="other">O contrasinal debe conter polo menos %d letras minúsculas.</item>
+        <item quantity="one">O contrasinal debe conter polo menos 1 letra minúscula.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_uppercase">
+        <item quantity="other">O contrasinal debe conter polo menos %d letras maiúsculas.</item>
+        <item quantity="one">O contrasinal debe conter polo menos 1 letra maiúscula.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_numeric">
+        <item quantity="other">O contrasinal debe conter polo menos %d díxitos numéricos.</item>
+        <item quantity="one">O contrasinal debe conter polo menos 1 díxito numérico.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_symbols">
+        <item quantity="other">O contrasinal debe conter polo menos %d símbolos especiais.</item>
+        <item quantity="one">O contrasinal debe conter polo menos 1 símbolo especial.</item>
+    </plurals>
+    <plurals name="lockpassword_password_requires_nonletter">
+        <item quantity="other">O contrasinal debe conter polo menos %d caracteres que non sexan letras.</item>
+        <item quantity="one">O contrasinal debe conter polo menos 1 carácter que non sexa unha letra.</item>
+    </plurals>
+    <plurals name="wrong_pin_code">
+        <item quantity="other">Código PIN incorrecto, quedan %d intentos.</item>
+        <item quantity="one">Código PIN da SIM incorrecto, queda %d intento. Se falla, deberá poñerse en contacto co seu fornecedor de servizos para desbloquear o dispositivo.</item>
+    </plurals>
+    <plurals name="manage_notification_access_summary_nonzero">
+        <item quantity="other">%d aplicacións poden ler notificacións</item>
+        <item quantity="one">%d aplicación pode ler notificacións</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_minute">
+        <item quantity="other">Cambiar a alarmas só durante %1$d minutos (ata as %2$s)</item>
+        <item quantity="one">Cambiar a alarmas só durante un minuto ata as %2$s</item>
+    </plurals>
+    <plurals name="zen_mode_summary_alarms_only_by_hour">
+        <item quantity="other">Cambiar a alarmas só durante %1$d horas ata as %2$s</item>
+        <item quantity="one">Cambiar a alarmas só durante unha hora ata as %2$s</item>
+    </plurals>
+    <plurals name="permissions_summary">
+        <item quantity="other">%d permisos concedidos</item>
+        <item quantity="one">%d permiso concedido</item>
+    </plurals>
+    <plurals name="runtime_permissions_summary">
+        <item quantity="other">Concedéronse %1$d de %2$d permisos</item>
+        <item quantity="one">Concedeuse %1$d de %2$d permisos</item>
+    </plurals>
+    <plurals name="runtime_permissions_additional_count">
+        <item quantity="other">%d permisos adicionais</item>
+        <item quantity="one">%d permiso adicional</item>
+    </plurals>
+    <plurals name="domain_urls_apps_summary">
+        <item quantity="other">%d aplicacións poden abrir as súas ligazóns compatibles</item>
+        <item quantity="zero">Ningunha aplicación pode abrir a ligazón compatible</item>
+        <item quantity="one">Unha aplicación pode abrir as súas ligazóns compatibles</item>
+    </plurals>
+    <plurals name="high_power_count">
+        <item quantity="other">Permitíuselle ignorar a optimización de batería a %d aplicacións</item>
+        <item quantity="one">Permitiuse que 1 aplicación ignorase a optimización da batería</item>
+    </plurals>
+    <plurals name="memory_usage_apps_summary">
+        <item quantity="other">%1$d aplicacións empregaron a memoria nas últimas %2$s</item>
+        <item quantity="one">1 aplicación empregou a memoria nas últimas %2$s</item>
+    </plurals>
+    <plurals name="remaining_time_format_days">
+        <item quantity="other">%d días</item>
+        <item quantity="one">%d día</item>
+    </plurals>
+    <plurals name="remaining_time_format_hours">
+        <item quantity="other">%d horas</item>
+        <item quantity="one">%d hora</item>
+    </plurals>
+    <plurals name="stamina_xssm_add_applications_descr">
+        <item quantity="other">%d aplicacións actualmente na lista</item>
+        <item quantity="one">%1$d aplicación actualmente na lista</item>
+    </plurals>
+    <plurals name="not_time_left_format_hours">
+        <item quantity="other">%d horas</item>
+        <item quantity="one">%d hora</item>
+    </plurals>
+    <plurals name="not_time_left_format_minutes">
+        <item quantity="other">%d minutos</item>
+        <item quantity="one">%d minuto</item>
+    </plurals>
+    <plurals name="xssm_settings_blacklist_summary_txt">
+        <item quantity="other">%d apps seleccionadas</item>
+        <item quantity="one">%d app seleccionada</item>
+    </plurals>
+</resources>

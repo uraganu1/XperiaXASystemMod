@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="app_ops_summaries">
+        <item>якынчы урын</item>
+        <item>төгәл урын</item>
+        <item>GPS</item>
+        <item>тибрәнү</item>
+        <item>контактларны уку</item>
+        <item>контактларны үзгәртү</item>
+        <item>шалтыратулар журналын уку</item>
+        <item>шалтырату язмасын үзгәртү</item>
+        <item>календарьне уку</item>
+        <item>календарьне үзгәртү</item>
+        <item>WLAN тикшерү</item>
+        <item>белдерү</item>
+        <item>күзәнәкне сканерлау</item>
+        <item>телефонга шалтырату</item>
+        <item>SMS уку</item>
+        <item>SMS язу</item>
+        <item>SMS алу</item>
+        <item>каза SMS алу</item>
+        <item>MMS алу</item>
+        <item>WAP этүны алу</item>
+        <item>SMS җибәрү</item>
+        <item>ICC SMS уку</item>
+        <item>ICC SMS язу</item>
+        <item>параметрларны үзгәртү</item>
+        <item>өскә сөйрәү</item>
+        <item>керү искәрмәләре</item>
+        <item>камера</item>
+        <item>аудио яздыру</item>
+        <item>аудио уйнату</item>
+        <item>кэшны уку</item>
+        <item>кәшны үзгәртү</item>
+        <item>медиа төймәләре</item>
+        <item>аудио күзләү</item>
+        <item>төп тавыш көче</item>
+        <item>тавыш көче</item>
+        <item>шалтырату тавыш көче</item>
+        <item>медиа тавыш көче</item>
+        <item>кисәтү тавыш көче</item>
+        <item>белдерү тавыш көче</item>
+        <item>Bluetooth көче</item>
+        <item>йокламау</item>
+        <item>монитор урнашуы</item>
+        <item>югары энергия куллануны тикшерергә</item>
+        <item>куллану стат. алу</item>
+        <item>микрофонны тыю/җибәру</item>
+        <item>проект медиасы</item>
+        <item>VPN эшләтү</item>
+        <item>фон ясау</item>
+        <item>ярдәмче структура</item>
+        <item>ярдәмче скриншот</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_choices">
+        <item>WLAN челтәренә өстенлек бирелә</item>
+        <item>Кәрәзле элемтәгә өстенлек бирелә</item>
+    </string-array>
+    <string-array name="wapi_psk_type">
+        <item>WLAN ASCII</item>
+        <item>WLAN гексадецималь</item>
+    </string-array>
+</resources>

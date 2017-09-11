@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="powersaver_feature_bravia">Mobile BRAVIA Engine 끄기</string>
+    <string name="wifi_tether_settings_text">휴대용 Wi-Fi 핫스팟 설정</string>
+</resources>
