@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sip_call_options_wifi_only_title">Gunakan panggilan SIP (WLAN sahaja)</string>
+    <string name="registration_status_no_wifi_data">Pendaftaran akaun terhenti kerana tiada sambungan WLAN.</string>
+    <string name="no_wifi_available">Anda perlu disambungkan ke rangkaian WLAN bagi panggilan SIP(gunakan tetapan Wayarles &amp; Rangkaian).</string>
+    <string name="wifi_calling">Panggilan WLAN</string>
+    <string name="ota_skip_activation_dialog_message">Jika anda melangkau pengaktifan, anda tidak boleh membuat panggilan atau bersambung ke rangkaian data mudah alih (walaupun anda boleh bersambung ke rangkaian WLAN). Sehingga anda mengaktifkan telefon anda, anda akan diminta untuk mengaktifkannya setiap kali anda menghidupkannya.</string>
+    <string name="status_hint_label_incoming_wifi_call">Panggilan WLAN masuk</string>
+    <string name="status_hint_label_wifi_call">Panggilan WLAN</string>
+</resources>

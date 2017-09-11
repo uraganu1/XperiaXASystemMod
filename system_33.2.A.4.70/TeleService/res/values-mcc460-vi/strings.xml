@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sip_call_options_wifi_only_title">Sử dụng tính năng gọi SIP (chỉ WLAN)</string>
+    <string name="registration_status_no_wifi_data">Đăng ký tài khoản đã dừng do không có kết nối WLAN.</string>
+    <string name="no_wifi_available">Bạn cần kết nối với mạng WLAN để thực hiện các cuộc gọi SIP (sử dụng cài đặt Không dây và Mạng).</string>
+    <string name="data_service_except_mms_disabled_warning_txt">Bạn sẽ không thể sử dụng Internet, email hoặc các ứng dụng khác yêu cầu kết nối dữ liệu nữa trừ khi bạn sử dụng WLAN. Tắt kết nối dữ liệu di động?</string>
+    <string name="wifi_calling">Gọi qua WLAN</string>
+    <string name="ota_skip_activation_dialog_message">Nếu bạn bỏ qua kích hoạt, bạn không thể thực hiện cuộc gọi hoặc kết nối với mạng dữ liệu dành cho thiết bị di động (mặc dù bạn có thể kết nối với mạng WLAN). Cho tới khi bạn kích hoạt điện thoại của mình, bạn được yêu cầu kích hoạt điện thoại mỗi lần bạn bật điện thoại.</string>
+    <string name="status_hint_label_incoming_wifi_call">Cuộc gọi đến qua WLAN</string>
+    <string name="status_hint_label_wifi_call">Cuộc gọi qua WLAN</string>
+    <string name="vzw_phone_strings_msg_turn_off_md_connection_txt">"Bạn sẽ không thể sử dụng Internet, email hoặc các ứng dụng khác cần có kết nối dữ liệu, trừ khi bạn sử dụng WLAN.
+
+Tắt kết nối dữ liệu di động?"</string>
+</resources>

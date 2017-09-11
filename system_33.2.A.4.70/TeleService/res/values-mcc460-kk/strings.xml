@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sip_call_options_wifi_only_title">SIP қоңырауларын пайдалану (тек WLAN)</string>
+    <string name="registration_status_no_wifi_data">Есептік жазбаны тіркеу тоқтатылды, себебі WLAN байланысы жоқ.</string>
+    <string name="no_wifi_available">SIP қоңырауларын шалу үшін WLAN желісіне қосылу қажет («Сымсыз және желі параметрлері» тармағын пайдаланыңыз).</string>
+    <string name="data_service_except_mms_disabled_warning_txt">WLAN желісін пайдаланбасаңыз, интернетті, электрондық поштаны немесе басқа деректер байланысын қажет ететін басқа қолданбаларды пайдалана алмайсыз. Мобильді деректер байланысын өшіру керек пе?</string>
+    <string name="wifi_calling">WLAN қоңыраулары</string>
+    <string name="ota_skip_activation_dialog_message">Белсендіруді өткізіп жіберсеңіз, қоңыраулар шалу немесе мобильді деректер желілеріне қосылу мүмкін емес, бірақ WLAN желілеріне қосылуға болады. Телефонды белсендіргенше оны қосқан сайын белсендіру сұралады.</string>
+    <string name="status_hint_label_incoming_wifi_call">Кіріс WLAN қоңырауы</string>
+    <string name="status_hint_label_wifi_call">WLAN қоңырауы</string>
+    <string name="vzw_phone_strings_msg_turn_off_md_connection_txt">"WLAN желісін пайдаланбасаңыз, «Интернет», «Электрондық пошта» қолданбаларын немесе деректер байланысын қажет ететін басқа қолданбаларды пайдалана алмайсыз.
+
+Мобильді деректер байланысын өшіру керек пе?"</string>
+</resources>

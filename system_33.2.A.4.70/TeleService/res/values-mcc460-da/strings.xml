@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sip_call_options_wifi_only_title">Brug SIP-opkald (kun WLAN)</string>
+    <string name="registration_status_no_wifi_data">Kontotilmeldingen blev afbrudt, fordi der ikke er nogen WLAN-forbindelse</string>
+    <string name="no_wifi_available">Du skal have forbindelse til et WLAN-netværk for at kunne foretage SIP-opkald (brug Indstillinger for trådløs og netværk).</string>
+    <string name="data_service_except_mms_disabled_warning_txt">Medmindre du bruger WLAN, kan du ikke længere bruge internettet, mail eller andre apps, der kræver en dataforbindelse. Vil du slå den mobile dataforbindelse fra?</string>
+    <string name="wifi_calling">Opkald via WLAN</string>
+    <string name="ota_skip_activation_dialog_message">Hvis du springer aktiveringen over, kan du ikke foretage opkald eller oprette forbindelse til mobildatanetværk (du kan dog godt oprette forbindelse til WLAN-netværk). Du vil blive bedt om at aktivere din telefon, hver gang du tænder den, indtil du gør det.</string>
+    <string name="status_hint_label_incoming_wifi_call">Indgående WLAN-opkald</string>
+    <string name="status_hint_label_wifi_call">WLAN-opkald</string>
+    <string name="vzw_phone_strings_msg_turn_off_md_connection_txt">"Medmindre du bruger WLAN, kan du ikke bruge internettet, mail eller andre apps, der kræver en dataforbindelse.
+
+Vil du slå mobildataforbindelsen fra?"</string>
+</resources>

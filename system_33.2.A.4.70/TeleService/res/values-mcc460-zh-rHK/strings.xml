@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sip_call_options_wifi_only_title">使用SIP通話(僅限WLAN)</string>
+    <string name="registration_status_no_wifi_data">由於未連結 WLAN 網絡，帳戶的註冊已停止。</string>
+    <string name="no_wifi_available">您必須連接WLAN網絡，才能使用SIP通話(使用[無線網絡和網絡]設定)。</string>
+    <string name="data_service_except_mms_disabled_warning_txt">除非使用WLAN，否則您將無法繼續使用互聯網、電子郵件或其他需要數據連接的應用程式。是否要關閉流動數據連接？</string>
+    <string name="wifi_calling">WLAN 通話</string>
+    <string name="ota_skip_activation_dialog_message">如果略過啟動程序，您就無法撥打電話或是連上行動數據網絡(雖然可以連接至WLAN網絡)。除非您啟動手機，否則每次開機時，系統都會要求您啟動手機。</string>
+    <string name="status_hint_label_incoming_wifi_call">WLAN 來電</string>
+    <string name="status_hint_label_wifi_call">WLAN 通話</string>
+    <string name="vzw_phone_strings_msg_turn_off_md_connection_txt">"除非您使用WLAN，否則您將無法使用互聯網、電子郵件或需要數據連接的其他應用程式。
+
+是否關閉流動數據連接？"</string>
+</resources>

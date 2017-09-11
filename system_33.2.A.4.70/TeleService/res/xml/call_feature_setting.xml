@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/call_settings"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:phone="http://schemas.android.com/apk/res/com.android.phone">
+    <PreferenceCategory android:persistent="false" android:title="@string/sounds_and_vibration_title" android:key="button_ringtone_category_key">
+        <ListPreference android:entries="@array/dtmf_tone_length_entries" android:title="@string/dtmf_tone_length_title" android:key="button_dtmf_settings" android:entryValues="@array/dtmf_tone_length_entry_values" />
+    </PreferenceCategory>
+    <PreferenceCategory android:persistent="false" android:title="@string/other_settings" android:key="button_misc_category_key" />
+    <PreferenceScreen android:key="button_smart_call_handling_key">
+        <intent android:targetPackage="com.sonymobile.intelligent.gesture" android:targetClass="com.sonymobile.intelligent.gesture.PhoneGestureHelpActivity" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/phone_accounts" android:key="phone_account_settings_preference_screen">
+        <intent android:targetPackage="com.android.phone" android:targetClass="com.android.phone.settings.PhoneAccountSettingsActivity">
+            <extra android:name="called_from_call_feature_setting" android:value="true" />
+        </intent>
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/voicemail" android:key="button_voicemail_category_key" />
+    <PreferenceScreen android:persistent="false" android:title="@string/phone_strings_ans_mach_settings_app_bar_txt" android:key="button_answering_machine">
+        <intent android:targetPackage="com.android.server.telecom" android:action="android.intent.action.MAIN" android:targetClass="com.android.server.telecom.am.SomcAmSetting" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/phone_settings_prefix_setting_txt" android:key="generic_prefix">
+        <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.android.phone.SomcGenericPrefixSettings" />
+    </PreferenceScreen>
+    <PreferenceScreen android:persistent="false" android:title="@string/respond_via_sms_setting_title" android:key="button_respond_via_sms_key" android:summary="@string/respond_via_sms_setting_summary">
+        <intent android:targetPackage="com.android.server.telecom" android:action="android.intent.action.MAIN" android:targetClass="com.android.server.telecom.RespondViaSmsSettings" />
+    </PreferenceScreen>
+    <PreferenceScreen android:persistent="false" android:title="@string/phone_settings_call_blocking_txt" android:key="call_blocking">
+        <intent android:targetPackage="com.android.server.telecom" android:action="android.intent.action.MAIN" android:targetClass="com.android.server.telecom.SomcCallBlockingSettings" />
+    </PreferenceScreen>
+    <PreferenceScreen android:persistent="false" android:title="@string/fdn" android:key="button_fdn_key" android:summary="@string/sum_fdn" />
+    <PreferenceScreen android:title="@string/wifi_calling" android:key="@string/wifi_calling_settings_key">
+        <intent android:targetPackage="com.android.settings" android:action="android.intent.action.MAIN" android:targetClass="com.android.settings.Settings$WifiCallingSettingsActivity" />
+    </PreferenceScreen>
+    <SwitchPreference android:persistent="true" android:title="@string/enable_video_calling_title" android:key="button_enable_video_calling" android:defaultValue="true" />
+    <SwitchPreference android:persistent="false" android:title="@string/auto_retry_mode_title" android:key="button_auto_retry_key" android:summary="@string/auto_retry_mode_summary" />
+    <SwitchPreference android:title="@string/anc_title" android:key="button_anc_key" android:summary="@string/anc_on" android:defaultValue="true" />
+    <PreferenceScreen android:persistent="false" android:title="@string/labelGSMMore" android:key="button_gsm_more_expand_key" android:summary="@string/sum_gsm_call_settings" />
+    <PreferenceScreen android:persistent="false" android:title="@string/labelCDMAMore" android:key="button_cdma_more_expand_key" android:summary="@string/sum_cdma_call_settings" />
+    <PreferenceScreen android:title="@string/accessibility_settings_title" android:key="button_accessibility_key">
+        <intent android:targetPackage="com.android.phone" android:targetClass="com.android.phone.settings.AccessibilitySettingsActivity" />
+    </PreferenceScreen>
+    <SwitchPreference android:persistent="false" android:title="@string/sms_domain_title" android:key="button_sms_domain_key" android:summary="@string/sms_domain_summary_txt" />
+</PreferenceScreen>

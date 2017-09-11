@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sip_call_options_wifi_only_title">SIP çağrısı kullan (yalnızca WLAN)</string>
+    <string name="registration_status_no_wifi_data">Kablosuz bağlantı olmadığı için hesap kaydı durduruldu.</string>
+    <string name="no_wifi_available">SIP çağrıları için bir WLAN ağına bağlı olmalısınız (Kablosuz ve Ağ ayarlarını kullanın).</string>
+    <string name="data_service_except_mms_disabled_warning_txt">"WLAN kullanmıyorsanız, Internet'i, E-posta'yı veya veri bağlantısı gerektiren diğer uygulamaları artık kullanamazsınız. Mobil veri bağlantısı kapatılsın mı?"</string>
+    <string name="wifi_calling">Kablosuz çağrı</string>
+    <string name="ota_skip_activation_dialog_message">Etkinleştirmeyi atlarsanız, arama yapamaz veya mobil veri ağlarına bağlanamazsınız (yine de WLAN ağlarına bağlanabilirsiniz). Telefonunuzu etkinleştirinceye kadar, telefonu her açışınızda ürünü etkinleştirip etkinleştirmeyeceğiniz sorulur.</string>
+    <string name="status_hint_label_incoming_wifi_call">Gelen kablosuz çağrı</string>
+    <string name="status_hint_label_wifi_call">Kablosuz çağrı</string>
+    <string name="vzw_phone_strings_msg_turn_off_md_connection_txt">"WLAN ağına bağlanmadığınız sürece İnternet, e-posta veya veri bağlantısı gerektiren diğer uygulamaları kullanamazsınız.
+
+Mobil veri bağlantısı kapatılsın mı?"</string>
+</resources>

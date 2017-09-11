@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sip_call_options_wifi_only_title">استفاده از تماس SIP (فقط WLAN)</string>
+    <string name="registration_status_no_wifi_data">‏ثبت حساب به دلیل عدم وجود اتصال WLAN متوقف شد.</string>
+    <string name="no_wifi_available">‏برای تماس‌های SIP باید به یک شبکه WLAN وصل باشید (از تنظیمات بی‌سیم و شبکه استفاده کنید).</string>
+    <string name="data_service_except_mms_disabled_warning_txt">بدون وصل شدن به WLAN نمی توانید از اینترنت، ایمیل یا سایر برنامه هایی که نیاز به اتصال داده دارند، استفاده کنید. اتصال داده تلفن همراه خاموش شود؟</string>
+    <string name="wifi_calling">‏تماس از طریق WLAN</string>
+    <string name="ota_skip_activation_dialog_message">در صورت رد شدن از مرحله فعال سازی، نمی‌توانید تماسی برقرار کنید یا به شبکه‌های داده‌ای تلفن همراه متصل شوید (با این وجود می‌توانید به شبکه‌های WLAN متصل شوید). تا زمانی که گوشی خود را فعال نکنید، هر بار که تلفن را روشن می‌کنید از شما درخواست می‌شود آنرا فعال کنید.</string>
+    <string name="status_hint_label_incoming_wifi_call">‏تماس WLAN ورودی</string>
+    <string name="status_hint_label_wifi_call">‏تماس WLAN</string>
+    <string name="vzw_phone_strings_msg_turn_off_md_connection_txt">"تا زمانی که از WLAN استفاده نکنید، نمی‌توانید از اینترنت، ایمیل یا دیگر برنامه‌هایی که نیاز به اتصال داده دارند استفاده کنید.
+
+اتصال داده تلفن همراه خاموش شود؟"</string>
+</resources>

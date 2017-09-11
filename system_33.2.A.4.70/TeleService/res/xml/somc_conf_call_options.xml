@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:title="@string/conf_uri_menu_title"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:phone="http://schemas.android.com/apk/res/com.android.phone">
+    <com.android.phone.SomcEditConfUriPreference android:persistent="false" android:title="@string/conf_uri_title_sub" android:key="button_edit_conf_uri" />
+</PreferenceScreen>

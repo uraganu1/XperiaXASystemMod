@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.mediatek.settings.CallBarringBasePreference android:persistent="false" android:title="@string/call_barring_baoc" android:key="all_outing_key" android:summary="@string/sum_call_barring_disabled" />
+    <com.mediatek.settings.CallBarringBasePreference android:persistent="false" android:title="@string/call_barring_baoic" android:key="all_outing_international_key" android:summary="@string/sum_call_barring_disabled" />
+    <com.mediatek.settings.CallBarringBasePreference android:persistent="false" android:title="@string/call_barring_baoicr" android:key="all_outing_except_key" android:summary="@string/sum_call_barring_disabled" />
+    <com.mediatek.settings.CallBarringBasePreference android:persistent="false" android:title="@string/call_barring_baic" android:key="all_incoming_key" android:summary="@string/sum_call_barring_disabled" />
+    <com.mediatek.settings.CallBarringBasePreference android:persistent="false" android:title="@string/call_barring_baicr" android:key="all_incoming_except_key" android:summary="@string/sum_call_barring_disabled" />
+    <com.mediatek.settings.CallBarringResetPreference android:persistent="false" android:title="@string/call_barring_deactivate_all" android:key="deactivate_all_key" android:summary="@string/call_barring_deactivate_all_description" android:dialogMessage="@string/messageCallBarring" />
+    <com.mediatek.settings.CallBarringChangePassword android:persistent="false" android:title="@string/call_barring_change_pwd" android:key="change_password_key" android:summary="@string/call_barring_change_pwd_description" android:dialogTitle="@string/call_barring_change_pwd" />
+</PreferenceScreen>

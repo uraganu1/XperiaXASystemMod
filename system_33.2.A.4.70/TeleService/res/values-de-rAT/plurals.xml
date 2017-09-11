@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="phone_in_ecm_notification_time">
+        <item quantity="other">Keine Datenverbindung für %s Minuten</item>
+        <item quantity="one">Keine Datenverbindung für %s Minute</item>
+    </plurals>
+    <plurals name="alert_dialog_exit_ecm">
+        <item quantity="other">Telefon schaltet in Not-Rückrufmodus für %s Minuten. In diesem Modus können keine Anwendungen, die eine Datenverbindung benötigen, verwendet werden. Wollen Sie abbrechen?</item>
+        <item quantity="one">Telefon schaltet in Not-Rückrufmodus für %s Minute In diesem Modus können keine Apps, die eine Datenverbindung benötigen, verwendet werden. Wollen Sie abbrechen?</item>
+    </plurals>
+    <plurals name="alert_dialog_not_avaialble_in_ecm">
+        <item quantity="other">Die ausgewählte Aktion ist im Not-Rückrufmodus nicht verfügbar. Telefon schaltet in diesen Modus für %s Minuten. Wollen Sie abbrechen?</item>
+        <item quantity="one">Die ausgewählte Aktion ist im Not-Rückrufmodus nicht verfügbar. Telefon schaltet in diesen Modus für %s Minute. Wollen Sie abbrechen?</item>
+    </plurals>
+</resources>

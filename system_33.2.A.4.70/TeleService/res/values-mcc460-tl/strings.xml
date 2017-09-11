@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sip_call_options_wifi_only_title">Gamitin ang pagtawag sa SIP (WLAN lang)</string>
+    <string name="registration_status_no_wifi_data">Nahinto ang pagpaparehistro ng account dahil walang koneksyon sa WLAN.</string>
+    <string name="no_wifi_available">Kailangan mong maging konektado sa isang WLAN network para sa mga SIP call (gamitin ang mga setting ng Wireless at Network).</string>
+    <string name="data_service_except_mms_disabled_warning_txt">Maliban kung gumagamit ka ng WLAN, hindi mo na magagamit ang Internet, Email o iba pang apps na nangangailangan ng koneksyon ng data. Isara ang koneksyon ng data sa mobile?</string>
+    <string name="wifi_calling">Pagtawag sa pamamagitan ng WLAN</string>
+    <string name="ota_skip_activation_dialog_message">Kung lalaktawan mo ang pag-activate, hindi ka makakagawa ng mga tawag o makakakonekta sa mga mobile data network, ngunit makakakonekta ka sa mga WLAN network. Hanggang sa i-activate mo ang iyong telepono, hihilingin sa iyong i-activate ito sa bawat pagkakataon na i-on mo ito.</string>
+    <string name="status_hint_label_incoming_wifi_call">Papasok na tawag sa WLAN</string>
+    <string name="status_hint_label_wifi_call">Tawag sa WLAN</string>
+    <string name="vzw_phone_strings_msg_turn_off_md_connection_txt">"Maliban kung gumagamit ka ng WLAN, hindi mo magagamit ang Internet, email o iba pang mga app na nangangailangan ng data connection.
+
+I-off ang mobile data connection?"</string>
+</resources>

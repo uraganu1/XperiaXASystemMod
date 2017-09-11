@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sip_call_options_wifi_only_title">SIP அழைப்பைப் பயன்படுத்து (WLAN மட்டும்)</string>
+    <string name="registration_status_no_wifi_data">WLAN இணைப்பு இல்லாததால், கணக்குப் பதிவு நிறுத்தப்பட்டது.</string>
+    <string name="no_wifi_available">SIP அழைப்புகளுக்கு நீங்கள் ஒரு WLAN பிணையத்துடன் இணைக்கப்பட வேண்டும் (வயர்லெஸ் &amp; பிணைய அமைப்புகளைப் பயன்படுத்தவும்).</string>
+    <string name="data_service_except_mms_disabled_warning_txt">நீங்கள் WLAN -ஐ பயன்படுத்தாத வரை தரவு இணைப்பு தேவைப்படும் இணையம், மின்னஞ்சல், மற்றும் மற்ற பயன்பாடுகளை பயன்படுத்த முடியாது. மொபைல் தரவு இணைப்பை அணைக்கவா?</string>
+    <string name="wifi_calling">வைஃபை அழைப்பு</string>
+    <string name="ota_skip_activation_dialog_message">இயக்குவதை நீங்கள் தவிர்த்தால், நீங்கள் WLAN பிணையங்களுக்கு இணைத்தாலும், உங்களால் அழைப்புகளைச் செய்யவோ அல்லது கைபேசி தரவு பிணையங்களுக்கு இணைக்கவோ முடியாது. உங்கள் தொலைபேசியை நீங்கள் இயக்காதவரை, அதை நீங்கள் ஆன் செய்யும் ஒவ்வொரு நேரமும் அதை இயக்குமாறு நீங்கள் கேட்கப்படுவீர்கள்.</string>
+    <string name="status_hint_label_incoming_wifi_call">உள்வரும் வைஃபை அழைப்பு</string>
+    <string name="status_hint_label_wifi_call">வைஃபை அழைப்பு</string>
+    <string name="vzw_phone_strings_msg_turn_off_md_connection_txt">"நீங்கள் WLAN -ஐப் பயன்படுத்தினால் தவிர தரவு இணைப்பு தேவைப்படும் இணையம், மின்னஞ்சல் அல்லது மற்ற பயன்பாடுகளை உங்களால் பயன்படுத்த முடியாது.
+
+மொபைல் தரவு இணைப்பை அணைக்கவா?"</string>
+</resources>

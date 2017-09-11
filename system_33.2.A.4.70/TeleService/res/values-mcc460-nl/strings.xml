@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sip_call_options_wifi_only_title">SIP-oproepen gebruiken (alleen WLAN)</string>
+    <string name="registration_status_no_wifi_data">Accountregistratie gestopt omdat er geen wifi-verbinding is.</string>
+    <string name="no_wifi_available">Voor SIP-oproepen moet u verbinding hebben met een WLAN-netwerk (gebruik de instellingen bij Draadloos en netwerken).</string>
+    <string name="data_service_except_mms_disabled_warning_txt">Tenzij u WLAN gebruikt, kunt u niet langer gebruikmaken van internet, e-mail en andere apps waarvoor een gegevensverbinding is vereist. De mobiele gegevensverbinding uitschakelen?</string>
+    <string name="wifi_calling">Bellen via wifi</string>
+    <string name="ota_skip_activation_dialog_message">Als u de activering overslaat, kunt u niet bellen of verbinding maken met mobiele gegevensnetwerken (u kunt wel verbinding maken met WLAN-netwerken). Tot u de telefoon activeert, wordt u gevraagd deze te activeren telkens wanneer u de telefoon inschakelt.</string>
+    <string name="status_hint_label_incoming_wifi_call">Inkomende wifi-oproep</string>
+    <string name="status_hint_label_wifi_call">WLAN-oproep</string>
+    <string name="vzw_phone_strings_msg_turn_off_md_connection_txt">"U kunt internet, e-mail of andere apps waarvoor een gegevensverbinding nodig is, alleen gebruiken via WLAN.
+
+Mobiele gegevensverbinding uitschakelen?"</string>
+</resources>

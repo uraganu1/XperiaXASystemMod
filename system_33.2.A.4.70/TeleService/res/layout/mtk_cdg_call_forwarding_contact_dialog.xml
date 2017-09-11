@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?android:attr/textAppearanceMedium"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:title="@string/title_cf_option_phone_number" />
+    <TextView android:id="@id/dialog_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/edit_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <EditText android:id="@id/edt_contact" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:phoneNumber="true" android:layout_weight="1.0" />
+        <ImageButton android:id="@id/select_contact" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_add_contact_holo_dark" android:layout_marginEnd="10.0dip" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="end" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <Button android:id="@id/button_cancel" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@android:string/cancel" />
+        <Button android:id="@id/button_ok" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@android:string/ok" />
+    </LinearLayout>
+</LinearLayout>

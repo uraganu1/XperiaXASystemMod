@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sip_call_options_wifi_only_title">Զանգ SIP-ի միջոցով (միայն WLAN)</string>
+    <string name="registration_status_no_wifi_data">Հաշվի գրանցումը դադարեցվել է, քանի որ չկա WLAN կապ:</string>
+    <string name="no_wifi_available">SIP-ի միջոցով զանգեր կատարելու համար ձեզ անհրաժեշտ է կապակցվել WLAN ցանցին (օգտագործեք Անլար կապի և Ցանցի կարգավորումները):</string>
+    <string name="wifi_calling">Զանգեր WLAN-ի միջոցով</string>
+    <string name="ota_skip_activation_dialog_message">Եթե ​​դուք բաց թողնեք ակտիվացումը, դուք չեք կարող կատարել զանգեր կամ միանալ բջջային տվյալների ցանցերին (թեև դուք կարող եք միանալ WLAN ցանցերին): Մինչև դուք չակտիվացնեեք ձեր հեռախոսը, ձեզ հարցվելու է ակտիվացնել յուրաքանչյուր անգամ, երբ դուք միացնեք այն:</string>
+    <string name="status_hint_label_incoming_wifi_call">Մուտքային WLAN զանգ</string>
+    <string name="status_hint_label_wifi_call">Զանգ WLAN-ի միջոցով</string>
+</resources>

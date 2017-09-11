@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sip_call_options_wifi_only_title">Erabili SIP deiak (WLAN soilik)</string>
+    <string name="registration_status_no_wifi_data">Kontua erregistratzeko prozesua gelditu da ez dagoelako WLAN konexiorik.</string>
+    <string name="no_wifi_available">SIP deiak egiteko, WLAN sare batera konektatuta egon behar duzu (erabili Hari gabekoen eta sarearen ezarpenak).</string>
+    <string name="data_service_except_mms_disabled_warning_txt">WLAN eginbidea erabili ezean, ezin izango dituzu erabili Internet, posta elektronikoa edo datu konexioa eskatzen duten gainerako aplikazioak. Sare mugikorraren bidezko datu konexioa desaktibatu nahi duzu?</string>
+    <string name="wifi_calling">WLAN bidezko deiak</string>
+    <string name="ota_skip_activation_dialog_message">Aktibazioa saltatzen baduzu, ezingo duzu deirik egin edo datu mugikorren sareetara konektatu, baina WLAN sareetara konekta zaitezke. Telefonoa aktibatzen duzun arte, hura aktibatzeko eskatuko zaizu telefonoa pizten duzun bakoitzean.</string>
+    <string name="status_hint_label_incoming_wifi_call">Sarrerako WLAN deia</string>
+    <string name="status_hint_label_wifi_call">WLAN deia</string>
+    <string name="vzw_phone_strings_msg_turn_off_md_connection_txt">"WLAN konexioa erabili ezean, ezingo dituzu Internet, posta elektronikoa edo datu konexioa behar duten gainerako aplikazioak erabili.
+
+Datu mugikorren konexioa desaktibatu?"</string>
+</resources>

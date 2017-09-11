@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sip_call_options_wifi_only_title">Gunakan panggilan SIP (WLAN saja)</string>
+    <string name="registration_status_no_wifi_data">Pendaftaran akun terhenti karena tidak ada sambungan WLAN.</string>
+    <string name="no_wifi_available">Anda perlu tersambung ke jaringan WLAN untuk panggilan SIP (gunakan setelan Nirkabel &amp; Jaringan)</string>
+    <string name="data_service_except_mms_disabled_warning_txt">Kecuali menggunakan WLAN, Anda tidak akan bisa lagi menggunakan Internet, Email, atau aplikasi lain yang membutuhkan sambungan data. Matikan sambungan data seluler?</string>
+    <string name="wifi_calling">Panggilan WLAN</string>
+    <string name="ota_skip_activation_dialog_message">Jika Anda melewatkan aktivasi, Anda tidak dapat melakukan panggilan atau menyambung ke jaringan data seluler (walaupun dapat menyambung ke jaringan WLAN). Sampai ponsel diaktifkan, Anda akan diminta mengaktifkannya setiap kali ponsel dihidupkan.</string>
+    <string name="status_hint_label_incoming_wifi_call">Panggilan WLAN masuk</string>
+    <string name="status_hint_label_wifi_call">Panggilan WLAN</string>
+    <string name="vzw_phone_strings_msg_turn_off_md_connection_txt">"Hingga Anda menggunakan WLAN, Anda tidak bisa menggunakan Internet, email atau aplikasi lainnya yang memerlukan sambungan data.
+
+Nonaktifkan sambungan data seluler?"</string>
+</resources>

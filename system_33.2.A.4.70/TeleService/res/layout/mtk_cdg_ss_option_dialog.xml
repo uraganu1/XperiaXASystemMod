@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?android:attr/textAppearanceMedium"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/dialog_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <RadioGroup android:id="@id/ss_options" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RadioButton android:id="@id/ss_option_turn_on" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checked="true" android:text="@string/enable" />
+        <RadioButton android:id="@id/ss_option_turn_off" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/disable" />
+    </RadioGroup>
+    <LinearLayout android:layout_gravity="end" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <Button android:id="@id/button_cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@android:string/cancel" />
+        <Button android:id="@id/button_ok" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@android:string/ok" />
+    </LinearLayout>
+</LinearLayout>

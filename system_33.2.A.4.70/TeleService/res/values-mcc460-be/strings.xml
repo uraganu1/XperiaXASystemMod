@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sip_call_options_wifi_only_title">Выкарыстоўваць SIP-выклікі (толькі WLAN)</string>
+    <string name="registration_status_no_wifi_data">Рэгістрацыя ўліковага запісу спынена, бо адсутнічае WLAN-падлучэнне.</string>
+    <string name="no_wifi_available">Каб выконваць SIP-выклікі, неабходна падлучыцца да сеткі WLAN (выкарыстоўвайце налады Бесправадных і іншых сетак).</string>
+    <string name="data_service_except_mms_disabled_warning_txt">Калі вы не карыстаецеся WLAN, вы больш не будзеце мець магчымасць выкарыстоўваць інтэрнэт, электронныя лісты або іншыя праграмы, якія патрабуюць падлучэння да дадзеных. Выключыць падлучэнне для перадачы мабільных дадзеных?</string>
+    <string name="wifi_calling">Выклік праз WLAN</string>
+    <string name="ota_skip_activation_dialog_message">Калі прапусціць актывацыю, Вы не зможаце здзяйсняць выклікі або далучэнні да мабільных сетак перадачы даных (хаця Вы зможаце далучыцца да WLAN). Кожны раз пры ўключэнні тэлефона Вам будзе прапанавана актывіраваць яго.</string>
+    <string name="status_hint_label_incoming_wifi_call">Уваходны выклік па WLAN</string>
+    <string name="status_hint_label_wifi_call">Выклік па WLAN</string>
+    <string name="vzw_phone_strings_msg_turn_off_md_connection_txt">"Калі вы не падлучаны да сеткі WLAN, вы не зможаце карыстацца Інтэрнэтам, электроннай поштай і іншымі дадаткамі, якія патрабуюць падлучэння для перадачы дадзеных.
+
+Выключыць падлучэнне да мабільных дадзеных?"</string>
+</resources>

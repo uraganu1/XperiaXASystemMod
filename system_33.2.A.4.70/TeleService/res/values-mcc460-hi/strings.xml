@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sip_call_options_wifi_only_title">SIP कॉलिंग का उपयोग करें (केवल WLAN)</string>
+    <string name="registration_status_no_wifi_data">कोई WLAN कनेक्शन न होने के कारण खाता पंजीकरण रोका गया.</string>
+    <string name="no_wifi_available">SIP कॉल के लिए आपको WLAN नेटवर्क से कनेक्ट होना आवश्यक है (वायरलेस और नेटवर्क सेटिंग का उपयोग करें)।</string>
+    <string name="data_service_except_mms_disabled_warning_txt">जब तक आप WLAN उपयोग नहीं करेंगे, आप इंटरनेट, ई-मेल या अन्य एप्लिकेशन का उपयोग करने में सक्षम नहीं होंगे, इसके लिए डेटा कनेक्शन की आवश्यकता होती है. मोबाइल डेटा कनेक्शन बंद करें?</string>
+    <string name="wifi_calling">वाई-फ़ाई कॉलिंग</string>
+    <string name="ota_skip_activation_dialog_message">यदि आप सक्रियण छोड़ देते हैं, तो आप कॉल नहीं कर सकते या मोबाइल डेटा नेटवर्क से कनेक्ट (हालांकि आप WLAN नेटवर्क से कनेक्ट हो सकते हैं) नहीं हो सकते हैं. जब तक आप अपने फ़ोन को सक्रिय नहीं करते, आपको प्रत्येक बार उसे चालू करने पर उसे सक्रिय करने के लिए कहा जाएगा.</string>
+    <string name="status_hint_label_incoming_wifi_call">इनकमिंग वाई-फ़ाई कॉल</string>
+    <string name="status_hint_label_wifi_call">वाई-फ़ाई कॉल</string>
+    <string name="vzw_phone_strings_msg_turn_off_md_connection_txt">"जब तक आप WLAN का उपयोग नहीं करेंगे, तब तक आप इंटरनेट, ईमेल या डेटा कनेक्शन की आवश्यकता वाले अन्य अनुप्रयोगों का उपयोग करने में सक्षम नहीं होंगे।
+
+मोबाइल डेटा कनेक्शन बंद करें?"</string>
+</resources>

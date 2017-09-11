@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sip_call_options_wifi_only_title">SIP কলিং ব্যবহার করুন (শুধুমাত্র WLAN)</string>
+    <string name="registration_status_no_wifi_data">কোনো WLAN সংযোগ না থাকায় অ্যাকাউন্ট নিবন্ধন করা বন্ধ হয়ে গেছে৷</string>
+    <string name="no_wifi_available">SIP কলগুলি করার জন্য আপনাকে একটি WLAN নেটওয়ার্কের সাথে সংযুক্ত হতে হবে (ওয়ারলেস নেটওয়ার্ক সেটিংস ব্যবহার করুন)৷</string>
+    <string name="wifi_calling">WLAN কলিং</string>
+    <string name="ota_skip_activation_dialog_message">যদি আপনি সক্রিয়করণকে উপেক্ষা করেন, তাহলে আপনি কল করতে অথবা মোবাইল ডেটা নেটওয়ার্কগুলির সাথে সংযোগ স্থাপন করতে পারবেন না (যদিও আপনি WLAN নেটওয়ার্কগুলির সাথে সংযুক্ত হতে পারছেন)৷ যতক্ষণ না আপনি আপনার ফোন সক্রিয় করছেন, ততক্ষণ যখনই আপনি এটি চালু করবেন তখনই আপনাকে এটি সক্রিয় করতে বলা হবে৷</string>
+    <string name="status_hint_label_incoming_wifi_call">আগত WLAN কল</string>
+    <string name="status_hint_label_wifi_call">WLAN কল</string>
+</resources>

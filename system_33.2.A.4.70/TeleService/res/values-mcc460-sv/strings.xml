@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sip_call_options_wifi_only_title">Använd SIP-samtal (endast WLAN)</string>
+    <string name="registration_status_no_wifi_data">Kontoregistreringen avbröts eftersom det inte finns någon WLAN-anslutning.</string>
+    <string name="no_wifi_available">Du måste vara ansluten till ett WLAN-nätverk för att ringa SIP-samtal (använd inställningarna under Trådlöst och nätverk).</string>
+    <string name="data_service_except_mms_disabled_warning_txt">Om du inte använder WLAN kan du inte längre använda Internet, mejl eller andra program som kräver en dataanslutning. Stänga av mobildataanslutningen?</string>
+    <string name="wifi_calling">WLAN-samtal</string>
+    <string name="ota_skip_activation_dialog_message">Om du hoppar över aktiveringen kan du inte ringa samtal eller ansluta till mobila datanätverk (men du kan ansluta till WLAN-nätverk). Du kommer att påminnas om att aktivera telefonen varje gång du sätter på den, tills du har aktiverat den.</string>
+    <string name="status_hint_label_incoming_wifi_call">Inkommande WLAN-samtal</string>
+    <string name="status_hint_label_wifi_call">WLAN-samtal</string>
+    <string name="vzw_phone_strings_msg_turn_off_md_connection_txt">"Om du inte använder WLAN kommer du inte att kunna använda internet, e-post eller andra appar som kräver en dataanslutning.
+
+Vill du stänga av mobildataanslutningen?"</string>
+</resources>

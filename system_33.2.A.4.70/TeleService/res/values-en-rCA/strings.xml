@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="disable_cfb_forbidden">Your service provider does not support disabling call forwarding when your phone is busy.</string>
+    <string name="disable_cfnry_forbidden">"Your service provider does not support disabling call forwarding when your phone doesn't answer."</string>
+    <string name="saving_account">Saving the account…</string>
+    <string name="registration_status_registering">Registering…</string>
+    <string name="registration_status_still_trying">Still trying…</string>
+    <string name="registration_status_failed_try_later">Account registration unsuccessful: (%s); will try later</string>
+    <string name="third_party_account_summary">This account is currently in use by the %s app.</string>
+    <string name="empty_alert">"%s is required and can't be left blank."</string>
+    <string name="no_internet_available">To place a SIP call, check your Internet connection first.</string>
+    <string name="callFailed_out_of_network">Out‑of‑network call</string>
+    <string name="callFailed_outOfService">Cellular network not available</string>
+    <string name="call_barring_right_pwd_number">Enter a password with 4 numbers</string>
+    <string name="phone_settings_prefix_max_dialog_text_txt">Maximum of 6 prefixes supported. Delete some unused items or edit one existing item directly.</string>
+    <string name="global_strings_attention_dialog_title_txt">Note</string>
+    <string name="phone_strings_puk2_locked_txt">PUK2 locked. Contact your service provider to unlock.</string>
+    <string name="phone_strings_fdn_delete_fail_txt">Could not delete fixed dialing contact</string>
+    <string name="phone_string_equalizer_title_txt">Equalizer</string>
+    <string name="phone_settings_dialog_tips_txt">"Don't show this again"</string>
+    <string name="phone_strings_ans_mach_activate_dialog_txt">"Answering Machine differs from the voicemail service provided by your operator. This feature picks up incoming calls for you, plays your specified greeting, and records callers' messages on your Xperia™.
+
+*Answering Machine is unavailable when the device is in airplane mode or out of network coverage.
+*At least one greeting must be recorded before use."</string>
+    <string name="phone_strings_ans_mach_activate_dialog_preset_txt">"Answering Machine differs from the voicemail service provided by your operator. This feature picks up incoming calls for you, plays your specified greeting, and records callers' messages on your Xperia™.
+
+*Answering Machine is unavailable when the device is in airplane mode or out of network coverage."</string>
+    <string name="phone_strings_ans_mach_first_activation_txt">"Answering Machine differs from %s. This feature picks up incoming calls for you, plays your specified greeting, and records callers' messages on your Xperia™.
+
+*Answering Machine is unavailable when the device is in airplane mode or out of network coverage.
+At least one greeting must be recorded before use."</string>
+    <string name="phone_strings_ans_mach_first_activation_preset_txt">"Answering Machine differs from %s. This feature picks up incoming calls for you, plays your specified greeting, and records callers' messages on your Xperia™.
+
+*Answering Machine is unavailable when the device is in airplane mode or out of network coverage."</string>
+    <string name="phone_strings_ans_mach_vm_service_default_txt">the voicemail service provided by your operator</string>
+    <string name="phone_string_noise_suppression_popup_enabled">Note that microphone noise suppression works only when you talk directly in the phone, not when you use the speaker or a headset.</string>
+    <string name="phone_string_noise_suppression_popup_disabled">Microphone noise suppression turned off.</string>
+    <string name="fdnListLabel">Fixed dialing numbers</string>
+    <string name="mmiCancelled">MMI code canceled</string>
+    <string name="enter_input" formatted="false">USSD message must be between %d and %d characters. Please try again.</string>
+    <string name="no_vm_number_msg">No voicemail number is saved on the SIM card.</string>
+    <string name="requesting_unlock">Requesting network unlock…</string>
+    <string name="sp_unlock_failed">Service provider unlock request unsuccessful.</string>
+    <string name="sp_unlock_success">Service provider unlock successful.</string>
+    <string name="labelGsmMore_with_label">GSM call settings (%s)</string>
+    <string name="labelCdmaMore_with_label">CDMA call settings (%s)</string>
+    <string name="wifi_calling">Wi-Fi calling</string>
+    <string name="voicemail_settings_with_label">Voicemail (%s)</string>
+    <string name="networks">Service providers</string>
+    <string name="additional_gsm_call_settings_with_label">Additional settings (%s)</string>
+    <string name="sum_gsm_call_settings">Additional GSM only call settings</string>
+    <string name="sum_cdma_call_settings">Additional CDMA only call settings</string>
+    <string name="sum_default_caller_id">Use default service provider settings to show my number in outgoing calls</string>
+    <string name="call_forwarding_settings">Call Forwarding</string>
+    <string name="call_forwarding_settings_with_label">Call forwarding settings (%s)</string>
+    <string name="fdn_check_failure">Fixed dialing is activated. Some call related features may not work.</string>
+    <string name="load_networks_progress">Searching…</string>
+    <string name="register_on_network">Registering on %s…</string>
+    <string name="not_allowed">Could not connect to the selected network. Make sure the SIM card is inserted or the selected network is available.</string>
+    <string name="sum_carrier_select">Select a service provider</string>
+    <string name="preferred_network_mode_lte_gsm_umts_summary">Preferred network mode: LTE / GSM / UMTS</string>
+    <string name="preferred_network_mode_lte_cdma_summary">Preferred network mode: LTE / CDMA</string>
+    <string name="gsm_umts_options">GSM/UMTS Options</string>
+    <string name="cdma_options">CDMA Options</string>
+    <string name="throttle_status_subtext">"%1$s (%2$d٪) of %3$s period maximum
+Next period starts in %4$d days (%5$s)"</string>
+    <string name="throttle_data_usage_subtext">%1$s (%2$d٪) of %3$s period maximum</string>
+    <string name="throttle_data_rate_reduced_subtext">"%1$s maximum exceeded
+Data rate reduced to %2$d Kb/s"</string>
+    <string name="throttle_time_frame_subtext">"%1$d٪ of cycle elapsed
+Next period starts in %2$d days (%3$s)"</string>
+    <string name="throttle_help_subtext">"More information about your service provider's mobile network data use policy"</string>
+    <string name="sports_news_settings">Sports News</string>
+    <string name="fdn">Fixed dialing numbers</string>
+    <string name="fdn_with_label">Fixed Dialing Numbers (%s)</string>
+    <string name="manage_fdn_list">Fixed dialing numbers</string>
+    <string name="fdn_list_with_label">FDN list (%s)</string>
+    <string name="fdn_activation">Activate fixed dialing</string>
+    <string name="fdn_enabled">Fixed dialing activated</string>
+    <string name="fdn_disabled">Fixed dialing deactivated</string>
+    <string name="enable_fdn">Activate fixed dialing</string>
+    <string name="disable_fdn">Deactivate fixed dialing</string>
+    <string name="enable_fdn_ok">Deactivate fixed dialing</string>
+    <string name="disable_fdn_ok">Activate fixed dialing</string>
+    <string name="sum_fdn">Manage fixed dialing numbers</string>
+    <string name="sum_fdn_change_pin">Change PIN for fixed dialing access</string>
+    <string name="add_fdn_contact">Add fixed dialing contact</string>
+    <string name="adding_fdn_contact">Adding fixed dialing contact</string>
+    <string name="fdn_contact_added">Fixed dialing contact added</string>
+    <string name="edit_fdn_contact">Edit fixed dialing contact</string>
+    <string name="updating_fdn_contact">Updating fixed dialing contact</string>
+    <string name="fdn_contact_updated">Fixed dialing contact updated</string>
+    <string name="delete_fdn_contact">Delete fixed dialing contact</string>
+    <string name="deleting_fdn_contact">Deleting fixed dialing contact</string>
+    <string name="fdn_contact_deleted">Fixed dialing contact deleted</string>
+    <string name="enable_in_progress">Setting PIN…</string>
+    <string name="badPuk2">The PUK2 you entered is not correct. Please try again.</string>
+    <string name="badPin2">The old PIN2 you entered is not correct. Please try again.</string>
+    <string name="invalidPin2">Enter a PIN2 that is 4 to 8 numbers.</string>
+    <string name="invalidPuk2">Enter a PUK2 that is 8 numbers.</string>
+    <string name="label_puk2_code">Enter PUK2 code</string>
+    <string name="fdn_enable_puk2_requested">Password incorrect. PIN2 now Blocked. To try again, change PIN 2.</string>
+    <string name="pin2_attempts">"
+You have %d remaining attempts."</string>
+    <string name="card_title_redialing">Redialing</string>
+    <string name="incall_error_out_of_service_wfc">Cellular network is not available. Connect to a wireless network to make a call.</string>
+    <string name="incall_error_no_phone_number_supplied">To place a call, enter a valid number.</string>
+    <string name="emergency_enable_radio_dialog_retry">No service. Trying again…</string>
+    <string name="onscreenShowDialpadText">Dialpad</string>
+    <string name="dtmf_tones_summary">Set length of DTMF tones</string>
+    <string name="ota_skip_activation_dialog_title">Skip activation?</string>
+    <string name="ota_skip_activation_dialog_message">"If you skip activation, you can't place calls or connect to mobile data networks, though you can connect to Wi-Fi networks. Until you activate your phone, you are asked to activate it each time you turn it on."</string>
+    <string name="ota_progress">Programming your phone…</string>
+    <string name="ota_successful">Your phone is now activated. It may take up to 15 minutes for service to start.</string>
+    <string name="phone_entered_ecm_text">Entered Emergency callback mode</string>
+    <string name="progress_dialog_exiting_ecm">Exiting Emergency callback mode</string>
+    <string name="callFailed_cdma_activation">"A SIM card has activated your service and updated your phone's roaming capabilities."</string>
+    <string name="callsetting_strings_forward_when_busy_des_txt">Activate call forwarding service (busytone)</string>
+    <string name="callsetting_strings_voicemail_activate_voicemail1_des_txt">Activate voicemail service (busytone or no reply)</string>
+    <string name="callsetting_strings_voicemail_activate_voicemail2_des_txt">Activate voicemail service (no reply)</string>
+    <string name="callsetting_strings_voicemail_deactivate_des_txt">Deactivate voicemail service</string>
+    <string name="callsetting_strings_voicemail_play_messages_txt">Play voicemail</string>
+    <string name="kddi_phone_settings_block_calls_setting_summary_txt">Block calls based on call types you specify</string>
+    <string name="kddi_phone_settings_payphone_summary_txt">Block calls from pay phones</string>
+    <string name="kddi_phone_settings_payphone_txt">Pay phone</string>
+    <string name="kddi_phone_settings_prefix_max_dialog_text_txt">Maximum of 6 prefixes supported. Delete some unused items or edit one existing item directly.</string>
+    <string name="prl_strings_prl_update_popup_tablet_txt">"To update your Preferred Roaming List (PRL), you must log in to your account at au Customer Support. (You will be redirected to the page.)
+Additional data charges may apply depending on your data plan."</string>
+    <string name="prl_strings_prl_update_popup_txt">To update your Preferred Roaming List (PRL), call *5050 (toll free).</string>
+    <string name="label_rhrpd">RUIM hrpd unlock PIN</string>
+    <string name="requesting_rnw1_unlock">Requesting RUIM network1 unlock…</string>
+    <string name="requesting_rnw2_unlock">Requesting RUIM network2 unlock…</string>
+    <string name="requesting_rhrpd_unlock">Requesting RUIM hrpd unlock…</string>
+    <string name="requesting_rsp_unlock">Requesting RUIM service provider unlock…</string>
+    <string name="requesting_rc_unlock">Requesting RUIM corporate unlock…</string>
+    <string name="requesting_ruim_unlock">Requesting RUIM unlock…</string>
+    <string name="requesting_puk_unlock">Requesting PUK unlock…</string>
+    <string name="rhrpd_unlock_failed">RUIM Hrpd unlock request unsuccessful.</string>
+    <string name="rhrpd_unlock_success">RUIM Hrpd unlock successful.</string>
+    <string name="vibrate_after_connected_title">Vibrating after connected</string>
+    <string name="vibrate_after_connected_summary">Vibrate when answers</string>
+</resources>

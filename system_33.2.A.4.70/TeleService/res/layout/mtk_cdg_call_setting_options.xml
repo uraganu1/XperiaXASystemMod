@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen android:title="@string/labelCF" android:key="cdg_call_forwarding" />
+    <PreferenceScreen android:title="@string/labelCW" android:key="cdg_call_waiting" />
+    <PreferenceScreen android:title="@string/cdma_label_do_not_disturb" android:key="cdg_do_not_disturb" />
+    <PreferenceScreen android:title="@string/cdma_label_voice_message_retrieve" android:key="cdg_voice_message_retrieve" />
+    <PreferenceScreen android:persistent="false" android:title="@string/ecc_title" android:key="cdg_customized_ecc_key">
+        <intent android:targetPackage="com.android.phone" android:action="android.intent.action.MAIN" android:targetClass="com.mediatek.settings.cdg.CdgEccList" />
+    </PreferenceScreen>
+</PreferenceScreen>

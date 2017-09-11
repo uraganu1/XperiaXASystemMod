@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sip_call_options_wifi_only_title">Utilizar chamadas SIP (só coa wifi)</string>
+    <string name="registration_status_no_wifi_data">O rexistro da conta detívose debido a que non hai conexión wifi.</string>
+    <string name="no_wifi_available">Tes que estar conectado a unha rede wifi para facer chamadas SIP (utiliza a configuración de Sen fíos e rede).</string>
+    <string name="wifi_calling">Chamadas por wifi</string>
+    <string name="ota_skip_activation_dialog_message">Se omites a activación, non poderás realizar chamadas nin conectarte a redes de datos móbiles, pero poderás conectarte a redes wifi. Ata que non actives o teléfono, pediráseche que o actives cada vez que o acendas.</string>
+    <string name="status_hint_label_incoming_wifi_call">Chamada wifi entrante</string>
+    <string name="status_hint_label_wifi_call">Chamada wifi</string>
+</resources>

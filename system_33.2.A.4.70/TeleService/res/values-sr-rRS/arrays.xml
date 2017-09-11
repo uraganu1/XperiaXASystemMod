@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="preferred_network_mode_choices_world_mode">
+        <item>Globalno</item>
+        <item>LTE / CDMA</item>
+        <item>LTE / GSM / UMTS</item>
+    </string-array>
+    <string-array name="clir_display_values">
+        <item>Podrazumevana mreža</item>
+        <item>Sakrij broj</item>
+        <item>Prikaži broj</item>
+    </string-array>
+    <string-array name="preferred_network_mode_choices">
+        <item>TD-SCDMA/LTE/CDMA/EVDO/GSM/WCDMA</item>
+        <item>TD-SCDMA/GSM/WCDMA/CDMA/EVDO</item>
+        <item>TD-SCDMA/GSM/WCDMA/LTE</item>
+        <item>TD-SCDMA/WCDMA/LTE</item>
+        <item>TD-SCDMA/GSM/WCDMA</item>
+        <item>TD-SCDMA/GSM/LTE</item>
+        <item>TD-SCDMA/GSM</item>
+        <item>TD-SCDMA/LTE</item>
+        <item>TD-SCDMA/WCDMA</item>
+        <item>Samo TD-SCDMA</item>
+        <item>LTE / WCDMA</item>
+        <item>LTE</item>
+        <item>Globalno</item>
+        <item>GSM/WCDMA/LTE</item>
+        <item>CDMA + LTE/EvDo</item>
+        <item>CDMA/EvDo/GSM/WCDMA</item>
+        <item>Samo EvDo</item>
+        <item>CDMA bez EvDo</item>
+        <item>CDMA/EvDo automatski</item>
+        <item>GSM/WCDMA automatski</item>
+        <item>Samo WCDMA</item>
+        <item>Samo GSM</item>
+        <item>GSM/WCDMA ima prednost</item>
+    </string-array>
+    <string-array name="list_language_entries">
+        <item>engleski</item>
+        <item>francuski</item>
+        <item>španski</item>
+        <item>japanski</item>
+        <item>korejski</item>
+        <item>kineski</item>
+        <item>hebrejski</item>
+    </string-array>
+    <string-array name="cdma_system_select_choices">
+        <item>Samo kod kuće</item>
+        <item>Automatski</item>
+    </string-array>
+    <string-array name="tty_mode_entries">
+        <item>TTY isključen</item>
+        <item>TTY kompletno</item>
+        <item>TTY HCO</item>
+        <item>TTY VCO</item>
+    </string-array>
+    <string-array name="dtmf_tone_entries">
+        <item>Normalno</item>
+        <item>Dugačko</item>
+    </string-array>
+    <string-array name="dtmf_tone_length_entries">
+        <item>Normalno</item>
+        <item>Dugačko</item>
+    </string-array>
+    <string-array name="uplmn_prefer_network_mode_td_choices">
+        <item>GSM</item>
+        <item></item>
+        <item>LTE</item>
+        <item>Trostruki režim</item>
+    </string-array>
+    <string-array name="call_barring_outgoing_display_values">
+        <item>Isključi</item>
+        <item>Međunarodni poziv u romingu</item>
+        <item>Međunarodni poziv</item>
+        <item>Odlazni poziv</item>
+    </string-array>
+    <string-array name="call_barring_incoming_display_values">
+        <item>Isključi</item>
+        <item>Roming</item>
+        <item>Sve</item>
+    </string-array>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sip_call_options_wifi_only_title">Naudoti skambinimą per SIP (tik „WLAN“)</string>
+    <string name="registration_status_no_wifi_data">Paskyros registracija sustabdyta, nes neprisijungta prie „WLAN“.</string>
+    <string name="no_wifi_available">Norint skambinti per SIP reikia prisijungti prie „WLAN“ ryšio tinklo (eikite į belaidžio ryšio ir tinklo nustatymus).</string>
+    <string name="data_service_except_mms_disabled_warning_txt">Jei nenaudosite „WLAN“, nebegalėsite naudotis internetu, el. paštu arba kitomis programomis, kurioms reikalingas duomenų ryšys. Išjungti mobilųjį duomenų ryšį?</string>
+    <string name="wifi_calling">„WLAN“ skambinimas</string>
+    <string name="ota_skip_activation_dialog_message">Jei praleisite aktyvinimą, negalėsite skambinti ar prisijungti prie mobilių duomenų tinklų (nors ir galite prisijungti prie „WLAN“ tinklų). Iki tol, kol suaktyvinsite telefoną, aktyvinkite jį kaskart jį įjungdami.</string>
+    <string name="status_hint_label_incoming_wifi_call">Gaunamasis „WLAN“ skamb.</string>
+    <string name="status_hint_label_wifi_call">„WLAN“ skambutis</string>
+    <string name="vzw_phone_strings_msg_turn_off_md_connection_txt">"Negalėsite naudotis internetu, el. paštu ir kitomis programomis, kurioms įjungti reikalingas duomenų ryšys, nebent naudosite „WLAN“ tinklą.
+
+Išjungti mobiliųjų duomenų ryšį?"</string>
+</resources>

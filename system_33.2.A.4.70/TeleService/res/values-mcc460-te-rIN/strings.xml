@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sip_call_options_wifi_only_title">SIP కాలింగ్‌ను (WLAN మాత్రమే) ఉపయోగించండి</string>
+    <string name="registration_status_no_wifi_data">WLAN కనెక్షన్ లేని కారణంగా ఖాతా నమోదు ఆపివేయబడింది.</string>
+    <string name="no_wifi_available">మీరు SIP కాల్‌లు చేయడం కోసం WLAN నెట్‌వర్క్‌కు కనెక్ట్ అవ్వడం అవసరం (వైర్‌లెస్ &amp; నెట్‌వర్క్ సెట్టింగ్‌లను ఉపయోగించండి).</string>
+    <string name="wifi_calling">WLAN కాలింగ్</string>
+    <string name="ota_skip_activation_dialog_message">మీరు సక్రియం చేయడాన్ని దాటవేస్తే, కాల్‌లు చేయలేరు లేదా మొబైల్ డేటా నెట్‌వర్క్‌లకు కనెక్ట్ చేయలేరు (మీరు WLAN నెట్‌వర్క్‌లకు కనెక్ట్ చేయగలిగినప్పటికీ). మీరు మీ ఫోన్‌ను సక్రియం చేసేవరకు, దాన్ని ప్రారంభించే ప్రతిసారీ సక్రియం చేయమని మిమ్మల్ని అడుగుతుంది.</string>
+    <string name="status_hint_label_incoming_wifi_call">ఇన్‌కమింగ్ WLAN కాల్</string>
+    <string name="status_hint_label_wifi_call">WLAN కాల్</string>
+</resources>

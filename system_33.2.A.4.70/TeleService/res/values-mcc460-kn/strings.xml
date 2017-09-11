@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sip_call_options_wifi_only_title">SIP ಕರೆ ಮಾಡುವಿಕೆ ಬಳಸಿ (WLAN ಮಾತ್ರ)</string>
+    <string name="registration_status_no_wifi_data">WLAN ಸಂಪರ್ಕವಿಲ್ಲದ ಕಾರಣ ಖಾತೆ ನೋಂದಣಿಯನ್ನು ನಿಲ್ಲಿಸಲಾಗಿದೆ.</string>
+    <string name="no_wifi_available">SIP‌ ಕರೆಗಳಿಗಾಗಿ ನೀವು WLAN ನೆಟ್‌ವರ್ಕ್‌ ಸಂಪರ್ಕಗೊಂಡಿರಬೇಕಾದ ಅಗತ್ಯವಿದೆ (ವೈರ್‌ಲೆಸ್‌‌‌ &amp; ನೆಟ್‌ವರ್ಕ್‌ ಸಂಯೋಜನೆಗಳನ್ನು ಬಳಸಿ).</string>
+    <string name="data_service_except_mms_disabled_warning_txt">ನೀವು WLAN ಬಳಸದ ಹೊರತು, ನಿಮಗೆ ಡೇಟಾ ಸಂಪರ್ಕವು ಅಗತ್ಯವಾಗಿರುವ ಇಂಟರ್ನೆಟ್, ಇಮೇಲ್ ಅಥವಾ ಇತರ ಆಪ್‌ಗಳನ್ನು ಬಳಸಲು ಸಾಧ್ಯವಾಗುವುದಿಲ್ಲ. ಮೊಬೈಲ್ ಡೇಟಾ ಸಂಪರ್ಕವನ್ನು ಆಫ್ ಮಾಡುವುದೇ?</string>
+    <string name="wifi_calling">WLAN ಕರೆ ಮಾಡುವಿಕೆ</string>
+    <string name="ota_skip_activation_dialog_message">ನೀವು ಸಕ್ರಿಯಗೊಳಿಸುವಿಕೆಯನ್ನು ತಪ್ಪಿಸಿದರೆ ನೀವು ಕರೆ ಮಾಡಬಹುದು ಅಥವಾ ಮೊಬೈಲ್ ಡೇಟಾ ನೆಟ್‌ವರ್ಕ್‌ಗೆ ಸಂಪರ್ಕಿಸಬಹುದಾದರೂ WLAN ನೆಟ್‌ವರ್ಕ್‌ಗಳಿಗೂ ಸಂಪರ್ಕಿಸಬಹುದಾಗಿದೆ. ನಿಮ್ಮ ಫೋನ್ ಸಕ್ರಿಯಗೊಳಿಸವವರೆಗೆ, ನೀವು ಪ್ರತಿ ಬಾರಿ ಅದನ್ನು ಆನ್ ಮಾಡಿದಾಗಲೂ ಅದನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಲು ಕೇಳಲಾಗುತ್ತದೆ.</string>
+    <string name="status_hint_label_incoming_wifi_call">ಒಳಬರುವ WLAN ಕರೆ</string>
+    <string name="status_hint_label_wifi_call">ವೈ-ಫೈ ಕರೆ</string>
+    <string name="vzw_phone_strings_msg_turn_off_md_connection_txt">"ನೀವು WLAN ಬಳಸದ ಹೊರತು, ಡೇಟಾ ಸಂಪರ್ಕ ಅಗತ್ಯವಿರುವ ಇಂಟರ್ನೆಟ್, ಇಮೇಲ್ ಅಥವಾ ಇತರ ಆಪ್‌ಗಳನ್ನು ಬಳಸಲು ನಿಮಗೆ ಸಾಧ್ಯವಾಗುವುದಿಲ್ಲ.
+
+ಮೊಬೈಲ್ ಡೇಟಾ ಸಂಪರ್ಕ ಆಫ್ ಮಾಡುವುದೇ?"</string>
+</resources>

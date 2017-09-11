@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sip_call_options_wifi_only_title">ใช้การโทรแบบ SIP (WLAN เท่านั้น)</string>
+    <string name="registration_status_no_wifi_data">การลงทะเบียนบัญชีหยุดทำงานเนื่องจากไม่มีการเชื่อมต่อ WLAN</string>
+    <string name="no_wifi_available">คุณจำเป็นต้องเชื่อมต่อกับเครือข่าย WLAN สำหรับการโทรแบบ SIP (ใช้การตั้งค่าระบบไร้สายและเครือข่าย)</string>
+    <string name="data_service_except_mms_disabled_warning_txt">คุณจะไม่สามารถใช้อินเทอร์เน็ต อีเมล หรือแอปอื่นๆ ที่ต้องใช้การเชื่อมต่อข้อมูลได้เว้นแต่ว่าคุณจะใช้ WLAN ปิดการเชื่อมต่อข้อมูลโทรศัพท์เคลื่อนที่?</string>
+    <string name="wifi_calling">การโทรผ่าน WLAN</string>
+    <string name="ota_skip_activation_dialog_message">หากคุณข้ามการเปิดใช้งาน คุณไม่สามารถโทรออกหรือเชื่อมต่อเครือข่ายข้อมูลมือถือ (แม้จะเชื่อมต่อเครือข่าย WLAN ได้) ระบบขอให้คุณเปิดใช้งานทุกครั้งที่คุณเปิดเครื่องจนกว่าคุณจะเปิดใช้งานโทรศัพท์</string>
+    <string name="status_hint_label_incoming_wifi_call">สายโทรเข้าผ่าน WLAN</string>
+    <string name="status_hint_label_wifi_call">การโทรผ่าน WLAN</string>
+    <string name="vzw_phone_strings_msg_turn_off_md_connection_txt">"หากไม่ใช้เครือข่าย WLAN คุณจะไม่สามารถใช้อินเทอร์เน็ต อีเมล หรือแอปอื่นๆ ที่ต้องใช้การเชื่อมต่อข้อมูลได้
+
+ต้องการปิดการเชื่อมต่อข้อมูลระบบเคลื่อนที่ไหม"</string>
+</resources>

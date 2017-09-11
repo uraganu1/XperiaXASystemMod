@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="?android:textColorPrimary" android:id="@id/dialog_sum" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/messageCFU" android:paddingStart="10.0dip" android:paddingEnd="10.0dip" style="?android:attr/textAppearanceMedium" />
+    <RadioGroup android:id="@id/group" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="10.0dip" android:paddingEnd="10.0dip" style="?android:attr/textAppearanceMedium">
+        <RadioButton android:id="@id/enable" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checked="true" android:text="@string/enable" />
+        <RadioButton android:id="@id/disable" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/disable" />
+    </RadioGroup>
+    <LinearLayout android:gravity="end" android:orientation="horizontal" android:id="@id/edit_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <EditText android:id="@id/EditNumber" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:singleLine="true" android:phoneNumber="true" android:layout_weight="1.0" />
+        <ImageButton android:id="@id/select_contact" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_add_contact_holo_dark" android:contentDescription="@string/selectContact" android:layout_marginEnd="10.0dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="end" android:orientation="horizontal" android:id="@id/edit_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cancel" android:layout_weight="1.0" />
+        <Button android:id="@id/save" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/save" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

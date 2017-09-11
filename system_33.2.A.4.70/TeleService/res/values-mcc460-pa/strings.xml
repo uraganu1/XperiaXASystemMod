@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sip_call_options_wifi_only_title">SIP ਕਾਲ ਵਰਤੋ (ਕੇਵਲ WLAN)</string>
+    <string name="registration_status_no_wifi_data">ਖਾਤਾ ਰਜਿਸਟ੍ਰੇਸ਼ਨ ਰੋਕਿਆ ਗਿਆ ਕਿਉਂਕਿ ਕੋਈ WLAN ਕਨੈਕਸ਼ਨ ਨਹੀਂ ਹੈ।</string>
+    <string name="no_wifi_available">SIP ਕਾਲਾਂ ਕਰਨ ਲਈ ਤੁਹਾਨੂੰ WLAN ਨੈਟਵਰਕ ਨਾਲ ਕਨੈਕਟ ਕਰਨਾ ਚਾਹੀਦਾ ਹੈ (ਵਾਇਰਲੈੱਸ ਤੇ ਨੈਟਵਰਕ ਸੈਟਿੰਗ ਵਰਤੋ)।</string>
+    <string name="data_service_except_mms_disabled_warning_txt">ਜਦ ਤਕ ਤੁਸੀਂ WLAN ਨਹੀਂ ਵਰਤਦੇ, ਤੁਸੀਂ ਇੰਟਰਨੈਟ, ਈਮੇਲ ਜਾਂ ਹੋਰ ਐਪਸ ਨੂੰ ਹੋਰ ਵਰਤਣ ਦੇ ਯੋਗ ਨਹੀਂ ਹੋਵੋਗੇ ਜਿਨ੍ਹਾਂ ਨੂੰ ਡੇਟਾ ਕਨੈਕਸ਼ਨ ਦੀ ਲੋੜ ਹੁੰਦੀ ਹੈ। ਮੋਬਾਈਲ ਡੇਟਾ ਕਨੈਕਸ਼ਨ ਨੂੰ ਬੰਦ ਕਰਨਾ ਹੈ?</string>
+    <string name="wifi_calling">WLAN ਕਾਲਿੰਗ</string>
+    <string name="ota_skip_activation_dialog_message">ਜੇ ਤੁਸੀਂ ਚਾਲੂ ਕਰਨ ਨੂੰ ਛੱਡਿਆ ਤਾਂ ਤੁਸੀਂ ਕਾਲਾਂ ਨਹੀਂ ਕਰ ਸਕਦੇ ਹੋ ਜਾਂ ਮੋਬਾਈਲ ਡੇਟਾ ਨੈਟਵਰਕ ਕਨੈਕਟ ਨਹੀਂ ਕਰ ਸਕਦੇ ਹੋ, ਪਰ ਤੁਸੀਂ WLAN ਨੈਟਵਰਕ ਨਾਲ ਕਨੈਕਟ ਕਰ ਸਕਦੇ ਹੋ। ਜਦੋਂ ਤੱਕ ਤੁਸੀਂ ਆਪਣੇ ਫ਼ੋਨ ਨੂੰ ਚਾਲੂ ਨਹੀਂ ਕਰਦੇ, ਤੁਹਾਨੂੰ ਹਰ ਵਾਰ ਇਸ ਨੂੰ ਚਲਾਉਣ ਉੱਤੇ ਇਸ ਨੂੰ ਚਾਲੂ ਕਰਨ ਲਈ ਕਿਹਾ ਜਾਵੇਗਾ।</string>
+    <string name="status_hint_label_incoming_wifi_call">ਇਨਕਮਿੰਗ WLAN ਕਾਲ</string>
+    <string name="status_hint_label_wifi_call">WLAN ਕਾਲ</string>
+    <string name="vzw_phone_strings_msg_turn_off_md_connection_txt">"ਜਦੋਂ ਤਕ ਤੁਸੀਂ WLAN ਦੀ ਵਰਤੋਂ ਨਹੀਂ ਕਰਦੇ ਉਦੋਂ ਤਕ ਤੁਸੀਂ ਇੰਟਰਨੈਟ, ਈਮੇਲ ਜਾਂ ਡੇਟਾ ਕਨੈਕਸ਼ਨ ਦੀ ਲੋੜ ਵਾਲੇ ਹੋਰ ਐਪਸ ਵਰਤਣ ਵਿੱਚ ਸਮਰੱਥ ਨਹੀਂ ਹੋਵੋਗੇ।
+
+ਮੋਬਾਈਲ ਡੇਟਾ ਕਨੈਕਸ਼ਨ ਨੂੰ ਬੰਦ ਕਰਨਾ ਹੈ?"</string>
+</resources>

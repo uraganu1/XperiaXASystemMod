@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sip_call_options_wifi_only_title">SIP pozivanje (samo WLAN)</string>
+    <string name="registration_status_no_wifi_data">Registracija računa zaustavljena je jer nema WLAN veze.</string>
+    <string name="no_wifi_available">Za SIP pozive morate se povezati s WLAN mrežom (koristite postavke bežičnog povezivanja i mreža).</string>
+    <string name="data_service_except_mms_disabled_warning_txt">Ako ne koristite WLAN, više nećete moći koristiti internet, e-poštu ni druge aplikacije koje koriste podatkovnu vezu. Želite li isključiti mobilnu podatkovnu vezu?</string>
+    <string name="wifi_calling">WLAN pozivi</string>
+    <string name="ota_skip_activation_dialog_message">Ako preskočite aktivaciju, nećete moći upućivati pozive niti se povezivati s mobilnim podatkovnim mrežama, premda se možete povezati s WLAN mrežama. Sve dok ne aktivirate telefon, prilikom svake prijave pojavljivat će se upit za aktiviranje.</string>
+    <string name="status_hint_label_incoming_wifi_call">Dolazni WLAN poziv</string>
+    <string name="status_hint_label_wifi_call">WLAN poziv</string>
+    <string name="vzw_phone_strings_msg_turn_off_md_connection_txt">"Osim ako koristite WLAN, nećete moći koristiti internet, e-poštu ni druge aplikacije za koje je potrebna podatkovna veza.
+
+Isključiti mobilnu podatkovnu vezu?"</string>
+</resources>

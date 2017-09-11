@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sip_call_options_wifi_only_title">Erabili SIP deiak (WLAN bidez soilik)</string>
+    <string name="registration_status_no_wifi_data">Kontua erregistratzeko prozesua gelditu da ez dagoelako WLAN konexiorik.</string>
+    <string name="no_wifi_available">WLAN sare batera konektatuta egon behar zara SIP deiak egiteko (erabili hari gabekoen eta sareen ezarpenak).</string>
+    <string name="wifi_calling">WLAN bidezko deiak</string>
+    <string name="ota_skip_activation_dialog_message">Aktibazioa saltatzen baduzu, ezingo dituzu deiak egin eta ezingo duzu datu mugikorren sareetara konektatu, baina WLAN sareetara konektatu ahal izango duzu. Telefonoa aktibatzen duzun arte, pizten duzun bakoitzean eskatuko zaizu aktibatzeko.</string>
+    <string name="status_hint_label_incoming_wifi_call">Sarrerako WLAN deia</string>
+    <string name="status_hint_label_wifi_call">WLAN deia</string>
+</resources>

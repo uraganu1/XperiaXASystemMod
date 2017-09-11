@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="phone_in_ecm_notification_time">
+        <item quantity="other">%s dəq məl bağl yoxdur</item>
+        <item quantity="one">%s dəqiqədə məl bağl yoxdur</item>
+    </plurals>
+    <plurals name="alert_dialog_exit_ecm">
+        <item quantity="other">Telefon %s dəqiqəlik fövqəladə əks çağırış rejimində olacaqdır. Bu rejimdə olarkən məlumat bağlantısından istifadə edən proqramlardan istifadə edilə bilməz. İndi çıxmaq istərdinizmi?</item>
+        <item quantity="one">Telefon %s dəqiqəlik fövqəladə əks çağırış rejimində olacaqdır. Bu rejimdə olarkən məlumat bağlantısından istifadə edən proqramlardan istifadə edilə bilməz. İndi çıxmaq istərdinizmi?</item>
+    </plurals>
+    <plurals name="alert_dialog_not_avaialble_in_ecm">
+        <item quantity="other">Seçilmiş fəaliyyət fövqəladə əks çağırış rejimində olarkən mövcud deyil. Telefon %s dəqiqəlik bu rejimdə olacaqdır. İndi çıxmaq istərdinizmi?</item>
+        <item quantity="one">Seçilmiş fəaliyyət fövqəladə əks çağırış rejimində olarkən mövcud deyil. Telefon %s dəqiqəlik bu rejimdə olacaqdır. İndi çıxmaq istərdinizmi?</item>
+    </plurals>
+</resources>

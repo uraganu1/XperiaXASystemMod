@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sip_call_options_wifi_only_title">SIP ਕਾਲਿੰਗ ਵਰਤੋ (ਕੇਵਲ WLAN)</string>
+    <string name="registration_status_no_wifi_data">ਖਾਤਾ ਰਜਿਸਟਰੇਸ਼ਨ ਰੁਕ ਗਿਆ ਕਿਉਂਕਿ ਕੋਈ WLAN ਕਨੈਕਸ਼ਨ ਨਹੀਂ ਹੈ।</string>
+    <string name="no_wifi_available">SIP ਕਾਲਾਂ ਲਈ ਤੁਹਾਨੂੰ ਇੱਕ WLAN ਨੈਟਵਰਕ ਨਾਲ ਕਨੈਕਟ ਕਰਨ ਦੀ ਲੋੜ ਹੋਵੇਗੀ (ਵਾਇਰਲੈਸ &amp; ਨੈਟਵਰਕ ਸੈਟਿੰਗਾਂ ਵਰਤੋ)।</string>
+    <string name="wifi_calling">WLAN ਕਾਲਿੰਗ</string>
+    <string name="ota_skip_activation_dialog_message">ਜੇਕਰ ਤੁਸੀਂ ਸਕਿਰਿਆਕਰਨ ਛੱਡਦੇ ਹੋ, ਤਾਂ ਤੁਸੀਂ ਕਾਲਾਂ ਨਹੀਂ ਕਰ ਸਕਦੇ ਜਾਂ ਮੋਬਾਈਲ ਡਾਟਾ ਨੈਟਵਰਕਾਂ ਨਾਲ ਕਨੈਕਟ ਨਹੀਂ ਕਰ ਸਕਦੇ (ਹਾਲਾਂਕਿ ਤੁੁਸੀਂ WLAN ਨੈਟਵਰਕਾਂ ਨਾਲ ਕਨੈਕਟ ਕਰ ਸਕਦੇ ਹੋ)। ਜਦੋਂ ਤੱਕ ਤੁਹਾਡਾ ਫੋਨ ਸਕਿਰਿਆ ਨਾ ਹੋਵੇ, ਜਦੋਂ ਵੀ ਤੁਸੀਂ ਇਸਨੂੰ ਚਾਲੂ ਕਰੋਗੇ, ਹਰ ਵਾਰ ਤੁਹਾਨੂੰ ਇਸਨੂੰ ਸਕਿਰਿਆ ਬਣਾਉਣ ਲਈ ਕਿਹਾ ਜਾਏਗਾ।</string>
+    <string name="status_hint_label_incoming_wifi_call">ਇਨਕਮਿੰਗ WLAN ਕਾਲ</string>
+    <string name="status_hint_label_wifi_call">WLAN ਕਾਲ</string>
+</resources>

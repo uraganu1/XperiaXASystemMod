@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sip_call_options_wifi_only_title">Uporaba klicev SIP (samo WLAN)</string>
+    <string name="registration_status_no_wifi_data">Registracija računa je bila prekinjena, ker ni povezave WLAN.</string>
+    <string name="no_wifi_available">Če želite vzpostavljati klice SIP, morate imeti vzpostavljeno povezavo z omrežjem WLAN (nastavite v razdelku »Brezžično in omrežja«).</string>
+    <string name="data_service_except_mms_disabled_warning_txt">Interneta, e-pošte in drugih programov, ki zahtevajo podatkovno povezavo, ne boste mogli uporabljati, razen če nimate vzpostavljene povezave z omrežjem WLAN. Želite izklopiti mobilno podatkovno povezavo?</string>
+    <string name="wifi_calling">Klicanje prek WLAN-ja</string>
+    <string name="incall_error_power_off_wfc">Izklopite način za letalo ali se povežite v omrežje WLAN, če želite opraviti klic.</string>
+    <string name="incall_error_out_of_service_wfc">Mobilno omrežje ni na voljo. Povežite se v omrežje WLAN, če želite opraviti klic.</string>
+    <string name="incall_error_wfc_only_no_wireless_network">Povežite se v omrežje WLAN, če želite opraviti klic.</string>
+    <string name="ota_skip_activation_dialog_message">Če preskočite aktiviranje naprave, ne boste mogli klicati ali vzpostaviti povezave z mobilnimi podatkovnimi omrežji (čeprav lahko vzpostavite povezavo z omrežji WLAN). Dokler ne aktivirate telefona, ga boste morali aktivirati vsakič, ko ga vklopite.</string>
+    <string name="status_hint_label_incoming_wifi_call">Dohodni klic WLAN</string>
+    <string name="status_hint_label_wifi_call">Klic WLAN</string>
+    <string name="vzw_phone_strings_msg_turn_off_md_connection_txt">"Internet, e-pošto ali druge programe, za katere potrebujete podatkovno povezavo, lahko uporabljate le, če imate vzpostavljeno povezavo z omrežjem WLAN.
+
+Ali želite izklopiti prenos podatkov prek mobilnega omrežja?"</string>
+</resources>

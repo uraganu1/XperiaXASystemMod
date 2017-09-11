@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sip_call_options_wifi_only_title">Use SIP calling (WLAN only)</string>
+    <string name="registration_status_no_wifi_data">Account registration stopped because there is no WLAN connection.</string>
+    <string name="no_wifi_available">You need to be connected to a WLAN network for SIP calls (use the Wireless &amp; Network settings).</string>
+    <string name="wifi_calling">WLAN Calling</string>
+    <string name="ota_skip_activation_dialog_message">"If you skip activation, you can't place calls or connect to mobile data networks (though you can connect to WLAN networks). Until you activate your phone, you are asked to activate it each time that you turn it on."</string>
+    <string name="status_hint_label_incoming_wifi_call">Incoming WLAN call</string>
+    <string name="status_hint_label_wifi_call">WLAN call</string>
+</resources>

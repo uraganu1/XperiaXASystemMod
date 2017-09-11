@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sip_call_options_wifi_only_title">SIP-kõnede tegemine (ainult WLAN)</string>
+    <string name="registration_status_no_wifi_data">Konto registreerimine on peatatud, sest puudub WLAN-ühendus.</string>
+    <string name="no_wifi_available">SIP-kõnede tegemiseks peate olema ühendatud WLAN-võrku (kasutage juhtmeta seadeid ja võrgustikuseadeid).</string>
+    <string name="wifi_calling">WLAN-kõned</string>
+    <string name="ota_skip_activation_dialog_message">Aktiveerimise vahelejätmisel ei saa te kõnesid valida ega luua ühendust mobiilsete andmevõrkudega (kuid saate luua ühenduse WLAN-võrkudega). Telefoni aktiveerimisprotsessi ajal palutakse teil see aktiveerida iga kord, kui telefoni sisse lülitate.</string>
+    <string name="status_hint_label_incoming_wifi_call">Sissetulev WLAN-kõne</string>
+    <string name="status_hint_label_wifi_call">WLAN-kõne</string>
+</resources>

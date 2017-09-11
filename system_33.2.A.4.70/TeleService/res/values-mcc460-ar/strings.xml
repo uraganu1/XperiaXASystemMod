@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sip_call_options_wifi_only_title">‏استخدام اتصال SIP (WLAN فقط)</string>
+    <string name="registration_status_no_wifi_data">‏توقف تسجيل الحساب نظرًا لعدم توفر اتصال WLAN.</string>
+    <string name="no_wifi_available">‏يلزمك الاتصال بشبكة WLAN لإجراء مكالمات SIP (استخدم إعدادات اللاسلكي والشبكة).</string>
+    <string name="data_service_except_mms_disabled_warning_txt">ما لم تكن تستخدم WLAN، لن تكون قادرًا على استخدام الإنترنت أو البريد الإلكتروني أو التطبيقات الأخرى التي تتطلب اتصال بيانات. إيقاف تشغيل اتصال بيانات الهاتف النقال؟</string>
+    <string name="wifi_calling">‏الاتصال عبر WLAN</string>
+    <string name="ota_skip_activation_dialog_message">إذا تخطيت التنشيط، فلن تتمكن من إجراء مكالمات أو الاتصال بشبكات بيانات الجوال (ومع ذلك، يمكنك الاتصال بشبكات WLAN). وإلى أن تنشط هاتفك، ستتم مطالبتك بتنشيطه في كل مرة تشغله فيها.</string>
+    <string name="status_hint_label_incoming_wifi_call">‏مكالمة واردة عبر WLAN</string>
+    <string name="status_hint_label_wifi_call">‏مكالمة عبر WLAN</string>
+    <string name="vzw_phone_strings_msg_turn_off_md_connection_txt">"لن تتمكن من استخدام الإنترنت أو البريد الإلكتروني أو غيرها من التطبيقات التي تتطلب اتصال بيانات ما لم تستخدم شبكة WLAN.
+
+هل تريد إيقاف تشغيل اتصال البيانات؟"</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/pinc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:id="@id/ecc_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/name" android:scrollHorizontally="true" android:singleLine="true" android:capitalize="words" android:autoText="false" android:inputType="textPersonName" android:imeOptions="actionNext" />
+    <EditText android:id="@id/ecc_number" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/number" android:scrollHorizontally="true" android:singleLine="true" android:capitalize="none" android:autoText="false" android:inputType="phone" android:imeOptions="actionDone" />
+    <Button android:id="@id/button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/save" />
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sip_call_options_wifi_only_title">Користи SIP-повикување (само WLAN)</string>
+    <string name="registration_status_no_wifi_data">Регистрацијата на сметка се прекина затоа што нема WLAN конекција.</string>
+    <string name="no_wifi_available">Треба да сте поврзани на WLAN мрежа за SIP-повици (користете ги поставките за Безжично и мрежи).</string>
+    <string name="data_service_except_mms_disabled_warning_txt">Доколку не користите WLAN, повеќе нема да може да користите интернет, е-пошта или други апликации што бараат конекција со податоци. Да се исклучи конекцијата со мобилни податоци?</string>
+    <string name="wifi_calling">Повикување преку WLAN</string>
+    <string name="ota_skip_activation_dialog_message">Ако го прескокнете активирањето, не можете да упатувате повици или да се поврзете на мобилните податочни мрежи, но можете да се поврзете на WLAN мрежите. Додека не го активирате својот телефон, при секое негово вклучување ќе се бара да го направите тоа.</string>
+    <string name="status_hint_label_incoming_wifi_call">Дојдовен повик преку WLAN</string>
+    <string name="status_hint_label_wifi_call">Повик преку WLAN</string>
+    <string name="vzw_phone_strings_msg_turn_off_md_connection_txt">"Нема да може да користите интернет, е-пошта или други апликации што бараат податочна конекција, освен ако не користите WLAN.
+
+Да се исклучи конекцијата со мобилни податоци?"</string>
+</resources>

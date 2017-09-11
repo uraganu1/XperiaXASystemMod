@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sip_call_options_wifi_only_title">Nota netsímtal (SIP) (WLAN eingöngu)</string>
+    <string name="registration_status_no_wifi_data">Reikningsskráning var stöðvuð því engin WLAN tenging er til staðar.</string>
+    <string name="no_wifi_available">WLAN tenging þarf að vera til staðar til að hægt sé að hringja netsímtöl (SIP) (notaðu stillingarnar undir Þráðlaus net og símkerfi).</string>
+    <string name="data_service_except_mms_disabled_warning_txt">Þú munt ekki geta notað netið, tölvupóst eða önnur forrit sem krefjast gagnatengingar nema með WLAN. Slökkva á gagnatengingu?</string>
+    <string name="wifi_calling">WLAN símtöl</string>
+    <string name="ota_skip_activation_dialog_message">Ef þú sleppir virkjun geturðu ekki hringt eða tengst farsímanetum, þótt þú getir tengst WLAN netum. Beðið verður um virkjun í hvert sinn sem kveikt er á símanum, þangað til hann hefur verið virkjaður.</string>
+    <string name="status_hint_label_incoming_wifi_call">WLAN símtal berst</string>
+    <string name="status_hint_label_wifi_call">WLAN símtal</string>
+    <string name="vzw_phone_strings_msg_turn_off_md_connection_txt">"Þú getur ekki notað internetið, tölvupóst eða önnur forrit sem krefjast gagnatengingar nema þú notir WLAN.
+
+Slökkva á gagnatengingu?"</string>
+</resources>

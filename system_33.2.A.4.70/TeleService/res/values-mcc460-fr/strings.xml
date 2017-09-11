@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sip_call_options_wifi_only_title">Passer des appels SIP (WLAN uniquement)</string>
+    <string name="registration_status_no_wifi_data">"La procédure d'enregistrement du compte a été interrompue, car il n'y a aucune connexion WLAN."</string>
+    <string name="no_wifi_available">Les appels SIP nécessitent une connexion WLAN pouvant être activée dans les réglages \"Sans fil et réseaux\".</string>
+    <string name="data_service_except_mms_disabled_warning_txt">"Si vous n'utilisez pas le WLAN, vous ne pourrez pas utiliser Internet, l'email, ni les autres applications nécessitant une connexion de données. Désactiver la connexion de données mobile ?"</string>
+    <string name="wifi_calling">Appels WLAN</string>
+    <string name="ota_skip_activation_dialog_message">"Si vous poursuivez sans activer votre mobile, vous ne pourrez ni téléphoner, ni vous connecter à des réseaux de données mobiles. La connexion à un réseau WLAN reste possible. Vous serez invité à effectuer l'activation chaque fois que vous allumerez le téléphone."</string>
+    <string name="status_hint_label_incoming_wifi_call">Appel WLAN entrant</string>
+    <string name="status_hint_label_wifi_call">Appel WLAN</string>
+    <string name="vzw_phone_strings_msg_turn_off_md_connection_txt">"Vous ne pouvez pas utiliser Internet, l'email, ni les autres applis exigeant une connexion aux données, sauf si vous utilisez un réseau WLAN.
+
+Désactiver la connexion aux données mobiles ?"</string>
+</resources>

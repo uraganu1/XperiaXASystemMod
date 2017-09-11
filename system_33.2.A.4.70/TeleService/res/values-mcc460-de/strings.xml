@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sip_call_options_wifi_only_title">SIP-Anruf verwenden (nur WLAN)</string>
+    <string name="registration_status_no_wifi_data">Kontoregistrierung aufgrund fehlender WLAN-Verbindung gestoppt</string>
+    <string name="no_wifi_available">Für SIP-Anrufe ist eine aktive WLAN-Verbindung notwendig. Wählen Sie die entsprechenden Einstellungen unter „Drahtlos &amp; Netzwerke“.</string>
+    <string name="data_service_except_mms_disabled_warning_txt">Wenn Sie WLAN nicht verwenden, werden Sie nicht mehr auf das Internet, E-Mails oder andere Apps zugreifen können, die eine Datenverbindung erfordern. Soll die mobile Datenverbindung deaktiviert werden?</string>
+    <string name="wifi_calling">Anrufe über WLAN</string>
+    <string name="incall_error_power_off_wfc">Deaktivieren Sie zum Telefonieren den Flugmodus oder stellen Sie eine WLAN-Verbindung her.</string>
+    <string name="incall_error_out_of_service_wfc">Es ist kein Mobilfunknetz verfügbar. Stellen Sie zum Telefonieren eine WLAN-Verbindung her.</string>
+    <string name="incall_error_wfc_only_no_wireless_network">Stellen Sie zum Telefonieren eine WLAN-Verbindung her.</string>
+    <string name="ota_skip_activation_dialog_message">Wenn Sie die Aktivierung überspringen, können Sie keine Anrufe tätigen oder sich mit mobilen Datennetzen verbinden (Sie können sich allerdings mit WLAN-Netzen verbinden). Bis Sie Ihr Mobiltelefon aktivieren, werden Sie bei jedem Einschalten zur Aktivierung aufgefordert.</string>
+    <string name="status_hint_label_incoming_wifi_call">Eingehender WLAN-Anruf</string>
+    <string name="status_hint_label_wifi_call">WLAN-Anruf</string>
+    <string name="vzw_phone_strings_msg_turn_off_md_connection_txt">"Sie können das Internet, E-Mails oder andere Apps, die eine Datenverbindung benötigen, nur verwenden, wenn WLAN aktiviert ist.
+
+Möchten Sie die mobile Datenverbindung ausschalten?"</string>
+</resources>

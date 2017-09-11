@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sip_call_options_wifi_only_title">Ús de les trucades SIP (només WLAN)</string>
+    <string name="registration_status_no_wifi_data">"S'ha aturat el registre del compte perquè no hi ha connexió WLAN."</string>
+    <string name="no_wifi_available">"Heu d'estar connectat a una xarxa WLAN per fer trucades SIP (utilitzeu la configuració Connexions sense fil i xarxa)."</string>
+    <string name="data_service_except_mms_disabled_warning_txt">Tret que utilitzeu WLAN, ja no podreu utilitzar Internet, el correu electrònic ni altres que requereixin una connexió de dades. Voleu desactivar la connexió de dades mòbils?</string>
+    <string name="wifi_calling">Trucades per WLAN</string>
+    <string name="ota_skip_activation_dialog_message">"Si ometeu l'activació, no podreu fer trucades ni connectar-vos a xarxes de dades mòbils (tot i que podreu connectar-vos a xarxes WLAN). Fins que activeu el telèfon, se us demanarà que ho feu cada cop que l'engegueu."</string>
+    <string name="status_hint_label_incoming_wifi_call">Trucada per WLAN entrant</string>
+    <string name="status_hint_label_wifi_call">Trucada per WLAN</string>
+    <string name="vzw_phone_strings_msg_turn_off_md_connection_txt">"Tret que utilitzeu una WLAN, no podreu fer servir Internet, el correu electrònic o qualsevol aplicació que requereixi una connexió de dades. 
+
+Voleu desactivar la connexió de dades mòbils?"</string>
+</resources>

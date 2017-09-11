@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sip_call_options_wifi_only_title">SIP കോൾചെയ്യൽ ഉപയോഗിക്കുക (വൈഫൈ മാത്രം)</string>
+    <string name="registration_status_no_wifi_data">വൈഫൈ കണക്ഷനില്ലാത്താതിനാൽ അക്കൗണ്ട് രജിസ്ട്രേഷൻ നിർത്തിവച്ചു.</string>
+    <string name="no_wifi_available">SIP കോളുകൾക്കായി വൈഫൈ നെറ്റ്‌വർക്കിലേക്ക് കണക്‌റ്റുചെയ്യേണ്ടതുണ്ട് (വയർലെസ്, നെറ്റ്‌വർക്ക് ക്രമീകരണങ്ങൾ ഉപയോഗിക്കുക).</string>
+    <string name="wifi_calling">വൈഫൈ കോളിംഗ്</string>
+    <string name="ota_skip_activation_dialog_message">നിങ്ങൾ സജീവമാക്കൽ ഒഴിവാക്കുകയാണെങ്കിൽ, നിങ്ങൾക്ക് കോളുകൾ വിളിക്കാനോ മൊബൈൽ ഡാറ്റ നെറ്റ്‌വർക്കുകളിൽ കണക്റ്റുചെയ്യാനോ കഴിയില്ല (എങ്കിലും നിങ്ങൾക്ക് വൈഫൈ നെറ്റ്‌വർക്കുകളിൽ കണക്റ്റുചെയ്യാം). നിങ്ങളുടെ ഫോൺ സജീവമാക്കുന്നതുവരെ, അത് ഓൺ ചെയ്യുമ്പോഴെല്ലാം സജീവമാക്കാൻ നിങ്ങളോട് ആവശ്യപ്പെടും.</string>
+    <string name="status_hint_label_incoming_wifi_call">ഇൻകമിംഗ് വൈഫൈ കോൾ</string>
+    <string name="status_hint_label_wifi_call">വൈഫൈ കോൾ</string>
+</resources>

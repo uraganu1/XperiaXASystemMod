@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sip_call_options_wifi_only_title">Օգտագործել SIP կանչերը (միայն WLAN)</string>
+    <string name="registration_status_no_wifi_data">Հաշվի գրանցումը դադարեցվել է, քանի որ չկա WLAN կապ:</string>
+    <string name="no_wifi_available">SIP կանչեր կատարելու համար դուք պետք է միացված լինեք WLAN ցանցին (օգտագործեք Անլար կապի և ցանցերի պարամետրերը):</string>
+    <string name="data_service_except_mms_disabled_warning_txt">Եթե չեք օգտագործում WLAN, ապա այլևս չեք կարողանա օգտագործել Ինտերնետը, Էլ. փոստը կամ տվյալների միացում պահանջող այլ աշխատածրագրերը: Անջատե՞լ շարժական տվյալների փոխանցման կապակցումը:</string>
+    <string name="wifi_calling">Զանգեր WLAN-ի միջոցով</string>
+    <string name="ota_skip_activation_dialog_message">Եթե բաց թողնեք ակտիվացումը, ապա չեք կարողանա կանչեր կատարել կամ միանալ բջջային տվյալների ցանցերին (սակայն, կկարողանաք միանալ WLAN ցանցերին): Մինչև հեռախոսի ակտիվացումը, ամեն անգամ այն միացնելիս դուք կստանաք հեռախոսն ակտիվացնելու առաջարկություն:</string>
+    <string name="status_hint_label_incoming_wifi_call">Մուտքային WLAN զանգ</string>
+    <string name="status_hint_label_wifi_call">Զանգ WLAN-ի միջոցով</string>
+    <string name="vzw_phone_strings_msg_turn_off_md_connection_txt">"Դուք չեք կարողանա օգտվել Ինտերնետից, էլեկտրոնային փոստից կամ ինտերնետի միացում պահանջող այլ աշխատածրագրերից, եթե չմիանաք WLAN ցանցին:
+
+Անջատե՞լ բջջային տվյալների փոխանցման կապակցումը:"</string>
+</resources>

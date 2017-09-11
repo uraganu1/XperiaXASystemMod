@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sip_call_options_wifi_only_title">使用SIP电话（仅限WLAN）</string>
+    <string name="registration_status_no_wifi_data">由于未连接到WLAN网络，帐户注册已停止。</string>
+    <string name="no_wifi_available">您需要连接到WLAN网络才能拨打SIP电话（使用“无线和网络”设置）。</string>
+    <string name="data_service_except_mms_disabled_warning_txt">除非使用WLAN，否则您将无法继续使用互联网、电子邮件或其他需要数据连接的应用程序。是否关闭移动数据连接？</string>
+    <string name="wifi_calling">WLAN 通话</string>
+    <string name="ota_skip_activation_dialog_message">如果您跳过激活步骤，将无法发出呼叫或连接到移动数据网络（不过您可以连接到WLAN网络）。如果您不激活手机，每次开机时都会收到激活提示。</string>
+    <string name="status_hint_label_incoming_wifi_call">WLAN 来电</string>
+    <string name="status_hint_label_wifi_call">WLAN 通话</string>
+    <string name="vzw_phone_strings_msg_turn_off_md_connection_txt">"除非使用WLAN，否则将无法使用需要数据连接的互联网、电子邮件或其他应用程序。
+
+是否关闭移动数据连接？"</string>
+</resources>

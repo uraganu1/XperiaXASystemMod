@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sip_call_options_wifi_only_title">Bruk SIP-anrop (bare WLAN)</string>
+    <string name="registration_status_no_wifi_data">Kontoregistreringen stoppet på grunn av manglende WLAN-tilkobling.</string>
+    <string name="no_wifi_available">Du må være koblet til et WLAN-nettverk for å foreta SIP-anrop (bruk innstillingene Trådløst og nettverk).</string>
+    <string name="data_service_except_mms_disabled_warning_txt">Hvis du ikke bruker WLAN, kan du ikke lenger bruke Internett, e-post eller andre apper som krever en datailkobling. Slå av mobildatatilkoblingen?</string>
+    <string name="wifi_calling">WLAN-anrop</string>
+    <string name="ota_skip_activation_dialog_message">Hvis du hopper over aktiveringen, kan du ikke foreta anrop eller koble til mobildatanettverk (du kan imidlertid koble til trådløse nettverk). Du blir bedt om å aktivere hver gang du slår på telefonen, inntil aktivering er fullført.</string>
+    <string name="status_hint_label_incoming_wifi_call">WLAN-oppringing inn</string>
+    <string name="status_hint_label_wifi_call">Oppringing via WLAN</string>
+    <string name="vzw_phone_strings_msg_turn_off_md_connection_txt">"Hvis du ikke bruker WLAN, vil du ikke kunne bruke Internett, e-post eller andre apper som krever en datatilkobling.
+
+Slå av mobildatatilkoblingen?"</string>
+</resources>

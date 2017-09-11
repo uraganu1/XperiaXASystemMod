@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sip_call_options_wifi_only_title">Използване на обаждания чрез SIP (само при WLAN)</string>
+    <string name="registration_status_no_wifi_data">Регистрирането на профила спря, защото няма връзка с WLAN.</string>
+    <string name="no_wifi_available">За обаждания чрез SIP трябва да сте свързани с WLAN мрежа (използвайте настройките на „Безжична връзка и мрежи“).</string>
+    <string name="data_service_except_mms_disabled_warning_txt">Освен ако не използвате WLAN, вече няма да може да използвате интернет, имейл или други приложения, изискващи връзка за данни. Изключване на връзката за мобилни данни?</string>
+    <string name="wifi_calling">Обаждания през WLAN</string>
+    <string name="ota_skip_activation_dialog_message">Ако пропуснете активирането, не може да осъществявате обаждания или свързване към мобилни мрежи с данни (възможно е свързване към мрежи с WLAN). Докато не активирате телефона си, от вас ще се иска да го правите при всяко включване.</string>
+    <string name="status_hint_label_incoming_wifi_call">Вход. обаждане през WLAN</string>
+    <string name="status_hint_label_wifi_call">Обаждане през WLAN</string>
+    <string name="vzw_phone_strings_msg_turn_off_md_connection_txt">"Освен ако не използвате WLAN, няма да можете да използвате интернет, имейл или други приложения, които изискват връзка за данни.
+
+Искате ли да изключите връзката за мобилни данни?"</string>
+</resources>

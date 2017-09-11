@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sip_call_options_wifi_only_title">Nota SIP-símtal (eingöngu WLAN)</string>
+    <string name="registration_status_no_wifi_data">Reikningsskráning var stöðvuð því engin WLAN tenging er til staðar.</string>
+    <string name="no_wifi_available">Þú þarft að tengjast WLAN neti til að hringja SIP-símtöl (notaðu stillingar þráðlauss nets og símkerfa).</string>
+    <string name="wifi_calling">WLAN símtöl</string>
+    <string name="ota_skip_activation_dialog_message">Ef þú sleppir því að virkja símann getur þú ekki hringt úr honum eða tengst farsímagagnaþjónustu (þótt þú getir tengst WLAN netum). Þar til þú hefur virkjað símann verður þú verður beðin(n) um að virkja hann í hvert sinn sem þú kveikir á honum.</string>
+    <string name="status_hint_label_incoming_wifi_call">WLAN símtal berst</string>
+    <string name="status_hint_label_wifi_call">WLAN símtal</string>
+</resources>

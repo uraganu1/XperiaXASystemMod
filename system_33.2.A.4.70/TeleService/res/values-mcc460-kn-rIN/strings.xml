@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sip_call_options_wifi_only_title">SIP ಕರೆ ಮಾಡುವಿಕೆಯನ್ನು ಬಳಸಿ (WLAN ಮಾತ್ರ)</string>
+    <string name="registration_status_no_wifi_data">WLAN ಸಂಪರ್ಕವಿಲ್ಲದ ಕಾರಣ ಖಾತೆ ನೋಂದಣಿಯನ್ನು ನಿಲ್ಲಿಸಲಾಗಿದೆ.</string>
+    <string name="no_wifi_available">SIP ಕರೆಗಳಿಗಾಗಿ ನೀವು WLAN ನೆಟ್‌ವರ್ಕ್‌ಗೆ ಸಂಪರ್ಕಗೊಂಡಿರುವ ಅಗತ್ಯವಿದೆ (ವೈರ್‌ಲೆಸ್ &amp; ನೆಟ್‌ವರ್ಕ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಬಳಸಿ).</string>
+    <string name="wifi_calling">WLAN ಕರೆ ಮಾಡುವಿಕೆ</string>
+    <string name="ota_skip_activation_dialog_message">ನೀವು ಸಕ್ರಿಯಗೊಳಿಸುವುದನ್ನು ಸ್ಕಿಪ್‌ ಮಾಡಿದರೆ, ನೀವು ಕರೆಗಳನ್ನು ಮಾಡಲು ಅಥವಾ ಮೊಬೈಲ್‌ ಡೇಟಾ ನೆಟ್‌ವರ್ಕ್‌ಗಳಿಗೆ ಸಂಪರ್ಕಗೊಳಿಸಲು ಸಾಧ್ಯವಾಗುವುದಿಲ್ಲ (ಆದರೂ ನೀವು WLAN ನೆಟ್‌ವರ್ಕ್‌ಗಳಿಗೆ ಸಂಪರ್ಕಗೊಳಿಸಬಹುದು). ನಿಮ್ಮ ಫೋನ್ ಅನ್ನು ನೀವು ಸಕ್ರಿಯಗೊಳಿಸುವವರೆಗೂ, ನೀವು ಅದನ್ನು ಪ್ರತಿಬಾರಿ ಆನ್‌ ಮಾಡಿದಾಗಲೆಲ್ಲಾ ಅದನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಲು ನಿಮಗೆ ತಿಳಿಸಲಾಗುತ್ತದೆ.</string>
+    <string name="status_hint_label_incoming_wifi_call">ಒಳಬರುವ WLAN ಕರೆ</string>
+    <string name="status_hint_label_wifi_call">ವೈ-ಫೈ ಕರೆ</string>
+</resources>

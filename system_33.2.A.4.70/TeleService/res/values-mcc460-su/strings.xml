@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sip_call_options_wifi_only_title">Pake telepon SIP (saukur WLAN)</string>
+    <string name="registration_status_no_wifi_data">Ngadaptar akun dieureunkeun kusabab taya sambungan WLAN.</string>
+    <string name="no_wifi_available">Anjeun kudu nyambung ka jaringan WLAN jang telepon SIP (pake setelan Nirkabel &amp; Jaringan).</string>
+    <string name="data_service_except_mms_disabled_warning_txt">Kacuali anjeun make WLAN, anjeun moal tiasa deui make Internet, Surelek, atawa aplikasi sejen nu merlukeun sambungan data. Pareuman sambungan data seluler?</string>
+    <string name="wifi_calling">Telepon WLAN</string>
+    <string name="ota_skip_activation_dialog_message">Lamun anjeun ngaliwat aktipasi, anjeun teu tiasa nelepon atawa nyambung ka jaringan data seluler, sanajan anjeun tiasa nyambung ka jaringan WLAN. Dugi ka anjeun aktipasi telepon anjeun, anjeun dipenta unggal waktos ngahurungkeun.</string>
+    <string name="status_hint_label_incoming_wifi_call">Telepon WLAN asup</string>
+    <string name="status_hint_label_wifi_call">Telepon WLAN</string>
+    <string name="vzw_phone_strings_msg_turn_off_md_connection_txt">"Kajabi anjeun maké WLAN, anjeun moal tiasa maké Internét, surélék, atanapi aplikasi séjén anu merlukeun sambungan data dugi.
+
+Pareuman sambungan data selulér?"</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sip_call_options_wifi_only_title">SIP കോളിംഗ് ഉപയോഗിക്കുക (WLAN മാത്രം)</string>
+    <string name="registration_status_no_wifi_data">WLAN കണക്ഷനില്ലാത്താതിനാൽ അക്കൗണ്ട് രജിസ്ട്രേഷൻ നിർത്തിവച്ചു.</string>
+    <string name="no_wifi_available">SIP കോളുകൾക്കായി നിങ്ങൾ WLAN നെറ്റ്‌വർക്കിൽ കണക്ടു ചെയ്യേണ്ടതുണ്ട് (വയർലെസ്, നെറ്റ്‌വർക്ക് ക്രമീകരണം ഉപയോഗിക്കുക).</string>
+    <string name="data_service_except_mms_disabled_warning_txt">നിങ്ങൾ WLAN ഉപയോഗിക്കുന്നില്ലെങ്കിൽ, ഇന്റർനെറ്റോ ഇമെയിലോ ഡാറ്റാ കണക്ഷൻ ആവശ്യമുള്ള മറ്റ് ഡാറ്റാ സേവനങ്ങളോ ഉപയോഗിക്കാൻ നിങ്ങൾക്കാകില്ല. തുടരണോ?</string>
+    <string name="wifi_calling">വൈഫൈ കോളിംഗ്</string>
+    <string name="ota_skip_activation_dialog_message">നിങ്ങൾ സജീവമാക്കൽ ഒഴിവാക്കുന്നുവെങ്കിൽ, നിങ്ങൾക്ക് കോൾ ചെയ്യാനോ മൊബൈൽ ഡാറ്റ നെറ്റ്‌വർക്കുകളിലേക്ക് കണക്ടു ചെയ്യാനോ, WLAN നെറ്റ്‌വർക്കുകളിലേക്ക് കണക്ടു ചെയ്യാൻ കഴിയുമെങ്കിലും, കഴിയില്ല‌. നിങ്ങളുടെ ഫോൺ സജീവമാക്കുന്നത് വരെ, നിങ്ങൾ ഓൺ ചെയ്യുന്ന ഓരോ സമയത്തും ഇത് സജീവമാക്കാൻ നിങ്ങളോട് ആവശ്യപ്പെടും.</string>
+    <string name="status_hint_label_incoming_wifi_call">ഇൻകമിംഗ് വൈഫൈ കോൾ</string>
+    <string name="status_hint_label_wifi_call">വൈഫൈ കോൾ</string>
+    <string name="vzw_phone_strings_msg_turn_off_md_connection_txt">"WLAN നെറ്റ്‌വർക്ക് ഉപയോഗിക്കുന്നില്ലെങ്കിൽ, ഒരു ഡാറ്റ കണക്ഷൻ ആവശ്യമുള്ള ഇന്റർനെറ്റ്, ഇമെയിൽ അല്ലെങ്കിൽ മറ്റ് ആപ്സ് എന്നിവ ഉപയോഗിക്കാനാകില്ല.
+
+മൊബൈൽ ഡാറ്റ കണക്ഷൻ ഓഫ് ചെയ്യണോ?"</string>
+</resources>

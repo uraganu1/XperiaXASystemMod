@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sip_call_options_wifi_only_title">SIP დარეკვის გამოყენება (მხოლოდ WLAN)</string>
+    <string name="registration_status_no_wifi_data">ანგარიშის რეგისტრაცია შეჩერდა, რადგან WLAN კავშირი არ არის.</string>
+    <string name="no_wifi_available">SIP ზარებისათვის, დაკავშირებული უნდა იყოთ WLAN ქსელთან (გამოიყენეთ უკაბელო &amp; amp; ქსელის პარამეტრები).</string>
+    <string name="wifi_calling">დარეკვა WLAN-ს მეშვეობით</string>
+    <string name="ota_skip_activation_dialog_message">თუ აქტივაციას გამოტოვებთ, ზარების განხორციელებას ან მობილური ინტერნეტის გამოყენებას ვერ შეძლებთ (თუმცა, შესაძლებელია WLAN ქსელებთან დაკავშირება). სანამ ტელეფონს გაააქტიურებდეთ, მოგეთხოვებათ გაააქტიუროთ ის, სანამ ჩართავდეთ.</string>
+    <string name="status_hint_label_incoming_wifi_call">შემომავალი WLAN ზარი</string>
+    <string name="status_hint_label_wifi_call">WLAN ზარი</string>
+</resources>

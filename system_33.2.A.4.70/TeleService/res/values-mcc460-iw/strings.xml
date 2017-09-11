@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sip_call_options_wifi_only_title">‏השתמש בשיחת SIP (WLAN בלבד)</string>
+    <string name="registration_status_no_wifi_data">‏רישום החשבון הופסק כיוון שאין חיבור WLAN.</string>
+    <string name="no_wifi_available">"‏עליך להיות מחובר לרשת WLAN כדי לבצע שיחות SIP (השתמש בהגדרות 'רשת ותקשורת אלחוטית')."</string>
+    <string name="data_service_except_mms_disabled_warning_txt">אם אינך משתמש ב-WLAN, לא תוכל להשתמש עוד באינטרנט, בדוא\"ל או ביישומים אחרים המחייבים חיבור נתונים. לכבות את חיבור הנתונים הסלולריים?</string>
+    <string name="wifi_calling">‏שיחות ב-WLAN</string>
+    <string name="ota_skip_activation_dialog_message">אם תדלג על ההפעלה, לא תוכל להתקשר או להתחבר לרשתות נתונים סלולריות, על אף שתוכל להתחבר לרשתות WLAN. עד שתפעיל את הטלפון, תתבקש לבצע הפעלה של הטלפון בכל פעם שתדליק אותו.</string>
+    <string name="status_hint_label_incoming_wifi_call">‏שיחת WLAN נכנסת</string>
+    <string name="status_hint_label_wifi_call">‏שיחת WLAN</string>
+    <string name="vzw_phone_strings_msg_turn_off_md_connection_txt">"לא תוכל להשתמש באינטרנט, בדוא\"ל או ביישומים אחרים שדורשים חיבור נתונים, אלא אם תתחבר לרשת WLAN.
+
+לכבות את חיבור הנתונים הסלולריים?"</string>
+</resources>

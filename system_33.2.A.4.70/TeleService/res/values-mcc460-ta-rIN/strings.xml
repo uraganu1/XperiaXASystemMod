@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sip_call_options_wifi_only_title">SIP அழைப்பைப் பயன்படுத்து (வைஃபை மட்டும்)</string>
+    <string name="registration_status_no_wifi_data">WLAN இணைப்பு இல்லாததால், கணக்குப் பதிவு நிறுத்தப்பட்டது.</string>
+    <string name="no_wifi_available">SIP அழைப்புகளைச் செய்ய, வைஃபை நெட்வொர்க்குடன் இணைக்கப்பட்டிருக்க வேண்டும் (வயர்லெஸ் &amp; நெட்வொர்க் அமைப்புகளைப் பயன்படுத்தவும்).</string>
+    <string name="wifi_calling">வைஃபை அழைப்பு</string>
+    <string name="ota_skip_activation_dialog_message">இதைத் தவிர்த்தால், அழைப்புகளை மேற்கொள்ள முடியாது அல்லது மொபைல் தரவு நெட்வொர்க்குகளுடன் இணைக்க முடியாது (எனினும் வைஃபை நெட்வொர்க்குகளுடன் இணைக்கலாம்). மொபைலைச் செயல்படுத்தும்வரை, அதை இயக்கும் ஒவ்வொரு முறையும் இதைச் செயல்படுத்துமாறு தெரிவிக்கப்படும்.</string>
+    <string name="status_hint_label_incoming_wifi_call">உள்வரும் வைஃபை அழைப்பு</string>
+    <string name="status_hint_label_wifi_call">வைஃபை அழைப்பு</string>
+</resources>

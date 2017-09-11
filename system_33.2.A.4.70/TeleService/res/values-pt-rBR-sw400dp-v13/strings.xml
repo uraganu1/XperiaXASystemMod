@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="call_barring_settings">Configurações de bloqueio de chamadas</string>
+    <string name="clh_vm_show_in_call_log_txt">Mostrar mensagem no registro de chamadas</string>
+    <string name="clh_vm_name_in_call_log_txt">Nome da mensagem no registro de chamadas</string>
+</resources>

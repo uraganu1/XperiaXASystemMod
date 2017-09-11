@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sip_call_options_wifi_only_title">Përdor telefonatat me SIP (vetëm WLAN)</string>
+    <string name="registration_status_no_wifi_data">Regjistrimi i llogarisë ndaloi sepse nuk ka lidhje WLAN.</string>
+    <string name="no_wifi_available">Duhet të jesh i lidhur me rrjetin WLAN për telefonata SIP (përdor \"Me valë dhe cilësimet e rrjetit\").</string>
+    <string name="wifi_calling">Telefonatë me WLAN</string>
+    <string name="ota_skip_activation_dialog_message">Nëse anashkalon aktivizimin, nuk mund të kryesh telefonata ose të lidhesh me rrjetet e të dhënave celulare (megjithatë mund të lidhesh me rrjetet WLAN). Derisa të aktivizosh telefonin, do të të kërkohet ta aktivizosh çdo herë që e ndez.</string>
+    <string name="status_hint_label_incoming_wifi_call">Telefonatë hyrëse WLAN</string>
+    <string name="status_hint_label_wifi_call">Telefonatë me WLAN</string>
+</resources>

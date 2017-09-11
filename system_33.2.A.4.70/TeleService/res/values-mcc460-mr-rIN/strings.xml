@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sip_call_options_wifi_only_title">SIP कॉलिंग वापरा (वाय-फाय केवळ)</string>
+    <string name="registration_status_no_wifi_data">वाय-फाय कनेक्‍शन नसल्‍याने खाते नोंदणी थांबली.</string>
+    <string name="no_wifi_available">SIP कॉलसाठी आपण वाय-फाय नेटवर्कशी कनेक्‍ट केलेले असणे आवश्‍यक आहे (वायरलेस &amp; नेटवर्क सेटिंग्ज वापरा).</string>
+    <string name="wifi_calling">वाय-फाय कॉलिंग</string>
+    <string name="ota_skip_activation_dialog_message">आपण सक्रिय करणे वगळल्‍यास, आपण कॉल करू शकत नाही किंवा मोबाइल डेटा नेटवर्कशी कनेक्‍ट करू शकत नाही (आपण वाय-फाय नेटवर्कशी कनेक्‍ट करू शकत असला तरीही). आपण आपला फोन सक्रिय करेपर्यंत, आपण तो प्रत्‍येक वेळी चालू करताना आपल्‍याला तो सक्रिय करण्‍यास सांगितले जाईल.</string>
+    <string name="status_hint_label_incoming_wifi_call">येणारा वाय-फाय कॉल</string>
+    <string name="status_hint_label_wifi_call">वाय-फाय कॉल</string>
+</resources>

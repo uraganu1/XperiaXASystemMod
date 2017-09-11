@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="wifi_calling">WLAN calling</string>
+    <string name="ota_skip_activation_dialog_message">"If you skip activation, you can't place calls or connect to mobile data networks, though you can connect to WLAN networks. Until you activate your phone, you are asked to activate it each time you turn it on."</string>
+</resources>
