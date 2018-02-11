@@ -5287,6 +5287,10 @@
     <public type="string" name="sim_change_failed_enable_sim_lock" id="0x7f0b0ff4" />
     <public type="string" name="sim_lock_change_not_supported" id="0x7f0b0ff5" />
     <public type="string" name="tethering_warning_txt" id="0x7f0b0db4" />
+    <public type="string" name="power_use_limited" id="0x7f0b0ffb" />
+    <public type="string" name="hexacore_mode_title" id="0x7f0b0ffc" />
+    <public type="string" name="lowperformance_mode_title" id="0x7f0b0ffd" />
+    <public type="string" name="dw2w_mode_title" id="0x7f0b0ffe" />
     <public type="dimen" name="appear_y_translation_start" id="0x7f0c0000" />
     <public type="dimen" name="disappear_y_translation" id="0x7f0c0001" />
     <public type="dimen" name="suw_layout_margin_sides" id="0x7f0c0002" />

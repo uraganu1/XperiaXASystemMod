@@ -3962,6 +3962,10 @@ STAMINA mode also adjusts display settings to get the most battery life when the
     <string name="xssm_settings_screen_on_restrict_title_txt">Use when screen on</string>
     <string name="xssm_settings_screen_on_smallheader_txt">Reduce battery drain when screen on</string>
     <string name="xssm_welcome_dialog_summary_txt">Select when to use STAMINA mode.</string>
+    <string name="power_use_limited">Power tweaks</string>
+    <string name="hexacore_mode_title">Hexacore mode</string>
+    <string name="lowperformance_mode_title">Limit CPU frequency</string>
+    <string name="dw2w_mode_title">Proximity wave wakeup</string>
     <item type="string" name="APKTOOL_DUMMY_ff6">false</item>
     <item type="string" name="APKTOOL_DUMMY_ff7">false</item>
     <item type="string" name="APKTOOL_DUMMY_ff8">false</item>
