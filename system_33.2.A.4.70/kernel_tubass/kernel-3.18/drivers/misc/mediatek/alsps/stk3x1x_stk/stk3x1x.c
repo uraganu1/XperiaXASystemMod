@@ -89,6 +89,7 @@
 #include <linux/time.h>
 #include <cust_alsps.h>
 #include "stk3x1x.h"
+#include "doublewave2wake.h"
 #include <alsps.h>
 #define LightSensorK
 #define DRIVER_VERSION          "3.1.2.1"
@@ -3326,12 +3327,18 @@ static ssize_t stk3x1x_store_psenable(struct device_driver *ddri, const char *bu
 		printk(KERN_ERR "%s, invalid value %d\n", __func__, *buf);
 	//	return -EINVAL;
 	}
-    printk(KERN_INFO "%s: Enable PS : %d\n", __func__, en);
+    	printk(KERN_INFO "%s: Enable PS : %d\n", __func__, en);
 	err = stk3x1x_enable_ps(stk3x1x_obj->client, en);
-    if(err)
+   	if(err)
 	{
 		APS_ERR("enable ps fail: %d\n", err); 
 		return -1;
+	}
+	else
+	{
+		if( en == 1 ) {
+			dw2w_prx_enabled = false;
+		}
 	}
 
 	set_bit(STK_BIT_PS, &stk3x1x_obj->enable);
@@ -3339,6 +3346,45 @@ static ssize_t stk3x1x_store_psenable(struct device_driver *ddri, const char *bu
 //    err = snprintf(buf, PAGE_SIZE, "done\n");
 
     return count;
+}
+
+bool stk3x1x_store_psenable_exported(bool enable)
+{
+	uint8_t en = 0;
+	int err=0;
+	bool ps_enabled = false;
+	struct stk3x1x_priv *obj = i2c_get_clientdata(stk3x1x_obj->client);
+	
+	if( enable ) {
+		en = 1;
+	}
+
+	ps_enabled = (atomic_read(&obj->state_val) & STK_STATE_EN_PS_MASK) ? true : false;
+
+	if( enable ) {
+		if( !ps_enabled ) {
+			err = stk3x1x_enable_ps(stk3x1x_obj->client, en);
+			if( !err ) {
+				set_bit(STK_BIT_PS, &stk3x1x_obj->enable);
+			}
+		}
+		else {
+			// if it was enabled by something else then the suspend power then
+			// leave it be, that something else is responsible with the shutting down
+			// the sensor
+			return false;
+		}
+	}
+	else {
+		if( ps_enabled ) {
+			err = stk3x1x_enable_ps(stk3x1x_obj->client, en);
+			if( !err ) {
+				clear_bit(STK_BIT_PS, &stk3x1x_obj->enable);
+			}
+		}
+	}
+	ps_enabled = (atomic_read(&obj->state_val) & STK_STATE_EN_PS_MASK) ? true : false;
+	return ps_enabled;
 }
 
 static ssize_t stk3x1x_show_psenable(struct device_driver *ddri, char *buf)
@@ -4310,6 +4356,7 @@ static int ps_set_delay(u64 ns)
 {
 	return 0;
 }
+
 /*----------------------------------------------------------------------------*/
 static int stk3x1x_i2c_probe(struct i2c_client *client, const struct i2c_device_id *id)
 {
@@ -4495,6 +4542,7 @@ err = stk3x1x_create_attr(&stk3x1x_init_info.platform_diver_addr->driver);
 	obj->early_drv.resume   = stk3x1x_late_resume,    
 	register_early_suspend(&obj->early_drv);
 #endif
+
 	stk3x1x_obj = obj;
 	printk("stk3x1x_i2c_probe() OK!\n");
 	return 0;

@@ -2,4 +2,4 @@
 ccflags-y += -I$(srctree)/drivers/misc/mediatek/alsps/inc
 ccflags-y += -I$(srctree)/drivers/misc/mediatek/hwmon/include
 obj-y	:=  stk3x1x.o
-
+obj-$(CONFIG_PROXIMITY_DOUBLEWAVE2WAKE) += doublewave2wake.o

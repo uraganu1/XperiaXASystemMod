@@ -16,6 +16,7 @@
 #include <linux/workqueue.h>
 
 #include "timed_output.h"
+#include "vibrator_drv.h"
 
 #include <linux/hrtimer.h>
 #include <linux/err.h>
@@ -161,6 +162,55 @@ static void vibrator_enable(struct timed_output_dev *dev, int value)
 	queue_work(vibrator_queue, &vibrator_work);
 }
 
+static struct timed_output_dev mtk_vibrator = {
+	.name = "vibrator",
+	.get_time = vibrator_get_time,
+	.enable = vibrator_enable,
+};
+
+void vibrator_enable_ms(int value)
+{
+	unsigned long flags;
+
+#if 1
+	struct vibrator_hw *hw = mt_get_cust_vibrator_hw();
+#endif
+
+	VIB_DEBUG("vibrator_enable: vibrator first in value = %d\n", value);
+
+	spin_lock_irqsave(&vibe_lock, flags);
+	while (hrtimer_cancel(&vibe_timer))
+		VIB_DEBUG("vibrator_enable: try to cancel hrtimer\n");
+
+	if (value == 0 || shutdown_flag == 1) {
+		VIB_DEBUG("vibrator_enable: shutdown_flag = %d\n",
+			  shutdown_flag);
+		vibe_state = 0;
+	} else {
+#if 1
+		VIB_DEBUG("vibrator_enable: vibrator cust timer: %d\n",
+			  hw->vib_timer);
+#ifdef CUST_VIBR_LIMIT
+		if (value > hw->vib_limit && value < hw->vib_timer)
+#else
+		if (value >= 10 && value < hw->vib_timer)
+#endif
+			value = hw->vib_timer;
+#endif
+
+		value = (value > 15000 ? 15000 : value);
+		vibe_state = 1;
+		hrtimer_start(&vibe_timer,
+			      ktime_set(value / 1000, (value % 1000) * 1000000),
+			      HRTIMER_MODE_REL);
+	}
+	spin_unlock_irqrestore(&vibe_lock, flags);
+	VIB_DEBUG("vibrator_enable: vibrator start: %d\n", value);
+	queue_work(vibrator_queue, &vibrator_work);
+}
+
+EXPORT_SYMBOL(vibrator_enable_ms);
+
 static enum hrtimer_restart vibrator_timer_func(struct hrtimer *timer)
 {
 	vibe_state = 0;
@@ -168,12 +218,6 @@ static enum hrtimer_restart vibrator_timer_func(struct hrtimer *timer)
 	queue_work(vibrator_queue, &vibrator_work);
 	return HRTIMER_NORESTART;
 }
-
-static struct timed_output_dev mtk_vibrator = {
-	.name = "vibrator",
-	.get_time = vibrator_get_time,
-	.enable = vibrator_enable,
-};
 
 static int vib_probe(struct platform_device *pdev)
 {

@@ -2,3 +2,9 @@
 config MTK_STK3X1X_STK
 	bool "STK3X1X for MediaTek package"
 	default y
+
+config PROXIMITY_DOUBLEWAVE2WAKE
+	bool "Wakeup by proximity sensor"
+	default n
+	help
+	This enabled the wake up service by proximity service.
