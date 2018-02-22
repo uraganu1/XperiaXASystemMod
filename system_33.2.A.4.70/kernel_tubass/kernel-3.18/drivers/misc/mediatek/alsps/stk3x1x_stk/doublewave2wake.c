@@ -422,6 +422,9 @@ err_alloc_dev:
 
 static void __exit doublewave2wake_exit(void)
 {
+#ifdef CONFIG_POWERSUSPEND
+	unregister_power_suspend(&dw2w_power_suspend_handler);
+#endif // CONFIG_POWERSUSPEND
 	kobject_del(android_touch_kobj);
 	input_unregister_handler(&dw2w_input_handler);
 	destroy_workqueue(dw2w_input_wq);
