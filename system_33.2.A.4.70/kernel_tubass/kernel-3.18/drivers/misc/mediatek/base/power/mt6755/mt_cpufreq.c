@@ -61,6 +61,7 @@
 #include <mach/upmu_hw.h>
 #include "mt-plat/mt_devinfo.h"
 #include "mt_cpufreq_hybrid.h"
+#include "mt_hotplug_strategy_internal.h"
 
 /*=============================================================*/
 /* Macro definition                                            */
@@ -544,7 +545,6 @@ static struct mt_cpu_dvfs cpu_dvfs[] = {
 #define cpu_dvfs_get_cur_freq(p)                (p->opp_tbl[p->idx_opp_tbl].cpufreq_khz)
 #define cpu_dvfs_get_freq_by_idx(p, idx)        (p->opp_tbl[idx].cpufreq_khz)
 
-#define cpu_dvfs_get_max_freq(p)                (p->opp_tbl[0].cpufreq_khz)
 #define cpu_dvfs_get_normal_max_freq(p)         (p->opp_tbl[p->idx_normal_max_opp].cpufreq_khz)
 #define cpu_dvfs_get_min_freq(p)                (p->opp_tbl[p->nr_opp_tbl - 1].cpufreq_khz)
 
@@ -552,6 +552,16 @@ static struct mt_cpu_dvfs cpu_dvfs[] = {
 #define cpu_dvfs_get_volt_by_idx(p, idx)        (p->opp_tbl[idx].cpufreq_volt)
 
 #define cpu_dvfs_is_extbuck_valid()     (is_ext_buck_exist() && is_ext_buck_sw_ready())
+
+unsigned int cpu_dvfs_get_max_freq(struct mt_cpu_dvfs *p)
+{
+	if( lowpower_switch == 1 ) {
+		if( p->cpu_id == MT_CPU_DVFS_BIG ) {
+			return p->opp_tbl[3].cpufreq_khz;
+		}
+	}
+	return p->opp_tbl[0].cpufreq_khz;
+}
 
 static struct mt_cpu_dvfs *id_to_cpu_dvfs(enum mt_cpu_dvfs_id id)
 {
@@ -2689,6 +2699,18 @@ static void ppm_limit_callback(struct ppm_client_req req)
 		if (ppm->cpu_limit[i].has_advise_freq) {
 			p->idx_opp_ppm_base = ppm->cpu_limit[i].advise_cpufreq_idx;
 			p->idx_opp_ppm_limit = ppm->cpu_limit[i].advise_cpufreq_idx;
+			if( lowpower_switch == 1) {
+				if( p->cpu_id == MT_CPU_DVFS_BIG ) {
+					if( p->idx_opp_ppm_limit < 3 ) {
+						// limit the frequency
+						p->idx_opp_ppm_limit = 3;
+					}
+					if( p->idx_opp_ppm_base < 3 ) {
+						p->idx_opp_ppm_base = 3;
+					}
+				}
+			}
+			
 			if (p->idx_opp_tbl == ppm->cpu_limit[i].advise_cpufreq_idx) {
 					cpufreq_ver("idx = %d, advise_cpufreq_idx = %d\n", p->idx_opp_tbl ,
 						ppm->cpu_limit[i].advise_cpufreq_idx);

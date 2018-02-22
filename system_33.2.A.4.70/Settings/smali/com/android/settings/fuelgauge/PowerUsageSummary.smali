@@ -826,7 +826,7 @@
 
     new-instance v2, Ljava/io/File;
 
-    const-string v5, "/sys/android_tweaks/hexa_switch"
+    const-string v5, "/sys/android_ptweaks/hexamode"
 
     invoke-direct {v2, v5}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
@@ -911,11 +911,11 @@
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string v5, "echo 1 > /sys/android_tweaks/hexa_switch"
+    const-string v5, "echo 1 > /sys/android_ptweaks/hexamode"
 
     if-nez v0, :cond_e
 
-    const-string v5, "echo 0 > /sys/android_tweaks/hexa_switch"
+    const-string v5, "echo 0 > /sys/android_ptweaks/hexamode"
 
     :cond_e
     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
@@ -1035,7 +1035,7 @@
 
     new-instance v2, Ljava/io/File;
 
-    const-string v5, "/sys/android_tweaks/lowfreq_switch"
+    const-string v5, "/sys/android_ptweaks/lpowermode"
 
     invoke-direct {v2, v5}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
@@ -1120,11 +1120,11 @@
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string v5, "echo 1 > /sys/android_tweaks/lowfreq_switch"
+    const-string v5, "echo 1 > /sys/android_ptweaks/lpowermode"
 
     if-nez v0, :cond_12
 
-    const-string v5, "echo 0 > /sys/android_tweaks/lowfreq_switch"
+    const-string v5, "echo 0 > /sys/android_ptweaks/lpowermode"
 
     :cond_12
     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
@@ -1244,7 +1244,7 @@
 
     new-instance v2, Ljava/io/File;
 
-    const-string v5, "/sys/android_tweaks/dw2w_switch"
+    const-string v5, "/sys/android_touch/doublewave2wake"
 
     invoke-direct {v2, v5}, Ljava/io/File;-><init>(Ljava/lang/String;)V
 
@@ -1329,11 +1329,11 @@
 
     invoke-direct {v4}, Ljava/lang/StringBuilder;-><init>()V
 
-    const-string v5, "echo 1 > /sys/android_tweaks/dw2w_switch"
+    const-string v5, "echo 1 > /sys/android_touch/doublewave2wake"
 
     if-nez v0, :cond_16
 
-    const-string v5, "echo 0 > /sys/android_tweaks/dw2w_switch"
+    const-string v5, "echo 0 > /sys/android_touch/doublewave2wake"
 
     :cond_16
     invoke-virtual {v4, v5}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;

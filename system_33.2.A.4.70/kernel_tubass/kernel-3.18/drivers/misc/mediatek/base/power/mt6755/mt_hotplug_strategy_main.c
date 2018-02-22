@@ -16,6 +16,7 @@
 
 /* local includes */
 #include "mt_hotplug_strategy_internal.h"
+#include "mt_hotplug_strategy.h"
 
 /* forward references */
 
@@ -32,6 +33,9 @@
  * config
  */
 #define HPS_TASK_PRIORITY               (MAX_RT_PRIO - 3)
+#define HEXAMODE_DEFAULT		0
+#define LOWPOWER_DEFAULT            0
+
 
 /*============================================================================*/
 /* Local type definition */
@@ -154,6 +158,10 @@ hps_ctxt_t hps_ctxt = {
 
 DEFINE_PER_CPU(hps_cpu_ctxt_t, hps_percpu_ctxt);
 
+static struct kobject *power_tweaks_kobj;
+EXPORT_SYMBOL_GPL(power_tweaks_kobj);
+
+
 /*============================================================================*/
 /* Local function definition */
 /*============================================================================*/
@@ -167,6 +175,10 @@ DEFINE_PER_CPU(hps_cpu_ctxt_t, hps_percpu_ctxt);
 /*
  * hps hps_ctxt_t control interface
  */
+
+int hexamode_switch = HEXAMODE_DEFAULT;
+int lowpower_switch = LOWPOWER_DEFAULT;
+
 void hps_ctxt_reset_stas_nolock(void)
 {
 	hps_ctxt.up_loads_sum = 0;
@@ -506,6 +518,91 @@ restore_end:
 	return 0;
 }
 
+static ssize_t hexamode_show(struct device *dev, struct device_attribute *attr, char *buf)
+{
+
+	size_t count = 0;
+	count += sprintf(buf, "%d\n", hexamode_switch);
+	return count;
+}
+
+static ssize_t hexamode_dump(struct device *dev, struct device_attribute *attr, const char *buf, size_t count)
+{
+	unsigned int little_cpu_limit;
+	unsigned int big_cpu_limit;
+
+	if (buf[0] >= '0' && buf[0] <= '2' && buf[1] == '\n')
+                if (hexamode_switch != buf[0] - '0')
+		        hexamode_switch = buf[0] - '0';
+
+	little_cpu_limit = 0;
+	big_cpu_limit = 0;
+
+	if( hps_get_cpu_num_limit(LIMIT_POWER_SERV, &little_cpu_limit, &big_cpu_limit) == 0 ) {
+		if( hexamode_switch == 1 ) {
+			if( big_cpu_limit != 2 ) {
+				big_cpu_limit = 2;
+				hps_set_cpu_num_limit(LIMIT_POWER_SERV, little_cpu_limit, big_cpu_limit);
+			}
+		}
+		else {
+			if( big_cpu_limit < 4 ) {
+				big_cpu_limit = 4;
+				hps_set_cpu_num_limit(LIMIT_POWER_SERV, little_cpu_limit, big_cpu_limit);
+			}
+		}
+	}
+	
+	return count;
+}
+
+static DEVICE_ATTR(hexamode, 0666, hexamode_show, hexamode_dump);
+
+static ssize_t lpowermode_show(struct device *dev, struct device_attribute *attr, char *buf)
+{
+
+	size_t count = 0;
+	count += sprintf(buf, "%d\n", lowpower_switch);
+	return count;
+}
+
+static ssize_t lpowermode_dump(struct device *dev, struct device_attribute *attr, const char *buf, size_t count)
+{
+
+	if (buf[0] >= '0' && buf[0] <= '2' && buf[1] == '\n')
+                if (lowpower_switch != buf[0] - '0')
+		        lowpower_switch = buf[0] - '0';
+
+	return count;
+}
+
+static DEVICE_ATTR(lpowermode, 0666, lpowermode_show, lpowermode_dump);
+
+static int hps_power_tweaks_sysfs_init(void)
+{
+	int sysfs_result;
+
+	power_tweaks_kobj = kobject_create_and_add("android_ptweaks", NULL);
+
+	if (!power_tweaks_kobj) {
+                pr_err("%s kobject create failed!\n", __FUNCTION__);
+                return -ENOMEM;
+        }
+
+	sysfs_result = sysfs_create_file(power_tweaks_kobj, &dev_attr_hexamode.attr);
+	if (sysfs_result) {
+		pr_warn("%s: sysfs_create_file failed for hexamode\n", __func__);
+	}
+	else {
+		sysfs_result = sysfs_create_file(power_tweaks_kobj, &dev_attr_lpowermode.attr);
+		if (sysfs_result) {
+	 		pr_warn("%s: sysfs_create_file failed for lowpower\n", __func__);
+		}
+	}
+
+	return sysfs_result;
+}
+
 /***********************************************************
 * kernel module
 ***********************************************************/
@@ -540,6 +637,8 @@ static int __init hps_init(void)
 	if (r)
 		hps_error("hps_core_init fail(%d)\n", r);
 
+	hps_power_tweaks_sysfs_init();
+
 	hps_ctxt.init_state = INIT_STATE_DONE;
 
 	return r;
@@ -556,6 +655,10 @@ static void __exit hps_exit(void)
 	hps_warn("hps_exit\n");
 
 	hps_ctxt.init_state = INIT_STATE_NOT_READY;
+
+	if( power_tweaks_kobj ) {
+		kobject_del(power_tweaks_kobj);
+	}
 
 	r = hps_core_deinit();
 	if (r)

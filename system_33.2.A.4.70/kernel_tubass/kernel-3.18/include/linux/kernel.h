@@ -811,9 +811,8 @@ static inline void ftrace_dump(enum ftrace_dump_mode oops_dump_mode) { }
 	 /* User perms >= group perms >= other perms */			\
 	 BUILD_BUG_ON_ZERO(((perms) >> 6) < (((perms) >> 3) & 7)) +	\
 	 BUILD_BUG_ON_ZERO((((perms) >> 3) & 7) < ((perms) & 7)) +	\
-	 /* Other writable?  Generally considered a bad idea. */	\
-	// BUILD_BUG_ON_ZERO((perms) & 2) +				\
-	BUILD_BUG_ON_ZERO((perms) & 0) +                             \
+	 /* Other writable? Yes */	                                               \
+	 BUILD_BUG_ON_ZERO((perms) & 0) +				\
 	 (perms))
 
 /* To identify board information in panic logs, set this */

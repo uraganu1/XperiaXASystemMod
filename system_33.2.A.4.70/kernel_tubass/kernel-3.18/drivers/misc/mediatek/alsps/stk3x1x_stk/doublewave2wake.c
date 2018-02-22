@@ -340,7 +340,7 @@ static ssize_t dw2w_doublewave2wake_dump(struct device *dev, struct device_attri
 	return count;
 }
 
-static DEVICE_ATTR(doublewave2wake, (S_IWUSR|S_IRUGO), dw2w_doublewave2wake_show, dw2w_doublewave2wake_dump);
+static DEVICE_ATTR(doublewave2wake, 0666, dw2w_doublewave2wake_show, dw2w_doublewave2wake_dump);
 
 static ssize_t dw2w_version_show(struct device *dev, struct device_attribute *attr, char *buf)
 {
@@ -360,12 +360,11 @@ static DEVICE_ATTR(doublewave2wake_version, (S_IWUSR|S_IRUGO), dw2w_version_show
 /*
  * INIT / EXIT stuff below here
  */
-#ifdef ANDROID_TOUCH_DECLARED
-extern struct kobject *android_touch_kobj;
-#else
+
 struct kobject *android_touch_kobj;
+
 EXPORT_SYMBOL_GPL(android_touch_kobj);
-#endif
+
 static int __init doublewave2wake_init(void)
 {
 	int rc = 0;
@@ -400,12 +399,10 @@ static int __init doublewave2wake_init(void)
 	register_power_suspend(&dw2w_power_suspend_handler);
 #endif // CONFIG_POWERSUSPEND
 
-#ifndef ANDROID_TOUCH_DECLARED
 	android_touch_kobj = kobject_create_and_add("android_touch", NULL) ;
 	if (android_touch_kobj == NULL) {
 		pr_warn("%s: android_touch_kobj create_and_add failed\n", __func__);
 	}
-#endif
 	rc = sysfs_create_file(android_touch_kobj, &dev_attr_doublewave2wake.attr);
 	if (rc) {
 		pr_warn("%s: sysfs_create_file failed for doublewave2wake\n", __func__);
@@ -425,9 +422,7 @@ err_alloc_dev:
 
 static void __exit doublewave2wake_exit(void)
 {
-#ifndef ANDROID_TOUCH_DECLARED
 	kobject_del(android_touch_kobj);
-#endif
 	input_unregister_handler(&dw2w_input_handler);
 	destroy_workqueue(dw2w_input_wq);
 	input_unregister_device(doublewave2wake_pwrdev);

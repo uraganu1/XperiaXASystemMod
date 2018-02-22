@@ -262,6 +262,9 @@ DECLARE_PER_CPU(hps_cpu_ctxt_t, hps_percpu_ctxt);
 extern struct cpumask cpu_domain_big_mask;	/* definition in kernel-3.10/arch/arm/kernel/topology.c */
 extern struct cpumask cpu_domain_little_mask;	/* definition in kernel-3.10/arch/arm/kernel/topology.c */
 
+extern int hexamode_switch;
+extern int lowpower_switch;
+
 extern void sched_get_nr_running_avg(int *avg, int *iowait_avg);
 	/* definition in mediatek/kernel/kernel/sched/rq_stats.c */
 

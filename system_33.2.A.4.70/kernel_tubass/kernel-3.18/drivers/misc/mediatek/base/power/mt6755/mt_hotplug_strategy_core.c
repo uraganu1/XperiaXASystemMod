@@ -279,8 +279,18 @@ static void ppm_limit_callback(struct ppm_client_req req)
 	if (!p->cpu_limit[1].has_advise_core) {
 		big_min = p->cpu_limit[1].min_cpu_core;
 		big_max = p->cpu_limit[1].max_cpu_core;
+		if( hexamode_switch == 1 ) {
+			if( big_max > 2 ) {
+				big_max = 2;
+			}
+		}
 	} else {
 		big_min = big_max = p->cpu_limit[1].advise_cpu_core;
+		if( hexamode_switch == 1 ) {
+			if( big_max > 2 ) {
+				big_max = 2;
+			}
+		}
 	}
 	hps_set_PPM_request(little_min, little_max, big_min, big_max);
 #if 0
