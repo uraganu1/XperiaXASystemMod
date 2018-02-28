@@ -19,6 +19,41 @@
     }
 .end annotation
 
+# instance fields
+.field private final mClickEnable:Lcom/android/systemui/qs/QSTile$AnimationIcon;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lcom/android/systemui/qs/QSTile",
+            "<",
+            "Lcom/android/systemui/qs/QSTile$BooleanState;",
+            ">.AnimationIcon;"
+        }
+    .end annotation
+.end field
+
+# instance fields
+.field private final mClickDisable:Lcom/android/systemui/qs/QSTile$AnimationIcon;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lcom/android/systemui/qs/QSTile",
+            "<",
+            "Lcom/android/systemui/qs/QSTile$BooleanState;",
+            ">.AnimationIcon;"
+        }
+    .end annotation
+.end field
+
+# instance fields
+.field private final mClickAuto:Lcom/android/systemui/qs/QSTile$AnimationIcon;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lcom/android/systemui/qs/QSTile",
+            "<",
+            "Lcom/android/systemui/qs/QSTile$BooleanState;",
+            ">.AnimationIcon;"
+        }
+    .end annotation
+.end field
 
 # instance fields
 .field private final mCallback:Lcom/sonymobile/systemui/qs/tiles/StaminaTile$Callback;
@@ -46,12 +81,35 @@
     .param p1, "host"    # Lcom/android/systemui/qs/QSTile$Host;
 
     .prologue
-    const/4 v1, 0x0
-
-    .line 33
     invoke-direct {p0, p1}, Lcom/android/systemui/qs/QSTile;-><init>(Lcom/android/systemui/qs/QSTile$Host;)V
 
+    new-instance v0, Lcom/android/systemui/qs/QSTile$AnimationIcon;
+
+    const v1, 0x7f020297
+
+    invoke-direct {v0, p0, v1}, Lcom/android/systemui/qs/QSTile$AnimationIcon;-><init>(Lcom/android/systemui/qs/QSTile;I)V
+
+    iput-object v0, p0, Lcom/sonymobile/systemui/qs/tiles/StaminaTile;->mClickEnable:Lcom/android/systemui/qs/QSTile$AnimationIcon;
+
+    new-instance v0, Lcom/android/systemui/qs/QSTile$AnimationIcon;
+
+    const v1, 0x7f020298
+
+    invoke-direct {v0, p0, v1}, Lcom/android/systemui/qs/QSTile$AnimationIcon;-><init>(Lcom/android/systemui/qs/QSTile;I)V
+
+    iput-object v0, p0, Lcom/sonymobile/systemui/qs/tiles/StaminaTile;->mClickDisable:Lcom/android/systemui/qs/QSTile$AnimationIcon;
+
+    new-instance v0, Lcom/android/systemui/qs/QSTile$AnimationIcon;
+
+    const v1, 0x7f020299
+
+    invoke-direct {v0, p0, v1}, Lcom/android/systemui/qs/QSTile$AnimationIcon;-><init>(Lcom/android/systemui/qs/QSTile;I)V
+
+    iput-object v0, p0, Lcom/sonymobile/systemui/qs/tiles/StaminaTile;->mClickAuto:Lcom/android/systemui/qs/QSTile$AnimationIcon;
+
     .line 22
+    const/4 v1, 0x0
+
     const/4 v0, 0x0
 
     iput-boolean v0, p0, Lcom/sonymobile/systemui/qs/tiles/StaminaTile;->mListening:Z
@@ -186,6 +244,24 @@
     invoke-direct {p0}, Lcom/sonymobile/systemui/qs/tiles/StaminaTile;->setEnabled()V
 
     .line 44
+    const/4 v1, 0x1
+
+    iget-object v0, p0, Lcom/sonymobile/systemui/qs/tiles/StaminaTile;->mClickEnable:Lcom/android/systemui/qs/QSTile$AnimationIcon;
+
+    invoke-virtual {v0, v1}, Lcom/android/systemui/qs/QSTile$AnimationIcon;->setAllowAnimation(Z)V
+
+    const/4 v1, 0x1
+
+    iget-object v0, p0, Lcom/sonymobile/systemui/qs/tiles/StaminaTile;->mClickDisable:Lcom/android/systemui/qs/QSTile$AnimationIcon;
+
+    invoke-virtual {v0, v1}, Lcom/android/systemui/qs/QSTile$AnimationIcon;->setAllowAnimation(Z)V
+
+    const/4 v1, 0x1
+
+    iget-object v0, p0, Lcom/sonymobile/systemui/qs/tiles/StaminaTile;->mClickAuto:Lcom/android/systemui/qs/QSTile$AnimationIcon;
+
+    invoke-virtual {v0, v1}, Lcom/android/systemui/qs/QSTile$AnimationIcon;->setAllowAnimation(Z)V
+
     return-void
 .end method
 
@@ -222,7 +298,7 @@
     iput-boolean v0, p1, Lcom/android/systemui/qs/QSTile$BooleanState;->value:Z
 
     .line 73
-    const v1, 0x7f020005
+    iget-object v1, p0, Lcom/sonymobile/systemui/qs/tiles/StaminaTile;->mClickDisable:Lcom/android/systemui/qs/QSTile$AnimationIcon;
 
     .line 74
     .local v1, "iconId":I
@@ -230,11 +306,7 @@
 
     .line 90
     :goto_0
-    invoke-static {v1}, Lcom/android/systemui/qs/QSTile$ResourceIcon;->get(I)Lcom/android/systemui/qs/QSTile$Icon;
-
-    move-result-object v3
-
-    iput-object v3, p1, Lcom/android/systemui/qs/QSTile$BooleanState;->icon:Lcom/android/systemui/qs/QSTile$Icon;
+    iput-object v1, p1, Lcom/android/systemui/qs/QSTile$BooleanState;->icon:Lcom/android/systemui/qs/QSTile$Icon;
 
     .line 68
     return-void
@@ -250,7 +322,7 @@
     iput-object v3, p1, Lcom/android/systemui/qs/QSTile$BooleanState;->label:Ljava/lang/String;
 
     .line 77
-    const v1, 0x7f020005
+    iget-object v1, p0, Lcom/sonymobile/systemui/qs/tiles/StaminaTile;->mClickDisable:Lcom/android/systemui/qs/QSTile$AnimationIcon;
 
     .line 78
     goto :goto_0
@@ -270,7 +342,7 @@
     iput-object v3, p1, Lcom/android/systemui/qs/QSTile$BooleanState;->label:Ljava/lang/String;
 
     .line 82
-    const v1, 0x7f020004
+    iget-object v1, p0, Lcom/sonymobile/systemui/qs/tiles/StaminaTile;->mClickAuto:Lcom/android/systemui/qs/QSTile$AnimationIcon;
 
     .line 83
     goto :goto_0
@@ -286,7 +358,7 @@
     iput-object v3, p1, Lcom/android/systemui/qs/QSTile$BooleanState;->label:Ljava/lang/String;
 
     .line 86
-    const v1, 0x7f020006
+    iget-object v1, p0, Lcom/sonymobile/systemui/qs/tiles/StaminaTile;->mClickEnable:Lcom/android/systemui/qs/QSTile$AnimationIcon;
 
     .line 87
     goto :goto_0

@@ -19,6 +19,29 @@
     }
 .end annotation
 
+# instance fields
+.field private final mClickEnable:Lcom/android/systemui/qs/QSTile$AnimationIcon;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lcom/android/systemui/qs/QSTile",
+            "<",
+            "Lcom/android/systemui/qs/QSTile$BooleanState;",
+            ">.AnimationIcon;"
+        }
+    .end annotation
+.end field
+
+# instance fields
+.field private final mClickDisable:Lcom/android/systemui/qs/QSTile$AnimationIcon;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lcom/android/systemui/qs/QSTile",
+            "<",
+            "Lcom/android/systemui/qs/QSTile$BooleanState;",
+            ">.AnimationIcon;"
+        }
+    .end annotation
+.end field
 
 # instance fields
 .field private final mCallback:Lcom/sonymobile/systemui/qs/tiles/TetheringTile$Callback;
@@ -48,12 +71,27 @@
     .param p1, "host"    # Lcom/android/systemui/qs/QSTile$Host;
 
     .prologue
-    const/4 v1, 0x0
-
-    .line 46
     invoke-direct {p0, p1}, Lcom/android/systemui/qs/QSTile;-><init>(Lcom/android/systemui/qs/QSTile$Host;)V
 
+    new-instance v0, Lcom/android/systemui/qs/QSTile$AnimationIcon;
+
+    const v1, 0x7f020046
+
+    invoke-direct {v0, p0, v1}, Lcom/android/systemui/qs/QSTile$AnimationIcon;-><init>(Lcom/android/systemui/qs/QSTile;I)V
+
+    iput-object v0, p0, Lcom/sonymobile/systemui/qs/tiles/TetheringTile;->mClickEnable:Lcom/android/systemui/qs/QSTile$AnimationIcon;
+
+    new-instance v0, Lcom/android/systemui/qs/QSTile$AnimationIcon;
+
+    const v1, 0x7f020044
+
+    invoke-direct {v0, p0, v1}, Lcom/android/systemui/qs/QSTile$AnimationIcon;-><init>(Lcom/android/systemui/qs/QSTile;I)V
+
+    iput-object v0, p0, Lcom/sonymobile/systemui/qs/tiles/TetheringTile;->mClickDisable:Lcom/android/systemui/qs/QSTile$AnimationIcon;
+
     .line 36
+    const/4 v1, 0x0
+
     new-instance v0, Lcom/sonymobile/systemui/qs/tiles/TetheringTile$Callback;
 
     invoke-direct {v0, p0, v1}, Lcom/sonymobile/systemui/qs/tiles/TetheringTile$Callback;-><init>(Lcom/sonymobile/systemui/qs/tiles/TetheringTile;Lcom/sonymobile/systemui/qs/tiles/TetheringTile$Callback;)V
@@ -314,7 +352,7 @@
 .end method
 
 .method public handleClick()V
-    .locals 1
+    .locals 2
 
     .prologue
     .line 71
@@ -327,6 +365,17 @@
     invoke-direct {p0, v0}, Lcom/sonymobile/systemui/qs/tiles/TetheringTile;->setEnabled(Z)V
 
     .line 70
+    const/4 v1, 0x1
+
+    iget-object v0, p0, Lcom/sonymobile/systemui/qs/tiles/TetheringTile;->mClickEnable:Lcom/android/systemui/qs/QSTile$AnimationIcon;
+
+    invoke-virtual {v0, v1}, Lcom/android/systemui/qs/QSTile$AnimationIcon;->setAllowAnimation(Z)V
+
+    const/4 v1, 0x1
+
+    iget-object v0, p0, Lcom/sonymobile/systemui/qs/tiles/TetheringTile;->mClickDisable:Lcom/android/systemui/qs/QSTile$AnimationIcon;
+
+    invoke-virtual {v0, v1}, Lcom/android/systemui/qs/QSTile$AnimationIcon;->setAllowAnimation(Z)V
     return-void
 .end method
 
@@ -375,16 +424,13 @@
     .line 121
     if-eqz v0, :cond_1
 
-    const v1, 0x7f02007c
+    iget-object v1, p0, Lcom/sonymobile/systemui/qs/tiles/TetheringTile;->mClickEnable:Lcom/android/systemui/qs/QSTile$AnimationIcon;
 
     .line 122
     .local v1, "iconId":I
     :goto_1
-    invoke-static {v1}, Lcom/android/systemui/qs/QSTile$ResourceIcon;->get(I)Lcom/android/systemui/qs/QSTile$Icon;
 
-    move-result-object v2
-
-    iput-object v2, p1, Lcom/android/systemui/qs/QSTile$BooleanState;->icon:Lcom/android/systemui/qs/QSTile$Icon;
+    iput-object v1, p1, Lcom/android/systemui/qs/QSTile$BooleanState;->icon:Lcom/android/systemui/qs/QSTile$Icon;
 
     .line 116
     return-void
@@ -398,7 +444,7 @@
 
     .line 121
     :cond_1
-    const v1, 0x7f02007b
+    iget-object v1, p0, Lcom/sonymobile/systemui/qs/tiles/TetheringTile;->mClickDisable:Lcom/android/systemui/qs/QSTile$AnimationIcon;
 
     .restart local v1    # "iconId":I
     goto :goto_1

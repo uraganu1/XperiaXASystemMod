@@ -360,10 +360,8 @@
 
     const v3, 0x7f0200bd
 
-    .line 338
     const v4, 0x7f090073
 
-    .line 337
     invoke-direct/range {v0 .. v6}, Lcom/sonymobile/systemui/qs/SomcQSTileHost$Qs;-><init>(Ljava/lang/String;IIIZZ)V
 
     const/16 v1, 0x10
