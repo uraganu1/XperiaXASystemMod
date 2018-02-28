@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector android:drawable="@drawable/ic_qs_lte"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <target android:name="ic_lte_disable" android:animation="@anim/ic_qs_animation_shrink" />
+    <target android:name="ic_lte_enable" android:animation="@anim/ic_qs_animation_enlarge_x" />
+    <target android:name="root" android:animation="@anim/ic_qs_animation_root" />
+</animated-vector>

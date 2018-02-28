@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector android:drawable="@drawable/ic_qs_stamina"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <target android:name="ic_stamina_cross_enable" android:animation="@anim/ic_qs_animation_shrink_y" />
+    <target android:name="ic_stamina_rect_enable" android:animation="@anim/ic_qs_animation_shrink" />
+    <target android:name="ic_stamina_cross_disable" android:animation="@anim/ic_qs_animation_enlarge" />
+    <target android:name="ic_stamina_rect_disable" android:animation="@anim/ic_qs_animation_enlarge" />
+    <target android:name="ic_stamina_auto" android:animation="@anim/ic_qs_animation_shrink" />
+    <target android:name="root" android:animation="@anim/ic_qs_animation_root" />
+</animated-vector>

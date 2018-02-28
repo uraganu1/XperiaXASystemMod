@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:name="root" android:height="48.0dip" android:width="48.0dip" android:alpha="0.3" android:viewportWidth="48.0" android:viewportHeight="48.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:name="ic_stamina_cross_disable" android:translateX="24" android:translateY="24">
+	<path android:name="path_1" android:fillColor="#4dffffff" android:pathData="M-1.502912 -4.9570312l0 3.550781 -3.5 0 0 2.914062 3.5 0 0 3.550781 2.914062 0 0 -3.550781 3.59961 0 0 -2.914062 -3.59961 0 0 -3.550781 -2.914062 0zM-12.4951 -15.500001l0 0.0059 -0.0098 0 0 30.800782 0.0098 0 0 0.19336 25 0 0 -4 -0.0098 0 0 -23 0.0098 0 0 -4.000001 -25 0zm4 4.000001l16.980469 0 0 23 -16.980469 0 0 -23z" />
+    </group>
+    <group android:name="ic_stamina_rect_disable" android:translateX="24" android:translateY="24">
+	<path android:name="path_2" android:fillColor="#1dffffff" android:pathData="M-8 -11l16 0 0 22 -16 0z" />
+    </group>
+    <group android:name="ic_stamina_cross_enable" android:translateX="24" android:translateY="24">
+	<path android:name="path_3" android:fillColor="#ffffffff" android:pathData="M-1.502912 -4.9570312l0 3.550781 -3.5 0 0 2.914062 3.5 0 0 3.550781 2.914062 0 0 -3.550781 3.59961 0 0 -2.914062 -3.59961 0 0 -3.550781 -2.914062 0zM-12.4951 -15.500001l0 0.0059 -0.0098 0 0 30.800782 0.0098 0 0 0.19336 25 0 0 -4 -0.0098 0 0 -23 0.0098 0 0 -4.000001 -25 0zm4 4.000001l16.980469 0 0 23 -16.980469 0 0 -23z" />
+    </group>
+    <group android:name="ic_stamina_rect_enable" android:translateX="24" android:translateY="24">
+	<path android:name="path_4" android:fillColor="#4dffffff" android:pathData="M-8 -11l16 0 0 22 -16 0z" />
+    </group>
+    <group android:name="ic_stamina_auto">
+	<path android:name="path_5" android:fillColor="#ffffffff" android:pathData="M45.38623 39l-1.287841 0 -0.891114 -2.532959 -3.930664 0L38.385498 39l-1.226807 0 3.308106 -9.088135 1.611328 0L45.38623 39Zm-2.551269 -3.570557l-1.593018 -4.46167 -1.599121 4.46167 3.192139 0z" />
+    </group>
+</vector>

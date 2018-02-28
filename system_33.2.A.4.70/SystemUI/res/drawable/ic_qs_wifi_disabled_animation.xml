@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector android:drawable="@drawable/ic_qs_wifi_disabled"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <target android:name="ic_wifi_antenna_enable" android:animation="@anim/ic_qs_animation_shrink_x" />
+    <target android:name="ic_wifi_antenna_disable" android:animation="@anim/ic_qs_animation_enlarge_x" />
+    <target android:name="ic_wifi_cross" android:animation="@anim/ic_qs_animation_enlarge" />
+    <target android:name="ic_wifi_cross" android:animation="@anim/ic_qs_animation_rotate_right" />
+    <target android:name="root" android:animation="@anim/ic_qs_animation_root" />
+</animated-vector>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector android:drawable="@drawable/ic_qs_sync"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <target android:name="ic_sync_enable_left" android:animation="@anim/ic_qs_animation_shrink" />
+    <target android:name="ic_sync_enable_right" android:animation="@anim/ic_qs_animation_shrink" />
+    <target android:name="ic_sync_enable_base" android:animation="@anim/ic_qs_animation_shrink" />
+    <target android:name="ic_sync_enable_left" android:animation="@anim/ic_qs_animation_rotate_left" />
+    <target android:name="ic_sync_enable_right" android:animation="@anim/ic_qs_animation_rotate_left" />
+    <target android:name="ic_sync_enable_base" android:animation="@anim/ic_qs_animation_rotate_left" />
+    <target android:name="ic_sync_disable_left" android:animation="@anim/ic_qs_animation_enlarge" />
+    <target android:name="ic_sync_disable_right" android:animation="@anim/ic_qs_animation_enlarge" />
+    <target android:name="ic_sync_disable_base" android:animation="@anim/ic_qs_animation_enlarge" />
+    <target android:name="ic_sync_disable_left" android:animation="@anim/ic_qs_animation_rotate_left" />
+    <target android:name="ic_sync_disable_right" android:animation="@anim/ic_qs_animation_rotate_left" />
+    <target android:name="ic_sync_disable_base" android:animation="@anim/ic_qs_animation_rotate_left" />
+    <target android:name="root" android:animation="@anim/ic_qs_animation_root" />
+</animated-vector>
