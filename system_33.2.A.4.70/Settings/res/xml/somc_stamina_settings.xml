@@ -3,6 +3,11 @@
   xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
     <com.sonymobile.settings.stamina.StaminaPreferenceCategory android:title="@string/battery_level_estimated_time_title" />
+    <PreferenceCategory android:title="@string/power_use_limited" android:key="limited_power">
+	<SwitchPreference android:persistent="false" android:title="@string/dw2w_mode_title" android:key="dw2w_mode" />
+	<SwitchPreference android:persistent="false" android:title="@string/hexacore_mode_title" android:key="hexacore_mode" />
+	<SwitchPreference android:persistent="false" android:title="@string/lowperformance_mode_title" android:key="lowperformance_mode" />
+    </PreferenceCategory>
     <com.sonymobile.settings.stamina.StaminaPreferenceCategory android:title="@string/battery_header_power_saving" android:key="power_save" />
     <com.sonymobile.settings.stamina.StaminaPreference android:key="stamina" settings:staminaPrefTitle="@string/extended_standby_mode_label" settings:staminaPrefSummary="@string/battery_list_stamina_mode_desc" settings:staminaPrefIcon="@drawable/battery_stamina_mode_icn" />
     <com.sonymobile.settings.stamina.StaminaPreference android:key="usm" settings:staminaPrefTitle="@string/usm_item_label" settings:staminaPrefSummary="@string/battery_list_usm_desc" settings:staminaPrefIcon="@drawable/battery_ultra_stamina_mode_icn" />

@@ -4,10 +4,5 @@
   xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
     <PreferenceCategory android:title="@string/battery_level_transition_title" />
     <com.android.settings.fuelgauge.BatteryHistoryPreference android:selectable="false" android:key="battery_history" />
-    <PreferenceCategory android:title="@string/power_use_limited" android:key="limited_power">
-	<SwitchPreference android:persistent="false" android:title="@string/dw2w_mode_title" android:key="dw2w_mode" />
-	<SwitchPreference android:persistent="false" android:title="@string/hexacore_mode_title" android:key="hexacore_mode" />
-	<SwitchPreference android:persistent="false" android:title="@string/lowperformance_mode_title" android:key="lowperformance_mode" />
-    </PreferenceCategory>
     <PreferenceCategory android:title="@string/power_usage_list_summary" android:key="app_list" />
 </PreferenceScreen>
