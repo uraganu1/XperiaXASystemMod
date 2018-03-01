@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vector android:height="24.0dip" android:width="24.0dip" android:viewportWidth="96.0" android:viewportHeight="96.0"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <path android:fillColor="#ff000000" android:pathData="M24.2219,31.2229 L47.9996,7.44521 L71.7779,31.2236 L48.0003,55.0012 L24.2219,31.2229 Z" android:fillAlpha="0.66" />
-    <path android:fillColor="#ff000000" android:pathData="M24,63 L47.807,86.807 C47.93,86.813,48.052,86.819,48.175,86.826 L72,63.001 L72,63 L24,63 Z" android:fillAlpha="0.66" />
-    <path android:fillColor="#ff000000" android:pathData="M71.779,31.123 L48,54.9 L24.222,31.122 L8.222,47.122 L16,54.9 L16,84 L16,86.674 L16,87 L22.518,87 L30.323,87 L43,87 L46,87 L46,86.717 C46.602,86.746,47.204,86.775,47.807,86.807 L24,63 L72,63 L72,63.001 L48.175,86.825 C48.783,86.857,49.392,86.888,50,86.916 L50,87 L52.629,87 C53.42,87.014,54.21,87.02,55,87 L58,87 L67.91,87 L71,87 L74.923,87 L79.526,87 L80,87 L80,86 L80,54.901 L87.779,47.122 L71.779,31.123 Z" />
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+
+    <path
+        android:fillColor="#ff000000"
+        android:fillAlpha="0.66"
+        android:pathData="M24.2219,31.2229 L47.9996,7.44521 L71.7779,31.2236 L48.0003,55.0012
+L24.2219,31.2229 Z" />
+    <path
+        android:fillColor="#ff000000"
+        android:fillAlpha="0.66"
+        android:pathData="M24,63 L47.807,86.807 C47.93,86.813,48.052,86.819,48.175,86.826 L72,63.001
+L72,63 L24,63 Z" />
+    <path
+        android:fillColor="#ff000000"
+        android:pathData="M71.779,31.123 L48,54.9 L24.222,31.122 L8.222,47.122 L16,54.9 L16,84 L16,86.674
+L16,87 L22.518,87 L30.323,87 L43,87 L46,87 L46,86.717
+C46.602,86.746,47.204,86.775,47.807,86.807 L24,63 L72,63 L72,63.001
+L48.175,86.825 C48.783,86.857,49.392,86.888,50,86.916 L50,87 L52.629,87
+C53.42,87.014,54.21,87.02,55,87 L58,87 L67.91,87 L71,87 L74.923,87 L79.526,87
+L80,87 L80,86 L80,54.901 L87.779,47.122 L71.779,31.123 Z" />
 </vector>
