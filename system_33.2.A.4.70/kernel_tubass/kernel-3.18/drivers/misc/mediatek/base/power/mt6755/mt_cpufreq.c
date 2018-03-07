@@ -93,6 +93,9 @@ static unsigned long apmixed_base;
 #define APMIXED_BASE            0xF000C000
 #endif				/* #if defined (CONFIG_OF) */
 
+#define CPU_FREQ_DEBUG 0
+
+
 #define ARMCA15PLL_CON0         (APMIXED_BASE + 0x200)
 #define ARMCA15PLL_CON1         (APMIXED_BASE + 0x204)
 #define ARMCA15PLL_CON2         (APMIXED_BASE + 0x208)
@@ -553,14 +556,45 @@ static struct mt_cpu_dvfs cpu_dvfs[] = {
 
 #define cpu_dvfs_is_extbuck_valid()     (is_ext_buck_exist() && is_ext_buck_sw_ready())
 
+
 unsigned int cpu_dvfs_get_max_freq(struct mt_cpu_dvfs *p)
 {
+	enum mt_cpu_dvfs_id id;
+	
+	id = (cpu_dvfs_is(p, MT_CPU_DVFS_LITTLE)) ? MT_CPU_DVFS_LITTLE : MT_CPU_DVFS_BIG;
 	if( lowpower_switch == 1 ) {
-		if( p->cpu_id == MT_CPU_DVFS_BIG ) {
+		if( id == MT_CPU_DVFS_BIG ) {
+#ifdef CPU_FREQ_DEBUG
+			pr_info("cpufreq debug: cpu_dvfs_get_max_freq, forcing frequency to: %d\n", p->opp_tbl[3].cpufreq_khz);
+#endif
 			return p->opp_tbl[3].cpufreq_khz;
 		}
 	}
+#ifdef CPU_FREQ_DEBUG
+	pr_info("cpufreq debug: cpu_dvfs_get_max_freq, returning freq: %d, id: %d\n", p->opp_tbl[3].cpufreq_khz, id);
+#endif
 	return p->opp_tbl[0].cpufreq_khz;
+}
+
+unsigned int my_cpu_dvfs_get_freq_by_idx(struct mt_cpu_dvfs *p, int idx)
+{
+	enum mt_cpu_dvfs_id id;
+	id = (cpu_dvfs_is(p, MT_CPU_DVFS_LITTLE)) ? MT_CPU_DVFS_LITTLE : MT_CPU_DVFS_BIG;
+	if( lowpower_switch == 1 ) {
+		if( id == MT_CPU_DVFS_BIG ) {
+			if( idx < 3) {
+				idx = 3;
+			}
+#ifdef CPU_FREQ_DEBUG
+			pr_info("cpufreq debug: my_cpu_dvfs_get_freq_by_idx, returning freq: %d\n", p->opp_tbl[idx].cpufreq_khz);
+#endif
+			return p->opp_tbl[idx].cpufreq_khz;
+		}
+	}
+#ifdef CPU_FREQ_DEBUG
+	pr_info("cpufreq debug: my_cpu_dvfs_get_freq_by_idx, returning freq: %d\n", p->opp_tbl[idx].cpufreq_khz);
+#endif
+	return p->opp_tbl[idx].cpufreq_khz;
 }
 
 static struct mt_cpu_dvfs *id_to_cpu_dvfs(enum mt_cpu_dvfs_id id)
@@ -854,7 +888,7 @@ static int _restore_default_volt(struct mt_cpu_dvfs *p)
 	enum mt_cpu_dvfs_id id;
 	struct mt_cpu_dvfs *p_second;
 
-	id = (cpu_dvfs_is(p, MT_CPU_DVFS_LITTLE)) ? MT_CPU_DVFS_BIG : MT_CPU_DVFS_LITTLE;
+	id = (cpu_dvfs_is(p, MT_CPU_DVFS_LITTLE)) ? MT_CPU_DVFS_LITTLE : MT_CPU_DVFS_BIG;
 	p_second = id_to_cpu_dvfs(id);
 
 	FUNC_ENTER(FUNC_LV_HELP);
@@ -879,10 +913,29 @@ static int _restore_default_volt(struct mt_cpu_dvfs *p)
 	freq = p->ops->get_cur_phy_freq(p);
 	volt = p->ops->get_cur_volt(p);
 
-	if (freq > cpu_dvfs_get_max_freq(p))
+	if (freq > cpu_dvfs_get_max_freq(p)) {
 		idx = 0;
-	else
+		if( lowpower_switch == 1 ) {
+			if( id == MT_CPU_DVFS_BIG ) {
+				idx = 3;
+#ifdef CPU_FREQ_DEBUG
+				pr_info("pufreq debug: _restore_default_volt, forcing idx to: %d, id: %d\n", idx, id);
+#endif
+			}
+		}
+	}
+	else {
 		idx = _search_available_freq_idx(p, freq, CPUFREQ_RELATION_L);
+		if( lowpower_switch == 1 ) {
+			if( id == MT_CPU_DVFS_BIG ) {
+				if( idx < 3 )
+					idx = 3;
+#ifdef CPU_FREQ_DEBUG
+				pr_info("pufreq debug: _restore_default_volt, forcing idx to: %d, id: %d\n", 3, id);
+#endif
+			}
+		}
+	}
 
 	/* set volt */
 	if ((p->idx_opp_tbl < p_second->idx_opp_tbl) ||
@@ -958,10 +1011,29 @@ int mt_cpufreq_update_volt(enum mt_cpu_dvfs_id id, unsigned int *volt_tbl, int n
 	freq = p->ops->get_cur_phy_freq(p);
 	volt = p->ops->get_cur_volt(p);
 
-	if (freq > cpu_dvfs_get_max_freq(p))
+	if (freq > cpu_dvfs_get_max_freq(p)) {
 		idx = 0;
-	else
+		if( lowpower_switch == 1 ) {
+			if( id == MT_CPU_DVFS_BIG ) {
+				idx = 3;
+#ifdef CPU_FREQ_DEBUG
+				pr_info("pufreq debug: mt_cpufreq_update_volt, forcing idx to: %d, id: %d\n", idx, id);
+#endif
+			}
+		}
+	}
+	else {
 		idx = _search_available_freq_idx(p, freq, CPUFREQ_RELATION_L);
+		if( lowpower_switch == 1 ) {
+			if( id == MT_CPU_DVFS_BIG ) {
+				if( idx < 3 )
+					idx = 3;
+#ifdef CPU_FREQ_DEBUG
+				pr_info("pufreq debug: mt_cpufreq_update_volt, forcing idx to: %d, id: %d\n", idx, id);
+#endif
+			}
+		}
+	}
 
 	/* dump_opp_table(p); */
 	/* set volt */
@@ -1490,6 +1562,9 @@ static int search_table_idx_by_freq(struct mt_cpu_dvfs *p, unsigned int freq)
 {
 	int i;
 	int idx = -1;
+	enum mt_cpu_dvfs_id id;
+	
+	id = (cpu_dvfs_is(p, MT_CPU_DVFS_LITTLE)) ? MT_CPU_DVFS_LITTLE : MT_CPU_DVFS_BIG;
 
 	for (i = 0; i < p->nr_opp_tbl; i++) {
 		if (p->freq_tbl[i].target_f == freq) {
@@ -1498,8 +1573,20 @@ static int search_table_idx_by_freq(struct mt_cpu_dvfs *p, unsigned int freq)
 		}
 	}
 
-	if (idx == -1)
+	if (idx == -1) {
 		idx = p->idx_opp_tbl;
+	}
+
+	if( lowpower_switch == 1 ) {
+		if( id == MT_CPU_DVFS_BIG ) {
+			if( idx < 3 ) {
+				idx = 3;
+			}
+#ifdef CPU_FREQ_DEBUG
+			pr_info("cpufreq debug, search_table_idx_by_freq id: %d, id: %d\n", idx, id);		
+#endif
+		}
+	}
 
 	return idx;
 }
@@ -2669,6 +2756,8 @@ static void ppm_limit_callback(struct ppm_client_req req)
 	char str1[32];
 	char str2[32];
 	unsigned int ret;
+	enum mt_cpu_dvfs_id id;
+	bool limited_freq;
 
 	for (i = 0; i < NR_MT_CPU_DVFS; i++)
 		arch_get_cluster_cpus(&dvfs_cpumask[i], i);
@@ -2687,6 +2776,7 @@ static void ppm_limit_callback(struct ppm_client_req req)
 
 	cpufreq_lock(flags);
 	for (i = 0; i < ppm->cluster_num; i++) {
+		limited_freq = false;
 		if (i == 0)
 			p = id_to_cpu_dvfs(MT_CPU_DVFS_LITTLE);
 		else
@@ -2695,20 +2785,24 @@ static void ppm_limit_callback(struct ppm_client_req req)
 		/* make sure the idx is synced */
 		/* _sync_opp_tbl_idx(p); */
 
+		id = (cpu_dvfs_is(p, MT_CPU_DVFS_LITTLE)) ? MT_CPU_DVFS_LITTLE : MT_CPU_DVFS_BIG;
 		ignore_ppm[i] = 0;
 		if (ppm->cpu_limit[i].has_advise_freq) {
 			p->idx_opp_ppm_base = ppm->cpu_limit[i].advise_cpufreq_idx;
 			p->idx_opp_ppm_limit = ppm->cpu_limit[i].advise_cpufreq_idx;
 			if( lowpower_switch == 1) {
-				if( p->cpu_id == MT_CPU_DVFS_BIG ) {
+				if( id == MT_CPU_DVFS_BIG ) {
 					if( p->idx_opp_ppm_limit < 3 ) {
-						// limit the frequency
+						limited_freq = true;
 						p->idx_opp_ppm_limit = 3;
-					}
-					if( p->idx_opp_ppm_base < 3 ) {
-						p->idx_opp_ppm_base = 3;
+						if( p->idx_opp_ppm_base < 4 ) {
+							p->idx_opp_ppm_base = 4;
+						}
 					}
 				}
+#ifdef CPU_FREQ_DEBUG
+				pr_info("cpufreq debug - ppm_limit_callback,  p->cpu_id: %d, p->idx_opp_ppm_limit = %d, p->idx_opp_ppm_base = %d, id: %d\n", p->cpu_id, p->idx_opp_ppm_limit, p->idx_opp_ppm_base, id);
+#endif
 			}
 			
 			if (p->idx_opp_tbl == ppm->cpu_limit[i].advise_cpufreq_idx) {
@@ -2716,14 +2810,34 @@ static void ppm_limit_callback(struct ppm_client_req req)
 						ppm->cpu_limit[i].advise_cpufreq_idx);
 					ignore_ppm[i] = 1;
 			}
-		} else {
+		} 
+		else {
 			p->idx_opp_ppm_base = ppm->cpu_limit[i].min_cpufreq_idx;	/* ppm update base */
 			p->idx_opp_ppm_limit = ppm->cpu_limit[i].max_cpufreq_idx;	/* ppm update limit */
+			if(  lowpower_switch == 1 ) {
+				if( id == MT_CPU_DVFS_BIG ) {
+					if( p->idx_opp_ppm_limit < 3 ) {
+						limited_freq = true;
+						p->idx_opp_ppm_limit = 3;
+						if( p->idx_opp_ppm_base < 4 ) {
+							p->idx_opp_ppm_base = 4;
+						}
+					}
+				}
+#ifdef CPU_FREQ_DEBUG
+				pr_info("cpufreq debug -ppm_limit_callback, id: %d, p->idx_opp_ppm_base: %d, p->idx_opp_ppm_limit = %d\n", id, p->idx_opp_ppm_base, p->idx_opp_ppm_limit);
+#endif
+			}
 			if ((p->idx_opp_tbl >= ppm->cpu_limit[i].max_cpufreq_idx)
 				&& (p->idx_opp_tbl <= ppm->cpu_limit[i].min_cpufreq_idx)) {
-				cpufreq_ver("idx = %d, idx_opp_ppm_base = %d, idx_opp_ppm_limit = %d\n",
-					p->idx_opp_tbl,	p->idx_opp_ppm_base, p->idx_opp_ppm_limit);
+				cpufreq_ver("idx = %d, idx_opp_ppm_base = %d, idx_opp_ppm_limit = %d\n", 	p->idx_opp_tbl,	p->idx_opp_ppm_base, p->idx_opp_ppm_limit);
 				ignore_ppm[i] = 1;
+				if( (lowpower_switch == 1) && limited_freq) {
+					ignore_ppm[i] = 0;
+				}
+#ifdef CPU_FREQ_DEBUG
+				pr_info("cpufreq debug: ignore ppm: %d, id: %d\n", ignore_ppm[i], id);
+#endif
 			}
 		}
 	}
@@ -2776,8 +2890,8 @@ second_limit:
 			if (p->idx_opp_ppm_limit == -1)
 				policy[MT_CPU_DVFS_BIG]->max = cpu_dvfs_get_max_freq(p);
 			else
-				policy[MT_CPU_DVFS_BIG]->max = cpu_dvfs_get_freq_by_idx(p,
-					p->idx_opp_ppm_limit);
+				policy[MT_CPU_DVFS_BIG]->max = cpu_dvfs_get_freq_by_idx(p, p->idx_opp_ppm_limit);
+				//policy[MT_CPU_DVFS_BIG]->max = my_cpu_dvfs_get_freq_by_idx(p, p->idx_opp_ppm_limit);
 			if (p->idx_opp_ppm_base == -1)
 				policy[MT_CPU_DVFS_BIG]->min = cpu_dvfs_get_min_freq(p);
 			else

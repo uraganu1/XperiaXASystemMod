@@ -2,6 +2,9 @@
 #define _LEDS_HAL_H
 
 #include "leds_sw.h"
+#ifdef CONFIG_POWERSUSPEND
+extern bool pannel_suspended;
+#endif
 
 /****************************************************************************
  * LED HAL functions

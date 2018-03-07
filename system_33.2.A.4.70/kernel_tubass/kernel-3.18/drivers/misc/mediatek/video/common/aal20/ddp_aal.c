@@ -110,7 +110,7 @@ static void disp_aal_set_interrupt(int enabled)
 	}
 
 #else
-	AAL_ERR("AAL driver is not enabled");
+	//AAL_ERR("AAL driver is not enabled");
 #endif
 }
 
@@ -296,7 +296,7 @@ static int disp_aal_set_init_reg(DISP_AAL_INITREG __user *user_regs, void *cmdq)
 
 	AAL_DBG("disp_aal_set_init_reg: %d", ret);
 #else
-	AAL_ERR("disp_aal_set_init_reg: AAL not supported");
+	//AAL_ERR("disp_aal_set_init_reg: AAL not supported");
 #endif
 
 	return ret;

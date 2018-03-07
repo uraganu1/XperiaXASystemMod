@@ -13,6 +13,7 @@
 #include <linux/cpu.h>		/* cpu_up */
 #include <linux/platform_device.h>	/* platform_driver_register */
 #include <linux/wakelock.h>	/* wake_lock_init */
+#include <linux/syscalls.h>
 
 /* local includes */
 #include "mt_hotplug_strategy_internal.h"
@@ -34,8 +35,8 @@
  */
 #define HPS_TASK_PRIORITY               (MAX_RT_PRIO - 3)
 #define HEXAMODE_DEFAULT		0
+#define HEXAMODECPUS_DEFAULT	2
 #define LOWPOWER_DEFAULT            0
-
 
 /*============================================================================*/
 /* Local type definition */
@@ -178,6 +179,7 @@ EXPORT_SYMBOL_GPL(power_tweaks_kobj);
 
 int hexamode_switch = HEXAMODE_DEFAULT;
 int lowpower_switch = LOWPOWER_DEFAULT;
+int hexamodecpus_switch = HEXAMODECPUS_DEFAULT;
 
 void hps_ctxt_reset_stas_nolock(void)
 {
@@ -540,8 +542,8 @@ static ssize_t hexamode_dump(struct device *dev, struct device_attribute *attr, 
 
 	if( hps_get_cpu_num_limit(LIMIT_POWER_SERV, &little_cpu_limit, &big_cpu_limit) == 0 ) {
 		if( hexamode_switch == 1 ) {
-			if( big_cpu_limit != 2 ) {
-				big_cpu_limit = 2;
+			if( big_cpu_limit != hexamodecpus_switch ) {
+				big_cpu_limit = hexamodecpus_switch;
 				hps_set_cpu_num_limit(LIMIT_POWER_SERV, little_cpu_limit, big_cpu_limit);
 			}
 		}
@@ -556,7 +558,26 @@ static ssize_t hexamode_dump(struct device *dev, struct device_attribute *attr, 
 	return count;
 }
 
-static DEVICE_ATTR(hexamode, 0666, hexamode_show, hexamode_dump);
+static DEVICE_ATTR(hexamode, 0644, hexamode_show, hexamode_dump);
+
+static ssize_t hexamodecpus_show(struct device *dev, struct device_attribute *attr, char *buf)
+{
+
+	size_t count = 0;
+	count += sprintf(buf, "%d\n", hexamodecpus_switch);
+	return count;
+}
+
+static ssize_t hexamodecpus_dump(struct device *dev, struct device_attribute *attr, const char *buf, size_t count)
+{
+	if (buf[0] >= '1' && buf[0] <= '2' && buf[1] == '\n')
+                if (hexamodecpus_switch != buf[0] - '0')
+		        hexamodecpus_switch = buf[0] - '0';
+	
+	return count;
+}
+
+static DEVICE_ATTR(hexamodecpus, 0644, hexamodecpus_show, hexamodecpus_dump);
 
 static ssize_t lpowermode_show(struct device *dev, struct device_attribute *attr, char *buf)
 {
@@ -576,7 +597,7 @@ static ssize_t lpowermode_dump(struct device *dev, struct device_attribute *attr
 	return count;
 }
 
-static DEVICE_ATTR(lpowermode, 0666, lpowermode_show, lpowermode_dump);
+static DEVICE_ATTR(lpowermode, 0644, lpowermode_show, lpowermode_dump);
 
 static int hps_power_tweaks_sysfs_init(void)
 {
@@ -597,6 +618,12 @@ static int hps_power_tweaks_sysfs_init(void)
 		sysfs_result = sysfs_create_file(power_tweaks_kobj, &dev_attr_lpowermode.attr);
 		if (sysfs_result) {
 	 		pr_warn("%s: sysfs_create_file failed for lowpower\n", __func__);
+		}
+		else {
+			sysfs_result = sysfs_create_file(power_tweaks_kobj, &dev_attr_hexamodecpus.attr);
+			if (sysfs_result) {
+	 			pr_warn("%s: sysfs_create_file failed for hexamodecpus\n", __func__);
+			}
 		}
 	}
 

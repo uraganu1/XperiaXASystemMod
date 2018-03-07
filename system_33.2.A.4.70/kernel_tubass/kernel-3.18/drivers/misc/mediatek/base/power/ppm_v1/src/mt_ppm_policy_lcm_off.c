@@ -11,6 +11,11 @@
 
 #include "mt_ppm_internal.h"
 
+#ifdef CONFIG_POWERSUSPEND
+#include <linux/powersuspend.h>
+#endif
+
+
 
 static enum ppm_power_state ppm_lcmoff_get_power_state_cb(enum ppm_power_state cur_state);
 static void ppm_lcmoff_update_limit_cb(enum ppm_power_state new_state);
@@ -159,10 +164,16 @@ static int ppm_lcmoff_fb_notifier_callback(struct notifier_block *self, unsigned
 	/* LCM ON */
 	case FB_BLANK_UNBLANK:
 		ppm_lcmoff_switch(1);
+#ifdef CONFIG_POWERSUSPEND
+		set_power_suspend_state_panel_hook(POWER_SUSPEND_INACTIVE);
+#endif
 		break;
 	/* LCM OFF */
 	case FB_BLANK_POWERDOWN:
 		ppm_lcmoff_switch(0);
+#ifdef CONFIG_POWERSUSPEND
+		set_power_suspend_state_panel_hook(POWER_SUSPEND_ACTIVE);
+#endif
 		break;
 	default:
 		break;
