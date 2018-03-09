@@ -43,5 +43,5 @@
     <dimen name="keyguard_pattern_unlock_clock_font_size">112.0sp</dimen>
     <dimen name="glowpadview_target_placement_radius">182.0dip</dimen>
     <dimen name="keyguard_pattern_unlock_status_line_font_size">14.0sp</dimen>
-    <dimen name="navigation_bar_height_portrait">56.0dip</dimen>
+    <dimen name="navigation_bar_height_portrait">48.0dip</dimen>
 </resources>
