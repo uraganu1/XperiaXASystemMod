@@ -149,7 +149,9 @@ struct mt65xx_led_data {
 	struct led_classdev cdev;
 	struct cust_mt65xx_led cust;
 	struct work_struct work;
+	struct delayed_work dwork;
 	int level;
+	int clevel;
 	int delay_on;
 	int delay_off;
 };

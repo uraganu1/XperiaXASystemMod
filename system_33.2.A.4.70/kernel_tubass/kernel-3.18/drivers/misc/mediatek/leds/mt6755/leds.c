@@ -71,6 +71,7 @@ void mt_pwm_disable(u32 pwm_no, u8 pmic_pad)
 
 static DEFINE_MUTEX(leds_mutex);
 static DEFINE_MUTEX(leds_pmic_mutex);
+static DEFINE_SPINLOCK(leds_lock);
 
 /****************************************************************************
  * variables
@@ -1161,6 +1162,81 @@ int mt_mt65xx_led_set_cust(struct cust_mt65xx_led *cust, int level)
 	return -1;
 }
 
+void mt_mt65xx_led_delayed_work(struct work_struct *work)
+{
+	//struct delayed_work *dwork = to_delayed_work(work);
+
+	struct mt65xx_led_data *led_data = container_of((struct delayed_work *)work, struct mt65xx_led_data, dwork);
+	
+	int level = 0;
+	bool level_changed = false;
+	bool level_increased = false;
+	int level_diff = 0;
+	unsigned int w_ms = 0;
+
+	if (!mutex_trylock(&leds_mutex))
+                return;
+
+	spin_lock(&leds_lock);
+	if( led_data->level != led_data->clevel ) {
+		if( led_data->level > led_data->clevel ) {
+			led_data->clevel++;
+			level_diff = led_data->level - led_data->clevel;
+			spin_unlock(&leds_lock);
+			level_changed = true;
+			level_increased = true;
+		}
+		else {
+			led_data->clevel--;
+			level_diff = led_data->clevel - led_data->level;
+			spin_unlock(&leds_lock);
+			level_changed = true;
+			
+		}
+		level = led_data->clevel;
+	}
+	else {
+		spin_unlock(&leds_lock);
+	}
+
+	if( level_changed ) {
+		if (level != 0 && level * CONFIG_LIGHTNESS_MAPPING_VALUE < 255) {
+			level = 1;
+		} else {
+			level = (level * CONFIG_LIGHTNESS_MAPPING_VALUE) / 255;
+		}
+
+		if (MT65XX_LED_MODE_CUST_BLS_PWM == led_data->cust.mode) {
+    			mt_mt65xx_led_set_cust(&led_data->cust, ((((1 << MT_LED_INTERNAL_LEVEL_BIT_CNT) - 1) * level + 127) / 255));
+		} else {
+    			mt_mt65xx_led_set_cust(&led_data->cust, level);
+		}
+		if( level_increased ) {
+			if( level_diff > 35 ) {
+				w_ms = 120;
+			}
+			else {
+				w_ms = 480 - level_diff*10;
+			}
+			mutex_unlock(&leds_mutex);
+			schedule_delayed_work(&led_data->dwork, msecs_to_jiffies(w_ms)); // 480 ms maximum time between adiacent levels when increasing
+		}
+		else {
+			if( level_diff > 23 ) {
+				w_ms = 80;
+			}
+			else {
+				w_ms = 320 - level_diff*10; // decreasing faster than increasing for preserving battery ...
+			}
+			mutex_unlock(&leds_mutex);
+			schedule_delayed_work(&led_data->dwork, msecs_to_jiffies(w_ms)); // 320 ms maximum time between adiacent level when decreasing
+		}
+	}
+	else {
+		mutex_unlock(&leds_mutex);
+	}
+}
+
 void mt_mt65xx_led_work(struct work_struct *work)
 {
 	struct mt65xx_led_data *led_data =
@@ -1180,8 +1256,11 @@ void mt_mt65xx_led_set(struct led_classdev *led_cdev, enum led_brightness level)
 	/* spin_lock_irqsave(&leds_lock, flags); */
 	//[Mark] add for INX second source module
 	int cci_lcm_id = 0;
+	int previous_lcd_brightness_level = 0;
+	
 	cci_lcm_id = get_lcm_id();
 	LEDS_DEBUG("[Mark] LCM_ID : %d \n", cci_lcm_id);
+	
 	if((level > 0) && (level < 256)) {
 		if(cci_lcm_id == 0) //INX panel
 		{
@@ -1193,6 +1272,7 @@ void mt_mt65xx_led_set(struct led_classdev *led_cdev, enum led_brightness level)
 			level = backlight_change_truly[level-1];
 		}
 	}
+
 #ifdef CONFIG_MTK_AAL_SUPPORT
 	if (led_data->level != level) {
 	    led_data->level = level;
@@ -1219,8 +1299,8 @@ void mt_mt65xx_led_set(struct led_classdev *led_cdev, enum led_brightness level)
 #else
 	/* do something only when level is changed */
 	if (led_data->level != level) {
-	    led_data->level = level;
 	    if (strcmp(led_data->cust.name, "lcd-backlight") != 0) {
+		led_data->level = level;
 		LEDS_DEBUG("Set NLED directly %d at time %lu\n",
 				   led_data->level, jiffies);
                 //CEI comments start
@@ -1229,17 +1309,37 @@ void mt_mt65xx_led_set(struct led_classdev *led_cdev, enum led_brightness level)
                 mt_mt65xx_led_set_cust(&led_data->cust, led_data->level);
                 //CEI comments end
 	    } else {
-		if (level != 0 && level * CONFIG_LIGHTNESS_MAPPING_VALUE < 255) {
-		    level = 1;
-		} else {
-		    level = (level * CONFIG_LIGHTNESS_MAPPING_VALUE) / 255;
-		}
-		LEDS_DEBUG("Set Backlight directly %d at time %lu, mapping level is %d\n",
-			     led_data->level, jiffies, level);
-		if (MT65XX_LED_MODE_CUST_BLS_PWM == led_data->cust.mode) {
-		    mt_mt65xx_led_set_cust(&led_data->cust, ((((1 << MT_LED_INTERNAL_LEVEL_BIT_CNT) - 1) * level + 127) / 255));
-		} else {
-		    mt_mt65xx_led_set_cust(&led_data->cust, level);
+	    	if( level == 0 ) {
+				cancel_delayed_work_sync(&led_data->dwork);
+				spin_lock(&leds_lock);
+				led_data->clevel = 1;
+				led_data->level = level;
+				spin_unlock(&leds_lock);
+				if (level != 0 && level * CONFIG_LIGHTNESS_MAPPING_VALUE < 255) {
+		    			level = 1;
+				} else {
+		    			level = (level * CONFIG_LIGHTNESS_MAPPING_VALUE) / 255;
+				}
+
+				if (MT65XX_LED_MODE_CUST_BLS_PWM == led_data->cust.mode) {
+		    			mt_mt65xx_led_set_cust(&led_data->cust, ((((1 << MT_LED_INTERNAL_LEVEL_BIT_CNT) - 1) * level + 127) / 255));
+				} else {
+		    			mt_mt65xx_led_set_cust(&led_data->cust, level);
+				}
+	    	}
+		else {
+			spin_lock(&leds_lock);
+			led_data->level = level;
+			previous_lcd_brightness_level = led_data->clevel;
+			spin_unlock(&leds_lock);
+			// right now
+			if( previous_lcd_brightness_level == 1 ) {
+				// wake up from sleep - delay a bit
+				schedule_delayed_work(&led_data->dwork, msecs_to_jiffies(480));
+			}
+			else {
+				schedule_delayed_work(&led_data->dwork, 0);
+			}
 		}
 	    }
 	}

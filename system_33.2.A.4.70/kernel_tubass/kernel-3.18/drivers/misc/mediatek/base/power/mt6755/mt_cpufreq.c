@@ -93,7 +93,7 @@ static unsigned long apmixed_base;
 #define APMIXED_BASE            0xF000C000
 #endif				/* #if defined (CONFIG_OF) */
 
-#define CPU_FREQ_DEBUG 0
+//#define CPU_FREQ_DEBUG 1
 
 
 #define ARMCA15PLL_CON0         (APMIXED_BASE + 0x200)

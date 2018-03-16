@@ -51,13 +51,13 @@ MODULE_VERSION(DRIVER_VERSION);
 MODULE_LICENSE("GPLv2");
 
 /* Tuneables */
-#define DW2W_DEBUG				0
+//#define DW2W_DEBUG				0
 #define DW2W_DEFAULT			1
 
 #define DW2W_PWRKEY_DUR		60
-#define DW2W_TIME				1024
-#define DW2W_TIME_W			320
-#define DW2W_VIBRATOR_WAVE	20
+#define DW2W_TIME				1280
+#define DW2W_TIME_W			400
+#define DW2W_VIBRATOR_WAVE	16
 #define DW2W_VIBRATOR_WAKE	32
 
 /* Resources */
@@ -166,12 +166,17 @@ static void new_wave_w(void) {
 static int computetime(struct timeval *val) {
 
 	struct timeval now;
-	int tdiff = 0;
+	unsigned long long tdiff = 0;
+	unsigned long  long now_us = 0;
+	unsigned long long val_us = 0;
 
 	do_gettimeofday(&now);
-	tdiff =  (now.tv_sec - val->tv_sec) * USEC_PER_SEC + abs(now.tv_usec - val->tv_usec);
+	now_us = (unsigned long long)(now.tv_sec*USEC_PER_SEC) + (unsigned long long)now.tv_usec;
+	val_us = (unsigned long long)(val->tv_sec*USEC_PER_SEC) + (unsigned long long)val->tv_usec;
 
-	return (tdiff / MSEC_PER_SEC);
+	tdiff = (unsigned long long)now_us - (unsigned long long)val_us;
+
+	return (int)(tdiff / MSEC_PER_SEC);
 }
 
 /* Doublewave2wake main function */

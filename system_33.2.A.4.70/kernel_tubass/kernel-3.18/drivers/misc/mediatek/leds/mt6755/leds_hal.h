@@ -36,6 +36,7 @@ extern int mt_backlight_set_pwm(int pwm_num, u32 level, u32 div,
 extern int mt_brightness_set_pmic(enum mt65xx_led_pmic pmic_type, u32 level,
 				  u32 div);
 extern int mt_mt65xx_led_set_cust(struct cust_mt65xx_led *cust, int level);
+extern void mt_mt65xx_led_delayed_work(struct work_struct *work);
 extern void mt_mt65xx_led_work(struct work_struct *work);
 extern void mt_mt65xx_led_set(struct led_classdev *led_cdev,
 			      enum led_brightness level);
