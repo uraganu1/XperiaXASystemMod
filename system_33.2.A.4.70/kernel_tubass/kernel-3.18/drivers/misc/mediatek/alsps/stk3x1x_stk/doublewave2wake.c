@@ -51,7 +51,7 @@ MODULE_VERSION(DRIVER_VERSION);
 MODULE_LICENSE("GPLv2");
 
 /* Tuneables */
-//#define DW2W_DEBUG				0
+#define DW2W_DEBUG				0
 #define DW2W_DEFAULT			1
 
 #define DW2W_PWRKEY_DUR		60
@@ -77,7 +77,7 @@ static DEFINE_MUTEX(pwrkeyworklock);
 static struct workqueue_struct *dw2w_input_wq;
 static struct work_struct dw2w_input_work;
 
-#ifdef DW2W_DEBUG
+#if DW2W_DEBUG
 struct debug_node;
 
 static struct debug_node *head = NULL;
@@ -247,7 +247,7 @@ static void dw2w_input_event(struct input_handle *handle, unsigned int type, uns
 
 static int input_dev_filter(struct input_dev *dev) {
 
-#ifdef DW2W_DEBUG
+#if DW2W_DEBUG
 	struct debug_node *n;
 	struct debug_node *cn;
 
@@ -278,7 +278,7 @@ static int input_dev_filter(struct input_dev *dev) {
 	
 #endif
 	if ( strstr(dev->name, "m_alsps_input") ) {
-#ifdef DW2W_DEBUG
+#if DW2W_DEBUG
 		if( n != NULL ) {
 			n->registered = true;
 		}
@@ -294,7 +294,7 @@ static int dw2w_input_connect(struct input_handler *handler, struct input_dev *d
 	struct input_handle *handle;
 	int error;
 
-#ifdef DW2W_DEBUG
+#if DW2W_DEBUG
 	pr_info("doublewave2wake: dw2w_input_connect\n");
 #endif
 
@@ -351,7 +351,7 @@ static void dw2w_early_suspend(struct power_suspend *h)
 		dw2w_prx_enabled = stk3x1x_store_psenable_exported(true);
 	}
 	dw2w_scr_suspended = true;
-#ifdef DW2W_DEBUG
+#if DW2W_DEBUG
 	pr_info("doublewave2wake: dw2w_early_suspend, dw2w_switch: %d, dw2w_prx_enabled: %d\n", dw2w_switch, dw2w_prx_enabled);
 #endif
 
@@ -359,7 +359,7 @@ static void dw2w_early_suspend(struct power_suspend *h)
 
 static void dw2w_late_resume(struct power_suspend *h)
 {
-#ifdef DW2W_DEBUG
+#if DW2W_DEBUG
 	pr_info("doublewave2wake: dw2w_late_resume, dw2w_switch: %d, dw2w_prx_enabled: %d\n", dw2w_switch, dw2w_prx_enabled);
 #endif
 	dw2w_scr_suspended = false;
@@ -388,7 +388,7 @@ static ssize_t dw2w_doublewave2wake_show(struct device *dev, struct device_attri
 
 static ssize_t dw2w_doublewave2wake_dump(struct device *dev, struct device_attribute *attr, const char *buf, size_t count)
 {
-#ifdef DW2W_DEBUG
+#if DW2W_DEBUG
 	struct debug_node *n;
 #endif
 
@@ -396,7 +396,7 @@ static ssize_t dw2w_doublewave2wake_dump(struct device *dev, struct device_attri
                 if (dw2w_switch != buf[0] - '0')
 		        dw2w_switch = buf[0] - '0';
 				
-#ifdef DW2W_DEBUG
+#if DW2W_DEBUG
 	n = head;
 	while( n != NULL ) {
 		pr_info("doublewave2wake: - found input device: %s, registered: %d\n", n->dev_name, n->registered);
@@ -436,7 +436,7 @@ static int __init doublewave2wake_init(void)
 {
 	int rc = 0;
 	
-#ifdef DW2W_DEBUG
+#if DW2W_DEBUG
 	pr_info("doublewave2wake: initializing\n");
 #endif
 
