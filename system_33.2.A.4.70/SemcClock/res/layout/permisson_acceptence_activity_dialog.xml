@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="@dimen/alert_dialog_padding" android:layout_width="wrap_content" android:layout_height="fill_parent" android:minWidth="@dimen/alert_dialog_width" android:paddingStart="@dimen/alert_dialog_padding" android:paddingEnd="@dimen/alert_dialog_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@android:style/TextAppearance.Material.DialogWindowTitle" android:textColor="?android:colorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/alert_dialog_title_margin_bottom" android:text="@string/note_popup_title" />
+    <TextView android:textAppearance="@android:style/TextAppearance.Material.Body1" android:id="@id/description" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/alert_dialog_small_title_margin_top_bottom" android:layout_marginBottom="@dimen/alert_dialog_small_title_margin_top_bottom">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="3.0">
+            <TextView android:textAppearance="@android:style/TextAppearance.Material.Body1" android:textColor="?android:colorPrimary" android:id="@id/permission_list_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/alert_dialog_small_title_margin_top_bottom" />
+            <View android:background="?android:colorPrimary" android:layout_width="fill_parent" android:layout_height="@dimen/alert_dialog_divider" />
+            <ListView android:id="@id/permission_list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <CheckBox android:id="@id/remember_selection" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/remember_this_selection" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:layout_gravity="end" android:id="@id/decline_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/decline_btn_text" android:layout_weight="1.0" style="@android:style/Widget.Material.ButtonBar.AlertDialog" />
+                <Button android:layout_gravity="end" android:id="@id/accept_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/accept_btn_text" android:layout_weight="1.0" style="@android:style/Widget.Material.ButtonBar.AlertDialog" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

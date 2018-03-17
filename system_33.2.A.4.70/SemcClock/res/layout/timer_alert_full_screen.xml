@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/timer" android:paddingTop="@dimen/clock_margin_over" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.sonyericsson.organizer.components.AnalogTimer android:layout_gravity="center" android:id="@id/timer_countdown" android:layout_width="@dimen/clock_size" android:layout_height="@dimen/clock_size" android:layout_marginBottom="@dimen/clock_margin_under" />
+    <Button android:textSize="@dimen/button_text_size" android:textColor="@android:color/white" android:id="@id/timer_stop" android:layout_width="@dimen/clock_size" android:layout_height="wrap_content" android:text="@string/timer_stop" />
+</LinearLayout>

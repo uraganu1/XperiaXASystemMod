@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="world_clock_margin_under">28.0dip</dimen>
+    <dimen name="world_clock_clock_city_margin_top">9.0dip</dimen>
+    <dimen name="ampm_text_size">27.0dip</dimen>
+    <dimen name="date_text_size">18.0dip</dimen>
+    <dimen name="desk_clock_margin_bottom_clock">10.0dip</dimen>
+    <dimen name="next_alarm_text_size">18.0dip</dimen>
+    <dimen name="time_text_size">160.0dip</dimen>
+    <dimen name="icon_padding">6.0dip</dimen>
+</resources>

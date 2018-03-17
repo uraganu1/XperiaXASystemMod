@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layoutDirection="locale" android:paddingStart="@dimen/list_item_side_margin" android:paddingEnd="@dimen/list_item_side_margin" style="@style/alarm_list"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:textColor="@color/night_mode_time_bg_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toStartOf="@id/clock_onoff" android:layout_alignParentStart="true" layout="@layout/alarm_digital_clock" />
+    <CheckedTextView android:gravity="center" android:id="@id/clock_onoff" android:paddingTop="@dimen/list_item_margin_alarm_switch_top_bottom" android:paddingBottom="@dimen/list_item_margin_alarm_switch_top_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checkMark="?android:listChoiceIndicatorMultiple" android:layout_alignParentEnd="true" />
+</RelativeLayout>

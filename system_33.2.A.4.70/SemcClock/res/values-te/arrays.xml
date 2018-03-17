@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alarm_displayed_lable_alarm_set">
+        <item>ఇప్పటి నుండి 1 నిమిషం కంటే తక్కువ</item>
+        <item>ఇప్పటి నుండి %1$s</item>
+        <item>ఇప్పటి నుండి %2$s</item>
+        <item>ఇప్పటి నుండి %1$s %2$s</item>
+        <item>ఇప్పటి నుండి %3$s</item>
+        <item>ఇప్పటి నుండి %1$s %3$s</item>
+        <item>ఇప్పటి నుండి %2$s %3$s</item>
+        <item>ఇప్పటి నుండి %1$s %2$s %3$s</item>
+    </string-array>
+    <string-array name="alarm_set">
+        <item>ఈ అలారం ఇప్పటి నుండి 1 నిమిషం కంటే తక్కువకు సెట్ చేయబడింది</item>
+        <item>ఈ అలారం ఇప్పటి నుండి %1$sకు సెట్ చేయబడింది</item>
+        <item>ఈ అలారం ఇప్పటి నుండి %2$sకు సెట్ చేయబడింది</item>
+        <item>ఈ అలారం ఇప్పటి నుండి %1$s మరియు %2$sకు సెట్ చేయబడింది</item>
+        <item>ఈ అలారం ఇప్పటి నుండి %3$sకు సెట్ చేయబడింది</item>
+        <item>ఈ అలారం ఇప్పటి నుండి %1$s మరియు %3$sకు సెట్ చేయబడింది</item>
+        <item>ఈ అలారం ఇప్పటి నుండి %2$s మరియు %3$sకు సెట్ చేయబడింది</item>
+        <item>ఈ అలారం ఇప్పటి నుండి %1$s, %2$s మరియు %3$sకు సెట్ చేయబడింది.</item>
+    </string-array>
+    <string-array name="snooze_duration_entries">
+        <item>5 నిమిషాలు</item>
+        <item>10 నిమిషాలు</item>
+        <item>15 నిమిషాలు</item>
+        <item>20 నిమిషాలు</item>
+        <item>25 నిమిషాలు</item>
+        <item>30 నిమిషాలు</item>
+    </string-array>
+    <string-array name="string_alarm_set_tablet_txt">
+        <item>1 నిమిషంలో</item>
+        <item>%1$sలో</item>
+        <item>%2$sలో</item>
+        <item>%1$s మరియు %2$sలో</item>
+        <item>%3$sలో</item>
+        <item>%1$s మరియు %3$sలో</item>
+        <item>%2$s మరియు %3$sలో</item>
+        <item>%1$s, %2$s మరియు %3$sలో</item>
+    </string-array>
+    <string-array name="timer_duration_history_label">
+        <item>%1$s</item>
+        <item>%2$s</item>
+        <item>%1$s, %2$s</item>
+        <item>%3$s</item>
+        <item>%1$s, %3$s</item>
+        <item>%2$s, %3$s</item>
+        <item>%1$s, %2$s మరియు %3$s</item>
+    </string-array>
+    <string-array name="volume_button_setting_entries">
+        <item>ఏదీ కాదు</item>
+        <item>స్నూజ్ చేయి</item>
+        <item>తీసివేయి</item>
+    </string-array>
+</resources>

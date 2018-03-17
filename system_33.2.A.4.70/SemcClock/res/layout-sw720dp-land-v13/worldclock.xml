@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:paddingTop="@dimen/view_margin_top" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/clock_layout" android:layout_width="@dimen/worldclock_clock_width" android:layout_height="wrap_content" android:layout_marginStart="@dimen/worldclock_clock_layout_margin_start">
+        <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/worldclock_map_portrait" android:scaleType="centerInside" />
+        <FrameLayout android:id="@id/clock_frame" android:layout_width="@dimen/clock_size" android:layout_height="@dimen/clock_size" android:layout_marginTop="@dimen/worldclock_clock_margin_top" android:layout_marginStart="@dimen/worldclock_clock_margin_start" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.sonyericsson.organizer.MenuButtonFrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentEnd="true" style="@style/MenuButtonStyle" />
+        <FrameLayout android:id="@id/list_frame" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/worldclock_list_margin_top" android:layout_marginBottom="@dimen/worldclock_list_margin_bottom" android:layout_marginStart="@dimen/worldclock_list_margin_start" android:layout_marginEnd="@dimen/right_part_margin_left" android:layout_toEndOf="@id/clock_layout" />
+        <com.sonyericsson.organizer.FABFrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" style="@style/FAB" />
+    </RelativeLayout>
+</LinearLayout>

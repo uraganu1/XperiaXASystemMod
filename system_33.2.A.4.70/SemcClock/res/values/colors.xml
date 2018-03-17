@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="active_alarm_text">#06600000</color>
+    <color name="focused_border_color">#ff00b0e6</color>
+    <color name="focused_item_color">#ffdbdbdb</color>
+    <color name="gradient_end_color">#0c000000</color>
+    <color name="gradient_start_color">#e5000000</color>
+    <color name="list_color_enabled">#ff323232</color>
+    <color name="night_mode_time_bg_color">#ff000000</color>
+    <color name="night_mode_time_text_color">#ff414141</color>
+    <color name="picker_bg">#80000000</color>
+    <color name="reset_button_color">#ffd6d7d7</color>
+    <color name="snooze_text_color">#ff555555</color>
+    <color name="standard_black_text_color">#ff333333</color>
+    <color name="standard_grey_text_color">#ff777777</color>
+    <color name="start_button_color">#ffb1db33</color>
+    <color name="start_button_color_disabled">#ff89b310</color>
+    <color name="stop_button_color">#ffff5b5b</color>
+    <color name="stop_button_color_disabled">#ff4d1c1c</color>
+    <color name="time_text_color">#fff7f7f7</color>
+    <color name="weekdays_color_disabled">#ff707070</color>
+</resources>

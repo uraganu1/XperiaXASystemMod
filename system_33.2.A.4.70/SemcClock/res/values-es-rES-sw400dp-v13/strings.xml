@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="most_used_timers">TEMPORIZADORES MÁS USADOS</string>
+    <string name="timer_set_time">Establecer hora</string>
+</resources>

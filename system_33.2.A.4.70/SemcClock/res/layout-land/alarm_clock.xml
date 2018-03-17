@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/base_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center" android:id="@id/clock_frame" android:focusable="true" android:focusableInTouchMode="true" android:nextFocusRight="@id/list_frame" android:layout_width="@dimen/clock_size" android:layout_height="@dimen/clock_size" android:layout_marginStart="@dimen/clock_margin_start" android:layout_marginEnd="@dimen/clock_margin_end" />
+    <RelativeLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.sonyericsson.organizer.MenuButtonFrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentEnd="true" style="@style/MenuButtonStyle" />
+        <FrameLayout android:id="@id/list_frame" android:paddingTop="@dimen/clock_margin_over_list" android:nextFocusLeft="@id/clock_frame" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.sonyericsson.organizer.FABFrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" style="@style/FAB" />
+    </RelativeLayout>
+</LinearLayout>

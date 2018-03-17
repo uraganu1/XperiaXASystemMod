@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:state_activated="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="2.0dip" />
+            <stroke android:width="2.0dip" android:color="@color/focused_border_color" />
+            <gradient android:startColor="@color/reset_button_color" android:endColor="@color/reset_button_color" android:angle="-90.0" />
+        </shape>
+    </item>
+    <item android:state_pressed="true" android:state_activated="false">
+        <shape android:shape="rectangle">
+            <corners android:radius="2.0dip" />
+            <stroke android:width="2.0dip" android:color="@color/reset_button_color" />
+            <gradient android:startColor="@color/reset_button_color" android:endColor="@color/reset_button_color" android:angle="-90.0" />
+        </shape>
+    </item>
+    <item android:state_focused="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="2.0dip" />
+            <stroke android:width="2.0dip" android:color="@color/focused_border_color" />
+            <solid android:color="@color/reset_button_color" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="4.0dip" />
+            <stroke android:width="2.0dip" android:color="@color/gradient_end_color" />
+            <gradient android:startColor="@color/reset_button_color" android:endColor="@color/reset_button_color" android:angle="-90.0" />
+        </shape>
+    </item>
+</selector>

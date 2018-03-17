@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alarm_displayed_lable_alarm_set">
+        <item>Այս պահից սկսած՝ մեկ րոպեից քիչ</item>
+        <item>%1$s այս պահից սկսած</item>
+        <item>%2$s այս պահից սկսած</item>
+        <item>%1$s %2$s այս պահից սկսած</item>
+        <item>%3$s այս պահից սկսած</item>
+        <item>%1$s %3$s այս պահից սկսած</item>
+        <item>%2$s %3$s այս պահից սկսած</item>
+        <item>%1$s %2$s %3$s այս պահից սկսած</item>
+    </string-array>
+    <string-array name="alarm_set">
+        <item>Այս զարթուցիչը նախադրված է այս պահից սկսած 1 րոպեից պակաս ժամանակամիջոցով</item>
+        <item>Այս զարթուցիչը նախադրված է այս պահից սկսած %1$s ժամանակամիջոցով</item>
+        <item>Այս զարթուցիչը նախադրված է այս պահից սկսած %2$s ժամանակամիջոցով</item>
+        <item>Այս զարթուցիչը նախադրված է այս պահից սկսած %1$s և %2$s ժամանակամիջոցով</item>
+        <item>Այս զարթուցիչը նախադրված է այս պահից սկսած %3$s ժամանակամիջոցով</item>
+        <item>Այս զարթուցիչը նախադրված է այս պահից սկսած %1$s և %3$s ժամանակամիջոցով</item>
+        <item>Այս զարթուցիչը նախադրված է այս պահից սկսած %2$s և %3$s ժամանակամիջոցով</item>
+        <item>Այս զարթուցիչը նախադրված է այս պահից սկսած %1$s, %2$s և %3$s ժամանակամիջոցով:</item>
+    </string-array>
+    <string-array name="snooze_duration_entries">
+        <item>5 րոպե</item>
+        <item>10 րոպե</item>
+        <item>15 րոպե</item>
+        <item>20 րոպե</item>
+        <item>25 րոպե</item>
+        <item>30 րոպե</item>
+    </string-array>
+    <string-array name="string_alarm_set_tablet_txt">
+        <item>1 րոպեից</item>
+        <item>%1$s-ից</item>
+        <item>%2$s-ից</item>
+        <item>%1$s և %2$s-ից</item>
+        <item>%3$s-ից</item>
+        <item>%1$s և %3$s-ից</item>
+        <item>%2$s և %3$s-ից</item>
+        <item>%1$s, %2$s և %3$s-ից</item>
+    </string-array>
+    <string-array name="timer_duration_history_label">
+        <item>%1$s</item>
+        <item>%2$s</item>
+        <item>%1$s, %2$s</item>
+        <item>%3$s</item>
+        <item>%1$s, %3$s</item>
+        <item>%2$s, %3$s</item>
+        <item>%1$s, %2$s և %3$s</item>
+    </string-array>
+    <string-array name="volume_button_setting_entries">
+        <item>Ոչ մեկը</item>
+        <item>Նիրհել</item>
+        <item>Փակել</item>
+    </string-array>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alarm_displayed_lable_alarm_set">
+        <item>आत्तापासून 1 मिनिटापेक्षा कमी</item>
+        <item>%1$s आत्तापासून</item>
+        <item>%2$s आत्तापासून</item>
+        <item>%1$s %2$s आत्तापासून</item>
+        <item>%3$s आत्तापासून</item>
+        <item>%1$s %3$s आत्तापासून</item>
+        <item>%2$s %3$s आत्तापासून</item>
+        <item>आत्तापासून %1$s %2$s %3$s</item>
+    </string-array>
+    <string-array name="alarm_set">
+        <item>हा गजर आत्तापासून 1 मिनिटापेक्षा कमीसाठी सेट केला आहे</item>
+        <item>हा गजर आत्तापासून %1$s साठी सेट केला आहे</item>
+        <item>हा गजर आत्तापासून %2$s साठी सेट केला आहे</item>
+        <item>हा गजर आत्तापासून %1$s आणि %2$s साठी सेट केला आहे</item>
+        <item>हा गजर आत्तापासून %3$s साठी सेट केला आहे</item>
+        <item>हा गजर आत्तापासून %1$s आणि %3$s साठी सेट केला आहे</item>
+        <item>हा गजर आत्तापासून %2$s आणि %3$s साठी सेट केला आहे</item>
+        <item>हा गजर आत्तापासून %1$s, %2$s आणि %3$s साठी सेट केला आहे.</item>
+    </string-array>
+    <string-array name="snooze_duration_entries">
+        <item>5 मिनिट</item>
+        <item>10 मिनिट</item>
+        <item>15 मिनिट</item>
+        <item>20 मिनिट</item>
+        <item>25 मिनिट</item>
+        <item>30 मिनिट</item>
+    </string-array>
+    <string-array name="string_alarm_set_tablet_txt">
+        <item>1 मिनिटामध्ये</item>
+        <item>%1$s मध्ये</item>
+        <item>%2$s मध्ये</item>
+        <item>%1$s आणि %2$s मध्ये</item>
+        <item>%3$s मध्ये</item>
+        <item>%1$s आणि %3$s मध्ये</item>
+        <item>"%2$s आणि %3$s मध्ये "</item>
+        <item>%1$s, %2$s आणि %3$s मध्ये</item>
+    </string-array>
+    <string-array name="timer_duration_history_label">
+        <item>%1$s</item>
+        <item>%2$s</item>
+        <item>%1$s, %2$s</item>
+        <item>%3$s</item>
+        <item>%1$s, %3$s</item>
+        <item>%2$s, %3$s</item>
+        <item>%1$s, %2$s आणि %3$s</item>
+    </string-array>
+    <string-array name="volume_button_setting_entries">
+        <item>काहीही नाही</item>
+        <item>स्नूझ</item>
+        <item>डिसमिस करा</item>
+    </string-array>
+</resources>

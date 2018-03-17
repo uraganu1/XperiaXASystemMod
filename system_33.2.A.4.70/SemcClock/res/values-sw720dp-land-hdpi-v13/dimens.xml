@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="clock_size">440.0dip</dimen>
+    <dimen name="alarm_list_margin_top">-4.0dip</dimen>
+    <dimen name="stop_watch_small_list_font_size">26.0dip</dimen>
+    <dimen name="alarm_alert_slidingbar_start_end">400.0dip</dimen>
+    <dimen name="alarm_alert_snooze_layout_margin_bottom">40.0dip</dimen>
+    <dimen name="ampm_text_size">54.0dip</dimen>
+    <dimen name="desk_clock_margin_bottom_clock">80.0dip</dimen>
+    <dimen name="time_text_size">270.0dip</dimen>
+    <dimen name="alarm_alert_tablet_snooze_button_width">350.0dip</dimen>
+    <dimen name="alarm_alert_vertical_margin">24.0dip</dimen>
+    <dimen name="alarm_date_panel_margin_top">16.0dip</dimen>
+    <dimen name="alarm_list_margin_side">59.329987dip</dimen>
+    <dimen name="alarm_list_width">604.0dip</dimen>
+    <dimen name="clock_margin_top">72.66998dip</dimen>
+    <dimen name="slide_btn_margin_border">56.0dip</dimen>
+    <dimen name="stopwatch_buttons_margin_top">48.659973dip</dimen>
+    <dimen name="stopwatch_clock_margin_top">72.0dip</dimen>
+    <dimen name="stopwatch_clock_size">422.65625dip</dimen>
+    <dimen name="stopwatch_lap_button_margin_end">86.0dip</dimen>
+    <dimen name="stopwatch_lap_list_margin_top">61.329987dip</dimen>
+    <dimen name="stopwatch_start_button_margin_start">91.0dip</dimen>
+    <dimen name="timer_buttons_margin_end">57.0dip</dimen>
+    <dimen name="timer_buttons_margin_start">75.0dip</dimen>
+    <dimen name="timer_buttons_margin_top">21.329987dip</dimen>
+    <dimen name="timer_clear_margin_top">151.32999dip</dimen>
+    <dimen name="timer_history_list_margin_top">19.329987dip</dimen>
+    <dimen name="timer_history_list_text_size">26.0dip</dimen>
+    <dimen name="worldclock_date_panel_margin_top">4.659973dip</dimen>
+    <dimen name="worldclock_list_margin_end">46.0dip</dimen>
+    <dimen name="current_day_text_size">98.0dip</dimen>
+</resources>

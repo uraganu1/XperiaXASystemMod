@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.sonyericsson.organizer.components.FadingListView android:id="@id/delete_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" android:layout_above="@id/delete_buttons" android:layout_alignParentTop="true" />
+    <LinearLayout android:id="@id/delete_buttons" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <Button android:textSize="@dimen/timer_clear_history_button_text_size" android:id="@id/cancel_button" android:layout_width="wrap_content" android:layout_height="@dimen/buttons_height" android:text="@android:string/cancel" android:singleLine="true" android:layout_weight="1.0" android:layout_marginEnd="@dimen/timer_history_margin" />
+        <Button android:textSize="@dimen/timer_clear_history_button_text_size" android:id="@id/delete_button" android:layout_width="wrap_content" android:layout_height="@dimen/buttons_height" android:text="@string/delete" android:singleLine="true" android:layout_weight="1.0" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alarm_displayed_lable_alarm_set">
+        <item>ਹੁਣ ਤੋਂ 1 ਮਿੰਟ ਤੋਂ ਘੱਟ</item>
+        <item>ਹੁਣ ਤੋਂ %1$s</item>
+        <item>ਹੁਣ ਤੋਂ %2$s</item>
+        <item>ਹੁਣ ਤੋਂ %1$s %2$s</item>
+        <item>ਹੁਣ ਤੋਂ %3$s</item>
+        <item>ਹੁਣ ਤੋਂ %1$s %3$s</item>
+        <item>ਹੁਣ ਤੋਂ %2$s %3$s</item>
+        <item>ਹੁਣ ਤੋਂ %1$s %2$s %3$s</item>
+    </string-array>
+    <string-array name="alarm_set">
+        <item>ਇਹ ਅਲਾਰਮ ਹੁਣ ਤੋਂ 1 ਮਿੰਟ ਪਹਿਲਾਂ ਸੈਟ ਕੀਤਾ ਗਿਆ ਹੈ</item>
+        <item>ਇਹ ਅਲਾਰਮ ਹੁਣ ਤੋਂ %1$s ਲਈ ਸੈਟ ਕੀਤਾ ਗਿਆ ਹੈ</item>
+        <item>ਇਹ ਅਲਾਰਮ ਹੁਣ ਤੋਂ %2$s ਲਈ ਸੈਟ ਕੀਤਾ ਗਿਆ ਹੈ</item>
+        <item>ਇਹ ਅਲਾਰਮ ਹੁਣ ਤੋਂ %1$s ਅਤੇ %2$s ਲਈ ਸੈਟ ਹੈ</item>
+        <item>ਇਹ ਅਲਾਰਮ ਹੁਣ ਤੋਂ %3$s ਲਈ ਸੈਟ ਹੈ</item>
+        <item>ਇਹ ਅਲਾਰਮ ਹੁਣ ਤੋਂ %1$s ਅਤੇ %3$s ਤੇ ਸੈਟ ਕੀਤਾ ਗਿਆ ਹੈ</item>
+        <item>ਇਹ ਅਲਾਰਮ ਹੁਣ ਤੋਂ %2$s ਅਤੇ %3$s ਤੇ ਸੈਟ ਕੀਤਾ ਗਿਆ ਹੈ</item>
+        <item>ਇਹ ਅਲਾਰਮ ਹੁਣ ਤੋਂ %1$s, %2$s ਅਤੇ %3$s ਲਈ ਸੈਟ ਕੀਤਾ ਗਿਆ ਹੈ।</item>
+    </string-array>
+    <string-array name="snooze_duration_entries">
+        <item>5 ਮਿੰਟ</item>
+        <item>10 ਮਿੰਟ</item>
+        <item>15 ਮਿੰਟ</item>
+        <item>20 ਮਿੰਟ</item>
+        <item>25 ਮਿੰਟ</item>
+        <item>30 ਮਿੰਟ</item>
+    </string-array>
+    <string-array name="string_alarm_set_tablet_txt">
+        <item>1 ਮਿੰਟ ਵਿੱਚ</item>
+        <item>%1$s ਵਿੱਚ</item>
+        <item>%2$s ਵਿੱਚ</item>
+        <item>%1$s ਅਤੇ %2$s ਵਿੱਚ</item>
+        <item>%3$s ਵਿੱਚ</item>
+        <item>%1$s ਅਤੇ %3$s ਵਿੱਚ</item>
+        <item>%2$s ਅਤੇ %3$s ਵਿੱਚ</item>
+        <item>%1$s ਵਿੱਚ, %2$s ਅਤੇ %3$s</item>
+    </string-array>
+    <string-array name="timer_duration_history_label">
+        <item></item>
+        <item></item>
+        <item>%1$s, %2$s</item>
+        <item></item>
+        <item>%1$s, %3$s</item>
+        <item>%2$s, %3$s</item>
+        <item>%1$s, %2$s ਅਤੇ %3$s</item>
+    </string-array>
+    <string-array name="volume_button_setting_entries">
+        <item>ਕੋਈ ਨਹੀਂ</item>
+        <item>ਸਨੂਜ਼</item>
+        <item>ਖਾਰਜ ਕਰੋ</item>
+    </string-array>
+</resources>

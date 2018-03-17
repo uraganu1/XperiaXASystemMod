@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="tablet_mode">false</bool>
+    <bool name="celsius_default">true</bool>
+    <bool name="config_requiresScreenSaver">true</bool>
+    <bool name="config_showDataUsageWarning">false</bool>
+    <bool name="show_bold_repetition_days">true</bool>
+</resources>

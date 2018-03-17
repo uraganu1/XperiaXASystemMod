@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/alarm_set_alarm_volume_margin_bottom" android:descendantFocusability="afterDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/alarm_set_alarm_margin_start" android:paddingEnd="@dimen/alarm_set_alarm_margin_end"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/alarm_set_alarm_label_title_size" android:textColor="?android:textColorPrimary" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/alarm_style_edit_lbl_style_text" />
+    <EditText android:textSize="@dimen/alarm_set_alarm_preference_summary_size" android:id="@id/editText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:contentDescription="@string/accessibility_alarm_edit_alarm_text" />
+</LinearLayout>

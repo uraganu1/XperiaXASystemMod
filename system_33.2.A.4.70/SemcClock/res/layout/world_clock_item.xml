@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/world_clock_list" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/upper_row_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/clock_home" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icn_home_city" android:adjustViewBounds="true" android:layout_marginEnd="@dimen/list_item_world_margin_city" />
+            <TextView android:textSize="@dimen/list_item_label_text_size" android:textColor="?android:textColorPrimary" android:ellipsize="end" android:id="@id/clock_city" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" android:textAllCaps="true" android:layout_marginStart="@dimen/list_item_margin_text_correction_wider" android:layout_marginEnd="@dimen/list_item_world_margin_city" android:layout_toEndOf="@id/clock_home" />
+            <TextView android:textSize="@dimen/list_item_label_text_size" android:textColor="@color/weekdays_color_disabled" android:ellipsize="end" android:id="@id/clock_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" android:textAllCaps="true" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/list_item_time_text_size" android:textColor="?android:textColorPrimary" android:id="@id/clock_time" android:paddingBottom="@dimen/list_item_margin_text_correction_closer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:layout_marginBottom="1.0dip" android:includeFontPadding="false" android:layout_below="@id/upper_row_container" android:layout_alignParentStart="true" />
+        <TextView android:textSize="@dimen/list_item_am_pm_text_size" android:textColor="?android:textColorPrimary" android:id="@id/clock_ampm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/list_item_margin_text_correction_closer" android:layout_alignTop="@id/clock_time" android:layout_toEndOf="@id/clock_time" />
+    </RelativeLayout>
+</LinearLayout>

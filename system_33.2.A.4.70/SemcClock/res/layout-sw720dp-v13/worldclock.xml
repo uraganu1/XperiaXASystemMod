@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.sonyericsson.organizer.MenuButtonFrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_alignParentTop="true" android:layout_alignParentEnd="true" style="@style/MenuButtonStyle" />
+    <RelativeLayout android:layout_gravity="center" android:id="@id/clock_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/worldclock_map_portrait" android:scaleType="centerInside" android:layout_centerInParent="true" />
+        <FrameLayout android:id="@id/clock_frame" android:layout_width="@dimen/clock_size" android:layout_height="@dimen/clock_size" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@id/list_frame" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/worldclock_list_margin_bottom" android:layout_below="@id/clock_layout" android:layout_marginStart="96.0dip" android:layout_marginEnd="96.0dip" />
+        <com.sonyericsson.organizer.FABFrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" style="@style/FAB" />
+    </RelativeLayout>
+</LinearLayout>

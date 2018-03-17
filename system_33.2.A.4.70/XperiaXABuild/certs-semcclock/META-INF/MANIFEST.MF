@@ -1,0 +1,825 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (signatory)
+
+Name: AndroidManifest.xml
+SHA1-Digest: DmVuJFM+RCS03MupQvB0jCV1vIc=
+
+Name: assets/cities
+SHA1-Digest: FOIQxWUpS5uJh6KBj0khYWD4FR0=
+
+Name: res/anim/appear.xml
+SHA1-Digest: hQD/Gq7RGBVeSU1tWN/BbHkhUl4=
+
+Name: res/color/alarm_list_color.xml
+SHA1-Digest: 4c2gilEi8wuY5pmgSXsRYTM16QE=
+
+Name: res/drawable-hdpi-v4/active_alarm_slider_bg.9.png
+SHA1-Digest: he3NUVE+Y6FvmI/dgwuF0gByBAU=
+
+Name: res/drawable-hdpi-v4/active_alarm_slider_bg_blur_animation.png
+SHA1-Digest: umOhfL3qBVbOtzRLiM1XANjNWBs=
+
+Name: res/drawable-hdpi-v4/alarm_icon_night.png
+SHA1-Digest: 1n3y1HfQhtC3aiP2RfxXblQjZxU=
+
+Name: res/drawable-hdpi-v4/alarm_icon_wallpaper.png
+SHA1-Digest: 9LLdVTOKuOiayxq541DHGrBUndY=
+
+Name: res/drawable-hdpi-v4/daybar.png
+SHA1-Digest: V4QZNERfYzWIlz+wl8R1ajy+ofQ=
+
+Name: res/drawable-hdpi-v4/divider_horizontal_dark_opaque.9.png
+SHA1-Digest: 0ujtHH6aQZg4t8k+gtcB2wfjW3w=
+
+Name: res/drawable-hdpi-v4/flurries.png
+SHA1-Digest: RAKlY838zFAhcIjJmcn3C10SOlg=
+
+Name: res/drawable-hdpi-v4/ic_launcher_alarmclock.png
+SHA1-Digest: MGDBYhvo6WWinZq2KIQ4jCGawzM=
+
+Name: res/drawable-hdpi-v4/ic_menu_delete.png
+SHA1-Digest: KSIfDBPBIORIpyfM2gxN2UkpiD8=
+
+Name: res/drawable-hdpi-v4/ic_stopwatch.png
+SHA1-Digest: uSW/dYiyxL2d2BL6QPzshptgnLc=
+
+Name: res/drawable-hdpi-v4/ic_timer.png
+SHA1-Digest: ADxwI9JQOvz5gVW77flW229giBw=
+
+Name: res/drawable-hdpi-v4/icon_clock_item_add.png
+SHA1-Digest: GgvpNOhfHkIj9O+3PPY66dvs9f4=
+
+Name: res/drawable-hdpi-v4/icon_comparetimes.png
+SHA1-Digest: hJbAhlFFwbZvpB+dSl7y9FXFp/s=
+
+Name: res/drawable-hdpi-v4/icon_comparetimes_disable.png
+SHA1-Digest: f535KzoS+UhkzKuCqFZx569HCCY=
+
+Name: res/drawable-hdpi-v4/list_selector_background_focus.9.png
+SHA1-Digest: MIt3YsO1p07RxTHkpyKTmiG+xs0=
+
+Name: res/drawable-hdpi-v4/semc_btn_default_normal.9.png
+SHA1-Digest: iEf0mPruCvofR9KBuI4xXlwqDY0=
+
+Name: res/drawable-hdpi-v4/semc_btn_default_normal_disable.9.png
+SHA1-Digest: szN9YK2yqM2AZF6G3J62G3qPIQM=
+
+Name: res/drawable-hdpi-v4/semc_btn_default_normal_disable_focused.9.png
+SHA1-Digest: O+Ec1juKl8A9tYSwlW3eDtPJRtg=
+
+Name: res/drawable-hdpi-v4/semc_btn_default_pressed.9.png
+SHA1-Digest: /66iim6z5trYlcJP1jaskwePDs0=
+
+Name: res/drawable-hdpi-v4/semc_btn_default_selected.9.png
+SHA1-Digest: K3T1FV0jipmkjgKsqPfyMYKLsNM=
+
+Name: res/drawable-hdpi-v4/semc_tab_press.9.png
+SHA1-Digest: YosgC3rECiYiROlb21Uw3YhHdCg=
+
+Name: res/drawable-hdpi-v4/semc_tab_unselected.9.png
+SHA1-Digest: s1lDZ60XM/y+wxCwqePPjs5eQOQ=
+
+Name: res/drawable-hdpi-v4/semc_tab_unselected_focus.9.png
+SHA1-Digest: dk0DLIj/k7+PoabaIlP9TiG/zRI=
+
+Name: res/drawable-hdpi-v4/timezone_searchicon.png
+SHA1-Digest: YH9GUPS4TyEo0UrQOxltjzhdke8=
+
+Name: res/drawable-hdpi-v4/worldclock_map_landscape.png
+SHA1-Digest: OwpUqPDxQSEWO64TXJf6IHTxq5U=
+
+Name: res/drawable-hdpi-v4/worldclock_map_portrait.png
+SHA1-Digest: x+WUQjIDJh8m6r2ssNJ3dhjSHho=
+
+Name: res/drawable-land-xhdpi-v4/worldclock_timerwindow_bg.png
+SHA1-Digest: 0FxkDoRLqpOhteK/M8Um21uOH/Q=
+
+Name: res/drawable-land-xxhdpi-v4/worldclock_timerwindow_bg.png
+SHA1-Digest: oug+Wdb90qnvKgPMn0aFupGA6uM=
+
+Name: res/drawable-ldpi-v4/semc_btn_default_normal.9.png
+SHA1-Digest: jrzzruyX73eVvuxuqczrNmBuTZs=
+
+Name: res/drawable-ldpi-v4/semc_btn_default_normal_disable.9.png
+SHA1-Digest: wvPFGA30yGnOA3fWu0IP+p+vUgA=
+
+Name: res/drawable-ldpi-v4/semc_btn_default_normal_disable_focused.9.png
+SHA1-Digest: f+qhYWsZRSckUFM1G9GMeun39mU=
+
+Name: res/drawable-ldpi-v4/semc_btn_default_pressed.9.png
+SHA1-Digest: oeb18qNbHDS+fYAEsioIU1EDYLg=
+
+Name: res/drawable-ldpi-v4/semc_btn_default_selected.9.png
+SHA1-Digest: SlVvGPhqAnzlSAGh10rxdn7NJjA=
+
+Name: res/drawable-ldpi-v4/semc_tab_press.9.png
+SHA1-Digest: mG65QCgmuxaF24KfkiTrCvEHV04=
+
+Name: res/drawable-mdpi-v4/ic_launcher_alarmclock.png
+SHA1-Digest: bdF1IydIItR9Bs6zHyRTH1Jj7x0=
+
+Name: res/drawable-mdpi-v4/ic_menu_delete.png
+SHA1-Digest: Fy/qXBWfgi5bZsD37xVjJyMFp1w=
+
+Name: res/drawable-mdpi-v4/icon_clock_item_add.png
+SHA1-Digest: rkX3Hh7EgRTr8QxlKRVkhtQsUpI=
+
+Name: res/drawable-mdpi-v4/icon_comparetimes.png
+SHA1-Digest: eLLp2OIdAvAod380u52usHlDqJ8=
+
+Name: res/drawable-mdpi-v4/icon_comparetimes_disable.png
+SHA1-Digest: yCfWeCS8NjpbN0jGXkorHNwH1pM=
+
+Name: res/drawable-mdpi-v4/semc_btn_default_normal.9.png
+SHA1-Digest: N3PEut/qhKkBFZlMdAzqGjiSEAM=
+
+Name: res/drawable-mdpi-v4/semc_btn_default_normal_disable.9.png
+SHA1-Digest: 2hzN7vWL/PlnB9ygOJ7UTGQ+Utc=
+
+Name: res/drawable-mdpi-v4/semc_btn_default_normal_disable_focused.9.png
+SHA1-Digest: Ei0lZnHU3gajmmNSIaxsnWDMu6w=
+
+Name: res/drawable-mdpi-v4/semc_btn_default_pressed.9.png
+SHA1-Digest: QdjOCRRyCa8Xm3+IREkhay61Azw=
+
+Name: res/drawable-mdpi-v4/semc_btn_default_selected.9.png
+SHA1-Digest: 8zDpembqgJ03TFgWnz3J0KmcC+0=
+
+Name: res/drawable-mdpi-v4/semc_tab_press.9.png
+SHA1-Digest: 1Jt8JY5/dWUhlcrHicu3bUcEwbc=
+
+Name: res/drawable-sw720dp-hdpi-v13/active_alarm_slider_bg.9.png
+SHA1-Digest: /U5cff2RrJxs1LwIwu+zb+a5eIM=
+
+Name: res/drawable-sw720dp-hdpi-v13/active_alarm_slider_bg_blur_animation.png
+SHA1-Digest: a+xnxad1OuCzwkKtFnyh+FXftHk=
+
+Name: res/drawable-sw720dp-hdpi-v13/alarm_icon_night.png
+SHA1-Digest: jdRtLMQI8mEpAXTuGn2M1eUvbKU=
+
+Name: res/drawable-sw720dp-hdpi-v13/alarm_icon_wallpaper.png
+SHA1-Digest: nuhc8zUwQilazUM519f6Gj4WJ3I=
+
+Name: res/drawable-sw720dp-hdpi-v13/daybar.png
+SHA1-Digest: TqJPk11iDioIQPo16F0Rrb/kVrY=
+
+Name: res/drawable-sw720dp-hdpi-v13/ic_launcher_alarmclock.png
+SHA1-Digest: PIP1oVB8dvGthlDIgAGA28dw0IE=
+
+Name: res/drawable-sw720dp-hdpi-v13/icn_no.png
+SHA1-Digest: 1cwuzhLsNNZcdWZq82wDFGZ2Jf0=
+
+Name: res/drawable-sw720dp-hdpi-v13/icn_yes.png
+SHA1-Digest: lJiukcBzsnGGQwSbfaxeoaLPwU8=
+
+Name: res/drawable-sw720dp-hdpi-v13/icon_clock_item_add.png
+SHA1-Digest: d/VzpOu74EWqZql3dcauBsEreOQ=
+
+Name: res/drawable-sw720dp-hdpi-v13/no_connection.png
+SHA1-Digest: 5pqEmcSl0BelW1OtQDoq0F4GNho=
+
+Name: res/drawable-sw720dp-hdpi-v13/semc_alarm_clock_background.png
+SHA1-Digest: O3ZXHAQ0wSo3EfpEyiEm9DrvmJ0=
+
+Name: res/drawable-sw720dp-hdpi-v13/worldclock_map_landscape.png
+SHA1-Digest: 4PSJI44JM4k3lvggvqf9ks/Am0U=
+
+Name: res/drawable-sw720dp-hdpi-v13/worldclock_map_portrait.png
+SHA1-Digest: D5OH7MNYqoa/Xb2NOr4PgqV/E7U=
+
+Name: res/drawable-sw720dp-land-hdpi-v13/worldclock_timerwindow_bg.png
+SHA1-Digest: kSib5Wku5ceL/KAne0+LP9zGJlg=
+
+Name: res/drawable-xhdpi-v4/active_alarm_slider_bg.9.png
+SHA1-Digest: /U5cff2RrJxs1LwIwu+zb+a5eIM=
+
+Name: res/drawable-xhdpi-v4/active_alarm_slider_bg_blur_animation.png
+SHA1-Digest: a+xnxad1OuCzwkKtFnyh+FXftHk=
+
+Name: res/drawable-xhdpi-v4/alarm_icon_night.png
+SHA1-Digest: uMghYbeMxDq52dPGa2MvJPBgxSg=
+
+Name: res/drawable-xhdpi-v4/alarm_icon_wallpaper.png
+SHA1-Digest: AJKGfAs9VeQaZBkUD54bbqvM2mk=
+
+Name: res/drawable-xhdpi-v4/daybar.png
+SHA1-Digest: +98epzFYk13LsTHGmer8b52FqxM=
+
+Name: res/drawable-xhdpi-v4/divider_horizontal_dark_opaque.9.png
+SHA1-Digest: 0ujtHH6aQZg4t8k+gtcB2wfjW3w=
+
+Name: res/drawable-xhdpi-v4/ic_launcher_alarmclock.png
+SHA1-Digest: ce61B90AjQcFv2QryEIv3ijSztE=
+
+Name: res/drawable-xhdpi-v4/ic_menu_delete.png
+SHA1-Digest: vh98L/z49UjX8MXJRPitZ2wTtx8=
+
+Name: res/drawable-xhdpi-v4/ic_menu_done_holo_light.png
+SHA1-Digest: 0gCYmtzvTBsfLAcy5W+3JvKHxmc=
+
+Name: res/drawable-xhdpi-v4/ic_menu_search_mtrl_alpha.png
+SHA1-Digest: E74c3aj78MFnidZIhyjcbYdMtVs=
+
+Name: res/drawable-xhdpi-v4/ic_stopwatch.png
+SHA1-Digest: 2HF08x20V0VtKEPyP4rk/SzLczs=
+
+Name: res/drawable-xhdpi-v4/ic_timer.png
+SHA1-Digest: mPeB9DLfAMEJhy1KnHGVF6U8ir0=
+
+Name: res/drawable-xhdpi-v4/icon_clock_item_add.png
+SHA1-Digest: +QfTuHEYzGc6FOGJb38B/PQsZm0=
+
+Name: res/drawable-xhdpi-v4/list_selector_background_focus.9.png
+SHA1-Digest: C1VXVpWoZhVsDO+5hkRYu1xARk8=
+
+Name: res/drawable-xhdpi-v4/rearrange_handle.png
+SHA1-Digest: tTypgXL/CDxUFz0zx3XnmZsjgXQ=
+
+Name: res/drawable-xhdpi-v4/semc_list_pressed_holo_light.9.png
+SHA1-Digest: ICtxhEdBzAaREFM9vtsKfSYaDuU=
+
+Name: res/drawable-xhdpi-v4/semc_tab_unselected.9.png
+SHA1-Digest: PWBvRt5ear/bWy0i7voiMl5azss=
+
+Name: res/drawable-xhdpi-v4/stopwatch.png
+SHA1-Digest: g4x8RPYwVrivb+qoapq9RxvAhdY=
+
+Name: res/drawable-xhdpi-v4/timer.png
+SHA1-Digest: nBedQ9Pixid9C++43JQd5Gu2nS4=
+
+Name: res/drawable-xhdpi-v4/worldclock.png
+SHA1-Digest: u0u1H1UBYidW2yzzrflkK1TkYHU=
+
+Name: res/drawable-xhdpi-v4/worldclock_map_landscape.png
+SHA1-Digest: Z7MI3F0XFOw3WOgwX5KijQKS4aI=
+
+Name: res/drawable-xhdpi-v4/worldclock_map_portrait.png
+SHA1-Digest: 0p5JYffjHxCSMXAeoILRtAkNucU=
+
+Name: res/drawable-xxhdpi-v4/active_alarm_slider_bg.9.png
+SHA1-Digest: 3J597aIzSz4Fp7dIExQIkgiTTcQ=
+
+Name: res/drawable-xxhdpi-v4/active_alarm_slider_bg_blur_animation.png
+SHA1-Digest: v9jA/BGXibOLTfpxc1/nEhA2waY=
+
+Name: res/drawable-xxhdpi-v4/alarm_btn_dismiss.png
+SHA1-Digest: ubyPnSwEWeRZFjpDZTJXXKYN+2w=
+
+Name: res/drawable-xxhdpi-v4/alarm_icon_night.png
+SHA1-Digest: ygfEQvB99y2OcilcUuD6/ul4ji4=
+
+Name: res/drawable-xxhdpi-v4/alarm_icon_wallpaper.png
+SHA1-Digest: vEIHpO1E0XQ9Mpm+d8cmnKk4hz8=
+
+Name: res/drawable-xxhdpi-v4/cloudy.png
+SHA1-Digest: 25efb26VvTn5rzbyMzK76j+HkVs=
+
+Name: res/drawable-xxhdpi-v4/daybar.png
+SHA1-Digest: 9RCbJK0GfqfI2zFzcFGhspmGIAg=
+
+Name: res/drawable-xxhdpi-v4/fog.png
+SHA1-Digest: EOLneKHWE41ic/Ek1fQFeuwWS6o=
+
+Name: res/drawable-xxhdpi-v4/gradient_transparent_top_bottom.xml
+SHA1-Digest: tHALYn5ohhwCHiYmKnvwF9AuSeQ=
+
+Name: res/drawable-xxhdpi-v4/hot.png
+SHA1-Digest: qBNN7BEbf4/QGClFpzfXAHZOk88=
+
+Name: res/drawable-xxhdpi-v4/ic_fab_add.png
+SHA1-Digest: gs0521SOn/jP5nGUeNYC7BuWLp8=
+
+Name: res/drawable-xxhdpi-v4/ic_launcher_alarmclock.png
+SHA1-Digest: 0smL8DEiQrXdbQpKD2W6v8VahpQ=
+
+Name: res/drawable-xxhdpi-v4/ic_menu_cancel_holo_light.png
+SHA1-Digest: Zl8jU5BkYbRholer57rGuGPjTWs=
+
+Name: res/drawable-xxhdpi-v4/ic_menu_delete.png
+SHA1-Digest: GsjuTnpqBws5YsRrW20eb6j+y4o=
+
+Name: res/drawable-xxhdpi-v4/ic_menu_search_mtrl_alpha.png
+SHA1-Digest: l8EI8skn68wNTc/ak4rIUV30BMw=
+
+Name: res/drawable-xxhdpi-v4/ic_more.png
+SHA1-Digest: 8xpwEfWZPw8Z3C7b4pkomvpCZ8I=
+
+Name: res/drawable-xxhdpi-v4/ic_stopwatch.png
+SHA1-Digest: azaID+mzT8M1f+XdCqUS/y9TRXM=
+
+Name: res/drawable-xxhdpi-v4/ic_timer.png
+SHA1-Digest: BRLg66a0/Bd0apVO3SaawzKSiIA=
+
+Name: res/drawable-xxhdpi-v4/ice.png
+SHA1-Digest: gusd1C/bsPJksNC09E/Mj6Wqm7E=
+
+Name: res/drawable-xxhdpi-v4/icn_home_city.png
+SHA1-Digest: dUKQJHTFFhtrRNbw6lGHHH1lezU=
+
+Name: res/drawable-xxhdpi-v4/icon_clock_item_add.png
+SHA1-Digest: rpEshZrcKVgQXQsPIYfmFcq4+Dk=
+
+Name: res/drawable-xxhdpi-v4/night.png
+SHA1-Digest: CbU5DYKHT2Vd3u8pHlfvBlHhFmE=
+
+Name: res/drawable-xxhdpi-v4/night_haze.png
+SHA1-Digest: gvNNFXzjQWeX53hc9wuqviFZ8+g=
+
+Name: res/drawable-xxhdpi-v4/night_mostly_cloudy.png
+SHA1-Digest: 5TtKoM5qIMfXL6hxHpQnrDiv5Zo=
+
+Name: res/drawable-xxhdpi-v4/night_mostly_cloudy_with_showers.png
+SHA1-Digest: SzpPlpuIL9+/zwTzW1QfFzrdHd0=
+
+Name: res/drawable-xxhdpi-v4/night_partly_cloudy.png
+SHA1-Digest: I2K/LhU6/yO4wXHZvxUnDX8mTuc=
+
+Name: res/drawable-xxhdpi-v4/night_partly_cloudy_with_showers.png
+SHA1-Digest: UibsZC9DJChGXcHSPQH8TLawIMo=
+
+Name: res/drawable-xxhdpi-v4/noconnection.png
+SHA1-Digest: d+ezvPOht9Aao3rwLTZrmS20PFk=
+
+Name: res/drawable-xxhdpi-v4/partly_sunny_with_showers.png
+SHA1-Digest: SoNWIionpcuwNVoksRe4AyHEzHg=
+
+Name: res/drawable-xxhdpi-v4/rain.png
+SHA1-Digest: 5SfirqIcWVevQM92FI9q1McjrY8=
+
+Name: res/drawable-xxhdpi-v4/rearrange_handle.png
+SHA1-Digest: eR10D0ege5z50tDEdJiik6pKm8s=
+
+Name: res/drawable-xxhdpi-v4/semc_list_expandable_arrow_down.9.png
+SHA1-Digest: kmseCOAuEVsqTkmHc/x0/agtKH8=
+
+Name: res/drawable-xxhdpi-v4/semc_list_expandable_arrow_up.png
+SHA1-Digest: Toef0E4tYoRIb/OUvP8a/Za3bqA=
+
+Name: res/drawable-xxhdpi-v4/showers.png
+SHA1-Digest: HUAROCXXeggck4wA9ypAW1hxNKs=
+
+Name: res/drawable-xxhdpi-v4/sleet.png
+SHA1-Digest: yLP+lB31SBPLP0KMWLuvtDxJ44g=
+
+Name: res/drawable-xxhdpi-v4/snooze_icn_top.png
+SHA1-Digest: i0Aq8ZS2zE2ZeGaef8Gi48GprNk=
+
+Name: res/drawable-xxhdpi-v4/snow.png
+SHA1-Digest: Yd3FPiG9vsgp8VWpbHpxoPhhhIM=
+
+Name: res/drawable-xxhdpi-v4/sun_haze.png
+SHA1-Digest: iEQ3eekmIjaMG8qUgLBsxDJg8Nk=
+
+Name: res/drawable-xxhdpi-v4/sun_mostly_cloudy.png
+SHA1-Digest: oX9ngKMkVkC6dmhdsQurtIZp9U8=
+
+Name: res/drawable-xxhdpi-v4/sun_partly_cloudy.png
+SHA1-Digest: QFR7dWOQq3VSZcU5qtiKBqfoTdc=
+
+Name: res/drawable-xxhdpi-v4/sunny.png
+SHA1-Digest: w8RY/uRAEjG3vOWr4cwlRyD3UQ8=
+
+Name: res/drawable-xxhdpi-v4/tab_icon_alarm_unselected.png
+SHA1-Digest: pibRvrD3Q3JdUwjhBunq9cMQbF8=
+
+Name: res/drawable-xxhdpi-v4/tab_icon_stopwatch_unselected.png
+SHA1-Digest: qKmkyy/urV+uEdA5EDHom/GnSTY=
+
+Name: res/drawable-xxhdpi-v4/tab_icon_timer_unselected.png
+SHA1-Digest: zUidqaV7ej+7/Zw5828jr9huVos=
+
+Name: res/drawable-xxhdpi-v4/tab_icon_worldclock_unselected.png
+SHA1-Digest: GUnbHXRleUt+1D8zXl9GQWq2XP8=
+
+Name: res/drawable-xxhdpi-v4/thunder.png
+SHA1-Digest: WBU16Tq71oiTBzxIouDwdeMNutg=
+
+Name: res/drawable-xxhdpi-v4/windy.png
+SHA1-Digest: hVqn1bZFQlo4D0J/VGf9W5wtoN4=
+
+Name: res/drawable-xxhdpi-v4/worldclock_map_landscape.png
+SHA1-Digest: 2snQz/3S8AuBxM5RUTAaRg7uM2s=
+
+Name: res/drawable-xxhdpi-v4/worldclock_map_portrait.png
+SHA1-Digest: Adp4XqASaLeMQJW20qG7i/zwIWo=
+
+Name: res/drawable-xxxhdpi-v4/ic_menu_search_mtrl_alpha.png
+SHA1-Digest: UrMd5Q/nT3zvFgkiyUUEZqSex7A=
+
+Name: res/drawable/action_bar_item_background.xml
+SHA1-Digest: rYRie/8gP+OvO2nefgl63p98nso=
+
+Name: res/drawable/action_bar_item_focused.xml
+SHA1-Digest: VsQcX/E3mzmb9kyo0tdEJDZpGGI=
+
+Name: res/drawable/action_bar_item_pressed.xml
+SHA1-Digest: dgwExeaW6I7mtO9xsXftdlXIR6E=
+
+Name: res/drawable/btn_strip_trans_left.xml
+SHA1-Digest: r5wxDhijphiebnp3cSs9hipO0KQ=
+
+Name: res/drawable/btn_strip_trans_middle.xml
+SHA1-Digest: r5wxDhijphiebnp3cSs9hipO0KQ=
+
+Name: res/drawable/btn_strip_trans_right.xml
+SHA1-Digest: r5wxDhijphiebnp3cSs9hipO0KQ=
+
+Name: res/drawable/button_start.xml
+SHA1-Digest: hu80QNlZjjeHFTKIhVsxdDVD4to=
+
+Name: res/drawable/button_stop.xml
+SHA1-Digest: 0PPmvz8btfwXJg8uOBii59KdHHI=
+
+Name: res/drawable/desk_clock_background.xml
+SHA1-Digest: Y7L3em6uNNpDWavfrP7pPBhloH4=
+
+Name: res/drawable/fab_background.xml
+SHA1-Digest: 7bw7tbpHklm3TFNwkLYghNclpBM=
+
+Name: res/drawable/incall_round_button.xml
+SHA1-Digest: qav4qF5ufZR6Or2KH6lW6ylMtp8=
+
+Name: res/drawable/list_selector_background.xml
+SHA1-Digest: UXGpbSyNyc2/oEN69mX6NCZB3As=
+
+Name: res/drawable/needle.9.png
+SHA1-Digest: qN4VwunSIsi//X5y0v4OIU5KWw0=
+
+Name: res/drawable/number_focus_selector.xml
+SHA1-Digest: YQo1qGY9a6GnNISo5erc+5Y6jb0=
+
+Name: res/drawable/reset_btn_background.xml
+SHA1-Digest: OsaQNMT9OnO6m5gb0vfkbyivLIc=
+
+Name: res/drawable/reset_ripple.xml
+SHA1-Digest: Negki3xQqhuE736uDzaRtft5N60=
+
+Name: res/drawable/snooze_background.xml
+SHA1-Digest: C7kUTwZjOX0BRkWA7UNr7d4ZytE=
+
+Name: res/drawable/snooze_button.xml
+SHA1-Digest: D9aWrzG4ibNLx89Xp5MY0MTnfPA=
+
+Name: res/drawable/start_ripple.xml
+SHA1-Digest: sEZITFwTbgIXGjpPcRKdKcuUxs0=
+
+Name: res/drawable/stop_ripple.xml
+SHA1-Digest: 8Rs3U5zFjiOVDVTZkrDHbxz2ziw=
+
+Name: res/drawable/transparent_pixel.png
+SHA1-Digest: BLfixpdlXhg7c93spq1PGUM+F+4=
+
+Name: res/drawable/worldclock_comparetimes.xml
+SHA1-Digest: ctidLT74KecBGUHOKxgK68Q2qjE=
+
+Name: res/layout-land/alarm_clock.xml
+SHA1-Digest: LRMMTD9QRteapOwUGajgWQT4/Fg=
+
+Name: res/layout-land/left_panel.xml
+SHA1-Digest: pCf6ELfLUC32mdgCHJeKMlNY7Sc=
+
+Name: res/layout-land/stopwatch.xml
+SHA1-Digest: 0OqF3ttBATYVd9vLC4qIQ5spJ9s=
+
+Name: res/layout-land/timer.xml
+SHA1-Digest: ao2QfHH7zokRjV3aLq+bGyOsUoE=
+
+Name: res/layout-land/worldclock.xml
+SHA1-Digest: gcYZj1Zq9h/5QXWZaJwrggSv630=
+
+Name: res/layout-sw720dp-land-v13/alarm_clock.xml
+SHA1-Digest: QWBTBV4XavpK13NrdQgEEV0tsX8=
+
+Name: res/layout-sw720dp-land-v13/alarm_list_fragment.xml
+SHA1-Digest: 0oJDBD4go5nTaVgSSHHh6pJjvZE=
+
+Name: res/layout-sw720dp-land-v13/stopwatch.xml
+SHA1-Digest: smuh3tRZb6JB7z0XIRlrcxivxmg=
+
+Name: res/layout-sw720dp-land-v13/timer.xml
+SHA1-Digest: CnHeazFXs1d7Ow/EISNE8zQOiD8=
+
+Name: res/layout-sw720dp-land-v13/worldclock.xml
+SHA1-Digest: jhnZ0bwEzE6iJyCgwMpOdiQZ68M=
+
+Name: res/layout-sw720dp-land-v13/worldclock_list_fragment.xml
+SHA1-Digest: DMTIJCx5tJ58cOZDaBkaInFeVDY=
+
+Name: res/layout-sw720dp-v13/actionbar_edit_alarm.xml
+SHA1-Digest: MKcfEGzJTnaY488MxHzqpuBjcqQ=
+
+Name: res/layout-sw720dp-v13/alarm_alert.xml
+SHA1-Digest: W3hjU+jrvS5/fGgTtdeWbZDqFzs=
+
+Name: res/layout-sw720dp-v13/alarm_clock.xml
+SHA1-Digest: ttTMmOr7KutdO9xrxuhFPKQ6qwQ=
+
+Name: res/layout-sw720dp-v13/alarm_clock_delete.xml
+SHA1-Digest: tLE37DwC5UwCVTeUKEbJum9K7ZE=
+
+Name: res/layout-sw720dp-v13/alarm_digital_clock.xml
+SHA1-Digest: rOPCNuig0Lwtv2VjxePgjqoPOAc=
+
+Name: res/layout-sw720dp-v13/alarm_list_fragment.xml
+SHA1-Digest: 1ElW9dY4g44DceCGmRD+Qs70vOM=
+
+Name: res/layout-sw720dp-v13/alarm_time.xml
+SHA1-Digest: KjU3oq7Ep9o0pTdSVjecoyUrND4=
+
+Name: res/layout-sw720dp-v13/alarm_week.xml
+SHA1-Digest: OiCZ1MxrB9EiNfei88fAv2JDbzQ=
+
+Name: res/layout-sw720dp-v13/date_panel.xml
+SHA1-Digest: awbPCgvw4y7yGzokmt+D2JV8Wpg=
+
+Name: res/layout-sw720dp-v13/delete_city.xml
+SHA1-Digest: sCFjNmaU2eqsRlyINnEqtR3tjto=
+
+Name: res/layout-sw720dp-v13/delete_city_item.xml
+SHA1-Digest: Rj6xyT8faFnSagl4pTXlmLxhzjw=
+
+Name: res/layout-sw720dp-v13/edit_city_list.xml
+SHA1-Digest: aKmvLFXR1IgTa0CW5m5qPfSOJf8=
+
+Name: res/layout-sw720dp-v13/lap_item.xml
+SHA1-Digest: EZ1NqrCcgn0UiaFTwiz1UYoPUKs=
+
+Name: res/layout-sw720dp-v13/stopwatch.xml
+SHA1-Digest: JvwbfCwvF4eLxuBj282WrP0Pjp0=
+
+Name: res/layout-sw720dp-v13/timer.xml
+SHA1-Digest: 87mBfweAntC9+zAQMMBmQJiq6Wk=
+
+Name: res/layout-sw720dp-v13/timer_history_item.xml
+SHA1-Digest: ImOuRmWPKN9uRX5TQ079omzbBfQ=
+
+Name: res/layout-sw720dp-v13/weather_icon.xml
+SHA1-Digest: kEeJwqLZxAr0FZZYcBJGi0Y68lk=
+
+Name: res/layout-sw720dp-v13/world_clock_item.xml
+SHA1-Digest: X42jQRpSrQGKJn6E//bGDxliY7g=
+
+Name: res/layout-sw720dp-v13/world_clock_list_item.xml
+SHA1-Digest: B9eBewaSzfM7S6tBwQrSsJnjKvw=
+
+Name: res/layout-sw720dp-v13/worldclock.xml
+SHA1-Digest: NP3+ph1r2/Whdu7T0ryZ6d4F6S4=
+
+Name: res/layout-sw720dp-v13/worldclock_list_fragment.xml
+SHA1-Digest: tKwpmhVO0O5zGbxt7Bni4uJiliI=
+
+Name: res/layout/action_layout_menu_alarm_add.xml
+SHA1-Digest: h88ICEFPWcnep+ESLfJspM9pXIo=
+
+Name: res/layout/action_layout_menu_alarm_delete.xml
+SHA1-Digest: p0mOrXUO8dTSp7A39HYa66uJoI0=
+
+Name: res/layout/action_layout_menu_alarm_list.xml
+SHA1-Digest: 1DI7r565wA9xrOT9uKRtmHN+mqE=
+
+Name: res/layout/action_layout_menu_worldclock_delete.xml
+SHA1-Digest: p0mOrXUO8dTSp7A39HYa66uJoI0=
+
+Name: res/layout/action_layout_menu_worldclock_rearrange.xml
+SHA1-Digest: h88ICEFPWcnep+ESLfJspM9pXIo=
+
+Name: res/layout/actionbar_edit_alarm.xml
+SHA1-Digest: f9cveo5Akv9iGZPLdsM0wmLflbQ=
+
+Name: res/layout/actionbar_search_city.xml
+SHA1-Digest: hwLpyazvxY8nkKKkO1rHDh+Yvfo=
+
+Name: res/layout/alarm_alert.xml
+SHA1-Digest: ZueN1wllWj8oFrRXlQANOFFfaeM=
+
+Name: res/layout/alarm_clock.xml
+SHA1-Digest: I1OSGdqolQB/lstVlD6zLJGkIeA=
+
+Name: res/layout/alarm_clock_delete.xml
+SHA1-Digest: 5X78QeVzjhaspUfBAea1EE5uQnE=
+
+Name: res/layout/alarm_clock_horizontal.xml
+SHA1-Digest: E+kUJoJ5bvYFN2wm6yLyQdhVVHY=
+
+Name: res/layout/alarm_clock_vertical.xml
+SHA1-Digest: /ITL6ZLTLOK52KmL776xeCuDgxE=
+
+Name: res/layout/alarm_delete_fragment.xml
+SHA1-Digest: LJPROm16cmUCaK9IniPZ9vSe8FE=
+
+Name: res/layout/alarm_digital_clock.xml
+SHA1-Digest: yV36fw4DQpcWMyKzami/d3ED1Ns=
+
+Name: res/layout/alarm_list_fragment.xml
+SHA1-Digest: BgxmdRr6kdmI2oDhg+fvcJFQq1E=
+
+Name: res/layout/alarm_set_alarm_preference_item.xml
+SHA1-Digest: cN3OCIqIuUwexV6qX40J78nB+pY=
+
+Name: res/layout/alarm_set_alarm_preference_item_with_checkbox_smartalarm.xml
+SHA1-Digest: y+IpEW00wn6r9ewXfFWR6haHlVI=
+
+Name: res/layout/alarm_set_alarm_preference_item_with_checkbox_vibrate.xml
+SHA1-Digest: z8sjsulfv6XWgjHIpvbQIwY0SVI=
+
+Name: res/layout/alarm_set_alarm_recurrence_item.xml
+SHA1-Digest: 5ndorRCPseWAd3Cl5+AvSLCk0bc=
+
+Name: res/layout/alarm_set_alarm_time.xml
+SHA1-Digest: 9I1VU2OixrGKaQeor6r8TIoss2g=
+
+Name: res/layout/alarm_set_alarm_time_item.xml
+SHA1-Digest: VoRQTQ2HfOd/BZVbrbg55jWVsj0=
+
+Name: res/layout/alarm_time.xml
+SHA1-Digest: MPbUahzMVcusE0LqR89gVEvUvtc=
+
+Name: res/layout/alarm_time_delete.xml
+SHA1-Digest: wpZOAJ2AwiInj79FGOmJK3oYAtU=
+
+Name: res/layout/alarm_week.xml
+SHA1-Digest: ti+G4YSR+8lP7p/J3QIQ5VIABMg=
+
+Name: res/layout/analog_clock_fragment.xml
+SHA1-Digest: 0eC/D+IKfXu3xENpvifAqSeuS+c=
+
+Name: res/layout/context_menu_header.xml
+SHA1-Digest: 5FwmPk/Dzxo4u0NvcqnYbfuYCfU=
+
+Name: res/layout/current_time_tablet.xml
+SHA1-Digest: VZp68DkJz73KQLqwtaJEZDz8240=
+
+Name: res/layout/delete_city.xml
+SHA1-Digest: Q/sOv405+WElqCPQ87MzYo+v2wc=
+
+Name: res/layout/delete_city_item.xml
+SHA1-Digest: gI6XIe7PfzxUB/ZuJuocB8Zp6bk=
+
+Name: res/layout/desk_clock_ics.xml
+SHA1-Digest: 9U7aTADGNJvRqQYQ/CK7WBx3q58=
+
+Name: res/layout/desk_clock_ics_night_mode.xml
+SHA1-Digest: oNswf0PTUpnmzm1Y3b104NTFdhs=
+
+Name: res/layout/dialog_weather.xml
+SHA1-Digest: PVCgdAEGUPb1h8HXY47GnJCL4I8=
+
+Name: res/layout/edit_city_list.xml
+SHA1-Digest: ZHmUsLIk2r+vDN0EYGH364VnK9s=
+
+Name: res/layout/edit_city_list_item.xml
+SHA1-Digest: da2laH5ja5SWYNIeysEKqxSWEG4=
+
+Name: res/layout/fab.xml
+SHA1-Digest: I5DU8AqYyjKpfpqx1lKiPKO72F4=
+
+Name: res/layout/fragment_wrapper_activity.xml
+SHA1-Digest: nKAFuvaYPKObNyPgztjjTuqR6MA=
+
+Name: res/layout/intelligent_cover_alarm_alert.xml
+SHA1-Digest: CoksfaqEsWNi+UYA+yxIMHIvS8s=
+
+Name: res/layout/lap_item.xml
+SHA1-Digest: FcvwgP7uXt0k98YX1Suxlky1pLY=
+
+Name: res/layout/left_panel.xml
+SHA1-Digest: XP9D0IBZHFqbVuB/yt8dY3zb1Bs=
+
+Name: res/layout/main.xml
+SHA1-Digest: 0efKfNiVYPinlq6MLDWjyxf0p5A=
+
+Name: res/layout/menu_button.xml
+SHA1-Digest: ISuWUbnbC0UPuXxy2EDt+gxf5FA=
+
+Name: res/layout/permisson_acceptence_activity_dialog.xml
+SHA1-Digest: aHHbbeRHaouiP/vSN3IcHGQbI48=
+
+Name: res/layout/search_city.xml
+SHA1-Digest: MtzUehWxfIweyDj6am4J6EQ5QbI=
+
+Name: res/layout/set_alarm.xml
+SHA1-Digest: uEwzJ5fdh4QEUjgMAsxV1NKvw90=
+
+Name: res/layout/set_alarm_alarm_label.xml
+SHA1-Digest: pUc96tDaHSkwVuVxxxnbrmFQbx4=
+
+Name: res/layout/set_alarm_volume.xml
+SHA1-Digest: J2/fSvAUaSO4K60nqGlijTM/ORc=
+
+Name: res/layout/stopwatch.xml
+SHA1-Digest: +JMNzsZbMSetcm9HF5eAlL+9uEk=
+
+Name: res/layout/timer.xml
+SHA1-Digest: nfrQhv8vSXiM6z8QG2zk44WqVK4=
+
+Name: res/layout/timer_alert_full_screen.xml
+SHA1-Digest: G3dg/Ut53ttp/2Yt0v4eelOSB+I=
+
+Name: res/layout/timer_history_item.xml
+SHA1-Digest: IcXB3t5/jqsyBMOqapStC+WKCV0=
+
+Name: res/layout/timer_time_picker.xml
+SHA1-Digest: vnMrhopMQaC404K+WTwB5YYgRGE=
+
+Name: res/layout/weather_icon.xml
+SHA1-Digest: jv05pDJMF7A60EgrNcIIMkxbW7Y=
+
+Name: res/layout/world_clock_compare_city.xml
+SHA1-Digest: xrTIpP8y4f+agIO8f0sZCSeFLoA=
+
+Name: res/layout/world_clock_compare_city_land_tablet.xml
+SHA1-Digest: a2gB/Fo9cSJ/If7YelpE2kXsGfo=
+
+Name: res/layout/world_clock_compare_city_port_tablet.xml
+SHA1-Digest: 3wzij4itOBOJOQIZ1rFc0pQVTvM=
+
+Name: res/layout/world_clock_item.xml
+SHA1-Digest: EiK1Thpim6NZZfYtoUC9x/j6Qcg=
+
+Name: res/layout/world_clock_list_item.xml
+SHA1-Digest: rnHmBMbbz802q7iP/ZQSmA6NxZM=
+
+Name: res/layout/world_clock_search_item.xml
+SHA1-Digest: /1ukDjs1CFoCMWQKbhTW8n9ELAc=
+
+Name: res/layout/worldclock.xml
+SHA1-Digest: GQ2Y+d8neRh1wvWjIo/2GHilH7Q=
+
+Name: res/layout/worldclock_compare.xml
+SHA1-Digest: LCoooFkRrUhoxwl72wTxqaPxcPo=
+
+Name: res/layout/worldclock_compare_tablet.xml
+SHA1-Digest: OZ406sQOchI6Mnjgda2MfKIfxRk=
+
+Name: res/layout/worldclock_list_fragment.xml
+SHA1-Digest: g+KCgQpqz3PC2Z/RSiD0OO6mons=
+
+Name: res/menu-sw720dp-v13/alarm_list_menu.xml
+SHA1-Digest: 3ngVlKghVQw2wBR3xDCZTj+nAE8=
+
+Name: res/menu-sw720dp-v13/search_city_menu.xml
+SHA1-Digest: u37huixtlTrh062zHStR9gQzeB4=
+
+Name: res/menu/alarm_list_menu.xml
+SHA1-Digest: 3ngVlKghVQw2wBR3xDCZTj+nAE8=
+
+Name: res/menu/context_menu.xml
+SHA1-Digest: HUmYsGS5pqFSd0mqBThVz3iH6o0=
+
+Name: res/menu/menu_alarm_list.xml
+SHA1-Digest: hdTMxjnYBkESb7W6EN+tHYexP0w=
+
+Name: res/menu/menu_worldclock_list.xml
+SHA1-Digest: STcg+AYqpOmacEqoULD2BMaymks=
+
+Name: res/menu/menu_worldclock_rearrange.xml
+SHA1-Digest: VyNMAidWJYpmqyNnMs9XR/vBj0A=
+
+Name: res/menu/search_city_menu.xml
+SHA1-Digest: oiXlgAnbw/HtiHiV2Y/47LHHgNM=
+
+Name: res/menu/world_clock_popup_menu.xml
+SHA1-Digest: tVg87FTt5OgjEwPBoK4/VGHgRFQ=
+
+Name: res/mipmap-hdpi-v4/alarmclock.png
+SHA1-Digest: PqsfCnc9opcb8fNx9gnNT4cI5R4=
+
+Name: res/mipmap-hdpi-v4/ic_launcher_alarmclock.png
+SHA1-Digest: Cgavpcf6iYYODct5t0r2z6vVISE=
+
+Name: res/mipmap-mdpi-v4/ic_launcher_alarmclock.png
+SHA1-Digest: UMU5uX3P9Db2fYb4VQVUMC1zxNw=
+
+Name: res/mipmap-xhdpi-v4/alarmclock.png
+SHA1-Digest: owcHTo2cxefZDnvuIHbTQ99eMUU=
+
+Name: res/mipmap-xhdpi-v4/ic_launcher_alarmclock.png
+SHA1-Digest: BBVyg4OnqgrjfZxN+AMoX8VWaPg=
+
+Name: res/mipmap-xxhdpi-v4/alarmclock.png
+SHA1-Digest: B3tC34oW1haKVi8dDhERfXtRBc4=
+
+Name: res/mipmap-xxxhdpi-v4/alarmclock.png
+SHA1-Digest: M59q1HXnboIcyFOCxBCMleHMbNg=
+
+Name: res/raw/crescendo.m4a
+SHA1-Digest: 8HV/SQTtBclE4lbVLuCCQkPwSGE=
+
+Name: res/raw/fallbackring.ogg
+SHA1-Digest: h/yxjAGYwFu7hk6fuC+OyL1QG18=
+
+Name: res/raw/far_away.m4a
+SHA1-Digest: iWJpDCJURYfY3a7M0owqPtmwqpM=
+
+Name: res/raw/in_call_alarm.ogg
+SHA1-Digest: h/yxjAGYwFu7hk6fuC+OyL1QG18=
+
+Name: res/raw/surface_alarm.m4a
+SHA1-Digest: y6Vg409ntAQgwJo7ZvaeD5jpnZ8=
+
+Name: res/xml/skin_permissions.xml
+SHA1-Digest: 6dlrqiZWIUMZV5iFeNgVXoTDzfw=
+
+Name: resources.arsc
+SHA1-Digest: AfLOlGhLFlaO8JEPQhRmANW1twQ=
+

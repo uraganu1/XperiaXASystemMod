@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<overlay-resources>
+    <filter-group group="tab_icon">
+        <filter type="type" value="bitmap" />
+        <filter type="size" minWidth="20dp" maxWidth="36dp" minHeight="20dp" maxHeight="38dp" />
+    </filter-group>
+    <overlay id="@drawable/tab_icon_alarm_unselected" filters="tab_icon" />
+    <overlay id="@drawable/tab_icon_stopwatch_unselected" filters="tab_icon" />
+    <overlay id="@drawable/tab_icon_timer_unselected" filters="tab_icon" />
+    <overlay id="@drawable/tab_icon_worldclock_unselected" filters="tab_icon" />
+    <filter-group group="snooze_button">
+        <filter type="type" value="bitmap" />
+        <filter type="size" minWidth="115dp" maxWidth="210dp" minHeight="115dp" maxHeight="210dp" />
+    </filter-group>
+    <overlay id="@drawable/snooze_button" filters="snooze_button" />
+    <filter-group group="dismiss_button">
+        <filter type="type" value="bitmap" />
+        <filter type="size" minWidth="70dp" maxWidth="84dp" minHeight="70dp" maxHeight="84dp" />
+    </filter-group>
+    <overlay id="@drawable/alarm_btn_dismiss" filters="dismiss_button" />
+</overlay-resources>

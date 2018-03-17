@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/menu_item_world_clock_set_home" android:title="@string/set_home_location" android:showAsAction="never" />
+    <item android:id="@id/menu_item_world_clock_c" android:title="@string/celsius" android:showAsAction="never" />
+    <item android:id="@id/menu_item_world_clock_f" android:title="@string/fahrenheit" android:showAsAction="never" />
+    <item android:id="@id/menu_item_world_clock_edit" android:title="@string/world_clock_menu_rearrange" android:showAsAction="never" />
+    <item android:id="@id/menu_item_world_clock_delete" android:title="@string/delete" android:showAsAction="never" />
+    <item android:id="@id/menu_item_world_clock_weather_forecast" android:visible="true" android:title="@string/world_clock_menu_data_usage" android:checkable="true" android:showAsAction="never" />
+</menu>

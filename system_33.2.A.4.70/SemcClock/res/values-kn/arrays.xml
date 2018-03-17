@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alarm_displayed_lable_alarm_set">
+        <item>ಈಗಿನಿಂದ 1 ನಿಮಿಷಕ್ಕಿಂತ ಕಡಿಮೆ</item>
+        <item>ಈಗಿನಿಂದ %1$s</item>
+        <item>ಈಗಿನಿಂದ %2$s</item>
+        <item>ಈಗಿನಿಂದ %1$s %2$s</item>
+        <item>ಈಗಿನಿಂದ %3$s</item>
+        <item>ಈಗಿನಿಂದ %1$s %3$s</item>
+        <item>ಈಗಿನಿಂದ %2$s %3$s</item>
+        <item>ಈಗಿನಿಂದ %1$s %2$s %3$s</item>
+    </string-array>
+    <string-array name="alarm_set">
+        <item>ಈ ಅಲಾರಂ ಅನ್ನು ಈಗಿನಿಂದ 1 ನಿಮಿಷಕ್ಕಿಂತ ಕಡಿಮೆಗೆ ನಿಗದಿಪಡಿಸಲಾಗಿದೆ</item>
+        <item>ಈ ಅಲಾರಂ ಅನ್ನು ಈಗಿನಿಂದ %1$s ಗಳಿಗೆ ನಿಗದಿಪಡಿಸಲಾಗಿದೆ</item>
+        <item>ಈ ಅಲಾರಂ ಅನ್ನು ಈಗಿನಿಂದ %2$s ಗಳಿಗೆ ನಿಗದಿಪಡಿಸಲಾಗಿದೆ</item>
+        <item>ಈ ಅಲಾರಂ ಅನ್ನು ಈಗಿನಿಂದ %1$s ಮತ್ತು %2$s ಗಳಿಗೆ ನಿಗದಿಪಡಿಸಲಾಗಿದೆ</item>
+        <item>ಈ ಅಲಾರಂ ಅನ್ನು ಈಗಿನಿಂದ %3$s ಗಳಿಗೆ ನಿಗದಿಪಡಿಸಲಾಗಿದೆ</item>
+        <item>ಈ ಅಲಾರಂ ಅನ್ನು ಈಗಿನಿಂದ %1$s ಮತ್ತು %3$s ನಿಗದಿಪಡಿಸಲಾಗಿದೆ</item>
+        <item>ಈ ಅಲಾರಂ ಅನ್ನು ಈಗಿನಿಂದ %2$s ಮತ್ತು %3$s ನಿಗದಿಪಡಿಸಲಾಗಿದೆ</item>
+        <item>ಈ ಅಲಾರಂ ಅನ್ನು ಈಗಿನಿಂದ %1$s, %2$s ಮತ್ತು %3$s ನಿಗದಿಪಡಿಸಲಾಗಿದೆ.</item>
+    </string-array>
+    <string-array name="snooze_duration_entries">
+        <item>5 ನಿಮಿಷಗಳು</item>
+        <item>10 ನಿಮಿಷಗಳು</item>
+        <item>15 ನಿಮಿಷಗಳು</item>
+        <item>20 ನಿಮಿಷಗಳು</item>
+        <item>25 ನಿಮಿಷಗಳು</item>
+        <item>30 ನಿಮಿಷಗಳು</item>
+    </string-array>
+    <string-array name="string_alarm_set_tablet_txt">
+        <item>1 ನಿಮಿಷದಲ್ಲಿ</item>
+        <item>%1$s ಲ್ಲಿ</item>
+        <item>%2$s ಲ್ಲಿ</item>
+        <item>%1$s ಮತ್ತು %2$s ಲ್ಲಿ</item>
+        <item>%3$s ಲ್ಲಿ</item>
+        <item>%1$s ಮತ್ತು %3$s ಲ್ಲಿ</item>
+        <item>%2$s ಮತ್ತು %3$s ಲ್ಲಿ</item>
+        <item>%1$s, %2$s ಮತ್ತು %3$s ಲ್ಲಿ</item>
+    </string-array>
+    <string-array name="timer_duration_history_label">
+        <item>%1$s</item>
+        <item>%2$s</item>
+        <item>%1$s, %2$s</item>
+        <item>%3$s</item>
+        <item>%1$s, %3$s</item>
+        <item>%2$s, %3$s</item>
+        <item>%1$s, %2$s ಹಾಗೂ%3$s</item>
+    </string-array>
+    <string-array name="volume_button_setting_entries">
+        <item>ಯಾವುದೂ ಇಲ್ಲ</item>
+        <item>ಸ್ನೂಸ್</item>
+        <item>ತೆಗೆದುಹಾಕು</item>
+    </string-array>
+</resources>

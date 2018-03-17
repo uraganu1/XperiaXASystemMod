@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="OrganizerDefaultTheme" parent="@android:style/Theme.DeviceDefault.Light.DarkActionBar">
+        <item name="android:actionBarTabStyle">@style/OrganizerDefaultThemeActionBarTabStyle</item>
+        <item name="android:actionBarTabBarStyle">@style/OrganizerDefaultThemeActionBarTabBarStyle</item>
+        <item name="android:layoutDirection">locale</item>
+    </style>
+    <style name="OrganizerDefaultThemeActionBarTabBarStyle" parent="@android:style/Widget.DeviceDefault.Light.ActionBar.TabBar">
+        <item name="android:actionBarDivider">@null</item>
+    </style>
+    <style name="OrganizerDefaultThemeActionBarTabStyle" parent="@android:style/Widget.DeviceDefault.Light.ActionBar.TabView">
+        <item name="android:gravity">center</item>
+        <item name="android:minWidth">200.0dip</item>
+    </style>
+</resources>

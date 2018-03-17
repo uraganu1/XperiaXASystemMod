@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alarm_displayed_lable_alarm_set">
+        <item>ഇപ്പോള്‍ മുതല്‍ 1 മിനിറ്റില്‍ താഴെ</item>
+        <item>ഇപ്പോള്‍ മുതല്‍ %1$s</item>
+        <item>ഇപ്പോള്‍ മുതല്‍ %2$s</item>
+        <item>ഇപ്പോള്‍ മുതല്‍ %1$s %2$s</item>
+        <item>ഇപ്പോള്‍ മുതല്‍ %3$s</item>
+        <item>ഇപ്പോള്‍ മുതല്‍ %1$s %3$s</item>
+        <item>ഇപ്പോള്‍ മുതല്‍ %2$s %3$s</item>
+        <item>ഇപ്പോള്‍ മുതല്‍ %1$s %2$s %3$s</item>
+    </string-array>
+    <string-array name="alarm_set">
+        <item>ഇപ്പോള്‍ മുതല്‍ 1 മിനിറ്റ് കുറവ് സമയത്തേക്ക് ഈ അലാറം ക്രമീകരിച്ചു.</item>
+        <item>ഇപ്പോള്‍ മുതല്‍ %1$s -ലേക്കായി ഈ അലാറം ക്രമീകരിച്ചു</item>
+        <item>ഇപ്പോള്‍ മുതല്‍ %2$s -ലേക്ക് ഈ അലാറം ക്രമീകരിച്ചു</item>
+        <item>ഇപ്പോള്‍ മുതല്‍ %1$s കൂടാതെ %2$s -ലേക്ക് ഈ അലാറം ക്രമീകരിച്ചു</item>
+        <item>ഇപ്പോള്‍ മുതല്‍ %3$s -ലേക്ക് ഈ അലാറം ക്രമീകരിച്ചു</item>
+        <item>ഇപ്പോള്‍ മുതല്‍ %1$s കൂടാതെ %3$s -ലേക്ക് ഈ അലാറം ക്രമീകരിച്ചു</item>
+        <item>ഇപ്പോള്‍ മുതല്‍ %2$s കൂടാതെ %3$s -ലേക്ക് ഈ അലാറം ക്രമീകരിച്ചു.</item>
+        <item>ഇപ്പോള്‍ മുതല്‍ %1$s, %2$s കൂടാതെ %3$s-നായി ഈ അലാറം ക്രമീകരിച്ചു.</item>
+    </string-array>
+    <string-array name="snooze_duration_entries">
+        <item>5 മിനിറ്റ്</item>
+        <item>10 മിനിറ്റ്</item>
+        <item>15 മിനിറ്റ്</item>
+        <item>20 മിനിറ്റ്</item>
+        <item>25 മിനിറ്റ്</item>
+        <item>30 മിനിറ്റ്</item>
+    </string-array>
+    <string-array name="string_alarm_set_tablet_txt">
+        <item>1 മിനിറ്റില്‍</item>
+        <item>%1$s -ല്‍</item>
+        <item>%2$s- ല്‍</item>
+        <item>%1$s-ലും %2$s-ലും</item>
+        <item>%3$s-ല്‍</item>
+        <item>%1$s-ലും %3$s-ലും</item>
+        <item>%2$s-ലും %3$s-ലും</item>
+        <item>%1$s, %2$s, %3$s-ലും</item>
+    </string-array>
+    <string-array name="timer_duration_history_label">
+        <item>%1$s</item>
+        <item>%2$s</item>
+        <item>%1$s, %2$s</item>
+        <item>%3$s</item>
+        <item>%1$s, %3$s</item>
+        <item>%2$s, %3$s</item>
+        <item>%1$s, %2$s, %3$s</item>
+    </string-array>
+    <string-array name="volume_button_setting_entries">
+        <item>ഒന്നുമില്ല</item>
+        <item>ലഘുനിദ്ര</item>
+        <item>തള്ളിക്കളയുക</item>
+    </string-array>
+</resources>

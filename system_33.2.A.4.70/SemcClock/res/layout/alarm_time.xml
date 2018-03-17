@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_marginTop="2.0dip" android:layout_marginBottom="1.0dip" android:layoutDirection="locale" android:layout_marginStart="@dimen/list_item_text_margin_start_end" android:layout_marginEnd="@dimen/list_item_text_margin_start_end" style="@style/alarm_list">
+        <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toStartOf="@id/alarm_switch" android:layout_alignParentStart="true" layout="@layout/alarm_digital_clock" />
+        <Switch android:id="@id/alarm_switch" android:paddingTop="@dimen/list_item_margin_alarm_switch_top_bottom" android:paddingBottom="@dimen/list_item_margin_alarm_switch_top_bottom" android:focusable="false" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <ImageView android:id="@id/timer_divider" android:background="@drawable/divider_horizontal_dark_opaque" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

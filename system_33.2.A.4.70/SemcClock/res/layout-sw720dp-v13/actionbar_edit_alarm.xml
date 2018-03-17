@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:showDividers="end" android:dividerPadding="12.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/actionbar_cancel" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_alignParentStart="true" style="?android:actionButtonStyle">
+        <TextView android:drawableStart="@drawable/ic_menu_cancel_holo_light" style="@style/ActionBarCustomButton" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/actionbar_done" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_alignParentEnd="true" style="?android:actionButtonStyle">
+        <TextView android:textColor="@android:color/white" android:text="@string/save" style="@style/ActionBarCustomButton" />
+    </FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/timer_history_small_list_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceListItemSmall" android:textColor="@color/list_color_enabled" android:gravity="center_vertical" android:id="@id/timer_history_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeightSmall" android:paddingStart="?android:listPreferredItemPaddingStart" android:paddingEnd="?android:listPreferredItemPaddingEnd" />
+    <ImageView android:id="@id/timer_divider" android:background="@drawable/divider_horizontal_dark_opaque" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

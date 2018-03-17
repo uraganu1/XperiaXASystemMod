@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="alarm_notification_snoozed_since_normal">%s -இலிருந்து அலாரம் மறுஒலி அமைக்கப்பட்டது</string>
+</resources>

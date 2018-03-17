@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/analog_clock_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.sonyericsson.organizer.components.AnalogClock android:id="@id/analog_clock" android:layout_width="@dimen/clock_size" android:layout_height="@dimen/clock_size" />
+</LinearLayout>

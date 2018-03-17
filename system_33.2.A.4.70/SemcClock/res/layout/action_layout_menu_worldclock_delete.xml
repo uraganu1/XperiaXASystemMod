@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="end" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:gravity="center" android:id="@id/menu_cancel" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/Cancel" android:singleLine="true" android:drawableStart="@drawable/icn_no" android:layout_marginEnd="@dimen/default_space_between" style="?android:attr/buttonBarButtonStyle" />
+    <Button android:gravity="center" android:id="@id/menu_delete" android:layout_width="wrap_content" android:layout_height="fill_parent" android:singleLine="true" android:drawableStart="@drawable/icn_yes" android:layout_marginEnd="@dimen/default_margin_border" style="?android:attr/buttonBarButtonStyle" />
+</LinearLayout>

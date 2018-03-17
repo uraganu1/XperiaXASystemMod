@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alarm_displayed_lable_alarm_set">
+        <item>Bu andan etibarən 1 dəqiqədən az</item>
+        <item>bu andan etibarən %1$s</item>
+        <item>bu andan etibarən %2$s</item>
+        <item>bu andan etibarən %1$s %2$s</item>
+        <item>bu andan etibarən %3$s</item>
+        <item>bu andan etibarən %1$s %3$s</item>
+        <item>bu andan etibarən %2$s %3$s</item>
+        <item>bu andan etibarən %1$s %2$s %3$s</item>
+    </string-array>
+    <string-array name="alarm_set">
+        <item>Bu siqnal maksimum 1 dəqiqə sonraya təyin olunub</item>
+        <item>Bu siqnal %1$s sonraya təyin olunub</item>
+        <item>Bu siqnal %2$s sonraya təyin olunub</item>
+        <item>Bu siqnal %1$s və %2$s sonraya təyin olunub</item>
+        <item>Bu siqnal %3$s sonraya təyin olunub</item>
+        <item>Bu siqnal %1$s və %3$s sonraya təyin olunub</item>
+        <item>Bu siqnal %2$s və %3$s sonraya təyin olunub</item>
+        <item>Bu siqnal %1$s, %2$s və %3$s sonraya təyin olunub.</item>
+    </string-array>
+    <string-array name="snooze_duration_entries">
+        <item>5 dəqiqə</item>
+        <item>10 dəqiqə</item>
+        <item>15 dəqiqə</item>
+        <item>20 dəqiqə</item>
+        <item>25 dəqiqə</item>
+        <item>30 dəqiqə</item>
+    </string-array>
+    <string-array name="string_alarm_set_tablet_txt">
+        <item>1 dəqiqəyə</item>
+        <item>%1$s-da</item>
+        <item>%2$s-da</item>
+        <item>%1$s və %2$s-da</item>
+        <item>%3$s-da</item>
+        <item>%1$s və %3$s-da</item>
+        <item>%2$s və %3$s-da</item>
+        <item>%1$s, %2$s və %3$s-da</item>
+    </string-array>
+    <string-array name="timer_duration_history_label">
+        <item>%1$s</item>
+        <item>%2$s</item>
+        <item>%1$s, %2$s</item>
+        <item>%3$s</item>
+        <item>%1$s, %3$s</item>
+        <item>%2$s, %3$s</item>
+        <item>%1$s, %2$s və %3$s</item>
+    </string-array>
+    <string-array name="volume_button_setting_entries">
+        <item>Yoxdur</item>
+        <item>Mürgülə</item>
+        <item>Rədd et</item>
+    </string-array>
+</resources>

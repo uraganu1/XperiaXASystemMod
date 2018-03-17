@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/stop_watch_small_list_height" android:paddingStart="@dimen/lap_list_side_margin" android:paddingEnd="@dimen/lap_list_side_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/stop_watch_small_list_height" android:layout_marginTop="@dimen/stop_watch_list_margin_top_bottom" android:layout_marginBottom="@dimen/stop_watch_list_margin_top_bottom" android:paddingEnd="@dimen/stop_watch_list_margin" android:layout_marginStart="@dimen/stop_watch_list_margin"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:textSize="@dimen/stop_watch_small_list_font_size" android:gravity="center" android:layout_gravity="start" android:id="@id/lap_number" android:layout_width="wrap_content" android:layout_height="@dimen/stop_watch_small_list_height" android:text="@string/stopwatch_strings_00_txt" android:singleLine="true" android:layout_marginStart="@dimen/stop_watch_list_margin" android:layout_marginEnd="@dimen/stop_watch_list_margin" />
+        <TextView android:textSize="@dimen/stop_watch_small_list_font_size" android:id="@id/stopwatch_rank" android:layout_width="0.0dip" android:layout_height="@dimen/stop_watch_small_list_height" android:singleLine="true" android:layout_weight="1.0" />
+        <TextView android:textSize="@dimen/stop_watch_small_list_font_size" android:gravity="end|center" android:id="@id/lap_time" android:layout_width="wrap_content" android:layout_height="@dimen/stop_watch_small_list_height" android:layout_marginEnd="@dimen/stop_watch_list_margin" />
+    </LinearLayout>
+    <ImageView android:id="@id/timer_divider" android:background="@drawable/divider_horizontal_dark_opaque" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

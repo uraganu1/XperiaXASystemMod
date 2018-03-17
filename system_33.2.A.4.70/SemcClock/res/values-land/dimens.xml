@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_margin_between">15.0dip</dimen>
+    <dimen name="button_margin_bottom">16.0dip</dimen>
+    <dimen name="button_margin_start_end">29.0dip</dimen>
+    <dimen name="clock_margin_over">26.0dip</dimen>
+    <dimen name="current_time_margin_top">22.0dip</dimen>
+    <dimen name="timer_buttons_start_reset_margin">25.0dip</dimen>
+    <dimen name="world_clock_clock_city_margin_top">9.0dip</dimen>
+    <dimen name="clock_margin_end">14.0dip</dimen>
+    <dimen name="clock_margin_start">35.0dip</dimen>
+</resources>

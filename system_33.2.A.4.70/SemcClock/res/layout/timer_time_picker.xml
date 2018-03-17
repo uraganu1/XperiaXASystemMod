@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:focusableInTouchMode="true" android:descendantFocusability="afterDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="ltr"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <NumberPicker android:id="@id/timer_picker_hours" android:background="@drawable/number_focus_selector" android:focusable="true" android:nextFocusLeft="@android:id/button2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="6.0dip" />
+    <TextView android:id="@id/timer_picker_hm_separator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=":" android:textAlignment="center" />
+    <NumberPicker android:id="@id/timer_picker_minutes" android:background="@drawable/number_focus_selector" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="6.0dip" android:layout_marginEnd="6.0dip" />
+    <TextView android:id="@id/timer_picker_ms_separator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=":" android:textAlignment="center" />
+    <NumberPicker android:id="@id/timer_picker_seconds" android:background="@drawable/number_focus_selector" android:focusable="true" android:nextFocusRight="@android:id/button1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="6.0dip" />
+</LinearLayout>

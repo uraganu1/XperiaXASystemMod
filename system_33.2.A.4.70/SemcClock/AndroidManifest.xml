@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto" package="com.sonyericsson.organizer" platformBuildVersionCode="23" platformBuildVersionName="6.0-1">
+    <permission android:name="com.sonyericsson.organizer.READ_ALARM" android:protectionLevel="signature"/>
+    <permission android:name="com.sonyericsson.organizer.WRITE_ALARM" android:protectionLevel="signature"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="com.sonyericsson.extras.liveware.aef.EXTENSION_PERMISSION"/>
+    <uses-permission android:name="android.permission.DEVICE_POWER"/>
+    <uses-permission android:name="android.permission.MANAGE_USERS"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL"/>
+    <uses-permission android:name="android.permission.UPDATE_DEVICE_STATS"/>
+    <uses-permission android:name="com.sonyericsson.organizer.READ_ALARM"/>
+    <uses-permission android:name="com.sonyericsson.organizer.WRITE_ALARM"/>
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM"/>
+    <uses-permission android:name="com.sonymobile.permission.SYSTEM_UI_VISIBILITY_EXTENSIONS"/>
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:smallScreens="false"/>
+    <application android:allowBackup="false" android:icon="@mipmap/alarmclock" android:label="@string/application_name" android:supportsRtl="true" android:theme="@style/OrganizerDefaultTheme">
+        <meta-data android:name="com.sonymobile.runtimeskinning.SKIN_PERMISSIONS" android:resource="@xml/skin_permissions"/>
+        <meta-data android:name="com.sonymobile.runtimeskinning.LAF_VERSION" android:value="3"/>
+        <activity android:icon="@mipmap/alarmclock" android:label="@string/alarm_clock" android:launchMode="singleTask" android:name="com.sonyericsson.organizer.Organizer">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.SHOW_ALARMS"/>
+                <action android:name="com.android.deskclock.action.SHOW_STOPWATCH"/>
+                <action android:name="com.android.deskclock.action.SHOW_TIMERS"/>
+                <action android:name="com.android.deskclock.action.SHOW_CLOCK"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity-alias android:launchMode="singleTask" android:name="com.sonyericsson.organizer.Organizer_WorldClock" android:targetActivity="com.sonyericsson.organizer.Organizer">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="com.android.deskclock.action.ADD_CLOCK"/>
+                <action android:name="com.android.deskclock.action.DELETE_CLOCK"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:launchMode="singleTask" android:name="com.sonyericsson.organizer.Organizer_StopWatch" android:targetActivity="com.sonyericsson.organizer.Organizer">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="com.android.deskclock.action.START_STOPWATCH"/>
+                <action android:name="com.android.deskclock.action.STOP_STOPWATCH"/>
+                <action android:name="com.android.deskclock.action.RESET_STOPWATCH"/>
+                <action android:name="com.android.deskclock.action.LAP_STOPWATCH"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity-alias>
+        <activity-alias android:launchMode="singleTask" android:name="com.sonyericsson.organizer.Organizer_Timer" android:targetActivity="com.sonyericsson.organizer.Organizer">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="com.android.deskclock.action.START_TIMER"/>
+                <action android:name="com.android.deskclock.action.RESET_TIMER"/>
+                <action android:name="com.android.deskclock.action.STOP_TIMER"/>
+                <action android:name="com.android.deskclock.action.DELETE_TIMER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity-alias>
+        <activity android:label="@string/alarm_header_settings" android:name="com.sonyericsson.organizer.FragmentWrapperActivity"/>
+        <service android:name="com.sonyericsson.organizer.stopwatch.StopwatchNotificationService"/>
+        <activity android:excludeFromRecents="true" android:label="" android:launchMode="singleInstance" android:name="com.sonyericsson.organizer.timer.TimerAlertFullScreen" android:showOnLockScreen="true" android:taskAffinity=""/>
+        <receiver android:name="com.sonyericsson.organizer.timer.TimerReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.TIMER_EXPIRED"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.sonyericsson.organizer.timer.TimerService"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:hardwareAccelerated="false" android:name="com.sonyericsson.organizer.worldclock.CompareCity"/>
+        <activity android:configChanges="keyboardHidden|screenSize" android:hardwareAccelerated="false" android:name="com.sonyericsson.organizer.worldclock.CompareCity_tablet"/>
+        <provider android:authorities="com.sonyericsson.alarm" android:exported="true" android:name="com.sonyericsson.alarm.AlarmProvider" android:readPermission="com.sonyericsson.organizer.READ_ALARM" android:writePermission="com.sonyericsson.organizer.WRITE_ALARM"/>
+        <activity android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize" android:excludeFromRecents="true" android:exported="true" android:label="@string/delete_alarms" android:name="com.sonyericsson.alarm.DeleteAlarmsActivity" android:taskAffinity=""/>
+        <activity android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize" android:label="@string/alarm_header_settings" android:name="com.sonyericsson.alarm.SetAlarm"/>
+        <activity android:configChanges="keyboard|keyboardHidden|navigation" android:excludeFromRecents="true" android:launchMode="singleInstance" android:name="com.sonyericsson.alarm.AlarmAlert" android:taskAffinity="" android:theme="@android:style/Theme.Wallpaper.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|navigation" android:excludeFromRecents="true" android:launchMode="singleInstance" android:name="com.sonyericsson.alarm.AlarmAlertFullScreen" android:showOnLockScreen="true" android:taskAffinity="" android:theme="@android:style/Theme.Wallpaper.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.DISMISS_ALARM"/>
+                <action android:name="android.intent.action.SNOOZE_ALARM"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <receiver android:name="com.sonyericsson.alarm.AlarmReceiver">
+            <intent-filter>
+                <action android:name="com.sonyericsson.alarm.ALARM_ALERT"/>
+                <action android:name="alarm_killed"/>
+                <action android:name="cancel_snooze"/>
+                <action android:name="com.sonyericsson.vendor.backuprestore.intent.ACTION_RESTORE_APP_COMPLETE"/>
+                <action android:name="android.intent.action.DISMISS_ALARM"/>
+                <action android:name="android.intent.action.SNOOZE_ALARM"/>
+            </intent-filter>
+        </receiver>
+        <activity android:excludeFromRecents="false" android:label="@string/alarm" android:name="com.sonyericsson.alarm.HandleSetAlarm" android:permission="com.android.alarm.permission.SET_ALARM" android:theme="@android:style/Theme.NoDisplay">
+            <intent-filter>
+                <action android:name="android.intent.action.SET_ALARM"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:excludeFromRecents="false" android:label="@string/timer" android:name="com.sonyericsson.organizer.timer.HandleSetTimer" android:permission="com.android.alarm.permission.SET_ALARM" android:theme="@android:style/Theme.NoDisplay">
+            <intent-filter>
+                <action android:name="android.intent.action.SET_TIMER"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <service android:description="@string/alarm_klaxon_service_desc" android:name="com.sonyericsson.alarm.AlarmKlaxon">
+            <intent-filter>
+                <action android:name="com.sonyericsson.alarm.ALARM_ALERT"/>
+            </intent-filter>
+        </service>
+        <receiver android:name="com.sonyericsson.alarm.AlarmInitReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+                <action android:name="android.intent.action.LOCALE_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <activity android:icon="@drawable/stopwatch" android:label="@string/stopwatch" android:name="com.sonyericsson.organizer.AddStopwatchShortcutActivity" android:theme="@style/Invisible">
+            <intent-filter>
+                <action android:name="android.intent.action.CREATE_SHORTCUT"/>
+            </intent-filter>
+        </activity>
+        <activity android:icon="@drawable/worldclock" android:label="@string/world_clock" android:name="com.sonyericsson.organizer.AddWorldClockShortcutActivity" android:theme="@style/Invisible">
+            <intent-filter>
+                <action android:name="android.intent.action.CREATE_SHORTCUT"/>
+            </intent-filter>
+        </activity>
+        <activity android:icon="@mipmap/alarmclock" android:label="@string/alarm" android:name="com.sonyericsson.organizer.AddAlarmShortcutActivity" android:theme="@style/Invisible">
+            <intent-filter>
+                <action android:name="android.intent.action.CREATE_SHORTCUT"/>
+            </intent-filter>
+        </activity>
+        <activity android:icon="@drawable/timer" android:label="@string/timer" android:name="com.sonyericsson.organizer.AddTimerShortcutActivity" android:theme="@style/Invisible">
+            <intent-filter>
+                <action android:name="android.intent.action.CREATE_SHORTCUT"/>
+            </intent-filter>
+        </activity>
+        <activity android:icon="@mipmap/ic_launcher_alarmclock" android:label="@string/clock_label" android:name="com.sonyericsson.organizer.AddDeskclockShortcutActivity" android:theme="@style/Invisible">
+            <intent-filter>
+                <action android:name="android.intent.action.CREATE_SHORTCUT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize" android:icon="@mipmap/ic_launcher_alarmclock" android:launchMode="singleTask" android:name="com.sonyericsson.organizer.icsdeskclock.ICSDeskClock" android:theme="@android:style/Theme.Holo.Wallpaper.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+            </intent-filter>
+        </activity>
+        <receiver android:name="com.sonyericsson.organizer.timer.TimerMasterResetReceiver">
+            <intent-filter>
+                <action android:name="com.sonyericsson.settings.MASTERRESET"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </receiver>
+        <activity android:name="com.sonyericsson.organizer.permission.PermissionAcceptanceActivity" android:theme="@style/ActivityDialog"/>
+    </application>
+</manifest>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:id="@id/weather_icons" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeight" style="@style/WeatherIconItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/list_item_label_temp_size" android:textStyle="bold" android:textColor="?android:textColorPrimary" android:ellipsize="end" android:layout_gravity="center" android:id="@id/current_temp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/list_item_margin_text_correction_closer" android:layout_marginBottom="@dimen/weather_icon_margin_bottom" android:maxLines="1" android:layout_weight="1.0" android:textDirection="ltr" android:layout_marginEnd="@dimen/weather_icon_margin_end" />
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/weather_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" android:adjustViewBounds="true" />
+</LinearLayout>

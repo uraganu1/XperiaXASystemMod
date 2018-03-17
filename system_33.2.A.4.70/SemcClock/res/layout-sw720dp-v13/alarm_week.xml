@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="top" android:id="@id/week" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layoutDirection="locale" android:paddingStart="1.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/monday" android:text="@string/alarm_monday_short" style="@style/TabletAlarmWeekTextLabel" />
+    <TextView android:id="@id/tuesday" android:text="@string/alarm_tuesday_short" style="@style/TabletAlarmWeekTextLabel" />
+    <TextView android:id="@id/wednesday" android:text="@string/alarm_wednesday_short" style="@style/TabletAlarmWeekTextLabel" />
+    <TextView android:id="@id/thursday" android:text="@string/alarm_thursday_short" style="@style/TabletAlarmWeekTextLabel" />
+    <TextView android:id="@id/friday" android:text="@string/alarm_friday_short" style="@style/TabletAlarmWeekTextLabel" />
+    <TextView android:id="@id/saturday" android:text="@string/alarm_saturday_short" style="@style/TabletAlarmWeekTextLabel" />
+    <TextView android:id="@id/sunday" android:text="@string/alarm_sunday_short" style="@style/TabletAlarmWeekTextLabel" />
+</LinearLayout>

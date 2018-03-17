@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/date" android:focusable="true" android:layout_width="wrap_content" android:layout_height="@dimen/date_panel_height" android:layoutDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/date_panel_day_nbr_size" android:id="@id/day_nbr" android:layout_marginEnd="@dimen/date_panel_day_nbr_margin_end" style="@style/TabletTextLabelBasic" />
+    <TextView android:textSize="@dimen/date_panel_month_year_size" android:id="@id/month_year" android:paddingTop="@dimen/date_panel_month_year_padding_top" android:layout_toEndOf="@id/day_nbr" style="@style/TabletTextLabelBasic" />
+    <TextView android:textSize="@dimen/date_panel_day_name_size" android:textColor="@color/standard_grey_text_color" android:id="@id/day_name" android:layout_below="@id/month_year" android:layout_alignBaseline="@id/day_nbr" android:layout_toEndOf="@id/day_nbr" style="@style/TabletTextLabelBasic" />
+</RelativeLayout>

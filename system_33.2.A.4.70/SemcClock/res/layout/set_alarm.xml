@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:focusableInTouchMode="true" android:descendantFocusability="beforeDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.sonyericsson.organizer.components.FadingScrollView android:id="@id/alarm_set_alarm_scrollview" android:focusableInTouchMode="true" android:descendantFocusability="beforeDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:focusable="true" android:clickable="true" android:descendantFocusability="afterDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:id="@id/alarm_set_alarm_time_layout" android:onClick="onClick" layout="@layout/alarm_set_alarm_time_item" />
+            <ImageView android:background="@drawable/divider_horizontal_dark_opaque" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <include android:id="@id/alarm_set_alarm_smartalarm_layout" layout="@layout/alarm_set_alarm_preference_item_with_checkbox_smartalarm" />
+            <ImageView android:id="@id/smartalarm_divider" android:background="@drawable/divider_horizontal_dark_opaque" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/set_alarm_margin_top_bottom" />
+            <include android:id="@id/alarm_set_alarm_recurrence_layout" android:onClick="onClick" layout="@layout/alarm_set_alarm_recurrence_item" />
+            <ImageView android:background="@drawable/divider_horizontal_dark_opaque" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/set_alarm_margin_top_bottom" android:paddingStart="?android:scrollbarSize" android:paddingEnd="?android:scrollbarSize" />
+            <include android:id="@id/alarm_set_alarm_alarm_text_layout" layout="@layout/set_alarm_alarm_label" />
+            <TextView android:layout_marginTop="@dimen/set_alarm_margin_top_bottom" android:layout_marginBottom="@dimen/set_alarm_header_margin_bottom" android:text="@string/sound_and_vibration" style="@style/SubHeaderText" />
+            <include android:id="@id/alarm_set_alarm_alarm_sound_layout" layout="@layout/alarm_set_alarm_preference_item" />
+            <ImageView android:background="@drawable/divider_horizontal_dark_opaque" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/set_alarm_margin_top_bottom" />
+            <include android:id="@id/alarm_set_alarm_alarm_volume_layout" layout="@layout/set_alarm_volume" />
+            <ImageView android:layout_gravity="bottom" android:background="@drawable/divider_horizontal_dark_opaque" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <include android:id="@id/alarm_set_alarm_snooze_time_layout" layout="@layout/alarm_set_alarm_preference_item" />
+            <ImageView android:background="@drawable/divider_horizontal_dark_opaque" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <include android:id="@id/alarm_set_alarm_alarm_vibrate_layout" layout="@layout/alarm_set_alarm_preference_item_with_checkbox_vibrate" />
+            <ImageView android:id="@id/checkbox_vibrate_divider" android:background="@drawable/divider_horizontal_dark_opaque" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <include android:id="@id/alarm_set_alarm_side_key_behaviour_layout" layout="@layout/alarm_set_alarm_preference_item" />
+            <ImageView android:background="@drawable/divider_horizontal_dark_opaque" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <include android:id="@id/alarm_set_alarm_auto_silent_layout" layout="@layout/alarm_set_alarm_preference_item" />
+        </LinearLayout>
+    </com.sonyericsson.organizer.components.FadingScrollView>
+</RelativeLayout>

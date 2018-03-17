@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingTop="@dimen/list_item_cities_margin_bottom" android:paddingBottom="@dimen/list_item_cities_margin_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/world_clock_search_text_size" android:textColor="?android:textColorPrimary" android:id="@id/search_city_name" android:paddingBottom="7.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerVertical="true" android:layout_marginStart="@dimen/list_item_margin_text_start_end" android:layout_marginEnd="@dimen/list_item_margin_text_start_end" android:layout_toStartOf="@id/search_city_tz" android:layout_alignParentStart="true" />
+    <TextView android:textSize="@dimen/world_clock_search_text_size" android:textColor="?android:textColorPrimary" android:ellipsize="end" android:id="@id/search_city_tz" android:paddingBottom="7.0dip" android:layout_width="@dimen/world_clock_search_city_tz_width" android:layout_height="wrap_content" android:maxLines="1" android:layout_centerVertical="true" android:layout_marginEnd="2.0dip" android:layout_alignParentEnd="true" />
+</RelativeLayout>

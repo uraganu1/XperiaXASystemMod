@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/menu_launcher_addalarm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_clock_item_add" android:contentDescription="@string/add_alarm" style="?android:attr/buttonBarButtonStyle" />
+    <ImageButton android:id="@id/menu_launcher_deskclock" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_launcher_alarmclock" android:contentDescription="@string/menu_desk_clock" style="?android:attr/buttonBarButtonStyle" />
+</LinearLayout>

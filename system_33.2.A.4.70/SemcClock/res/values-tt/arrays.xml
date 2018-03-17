@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alarm_displayed_lable_alarm_set">
+        <item>Бер минуттан әзрәк</item>
+        <item>%1$s әлеге вакыттан</item>
+        <item>%2$s әлеге вакыттан</item>
+        <item>%1$s %2$s әлеге вакыттан</item>
+        <item>%3$s әлеге вакыттан</item>
+        <item>%1$s %3$s әлеге вакыттан</item>
+        <item>%2$s %3$s әлеге вакыттан</item>
+        <item>%1$s %2$s %3$s моннан</item>
+    </string-array>
+    <string-array name="alarm_set">
+        <item>Бу киселек моннан 1 минут арттан урнаштырылган</item>
+        <item>Бу кисәтү %1$s бу вакыттан урнаштырылган</item>
+        <item>Бу кисәтү %2$s бу вакыттан урнаштырылган</item>
+        <item>Бу кисәтү %1$s һәм %2$sбу вакыттан урнаштырылган</item>
+        <item>Бу кисәтү %3$s бу вакыттан урнаштырылган</item>
+        <item>Бу кисәтү %1$s һәм %3$sбу вакыттан урнаштырылган</item>
+        <item>Бу кисәтү %2$s һәм %3$sбу вакыттан урнаштырылган</item>
+        <item>Бу кисәтү %1$s, %2$s һәм %3$s бу вакыттан урнаштырылган.</item>
+    </string-array>
+    <string-array name="snooze_duration_entries">
+        <item>5 минут</item>
+        <item>10 минут</item>
+        <item>15 минут</item>
+        <item>20 минут</item>
+        <item>25 минут</item>
+        <item>30 минут</item>
+    </string-array>
+    <string-array name="string_alarm_set_tablet_txt">
+        <item>1 минутта</item>
+        <item>%1$s өч</item>
+        <item>%2$s өч</item>
+        <item>%1$s һәм %2$s өчен</item>
+        <item>%3$s өч</item>
+        <item>%1$s hәм %3$s өч</item>
+        <item>%2$s hәм %3$s өч</item>
+        <item>%1$s, %2$s hәм %3$s өч</item>
+    </string-array>
+    <string-array name="timer_duration_history_label">
+        <item>%1$s</item>
+        <item>%2$s</item>
+        <item>%1$s, %2$s</item>
+        <item>%3$s</item>
+        <item>%1$s, %3$s</item>
+        <item>%2$s, %3$s</item>
+        <item>%1$s, %2$s hәм %3$s</item>
+    </string-array>
+    <string-array name="volume_button_setting_entries">
+        <item>Юк</item>
+        <item>Сонгарау</item>
+        <item>Тәмамларга</item>
+    </string-array>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.sonyericsson.organizer">
+    <com.sonyericsson.organizer.components.StopwatchClock android:layout_gravity="center" android:id="@id/stopwatch_header" android:focusable="true" android:focusableInTouchMode="true" android:nextFocusLeft="@id/left_button" android:layout_width="@dimen/clock_size" android:layout_height="@dimen/clock_size" android:layout_marginStart="@dimen/clock_margin_start" android:layout_marginEnd="@dimen/clock_margin_end" />
+    <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/clock_margin_over" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="locale">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/timer_history_margin" android:layout_marginBottom="@dimen/button_margin_bottom">
+            <Button android:textSize="@dimen/button_text_size" android:textColor="@android:color/white" android:id="@id/left_button" android:background="@drawable/start_ripple" android:nextFocusLeft="@id/stopwatch_header" android:nextFocusRight="@id/right_button" android:nextFocusDown="@id/laps_list" android:layout_width="0.0dip" android:layout_height="@dimen/button_height" android:singleLine="true" android:layout_weight="1.0" android:layout_marginEnd="@dimen/button_margin_between" style="@style/ButtonText" />
+            <Button android:textSize="@dimen/button_text_size" android:id="@id/right_button" android:background="@drawable/reset_ripple" android:nextFocusLeft="@id/left_button" android:nextFocusDown="@id/laps_list" android:layout_width="0.0dip" android:layout_height="@dimen/button_height" android:singleLine="true" android:layout_weight="1.0" android:layout_marginEnd="@dimen/timer_history_margin" />
+        </LinearLayout>
+        <com.sonyericsson.organizer.components.FadingListView android:id="@id/laps_list" android:focusable="false" android:focusableInTouchMode="false" android:scrollbars="vertical" android:nextFocusLeft="@id/stopwatch_header" android:nextFocusUp="@id/left_button" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawSelectorOnTop="false" android:cacheColorHint="@android:color/transparent" android:divider="@null" android:headerDividersEnabled="false" android:footerDividersEnabled="true" android:layoutDirection="locale" app:fadeTop="true" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:gravity="center" android:id="@id/alarm_alert_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/image" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="locale">
+        <RelativeLayout android:layout_gravity="center_horizontal" android:padding="0.0dip" android:layout_width="wrap_content" android:layout_height="@dimen/smart_cover_alarm_alert_time_display_text_size" android:layoutDirection="locale">
+            <TextView android:textSize="@dimen/smart_cover_alarm_alert_time_display_text_size" android:id="@id/alert_time" android:padding="0.0dip" android:layout_marginTop="@dimen/alarm_alert_time_display_margin_top" android:includeFontPadding="false" android:fontFamily="sans-serif-thin" style="@style/ActiveAlarmTextWithShadow" />
+            <TextView android:textSize="@dimen/current_time_ampm_text_size" android:id="@id/alert_ampm" android:visibility="gone" android:layout_marginTop="@dimen/smart_cover_alarm_alert_time_ampm_margin_top" android:minHeight="@dimen/alarm_alert_time_ampm_min_height" android:layout_alignTop="@id/alert_time" android:layout_toEndOf="@id/alert_time" style="@style/ActiveAlarmTextWithShadow" />
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/alarm_alert_date_text_size" android:gravity="center_horizontal" android:id="@id/alertDate" android:layout_width="@dimen/alarm_alert_date_width" android:singleLine="true" android:includeFontPadding="false" style="@style/ActiveAlarmTextWithShadow" />
+        <TextView android:textSize="@dimen/alarm_alert_titile_text_size" android:textStyle="bold" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/alertTitle" android:layout_width="@dimen/alarm_alert_titile_width" android:layout_marginTop="@dimen/alarm_alert_titile_margin_top" android:maxLines="1" android:singleLine="true" android:includeFontPadding="false" style="@style/ActiveAlarmTextWithShadow" />
+        <TextView android:textSize="@dimen/alarm_alert_original_time_text_size" android:layout_gravity="center_horizontal" android:id="@id/orignalTime" android:layout_marginTop="@dimen/alarm_alert_original_time_margin_top" android:singleLine="true" android:includeFontPadding="false" style="@style/ActiveAlarmTextWithShadow" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/smart_cover_alarm_alert_snooze_layout_margin_bottom">
+            <ImageButton android:id="@id/snooze" android:background="@drawable/snooze_background" android:layout_width="@dimen/smart_cover_snooz_icon_dimension" android:layout_height="@dimen/smart_cover_snooz_icon_dimension" android:src="@drawable/snooze_button" android:scaleType="fitXY" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="@dimen/smart_cover_alarm_alert_snooze_text_size" android:textStyle="bold" android:textColor="@color/snooze_text_color" android:id="@id/snoozeText" android:layout_marginBottom="@dimen/smart_cover_alarm_alert_snooze_text_margin_bottom" android:text="@string/alarm_alert_snooze_text_short" android:singleLine="true" android:layout_alignBottom="@id/snooze" android:layout_centerHorizontal="true" style="@style/ActiveAlarmText" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/smart_cover_alarm_alert_slidingbar_layout_margin_bottom">
+            <com.sonyericsson.alarm.component.SlidingBar android:id="@id/dismissSlider" android:tag="Portrait" android:layout_width="fill_parent" android:layout_height="@dimen/smart_cover_alarm_alert_slidingbar_height" android:layout_marginLeft="@dimen/alarm_alert_slidingbar_start_end" android:layout_marginRight="@dimen/alarm_alert_slidingbar_start_end" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</FrameLayout>

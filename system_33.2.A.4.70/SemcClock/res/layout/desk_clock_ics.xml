@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="locale"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/window_touch" android:visibility="visible" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:background="@drawable/desk_clock_background" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/DeskClockDefaultTheme">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/date_alarm_information" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/desk_clock_margin_bottom" android:layout_alignParentBottom="true">
+            <TextView android:textAppearance="?android:textAppearance" android:textSize="@dimen/date_text_size" android:id="@id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/desk_clock_margin_space" style="@style/DeskClockText" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/desk_clock_margin_bottom" android:layoutDirection="locale">
+                <TextView android:textAppearance="?android:textAppearance" android:textSize="@dimen/date_text_size" android:gravity="center_vertical" android:id="@id/informationAboutAlarm" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/next_alarm_set" android:layout_weight="1.0" android:paddingEnd="@dimen/icon_padding" style="@style/DeskClockText" />
+                <TextView android:textAppearance="?android:textAppearance" android:textSize="@dimen/next_alarm_text_size" android:textStyle="normal" android:gravity="center_vertical" android:id="@id/nextAlarm" android:layout_width="0.0dip" android:layout_height="wrap_content" android:drawablePadding="@dimen/icon_padding" android:layout_weight="1.0" android:drawableStart="@drawable/alarm_icon_wallpaper" style="@style/DeskClockText" />
+            </LinearLayout>
+        </LinearLayout>
+        <com.sonyericsson.organizer.icsdeskclock.ICSDigitalClock android:id="@id/time" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/desk_clock_margin_bottom_clock" android:layout_above="@id/date_alarm_information">
+            <TextView android:textAppearance="?android:textAppearance" android:textSize="@dimen/time_text_size" android:textColor="@color/time_text_color" android:ellipsize="none" android:id="@id/timeDisplay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerInParent="true" android:fontFamily="sans-serif-light" style="@style/DeskClockText" />
+            <TextView android:textAppearance="?android:textAppearance" android:textSize="@dimen/ampm_text_size" android:ellipsize="none" android:id="@id/am_pm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignBaseline="@id/timeDisplay" android:layout_toEndOf="@id/timeDisplay" style="@style/DeskClockText" useClockTypeface="false" />
+        </com.sonyericsson.organizer.icsdeskclock.ICSDigitalClock>
+    </RelativeLayout>
+</FrameLayout>

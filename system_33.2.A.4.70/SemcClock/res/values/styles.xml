@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="OrganizerDefaultTheme" parent="@android:style/Theme.DeviceDefault.Light.DarkActionBar">
+        <item name="android:actionMenuTextAppearance">@style/MenuItemTextStyle</item>
+        <item name="android:layoutDirection">locale</item>
+    </style>
+    <style name="OrganizerDefaultThemeActionBarTabBarStyle" parent="@android:style/Widget.DeviceDefault.ActionBar.TabView" />
+    <style name="OrganizerDefaultThemeActionBarTabStyle" parent="@android:style/Widget.DeviceDefault.ActionBar.TabBar" />
+    <style name="ActionBarCustomButton" parent="@android:attr/actionMenuTextAppearance">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawablePadding">8.0dip</item>
+        <item name="android:paddingEnd">8.0dip</item>
+    </style>
+    <style name="ActionBarCustomTitleText" parent="@android:style/TextAppearance.DeviceDefault.Inverse">
+        <item name="android:textSize">@dimen/actionbar_title_text_size</item>
+    </style>
+    <style name="ActiveAlarmText">
+        <item name="android:textColor">?android:textColorPrimary</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="ActiveAlarmTextWithShadow" parent="@style/ActiveAlarmText">
+        <item name="android:shadowColor">@android:color/black</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+    <style name="ActiveAlarmTextWithShadowCenterHorizontal" parent="@style/ActiveAlarmTextWithShadow">
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+    <style name="ActiveAlarmTextWithShadowThin" parent="@style/ActiveAlarmTextWithShadow">
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+    <style name="ActivityDialog" parent="@android:style/Theme.DeviceDefault.Light.Dialog.NoActionBar">
+        <item name="android:windowCloseOnTouchOutside">false</item>
+    </style>
+    <style name="AlertDialogTheme" parent="@android:style/Theme.DeviceDefault.Dialog.Alert">
+        <item name="android:layoutDirection">locale</item>
+    </style>
+    <style name="AppBaseTheme" parent="@android:style/Theme.Light" />
+    <style name="AppTheme" parent="@style/AppBaseTheme" />
+    <style name="BoldText">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="ButtonStripLeft">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/btn_strip_trans_left</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="ButtonStripMiddle">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/btn_strip_trans_middle</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="ButtonStripRight">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/btn_strip_trans_right</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="ButtonText">
+        <item name="android:shadowColor">#23000000</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+    <style name="DeskClockDefaultTheme" parent="@android:style/Theme.DeviceDefault">
+        <item name="android:layoutDirection">locale</item>
+    </style>
+    <style name="DeskClockText">
+        <item name="android:textColor">@color/time_text_color</item>
+        <item name="android:shadowColor">#ff000000</item>
+        <item name="android:shadowDx">1.0</item>
+        <item name="android:shadowDy">1.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+    <style name="DeskClockTheme" parent="@android:style/Theme.DeviceDefault.NoActionBar">
+        <item name="android:layoutDirection">locale</item>
+    </style>
+    <style name="FAB">
+        <item name="android:layout_gravity">end|bottom|center</item>
+    </style>
+    <style name="Invisible">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    <style name="MenuButtonStyle">
+        <item name="android:layout_gravity">end|center|top</item>
+        <item name="android:layout_marginEnd">16.0dip</item>
+    </style>
+    <style name="MenuItemTextStyle" parent="@android:attr/actionMenuTextAppearance">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="NormalText">
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="RepeatDaysTextView">
+        <item name="android:textSize">@dimen/alarm_set_alarm_preference_summary_size</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="RoundTouchButton">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/incall_round_button</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="SetAlarmItem">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/list_selector_background</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:minHeight">?android:listPreferredItemHeight</item>
+    </style>
+    <style name="SubHeaderLine">
+        <item name="android:background">?android:colorAccent</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1.0dip</item>
+    </style>
+    <style name="SubHeaderText">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?android:colorPrimary</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:paddingStart">@dimen/alarm_set_alarm_margin_start</item>
+    </style>
+    <style name="TabletAlarmTextLabel" parent="@style/TabletTextLabelBasic">
+        <item name="android:textColor">@color/alarm_list_color</item>
+    </style>
+    <style name="TabletAlarmWeekTextLabel" parent="@style/TabletAlarmTextLabel">
+        <item name="android:textSize">@dimen/alarm_list_labels_text_size</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="TabletTextLabelBasic">
+        <item name="android:textColor">@color/standard_black_text_color</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+    <style name="TabletWorldClockTextLabelCityAndDate" parent="@style/TabletTextLabelBasic">
+        <item name="android:textSize">@dimen/list_item_label_text_size</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+    <style name="TimePickerDialogTheme" parent="@android:style/Theme.DeviceDefault.Light.Dialog.Alert">
+        <item name="android:layoutDirection">locale</item>
+    </style>
+    <style name="WeatherIconItem">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingLeft">10.0dip</item>
+        <item name="android:paddingTop">5.0dip</item>
+        <item name="android:paddingRight">10.0dip</item>
+        <item name="android:paddingBottom">5.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="alarm_alert" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    <style name="alarm_list">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="alarm_list_left_column">
+        <item name="android:layout_width">40.0dip</item>
+        <item name="android:layout_height">64.0dip</item>
+    </style>
+    <style name="clock">
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+</resources>

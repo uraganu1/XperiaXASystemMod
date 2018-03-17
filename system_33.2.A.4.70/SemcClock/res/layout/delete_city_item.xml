@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="@dimen/world_clock_list_item_height" android:paddingStart="@dimen/lap_list_side_margin" android:paddingEnd="@dimen/lap_list_side_margin">
+        <include android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toStartOf="@id/city_select" android:layout_alignParentStart="true" layout="@layout/world_clock_item" />
+        <CheckedTextView android:gravity="center" android:id="@id/city_select" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="fill_parent" android:checkMark="?android:listChoiceIndicatorMultiple" android:paddingEnd="@dimen/list_item_side_margin_extra_space" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <ImageView android:id="@id/timer_divider" android:background="@drawable/divider_horizontal_dark_opaque" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

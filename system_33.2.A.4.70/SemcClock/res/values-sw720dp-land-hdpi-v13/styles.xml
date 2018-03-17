@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="OrganizerDefaultThemeActionBarTabStyle" parent="@android:style/Widget.DeviceDefault.Light.ActionBar.TabView">
+        <item name="android:gravity">center</item>
+        <item name="android:minWidth">103.0dip</item>
+    </style>
+</resources>

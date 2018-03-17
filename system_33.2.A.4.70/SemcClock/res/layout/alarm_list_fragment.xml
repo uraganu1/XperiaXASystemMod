@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/alarm_list_layout" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res/com.sonyericsson.organizer">
+    <com.sonyericsson.organizer.components.FadingListView android:scrollbarStyle="outsideOverlay" android:id="@id/alarms_list" android:paddingBottom="72.0dip" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="@dimen/alarm_list_margin_top" android:layout_marginBottom="@dimen/alarm_list_margin_bottom" android:divider="@null" app:fadeTop="true" />
+</LinearLayout>

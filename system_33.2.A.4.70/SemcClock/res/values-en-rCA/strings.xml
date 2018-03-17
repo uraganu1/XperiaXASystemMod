@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_weather_high_celcius">Highest temperature is %d degree Celcius.</string>
+    <string name="accessibility_weather_high_celcius_plural">Highest temperature is %d degrees Celcius.</string>
+    <string name="accessibility_weather_low_celcius">Lowest temperature is %d degree Celcius.</string>
+    <string name="accessibility_weather_low_celcius_plural">Lowest temperature is %d degrees Celcius.</string>
+    <string name="days">%s days</string>
+    <string name="duplicate_home_location">The city has already been set as home city</string>
+    <string name="hours">%s hours</string>
+    <string name="minutes">%s minutes</string>
+    <string name="permission_description">"To deny these access requests, please deselect the checkboxes.
+Weather forecast function may not work properly if you denied below access requests.
+Go to Clock -> World clock to change the setup later."</string>
+    <string name="seconds">%s seconds</string>
+    <string name="volume_button_dialog_title">Key behavior</string>
+    <string name="volume_button_setting_summary">Set desired behavior of the side keys when pressed during an alarm</string>
+    <string name="volume_button_setting_title">Side keys behavior</string>
+    <string name="weather_information_dialog_checkbox">"Don't show this dialog again"</string>
+    <string name="weather_information_dialog_text">Tapping on a weather icon will redirect you to %1$s where you can view the extended forecast for the day.</string>
+    <string name="world_clock_limit">World clock supports up to %d cities. To add more cities, please delete existing cities from the list.</string>
+</resources>
