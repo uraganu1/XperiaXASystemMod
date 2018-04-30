@@ -157,8 +157,8 @@ ktime_t max[NR_SET_V_F];
 #define PLL_SETTLE_TIME         (20)
 
 /* for DVFS OPP table LL/SB */
-#define CPU_DVFS_FREQ0_LL_SB    (1144000)	/* KHz */
-#define CPU_DVFS_FREQ1_LL_SB    (1014000)	/* KHz */
+#define CPU_DVFS_FREQ0_LL_SB    (1196000)	/* KHz */
+#define CPU_DVFS_FREQ1_LL_SB    (1144000)	/* KHz */
 #define CPU_DVFS_FREQ2_LL_SB    (871000)	/* KHz */
 #define CPU_DVFS_FREQ3_LL_SB    (689000)	/* KHz */
 #define CPU_DVFS_FREQ4_LL_SB    (598000)	/* KHz */
@@ -179,7 +179,7 @@ ktime_t max[NR_SET_V_F];
 /* for DVFS OPP table L/SB */
 #define CPU_DVFS_FREQ0_L_SB    (1950000)	/* KHz */
 #define CPU_DVFS_FREQ1_L_SB    (1755000)	/* KHz */
-#define CPU_DVFS_FREQ2_L_SB    (1573000)	/* KHz */
+#define CPU_DVFS_FREQ2_L_SB    (1495000)	/* KHz */
 #define CPU_DVFS_FREQ3_L_SB    (1196000)	/* KHz */
 #define CPU_DVFS_FREQ4_L_SB    (1027000)	/* KHz */
 #define CPU_DVFS_FREQ5_L_SB    (871000)		/* KHz */
@@ -567,7 +567,10 @@ unsigned int cpu_dvfs_get_max_freq(struct mt_cpu_dvfs *p)
 #ifdef CPU_FREQ_DEBUG
 			pr_info("cpufreq debug: cpu_dvfs_get_max_freq, forcing frequency to: %d\n", p->opp_tbl[3].cpufreq_khz);
 #endif
-			return p->opp_tbl[3].cpufreq_khz;
+			if( vlpowermode_switch == 1 )
+				return p->opp_tbl[3].cpufreq_khz;
+			else
+				return p->opp_tbl[2].cpufreq_khz;
 		}
 	}
 #ifdef CPU_FREQ_DEBUG
@@ -582,8 +585,15 @@ unsigned int my_cpu_dvfs_get_freq_by_idx(struct mt_cpu_dvfs *p, int idx)
 	id = (cpu_dvfs_is(p, MT_CPU_DVFS_LITTLE)) ? MT_CPU_DVFS_LITTLE : MT_CPU_DVFS_BIG;
 	if( lowpower_switch == 1 ) {
 		if( id == MT_CPU_DVFS_BIG ) {
-			if( idx < 3) {
-				idx = 3;
+			if( vlpowermode_switch == 1 ) {
+				if( idx < 3) {
+					idx = 3;
+				}
+			}
+			else {
+				if( idx < 2) {
+					idx = 2;
+				}
 			}
 #ifdef CPU_FREQ_DEBUG
 			pr_info("cpufreq debug: my_cpu_dvfs_get_freq_by_idx, returning freq: %d\n", p->opp_tbl[idx].cpufreq_khz);
@@ -680,8 +690,8 @@ static struct mt_cpu_freq_info opp_tbl_little_e1_0[] = {
 
 /* CPU LEVEL 1 of LL, SB segment */
 static struct mt_cpu_freq_info opp_tbl_little_e2_0[] = {
-	OP(CPU_DVFS_FREQ0_LL_SB, 108500),
-	OP(CPU_DVFS_FREQ1_LL_SB, 102500),
+	OP(CPU_DVFS_FREQ0_LL_SB, 109500),
+	OP(CPU_DVFS_FREQ1_LL_SB, 107500),
 	OP(CPU_DVFS_FREQ2_LL_SB, 97500),
 	OP(CPU_DVFS_FREQ3_LL_SB, 93700),
 	OP(CPU_DVFS_FREQ4_LL_SB, 87500),
@@ -706,7 +716,7 @@ static struct mt_cpu_freq_info opp_tbl_big_e1_0[] = {
 static struct mt_cpu_freq_info opp_tbl_big_e2_0[] = {
 	OP(CPU_DVFS_FREQ0_L_SB, 111250),
 	OP(CPU_DVFS_FREQ1_L_SB, 108500),
-	OP(CPU_DVFS_FREQ2_L_SB, 102500),
+	OP(CPU_DVFS_FREQ2_L_SB, 100000),
 	OP(CPU_DVFS_FREQ3_L_SB, 96875),
 	OP(CPU_DVFS_FREQ4_L_SB, 93700),
 	OP(CPU_DVFS_FREQ5_L_SB, 87500),
@@ -917,7 +927,10 @@ static int _restore_default_volt(struct mt_cpu_dvfs *p)
 		idx = 0;
 		if( lowpower_switch == 1 ) {
 			if( id == MT_CPU_DVFS_BIG ) {
-				idx = 3;
+				if( vlpowermode_switch == 1 )
+					idx = 3;
+				else
+					idx = 2;
 #ifdef CPU_FREQ_DEBUG
 				pr_info("pufreq debug: _restore_default_volt, forcing idx to: %d, id: %d\n", idx, id);
 #endif
@@ -928,8 +941,14 @@ static int _restore_default_volt(struct mt_cpu_dvfs *p)
 		idx = _search_available_freq_idx(p, freq, CPUFREQ_RELATION_L);
 		if( lowpower_switch == 1 ) {
 			if( id == MT_CPU_DVFS_BIG ) {
-				if( idx < 3 )
-					idx = 3;
+				if( vlpowermode_switch == 1 ) {
+					if( idx < 3 )
+						idx = 3;
+				}
+				else {
+					if( idx < 2 )
+						idx = 2;
+				}
 #ifdef CPU_FREQ_DEBUG
 				pr_info("pufreq debug: _restore_default_volt, forcing idx to: %d, id: %d\n", 3, id);
 #endif
@@ -1015,7 +1034,10 @@ int mt_cpufreq_update_volt(enum mt_cpu_dvfs_id id, unsigned int *volt_tbl, int n
 		idx = 0;
 		if( lowpower_switch == 1 ) {
 			if( id == MT_CPU_DVFS_BIG ) {
-				idx = 3;
+				if( vlpowermode_switch == 1 )
+					idx = 3;
+				else
+					idx = 2;
 #ifdef CPU_FREQ_DEBUG
 				pr_info("pufreq debug: mt_cpufreq_update_volt, forcing idx to: %d, id: %d\n", idx, id);
 #endif
@@ -1026,8 +1048,14 @@ int mt_cpufreq_update_volt(enum mt_cpu_dvfs_id id, unsigned int *volt_tbl, int n
 		idx = _search_available_freq_idx(p, freq, CPUFREQ_RELATION_L);
 		if( lowpower_switch == 1 ) {
 			if( id == MT_CPU_DVFS_BIG ) {
-				if( idx < 3 )
-					idx = 3;
+				if( vlpowermode_switch == 1 ) {
+					if( idx < 3 )
+						idx = 3;
+				}
+				else {
+					if( idx < 2 )
+						idx = 2;
+				}
 #ifdef CPU_FREQ_DEBUG
 				pr_info("pufreq debug: mt_cpufreq_update_volt, forcing idx to: %d, id: %d\n", idx, id);
 #endif
@@ -1579,8 +1607,15 @@ static int search_table_idx_by_freq(struct mt_cpu_dvfs *p, unsigned int freq)
 
 	if( lowpower_switch == 1 ) {
 		if( id == MT_CPU_DVFS_BIG ) {
-			if( idx < 3 ) {
-				idx = 3;
+			if( vlpowermode_switch == 1 ) {
+				if( idx < 3 ) {
+					idx = 3;
+				}
+			}
+			else {
+				if( idx < 2 ) {
+					idx = 2;
+				}
 			}
 #ifdef CPU_FREQ_DEBUG
 			pr_info("cpufreq debug, search_table_idx_by_freq id: %d, id: %d\n", idx, id);		
@@ -2792,11 +2827,22 @@ static void ppm_limit_callback(struct ppm_client_req req)
 			p->idx_opp_ppm_limit = ppm->cpu_limit[i].advise_cpufreq_idx;
 			if( lowpower_switch == 1) {
 				if( id == MT_CPU_DVFS_BIG ) {
-					if( p->idx_opp_ppm_limit < 3 ) {
-						limited_freq = true;
-						p->idx_opp_ppm_limit = 3;
-						if( p->idx_opp_ppm_base < 4 ) {
-							p->idx_opp_ppm_base = 4;
+					if( vlpowermode_switch == 1 ) {
+						if( p->idx_opp_ppm_limit < 3 ) {
+							limited_freq = true;
+							p->idx_opp_ppm_limit = 3;
+							if( p->idx_opp_ppm_base < 4 ) {
+								p->idx_opp_ppm_base = 4;
+							}
+						}
+					}
+					else {
+						if( p->idx_opp_ppm_limit < 2 ) {
+							limited_freq = true;
+							p->idx_opp_ppm_limit = 2;
+							if( p->idx_opp_ppm_base < 3 ) {
+								p->idx_opp_ppm_base = 3;
+							}
 						}
 					}
 				}
@@ -2816,11 +2862,22 @@ static void ppm_limit_callback(struct ppm_client_req req)
 			p->idx_opp_ppm_limit = ppm->cpu_limit[i].max_cpufreq_idx;	/* ppm update limit */
 			if(  lowpower_switch == 1 ) {
 				if( id == MT_CPU_DVFS_BIG ) {
-					if( p->idx_opp_ppm_limit < 3 ) {
-						limited_freq = true;
-						p->idx_opp_ppm_limit = 3;
-						if( p->idx_opp_ppm_base < 4 ) {
-							p->idx_opp_ppm_base = 4;
+					if( vlpowermode_switch == 1 ) {
+						if( p->idx_opp_ppm_limit < 3 ) {
+							limited_freq = true;
+							p->idx_opp_ppm_limit = 3;
+							if( p->idx_opp_ppm_base < 4 ) {
+								p->idx_opp_ppm_base = 4;
+							}
+						}
+					}
+					else {
+						if( p->idx_opp_ppm_limit < 2 ) {
+							limited_freq = true;
+							p->idx_opp_ppm_limit = 2;
+							if( p->idx_opp_ppm_base < 3 ) {
+								p->idx_opp_ppm_base = 3;
+							}
 						}
 					}
 				}

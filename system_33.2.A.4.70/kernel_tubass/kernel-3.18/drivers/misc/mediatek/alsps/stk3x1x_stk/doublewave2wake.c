@@ -30,7 +30,9 @@
 #include <linux/input.h>
 #include <linux/hrtimer.h>
 #include <linux/syscalls.h>
+#include <linux/wakelock.h>
 #include <asm-generic/cputime.h>
+#include <linux/string.h>
 #include "doublewave2wake.h"
 #include <../../vibrator/vibrator_drv.h>
 #include "stk3x1x.h"
@@ -51,14 +53,15 @@ MODULE_VERSION(DRIVER_VERSION);
 MODULE_LICENSE("GPLv2");
 
 /* Tuneables */
-#define DW2W_DEBUG				0
 #define DW2W_DEFAULT			1
+#define DW2W_ENABLE_TRIES		32
+#define DW2W_ENABLE_MS			640
 
 #define DW2W_PWRKEY_DUR		60
 #define DW2W_TIME				1280
 #define DW2W_TIME_W			400
-#define DW2W_VIBRATOR_WAVE	16
-#define DW2W_VIBRATOR_WAKE	32
+#define DW2W_VIBRATOR_WAVE	9
+#define DW2W_VIBRATOR_WAKE	24
 
 /* Resources */
 int dw2w_switch = DW2W_DEFAULT;
@@ -69,13 +72,18 @@ static bool wave_cnt = false;
 static bool exec_count = true;
 bool dw2w_scr_suspended = false;
 bool dw2w_prx_enabled = false;
+static int dw2w_enabler_counter = DW2W_ENABLE_TRIES;
 
 static struct input_dev * doublewave2wake_pwrdev;
 
 static DEFINE_MUTEX(pwrkeyworklock);
+static DEFINE_MUTEX(dw2wenabler);
 
 static struct workqueue_struct *dw2w_input_wq;
 static struct work_struct dw2w_input_work;
+static struct delayed_work dw2w_enabler_work;
+
+struct wake_lock w_lock;
 
 #if DW2W_DEBUG
 struct debug_node;
@@ -83,11 +91,61 @@ struct debug_node;
 static struct debug_node *head = NULL;
 
 struct debug_node {
-	char *dev_name;
-	bool registered;
+	char *log_entry;
 	struct debug_node *next;
 };
+
+static int nr_entries = 0;
+
+void dw2w_log(const char *entry)
+{
+	struct debug_node *n;
+	struct debug_node *cn;
+
+	if( entry != NULL ) {
+		if( head == NULL ) {
+			head = kzalloc(sizeof(struct debug_node), GFP_KERNEL);
+			head->log_entry = kzalloc(sizeof(char)*strlen(entry)+1, GFP_KERNEL);
+			head->next = NULL;
+			memcpy(head->log_entry, entry, strlen(entry));
+			head->log_entry[strlen(entry)] = 0;
+			nr_entries++;
+		}
+		else if( nr_entries < 512 ) {
+			cn = head;
+			while( cn->next != NULL ) {
+				cn = cn->next;
+			}
+			n = kzalloc(sizeof(struct debug_node), GFP_KERNEL);
+			n->log_entry = kzalloc(sizeof(char)*strlen(entry)+1, GFP_KERNEL);
+			n->next = NULL;
+			memcpy(n->log_entry, entry, strlen(entry));
+			n->log_entry[strlen(entry)] = 0;
+			cn->next = n;
+			nr_entries++;
+		}
+		else {
+			n = head;
+			cn = head->next;
+			kfree(head->log_entry);
+			kfree(head);
+			head = cn;
+			cn = head;
+			while( cn->next != NULL ) {
+				cn = cn->next;
+			}
+			n = kzalloc(sizeof(struct debug_node), GFP_KERNEL);
+			n->log_entry = kzalloc(sizeof(char)*strlen(entry)+1, GFP_KERNEL);
+			n->next = NULL;
+			memcpy(n->log_entry, entry, strlen(entry));
+			n->log_entry[strlen(entry)] = 0;
+			cn->next = n;
+		}
+	}
+}
 #endif
+
+
 
 /* Read cmdline for dt2w */
 static int __init read_dw2w_cmdline(char *dw2w)
@@ -108,9 +166,6 @@ __setup("dw2w=", read_dw2w_cmdline);
 /* reset on finger release */
 static void doublewave2wake_reset(void) {
 
-#if DW2W_DEBUG
-	pr_info("doublewave2wake, entering %s\n", __func__);
-#endif
 	exec_count = true;
 	wave_nr = 0;
 	wave_time_pre.tv_sec = 0;
@@ -137,6 +192,48 @@ static void doublewave2wake_presspwr(struct work_struct * doublewave2wake_pressp
 
 static DECLARE_WORK(doublewave2wake_presspwr_work, doublewave2wake_presspwr);
 
+void doublewave2wake_enabler(struct work_struct *unused) {
+
+	bool err = false;
+	if (!mutex_trylock(&dw2wenabler))
+                return;
+
+#if DW2W_DEBUG
+	dw2w_log("entering doublewave2wake_enabler");
+#endif
+
+	dw2w_enabler_counter--;
+	if( dw2w_enabler_counter > 0 ) {
+		dw2w_prx_enabled = stk3x1x_store_psenable_exported(true, &err);
+#if DW2W_DEBUG
+		if( dw2w_prx_enabled ) {
+			if( err ) {
+				dw2w_log("doublewave2wake_enabler, dw2w_prx_enabled=1, err=1");
+			}
+			else {
+				dw2w_log("doublewave2wake_enabler, dw2w_prx_enabled=1, err=0");
+			}
+		}
+		else {
+			if( err ) {
+				dw2w_log("doublewave2wake_enabler, dw2w_prx_enabled=0, err=1");
+			}
+			else {
+				dw2w_log("doublewave2wake_enabler, dw2w_prx_enabled=0, err=0");
+			}
+		}
+#endif
+		if(  !dw2w_prx_enabled && !err ) {
+			wake_lock_timeout(&w_lock, 1*HZ);
+			schedule_delayed_work(&dw2w_enabler_work, msecs_to_jiffies(DW2W_ENABLE_MS));
+		}
+	}
+#if DW2W_DEBUG
+	dw2w_log("exiting doublewave2wake_enabler");
+#endif
+	mutex_unlock(&dw2wenabler);
+}
+
 /* PowerKey trigger */
 static void doublewave2wake_pwrtrigger(void) {
 
@@ -147,9 +244,6 @@ static void doublewave2wake_pwrtrigger(void) {
 /* init a new wave */
 static void new_wave(void) {
 
-#if DW2W_DEBUG
-	pr_info("doublewave2wake, entering %s\n", __func__);
-#endif
 	do_gettimeofday(&wave_time_pre);
 	wave_nr++;
 	vibrator_enable_ms(DW2W_VIBRATOR_WAVE);
@@ -157,9 +251,6 @@ static void new_wave(void) {
 
 static void new_wave_w(void) {
 
-#if DW2W_DEBUG
-	pr_info("doublewave2wake, entering %s\n", __func__);
-#endif
 	do_gettimeofday(&wave_time_w);
 }
 
@@ -184,9 +275,6 @@ static void detect_doublewave2wake(bool st)
 {
 
         bool single_wave = st;
-#if DW2W_DEBUG
-        pr_info(LOGTAG"single:%s\n", (single_wave) ? "true" : "false");
-#endif
 	if ((single_wave) && (dw2w_switch > 0) && (exec_count) && (wave_cnt)) {
 		wave_cnt = false;
 		if (wave_nr == 0) {
@@ -221,9 +309,27 @@ static void dw2w_input_callback(struct work_struct *unused) {
 static void dw2w_input_event(struct input_handle *handle, unsigned int type, unsigned int code, int value) {
 	
 #if DW2W_DEBUG
-	pr_info("doublewave2wake: type: %d, code: %s|%u, val: %i\n", type, ((code==ABS_DISTANCE) ? "D" :"undef"), code, value);
+	char *l = kzalloc(sizeof(char)*256, GFP_KERNEL);
+	if( l != NULL ) {
+		if( dw2w_scr_suspended ) {
+			snprintf(l, 255, "dw2w_input_event, type: %d, code: %d, value: %d, dw2w_scr_suspended=1", type, code, value);
+		}
+		else {
+			snprintf(l, 255, "dw2w_input_event, type: %d, code: %d, value: %d, dw2w_scr_suspended=0", type, code, value);
+		}
+		dw2w_log(l);
+		kfree(l);
+	}
+	else {
+		if( dw2w_scr_suspended ) {
+			dw2w_log("entering dw2w_input_event, dw2w_scr_suspended=1");
+		}
+		else {
+			dw2w_log("entering dw2w_input_event, dw2w_scr_suspended=0");
+		}
+	}
 #endif
-	if (!dw2w_scr_suspended)
+	if ( !dw2w_scr_suspended || !dw2w_prx_enabled )
 		return;
 
 	if ( (type != 0x02)  || (code != 0x02) ) {
@@ -247,42 +353,7 @@ static void dw2w_input_event(struct input_handle *handle, unsigned int type, uns
 
 static int input_dev_filter(struct input_dev *dev) {
 
-#if DW2W_DEBUG
-	struct debug_node *n;
-	struct debug_node *cn;
-
-	n = NULL;
-	pr_info("doublewave2wake, dev_filter hit: %s\n", dev->name);
-
-	if( head == NULL ) {
-		head = kzalloc(sizeof(struct debug_node), GFP_KERNEL);
-		head->next = NULL;
-		head->dev_name = kzalloc(sizeof(char)*strlen(dev->name)+1, GFP_KERNEL);
-		head->registered = false;
-		strncpy(head->dev_name, dev->name, strlen(dev->name));
-		head->dev_name[strlen(dev->name)] = 0;
-		n = head;
-	}
-	else {
-		n = kzalloc(sizeof(struct debug_node), GFP_KERNEL);
-		n->next = NULL;
-		n->dev_name = kzalloc(sizeof(char)*strlen(dev->name)+1, GFP_KERNEL);
-		strncpy(n->dev_name, dev->name, strlen(dev->name));
-		n->dev_name[strlen(dev->name)] = 0;
-		cn = head;
-		while( cn->next != NULL ) {
-			cn = cn->next;
-		}
-		cn->next = n;
-	}
-	
-#endif
 	if ( strstr(dev->name, "m_alsps_input") ) {
-#if DW2W_DEBUG
-		if( n != NULL ) {
-			n->registered = true;
-		}
-#endif
 		return 0;
 	} else {
 		return 1;
@@ -293,10 +364,6 @@ static int dw2w_input_connect(struct input_handler *handler, struct input_dev *d
 	
 	struct input_handle *handle;
 	int error;
-
-#if DW2W_DEBUG
-	pr_info("doublewave2wake: dw2w_input_connect\n");
-#endif
 
 	if (input_dev_filter(dev))
 		return -ENODEV;
@@ -347,24 +414,61 @@ static struct input_handler dw2w_input_handler = {
 #ifdef CONFIG_POWERSUSPEND
 static void dw2w_early_suspend(struct power_suspend *h)
 {
+#if DW2W_DEBUG
 	if( dw2w_switch ) {
-		dw2w_prx_enabled = stk3x1x_store_psenable_exported(true);
+		dw2w_log("entering dw2w_early_suspend, dw2w_switch is on");
+	}
+	else {
+		dw2w_log("entering dw2w_early_suspend, dw2w_switch is off");
+	}
+#endif
+	if( dw2w_switch ) {
+		bool err = false;
+		dw2w_prx_enabled = stk3x1x_store_psenable_exported(true, &err);
+#if DW2W_DEBUG
+		if( dw2w_prx_enabled ) {
+			if( err ) {
+				dw2w_log("dw2w_early_suspend, dw2w_prx_enabled=1, err=1");
+			}
+			else {
+				dw2w_log("dw2w_early_suspend, dw2w_prx_enabled=1, err=0");
+			}
+		}
+		else {
+			if( err ) {
+				dw2w_log("dw2w_early_suspend, dw2w_prx_enabled=0, err=1");
+			}
+			else {
+				dw2w_log("dw2w_early_suspend, dw2w_prx_enabled=0, err=0");
+			}
+		}
+#endif
+		if(  !dw2w_prx_enabled && !err ) {
+			wake_lock_timeout(&w_lock, 1*HZ);
+			schedule_delayed_work(&dw2w_enabler_work, msecs_to_jiffies(DW2W_ENABLE_MS));
+		}
 	}
 	dw2w_scr_suspended = true;
-#if DW2W_DEBUG
-	pr_info("doublewave2wake: dw2w_early_suspend, dw2w_switch: %d, dw2w_prx_enabled: %d\n", dw2w_switch, dw2w_prx_enabled);
-#endif
-
 }
 
 static void dw2w_late_resume(struct power_suspend *h)
 {
-#if DW2W_DEBUG
-	pr_info("doublewave2wake: dw2w_late_resume, dw2w_switch: %d, dw2w_prx_enabled: %d\n", dw2w_switch, dw2w_prx_enabled);
-#endif
+	bool err = false;
 	dw2w_scr_suspended = false;
+
+#if DW2W_DEBUG
+		if( dw2w_prx_enabled ) {
+			dw2w_log("dw2w_late_resume, dw2w_prx_enabled is true");
+		}
+		else {
+			dw2w_log("dw2w_late_resume, dw2w_prx_enabled is false");
+		}
+#endif
+
+	cancel_delayed_work_sync(&dw2w_enabler_work);
+	dw2w_enabler_counter = DW2W_ENABLE_TRIES;
 	if( dw2w_prx_enabled ) {
-		stk3x1x_store_psenable_exported(false);
+		stk3x1x_store_psenable_exported(false, &err);
 	}
 	dw2w_prx_enabled = false;
 }
@@ -388,21 +492,9 @@ static ssize_t dw2w_doublewave2wake_show(struct device *dev, struct device_attri
 
 static ssize_t dw2w_doublewave2wake_dump(struct device *dev, struct device_attribute *attr, const char *buf, size_t count)
 {
-#if DW2W_DEBUG
-	struct debug_node *n;
-#endif
-
 	if (buf[0] >= '0' && buf[0] <= '2' && buf[1] == '\n')
                 if (dw2w_switch != buf[0] - '0')
 		        dw2w_switch = buf[0] - '0';
-				
-#if DW2W_DEBUG
-	n = head;
-	while( n != NULL ) {
-		pr_info("doublewave2wake: - found input device: %s, registered: %d\n", n->dev_name, n->registered);
-		n = n->next;
-	}
-#endif
 
 	return count;
 }
@@ -423,6 +515,34 @@ static ssize_t dw2w_version_dump(struct device *dev, struct device_attribute *at
 }
 
 static DEVICE_ATTR(doublewave2wake_version, (S_IWUSR|S_IRUGO), dw2w_version_show, dw2w_version_dump);
+
+#if DW2W_DEBUG
+static ssize_t dw2w_debug_show(struct device *dev, struct device_attribute *attr, char *buf)
+{
+	size_t count = 0;
+	int dbg = 0;
+	count += sprintf(buf, "%d\n", dbg);
+	return count;
+}
+
+static ssize_t dw2w_debug_dump(struct device *dev, struct device_attribute *attr, const char *buf, size_t count)
+{
+	struct debug_node *n = head;
+	int dbg_record = 0;
+	
+	if( buf[0] >= '1' && buf[1] == '\n') {
+		while( n != NULL ) {
+			pr_info("dw2w_debug, record: %d is: %s\n", dbg_record, n->log_entry);
+			n = n->next;
+		}
+	}
+
+	return count;
+}
+
+static DEVICE_ATTR(doublewave2wake_debug, (S_IWUSR|S_IRUGO), dw2w_debug_show, dw2w_debug_dump);
+#endif
+
 
 /*
  * INIT / EXIT stuff below here
@@ -461,7 +581,11 @@ static int __init doublewave2wake_init(void)
 		pr_err("%s: Failed to create dw2wiwq workqueue\n", __func__);
 		return -EFAULT;
 	}
+	
 	INIT_WORK(&dw2w_input_work, dw2w_input_callback);
+	INIT_DELAYED_WORK(&dw2w_enabler_work, doublewave2wake_enabler);
+	wake_lock_init(&w_lock, WAKE_LOCK_SUSPEND, "dw2w_weak_lock");
+	
 	rc = input_register_handler(&dw2w_input_handler);
 	if (rc)
 		pr_err("%s: Failed to register dt2w_input_handler\n", __func__);
@@ -482,11 +606,21 @@ static int __init doublewave2wake_init(void)
 	if (rc) {
 		pr_warn("%s: sysfs_create_file failed for doublewave2wake_version\n", __func__);
 	}
+#if DW2W_DEBUG
+	rc = sysfs_create_file(android_touch_kobj, &dev_attr_doublewave2wake_debug.attr);
+	if (rc) {
+		pr_warn("%s: sysfs_create_file failed for doublewave2wake_debug\n", __func__);
+	}
+#endif
 
 err_input_dev:
 	input_free_device(doublewave2wake_pwrdev);
 err_alloc_dev:
 	pr_info(LOGTAG"%s done\n", __func__);
+
+#if DW2W_DEBUG
+	dw2w_log("doublewave2wake_init completed");
+#endif
 
 	return 0;
 }

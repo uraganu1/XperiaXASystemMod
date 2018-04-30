@@ -21,8 +21,12 @@
 #ifndef _LINUX_DOUBLEWAVE2WAKE_H
 #define _LINUX_DOUBLEWAVE2WAKE_H
 
+#define DW2W_DEBUG				0
+
 extern bool dw2w_scr_suspended;
 extern int dw2w_switch;
 extern bool dw2w_prx_enabled;
+
+extern void dw2w_log(const char *entry);
 
 #endif	/* _LINUX_DOUBLEWAVE2WAKE_H */

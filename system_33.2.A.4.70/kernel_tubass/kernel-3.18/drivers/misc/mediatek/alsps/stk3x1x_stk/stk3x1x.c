@@ -172,6 +172,8 @@ int FIRST_BOOT_L_THD = 0;
 #define STK_IRC_ALS_NUMERA		5
 #define STK_IRC_ALS_CORREC		748
 
+static DEFINE_MUTEX(pslock);
+
 /*----------------------------------------------------------------------------*/
 static struct i2c_client *stk3x1x_i2c_client = NULL;
 /*----------------------------------------------------------------------------*/
@@ -3311,6 +3313,8 @@ static ssize_t stk3x1x_store_psenable(struct device_driver *ddri, const char *bu
 {
 	uint8_t en=0;
 	int err=0;
+
+	mutex_lock(&pslock);
 	
 	if (*buf==49)//sysfs_streq(buf, 49))
 	{
@@ -3328,32 +3332,68 @@ static ssize_t stk3x1x_store_psenable(struct device_driver *ddri, const char *bu
 	//	return -EINVAL;
 	}
     	printk(KERN_INFO "%s: Enable PS : %d\n", __func__, en);
-	err = stk3x1x_enable_ps(stk3x1x_obj->client, en);
-   	if(err)
-	{
-		APS_ERR("enable ps fail: %d\n", err); 
-		return -1;
+
+#if DW2W_DEBUG
+	if( en == 1 ) {
+		dw2w_log("entering stk3x1x_store_psenable, enable=1");
 	}
-	else
-	{
-		if( en == 1 ) {
+	else {
+		dw2w_log("entering stk3x1x_store_psenable, enable=0");
+	}
+#endif
+		
+	if( en == 1 ) {
+		if( dw2w_prx_enabled ) {
 			dw2w_prx_enabled = false;
 		}
+		else {
+			err = stk3x1x_enable_ps(stk3x1x_obj->client, en);
+		}
+	}
+	else if( dw2w_switch ) {
+		dw2w_prx_enabled = true;
+	}
+	else {
+		err = stk3x1x_enable_ps(stk3x1x_obj->client, en);
+	}
+   	if(err)
+	{
+		APS_ERR("enable ps fail: %d\n", err);
+		mutex_unlock(&pslock);
+		return -1;
 	}
 
 	set_bit(STK_BIT_PS, &stk3x1x_obj->enable);
    // mutex_unlock(&ps_data->io_lock);
 //    err = snprintf(buf, PAGE_SIZE, "done\n");
 
-    return count;
+	mutex_unlock(&pslock);
+	return count;
 }
 
-bool stk3x1x_store_psenable_exported(bool enable)
+bool stk3x1x_store_psenable_exported(bool enable, bool *error)
 {
 	uint8_t en = 0;
 	int err=0;
 	bool ps_enabled = false;
 	struct stk3x1x_priv *obj = i2c_get_clientdata(stk3x1x_obj->client);
+
+#if DW2W_DEBUG
+	if( enable ) {
+		dw2w_log("entering stk3x1x_store_psenable_exported, enable=1");
+	}
+	else {
+		dw2w_log("entering stk3x1x_store_psenable_exported, enable=0");
+	}
+#endif
+	
+	if (!mutex_trylock(&pslock)) {
+		*error = true;
+#if DW2W_DEBUG
+		dw2w_log("stk3x1x_store_psenable_exported, cannot aquire mutex");
+#endif
+                return false;
+	}
 	
 	if( enable ) {
 		en = 1;
@@ -3361,29 +3401,47 @@ bool stk3x1x_store_psenable_exported(bool enable)
 
 	ps_enabled = (atomic_read(&obj->state_val) & STK_STATE_EN_PS_MASK) ? true : false;
 
+#if DW2W_DEBUG
+	if( ps_enabled ) {
+		dw2w_log("stk3x1x_store_psenable_exported, ps_enabled=1");
+	}
+	else {
+		dw2w_log("stk3x1x_store_psenable_exported, ps_enabled=0");
+	}
+#endif
+
 	if( enable ) {
 		if( !ps_enabled ) {
 			err = stk3x1x_enable_ps(stk3x1x_obj->client, en);
 			if( !err ) {
 				set_bit(STK_BIT_PS, &stk3x1x_obj->enable);
 			}
+			else {
+				// will try again to set it up
+				*error = true;
+			}
 		}
 		else {
 			// if it was enabled by something else then the suspend power then
 			// leave it be, that something else is responsible with the shutting down
 			// the sensor
+#if DW2W_DEBUG
+			dw2w_log("stk3x1x_store_psenable_exported, ps enabled by someone else");
+#endif
+			mutex_unlock(&pslock);
 			return false;
 		}
 	}
 	else {
 		if( ps_enabled ) {
+#if DW2W_DEBUG
+			dw2w_log("stk3x1x_store_psenable_exported, disabling ps");
+#endif
 			err = stk3x1x_enable_ps(stk3x1x_obj->client, en);
-			if( !err ) {
-				clear_bit(STK_BIT_PS, &stk3x1x_obj->enable);
-			}
 		}
 	}
 	ps_enabled = (atomic_read(&obj->state_val) & STK_STATE_EN_PS_MASK) ? true : false;
+	mutex_unlock(&pslock);
 	return ps_enabled;
 }
 
