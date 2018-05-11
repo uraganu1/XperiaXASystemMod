@@ -3350,7 +3350,7 @@ static ssize_t stk3x1x_store_psenable(struct device_driver *ddri, const char *bu
 			err = stk3x1x_enable_ps(stk3x1x_obj->client, en);
 		}
 	}
-	else if( dw2w_switch ) {
+	else if( dw2w_switch && dw2w_scr_suspended ) {
 		dw2w_prx_enabled = true;
 	}
 	else {
